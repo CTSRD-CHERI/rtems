@@ -31,8 +31,8 @@
 
 #if RISCV_ENABLE_HTIF_SUPPORT != 0
 
+#include <bsp/irq-generic.h>
 #include <dev/serial/htif.h>
-
 #include <assert.h>
 
 /* Most of the code below is copied from riscv-pk project */
@@ -43,10 +43,14 @@
 #define FROMHOST_CMD(fromhost_value) ((uint64_t)(fromhost_value) << 8 >> 56)
 #define FROMHOST_DATA(fromhost_value) ((uint64_t)(fromhost_value) << 16 >> 16)
 
+#define SYS_write 64
+
 volatile uint64_t tohost __attribute__((section(".htif")));
 volatile uint64_t fromhost __attribute__((section(".htif")));
 volatile uint64_t riscv_fill_up_htif_section[510] __attribute__((section(".htif")));
 volatile int htif_console_buf;
+
+RTEMS_INTERRUPT_LOCK_DEFINE( static, htif_lock, "htif_lock");
 
 static void __check_fromhost(void)
 {
@@ -77,21 +81,64 @@ static void __set_tohost(uintptr_t dev, uintptr_t cmd, uintptr_t data)
   tohost = TOHOST_CMD(dev, cmd, data);
 }
 
+static void do_tohost_fromhost(uintptr_t dev, uintptr_t cmd, uintptr_t data)
+{
+  rtems_interrupt_lock_context htif_lock_context;
+
+  rtems_interrupt_lock_acquire(&htif_lock, &htif_lock_context);
+  __set_tohost(dev, cmd, data);
+
+    while (1) {
+      uint64_t fh = fromhost;
+      if (fh) {
+        if (FROMHOST_DEV(fh) == dev && FROMHOST_CMD(fh) == cmd) {
+          fromhost = 0;
+          break;
+        }
+        __check_fromhost();
+      }
+    }
+  rtems_interrupt_lock_release(&htif_lock, &htif_lock_context);
+}
+
+void htif_syscall(uintptr_t arg)
+{
+  do_tohost_fromhost(0, 0, arg);
+}
+
+void htif_console_putchar(rtems_termios_device_context *base, char ch)
+{
+#if __riscv_xlen == 32
+  // HTIF devices are not supported on RV32, so proxy a write system call
+  volatile uint64_t magic_mem[8];
+  magic_mem[0] = SYS_write;
+  magic_mem[1] = 1;
+  magic_mem[2] = (uintptr_t)&ch;
+  magic_mem[3] = 1;
+  do_tohost_fromhost(0, 0, (uintptr_t)magic_mem);
+#else
+  rtems_interrupt_lock_context htif_lock_context;
+
+  rtems_interrupt_lock_acquire(&htif_lock, &htif_lock_context);
+  __set_tohost(1, 1, ch);
+  rtems_interrupt_lock_release(&htif_lock, &htif_lock_context);
+#endif
+}
+
 int htif_console_getchar(rtems_termios_device_context *base)
 {
+  rtems_interrupt_lock_context htif_lock_context;
+
+  rtems_interrupt_lock_acquire(&htif_lock, &htif_lock_context);
   __check_fromhost();
   int ch = htif_console_buf;
   if (ch >= 0) {
     htif_console_buf = -1;
     __set_tohost(1, 0, 0);
   }
+  rtems_interrupt_lock_release(&htif_lock, &htif_lock_context);
 
   return ch - 1;
-}
-
-void htif_console_putchar(rtems_termios_device_context *base, char c)
-{
-  __set_tohost(1, 1, c);
 }
 
 static void htif_console_write_polled(

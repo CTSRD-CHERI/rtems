@@ -1,0 +1,28 @@
+active: true
+build-type: test-program
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by: []
+features: c cprogram
+header: ''
+includes: []
+ldflags: []
+level: '1.141'
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: null
+source:
+- testsuites/libtests/top/init.c
+- testsuites/libtests/top/task1.c
+- testsuites/libtests/top/task2.c
+- testsuites/libtests/top/task3.c
+stlib: []
+target: testsuites/libtests/top.exe
+text: ''
+type: build
+use-before: []
+use-after: []

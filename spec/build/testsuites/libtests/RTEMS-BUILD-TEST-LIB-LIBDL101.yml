@@ -1,0 +1,24 @@
+active: true
+active: true
+build-type: library
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by: []
+header: ''
+includes: []
+install: []
+install-path: null
+level: '1.74'
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: null
+source:
+- testsuites/libtests/dl10-o2.c
+- testsuites/libtests/dl10-o4.c
+target: dl10_1
+text: ''
+type: build

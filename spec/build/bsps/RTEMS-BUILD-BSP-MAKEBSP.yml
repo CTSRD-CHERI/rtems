@@ -1,0 +1,47 @@
+active: true
+build-type: config-file
+content: |
+  ## BSP configuration flags for BSP "${ARCH}/${BSP_NAME}"
+
+  ##
+  ## Does this BSP support multiprocessing ?
+  ##
+  HAS_MP = ${RTEMS_HAS_MULTIPROCESSING}
+
+  ##
+  ## Does this BSP support RTEMS's remote debugger ?
+  ##
+  HAS_RDBG = no
+
+  ##
+  ## Does this BSP support RTEMS's posix API ?
+  ##
+  HAS_POSIX_API = ${RTEMS_HAS_POSIX_API}
+
+  ##
+  ## Does this BSP support RTEMS's ITRON API ?
+  ##
+  HAS_ITRON_API = no
+
+  ##
+  ## Does this BSP support RTEMS's CXX API ?
+  ##
+  HAS_CPLUSPLUS = yes
+
+  ##
+  ## Does this BSP support RTEMS's networking ?
+  ##
+  HAS_NETWORKING = ${RTEMS_HAS_NETWORKING}
+derived: false
+install-path: ${PREFIX}/${ARCH}-rtems${__RTEMS_MAJOR__}/${BSP_NAME}/make
+enabled-by: []
+header: ''
+level: 1.3
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: null
+target: bsp.cfg
+text: ''
+type: build

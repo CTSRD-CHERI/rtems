@@ -1,0 +1,26 @@
+active: true
+build-type: test-program
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by: []
+features: c cprogram
+header: ''
+includes: []
+ldflags: []
+level: '1.4'
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: null
+source:
+- testsuites/tmtests/tm03/task1.c
+- testsuites/support/src/tmtests_empty_function.c
+stlib: []
+target: testsuites/tmtests/tm03.exe
+text: ''
+type: build
+use-before: []
+use-after: []

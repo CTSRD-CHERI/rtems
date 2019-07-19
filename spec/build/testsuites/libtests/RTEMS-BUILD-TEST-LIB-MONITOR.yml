@@ -1,0 +1,25 @@
+active: true
+build-type: test-program
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by: []
+features: c cprogram
+header: ''
+includes: []
+ldflags: []
+level: '1.90'
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: null
+source:
+- testsuites/libtests/monitor/init.c
+stlib: []
+target: testsuites/libtests/monitor.exe
+text: ''
+type: build
+use-before: []
+use-after: []

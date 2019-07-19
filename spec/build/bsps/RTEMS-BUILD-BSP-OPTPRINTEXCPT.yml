@@ -1,0 +1,22 @@
+actions:
+- get-integer: null
+- define: null
+active: true
+build-type: option
+default: 1
+default-by-variant: []
+derived: false
+format: '{}'
+enabled-by: []
+header: ''
+level: 1.3
+links: []
+name: BSP_PRINT_EXCEPTION_CONTEXT
+normative: true
+order: 0
+ref: ''
+reviewed: IO9y2aPswCo6YTuCfOj4pHAk98xbI08IcoZBlwanHxg=
+text: |
+  If defined to a non-zero value, prints the exception context when an
+  unexpected exception occurs.
+type: build

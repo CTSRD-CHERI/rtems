@@ -1,0 +1,29 @@
+active: true
+build-type: test-program
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by:
+- BUILD_LIBDL
+features: c cprogram
+header: ''
+includes:
+- cpukit/libdl
+ldflags: []
+level: '1.2'
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: null
+source:
+- testsuites/libtests/dl03/dl-bit-alloc.c
+- testsuites/libtests/dl03/dl-cache.c
+- testsuites/libtests/dl03/init.c
+stlib: []
+target: testsuites/libtests/dl03.exe
+text: ''
+type: build
+use-before: []
+use-after: []

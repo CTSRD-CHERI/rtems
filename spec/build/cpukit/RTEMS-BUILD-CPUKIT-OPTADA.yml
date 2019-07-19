@@ -1,0 +1,21 @@
+actions:
+- get-boolean: null
+- env-enable: null
+- define-condition: null
+active: true
+build-type: option
+default-by-variant: []
+default: false
+derived: false
+enabled-by: []
+header: ''
+level: 1.28
+links: []
+name: __RTEMS_ADA__
+normative: true
+order: 0
+ref: ''
+reviewed: dAX7df84XmdhS8-PnyUmY4Hs0SSuJwOb71D-zhpfGaA=
+text: |
+  Enable the Ada support
+type: build

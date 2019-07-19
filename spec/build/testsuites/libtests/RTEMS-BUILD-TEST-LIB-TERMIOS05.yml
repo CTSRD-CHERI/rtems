@@ -1,0 +1,26 @@
+active: true
+build-type: test-program
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by: []
+features: c cprogram
+header: ''
+includes: []
+ldflags: []
+level: '1.134'
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: null
+source:
+- testsuites/libtests/termios05/init.c
+- testsuites/libtests/termios05/termios_testdriver_task.c
+stlib: []
+target: testsuites/libtests/termios05.exe
+text: ''
+type: build
+use-before: []
+use-after: []

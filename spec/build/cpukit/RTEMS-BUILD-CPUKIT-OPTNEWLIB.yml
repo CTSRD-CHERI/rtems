@@ -1,0 +1,21 @@
+actions:
+- get-boolean: null
+- env-enable: null
+- define-condition: null
+active: true
+build-type: option
+default-by-variant: []
+default: true
+derived: false
+enabled-by: []
+header: ''
+level: 1.22
+links: []
+name: RTEMS_NEWLIB
+normative: true
+order: 0
+ref: ''
+reviewed: R8d04Iiw2qf1SaXLuJbe1W0kZJpUx8YsVrvbVu8wV4w=
+text: |
+  Enable the Newlib C library support
+type: build

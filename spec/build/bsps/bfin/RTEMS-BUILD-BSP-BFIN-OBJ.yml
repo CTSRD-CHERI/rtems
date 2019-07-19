@@ -1,0 +1,27 @@
+active: true
+build-type: objects
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by: []
+header: ''
+includes: []
+install: []
+level: 1.0
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: null
+source:
+- bsps/bfin/shared/mmu.c
+- bsps/bfin/shared/dev/clock.c
+- bsps/bfin/shared/dev/rtc.c
+- bsps/bfin/shared/dev/spi.c
+- bsps/bfin/shared/dev/sport.c
+- bsps/bfin/shared/dev/timer.c
+- bsps/bfin/shared/dev/twi.c
+- bsps/bfin/shared/dev/uart.c
+text: ''
+type: build

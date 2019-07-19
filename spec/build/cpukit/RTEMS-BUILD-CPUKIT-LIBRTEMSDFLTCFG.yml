@@ -1,0 +1,22 @@
+active: true
+build-type: library
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by: []
+header: ''
+includes: []
+install: []
+install-path: ${BSP_LIBDIR}
+level: 1.7
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: 7QQX1d3H1cUW8zCgDtNsA9Isc0_fL5-5TijmJnde6QA=
+source:
+- cpukit/libmisc/dummy/default-configuration.c
+target: rtemsdefaultconfig
+text: ''
+type: build

@@ -1,0 +1,24 @@
+actions:
+- get-boolean: null
+- env-enable: null
+- define-condition: null
+active: true
+build-type: option
+default: false
+default-by-variant:
+- value: true
+  variants:
+  - riscv/frdme310arty
+derived: false
+enabled-by: []
+header: ''
+level: 1.12
+links: []
+name: RISCV_ENABLE_FRDME310ARTY_SUPPORT
+normative: true
+order: 0
+ref: ''
+reviewed: iRH7Od3mFj0wcwXBXKN6g4BtT3hsps7HUv2gjin8Vwo=
+text: |
+  Enable support SiFive Freedom E310 Arty board
+type: build

@@ -1,0 +1,19 @@
+actions:
+- set-value: __RTEMS_SIZEOF_TIME_T__
+- define-unquoted: null
+active: true
+build-type: option
+default-by-variant: []
+default: null
+derived: false
+enabled-by: []
+header: ''
+level: 1.49
+links: []
+name: SIZEOF_TIME_T
+normative: true
+order: 0
+ref: ''
+reviewed: yOR_2L-X-IMXpJlVvihRMrjw5B1zoxMQ5KLKqcDgLX0=
+text: ''
+type: build

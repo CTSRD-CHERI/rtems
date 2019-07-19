@@ -1,0 +1,31 @@
+active: true
+build-type: test-program
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by:
+- and:
+  - RTEMS_NETWORKING
+  - not: RTEMS_SMP
+features: c cprogram
+header: ''
+includes:
+- cpukit/libnetworking
+ldflags: []
+level: '1.14'
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: null
+source:
+- testsuites/samples/pppd/init.c
+- testsuites/samples/pppd/pppdapp.c
+stlib: []
+target: testsuites/samples/pppd.exe
+text: ''
+type: build
+use-before: []
+use-after:
+- pppd

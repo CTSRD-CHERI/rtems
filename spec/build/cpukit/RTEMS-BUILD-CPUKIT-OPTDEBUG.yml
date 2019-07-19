@@ -1,0 +1,21 @@
+actions:
+- get-boolean: null
+- env-enable: null
+- define-condition: null
+active: true
+build-type: option
+default-by-variant: []
+default: false
+derived: false
+enabled-by: []
+header: ''
+level: '1.20'
+links: []
+name: RTEMS_DEBUG
+normative: true
+order: 0
+ref: ''
+reviewed: i98kpxed0BCJGA5AF2dUr8ndrd72QIRZgAxGzkm4Vb8=
+text: |
+  Enable the RTEMS internal debug support
+type: build

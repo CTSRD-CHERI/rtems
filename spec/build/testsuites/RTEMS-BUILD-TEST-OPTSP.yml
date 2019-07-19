@@ -1,0 +1,20 @@
+actions:
+- get-boolean: null
+- env-enable: null
+active: true
+build-type: option
+default-by-variant: []
+default: false
+derived: false
+enabled-by: []
+header: ''
+level: 1.83
+links: []
+name: BUILD_SPTESTS
+normative: true
+order: -1000
+ref: ''
+reviewed: 5vj0aB9AY8U4axiiS5aIsXZO4Hh58BA7ZjKC7cPchoY=
+text: |
+  Build the single-processor test programs (may be also enabled by BUILD_TESTS)
+type: build

@@ -1,0 +1,21 @@
+active: true
+build-type: objects
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by:
+- arm
+header: ''
+includes: []
+install: []
+level: 1.5
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: I-9YGIWsGsfuR0Kw5gMhbmYIALUr4Wf2X-ThoceWJnY=
+source:
+- cpukit/libdl/rtl-mdreloc-arm.c
+text: ''
+type: build

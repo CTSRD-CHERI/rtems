@@ -1,0 +1,29 @@
+active: true
+build-type: test-program
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by: []
+features: c cprogram
+header: ''
+includes: []
+ldflags: []
+level: '1.3'
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: null
+source:
+- testsuites/sptests/sp02/init.c
+- testsuites/sptests/sp02/task1.c
+- testsuites/sptests/sp02/task2.c
+- testsuites/sptests/sp02/task3.c
+- testsuites/sptests/sp02/preempt.c
+stlib: []
+target: testsuites/sptests/sp02.exe
+text: ''
+type: build
+use-before: []
+use-after: []

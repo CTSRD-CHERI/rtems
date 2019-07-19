@@ -1,0 +1,25 @@
+active: true
+build-type: test-program
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by: []
+features: c cprogram
+header: ''
+includes: []
+ldflags: []
+level: 1.0
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: bhK7_mMW55TW80o7SFy73esBQsOHRiyP1qfUQH8rvEE=
+source:
+- testsuites/sptests/spintrcritical_support/intrcritical.c
+stlib: []
+target: testsuites/sptests/spintrcritical_support.exe
+text: ''
+type: build
+use-before: []
+use-after: []

@@ -1,0 +1,26 @@
+active: true
+build-type: test-program
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by:
+- RTEMS_POSIX_API
+features: c cprogram
+header: ''
+includes: []
+ldflags: []
+level: '1.22'
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: null
+source:
+- testsuites/psxtests/psxalarm01/init.c
+stlib: []
+target: testsuites/psxtests/psxalarm01.exe
+text: ''
+type: build
+use-before: []
+use-after: []

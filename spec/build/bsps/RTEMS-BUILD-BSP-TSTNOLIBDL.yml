@@ -1,0 +1,27 @@
+actions:
+- set-test-state:
+    dl01: exclude
+    dl02: exclude
+    dl03: exclude
+    dl04: exclude
+    dl05: exclude
+    dl06: exclude
+    dl07: exclude
+    dl08: exclude
+    dl09: exclude
+    dl10: exclude
+active: true
+build-type: option
+default-by-variant: []
+default: null
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: ''
+type: build

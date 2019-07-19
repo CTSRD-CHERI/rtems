@@ -1,0 +1,22 @@
+actions:
+- get-env: ABI_FLAGS
+- env-append: ASFLAGS
+- env-append: CFLAGS
+- env-append: CXXFLAGS
+- env-append: LDFLAGS
+active: true
+build-type: option
+default-by-variant: []
+default: null
+derived: false
+enabled-by: []
+header: ''
+level: 1.33
+links: []
+name: ABI_FLAGS
+normative: true
+order: 0
+ref: ''
+reviewed: 9S6xLt9NNTeh7TML05T2jYdN5pVs4S6Z-e3mWIjWpCw=
+text: ''
+type: build

@@ -1,0 +1,29 @@
+active: true
+build-type: library
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by:
+- RTEMS_NETWORKING
+header: ''
+includes:
+- cpukit/libnetworking
+install: []
+install-path: ${BSP_LIBDIR}
+level: 1.15
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: h7brZcckZVJ5vMTbcn0-s0RpV8ir_xZZCOtKFIA_S7c=
+source:
+- cpukit/libfs/src/nfsclient/proto/mount_prot_xdr.c
+- cpukit/libfs/src/nfsclient/proto/nfs_prot_xdr.c
+- cpukit/libfs/src/nfsclient/src/nfs.c
+- cpukit/libfs/src/nfsclient/src/rpcio.c
+- cpukit/libfs/src/nfsclient/src/sock_mbuf.c
+- cpukit/libfs/src/nfsclient/src/xdr_mbuf.c
+target: nfs
+text: ''
+type: build

@@ -1,0 +1,11 @@
+settings:
+  digits: 3
+  parent: RTEMS-BUILD-TEST
+  prefix: RTEMS-BUILD-TEST-ADA
+  sep: '-'
+attributes:
+  defaults:
+    build-type: ada-test-program
+    enabled-by: []
+    order: 0
+    type: build

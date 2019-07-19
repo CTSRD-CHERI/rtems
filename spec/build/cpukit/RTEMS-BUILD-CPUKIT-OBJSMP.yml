@@ -1,0 +1,37 @@
+active: true
+build-type: objects
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by:
+- RTEMS_SMP
+header: ''
+includes: []
+install: []
+level: 1.79
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: d5jwFoggXfs3-55FTkkH73ojg1mvGPUz2WuNizd1234=
+source:
+- cpukit/score/src/percpustatewait.c
+- cpukit/score/src/profilingsmplock.c
+- cpukit/score/src/schedulerdefaultaskforhelp.c
+- cpukit/score/src/schedulerdefaultpinunpin.c
+- cpukit/score/src/schedulerdefaultsetaffinity.c
+- cpukit/score/src/scheduleredfsmp.c
+- cpukit/score/src/schedulerpriorityaffinitysmp.c
+- cpukit/score/src/schedulerprioritysmp.c
+- cpukit/score/src/schedulersimplesmp.c
+- cpukit/score/src/schedulersmp.c
+- cpukit/score/src/schedulersmpstartidle.c
+- cpukit/score/src/schedulerstrongapa.c
+- cpukit/score/src/smp.c
+- cpukit/score/src/smplock.c
+- cpukit/score/src/smpmulticastaction.c
+- cpukit/score/src/smpunicastaction.c
+- cpukit/score/src/threadunpin.c
+text: ''
+type: build

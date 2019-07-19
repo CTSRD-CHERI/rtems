@@ -1,0 +1,22 @@
+actions:
+- get-boolean: null
+- env-assign: null
+- define-condition: null
+active: true
+build-type: option
+default: true
+default-by-variant: []
+derived: false
+enabled-by: []
+format: '{}'
+header: ''
+level: 1.6
+links: []
+name: ARM_MMU_USE_SMALL_PAGES
+normative: true
+order: 0
+ref: ''
+reviewed: Sn8SO7Eoqyfuhpzy0MYTMfpCZ7S4od-QC60_gUdQwsQ=
+text: |
+  Use MMU with small pages (4KiB)
+type: build

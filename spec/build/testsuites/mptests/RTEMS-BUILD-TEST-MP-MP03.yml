@@ -1,0 +1,28 @@
+active: true
+build-type: test-program
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by: []
+features: c cprogram
+header: ''
+includes: []
+ldflags: []
+level: 1.0
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: TRqvQkCJWrLuVQ9mE5Q4P23DoeGEiB-n4wpArtrhQ4I=
+source:
+- testsuites/mptests/mp03/delay.c
+- testsuites/mptests/mp03/init1.c
+- testsuites/mptests/mp03/init2.c
+- testsuites/mptests/mp03/task1.c
+stlib: []
+target: testsuites/mptests/mp03.exe
+text: ''
+type: build
+use-before: []
+use-after: []

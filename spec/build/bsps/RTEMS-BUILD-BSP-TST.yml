@@ -1,0 +1,28 @@
+actions:
+- set-test-state:
+    capture: user-input
+    dhrystone: benchmark
+    dl10: user-input
+    fileio: user-input
+    linpack: benchmark
+    monitor: user-input
+    psxfenv01: expected-fail
+    termios: user-input
+    top: user-input
+    whetstone: benchmark
+active: true
+build-type: option
+default-by-variant: []
+default: null
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  Provides general test states.
+type: build

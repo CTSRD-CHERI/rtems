@@ -1,0 +1,38 @@
+active: true
+build-type: objects
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by:
+- moxie
+header: ''
+includes: []
+install:
+- destination: ${BSP_INCLUDEDIR}/machine
+  source:
+  - cpukit/score/cpu/moxie/include/machine/elf_machdep.h
+- destination: ${BSP_INCLUDEDIR}/rtems
+  source:
+  - cpukit/score/cpu/moxie/include/rtems/asm.h
+- destination: ${BSP_INCLUDEDIR}/rtems/score
+  source:
+  - cpukit/score/cpu/moxie/include/rtems/score/cpu.h
+  - cpukit/score/cpu/moxie/include/rtems/score/cpuatomic.h
+  - cpukit/score/cpu/moxie/include/rtems/score/cpuimpl.h
+  - cpukit/score/cpu/moxie/include/rtems/score/moxie.h
+level: 1.34
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: TBEpMs46HhK0mAJlE7vud7QvfW4W9dhHo7yr91yyBEY=
+source:
+- cpukit/score/cpu/moxie/cpu_asm.S
+- cpukit/score/cpu/moxie/cpu.c
+- cpukit/score/cpu/moxie/moxie-exception-frame-print.c
+- cpukit/score/cpu/no_cpu/cpucounterfrequency.c
+- cpukit/score/cpu/no_cpu/cpucounterread.c
+- cpukit/score/cpu/no_cpu/cpuidle.c
+text: ''
+type: build

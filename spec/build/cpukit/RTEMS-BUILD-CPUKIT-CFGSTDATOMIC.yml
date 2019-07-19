@@ -1,0 +1,19 @@
+actions:
+- set-value: true
+- define-condition: null
+active: true
+build-type: option
+default-by-variant: []
+default: null
+derived: false
+enabled-by: []
+header: ''
+level: 1.67
+links: []
+name: HAVE_STDATOMIC_H
+normative: true
+order: 0
+ref: ''
+reviewed: EAcwNQkXE6PUaTFCAxpHVcTasVd-9VJluZYwmeQP4fw=
+text: ''
+type: build

@@ -1,0 +1,21 @@
+actions:
+- get-boolean: null
+- env-enable: null
+- define-condition: null
+active: true
+build-type: option
+default-by-variant: []
+default: false
+derived: false
+enabled-by: []
+header: ''
+level: 1.21
+links: []
+name: RTEMS_MULTIPROCESSING
+normative: true
+order: 0
+ref: ''
+reviewed: smhnSAaGnUNJEoME5XiO_XRLgySJi3GdYOwOg1LwII0=
+text: |
+  Enable the message passing based multiprocessing support (MPCI); do not confuse this with the SMP support
+type: build

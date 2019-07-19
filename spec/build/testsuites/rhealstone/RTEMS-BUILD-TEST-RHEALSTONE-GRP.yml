@@ -1,0 +1,32 @@
+active: true
+build-type: group
+install: []
+derived: false
+enabled-by:
+- BUILD_TESTS
+- BUILD_RHEALSTONE
+header: ''
+includes:
+- testsuites/support/include
+- testsuites/tmtests/include
+ldflags:
+- -Wl,--wrap=printf
+- -Wl,--wrap=puts
+level: '1.7'
+links:
+- RTEMS-BUILD-TEST-RHEALSTONE-RHDEADLOCKBRK: null
+- RTEMS-BUILD-TEST-RHEALSTONE-RHILATENCY: null
+- RTEMS-BUILD-TEST-RHEALSTONE-RHMLATENCY: null
+- RTEMS-BUILD-TEST-RHEALSTONE-RHSEMSHUFFLE: null
+- RTEMS-BUILD-TEST-RHEALSTONE-RHTASKPREEMPT: null
+- RTEMS-BUILD-TEST-RHEALSTONE-RHTASKSWITCH: null
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: ''
+top-level: false
+type: build
+use-before: []
+use-after:
+- rtemstest

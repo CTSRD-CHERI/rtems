@@ -1,0 +1,25 @@
+active: true
+build-type: test-program
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by: []
+features: cxx cxxprogram
+header: ''
+includes: []
+ldflags: []
+level: '1.7'
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: null
+source:
+- testsuites/samples/iostream/init.cc
+stlib: []
+target: testsuites/samples/iostream.exe
+text: ''
+type: build
+use-before: []
+use-after: []

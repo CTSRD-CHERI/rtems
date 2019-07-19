@@ -1,0 +1,27 @@
+active: true
+build-type: test-program
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by: []
+features: c cprogram
+header: ''
+includes: []
+ldflags: []
+level: '1.120'
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: null
+source:
+- testsuites/libtests/stackchk/blow.c
+- testsuites/libtests/stackchk/init.c
+- testsuites/libtests/stackchk/task1.c
+stlib: []
+target: testsuites/libtests/stackchk.exe
+text: ''
+type: build
+use-before: []
+use-after: []

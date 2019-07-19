@@ -1,0 +1,21 @@
+actions:
+- get-string: null
+- split: null
+- env-append: null
+active: true
+build-type: option
+default-by-variant: []
+default: []
+derived: false
+enabled-by: []
+header: ''
+level: 1.16
+links: []
+name: ABI_FLAGS
+normative: true
+order: 0
+ref: ''
+reviewed: B6Qq4rZVfT4pC-9a4FGJYOMBHnLftlaOvJsAWk7ZMUY=
+text: |
+  ABI flags
+type: build

@@ -1,0 +1,19 @@
+actions:
+- set-value: true
+- define-condition: null
+active: true
+build-type: option
+default-by-variant: []
+default: null
+derived: false
+enabled-by: []
+header: ''
+level: 1.56
+links: []
+name: HAVE_DECL_PTHREAD_ATTR_SETSTACK
+normative: true
+order: 0
+ref: ''
+reviewed: nDdHA-17_Yian0wTeQbsNijEYnBkcSnfb5FZWqsYtAo=
+text: ''
+type: build

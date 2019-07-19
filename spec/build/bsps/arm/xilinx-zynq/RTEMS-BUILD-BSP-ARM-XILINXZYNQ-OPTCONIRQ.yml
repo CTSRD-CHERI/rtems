@@ -1,0 +1,20 @@
+actions:
+- get-boolean: null
+- define-condition: null
+active: true
+build-type: option
+default-by-variant: []
+default: true
+derived: false
+enabled-by: []
+header: ''
+level: '1.10'
+links: []
+name: ZYNQ_CONSOLE_USE_INTERRUPTS
+normative: true
+order: 0
+ref: ''
+reviewed: 09BMVk3_Hc9veviMN20GCnNUtmddFhdC9GufHtGTF88=
+text: |
+  Use interrupt driven mode for console devices
+type: build

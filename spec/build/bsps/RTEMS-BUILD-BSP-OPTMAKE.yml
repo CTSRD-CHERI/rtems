@@ -1,0 +1,24 @@
+actions:
+- script: |
+    def yesno(conf, enable):
+        if enable in conf.env.ENABLE:
+            return "yes"
+        return "no"
+    conf.env["RTEMS_HAS_MULTIPROCESSING"] = yesno(conf, "RTEMS_MULTIPROCESSING")
+    conf.env["RTEMS_HAS_NETWORKING"] = yesno(conf, "RTEMS_NETWORKING")
+    conf.env["RTEMS_HAS_POSIX_API"] = yesno(conf, "RTEMS_POSIX_API")
+active: true
+build-type: option
+default: null
+default-by-variant: []
+derived: false
+enabled-by: []
+header: ''
+level: 1.3
+links: []
+normative: true
+order: -100
+ref: ''
+reviewed: null
+text: ''
+type: build

@@ -1,0 +1,29 @@
+active: true
+build-type: test-program
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by: []
+features: c cprogram
+header: ''
+includes: []
+ldflags: []
+level: '1.47'
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: null
+source:
+- testsuites/psxtests/psxfile01/main.c
+- testsuites/psxtests/psxfile01/test.c
+- testsuites/psxtests/psxfile01/test_cat.c
+- testsuites/psxtests/psxfile01/test_extend.c
+- testsuites/psxtests/psxfile01/test_write.c
+stlib: []
+target: testsuites/psxtests/psxfile01.exe
+text: ''
+type: build
+use-before: []
+use-after: []

@@ -1,0 +1,21 @@
+active: true
+build-type: objects
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by:
+- sparc
+header: ''
+includes: []
+install: []
+level: 1.5
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: c6aJcwTrc2QrpuKT1DmbzNDItrHYb3AKAJ3-0Lvcy6Q=
+source:
+- cpukit/libdl/rtl-mdreloc-sparc.c
+text: ''
+type: build

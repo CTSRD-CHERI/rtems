@@ -1,0 +1,29 @@
+active: true
+prepare-configure: null
+prepare-build: null
+do-build: |
+  bld.install_as(
+      "${BSP_LIBDIR}/linkcmds",
+      "bsps/" + bld.env.ARCH + "/" + bld.env.BSP_FAMILY +
+      "/start/linkcmds." + bld.env.BSP_BASE
+  )
+build-type: script
+default-by-variant: []
+do-configure: |
+  conf.env.append_value(
+      "LINKFLAGS",
+      ["-qnolinkcmds", "-T", "linkcmds." + conf.env.BSP_BASE]
+  )
+default: null
+derived: false
+enabled-by: []
+header: ''
+level: 1.2
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: uiaj5npIqtt6WLiwF__9fdhu8oNsBw0VOG2BEvA_RhY=
+text: |
+  Use the base BSP linker command file.
+type: build

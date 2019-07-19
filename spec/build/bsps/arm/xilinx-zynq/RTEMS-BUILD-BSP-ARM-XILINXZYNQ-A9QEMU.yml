@@ -1,0 +1,23 @@
+active: true
+arch: arm
+bsp: xilinx_zynq_a9_qemu
+build-type: bsp
+cflags: []
+cppflags: []
+derived: true
+enabled-by: []
+family: xilinx-zynq
+header: ''
+includes: []
+install: []
+level: 1.0
+links:
+- RTEMS-BUILD-BSP-O0: a0rmO1gkjPQ8PGj5xNt4sCmyZyQrufsVMAZtXxfJ3uE=
+- RTEMS-BUILD-BSP-ARM-XILINXZYNQ-GROUP: YF5dNJaCuFFa0UCbMHyqcV6hOHBPXAfRQKawipL6w1E=
+normative: true
+order: 0
+ref: ''
+reviewed: B72AEuYBwm-_2A0Zt53ZXLj2mPSYJap5mOkWNgOE3jg=
+source: []
+text: ''
+type: build

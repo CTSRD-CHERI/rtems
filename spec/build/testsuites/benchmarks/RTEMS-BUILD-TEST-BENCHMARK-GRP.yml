@@ -1,0 +1,28 @@
+active: true
+build-type: group
+install: []
+derived: false
+enabled-by:
+- BUILD_TESTS
+- BUILD_BENCHMARKS
+header: ''
+includes:
+- testsuites/support/include
+ldflags:
+- -Wl,--wrap=printf
+- -Wl,--wrap=puts
+level: '1.4'
+links:
+- RTEMS-BUILD-TEST-BENCHMARK-DHRYSTONE: null
+- RTEMS-BUILD-TEST-BENCHMARK-LINPACK: null
+- RTEMS-BUILD-TEST-BENCHMARK-WHETSTONE: null
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: ''
+top-level: false
+type: build
+use-before: []
+use-after:
+- rtemstest

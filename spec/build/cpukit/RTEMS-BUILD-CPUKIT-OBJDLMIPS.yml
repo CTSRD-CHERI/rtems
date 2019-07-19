@@ -1,0 +1,21 @@
+active: true
+build-type: objects
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by:
+- mips
+header: ''
+includes: []
+install: []
+level: 1.5
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: ooNsmzsLmlNozem9mo2FemIz3Sx1UyOPR19HinKvskI=
+source:
+- cpukit/libdl/rtl-mdreloc-mips.c
+text: ''
+type: build

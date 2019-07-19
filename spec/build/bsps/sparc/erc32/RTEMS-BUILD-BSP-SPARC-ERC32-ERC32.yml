@@ -1,0 +1,67 @@
+active: true
+arch: sparc
+bsp: erc32
+build-type: bsp
+cflags: []
+cppflags: []
+derived: true
+enabled-by: []
+family: erc32
+header: ''
+includes: []
+install:
+- destination: ${BSP_INCLUDEDIR}
+  source:
+  - bsps/sparc/erc32/include/erc32.h
+  - bsps/sparc/erc32/include/bsp.h
+  - bsps/sparc/erc32/include/tm27.h
+- destination: ${BSP_INCLUDEDIR}/bsp
+  source:
+  - bsps/sparc/erc32/include/bsp/irq.h
+- destination: ${BSP_LIBDIR}
+  source:
+  - bsps/sparc/erc32/start/linkcmds
+  - bsps/sparc/shared/start/linkcmds.base
+level: 1.0
+links:
+- RTEMS-BUILD-BSP-BSPOPTS: kt3y7ie7HP9LhKOwwJHME-1n--DeeNNpZjFYBq_GT_w=
+- RTEMS-BUILD-BSP-OBJIRQ: 53VttLhTsBrxeLpydfi44cyYSWsaXSQnID7kBjHVVvA=
+- RTEMS-BUILD-BSP-O2: RRJhqKUzEPxgCMGswDNVM5d6muMZd8OH_JHEVNMWv1k=
+- RTEMS-BUILD-BSP-OBJ: G3nZiEJdrxpN0oqcuDq8o0pt756DYfMk2UECU6ULObA=
+- RTEMS-BUILD-BSP-SPARC-START: vs5yXA5jsmGfCK_ILflnbvKbUh_0xjaPaioC1thByCM=
+- RTEMS-BUILD-BSP-SPARC-ERC32-ABI: I2RtTMi4-I_ZFznOGYAMFpdPzucAr3x5-DOBaO6Qf_I=
+- RTEMS-BUILD-BSP-SPARC-ERC32-SMPOBJS: 9m4rIQsBOJiXdQ-xHCJQNuJ0Ubbebb15CFrxjZRU_jI=
+normative: true
+order: 0
+ref: ''
+reviewed: _xNSgYjb5W_2BNKQCdeQ4MhyiP-TO7OEmAagS3or0UA=
+source:
+- bsps/shared/cache/nocache.c
+- bsps/shared/dev/getentropy/getentropy-cpucounter.c
+- bsps/shared/dev/serial/legacy-console.c
+- bsps/shared/dev/serial/legacy-console-control.c
+- bsps/shared/dev/serial/legacy-console-select.c
+- bsps/shared/irq/irq-default-handler.c
+- bsps/shared/start/bspfatal-default.c
+- bsps/shared/start/bspreset-empty.c
+- bsps/shared/start/sbrk.c
+- bsps/sparc/erc32/btimer/btimer.c
+- bsps/sparc/erc32/clock/ckinit.c
+- bsps/sparc/erc32/console/debugputs.c
+- bsps/sparc/erc32/console/erc32_console.c
+- bsps/sparc/erc32/gnatsupp/gnatsupp.c
+- bsps/sparc/erc32/start/boardinit.S
+- bsps/sparc/erc32/start/bspdelay.c
+- bsps/sparc/erc32/start/bspidle.c
+- bsps/sparc/erc32/start/bspstart.c
+- bsps/sparc/erc32/start/erc32mec.c
+- bsps/sparc/erc32/start/setvec.c
+- bsps/sparc/erc32/start/spurious.c
+- bsps/sparc/shared/gnatcommon.c
+- bsps/sparc/shared/irq/bsp_isr_handler.c
+- bsps/sparc/shared/irq/irq-shared.c
+- bsps/sparc/shared/start/bsp_fatal_exit.c
+- bsps/sparc/shared/start/bsp_fatal_halt.c
+- bsps/sparc/shared/start/bspgetworkarea.c
+text: ''
+type: build

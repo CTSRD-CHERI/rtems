@@ -1,0 +1,19 @@
+actions:
+- set-value: CPU_SIZEOF_POINTER
+- define-unquoted: null
+active: true
+build-type: option
+default-by-variant: []
+default: null
+derived: false
+enabled-by: []
+header: ''
+level: '1.50'
+links: []
+name: SIZEOF_SIZE_T
+normative: true
+order: 0
+ref: ''
+reviewed: oN9A8j9x7Ta8BlHQ-LQBCnQBBQq7WvcsNNzEgI4qGzs=
+text: ''
+type: build

@@ -1,0 +1,25 @@
+active: true
+build-type: test-program
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by: []
+features: c cprogram
+header: ''
+includes: []
+ldflags: []
+level: 1.0
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: E2u90OOglD7_T2F5qI_m6yVto5_IitI9Su2CbKX4jkI=
+source:
+- testsuites/sptests/spfatal_support/init.c
+stlib: []
+target: testsuites/sptests/spfatal_support.exe
+text: ''
+type: build
+use-before: []
+use-after: []

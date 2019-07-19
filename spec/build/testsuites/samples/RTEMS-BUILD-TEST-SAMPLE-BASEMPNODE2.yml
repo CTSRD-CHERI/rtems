@@ -1,0 +1,27 @@
+active: true
+build-type: test-program
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by:
+- RTEMS_MULTIPROCESSING
+features: c cprogram
+header: ''
+includes: []
+ldflags: []
+level: '1.3'
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: null
+source:
+- testsuites/samples/base_mp/init2.c
+- testsuites/samples/base_mp/apptask.c
+stlib: []
+target: testsuites/samples/base_mp_node2.exe
+text: ''
+type: build
+use-before: []
+use-after: []

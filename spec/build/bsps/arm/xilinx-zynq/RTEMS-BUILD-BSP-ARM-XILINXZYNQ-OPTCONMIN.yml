@@ -1,0 +1,23 @@
+actions:
+- get-integer: null
+- assert-uint32: null
+- env-assign: null
+- define: null
+active: true
+build-type: option
+default-by-variant: []
+default: 1
+derived: false
+enabled-by: []
+format: '{}'
+header: ''
+level: 1.9
+links: []
+name: BSP_CONSOLE_MINOR
+normative: true
+order: 0
+ref: ''
+reviewed: 0ZGW6CA4uQVNnub6_G9o07fFdwxJRd_DVYZ84JEHqeg=
+text: |
+  Minor number of console device
+type: build

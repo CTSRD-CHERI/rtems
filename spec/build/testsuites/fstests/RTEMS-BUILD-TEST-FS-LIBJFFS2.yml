@@ -1,0 +1,24 @@
+active: true
+build-type: library
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by: []
+header: ''
+includes:
+- testsuites/fstests/jffs2_support
+install: []
+install-path: null
+level: 1.14
+links: []
+normative: true
+order: -1
+ref: ''
+reviewed: VgBoqay-m7o_-pVXhYOZttPft5x_brtoEjiINQgIYw8=
+source:
+- testsuites/fstests/jffs2_support/fs_support.c
+- testsuites/fstests/support/fstest_support.c
+target: testjffs2
+text: ''
+type: build

@@ -1,0 +1,19 @@
+actions:
+- set-value: /**/
+- define-unquoted: null
+active: true
+build-type: option
+default-by-variant: []
+default: null
+derived: false
+enabled-by: []
+header: ''
+level: 1.77
+links: []
+name: HAVE_PTHREAD_MUTEX_GETCEILING_CONST
+normative: true
+order: 0
+ref: ''
+reviewed: NJK-8HMFtTv1V9mYwyOUnGMx9PC87zMYuV3g-pyIERs=
+text: ''
+type: build

@@ -1,0 +1,44 @@
+active: true
+build-type: script
+cflags: []
+cppflags: []
+ldflags: []
+stlib: []
+use-before: []
+use-after: []
+includes:
+- testsuites/libtests/dl01
+prepare-configure: null
+prepare-build: null
+do-configure: null
+do-build: |
+  path = "testsuites/libtests/dl01/"
+  objs = []
+  objs.append(self.cc(bld, bic, path + "dl01-o1.c"))
+  tar = path + "dl01.tar"
+  self.pax(bld, objs, [path], tar)
+  tar_c, tar_h = self.bin2c(bld, tar)
+  objs = []
+  objs.append(self.cc(bld, bic, tar_c))
+  objs.append(self.cc(bld, bic, path + "init.c", deps=[tar_h], cppflags=bld.env.TEST_DL01_CPPFLAGS))
+  objs.append(self.cc(bld, bic, path + "dl-load.c"))
+  dl01_pre = path + "dl01.pre"
+  self.link_cc(bld, bic, objs, dl01_pre)
+  dl01_sym_o = path + "dl01-sym.o"
+  objs.append(dl01_sym_o)
+  self.rtems_syms(bld, dl01_pre, dl01_sym_o)
+  self.link_cc(bld, bic, objs, "testsuites/libtests/dl01.exe")
+derived: false
+enabled-by:
+- and:
+  - not: TEST_DL01_EXCLUDE
+  - BUILD_LIBDL
+header: ''
+level: '1.125'
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: ''
+type: build

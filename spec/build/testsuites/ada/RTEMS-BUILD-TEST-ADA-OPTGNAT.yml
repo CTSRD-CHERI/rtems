@@ -1,0 +1,20 @@
+actions:
+- set-value: ${ARCH}-rtems${__RTEMS_MAJOR__}-gnatmake
+- substitute: null
+- find-program: null
+- env-assign: GNATMAKE
+active: true
+build-type: option
+default-by-variant: []
+default: null
+derived: false
+enabled-by: []
+header: ''
+level: 1.39
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: oRRzhna6a47p0_QjPWqYLful9JgHGbxMqy-q7mSiZiU=
+text: ''
+type: build

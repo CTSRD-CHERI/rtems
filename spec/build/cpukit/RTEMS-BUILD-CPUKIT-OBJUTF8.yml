@@ -1,0 +1,23 @@
+active: true
+build-type: objects
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by: []
+header: ''
+includes: []
+install:
+- destination: ${BSP_INCLUDEDIR}/utf8proc
+  source:
+  - cpukit/include/utf8proc/utf8proc.h
+level: 1.79
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: lUgJdUcZuyAE_lJcR_hXnPHr4GucmAkNK8gT6Fmfd4k=
+source:
+- cpukit/libmisc/utf8proc/utf8proc.c
+text: ''
+type: build

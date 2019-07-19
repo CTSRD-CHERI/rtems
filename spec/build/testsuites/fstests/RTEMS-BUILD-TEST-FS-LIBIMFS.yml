@@ -1,0 +1,24 @@
+active: true
+build-type: library
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by: []
+header: ''
+includes:
+- testsuites/fstests/imfs_support
+install: []
+install-path: null
+level: 1.14
+links: []
+normative: true
+order: -1
+ref: ''
+reviewed: qbryEu-nClJiYIOBzWHQthvkFPwkTvwxwK9vr3E0fl8=
+source:
+- testsuites/fstests/imfs_support/fs_support.c
+- testsuites/fstests/support/fstest_support.c
+target: testimfs
+text: ''
+type: build

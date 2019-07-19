@@ -1,0 +1,21 @@
+active: true
+build-type: config-file
+content: |
+  include $$(RTEMS_ROOT)/make/custom/default.cfg
+  RTEMS_CPU = ${ARCH}
+  CPU_CFLAGS = ${ABI_FLAGS}
+  CFLAGS_OPTIMIZE_V = ${OPTIMIZATION_FLAGS}
+  LDFLAGS = ${LDFLAGS}
+derived: false
+install-path: ${PREFIX}/make/custom
+enabled-by: []
+header: ''
+level: 1.3
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: null
+target: ${BSP_NAME}.cfg
+text: ''
+type: build

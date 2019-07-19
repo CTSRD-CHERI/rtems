@@ -1,0 +1,24 @@
+actions:
+- get-integer: null
+- assert-in-interval:
+  - 1
+  - 4294967295
+- define: null
+active: true
+build-type: option
+default-by-variant: []
+default: 64
+derived: false
+enabled-by: []
+format: '{}'
+header: ''
+level: 1.4
+links: []
+name: RISCV_MAXIMUM_EXTERNAL_INTERRUPTS
+normative: true
+order: 0
+ref: ''
+reviewed: uxBrd5jpAGL7WEFYf3y9c8qLe2inBmzbUloxaMjEC-A=
+text: |
+  Maximum number of external interrupts supported by the BSP
+type: build

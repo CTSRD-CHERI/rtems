@@ -1,0 +1,27 @@
+active: true
+build-type: test-program
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by: []
+features: c cprogram
+header: ''
+includes: []
+ldflags: []
+level: '1.2'
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: null
+source:
+- testsuites/benchmarks/dhrystone/init.c
+- testsuites/benchmarks/dhrystone/dhry_1.c
+- testsuites/benchmarks/dhrystone/dhry_2.c
+stlib: []
+target: testsuites/benchmarks/dhrystone.exe
+text: ''
+type: build
+use-before: []
+use-after: []

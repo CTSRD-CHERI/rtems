@@ -1,0 +1,21 @@
+actions:
+- get-boolean: null
+- env-enable: null
+- define-condition: null
+active: true
+build-type: option
+default-by-variant: []
+default: false
+derived: false
+enabled-by: []
+header: ''
+level: 1.23
+links: []
+name: RTEMS_POSIX_API
+normative: true
+order: 0
+ref: ''
+reviewed: uQlEHkw9XHLdQiDixTuS3J6dEitwqE4BSAky25sw0YY=
+text: |
+  Enable support for POSIX signals
+type: build

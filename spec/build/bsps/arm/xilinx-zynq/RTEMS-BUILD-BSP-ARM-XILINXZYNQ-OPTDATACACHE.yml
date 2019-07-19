@@ -1,0 +1,24 @@
+actions:
+- get-boolean: null
+- env-enable: null
+- define-condition: null
+active: true
+build-type: option
+default: true
+default-by-variant:
+- value: false
+  variants:
+  - .*qemu.*
+derived: false
+enabled-by: []
+header: ''
+level: 1.3
+links: []
+name: BSP_DATA_CACHE_ENABLED
+normative: true
+order: 0
+ref: ''
+reviewed: YKUFDa7SMsAcxmSlYyA6-sN5aMp0LM_E_MTXR37ZGH8=
+text: |
+  Enable data cache
+type: build

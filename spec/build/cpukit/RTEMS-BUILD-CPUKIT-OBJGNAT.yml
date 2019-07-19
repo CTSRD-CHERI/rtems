@@ -1,0 +1,22 @@
+active: true
+build-type: objects
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by:
+- __RTEMS_ADA__
+header: ''
+includes: []
+install: []
+level: 1.79
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: ZWPh_ZVWOqHi2mFE5wlcM206j1wY9G2OR1I2G05QvF8=
+source:
+- cpukit/libgnat/ada_intrsupp.c
+- cpukit/libgnat/adasupp.c
+text: ''
+type: build

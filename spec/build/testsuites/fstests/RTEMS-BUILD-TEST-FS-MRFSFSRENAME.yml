@@ -1,0 +1,27 @@
+active: true
+build-type: test-program
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by: []
+features: c cprogram
+header: ''
+includes:
+- testsuites/fstests/mrfs_support
+ldflags: []
+level: 1.0
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: x4WVFYcCNbME_vJl7pRKpiRuVYe9Sa5Lwdu5-2nQyZY=
+source:
+- testsuites/fstests/fsrename/test.c
+stlib: []
+target: testsuites/fstests/mrfs_fsrename.exe
+text: ''
+type: build
+use-after: []
+use-before:
+- testrfs

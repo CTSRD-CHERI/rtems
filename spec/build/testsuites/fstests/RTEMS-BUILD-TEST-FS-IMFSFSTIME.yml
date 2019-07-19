@@ -1,0 +1,27 @@
+active: true
+build-type: test-program
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by: []
+features: c cprogram
+header: ''
+includes:
+- testsuites/fstests/imfs_support
+ldflags: []
+level: 1.0
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: bMKdlzmWL0o4ROsjiA4oPPze4uhPV_cEQ2TC8q9ju0Q=
+source:
+- testsuites/fstests/fstime/test.c
+stlib: []
+target: testsuites/fstests/imfs_fstime.exe
+text: ''
+type: build
+use-after: []
+use-before:
+- testimfs

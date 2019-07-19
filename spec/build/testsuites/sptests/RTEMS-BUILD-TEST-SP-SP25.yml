@@ -1,0 +1,26 @@
+active: true
+build-type: test-program
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by: []
+features: c cprogram
+header: ''
+includes: []
+ldflags: []
+level: '1.25'
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: null
+source:
+- testsuites/sptests/sp25/init.c
+- testsuites/sptests/sp25/task1.c
+stlib: []
+target: testsuites/sptests/sp25.exe
+text: ''
+type: build
+use-before: []
+use-after: []

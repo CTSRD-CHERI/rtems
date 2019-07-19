@@ -1,0 +1,23 @@
+active: true
+arch: arm
+bsp: xilinx_zynq_zedboard
+build-type: bsp
+cflags: []
+cppflags: []
+derived: true
+enabled-by: []
+family: xilinx-zynq
+header: ''
+includes: []
+install: []
+level: 1.25
+links:
+- RTEMS-BUILD-BSP-O2: RRJhqKUzEPxgCMGswDNVM5d6muMZd8OH_JHEVNMWv1k=
+- RTEMS-BUILD-BSP-ARM-XILINXZYNQ-GROUP: YF5dNJaCuFFa0UCbMHyqcV6hOHBPXAfRQKawipL6w1E=
+normative: true
+order: 0
+ref: ''
+reviewed: M3Yyz9yLBfVrI6akgk5spfDNFZipDS5t5pu-Ec-f3sA=
+source: []
+text: ''
+type: build

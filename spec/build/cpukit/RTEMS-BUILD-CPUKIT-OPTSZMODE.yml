@@ -1,0 +1,20 @@
+actions:
+- set-value: 4
+- env-assign: null
+- define: null
+active: true
+build-type: option
+default-by-variant: []
+default: null
+derived: false
+enabled-by: []
+header: ''
+level: '1.40'
+links: []
+name: __RTEMS_SIZEOF_MODE_T__
+normative: true
+order: 0
+ref: ''
+reviewed: Bp9FxDBb4PENqzN4ODwBFPzpaIt9Fk_kZf3uziH28cM=
+text: ''
+type: build

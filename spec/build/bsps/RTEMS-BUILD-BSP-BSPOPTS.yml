@@ -1,0 +1,30 @@
+active: true
+build-type: config-header
+derived: false
+enabled-by: []
+guard: __BSP_OPTIONS_H
+header: ''
+include-headers: []
+install-path: ${BSP_INCLUDEDIR}
+level: '1.30'
+links:
+- RTEMS-BUILD-BSP-GRPMAKE: null
+- RTEMS-BUILD-BSP-OPTABI: 9S6xLt9NNTeh7TML05T2jYdN5pVs4S6Z-e3mWIjWpCw=
+- RTEMS-BUILD-BSP-OPTASFLAGS: zM8gZZU1KdeHQaDmbPFVsj98H8ifK0mRv-m-mwENuKI=
+- RTEMS-BUILD-BSP-OPTBSP: em1kA2j4NfhyEX55AE4X0bvGmnTF0RQ42Fj5wfgiofw=
+- RTEMS-BUILD-BSP-OPTINCLUDES: SU7veJS8vcm3y9MNLrCwR-4j6P8zaxbfIAc-o9-O5V0=
+- RTEMS-BUILD-BSP-OPTLDFLAGS: 6HoMy5B4IKqMs0mRkW5MDzKj2q-bgAXy-GmxAo2kDuI=
+- RTEMS-BUILD-BSP-OPTMAKELEGACY: null
+- RTEMS-BUILD-BSP-OPTRESET: null
+- RTEMS-BUILD-BSP-OPTRESETKEY: null
+- RTEMS-BUILD-BSP-OPTPRINTEXCPT: null
+- RTEMS-BUILD-BSP-OPTFATALVERB: null
+- RTEMS-BUILD-BSP-PKGCONFIG: null
+- RTEMS-BUILD-BSP-TST: null
+normative: true
+order: 1000
+ref: ''
+reviewed: XvLa2OblOHIeJNI-xe8HnRqzHIuiwbMRbDwh3cwLB10=
+target: bsps/include/bspopts.h
+text: ''
+type: build

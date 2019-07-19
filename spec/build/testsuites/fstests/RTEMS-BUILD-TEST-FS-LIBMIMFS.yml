@@ -1,0 +1,24 @@
+active: true
+build-type: library
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by: []
+header: ''
+includes:
+- testsuites/fstests/mimfs_support
+install: []
+install-path: null
+level: 1.14
+links: []
+normative: true
+order: -1
+ref: ''
+reviewed: YQ4-ZFEBNdPY725IHFnsE4Sn1iGpCqbXyd0wZFHm_04=
+source:
+- testsuites/fstests/mimfs_support/fs_support.c
+- testsuites/fstests/support/fstest_support.c
+target: testmimfs
+text: ''
+type: build

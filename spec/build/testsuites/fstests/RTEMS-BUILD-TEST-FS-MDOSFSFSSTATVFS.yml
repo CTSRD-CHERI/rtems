@@ -1,0 +1,27 @@
+active: true
+build-type: test-program
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by: []
+features: c cprogram
+header: ''
+includes:
+- testsuites/fstests/mdosfs_support
+ldflags: []
+level: 1.0
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: _YnmAyTz29sOnk1FEr-4lOQDOaM0gYK2IGwLpM3HImQ=
+source:
+- testsuites/fstests/fsstatvfs/test.c
+stlib: []
+target: testsuites/fstests/mdosfs_fsstatvfs.exe
+text: ''
+type: build
+use-after: []
+use-before:
+- testdosfs

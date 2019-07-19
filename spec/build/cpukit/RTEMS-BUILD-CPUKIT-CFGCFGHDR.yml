@@ -1,0 +1,19 @@
+actions:
+- set-value: -DHAVE_CONFIG_H=1
+- env-append: CPPFLAGS
+active: true
+build-type: option
+default-by-variant: []
+default: null
+derived: false
+enabled-by: []
+header: ''
+level: 1.78
+links: []
+name: HAVE_CONFIG_H
+normative: true
+order: 0
+ref: ''
+reviewed: vEocNT0zt5fV5RZJrDmgomVPNii0pmjwRAXEPY04sY8=
+text: ''
+type: build

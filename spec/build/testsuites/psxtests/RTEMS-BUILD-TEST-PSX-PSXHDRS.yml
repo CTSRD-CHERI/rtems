@@ -1,0 +1,24 @@
+active: true
+build-type: test-program
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by: []
+features: c cprogram
+header: ''
+includes: []
+ldflags: []
+level: 1.0
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: HsMzCgKj0sZftWv-ovN8j85AtEy9dUOmREhMMzQXckM=
+source: []
+stlib: []
+target: testsuites/psxtests/psxhdrs.exe
+text: ''
+type: build
+use-before: []
+use-after: []

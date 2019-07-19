@@ -1,0 +1,40 @@
+active: true
+build-type: library
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by: []
+header: ''
+includes: []
+install:
+- destination: ${BSP_INCLUDEDIR}
+  source:
+  - cpukit/include/zconf.h
+  - cpukit/include/zlib.h
+install-path: ${BSP_LIBDIR}
+level: 1.14
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: fCmWaj3nLWf12cOwqXVNJ-S2NrdgsHo7Jy9KoP_QFJA=
+source:
+- cpukit/zlib/adler32.c
+- cpukit/zlib/compress.c
+- cpukit/zlib/crc32.c
+- cpukit/zlib/deflate.c
+- cpukit/zlib/gzclose.c
+- cpukit/zlib/gzlib.c
+- cpukit/zlib/gzread.c
+- cpukit/zlib/gzwrite.c
+- cpukit/zlib/infback.c
+- cpukit/zlib/inffast.c
+- cpukit/zlib/inflate.c
+- cpukit/zlib/inftrees.c
+- cpukit/zlib/trees.c
+- cpukit/zlib/uncompr.c
+- cpukit/zlib/zutil.c
+target: z
+text: ''
+type: build

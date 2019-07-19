@@ -1,0 +1,23 @@
+active: true
+arch: riscv
+bsp: rv64imac_medany
+build-type: bsp
+cflags: []
+cppflags: []
+derived: false
+enabled-by: []
+family: riscv
+header: ''
+includes: []
+install: []
+level: 1.15
+links:
+- RTEMS-BUILD-BSP-RISCV-RISCV-GROUP: XQrIv-OgquoxKMt5GWdC6Y4-q9_4s9qJMbO3Qn1GaZk=
+- RTEMS-BUILD-BSP-RISCV-RISCV-037: -FQ1uotsbLMGOqP0qx0SDpVeCYN0TqNjDsOYIi8mVxM=
+normative: true
+order: 0
+ref: ''
+reviewed: jKpMSQFti_y-Rv9sALrMKi15hc4KpjIhXc14o7HOZbg=
+source: []
+text: ''
+type: build

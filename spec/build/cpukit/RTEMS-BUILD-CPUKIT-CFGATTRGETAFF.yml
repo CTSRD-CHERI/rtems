@@ -1,0 +1,19 @@
+actions:
+- set-value: true
+- define-condition: null
+active: true
+build-type: option
+default-by-variant: []
+default: null
+derived: false
+enabled-by: []
+header: ''
+level: 1.51
+links: []
+name: HAVE_DECL_PTHREAD_ATTR_GETAFFINITY_NP
+normative: true
+order: 0
+ref: ''
+reviewed: IzFrscEbyhgaZWvdJWxiIYH07C93b2_8uhK5oLMVP-k=
+text: ''
+type: build

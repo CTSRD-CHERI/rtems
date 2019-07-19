@@ -1,0 +1,26 @@
+active: true
+build-type: test-program
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by: []
+features: c cprogram
+header: ''
+includes: []
+ldflags: []
+level: '1.148'
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: null
+source:
+- testsuites/libtests/POSIX/wait.c
+stlib: []
+target: testsuites/libtests/wait.norun.exe
+text: ''
+type: build
+use-after: []
+use-before:
+- rtemsdefaultconfig

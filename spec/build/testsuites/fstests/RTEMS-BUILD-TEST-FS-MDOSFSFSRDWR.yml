@@ -1,0 +1,27 @@
+active: true
+build-type: test-program
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by: []
+features: c cprogram
+header: ''
+includes:
+- testsuites/fstests/mdosfs_support
+ldflags: []
+level: 1.0
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: 3x1bVnEsDFG_8nfCfMowxauE5T-aZyFYEXCImAcuYwM=
+source:
+- testsuites/fstests/fsrdwr/init.c
+stlib: []
+target: testsuites/fstests/mdosfs_fsrdwr.exe
+text: ''
+type: build
+use-after: []
+use-before:
+- testdosfs

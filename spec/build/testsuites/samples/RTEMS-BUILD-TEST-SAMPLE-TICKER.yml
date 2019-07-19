@@ -1,0 +1,26 @@
+active: true
+build-type: test-program
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by: []
+features: c cprogram
+header: ''
+includes: []
+ldflags: []
+level: '1.15'
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: null
+source:
+- testsuites/samples/ticker/init.c
+- testsuites/samples/ticker/tasks.c
+stlib: []
+target: testsuites/samples/ticker.exe
+text: ''
+type: build
+use-before: []
+use-after: []

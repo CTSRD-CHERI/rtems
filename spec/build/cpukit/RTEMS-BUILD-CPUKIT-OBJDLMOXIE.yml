@@ -1,0 +1,21 @@
+active: true
+build-type: objects
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by:
+- moxie
+header: ''
+includes: []
+install: []
+level: 1.5
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: Mcad2AGGi9BnW9D8a_FrSTCHMswzkcjEQpK6AYYDWuk=
+source:
+- cpukit/libdl/rtl-mdreloc-moxie.c
+text: ''
+type: build

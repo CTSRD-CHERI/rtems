@@ -1,0 +1,28 @@
+active: true
+build-type: test-program
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by: []
+features: c cprogram
+header: ''
+includes: []
+ldflags: []
+level: 1.0
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: TKTHb917IP5rTbfaHna9AhykuQwE0oyMfbQdgUIrEwA=
+source:
+- testsuites/mptests/mp05/asr.c
+- testsuites/mptests/mp05/init1.c
+- testsuites/mptests/mp05/init2.c
+- testsuites/mptests/mp05/task1.c
+stlib: []
+target: testsuites/mptests/mp05.exe
+text: ''
+type: build
+use-before: []
+use-after: []

@@ -1,0 +1,28 @@
+active: true
+build-type: test-program
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by:
+- RTEMS_SMP
+features: c cprogram
+header: ''
+includes: []
+ldflags: []
+level: '1.3'
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: null
+source:
+- testsuites/smptests/smp02/init.c
+- testsuites/smptests/smp02/tasks.c
+- testsuites/support/src/locked_print.c
+stlib: []
+target: testsuites/smptests/smp02.exe
+text: ''
+type: build
+use-before: []
+use-after: []

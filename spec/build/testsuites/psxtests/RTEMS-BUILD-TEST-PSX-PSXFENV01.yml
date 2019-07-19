@@ -1,0 +1,26 @@
+active: true
+build-type: test-program
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by: []
+features: c cprogram
+header: ''
+includes: []
+ldflags: []
+level: '1.46'
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: null
+source:
+- testsuites/psxtests/psxfenv01/init.c
+stlib:
+- m
+target: testsuites/psxtests/psxfenv01.exe
+text: ''
+type: build
+use-before: []
+use-after: []

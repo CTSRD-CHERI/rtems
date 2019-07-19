@@ -1,0 +1,19 @@
+actions:
+- set-value: true
+- define-condition: null
+active: true
+build-type: option
+default-by-variant: []
+default: null
+derived: false
+enabled-by: []
+header: ''
+level: 1.75
+links: []
+name: HAVE_SYS_TYPES_H
+normative: true
+order: 0
+ref: ''
+reviewed: Gk2Sa9lb0-z0O6x7h4sQjSw2U-qz9OxlIgZtvuDACOE=
+text: ''
+type: build

@@ -1,0 +1,26 @@
+active: true
+build-type: library
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by: []
+header: ''
+includes:
+- cpukit/libnetworking
+install:
+- destination: ${BSP_INCLUDEDIR}/rtems
+  source:
+  - cpukit/include/rtems/tftp.h
+install-path: ${BSP_LIBDIR}
+level: 1.11
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: fplEJZ3derIij8MPM7mTJ2MxZcqZ8Ul6aQ6SdhYmI6Y=
+source:
+- cpukit/libnetworking/lib/tftpDriver.c
+target: tftpfs
+text: ''
+type: build

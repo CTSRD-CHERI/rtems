@@ -1,0 +1,20 @@
+actions:
+- get-boolean: null
+- env-enable: null
+active: true
+build-type: option
+default-by-variant: []
+default: false
+derived: false
+enabled-by: []
+header: ''
+level: 1.83
+links: []
+name: BUILD_MPTESTS
+normative: true
+order: -1000
+ref: ''
+reviewed: nic3V5PwiPFHJbg8cRobkzuY8DTOBWlGtiXA2hwC0qM=
+text: |
+  Build the MPCI test programs (may be also enabled by BUILD_TESTS)
+type: build

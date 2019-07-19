@@ -1,0 +1,28 @@
+active: true
+build-type: test-program
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by: []
+features: c cprogram
+header: ''
+includes: []
+ldflags: []
+level: '1.13'
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: null
+source:
+- testsuites/sptests/sp14/init.c
+- testsuites/sptests/sp14/asr.c
+- testsuites/sptests/sp14/task1.c
+- testsuites/sptests/sp14/task2.c
+stlib: []
+target: testsuites/sptests/sp14.exe
+text: ''
+type: build
+use-before: []
+use-after: []

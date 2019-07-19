@@ -1,0 +1,20 @@
+actions:
+- set-value: ${BSP_BASE}
+- substitute: null
+- define-unquoted: null
+active: true
+build-type: option
+default-by-variant: []
+default: null
+derived: false
+enabled-by: []
+header: ''
+level: 1.31
+links: []
+name: RTEMS_BSP
+normative: true
+order: 0
+ref: ''
+reviewed: em1kA2j4NfhyEX55AE4X0bvGmnTF0RQ42Fj5wfgiofw=
+text: ''
+type: build

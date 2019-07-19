@@ -1,0 +1,46 @@
+active: true
+build-type: group
+install:
+- destination: ${PREFIX}/share/rtems${__RTEMS_MAJOR__}/make
+  source:
+  - make/lib.cfg
+  - make/host.cfg
+  - make/directory.cfg
+  - make/README
+- destination: ${PREFIX}/share/rtems${__RTEMS_MAJOR__}/make/compilers
+  source:
+  - make/compilers/gcc-target-default.cfg
+- destination: ${PREFIX}/share/rtems${__RTEMS_MAJOR__}/make/Templates
+  source:
+  - make/Templates/Makefile.dir
+  - make/Templates/Makefile.lib
+  - make/Templates/Makefile.leaf
+- destination: ${PREFIX}/make
+  source:
+  - make/main.cfg
+  - make/leaf.cfg
+- destination: ${PREFIX}/make/custom
+  source:
+  - make/custom/default.cfg
+derived: true
+enabled-by:
+- INSTALL_LEGACY_MAKEFILES
+header: ''
+includes: []
+ldflags: []
+level: 1.22
+links:
+- RTEMS-BUILD-BSP-MAKEBSP: null
+- RTEMS-BUILD-BSP-MAKECUSTOM: null
+- RTEMS-BUILD-BSP-MAKEINC: null
+- RTEMS-BUILD-BSP-MAKETARGET: null
+- RTEMS-BUILD-BSP-OPTMAKE: null
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: ''
+top-level: false
+type: build
+use-before: []
+use-after: []

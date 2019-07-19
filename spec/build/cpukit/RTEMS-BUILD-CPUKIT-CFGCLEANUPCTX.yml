@@ -1,0 +1,19 @@
+actions:
+- set-value: true
+- define-condition: null
+active: true
+build-type: option
+default-by-variant: []
+default: null
+derived: false
+enabled-by: []
+header: ''
+level: 1.73
+links: []
+name: HAVE_STRUCT__PTHREAD_CLEANUP_CONTEXT
+normative: true
+order: 0
+ref: ''
+reviewed: 4JHJoctzU0JT0Y0oLAQ3gWTK6WCby4OxOILknnrGK28=
+text: ''
+type: build

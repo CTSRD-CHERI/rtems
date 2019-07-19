@@ -1,0 +1,30 @@
+active: true
+build-type: test-program
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by: []
+features: c cprogram
+header: ''
+includes: []
+ldflags: []
+level: '1.12'
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: null
+source:
+- testsuites/sptests/sp13/init.c
+- testsuites/sptests/sp13/fillbuff.c
+- testsuites/sptests/sp13/putbuff.c
+- testsuites/sptests/sp13/task1.c
+- testsuites/sptests/sp13/task2.c
+- testsuites/sptests/sp13/task3.c
+stlib: []
+target: testsuites/sptests/sp13.exe
+text: ''
+type: build
+use-before: []
+use-after: []

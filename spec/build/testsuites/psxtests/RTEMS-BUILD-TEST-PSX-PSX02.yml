@@ -1,0 +1,27 @@
+active: true
+build-type: test-program
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by:
+- RTEMS_POSIX_API
+features: c cprogram
+header: ''
+includes: []
+ldflags: []
+level: '1.4'
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: null
+source:
+- testsuites/psxtests/psx02/init.c
+- testsuites/psxtests/psx02/task.c
+stlib: []
+target: testsuites/psxtests/psx02.exe
+text: ''
+type: build
+use-before: []
+use-after: []

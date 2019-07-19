@@ -1,0 +1,20 @@
+actions:
+- set-value: 4
+- env-assign: null
+- define: null
+active: true
+build-type: option
+default-by-variant: []
+default: null
+derived: false
+enabled-by: []
+header: ''
+level: 1.44
+links: []
+name: __RTEMS_SIZEOF_BLKCNT_T__
+normative: true
+order: 0
+ref: ''
+reviewed: GvYKsugdxZChupoS7OvN2QQ7zXIQ_JEFdmlvGPeILTc=
+text: ''
+type: build

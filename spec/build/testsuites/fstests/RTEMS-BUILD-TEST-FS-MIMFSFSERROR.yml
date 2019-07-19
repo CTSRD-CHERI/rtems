@@ -1,0 +1,27 @@
+active: true
+build-type: test-program
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by: []
+features: c cprogram
+header: ''
+includes:
+- testsuites/fstests/mimfs_support
+ldflags: []
+level: 1.0
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: PbEP1J-mexJ1qBDtnoWmPf1bA5W0Y7MgK6r-UJRX8Mw=
+source:
+- testsuites/fstests/fserror/test.c
+stlib: []
+target: testsuites/fstests/mimfs_fserror.exe
+text: ''
+type: build
+use-after: []
+use-before:
+- testmimfs

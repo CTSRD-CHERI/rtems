@@ -1,0 +1,21 @@
+actions:
+- get-boolean: null
+- env-enable: null
+- define-condition: null
+active: true
+build-type: option
+default-by-variant: []
+default: false
+derived: false
+enabled-by: []
+header: ''
+level: 1.4
+links: []
+name: RISCV_ENABLE_HTIF_SUPPORT
+normative: true
+order: 0
+ref: ''
+reviewed: Cj4UzPXWoL3kQn4VdqxYg806ktm_8Ydg0A69FZxrXwA=
+text: |
+  Enables the HTIF support if defined to a non-zero value, otherwise it is disabled
+type: build

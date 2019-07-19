@@ -1,0 +1,24 @@
+active: true
+build-type: test-program
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by: []
+features: c cprogram
+header: ''
+includes: []
+ldflags: []
+level: 1.0
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: 7HkMEjp0lIGG5F70hPtkYoTOhDwu9ei268IcHG-5I6o=
+source: []
+stlib: []
+target: testsuites/sptests/spfatal19.exe
+text: ''
+type: build
+use-before: []
+use-after: []

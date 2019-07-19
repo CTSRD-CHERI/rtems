@@ -1,0 +1,22 @@
+actions:
+- get-integer: null
+- assert-uint32: null
+- env-assign: null
+- format-and-define: null
+active: true
+build-type: option
+default-by-variant: []
+default: 0
+derived: false
+enabled-by: []
+format: '{:#010x}'
+header: ''
+level: 1.15
+links: []
+name: ZYNQ_RAM_INT_0_ORIGIN
+normative: true
+order: 0
+ref: ''
+reviewed: Yy8c6JCD09nS0xooCcQs6AfgxQMa08_aMch-55aqOio=
+text: ''
+type: build

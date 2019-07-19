@@ -1,0 +1,30 @@
+actions:
+- get-integer: null
+- assert-uint32: null
+- assert-aligned: 1048576
+- env-assign: null
+- format-and-define: null
+active: true
+build-type: option
+default: 268435456
+default-by-variant:
+- value: 536870912
+  variants:
+  - arm/xilinx_zynq_zedboard
+- value: 1073741824
+  variants:
+  - arm/xilinx_zynq_zc70
+derived: false
+enabled-by: []
+format: '{:#010x}'
+header: ''
+level: 1.11
+links: []
+name: BSP_ZYNQ_RAM_LENGTH
+normative: true
+order: 0
+ref: ''
+reviewed: 20gkI-itUlLNdoTVxUKnCXriNOw29t5V952fbSPrpg8=
+text: |
+  Zynq RAM length for linker command file
+type: build

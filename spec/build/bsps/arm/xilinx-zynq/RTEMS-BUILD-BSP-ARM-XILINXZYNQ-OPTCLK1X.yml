@@ -1,0 +1,23 @@
+actions:
+- get-integer: null
+- assert-uint32: null
+- env-assign: null
+- define: null
+active: true
+build-type: option
+default-by-variant: []
+default: 111111111
+derived: false
+enabled-by: []
+format: '{}'
+header: ''
+level: 1.7
+links: []
+name: ZYNQ_CLOCK_CPU_1X
+normative: true
+order: 0
+ref: ''
+reviewed: 2EmofTzftu0erHQltWSD3D2I7KnugBla8v8k3PXwy8I=
+text: |
+  Zynq cpu_1x clock frequency in Hz
+type: build

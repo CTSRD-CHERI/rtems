@@ -1,0 +1,26 @@
+active: true
+build-type: test-program
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by: []
+features: c cprogram
+header: ''
+includes: []
+ldflags: []
+level: '1.46'
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: null
+source:
+- testsuites/libtests/POSIX/dup2.c
+stlib: []
+target: testsuites/libtests/dup2.norun.exe
+text: ''
+type: build
+use-after: []
+use-before:
+- rtemsdefaultconfig

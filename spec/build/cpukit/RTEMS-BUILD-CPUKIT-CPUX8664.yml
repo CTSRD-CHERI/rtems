@@ -1,0 +1,40 @@
+active: true
+build-type: objects
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by:
+- x86_64
+header: ''
+includes: []
+install:
+- destination: ${BSP_INCLUDEDIR}/machine
+  source:
+  - cpukit/score/cpu/x86_64/include/machine/elf_machdep.h
+- destination: ${BSP_INCLUDEDIR}/rtems
+  source:
+  - cpukit/score/cpu/x86_64/include/rtems/asm.h
+- destination: ${BSP_INCLUDEDIR}/rtems/score
+  source:
+  - cpukit/score/cpu/x86_64/include/rtems/score/cpu.h
+  - cpukit/score/cpu/x86_64/include/rtems/score/cpu_asm.h
+  - cpukit/score/cpu/x86_64/include/rtems/score/cpuatomic.h
+  - cpukit/score/cpu/x86_64/include/rtems/score/cpuimpl.h
+  - cpukit/score/cpu/x86_64/include/rtems/score/idt.h
+  - cpukit/score/cpu/x86_64/include/rtems/score/x86_64.h
+level: 1.34
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: HWfjOtZH6dsXCQ9zS9XdU-vpdeQ07IDIqgOtQdKDVXc=
+source:
+- cpukit/score/cpu/no_cpu/cpucounterfrequency.c
+- cpukit/score/cpu/no_cpu/cpucounterread.c
+- cpukit/score/cpu/no_cpu/cpuidle.c
+- cpukit/score/cpu/x86_64/cpu.c
+- cpukit/score/cpu/x86_64/x86_64-context-initialize.c
+- cpukit/score/cpu/x86_64/x86_64-context-switch.S
+text: ''
+type: build

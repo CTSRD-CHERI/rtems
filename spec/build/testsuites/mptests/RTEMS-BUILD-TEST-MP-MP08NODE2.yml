@@ -1,0 +1,27 @@
+active: true
+build-type: test-program
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by:
+- RTEMS_MULTIPROCESSING
+features: c cprogram
+header: ''
+includes: []
+ldflags: []
+level: '1.15'
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: null
+source:
+- testsuites/mptests/mp08/init2.c
+- testsuites/mptests/mp08/task1.c
+stlib: []
+target: testsuites/mptests/mp08_node2.exe
+text: ''
+type: build
+use-before: []
+use-after: []

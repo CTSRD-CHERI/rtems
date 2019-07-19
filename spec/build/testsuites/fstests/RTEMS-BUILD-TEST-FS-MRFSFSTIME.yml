@@ -1,0 +1,27 @@
+active: true
+build-type: test-program
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by: []
+features: c cprogram
+header: ''
+includes:
+- testsuites/fstests/mrfs_support
+ldflags: []
+level: 1.0
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: jA7pabAJZKtPEIAUIVAshXnRLqVKdmb5xGIzGoewqDI=
+source:
+- testsuites/fstests/fstime/test.c
+stlib: []
+target: testsuites/fstests/mrfs_fstime.exe
+text: ''
+type: build
+use-after: []
+use-before:
+- testrfs

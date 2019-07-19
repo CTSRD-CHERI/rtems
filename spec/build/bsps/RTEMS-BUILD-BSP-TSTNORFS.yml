@@ -1,0 +1,27 @@
+actions:
+- set-test-state:
+    mrfsfserror: exclude
+    mrfsfsfpathconf: exclude
+    mrfsfslink: exclude
+    mrfsfspatheval: exclude
+    mrfsfspermission: exclude
+    mrfsfsrdwr: exclude
+    mrfsfsrename: exclude
+    mrfsfsscandir01: exclude
+    mrfsfssymlink: exclude
+    mrfsfstime: exclude
+active: true
+build-type: option
+default-by-variant: []
+default: null
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: ''
+type: build

@@ -1,0 +1,34 @@
+active: true
+build-type: test-program
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by: []
+features: c cprogram
+header: ''
+includes: []
+ldflags: []
+level: '1.8'
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: null
+source:
+- testsuites/sptests/sp07/init.c
+- testsuites/sptests/sp07/task1.c
+- testsuites/sptests/sp07/task2.c
+- testsuites/sptests/sp07/task3.c
+- testsuites/sptests/sp07/task4.c
+- testsuites/sptests/sp07/taskexit.c
+- testsuites/sptests/sp07/tcreate.c
+- testsuites/sptests/sp07/tdelete.c
+- testsuites/sptests/sp07/trestart.c
+- testsuites/sptests/sp07/tstart.c
+stlib: []
+target: testsuites/sptests/sp07.exe
+text: ''
+type: build
+use-before: []
+use-after: []

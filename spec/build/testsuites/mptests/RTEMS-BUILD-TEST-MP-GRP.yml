@@ -1,0 +1,51 @@
+active: true
+build-type: group
+install: []
+derived: false
+enabled-by:
+- BUILD_TESTS
+- BUILD_MPTESTS
+header: ''
+includes:
+- testsuites/support/include
+ldflags:
+- -Wl,--wrap=printf
+- -Wl,--wrap=puts
+level: '1.27'
+links:
+- RTEMS-BUILD-TEST-MP-MP01NODE1: null
+- RTEMS-BUILD-TEST-MP-MP01NODE2: null
+- RTEMS-BUILD-TEST-MP-MP03NODE1: null
+- RTEMS-BUILD-TEST-MP-MP03NODE2: null
+- RTEMS-BUILD-TEST-MP-MP04NODE1: null
+- RTEMS-BUILD-TEST-MP-MP04NODE2: null
+- RTEMS-BUILD-TEST-MP-MP05NODE1: null
+- RTEMS-BUILD-TEST-MP-MP05NODE2: null
+- RTEMS-BUILD-TEST-MP-MP06NODE1: null
+- RTEMS-BUILD-TEST-MP-MP06NODE2: null
+- RTEMS-BUILD-TEST-MP-MP07NODE1: null
+- RTEMS-BUILD-TEST-MP-MP07NODE2: null
+- RTEMS-BUILD-TEST-MP-MP08NODE1: null
+- RTEMS-BUILD-TEST-MP-MP08NODE2: null
+- RTEMS-BUILD-TEST-MP-MP09NODE1: null
+- RTEMS-BUILD-TEST-MP-MP09NODE2: null
+- RTEMS-BUILD-TEST-MP-MP10NODE1: null
+- RTEMS-BUILD-TEST-MP-MP10NODE2: null
+- RTEMS-BUILD-TEST-MP-MP11NODE1: null
+- RTEMS-BUILD-TEST-MP-MP11NODE2: null
+- RTEMS-BUILD-TEST-MP-MP12NODE1: null
+- RTEMS-BUILD-TEST-MP-MP12NODE2: null
+- RTEMS-BUILD-TEST-MP-MP13NODE1: null
+- RTEMS-BUILD-TEST-MP-MP13NODE2: null
+- RTEMS-BUILD-TEST-MP-MP14NODE1: null
+- RTEMS-BUILD-TEST-MP-MP14NODE2: null
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: ''
+top-level: false
+type: build
+use-before: []
+use-after:
+- rtemstest

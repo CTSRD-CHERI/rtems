@@ -1,0 +1,27 @@
+active: true
+build-type: test-program
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by: []
+features: c cprogram
+header: ''
+includes:
+- testsuites/fstests/mrfs_support
+ldflags: []
+level: 1.59
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: -UuCcnJk0CvNwlxPyYeWmUMiER7tfQKOhWX7J-lfcdQ=
+source:
+- testsuites/fstests/fsfpathconf/test.c
+stlib: []
+target: testsuites/fstests/mrfs_fsfpathconf.exe
+text: ''
+type: build
+use-after: []
+use-before:
+- testrfs

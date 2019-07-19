@@ -1,0 +1,20 @@
+actions:
+- set-value: 8
+- env-assign: null
+- define: null
+active: true
+build-type: option
+default-by-variant: []
+default: null
+derived: false
+enabled-by: []
+header: ''
+level: 1.41
+links: []
+name: __RTEMS_SIZEOF_OFF_T__
+normative: true
+order: 0
+ref: ''
+reviewed: xXtitYu0mmEYLhEXK3KqSAcU6YydtcxG1p9DbUjIYb4=
+text: ''
+type: build

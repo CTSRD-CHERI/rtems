@@ -1,0 +1,11 @@
+settings:
+  digits: 3
+  parent: RTEMS-BUILD-TEST
+  prefix: RTEMS-BUILD-TEST-LIB
+  sep: '-'
+attributes:
+  defaults:
+    build-type: test-program
+    enabled-by: []
+    order: 0
+    type: build

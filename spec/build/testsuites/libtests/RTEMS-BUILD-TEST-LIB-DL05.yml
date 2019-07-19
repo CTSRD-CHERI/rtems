@@ -1,0 +1,46 @@
+active: true
+build-type: script
+cflags: []
+cppflags: []
+cxxflags: []
+ldflags: []
+stlib: []
+use-before: []
+use-after: []
+includes:
+- testsuites/libtests/dl05
+prepare-configure: null
+prepare-build: null
+do-configure: null
+do-build: |
+  path = "testsuites/libtests/dl05/"
+  objs = []
+  objs.append(self.cxx(bld, bic, path + "dl05-o5.cc"))
+  tar = path + "dl05.tar"
+  self.pax(bld, objs, [path], tar)
+  tar_c, tar_h = self.bin2c(bld, tar)
+  objs = []
+  objs.append(self.cc(bld, bic, tar_c))
+  objs.append(self.cc(bld, bic, path + "init.c", deps=[tar_h], cppflags=bld.env.TEST_DL05_CPPFLAGS))
+  objs.append(self.cxx(bld, bic, path + "dl-cpp.cc"))
+  objs.append(self.cc(bld, bic, path + "dl-load.c"))
+  dl05_pre = path + "dl05.pre"
+  self.link_cxx(bld, bic, objs, dl05_pre)
+  dl05_sym_o = path + "dl05-sym.o"
+  objs.append(dl05_sym_o)
+  self.rtems_syms(bld, dl05_pre, dl05_sym_o)
+  self.link_cxx(bld, bic, objs, "testsuites/libtests/dl05.exe")
+derived: false
+enabled-by:
+- and:
+  - not: TEST_DL05_EXCLUDE
+  - BUILD_LIBDL
+header: ''
+level: '1.125'
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: ''
+type: build

@@ -1,0 +1,19 @@
+actions:
+- set-value: true
+- define-condition: null
+active: true
+build-type: option
+default-by-variant: []
+default: null
+derived: false
+enabled-by: []
+header: ''
+level: 1.72
+links: []
+name: HAVE_STRUCT__PRIORITY_NODE
+normative: true
+order: 0
+ref: ''
+reviewed: 3dAoV-uty2f31mr7aDOL84UXvPo32bG0Jo1qDyfgpKI=
+text: ''
+type: build

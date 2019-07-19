@@ -1,0 +1,19 @@
+actions:
+- set-value: true
+- define-condition: null
+active: true
+build-type: option
+default-by-variant: []
+default: null
+derived: false
+enabled-by: []
+header: ''
+level: 1.55
+links: []
+name: HAVE_DECL_PTHREAD_ATTR_SETGUARDSIZE
+normative: true
+order: 0
+ref: ''
+reviewed: GIO8etND7fg60q4weMeATxX4lsp56LZQbQ3TY3lEIsw=
+text: ''
+type: build

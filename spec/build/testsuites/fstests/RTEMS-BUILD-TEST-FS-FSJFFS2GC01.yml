@@ -1,0 +1,29 @@
+active: true
+build-type: test-program
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by: []
+features: c cprogram
+header: ''
+includes:
+- testsuites/fstests/jffs2_support
+ldflags: []
+level: 1.0
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: Ew7wwm5301wHHYNFFIAASzs_diUou1d7V96T1Ox3WmQ=
+source:
+- testsuites/fstests/fsjffs2gc01/init.c
+- testsuites/fstests/jffs2_support/fs_support.c
+- testsuites/fstests/support/fstest_support.c
+stlib:
+- jffs2
+target: testsuites/fstests/fsjffs2gc01.exe
+text: ''
+type: build
+use-after: []
+use-before: []

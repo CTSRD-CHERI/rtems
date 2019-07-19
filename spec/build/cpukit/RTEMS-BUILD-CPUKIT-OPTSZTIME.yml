@@ -1,0 +1,20 @@
+actions:
+- set-value: 8
+- env-assign: null
+- define: null
+active: true
+build-type: option
+default-by-variant: []
+default: null
+derived: false
+enabled-by: []
+header: ''
+level: 1.42
+links: []
+name: __RTEMS_SIZEOF_TIME_T__
+normative: true
+order: 0
+ref: ''
+reviewed: calRbKWXEy2zC9ts-whhaw43aKHgdIOn-1gkv0ng4sk=
+text: ''
+type: build

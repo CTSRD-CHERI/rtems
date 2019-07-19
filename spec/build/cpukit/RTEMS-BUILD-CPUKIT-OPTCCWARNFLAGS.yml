@@ -1,0 +1,26 @@
+actions:
+- get-string: null
+- split: null
+- env-assign: null
+- env-append: CFLAGS
+active: true
+build-type: option
+default-by-variant: []
+default:
+- -Wmissing-prototypes
+- -Wimplicit-function-declaration
+- -Wstrict-prototypes
+- -Wnested-externs
+derived: false
+enabled-by: []
+header: ''
+level: 1.32
+links: []
+name: CC_WARNING_FLAGS
+normative: true
+order: 0
+ref: ''
+reviewed: aZsW_Wrlhrfoh1AG8C5oF2nd4vL-38drzZEz5tAaMNY=
+text: |
+  Warning flags passed to the C compiler
+type: build

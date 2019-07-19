@@ -1,0 +1,21 @@
+active: true
+build-type: objects
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by:
+- i386
+header: ''
+includes: []
+install: []
+level: 1.5
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: cMsU4zK0u2m8iEocLWZdtwQUufqRUjKCQENgCllDVgg=
+source:
+- cpukit/libdl/rtl-mdreloc-i386.c
+text: ''
+type: build

@@ -1,0 +1,30 @@
+active: true
+build-type: library
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by: []
+header: ''
+includes:
+- cpukit/libnetworking
+install:
+- destination: ${BSP_INCLUDEDIR}/rtems
+  source:
+  - cpukit/include/rtems/telnetd.h
+install-path: ${BSP_LIBDIR}
+level: 1.12
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: cA8P7KK0q0lNJYE2Wo8mt1t4cNs1mlFkO5ePPm7-JX8=
+source:
+- cpukit/telnetd/check_passwd.c
+- cpukit/telnetd/des.c
+- cpukit/telnetd/pty.c
+- cpukit/telnetd/telnetd.c
+- cpukit/telnetd/telnetd-init.c
+target: telnetd
+text: ''
+type: build

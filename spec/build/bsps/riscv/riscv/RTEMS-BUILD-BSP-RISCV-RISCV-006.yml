@@ -1,0 +1,24 @@
+actions:
+- get-integer: null
+- assert-in-interval:
+  - 1
+  - 4294967295
+- format-and-define: null
+active: true
+build-type: option
+default-by-variant: []
+default: 65536
+derived: false
+enabled-by: []
+format: '{:#010x}'
+header: ''
+level: 1.5
+links: []
+name: BSP_FDT_BLOB_SIZE_MAX
+normative: true
+order: 0
+ref: ''
+reviewed: VDQ1hVbQwtzc-FnGeHy1jt9oANT0JTPhGV0tHPmSMKE=
+text: |
+  Maximum size of the FDT blob in bytes
+type: build

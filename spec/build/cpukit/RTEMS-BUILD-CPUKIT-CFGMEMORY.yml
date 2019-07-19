@@ -1,0 +1,19 @@
+actions:
+- set-value: true
+- define-condition: null
+active: true
+build-type: option
+default-by-variant: []
+default: null
+derived: false
+enabled-by: []
+header: ''
+level: 1.63
+links: []
+name: HAVE_MEMORY_H
+normative: true
+order: 0
+ref: ''
+reviewed: lYlNKTTBo1HTSOdc4LO0MSGIh2bR8p4XSUyNtBn-oUo=
+text: ''
+type: build

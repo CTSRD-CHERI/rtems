@@ -1,0 +1,19 @@
+actions:
+- set-value: '0'
+- env-assign: null
+active: true
+build-type: option
+default-by-variant: []
+default: null
+derived: false
+enabled-by: []
+header: ''
+level: 1.47
+links: []
+name: __RTEMS_REVISION__
+normative: true
+order: -1000
+ref: ''
+reviewed: LXEn-HgtXt_jvXFC8s2nHNoVBNzpgOhJqP77YEEGTbQ=
+text: ''
+type: build

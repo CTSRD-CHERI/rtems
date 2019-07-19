@@ -1,0 +1,31 @@
+active: true
+build-type: library
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by: []
+header: ''
+includes: []
+install: []
+install-path: ${BSP_LIBDIR}
+level: 1.2
+links:
+- RTEMS-BUILD-CPUKIT-OBJDBGARM: 0Go_qkrm0bqrulsiGjmkVAXYZouAZYblfRJCRDQo5-w=
+- RTEMS-BUILD-CPUKIT-OBJDBGI386: DSvo591FN5vwZQz93QMWTmGbVlXiWSb4OAey9OIDUQg=
+normative: true
+order: 0
+ref: ''
+reviewed: zSnRaQzMrv0X0tHVAsUt0PAOaQjBEMiJ1bCA30AzTxE=
+source:
+- cpukit/libdebugger/rtems-debugger-block.c
+- cpukit/libdebugger/rtems-debugger-bsp.c
+- cpukit/libdebugger/rtems-debugger-cmd.c
+- cpukit/libdebugger/rtems-debugger-remote.c
+- cpukit/libdebugger/rtems-debugger-remote-tcp.c
+- cpukit/libdebugger/rtems-debugger-server.c
+- cpukit/libdebugger/rtems-debugger-target.c
+- cpukit/libdebugger/rtems-debugger-threads.c
+target: debugger
+text: ''
+type: build

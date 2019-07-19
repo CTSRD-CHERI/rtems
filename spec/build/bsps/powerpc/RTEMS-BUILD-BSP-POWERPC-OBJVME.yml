@@ -1,0 +1,24 @@
+active: true
+build-type: objects
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by: []
+header: ''
+includes: []
+install: []
+level: 1.0
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: null
+source:
+- bsps/powerpc/shared/vme/bspVmeDmaList.c
+- bsps/powerpc/shared/vme/vmeconfig.c
+- bsps/powerpc/shared/vme/vmeTsi148.c
+- bsps/powerpc/shared/vme/vme_universe.c
+- bsps/powerpc/shared/vme/vmeUniverse.c
+text: ''
+type: build

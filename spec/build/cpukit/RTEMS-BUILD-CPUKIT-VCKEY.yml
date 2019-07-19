@@ -1,0 +1,20 @@
+active: true
+prepare-configure: null
+prepare-build: null
+do-configure: null
+do-build: |
+  VersionControlKeyHeader.write(bld, "cpukit/include/version-vc-key.h")
+build-type: script
+default-by-variant: []
+default: null
+derived: false
+enabled-by: []
+header: ''
+level: 1.78
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: qVAPTH3_HOgN4b3NqhaV1YOxhE9sXPS-W7t_IclXsvE=
+text: ''
+type: build

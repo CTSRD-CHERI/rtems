@@ -1,0 +1,27 @@
+active: true
+build-type: test-program
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by:
+- RTEMS_NETWORKING
+features: c cprogram
+header: ''
+includes:
+- cpukit/libnetworking
+ldflags: []
+level: '1.10'
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: null
+source:
+- testsuites/samples/loopback/init.c
+stlib: []
+target: testsuites/samples/loopback.exe
+text: ''
+type: build
+use-before: []
+use-after: []

@@ -1,0 +1,25 @@
+active: true
+active: true
+build-type: library
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by: []
+header: ''
+includes: []
+install: []
+install-path: null
+level: '1.73'
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: null
+source:
+- testsuites/libtests/dl08-o3.c
+- testsuites/libtests/dl08-o5.c
+- testsuites/libtests/dl08-o6-123456789-123456789.c
+target: dl08_2
+text: ''
+type: build

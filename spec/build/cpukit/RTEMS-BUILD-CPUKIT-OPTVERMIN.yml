@@ -1,0 +1,19 @@
+actions:
+- set-value: '0'
+- env-assign: null
+active: true
+build-type: option
+default-by-variant: []
+default: null
+derived: false
+enabled-by: []
+header: ''
+level: 1.46
+links: []
+name: __RTEMS_MINOR__
+normative: true
+order: -1000
+ref: ''
+reviewed: Rcryquus8uf7cinBCcOCBzRBjWGzfAyGRnFbWgoK-Ic=
+text: ''
+type: build

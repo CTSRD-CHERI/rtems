@@ -1,0 +1,40 @@
+active: true
+build-type: objects
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by:
+- RTEMS_NETWORKING
+header: ''
+includes:
+- cpukit/libnetworking
+install:
+- destination: ${BSP_INCLUDEDIR}/libchip
+  source:
+  - bsps/include/libchip/cs8900.h
+  - bsps/include/libchip/i82586var.h
+  - bsps/include/libchip/if_dcreg.h
+  - bsps/include/libchip/if_fxpvar.h
+  - bsps/include/libchip/open_eth.h
+  - bsps/include/libchip/smc91111.h
+  - bsps/include/libchip/smc91111exp.h
+  - bsps/include/libchip/sonic.h
+level: 1.0
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: G3nZiEJdrxpN0oqcuDq8o0pt756DYfMk2UECU6ULObA=
+source:
+- bsps/shared/net/cs8900.c
+- bsps/shared/net/dec21140.c
+- bsps/shared/net/elnk.c
+- bsps/shared/net/i82586.c
+- bsps/shared/net/if_dc.c
+- bsps/shared/net/if_fxp.c
+- bsps/shared/net/open_eth.c
+- bsps/shared/net/smc91111.c
+- bsps/shared/net/sonic.c
+text: ''
+type: build

@@ -1,0 +1,23 @@
+actions:
+- set-value: INPUT
+- env-assign: RISCV_LINKER_START_DIRECTIVE
+- set-value: ALIGN(8)
+- env-assign: RISCV_LINKER_ALIGN_DIRECTIVE
+active: true
+build-type: option
+default-by-variant: []
+default: null
+derived: false
+enabled-by:
+- clang
+header: ''
+level: 1.16
+links: []
+name: null
+normative: true
+order: 0
+ref: ''
+reviewed: qK46HrQo2n8gQ1cV69dj5tYzb4P61wHPIOC67vvtj9U=
+text: |
+  Provides clang support.
+type: build

@@ -1,0 +1,26 @@
+active: true
+build-type: test-program
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by: []
+features: c cprogram
+header: ''
+includes: []
+ldflags: []
+level: '1.98'
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: null
+source:
+- testsuites/libtests/POSIX/posix_memalign.c
+stlib: []
+target: testsuites/libtests/posix_memalign.norun.exe
+text: ''
+type: build
+use-after: []
+use-before:
+- rtemsdefaultconfig

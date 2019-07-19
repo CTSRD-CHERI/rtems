@@ -1,0 +1,19 @@
+actions:
+- set-value: '5'
+- env-assign: null
+active: true
+build-type: option
+default-by-variant: []
+default: null
+derived: false
+enabled-by: []
+header: ''
+level: 1.45
+links: []
+name: __RTEMS_MAJOR__
+normative: true
+order: -1000
+ref: ''
+reviewed: kAPDfn4ZTLb9UGnEhmN4hMMVHvfSqLtnkg6-T4JXo-M=
+text: ''
+type: build

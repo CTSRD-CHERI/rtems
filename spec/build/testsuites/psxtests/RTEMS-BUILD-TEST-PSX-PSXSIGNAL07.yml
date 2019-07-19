@@ -1,0 +1,27 @@
+active: true
+build-type: test-program
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by:
+- RTEMS_POSIX_API
+features: c cprogram
+header: ''
+includes: []
+ldflags: []
+level: '1.95'
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: null
+source:
+- testsuites/psxtests/psxsignal07/main.c
+- testsuites/psxtests/psxsignal07/rtems_config.c
+stlib: []
+target: testsuites/psxtests/psxsignal07.exe
+text: ''
+type: build
+use-before: []
+use-after: []

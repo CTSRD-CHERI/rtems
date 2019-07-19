@@ -1,0 +1,26 @@
+actions:
+- get-integer: null
+- assert-uint32: null
+- assert-aligned: 1048576
+- env-assign: null
+- format-and-define: null
+active: true
+build-type: option
+default: 1048576
+default-by-variant:
+- value: 4194304
+  variants:
+  - arm/xilinx_zynq_zc706
+derived: false
+enabled-by: []
+format: '{:#010x}'
+header: ''
+level: 1.13
+links: []
+name: ZYNQ_RAM_ORIGIN
+normative: true
+order: 0
+ref: ''
+reviewed: cY6hpjtgQc-x3ujVWnNcTt4FzWMmThc_StP5OEAMAR4=
+text: ''
+type: build

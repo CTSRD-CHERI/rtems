@@ -1,0 +1,25 @@
+actions:
+- set-value:
+  - -qrtems
+  - -specs
+  - bsp_specs
+  - -B${TOP}/bsps/${ARCH}/shared/start
+  - -B${TOP}/bsps/${ARCH}/${BSP_FAMILY}/start
+- substitute: null
+- env-append: null
+active: true
+build-type: option
+default-by-variant: []
+default: null
+derived: false
+enabled-by: []
+header: ''
+level: 1.33
+links: []
+name: LDFLAGS
+normative: true
+order: 0
+ref: ''
+reviewed: 6HoMy5B4IKqMs0mRkW5MDzKj2q-bgAXy-GmxAo2kDuI=
+text: ''
+type: build

@@ -1,0 +1,26 @@
+actions:
+- set-value: ${PREFIX}/${ARCH}-rtems${__RTEMS_MAJOR__}/${BSP_NAME}
+- substitute: null
+- env-assign: BSP_PREFIX
+- set-value: ${BSP_PREFIX}/lib
+- substitute: null
+- env-assign: BSP_LIBDIR
+- set-value: ${BSP_LIBDIR}/include
+- substitute: null
+- env-assign: BSP_INCLUDEDIR
+active: true
+build-type: option
+default-by-variant: []
+default: null
+derived: false
+enabled-by: []
+header: ''
+level: 1.39
+links: []
+name: INSTALL
+normative: true
+order: 0
+ref: ''
+reviewed: syP1PGi2-KlNTGIM-jF_-c_rhmUSIHDPW5z_OyQFLi4=
+text: ''
+type: build

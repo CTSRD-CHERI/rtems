@@ -1,0 +1,24 @@
+actions:
+- get-boolean: null
+- env-enable: null
+- define-condition: null
+active: true
+build-type: option
+default: true
+default-by-variant:
+- value: false
+  variants:
+  - .*qemu.*
+derived: false
+enabled-by: []
+header: ''
+level: 1.4
+links: []
+name: BSP_INSTRUCTION_CACHE_ENABLED
+normative: true
+order: 0
+ref: ''
+reviewed: hpi_3x9liK78EPJzHyz-InQc89Yr9z1-ayhYLrf9ssA=
+text: |
+  Enable instruction cache
+type: build

@@ -1,0 +1,28 @@
+active: true
+build-type: test-program
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by:
+- RTEMS_MULTIPROCESSING
+features: c cprogram
+header: ''
+includes: []
+ldflags: []
+level: '1.24'
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: null
+source:
+- testsuites/mptests/mp13/init1.c
+- testsuites/mptests/mp13/task1.c
+- testsuites/mptests/mp13/task2.c
+stlib: []
+target: testsuites/mptests/mp13_node1.exe
+text: ''
+type: build
+use-before: []
+use-after: []

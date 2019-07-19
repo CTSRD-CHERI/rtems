@@ -1,0 +1,20 @@
+actions:
+- set-value: cpukit/include cpukit/score/cpu/${ARCH}/include
+- substitute: null
+- env-assign: null
+active: true
+build-type: option
+default-by-variant: []
+default: null
+derived: false
+enabled-by: []
+header: ''
+level: 1.84
+links: []
+name: ARCH_INCLUDES
+normative: true
+order: 0
+ref: ''
+reviewed: b89AO5rA4Ss9i7uGEJ0CnCjTaw6S5YhXeCppxDKqmDY=
+text: ''
+type: build

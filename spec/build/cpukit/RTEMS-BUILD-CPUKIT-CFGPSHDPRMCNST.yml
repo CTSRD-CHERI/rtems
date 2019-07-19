@@ -1,0 +1,19 @@
+actions:
+- set-value: /**/
+- define-unquoted: null
+active: true
+build-type: option
+default-by-variant: []
+default: null
+derived: false
+enabled-by: []
+header: ''
+level: 1.78
+links: []
+name: HAVE_PTHREAD_SETSCHEDPARAM_CONST
+normative: true
+order: 0
+ref: ''
+reviewed: Bw8tXtUjQyUlwCi7Goc0cqBt4P0AgKfZNqUc8rTF1ZY=
+text: ''
+type: build

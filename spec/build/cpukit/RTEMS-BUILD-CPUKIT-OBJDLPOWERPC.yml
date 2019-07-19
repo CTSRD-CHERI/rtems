@@ -1,0 +1,21 @@
+active: true
+build-type: objects
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by:
+- powerpc
+header: ''
+includes: []
+install: []
+level: 1.5
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: 7LuK3hAh3FwzH8V9PMkdFLy7Xm4O4zCRvqpbIzY7FjY=
+source:
+- cpukit/libdl/rtl-mdreloc-powerpc.c
+text: ''
+type: build

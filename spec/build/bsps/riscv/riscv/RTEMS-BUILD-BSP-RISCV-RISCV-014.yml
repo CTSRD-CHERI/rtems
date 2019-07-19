@@ -1,0 +1,29 @@
+actions:
+- get-integer: null
+- assert-uint32: null
+- assert-aligned: 1048576
+- env-assign: null
+- format-and-define: null
+active: true
+build-type: option
+default: 2147483648
+default-by-variant:
+- value: 2147483648
+  variants:
+  - riscv/rv64.*medany
+- value: 1879048192
+  variants:
+  - riscv/rv64.*
+derived: false
+enabled-by: []
+format: '{:#010x}'
+header: ''
+level: 1.4
+links: []
+name: RISCV_RAM_REGION_BEGIN
+normative: true
+order: 0
+ref: ''
+reviewed: i_CssUBJyqp5PTT684AclQKGnjjqreMFEm0qKc6hfmM=
+text: ''
+type: build

@@ -1,0 +1,21 @@
+active: true
+build-type: objects
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by:
+- arm
+header: ''
+includes: []
+install: []
+level: 1.5
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: 0Go_qkrm0bqrulsiGjmkVAXYZouAZYblfRJCRDQo5-w=
+source:
+- cpukit/libdebugger/rtems-debugger-arm.c
+text: ''
+type: build

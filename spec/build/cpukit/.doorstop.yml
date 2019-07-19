@@ -1,0 +1,11 @@
+settings:
+  digits: 3
+  parent: RTEMS-BUILD
+  prefix: RTEMS-BUILD-CPUKIT
+  sep: '-'
+attributes:
+  defaults:
+    build-type: objects
+    enabled-by: []
+    order: 0
+    type: build

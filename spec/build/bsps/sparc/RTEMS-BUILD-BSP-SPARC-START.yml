@@ -1,0 +1,21 @@
+active: true
+asflags: []
+build-type: start-file
+cppflags: []
+derived: true
+install-path: ${BSP_LIBDIR}
+enabled-by: []
+header: |
+  SPARC start file
+includes: []
+level: 1.0
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: vs5yXA5jsmGfCK_ILflnbvKbUh_0xjaPaioC1thByCM=
+source:
+- bsps/sparc/shared/start/start.S
+target: start.o
+text: ''
+type: build

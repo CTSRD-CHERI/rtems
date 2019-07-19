@@ -1,0 +1,26 @@
+actions:
+- get-string: null
+- split: null
+- env-append: null
+active: true
+build-type: option
+default:
+- -march=armv7-a
+- -mthumb
+- -mfpu=neon
+- -mfloat-abi=hard
+- -mtune=cortex-a9
+default-by-variant: []
+derived: false
+enabled-by: []
+header: ''
+level: 1.1
+links: []
+name: ABI_FLAGS
+normative: true
+order: 0
+ref: ''
+reviewed: OwUly1v4uUv4jq7KK79x0QP2yvLvW4VxksArLMHweMg=
+text: |
+  ABI flags
+type: build

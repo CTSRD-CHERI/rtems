@@ -1,0 +1,21 @@
+actions:
+- get-boolean: null
+- env-enable: null
+- define-condition: null
+active: true
+build-type: option
+default-by-variant: []
+default: false
+derived: false
+enabled-by: []
+header: ''
+level: 1.25
+links: []
+name: RTEMS_NETWORKING
+normative: true
+order: 0
+ref: ''
+reviewed: hKsogO6lEqXoqerjL7n_jdfML8_oYuZnjHQoc7mDU3M=
+text: |
+  Enable the legacy TCP/IP network support
+type: build

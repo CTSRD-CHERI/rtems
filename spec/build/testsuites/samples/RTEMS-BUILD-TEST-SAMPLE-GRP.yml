@@ -1,0 +1,40 @@
+active: true
+build-type: group
+install: []
+derived: false
+enabled-by:
+- BUILD_TESTS
+- BUILD_SAMPLES
+header: ''
+includes:
+- testsuites/support/include
+ldflags:
+- -Wl,--wrap=printf
+- -Wl,--wrap=puts
+level: '1.16'
+links:
+- RTEMS-BUILD-TEST-SAMPLE-BASEMPNODE1: null
+- RTEMS-BUILD-TEST-SAMPLE-BASEMPNODE2: null
+- RTEMS-BUILD-TEST-SAMPLE-BASESP: null
+- RTEMS-BUILD-TEST-SAMPLE-CAPTURE: null
+- RTEMS-BUILD-TEST-SAMPLE-CDTEST: null
+- RTEMS-BUILD-TEST-SAMPLE-FILEIO: null
+- RTEMS-BUILD-TEST-SAMPLE-HELLO: null
+- RTEMS-BUILD-TEST-SAMPLE-IOSTREAM: null
+- RTEMS-BUILD-TEST-SAMPLE-LOOPBACK: null
+- RTEMS-BUILD-TEST-SAMPLE-MINIMUM: null
+- RTEMS-BUILD-TEST-SAMPLE-NSECS: null
+- RTEMS-BUILD-TEST-SAMPLE-PARANOIA: null
+- RTEMS-BUILD-TEST-SAMPLE-PPPD: null
+- RTEMS-BUILD-TEST-SAMPLE-TICKER: null
+- RTEMS-BUILD-TEST-SAMPLE-UNLIMITED: null
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: ''
+top-level: false
+type: build
+use-before: []
+use-after:
+- rtemstest

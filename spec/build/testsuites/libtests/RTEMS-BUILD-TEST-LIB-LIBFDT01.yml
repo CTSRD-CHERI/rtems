@@ -1,0 +1,26 @@
+active: true
+build-type: test-program
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by: []
+features: c cprogram
+header: ''
+includes: []
+ldflags: []
+level: '1.76'
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: null
+source:
+- testsuites/libtests/libfdt01/init.c
+- testsuites/libtests/libfdt01/some.c
+stlib: []
+target: testsuites/libtests/libfdt01.exe
+text: ''
+type: build
+use-before: []
+use-after: []

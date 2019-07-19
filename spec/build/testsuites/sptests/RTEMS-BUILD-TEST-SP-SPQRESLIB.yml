@@ -1,0 +1,26 @@
+active: true
+build-type: test-program
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by: []
+features: c cprogram
+header: ''
+includes: []
+ldflags: []
+level: '1.176'
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: null
+source:
+- testsuites/sptests/spqreslib/init.c
+- testsuites/sptests/spqreslib/task_periodic.c
+stlib: []
+target: testsuites/sptests/spqreslib.exe
+text: ''
+type: build
+use-before: []
+use-after: []

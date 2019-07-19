@@ -1,0 +1,24 @@
+actions:
+- get-string: null
+- split: null
+- env-assign: null
+- env-append: CFLAGS
+- env-append: CXXFLAGS
+active: true
+build-type: option
+default-by-variant: []
+default:
+- -Wall
+derived: false
+enabled-by: []
+header: ''
+level: 1.31
+links: []
+name: WARNING_FLAGS
+normative: true
+order: 0
+ref: ''
+reviewed: SF0IXBidYOAMcvESmV-lWqWPHt84-RtZ1NkdP9MwqRc=
+text: |
+  Warning flags passed to the C and C++ compiler
+type: build

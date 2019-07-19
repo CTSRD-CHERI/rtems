@@ -1,0 +1,23 @@
+active: true
+build-type: objects
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by: []
+header: ''
+includes: []
+install: []
+level: 1.0
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: null
+source:
+- bsps/powerpc/shared/cpu_asm.S
+- bsps/powerpc/shared/cpu.c
+- bsps/powerpc/shared/cpuIdent.c
+- bsps/powerpc/shared/ppc-print-stack.c
+text: ''
+type: build

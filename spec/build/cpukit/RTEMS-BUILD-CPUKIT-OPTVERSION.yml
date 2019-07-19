@@ -1,0 +1,30 @@
+actions:
+- set-value: ${__RTEMS_MAJOR__}
+- substitute: null
+- define-unquoted: __RTEMS_MAJOR__
+- set-value: ${__RTEMS_MINOR__}
+- substitute: null
+- define-unquoted: __RTEMS_MINOR__
+- set-value: ${__RTEMS_REVISION__}
+- substitute: null
+- define-unquoted: __RTEMS_REVISION__
+- set-value: ${__RTEMS_MAJOR__}.${__RTEMS_MINOR__}.${__RTEMS_REVISION__}
+- substitute: null
+- env-assign: null
+- define: null
+active: true
+build-type: option
+default-by-variant: []
+default: null
+derived: false
+enabled-by: []
+header: ''
+level: 1.39
+links: []
+name: RTEMS_VERSION
+normative: true
+order: 0
+ref: ''
+reviewed: 4LSthNT5THxbQ7kUFgk6-HN2TDSYwA3m4AAIkZHY7zk=
+text: ''
+type: build

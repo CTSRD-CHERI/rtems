@@ -1,0 +1,19 @@
+actions:
+- set-value: true
+- define-condition: null
+active: true
+build-type: option
+default-by-variant: []
+default: null
+derived: false
+enabled-by: []
+header: ''
+level: 1.7
+links: []
+name: HAVE_STRINGS_H
+normative: true
+order: 0
+ref: ''
+reviewed: 6biArC5eoHDelbbViP9hGfRqdPVXwj_FtYPQxaHQJrY=
+text: ''
+type: build

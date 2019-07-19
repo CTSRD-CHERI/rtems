@@ -1,0 +1,26 @@
+active: true
+build-type: library
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by: []
+header: ''
+includes: []
+install:
+- destination: ${BSP_INCLUDEDIR}/rtems
+  source:
+  - cpukit/include/rtems/ftpd.h
+install-path: ${BSP_LIBDIR}
+level: 1.9
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: XozWY2PEIOva5JQlzInwcs_HRj5GP2-DsUbw_wJ51YI=
+source:
+- cpukit/ftpd/ftpd.c
+- cpukit/ftpd/ftpd-init.c
+target: ftpd
+text: ''
+type: build

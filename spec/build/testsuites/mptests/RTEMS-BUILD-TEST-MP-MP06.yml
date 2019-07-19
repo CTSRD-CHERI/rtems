@@ -1,0 +1,27 @@
+active: true
+build-type: test-program
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by: []
+features: c cprogram
+header: ''
+includes: []
+ldflags: []
+level: 1.0
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: 6YWO66NAILQ9NY4alvL3E96soMzG43XwpzTuPhZ2ork=
+source:
+- testsuites/mptests/mp06/init1.c
+- testsuites/mptests/mp06/init2.c
+- testsuites/mptests/mp06/task1.c
+stlib: []
+target: testsuites/mptests/mp06.exe
+text: ''
+type: build
+use-before: []
+use-after: []

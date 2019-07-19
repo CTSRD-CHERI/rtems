@@ -1,0 +1,26 @@
+active: true
+build-type: test-program
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by: []
+features: c cprogram
+header: ''
+includes: []
+ldflags: []
+level: '1.137'
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: null
+source:
+- testsuites/libtests/termios08/init.c
+- testsuites/libtests/termios03/termios_testdriver_polled.c
+stlib: []
+target: testsuites/libtests/termios08.exe
+text: ''
+type: build
+use-before: []
+use-after: []

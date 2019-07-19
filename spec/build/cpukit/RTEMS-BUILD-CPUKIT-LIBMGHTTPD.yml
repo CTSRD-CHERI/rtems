@@ -1,0 +1,26 @@
+active: true
+build-type: library
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by:
+- not: epiphany
+header: ''
+includes: []
+install:
+- destination: ${BSP_INCLUDEDIR}/mghttpd
+  source:
+  - cpukit/include/mghttpd/mongoose.h
+install-path: ${BSP_LIBDIR}
+level: 1.13
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: F6qpCnVFTagOMFm0IjGz6Eh-Ov6djEK_lHmaHxA_Cgk=
+source:
+- cpukit/mghttpd/mongoose.c
+target: mghttpd
+text: ''
+type: build

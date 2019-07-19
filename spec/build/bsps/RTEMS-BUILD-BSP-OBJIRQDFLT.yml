@@ -1,0 +1,22 @@
+active: true
+build-type: objects
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by: []
+header: ''
+includes: []
+install: []
+level: 1.0
+links:
+- RTEMS-BUILD-BSP-OBJIRQ: null
+normative: true
+order: 0
+ref: ''
+reviewed: null
+source:
+- bsps/shared/irq/irq-default.c
+- bsps/shared/irq/irq-default-handler.c
+text: ''
+type: build

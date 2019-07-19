@@ -1,0 +1,19 @@
+actions:
+- set-value: true
+- define-condition: null
+active: true
+build-type: option
+default-by-variant: []
+default: null
+derived: false
+enabled-by: []
+header: ''
+level: 1.62
+links: []
+name: HAVE_INTTYPES_H
+normative: true
+order: 0
+ref: ''
+reviewed: THj22nURCahnbeO_HRU4tDwRYL5czFvd80t7zge2WAI=
+text: ''
+type: build

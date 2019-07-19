@@ -1,0 +1,21 @@
+active: true
+build-type: objects
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by:
+- m68k
+header: ''
+includes: []
+install: []
+level: 1.5
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: GaJd89X7LwxaIAdesfpI8eQovkrz1bJpVCx4kalUmW0=
+source:
+- cpukit/libdl/rtl-mdreloc-m68k.c
+text: ''
+type: build

@@ -1,0 +1,26 @@
+active: true
+build-type: test-program
+cflags: []
+cppflags: []
+cxxflags:
+- -std=gnu++17
+derived: false
+enabled-by: []
+features: cxx cxxprogram
+header: ''
+includes: []
+ldflags: []
+level: '1.91'
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: null
+source:
+- testsuites/sptests/spcxx01/init.cc
+stlib: []
+target: testsuites/sptests/spcxx01.exe
+text: ''
+type: build
+use-before: []
+use-after: []

@@ -1,0 +1,21 @@
+actions:
+- get-integer: null
+- define: null
+format: '{}'
+active: true
+build-type: option
+default: 1
+default-by-variant: []
+derived: false
+enabled-by: []
+header: ''
+level: 1.3
+links: []
+name: BSP_RESET_BOARD_AT_EXIT
+normative: true
+order: 0
+ref: ''
+reviewed: IO9y2aPswCo6YTuCfOj4pHAk98xbI08IcoZBlwanHxg=
+text: |
+  If defined to a non-zero value, reset the board when the application exits.
+type: build

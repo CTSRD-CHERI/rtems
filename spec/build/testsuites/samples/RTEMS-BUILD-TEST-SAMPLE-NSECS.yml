@@ -1,0 +1,26 @@
+active: true
+build-type: test-program
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by: []
+features: c cprogram
+header: ''
+includes: []
+ldflags: []
+level: '1.12'
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: null
+source:
+- testsuites/samples/nsecs/init.c
+- testsuites/samples/nsecs/empty.c
+stlib: []
+target: testsuites/samples/nsecs.exe
+text: ''
+type: build
+use-before: []
+use-after: []

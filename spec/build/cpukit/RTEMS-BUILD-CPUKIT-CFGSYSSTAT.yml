@@ -1,0 +1,19 @@
+actions:
+- set-value: true
+- define-condition: null
+active: true
+build-type: option
+default-by-variant: []
+default: null
+derived: false
+enabled-by: []
+header: ''
+level: 1.74
+links: []
+name: HAVE_SYS_STAT_H
+normative: true
+order: 0
+ref: ''
+reviewed: pc4YlVmagw88ecOcvEurusx8jyAZK3n3VwqKtkgUjKA=
+text: ''
+type: build

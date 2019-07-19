@@ -1,0 +1,21 @@
+actions:
+- get-boolean: null
+- env-enable: null
+- define-condition: null
+active: true
+build-type: option
+default-by-variant: []
+default: false
+derived: false
+enabled-by: []
+header: ''
+level: 1.24
+links: []
+name: RTEMS_PARAVIRT
+normative: true
+order: 0
+ref: ''
+reviewed: 9iKTD9MU7-QiMPAlJCmVk7eU3-y18hQtA-QwJmoZaiY=
+text: |
+  Enable the para-virtualization support
+type: build

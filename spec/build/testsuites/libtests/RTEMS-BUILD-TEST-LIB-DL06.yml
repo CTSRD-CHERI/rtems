@@ -1,0 +1,54 @@
+active: true
+build-type: script
+cflags: []
+cppflags: []
+ldflags: []
+stlib: []
+use-before: []
+use-after: []
+includes:
+- testsuites/libtests/dl06
+prepare-configure: null
+prepare-build: null
+do-configure: null
+do-build: |
+  path = "testsuites/libtests/dl06/"
+  pre_tar = path + "dl06-pre.tar"
+  self.pax(bld, path + "dl06_pre_file", [path], pre_tar)
+  pre_tar_c, pre_tar_h = self.bin2c(bld, pre_tar, name="dl06_tar")
+  objs = []
+  objs.append(self.cc(bld, bic, pre_tar_c))
+  objs.append(self.cc(bld, bic, path + "pre-init.c", deps=[pre_tar_h], cppflags=bld.env.TEST_DL06_CPPFLAGS))
+  dl_load_o = self.cc(bld, bic, path + "dl-load.c")
+  objs.append(dl_load_o)
+  dl06_pre = path + "dl06.pre"
+  self.link_cc(bld, bic, objs, dl06_pre)
+  objs = []
+  objs.append(self.cc(bld, bic, path + "dl06-o1.c"))
+  objs.append(self.cc(bld, bic, path + "dl06-o2.c"))
+  dl06_rap = path + "dl06.rap"
+  self.rtems_rap(bld, dl06_pre, objs, ["m"], dl06_rap)
+  tar = path + "dl06.tar"
+  self.pax(bld, dl06_rap, [path], tar)
+  tar_c, tar_h = self.bin2c(bld, tar)
+  objs.append(self.cc(bld, bic, tar_c))
+  objs.append(self.cc(bld, bic, path + "init.c", deps=[tar_h], cppflags=bld.env.TEST_DL06_CPPFLAGS))
+  objs.append(dl_load_o)
+  dl06_sym_o = path + "dl06-sym.o"
+  objs.append(dl06_sym_o)
+  self.rtems_syms(bld, dl06_pre, dl06_sym_o)
+  self.link_cc(bld, bic, objs, "testsuites/libtests/dl06.exe")
+derived: false
+enabled-by:
+- and:
+  - not: TEST_DL06_EXCLUDE
+  - BUILD_LIBDL
+header: ''
+level: '1.125'
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: ''
+type: build

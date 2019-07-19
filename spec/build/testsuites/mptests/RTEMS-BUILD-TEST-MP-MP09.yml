@@ -1,0 +1,29 @@
+active: true
+build-type: test-program
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by: []
+features: c cprogram
+header: ''
+includes: []
+ldflags: []
+level: 1.0
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: dKGocHRsPxpdEn-09QP5Id6vMc3_s4tzUFHSeWCCNz0=
+source:
+- testsuites/mptests/mp09/init1.c
+- testsuites/mptests/mp09/init2.c
+- testsuites/mptests/mp09/recvmsg.c
+- testsuites/mptests/mp09/sendmsg.c
+- testsuites/mptests/mp09/task1.c
+stlib: []
+target: testsuites/mptests/mp09.exe
+text: ''
+type: build
+use-before: []
+use-after: []

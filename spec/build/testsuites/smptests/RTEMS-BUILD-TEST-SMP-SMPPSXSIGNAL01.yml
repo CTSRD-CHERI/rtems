@@ -1,0 +1,28 @@
+active: true
+build-type: test-program
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by:
+- and:
+  - RTEMS_SMP
+  - RTEMS_POSIX_API
+features: c cprogram
+header: ''
+includes: []
+ldflags: []
+level: '1.36'
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: null
+source:
+- testsuites/smptests/smppsxsignal01/init.c
+stlib: []
+target: testsuites/smptests/smppsxsignal01.exe
+text: ''
+type: build
+use-before: []
+use-after: []

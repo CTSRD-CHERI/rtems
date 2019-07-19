@@ -1,0 +1,28 @@
+active: true
+build-type: test-program
+cflags:
+- -fopenmp
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by:
+- RTEMS_SMP
+features: c cprogram
+header: ''
+includes: []
+ldflags:
+- -fopenmp
+level: '1.32'
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: null
+source:
+- testsuites/smptests/smpopenmp01/init.c
+stlib: []
+target: testsuites/smptests/smpopenmp01.exe
+text: ''
+type: build
+use-before: []
+use-after: []

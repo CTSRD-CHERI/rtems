@@ -1,0 +1,31 @@
+active: true
+build-type: ada-test-program
+adaflags: []
+cflags: []
+cppflags: []
+includes: []
+adaincludes:
+- cpukit/include/adainclude
+- testsuites/ada/support
+- testsuites/ada/mptests/mp10
+ldflags: []
+stlib: []
+ada-object-directory: testsuites/ada/mptests/mp10/node1
+source:
+- testsuites/ada/mptests/mp10/node1/init.c
+ada-main: testsuites/ada/mptests/mp10/node1/mp10_node1.adb
+target: testsuites/ada/ada_mp10_node1.exe
+derived: false
+enabled-by:
+- RTEMS_MULTIPROCESSING
+header: ''
+level: '1.125'
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: ''
+type: build
+use-before: []
+use-after: []

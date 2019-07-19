@@ -1,0 +1,20 @@
+actions:
+- get-boolean: null
+- env-enable: null
+active: true
+build-type: option
+default-by-variant: []
+default: false
+derived: false
+enabled-by: []
+header: ''
+level: 1.83
+links: []
+name: BUILD_PSXTESTS
+normative: true
+order: -1000
+ref: ''
+reviewed: sjkp-HbamAxzjjHEVgsC7Ah5HiAwvHhvvNIGOvEA5YM=
+text: |
+  Build the POSIX test programs (may be also enabled by BUILD_TESTS)
+type: build

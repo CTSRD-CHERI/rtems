@@ -1,0 +1,26 @@
+active: true
+build-type: test-program
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by: []
+features: c cprogram
+header: ''
+includes: []
+ldflags: []
+level: '1.22'
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: null
+source:
+- testsuites/libtests/POSIX/clock_gettime.c
+stlib: []
+target: testsuites/libtests/clock_gettime.norun.exe
+text: ''
+type: build
+use-after: []
+use-before:
+- rtemsdefaultconfig

@@ -1,0 +1,26 @@
+active: true
+build-type: test-program
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by: []
+features: c cprogram
+header: ''
+includes: []
+ldflags: []
+level: '1.122'
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: null
+source:
+- testsuites/libtests/POSIX/stat.c
+stlib: []
+target: testsuites/libtests/stat.norun.exe
+text: ''
+type: build
+use-after: []
+use-before:
+- rtemsdefaultconfig

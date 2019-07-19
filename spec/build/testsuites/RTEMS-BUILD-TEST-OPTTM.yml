@@ -1,0 +1,20 @@
+actions:
+- get-boolean: null
+- env-enable: null
+active: true
+build-type: option
+default-by-variant: []
+default: false
+derived: false
+enabled-by: []
+header: ''
+level: 1.83
+links: []
+name: BUILD_TMTESTS
+normative: true
+order: -1000
+ref: ''
+reviewed: tiLYnjoIg4MzuUdcaahroKdN7fK1LYZJVxiqVfc64UA=
+text: |
+  Build the timing test programs (may be also enabled by BUILD_TESTS)
+type: build

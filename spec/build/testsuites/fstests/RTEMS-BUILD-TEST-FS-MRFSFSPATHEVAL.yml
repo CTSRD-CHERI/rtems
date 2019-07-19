@@ -1,0 +1,27 @@
+active: true
+build-type: test-program
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by: []
+features: c cprogram
+header: ''
+includes:
+- testsuites/fstests/mrfs_support
+ldflags: []
+level: 1.0
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: j60A8YPKeUu4t89PDx8ZZ73IR-1crqrrLydzNjWXugg=
+source:
+- testsuites/fstests/fspatheval/test.c
+stlib: []
+target: testsuites/fstests/mrfs_fspatheval.exe
+text: ''
+type: build
+use-after: []
+use-before:
+- testrfs

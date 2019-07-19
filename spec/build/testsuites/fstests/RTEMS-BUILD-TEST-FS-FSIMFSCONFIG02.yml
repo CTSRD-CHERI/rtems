@@ -1,0 +1,25 @@
+active: true
+build-type: test-program
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by: []
+features: c cprogram
+header: ''
+includes: []
+ldflags: []
+level: 1.0
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: MfKOTcxDCGUL5RabOLxkeqIuJ_OmuN3g8ENKCvZsEm0=
+source:
+- testsuites/fstests/fsimfsconfig02/init.c
+stlib: []
+target: testsuites/fstests/fsimfsconfig02.exe
+text: ''
+type: build
+use-after: []
+use-before: []

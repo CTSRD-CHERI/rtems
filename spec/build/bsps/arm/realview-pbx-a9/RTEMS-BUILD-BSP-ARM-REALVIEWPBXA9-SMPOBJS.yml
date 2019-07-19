@@ -1,0 +1,22 @@
+active: true
+build-type: objects
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by:
+- RTEMS_SMP
+header: ''
+includes: []
+install: []
+level: 1.2
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: 4w3r4ytPEWX9R0TgMkj0C88WY446GxF288elZldB2IU=
+source:
+- bsps/arm/shared/start/arm-a9mpcore-smp.c
+- bsps/arm/realview-pbx-a9/start/bspsmp.c
+text: ''
+type: build

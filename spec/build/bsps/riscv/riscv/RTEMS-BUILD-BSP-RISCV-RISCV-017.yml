@@ -1,0 +1,23 @@
+actions:
+- get-string: null
+- split: null
+- env-append: null
+active: true
+build-type: option
+default-by-variant: []
+default:
+- -march=rv32imac
+- -mabi=ilp32
+derived: false
+enabled-by: []
+header: ''
+level: 1.16
+links: []
+name: ABI_FLAGS
+normative: true
+order: 0
+ref: ''
+reviewed: e6oC1PquWZOYRDbzmEcsmDRf6l8-gXLUSV-zM0JhbL4=
+text: |
+  ABI flags
+type: build

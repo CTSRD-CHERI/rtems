@@ -1,0 +1,27 @@
+active: true
+build-type: test-program
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by: []
+features: c cprogram
+header: ''
+includes:
+- testsuites/fstests/mimfs_support
+ldflags: []
+level: 1.0
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: tmxvi144OGPPw6y0C8z10ulxxIqJ7Phg272ryTPIvwY=
+source:
+- testsuites/fstests/fstime/test.c
+stlib: []
+target: testsuites/fstests/mimfs_fstime.exe
+text: ''
+type: build
+use-after: []
+use-before:
+- testmimfs

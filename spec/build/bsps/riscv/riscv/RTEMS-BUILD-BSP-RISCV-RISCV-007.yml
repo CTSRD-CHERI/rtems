@@ -1,0 +1,20 @@
+actions:
+- get-boolean: null
+- define-condition: null
+active: true
+build-type: option
+default-by-variant: []
+default: true
+derived: false
+enabled-by: []
+header: ''
+level: 1.6
+links: []
+name: BSP_FDT_BLOB_READ_ONLY
+normative: true
+order: 0
+ref: ''
+reviewed: dyJ9kgKnVRFGRZQot_CL0jz6OpngWEhANL4OZ5w3QRs=
+text: |
+  Place the FDT blob into the read-only data area
+type: build

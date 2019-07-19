@@ -1,0 +1,34 @@
+active: true
+build-type: config-file
+content: |
+  #
+  # pkg-config support file for RTEMS BSP ${ARCH}/${BSP_NAME}
+  #
+  # Warning: This stuff is experimental and may be changed at any time.
+  #
+  prefix=${PREFIX}
+  exec_prefix=$${prefix}/${ARCH}-rtems${__RTEMS_MAJOR__}
+  libdir=$${exec_prefix}/${BSP_NAME}/lib
+  includedir=$${libdir}/include
+
+  CFLAGS=${ABI_FLAGS}
+  RTEMS_BSP=${BSP_NAME}
+
+  Name: ${ARCH}-rtems${__RTEMS_MAJOR__}-${BSP_NAME}
+  Version: ${RTEMS_VERSION}
+  Description: RTEMS BSP ${ARCH}/${BSP_NAME}
+  Libs:
+  Cflags: -qrtems --specs bsp_specs -B$${libdir} $${CFLAGS}
+derived: false
+install-path: ${PREFIX}/lib/pkgconfig
+enabled-by: []
+header: ''
+level: 1.3
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: null
+target: ${ARCH}-rtems${__RTEMS_MAJOR__}-${BSP_NAME}.pc
+text: ''
+type: build

@@ -1,0 +1,26 @@
+active: true
+build-type: test-program
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by: []
+features: c cprogram
+header: ''
+includes: []
+ldflags: []
+level: '1.90'
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: null
+source:
+- testsuites/sptests/spcpuset01/test.c
+- testsuites/sptests/spcpuset01/init.c
+stlib: []
+target: testsuites/sptests/spcpuset01.exe
+text: ''
+type: build
+use-before: []
+use-after: []

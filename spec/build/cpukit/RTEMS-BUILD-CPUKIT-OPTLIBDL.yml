@@ -1,0 +1,26 @@
+actions:
+- set-value: true
+- env-enable: null
+active: true
+build-type: option
+default-by-variant: []
+default: null
+derived: false
+enabled-by:
+- arm
+- i386
+- m68k
+- mips
+- moxie
+- powerpc
+- sparc
+header: ''
+level: 1.47
+links: []
+name: BUILD_LIBDL
+normative: true
+order: 0
+ref: ''
+reviewed: LXEn-HgtXt_jvXFC8s2nHNoVBNzpgOhJqP77YEEGTbQ=
+text: ''
+type: build

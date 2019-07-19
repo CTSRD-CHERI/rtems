@@ -1,0 +1,20 @@
+actions:
+- get-boolean: null
+- env-enable: null
+active: true
+build-type: option
+default: true
+default-by-variant: []
+derived: false
+enabled-by: []
+header: ''
+level: 1.3
+links: []
+name: INSTALL_LEGACY_MAKEFILES
+normative: true
+order: -100
+ref: ''
+reviewed: null
+text: |
+  Install the legacy application Makefile framework.
+type: build

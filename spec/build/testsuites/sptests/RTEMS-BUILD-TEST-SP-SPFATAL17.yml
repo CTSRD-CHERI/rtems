@@ -1,0 +1,24 @@
+active: true
+build-type: test-program
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by: []
+features: c cprogram
+header: ''
+includes: []
+ldflags: []
+level: 1.0
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: w-3iLX2M1z40Mx--mLy6D0PXU-1e549lpvRA5dLQ0JY=
+source: []
+stlib: []
+target: testsuites/sptests/spfatal17.exe
+text: ''
+type: build
+use-before: []
+use-after: []

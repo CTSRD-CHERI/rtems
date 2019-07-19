@@ -1,0 +1,21 @@
+active: true
+build-type: objects
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by:
+- i386
+header: ''
+includes: []
+install: []
+level: 1.4
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: DSvo591FN5vwZQz93QMWTmGbVlXiWSb4OAey9OIDUQg=
+source:
+- cpukit/libdebugger/rtems-debugger-i386.c
+text: ''
+type: build

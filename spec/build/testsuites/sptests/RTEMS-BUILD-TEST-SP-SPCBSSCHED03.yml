@@ -1,0 +1,27 @@
+active: true
+build-type: test-program
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by: []
+features: c cprogram
+header: ''
+includes: []
+ldflags: []
+level: '1.80'
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: null
+source:
+- testsuites/sptests/spcbssched03/init.c
+- testsuites/sptests/spcbssched03/tasks_periodic.c
+- testsuites/sptests/spcbssched03/tasks_aperiodic.c
+stlib: []
+target: testsuites/sptests/spcbssched03.exe
+text: ''
+type: build
+use-before: []
+use-after: []

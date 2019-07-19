@@ -1,0 +1,20 @@
+actions:
+- get-boolean: null
+- env-enable: null
+active: true
+build-type: option
+default-by-variant: []
+default: false
+derived: false
+enabled-by: []
+header: ''
+level: 1.83
+links: []
+name: BUILD_SMPTESTS
+normative: true
+order: -1000
+ref: ''
+reviewed: z5KvLRYA2cWkUlrFW1iKuEQk1tK_-YADzGNjngbVFec=
+text: |
+  Build the SMP test programs (may be also enabled by BUILD_TESTS)
+type: build

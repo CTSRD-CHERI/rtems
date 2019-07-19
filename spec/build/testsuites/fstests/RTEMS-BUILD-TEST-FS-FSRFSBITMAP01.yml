@@ -1,0 +1,29 @@
+active: true
+build-type: test-program
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by: []
+features: c cprogram
+header: ''
+includes:
+- testsuites/fstests/mrfs_support
+ldflags: []
+level: 1.0
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: A_8CPkC3nYBpFu77SUMJ4kUIvCx6qPS6i3BZoVZzMhE=
+source:
+- testsuites/fstests/fsrfsbitmap01/test.c
+- testsuites/fstests/mrfs_support/fs_support.c
+- testsuites/fstests/support/fstest_support.c
+- testsuites/fstests/support/ramdisk_support.c
+stlib: []
+target: testsuites/fstests/fsrfsbitmap01.exe
+text: ''
+type: build
+use-after: []
+use-before: []

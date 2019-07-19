@@ -1,0 +1,22 @@
+actions:
+- get-string: null
+- split: null
+- env-append: LDFLAGS
+active: true
+build-type: option
+default-by-variant: []
+default:
+- -Wl,--gc-sections
+derived: false
+enabled-by: []
+header: ''
+level: '1.30'
+links: []
+name: LDFLAGS
+normative: true
+order: 0
+ref: ''
+reviewed: S92-pHpWz-8_p2Vx6SUwIsK9OMEhpV4tlJkF5iN9Ps8=
+text: |
+  Flags passed to the linker (GNU ld)
+type: build

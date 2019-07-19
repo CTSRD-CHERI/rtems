@@ -1,0 +1,19 @@
+actions:
+- set-value: rtems-syms
+- find-program: null
+- env-assign: RTEMS_SYMS
+active: true
+build-type: option
+default-by-variant: []
+default: null
+derived: false
+enabled-by: []
+header: ''
+level: 1.39
+links: []
+normative: true
+order: -100
+ref: ''
+reviewed: oRRzhna6a47p0_QjPWqYLful9JgHGbxMqy-q7mSiZiU=
+text: ''
+type: build

@@ -1,0 +1,29 @@
+active: true
+build-type: ada-test-program
+adaflags: []
+cflags: []
+cppflags: []
+includes: []
+adaincludes:
+- cpukit/include/adainclude
+- testsuites/ada/support
+ldflags: []
+stlib: []
+ada-object-directory: testsuites/ada/samples/base_sp
+source:
+- testsuites/ada/samples/base_sp/init.c
+ada-main: testsuites/ada/samples/base_sp/base_sp.adb
+target: testsuites/ada/ada_base_sp.exe
+derived: false
+enabled-by: []
+header: ''
+level: '1.125'
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: ''
+type: build
+use-before: []
+use-after: []

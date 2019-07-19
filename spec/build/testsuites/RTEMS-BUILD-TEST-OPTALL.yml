@@ -1,0 +1,20 @@
+actions:
+- get-boolean: null
+- env-enable: null
+active: true
+build-type: option
+default-by-variant: []
+default: false
+derived: false
+enabled-by: []
+header: ''
+level: 1.83
+links: []
+name: BUILD_TESTS
+normative: true
+order: -1000
+ref: ''
+reviewed: tiLYnjoIg4MzuUdcaahroKdN7fK1LYZJVxiqVfc64UA=
+text: |
+  Build the test programs
+type: build

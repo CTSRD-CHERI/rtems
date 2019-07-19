@@ -1,0 +1,68 @@
+active: true
+build-type: group
+install: []
+derived: false
+enabled-by:
+- BUILD_TESTS
+- BUILD_TMTESTS
+header: ''
+includes:
+- testsuites/support/include
+- testsuites/tmtests/include
+ldflags:
+- -Wl,--wrap=printf
+- -Wl,--wrap=puts
+level: '1.43'
+links:
+- RTEMS-BUILD-TEST-TM-TM01: null
+- RTEMS-BUILD-TEST-TM-TM02: null
+- RTEMS-BUILD-TEST-TM-TM03: null
+- RTEMS-BUILD-TEST-TM-TM04: null
+- RTEMS-BUILD-TEST-TM-TM05: null
+- RTEMS-BUILD-TEST-TM-TM06: null
+- RTEMS-BUILD-TEST-TM-TM07: null
+- RTEMS-BUILD-TEST-TM-TM08: null
+- RTEMS-BUILD-TEST-TM-TM09: null
+- RTEMS-BUILD-TEST-TM-TM10: null
+- RTEMS-BUILD-TEST-TM-TM11: null
+- RTEMS-BUILD-TEST-TM-TM12: null
+- RTEMS-BUILD-TEST-TM-TM13: null
+- RTEMS-BUILD-TEST-TM-TM14: null
+- RTEMS-BUILD-TEST-TM-TM15: null
+- RTEMS-BUILD-TEST-TM-TM16: null
+- RTEMS-BUILD-TEST-TM-TM17: null
+- RTEMS-BUILD-TEST-TM-TM18: null
+- RTEMS-BUILD-TEST-TM-TM19: null
+- RTEMS-BUILD-TEST-TM-TM20: null
+- RTEMS-BUILD-TEST-TM-TM21: null
+- RTEMS-BUILD-TEST-TM-TM22: null
+- RTEMS-BUILD-TEST-TM-TM23: null
+- RTEMS-BUILD-TEST-TM-TM24: null
+- RTEMS-BUILD-TEST-TM-TM25: null
+- RTEMS-BUILD-TEST-TM-TM26: null
+- RTEMS-BUILD-TEST-TM-TM27: null
+- RTEMS-BUILD-TEST-TM-TM28: null
+- RTEMS-BUILD-TEST-TM-TM29: null
+- RTEMS-BUILD-TEST-TM-TM30: null
+- RTEMS-BUILD-TEST-TM-TM31: null
+- RTEMS-BUILD-TEST-TM-TM32: null
+- RTEMS-BUILD-TEST-TM-TM33: null
+- RTEMS-BUILD-TEST-TM-TM34: null
+- RTEMS-BUILD-TEST-TM-TM35: null
+- RTEMS-BUILD-TEST-TM-TM36: null
+- RTEMS-BUILD-TEST-TM-TMCK: null
+- RTEMS-BUILD-TEST-TM-TMCONTEXT01: null
+- RTEMS-BUILD-TEST-TM-TMFINE01: null
+- RTEMS-BUILD-TEST-TM-TMONETOONE: null
+- RTEMS-BUILD-TEST-TM-TMOVERHD: null
+- RTEMS-BUILD-TEST-TM-TMTIMER01: null
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: ''
+top-level: false
+type: build
+use-before: []
+use-after:
+- rtemstest

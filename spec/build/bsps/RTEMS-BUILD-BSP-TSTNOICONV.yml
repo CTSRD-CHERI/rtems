@@ -1,0 +1,20 @@
+actions:
+- set-test-state:
+    iconv: exclude
+    iconvopen: exclude
+    iconvclose: exclude
+active: true
+build-type: option
+default-by-variant: []
+default: null
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: ''
+type: build

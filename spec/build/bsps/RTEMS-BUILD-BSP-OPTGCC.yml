@@ -1,0 +1,23 @@
+actions:
+- set-value: STARTUP
+- env-assign: RISCV_LINKER_START_DIRECTIVE
+- set-value: ALIGN_WITH_INPUT
+- env-assign: RISCV_LINKER_ALIGN_DIRECTIVE
+active: true
+build-type: option
+default-by-variant: []
+default: null
+derived: false
+enabled-by:
+- gcc
+header: ''
+level: 1.16
+links: []
+name: null
+normative: true
+order: 0
+ref: ''
+reviewed: qK46HrQo2n8gQ1cV69dj5tYzb4P61wHPIOC67vvtj9U=
+text: |
+  Provides GCC and GNU ld support.
+type: build

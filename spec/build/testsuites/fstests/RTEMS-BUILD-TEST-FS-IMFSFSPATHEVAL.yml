@@ -1,0 +1,27 @@
+active: true
+build-type: test-program
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by: []
+features: c cprogram
+header: ''
+includes:
+- testsuites/fstests/imfs_support
+ldflags: []
+level: 1.0
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: p0Nq4vp9DraaHPA7T_dvdwVfKSIPmLM3lJ3-BPo_Iqg=
+source:
+- testsuites/fstests/fspatheval/test.c
+stlib: []
+target: testsuites/fstests/imfs_fspatheval.exe
+text: ''
+type: build
+use-after: []
+use-before:
+- testimfs

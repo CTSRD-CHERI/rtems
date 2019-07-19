@@ -1,0 +1,23 @@
+active: true
+arch: arm
+bsp: xilinx_zynq_zc706
+build-type: bsp
+cflags: []
+cppflags: []
+derived: true
+enabled-by: []
+family: xilinx-zynq
+header: ''
+includes: []
+install: []
+level: 1.24
+links:
+- RTEMS-BUILD-BSP-O2: RRJhqKUzEPxgCMGswDNVM5d6muMZd8OH_JHEVNMWv1k=
+- RTEMS-BUILD-BSP-ARM-XILINXZYNQ-GROUP: YF5dNJaCuFFa0UCbMHyqcV6hOHBPXAfRQKawipL6w1E=
+normative: true
+order: 0
+ref: ''
+reviewed: L9t2r9EjeYOVkqp1t-lOqM4eBIbzKsEWJIMSuI6JVzo=
+source: []
+text: ''
+type: build

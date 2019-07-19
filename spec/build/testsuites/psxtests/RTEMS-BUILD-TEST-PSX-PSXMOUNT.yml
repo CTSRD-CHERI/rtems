@@ -1,0 +1,26 @@
+active: true
+build-type: test-program
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by: []
+features: c cprogram
+header: ''
+includes: []
+ldflags: []
+level: '1.71'
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: null
+source:
+- testsuites/psxtests/psxmount/main.c
+- testsuites/psxtests/psxmount/test.c
+stlib: []
+target: testsuites/psxtests/psxmount.exe
+text: ''
+type: build
+use-before: []
+use-after: []

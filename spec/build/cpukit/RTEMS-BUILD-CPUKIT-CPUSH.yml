@@ -1,0 +1,36 @@
+active: true
+build-type: objects
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by:
+- sh
+header: ''
+includes: []
+install:
+- destination: ${BSP_INCLUDEDIR}/rtems
+  source:
+  - cpukit/score/cpu/sh/include/rtems/asm.h
+- destination: ${BSP_INCLUDEDIR}/rtems/score
+  source:
+  - cpukit/score/cpu/sh/include/rtems/score/cpu.h
+  - cpukit/score/cpu/sh/include/rtems/score/cpuatomic.h
+  - cpukit/score/cpu/sh/include/rtems/score/cpuimpl.h
+  - cpukit/score/cpu/sh/include/rtems/score/sh.h
+  - cpukit/score/cpu/sh/include/rtems/score/sh_io.h
+level: 1.34
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: jqTdLVH9GBxp9-MYuAbbMyFC1VQtyGEpcRxjr8awzmc=
+source:
+- cpukit/score/cpu/no_cpu/cpucounterfrequency.c
+- cpukit/score/cpu/no_cpu/cpucounterread.c
+- cpukit/score/cpu/no_cpu/cpuidle.c
+- cpukit/score/cpu/sh/context.c
+- cpukit/score/cpu/sh/cpu.c
+- cpukit/score/cpu/sh/sh-exception-frame-print.c
+text: ''
+type: build

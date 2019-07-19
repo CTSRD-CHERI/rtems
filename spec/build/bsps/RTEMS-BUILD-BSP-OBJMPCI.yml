@@ -1,0 +1,38 @@
+active: true
+build-type: objects
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by:
+- RTEMS_MULTIPROCESSING
+header: ''
+includes: []
+install:
+- destination: ${BSP_INCLUDEDIR}
+  source:
+  - bsps/include/mpci.h
+  - bsps/include/shm_driver.h
+level: 1.0
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: G3nZiEJdrxpN0oqcuDq8o0pt756DYfMk2UECU6ULObA=
+source:
+- bsps/shared/shmdr/shmdr-addlq.c
+- bsps/shared/shmdr/shmdr-cnvpkt.c
+- bsps/shared/shmdr/shmdr-dump.c
+- bsps/shared/shmdr/shmdr-fatal.c
+- bsps/shared/shmdr/shmdr-getlq.c
+- bsps/shared/shmdr/shmdr-getpkt.c
+- bsps/shared/shmdr/shmdr-init.c
+- bsps/shared/shmdr/shmdr-initlq.c
+- bsps/shared/shmdr/shmdr-intr.c
+- bsps/shared/shmdr/shmdr-mpisr.c
+- bsps/shared/shmdr/shmdr-poll.c
+- bsps/shared/shmdr/shmdr-receive.c
+- bsps/shared/shmdr/shmdr-retpkt.c
+- bsps/shared/shmdr/shmdr-send.c
+text: ''
+type: build

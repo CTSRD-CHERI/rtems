@@ -1,0 +1,27 @@
+active: true
+build-type: test-program
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by: []
+features: c cprogram
+header: ''
+includes:
+- testsuites/fstests/mimfs_support
+ldflags: []
+level: 1.0
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: RgtBbikVbc4QH67uLH0WTUZ-7JVd_mZF6uZ-aXNgRFk=
+source:
+- testsuites/fstests/fslink/test.c
+stlib: []
+target: testsuites/fstests/mimfs_fslink.exe
+text: ''
+type: build
+use-after: []
+use-before:
+- testmimfs

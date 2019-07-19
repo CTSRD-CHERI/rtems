@@ -1,0 +1,21 @@
+active: true
+build-type: objects
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by:
+- RTEMS_SMP
+header: ''
+includes: []
+install: []
+level: 1.2
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: amW3TQs8HxjvprXx2YeutOlBwODN_xFwVNn-7QFoVc4=
+source:
+- bsps/riscv/riscv/start/bspsmp.c
+text: ''
+type: build

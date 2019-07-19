@@ -1,0 +1,27 @@
+active: true
+build-type: test-program
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by:
+- RTEMS_SMP
+features: c cprogram
+header: ''
+includes: []
+ldflags: []
+level: '1.52'
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: null
+source:
+- testsuites/smptests/smpscheduler06/init.c
+- testsuites/smptests/smpscheduler03/test.c
+stlib: []
+target: testsuites/smptests/smpscheduler06.exe
+text: ''
+type: build
+use-before: []
+use-after: []

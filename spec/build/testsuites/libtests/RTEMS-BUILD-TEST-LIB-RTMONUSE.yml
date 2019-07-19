@@ -1,0 +1,27 @@
+active: true
+build-type: test-program
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by: []
+features: c cprogram
+header: ''
+includes: []
+ldflags: []
+level: '1.108'
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: null
+source:
+- testsuites/libtests/rtmonuse/init.c
+- testsuites/libtests/rtmonuse/getall.c
+- testsuites/libtests/rtmonuse/task1.c
+stlib: []
+target: testsuites/libtests/rtmonuse.exe
+text: ''
+type: build
+use-before: []
+use-after: []

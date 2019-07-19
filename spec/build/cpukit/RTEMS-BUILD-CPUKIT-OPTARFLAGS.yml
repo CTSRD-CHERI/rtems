@@ -1,0 +1,22 @@
+actions:
+- get-string: null
+- split: null
+- env-assign: ARFLAGS
+active: true
+build-type: option
+default-by-variant: []
+default:
+- crD
+derived: false
+enabled-by: []
+header: ''
+level: 1.33
+links: []
+name: ARFLAGS
+normative: true
+order: 0
+ref: ''
+reviewed: BfC0jRi7FJEizkg6mtX6B5cQT0IITbOlSFn-OySi-Q0=
+text: |
+  Flags passed to the library archiver
+type: build

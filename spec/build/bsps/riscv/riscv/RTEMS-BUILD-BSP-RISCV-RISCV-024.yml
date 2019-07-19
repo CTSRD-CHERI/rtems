@@ -1,0 +1,23 @@
+active: true
+arch: riscv
+bsp: rv32imac
+build-type: bsp
+cflags: []
+cppflags: []
+derived: false
+enabled-by: []
+family: riscv
+header: ''
+includes: []
+install: []
+level: 1.15
+links:
+- RTEMS-BUILD-BSP-RISCV-RISCV-GROUP: XQrIv-OgquoxKMt5GWdC6Y4-q9_4s9qJMbO3Qn1GaZk=
+- RTEMS-BUILD-BSP-RISCV-RISCV-025: tdjjtIXKwt3x23877ycNquNJRL7OIQZpOdNU152ey2w=
+normative: true
+order: 0
+ref: ''
+reviewed: lvGep7tD1j1C5wDXjHG-GtDJoSZAzYelvASIJapZWE8=
+source: []
+text: ''
+type: build

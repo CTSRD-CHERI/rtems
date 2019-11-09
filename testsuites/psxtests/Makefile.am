@@ -1020,9 +1020,9 @@ psxusleep_CPPFLAGS = $(AM_CPPFLAGS) $(TEST_FLAGS_psxusleep) \
 	$(support_includes) -I$(top_srcdir)/include
 endif
 
-if TEST_lib_a
-psx_lib += lib.a
-lib_a_SOURCES = psxhdrs/devctl/posix_devctl.c \
+if TEST_libpsxhdrs_a
+psx_lib += libpsxhdrs.a
+libpsxhdrs_a_SOURCES = psxhdrs/devctl/posix_devctl.c \
 	psxhdrs/pthread/pthread_attr_destroy.c \
 	psxhdrs/pthread/pthread_attr_getdetachstate.c \
 	psxhdrs/pthread/pthread_attr_getguardsize.c \
@@ -1888,69 +1888,69 @@ lib_a_SOURCES = psxhdrs/devctl/posix_devctl.c \
 	psxhdrs/termios/tcsetattr.c
 
 ## Not supported by RTEMS, but POSIX API Compliance tests exist.
-## lib_a_SOURCES += psxhdrs/ulimit/ulimit.c
-## lib_a_SOURCES += psxhdrs/monetary/strfmon.c
-## lib_a_SOURCES += psxhdrs/monetary/strfmon_l.c
+## libpsxhdrs_a_SOURCES += psxhdrs/ulimit/ulimit.c
+## libpsxhdrs_a_SOURCES += psxhdrs/monetary/strfmon.c
+## libpsxhdrs_a_SOURCES += psxhdrs/monetary/strfmon_l.c
 
 ## Specific issues that tickets are tracking
-## lib_a_SOURCES += psxhdrs/dirent/dirfd.c               See ticket #3371
-## lib_a_SOURCES += psxhdrs/dirent/fdopendir.c           See ticket #3371
-## lib_a_SOURCES += psxhdrs/fcntl/posix_fadvise.c        See ticket #3656
-## lib_a_SOURCES += psxhdrs/fcntl/posix_fallocate.c      See ticket #3656
-## lib_a_SOURCES += psxhdrs/fenv/feclearexcept.c         See ticket #2971
-## lib_a_SOURCES += psxhdrs/fenv/fegetenv.c              See ticket #2971
-## lib_a_SOURCES += psxhdrs/fenv/fegetexceptflag.c       See ticket #2971
-## lib_a_SOURCES += psxhdrs/fenv/fegetround.c            See ticket #2971
-## lib_a_SOURCES += psxhdrs/fenv/feholdexcept.c          See ticket #2971
-## lib_a_SOURCES += psxhdrs/fenv/feraiseexcept.c         See ticket #2971
-## lib_a_SOURCES += psxhdrs/fenv/fesetenv.c              See ticket #2971
-## lib_a_SOURCES += psxhdrs/fenv/fesetexceptflag.c       See ticket #2971
-## lib_a_SOURCES += psxhdrs/fenv/fesetround.c            See ticket #2971
-## lib_a_SOURCES += psxhdrs/fenv/fetestexcept.c          See ticket #2971
-## lib_a_SOURCES += psxhdrs/fmtmsg/fmtmsg.c              See ticket #3639
-## lib_a_SOURCES += psxhdrs/ftw/ftw.c                    See ticket #2970
-## lib_a_SOURCES += psxhdrs/math/y0l.c                   See ticket #3638
-## lib_a_SOURCES += psxhdrs/math/y1l.c                   See ticket #3638
-## lib_a_SOURCES += psxhdrs/math/ynl.c                   See ticket #3638
-## lib_a_SOURCES += psxhdrs/poll/poll.c                  See ticket #3657
-## lib_a_SOURCES += psxhdrs/ftw/nftw.c                   See ticket #2970
-## lib_a_SOURCES += psxhdrs/stdio/getdelim.c	         See ticket #3633
-## lib_a_SOURCES += psxhdrs/stdio/getline.c              See ticket #3633
-## lib_a_SOURCES += psxhdrs/ucontext/getcontext.c        See ticket #3640
-## lib_a_SOURCES += psxhdrs/ucontext/makecontext.c       See ticket #3640
-## lib_a_SOURCES += psxhdrs/ucontext/setcontext.c        See ticket #3640
-## lib_a_SOURCES += psxhdrs/ucontext/swapcontext.c       See ticket #3640
-## lib_a_SOURCES += psxhdrs/c11/uchar/c16rtomb.c         See ticket #3643
-## lib_a_SOURCES += psxhdrs/c11/uchar/c32rtomb.c         See ticket #3643
-## lib_a_SOURCES += psxhdrs/c11/uchar/c32rtomb.c         See ticket #3643
-## lib_a_SOURCES += psxhdrs/c11/uchar/mbrtoc32.c         See ticket #3643
-## lib_a_SOURCES += psxhdrs/stdlib/getsubopt.c 	         See ticket #3644
-## lib_a_SOURCES += psxhdrs/stdlib/grantpt.c 	         See ticket #3645
-## lib_a_SOURCES += psxhdrs/stdlib/posix_openpt.c        See ticket #3646
-## lib_a_SOURCES += psxhdrs/stdlib/posix_openpt.c        See ticket #3646
-## lib_a_SOURCES += psxhdrs/stdlib/ptsname.c             See ticket #3647
-## lib_a_SOURCES += psxhdrs/stdlib/unlockpt.c            See ticket #3648
-## lib_a_SOURCES += psxhdrs/sys/ftok.c                   See ticket #3650
-## lib_a_SOURCES += psxhdrs/sys/msg/msgctl.c             See ticket #3658
-## lib_a_SOURCES += psxhdrs/sys/msg/msgget.c             See ticket #3658
-## lib_a_SOURCES += psxhdrs/sys/msg/msgrcv.c             See ticket #3658
-## lib_a_SOURCES += psxhdrs/sys/msg/msgsnd.c             See ticket #3658
-## lib_a_SOURCES += psxhdrs/sys/resource/getpriority.c   See ticket #3652
-## lib_a_SOURCES += psxhdrs/sys/resource/getrlimit.c     See ticket #3653
-## lib_a_SOURCES += psxhdrs/sys/resource/setpriority.c   See ticket #3654
-## lib_a_SOURCES += psxhdrs/sys/resource/setrlimit.c     See ticket #3655
-## lib_a_SOURCES += psxhdrs/sys/shm/shmat.c              See ticket #3662
-## lib_a_SOURCES += psxhdrs/sys/shm/shmctl.c             See ticket #3662
-## lib_a_SOURCES += psxhdrs/sys/shm/shmdt.c              See ticket #3662
-## lib_a_SOURCES += psxhdrs/sys/shm/shmget.c             See ticket #3662
-## lib_a_SOURCES += psxhdrs/sys/statvfs/statvfs.c        See ticket #3660
-## lib_a_SOURCES += psxhdrs/sys/statvfs/fstatvfs.c       See ticket #3660
-## lib_a_SOURCES += psxhdrs/utmpx/setutxent.c            See ticket #3661
-## lib_a_SOURCES += psxhdrs/utmpx/endutxent.c            See ticket #3661
-## lib_a_SOURCES += psxhdrs/utmpx/getutxent.c            See ticket #3661
-## lib_a_SOURCES += psxhdrs/utmpx/getutxid.c             See ticket #3661
-## lib_a_SOURCES += psxhdrs/utmpx/getutxline.c           See ticket #3661
-## lib_a_SOURCES += psxhdrs/utmpx/pututxline.c           See ticket #3661
+## libpsxhdrs_a_SOURCES += psxhdrs/dirent/dirfd.c               See ticket #3371
+## libpsxhdrs_a_SOURCES += psxhdrs/dirent/fdopendir.c           See ticket #3371
+## libpsxhdrs_a_SOURCES += psxhdrs/fcntl/posix_fadvise.c        See ticket #3656
+## libpsxhdrs_a_SOURCES += psxhdrs/fcntl/posix_fallocate.c      See ticket #3656
+## libpsxhdrs_a_SOURCES += psxhdrs/fenv/feclearexcept.c         See ticket #2971
+## libpsxhdrs_a_SOURCES += psxhdrs/fenv/fegetenv.c              See ticket #2971
+## libpsxhdrs_a_SOURCES += psxhdrs/fenv/fegetexceptflag.c       See ticket #2971
+## libpsxhdrs_a_SOURCES += psxhdrs/fenv/fegetround.c            See ticket #2971
+## libpsxhdrs_a_SOURCES += psxhdrs/fenv/feholdexcept.c          See ticket #2971
+## libpsxhdrs_a_SOURCES += psxhdrs/fenv/feraiseexcept.c         See ticket #2971
+## libpsxhdrs_a_SOURCES += psxhdrs/fenv/fesetenv.c              See ticket #2971
+## libpsxhdrs_a_SOURCES += psxhdrs/fenv/fesetexceptflag.c       See ticket #2971
+## libpsxhdrs_a_SOURCES += psxhdrs/fenv/fesetround.c            See ticket #2971
+## libpsxhdrs_a_SOURCES += psxhdrs/fenv/fetestexcept.c          See ticket #2971
+## libpsxhdrs_a_SOURCES += psxhdrs/fmtmsg/fmtmsg.c              See ticket #3639
+## libpsxhdrs_a_SOURCES += psxhdrs/ftw/ftw.c                    See ticket #2970
+## libpsxhdrs_a_SOURCES += psxhdrs/math/y0l.c                   See ticket #3638
+## libpsxhdrs_a_SOURCES += psxhdrs/math/y1l.c                   See ticket #3638
+## libpsxhdrs_a_SOURCES += psxhdrs/math/ynl.c                   See ticket #3638
+## libpsxhdrs_a_SOURCES += psxhdrs/poll/poll.c                  See ticket #3657
+## libpsxhdrs_a_SOURCES += psxhdrs/ftw/nftw.c                   See ticket #2970
+## libpsxhdrs_a_SOURCES += psxhdrs/stdio/getdelim.c	         See ticket #3633
+## libpsxhdrs_a_SOURCES += psxhdrs/stdio/getline.c              See ticket #3633
+## libpsxhdrs_a_SOURCES += psxhdrs/ucontext/getcontext.c        See ticket #3640
+## libpsxhdrs_a_SOURCES += psxhdrs/ucontext/makecontext.c       See ticket #3640
+## libpsxhdrs_a_SOURCES += psxhdrs/ucontext/setcontext.c        See ticket #3640
+## libpsxhdrs_a_SOURCES += psxhdrs/ucontext/swapcontext.c       See ticket #3640
+## libpsxhdrs_a_SOURCES += psxhdrs/c11/uchar/c16rtomb.c         See ticket #3643
+## libpsxhdrs_a_SOURCES += psxhdrs/c11/uchar/c32rtomb.c         See ticket #3643
+## libpsxhdrs_a_SOURCES += psxhdrs/c11/uchar/c32rtomb.c         See ticket #3643
+## libpsxhdrs_a_SOURCES += psxhdrs/c11/uchar/mbrtoc32.c         See ticket #3643
+## libpsxhdrs_a_SOURCES += psxhdrs/stdlib/getsubopt.c 	         See ticket #3644
+## libpsxhdrs_a_SOURCES += psxhdrs/stdlib/grantpt.c 	         See ticket #3645
+## libpsxhdrs_a_SOURCES += psxhdrs/stdlib/posix_openpt.c        See ticket #3646
+## libpsxhdrs_a_SOURCES += psxhdrs/stdlib/posix_openpt.c        See ticket #3646
+## libpsxhdrs_a_SOURCES += psxhdrs/stdlib/ptsname.c             See ticket #3647
+## libpsxhdrs_a_SOURCES += psxhdrs/stdlib/unlockpt.c            See ticket #3648
+## libpsxhdrs_a_SOURCES += psxhdrs/sys/ftok.c                   See ticket #3650
+## libpsxhdrs_a_SOURCES += psxhdrs/sys/msg/msgctl.c             See ticket #3658
+## libpsxhdrs_a_SOURCES += psxhdrs/sys/msg/msgget.c             See ticket #3658
+## libpsxhdrs_a_SOURCES += psxhdrs/sys/msg/msgrcv.c             See ticket #3658
+## libpsxhdrs_a_SOURCES += psxhdrs/sys/msg/msgsnd.c             See ticket #3658
+## libpsxhdrs_a_SOURCES += psxhdrs/sys/resource/getpriority.c   See ticket #3652
+## libpsxhdrs_a_SOURCES += psxhdrs/sys/resource/getrlimit.c     See ticket #3653
+## libpsxhdrs_a_SOURCES += psxhdrs/sys/resource/setpriority.c   See ticket #3654
+## libpsxhdrs_a_SOURCES += psxhdrs/sys/resource/setrlimit.c     See ticket #3655
+## libpsxhdrs_a_SOURCES += psxhdrs/sys/shm/shmat.c              See ticket #3662
+## libpsxhdrs_a_SOURCES += psxhdrs/sys/shm/shmctl.c             See ticket #3662
+## libpsxhdrs_a_SOURCES += psxhdrs/sys/shm/shmdt.c              See ticket #3662
+## libpsxhdrs_a_SOURCES += psxhdrs/sys/shm/shmget.c             See ticket #3662
+## libpsxhdrs_a_SOURCES += psxhdrs/sys/statvfs/statvfs.c        See ticket #3660
+## libpsxhdrs_a_SOURCES += psxhdrs/sys/statvfs/fstatvfs.c       See ticket #3660
+## libpsxhdrs_a_SOURCES += psxhdrs/utmpx/setutxent.c            See ticket #3661
+## libpsxhdrs_a_SOURCES += psxhdrs/utmpx/endutxent.c            See ticket #3661
+## libpsxhdrs_a_SOURCES += psxhdrs/utmpx/getutxent.c            See ticket #3661
+## libpsxhdrs_a_SOURCES += psxhdrs/utmpx/getutxid.c             See ticket #3661
+## libpsxhdrs_a_SOURCES += psxhdrs/utmpx/getutxline.c           See ticket #3661
+## libpsxhdrs_a_SOURCES += psxhdrs/utmpx/pututxline.c           See ticket #3661
 endif
 
 noinst_PROGRAMS = $(psx_tests)

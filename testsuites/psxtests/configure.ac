@@ -150,7 +150,7 @@ RTEMS_TEST_CHECK([psxtimer02])
 RTEMS_TEST_CHECK([psxtimes01])
 RTEMS_TEST_CHECK([psxualarm])
 RTEMS_TEST_CHECK([psxusleep])
-RTEMS_TEST_CHECK([lib_a])
+RTEMS_TEST_CHECK([libpsxhdrs_a])
 
 AC_CONFIG_FILES([Makefile])
 AC_OUTPUT

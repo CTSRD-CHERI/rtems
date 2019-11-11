@@ -11,9 +11,7 @@ AM_INIT_AUTOMAKE([no-define nostdinc foreign 1.12.2])
 RTEMS_BSP_CONFIGURE
 
 RTEMS_BSPOPTS_SET([RTEMS_XPARAMETERS_H],[*],[\<xparameters_dflt.h\>])
-RTEMS_BSPOPTS_HELP([RTEMS_XPARAMETERS_H],
-[This defines the location of the hardware specific "xparameters.h" file.
- in the file system. Specify an absolute path. Do not forget the double quotes])
+RTEMS_BSPOPTS_HELP([RTEMS_XPARAMETERS_H], [This defines the location of the hardware specific "xparameters.h" file.  in the file system. Specify an absolute path. Do not forget the double quotes])
 
 RTEMS_BSPOPTS_SET([VIRTEX_CONSOLE_USE_INTERRUPTS],[*],[1])
 RTEMS_BSPOPTS_HELP([VIRTEX_CONSOLE_USE_INTERRUPTS],[if defined use interrupt driven Termios mode])

@@ -13,11 +13,7 @@ RTEMS_BSP_CONFIGURE
 
 
 RTEMS_BSPOPTS_SET([ON_SKYEYE],[*],[0])
-RTEMS_BSPOPTS_HELP([ON_SKYEYE],
-[If defined, enable options which optimize executingon the Skyeye
- simulator.  Speed up the clock ticks while the idle task is running so
- time spent in the idle task is minimized.  This significantly reduces
- the wall time required to execute the RTEMS test suites.])
+RTEMS_BSPOPTS_HELP([ON_SKYEYE], [If defined, enable options which optimize executingon the Skyeye simulator.  Speed up the clock ticks while the idle task is running so time spent in the idle task is minimized.  This significantly reduces the wall time required to execute the RTEMS test suites.])
 AM_CONDITIONAL(ON_SKYEYE,test "$ON_SKYEYE" = "1")
 
 

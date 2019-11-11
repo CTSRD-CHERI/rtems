@@ -16,13 +16,10 @@ RTEMS_BSP_CONFIGURE
 AC_DEFINE(CPU_CLOCK_RATE_HZ, 29491200, [cpu clock rate in HZ])
 
 RTEMS_BSPOPTS_SET([START_HW_INIT],[*],[])
-RTEMS_BSPOPTS_HELP([START_HW_INIT],
-[If defined, selects whether 'early_hw_init()' is called from 'start.S';
- 'bsp_hw_init()' is always called from 'bspstart.c'])
+RTEMS_BSPOPTS_HELP([START_HW_INIT],[If defined, selects whether 'early_hw_init()' is called from 'start.S'; 'bsp_hw_init()' is always called from 'bspstart.c'])
 
 RTEMS_BSPOPTS_SET([STANDALONE_EVB],[*],[])
-RTEMS_BSPOPTS_HELP([STANDALONE_EVB],
-[If defined, compiles code to jump-start from FLASH, without a monitor])
+RTEMS_BSPOPTS_HELP([STANDALONE_EVB],[If defined, compiles code to jump-start from FLASH, without a monitor])
 
 RTEMS_BSP_CLEANUP_OPTIONS
 

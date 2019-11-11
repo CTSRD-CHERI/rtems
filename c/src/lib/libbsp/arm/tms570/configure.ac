@@ -23,20 +23,16 @@ RTEMS_BSPOPTS_SET([TMS570_SCI_BAUD_RATE],[*],[115200U])
 RTEMS_BSPOPTS_HELP([TMS570_SCI_BAUD_RATE],[baud for UARTs])
 
 RTEMS_BSPOPTS_SET([CONSOLE_USE_INTERRUPTS],[*],[1])
-RTEMS_BSPOPTS_HELP([CONSOLE_USE_INTERRUPTS],
-[The tms570 console driver can operate in either polled or interrupt mode.])
+RTEMS_BSPOPTS_HELP([CONSOLE_USE_INTERRUPTS], [The tms570 console driver can operate in either polled or interrupt mode.])
 
 RTEMS_BSPOPTS_SET([ARM_TMS570LS3137],[*],[0])
 RTEMS_BSPOPTS_HELP([ARM_TMS570LS3137],[target used for identify TMS570LS3137 board])
 
 RTEMS_BSPOPTS_SET([BSP_MINIMUM_TASK_STACK_SIZE],[*],[1024])
-RTEMS_BSPOPTS_HELP([BSP_MINIMUM_TASK_STACK_SIZE],[Suggested minimum task stack
-			size in bytes])
+RTEMS_BSPOPTS_HELP([BSP_MINIMUM_TASK_STACK_SIZE],[Suggested minimum task stack size in bytes])
 
 RTEMS_BSPOPTS_SET([BSP_START_NEEDS_REGISTER_INITIALIZATION],[*],[1])
-RTEMS_BSPOPTS_HELP([BSP_START_NEEDS_REGISTER_INITIALIZATION],
-					[The TMS570 needs to have the registers of its CPU initialized
-					to avoid CCMR4F errors])
+RTEMS_BSPOPTS_HELP([BSP_START_NEEDS_REGISTER_INITIALIZATION], [The TMS570 needs to have the registers of its CPU initialized to avoid CCMR4F errors])
 
 RTEMS_BSPOPTS_SET([TMS570_OSCILLATOR_MAIN],[*],[12000000U])
 RTEMS_BSPOPTS_HELP([TMS570_OSCILLATOR_MAIN],[main oscillator frequency in Hz])

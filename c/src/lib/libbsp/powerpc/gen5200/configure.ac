@@ -19,26 +19,11 @@ RTEMS_BSPOPTS_SET_INSTRUCTION_CACHE_ENABLED([*],[1])
 RTEMS_BSPOPTS_HELP_INSTRUCTION_CACHE_ENABLED
 
 RTEMS_BSPOPTS_SET([BENCHMARK_IRQ_PROCESSING],[*],[0])
-RTEMS_BSPOPTS_HELP([BENCHMARK_IRQ_PROCESSING],
-[If set to !0, enable code to benchmark IRQ processing.])
+RTEMS_BSPOPTS_HELP([BENCHMARK_IRQ_PROCESSING], [If set to !0, enable code to benchmark IRQ processing.])
 
 RTEMS_BSPOPTS_SET([ALLOW_IRQ_NESTING],[icecube],[0])
 RTEMS_BSPOPTS_SET([ALLOW_IRQ_NESTING],[*],[1])
-RTEMS_BSPOPTS_HELP([ALLOW_IRQ_NESTING],
-[If set to !0, allow nested IRQ processing.])
-
-RTEMS_BSPOPTS_SET([BSP_PRESS_KEY_FOR_RESET],[icecube],[1])
-RTEMS_BSPOPTS_SET([BSP_PRESS_KEY_FOR_RESET],[*],[0])
-RTEMS_BSPOPTS_HELP([BSP_PRESS_KEY_FOR_RESET],
-[If set to !0, print a message and wait until pressed before resetting
- board when application exits.])
-
-RTEMS_BSPOPTS_SET([BSP_RESET_BOARD_AT_EXIT],[icecube],[1])
-RTEMS_BSPOPTS_SET([BSP_RESET_BOARD_AT_EXIT],[pm520_*],[1])
-RTEMS_BSPOPTS_SET([BSP_RESET_BOARD_AT_EXIT],[brs*l],[1])
-RTEMS_BSPOPTS_SET([BSP_RESET_BOARD_AT_EXIT],[*],[0])
-RTEMS_BSPOPTS_HELP([BSP_RESET_BOARD_AT_EXIT],
-[If set to !0, reset the board when the application exits.])
+RTEMS_BSPOPTS_HELP([ALLOW_IRQ_NESTING], [If set to !0, allow nested IRQ processing.])
 
 RTEMS_BSPOPTS_SET([BSP_GPIOPCR_INITMASK],[pm520_ze30],[0x037F3F07])
 RTEMS_BSPOPTS_SET([BSP_GPIOPCR_INITVAL],[pm520_ze30],[0x01552104])
@@ -52,16 +37,8 @@ RTEMS_BSPOPTS_SET([BSP_GPIOPCR_INITVAL],[dp2],[0x03550040])
 RTEMS_BSPOPTS_SET([BSP_GPIOPCR_INITMASK],[*],[0x330F0F77])
 RTEMS_BSPOPTS_SET([BSP_GPIOPCR_INITVAL],[*],[0x01050444])
 
-RTEMS_BSPOPTS_HELP([BSP_GPIOPCR_INITMASK],
-[Defines the bits cleared in the MPC5200 GPIOPCR register during
-initialization.  Must match the hardware requirements.  Must be consistent with
-BSP_GPIOPCR_INITVAL.  The bits are cleared via BSP_GPIOPCR_INITMASK and then
-set via BSP_GPIOPCR_INITVAL.])
-RTEMS_BSPOPTS_HELP([BSP_GPIOPCR_INITVAL],
-[Defines the bits set in the MPC5200 GPIOPCR register during initialization.
-Must match the hardware requirements.  Must be consistent with
-BSP_GPIOPCR_INITMASK.  The bits are cleared via BSP_GPIOPCR_INITMASK and then
-set via BSP_GPIOPCR_INITVAL.])
+RTEMS_BSPOPTS_HELP([BSP_GPIOPCR_INITMASK], [Defines the bits cleared in the MPC5200 GPIOPCR register during initialization.  Must match the hardware requirements.  Must be consistent with BSP_GPIOPCR_INITVAL.  The bits are cleared via BSP_GPIOPCR_INITMASK and then set via BSP_GPIOPCR_INITVAL.])
+RTEMS_BSPOPTS_HELP([BSP_GPIOPCR_INITVAL], [Defines the bits set in the MPC5200 GPIOPCR register during initialization.  Must match the hardware requirements.  Must be consistent with BSP_GPIOPCR_INITMASK.  The bits are cleared via BSP_GPIOPCR_INITMASK and then set via BSP_GPIOPCR_INITVAL.])
 
 ## on ze30, we have PSC1/4/5/6 ...
 RTEMS_BSPOPTS_SET([BSP_UART_AVAIL_MASK],[pm520_ze30],[0x39])
@@ -75,9 +52,7 @@ RTEMS_BSPOPTS_SET([BSP_UART_AVAIL_MASK],[icecube],[0x01])
 RTEMS_BSPOPTS_SET([BSP_UART_AVAIL_MASK],[dp2],[0x22])
 ## default
 RTEMS_BSPOPTS_SET([BSP_UART_AVAIL_MASK],[*],[0x01])
-RTEMS_BSPOPTS_HELP([BSP_UART_AVAIL_MASK],
-[bit mask to specify the UARTS (PSCs), which should be enabled on this board. 
- Must match the hardware requirements. PSC1 corresponds to the LSB])
+RTEMS_BSPOPTS_HELP([BSP_UART_AVAIL_MASK], [bit mask to specify the UARTS (PSCs), which should be enabled on this board.  Must match the hardware requirements. PSC1 corresponds to the LSB])
 
 RTEMS_BSPOPTS_SET([MPC5200_PSC_INDEX_FOR_GPS_MODULE],[dp2],[5])
 RTEMS_BSPOPTS_HELP([MPC5200_PSC_INDEX_FOR_GPS_MODULE],[PSC index for GPS module, if defined results in '/dev/gps'])
@@ -93,28 +68,22 @@ RTEMS_BSPOPTS_SET([PRINTK_MINOR],[*],[0])
 RTEMS_BSPOPTS_HELP([PRINTK_MINOR],[console minor number used by printk()])
 
 RTEMS_BSPOPTS_SET([MPC5200_BOARD_PM520_ZE30],[pm520_ze30],[1])
-RTEMS_BSPOPTS_HELP([MPC5200_BOARD_PM520_ZE30],
-[enable settings for PM520 ZE30])
+RTEMS_BSPOPTS_HELP([MPC5200_BOARD_PM520_ZE30], [enable settings for PM520 ZE30])
 
 RTEMS_BSPOPTS_SET([MPC5200_BOARD_PM520_CR825],[pm520_cr825],[1])
-RTEMS_BSPOPTS_HELP([MPC5200_BOARD_PM520_CR825],
-[enable settings for PM520 CR825])
+RTEMS_BSPOPTS_HELP([MPC5200_BOARD_PM520_CR825], [enable settings for PM520 CR825])
 
 RTEMS_BSPOPTS_SET([MPC5200_BOARD_ICECUBE],[icecube],[1])
-RTEMS_BSPOPTS_HELP([MPC5200_BOARD_ICECUBE],
-[enable settings for IceCube])
+RTEMS_BSPOPTS_HELP([MPC5200_BOARD_ICECUBE], [enable settings for IceCube])
 
 RTEMS_BSPOPTS_SET([MPC5200_BOARD_BRS5L],[brs5l],[1])
-RTEMS_BSPOPTS_HELP([MPC5200_BOARD_BRS5L],
-[enable settings for BRS5L])
+RTEMS_BSPOPTS_HELP([MPC5200_BOARD_BRS5L], [enable settings for BRS5L])
 
 RTEMS_BSPOPTS_SET([MPC5200_BOARD_BRS6L],[brs6l],[1])
-RTEMS_BSPOPTS_HELP([MPC5200_BOARD_BRS6L],
-[enable settings for BRS6L])
+RTEMS_BSPOPTS_HELP([MPC5200_BOARD_BRS6L], [enable settings for BRS6L])
 
 RTEMS_BSPOPTS_SET([MPC5200_BOARD_DP2],[dp2],[1])
-RTEMS_BSPOPTS_HELP([MPC5200_BOARD_DP2],
-[enable settings for DP2])
+RTEMS_BSPOPTS_HELP([MPC5200_BOARD_DP2], [enable settings for DP2])
 
 RTEMS_BSPOPTS_SET([HAS_UBOOT],[pm520*],[1])
 RTEMS_BSPOPTS_SET([HAS_UBOOT],[icecube],[1])

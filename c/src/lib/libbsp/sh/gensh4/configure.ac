@@ -23,12 +23,10 @@ AC_DEFINE_UNQUOTED(
 #	This switch selects whether 'early_hw_init()' is called from
 #	'start.S'; 'bsp_hw_init()' is always called from 'bspstart.c'
 RTEMS_BSPOPTS_SET([START_HW_INIT],[*],[0])
-RTEMS_BSPOPTS_HELP([START_HW_INIT],
-   [Whether to call early_hw_init from start.S])
+RTEMS_BSPOPTS_HELP([START_HW_INIT],[Whether to call early_hw_init from start.S])
 
 RTEMS_BSPOPTS_SET([COPY_DATA_FROM_ROM],[*],[0])
-RTEMS_BSPOPTS_HELP([COPY_DATA_FROM_ROM],
-   [Whether to copy data from ROM to RAM in start.S])
+RTEMS_BSPOPTS_HELP([COPY_DATA_FROM_ROM],[Whether to copy data from ROM to RAM in start.S])
 
 RTEMS_BSP_CLEANUP_OPTIONS
 

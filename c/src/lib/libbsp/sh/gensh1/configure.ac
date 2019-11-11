@@ -14,9 +14,7 @@ RTEMS_BSP_CONFIGURE
 
 ## bsp-specific options
 RTEMS_BSPOPTS_SET([START_HW_INIT],[*],[])
-RTEMS_BSPOPTS_HELP([START_HW_INIT],
-[If defined, selects whether 'early_hw_init()' is called from 'start.S';
- 'bsp_hw_init()' is always called from 'bspstart.c'])
+RTEMS_BSPOPTS_HELP([START_HW_INIT],[If defined, selects whether 'early_hw_init()' is called from 'start.S'; 'bsp_hw_init()' is always called from 'bspstart.c'])
 
 AC_DEFINE(CPU_CLOCK_RATE_HZ, 20000000, [cpu clock rate in HZ])
 RTEMS_BSP_CLEANUP_OPTIONS

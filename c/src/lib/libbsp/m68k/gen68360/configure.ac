@@ -16,16 +16,13 @@ RTEMS_BSP_CONFIGURE
 AM_CONDITIONAL(HAS_FPSP,[test "$RTEMS_CPU_MODEL" = "m68040"])
 
 RTEMS_BSPOPTS_SET([PGH360],[pgh360],[1])
-RTEMS_BSPOPTS_HELP([PGH360],
-[If defined, use custom settings for the pgh360 BSP.])
+RTEMS_BSPOPTS_HELP([PGH360], [If defined, use custom settings for the pgh360 BSP.])
 
 RTEMS_BSPOPTS_SET([GEN68360],[gen68360],[1])
-RTEMS_BSPOPTS_HELP([GEN68360],
-[If defined, use custom settings for the gen68360 BSP.])
+RTEMS_BSPOPTS_HELP([GEN68360], [If defined, use custom settings for the gen68360 BSP.])
 
 RTEMS_BSPOPTS_SET([GEN68360_040],[gen68360_040],[1])
-RTEMS_BSPOPTS_HELP([GEN68360_040],
-[If defined, use custom settings for the gen68360_040 BSP.])
+RTEMS_BSPOPTS_HELP([GEN68360_040], [If defined, use custom settings for the gen68360_040 BSP.])
 
 RTEMS_BSP_CLEANUP_OPTIONS
 

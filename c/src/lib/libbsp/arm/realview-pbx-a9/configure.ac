@@ -33,15 +33,10 @@ RTEMS_BSPOPTS_SET([BSP_ARM_A9MPCORE_PERIPHCLK],[*],[100000000U])
 RTEMS_BSPOPTS_HELP([BSP_ARM_A9MPCORE_PERIPHCLK],[ARM Cortex-A9 MPCore PERIPHCLK clock frequency in Hz])
 
 RTEMS_BSPOPTS_SET([CLOCK_DRIVER_USE_FAST_IDLE],[*qemu*],[1])
-RTEMS_BSPOPTS_HELP([CLOCK_DRIVER_USE_FAST_IDLE],
-[This sets a mode where the time runs as fast as possible when a clock ISR
-occurs while the IDLE thread is executing.  This can significantly reduce
-simulation times.])
+RTEMS_BSPOPTS_HELP([CLOCK_DRIVER_USE_FAST_IDLE], [This sets a mode where the time runs as fast as possible when a clock ISR occurs while the IDLE thread is executing.  This can significantly reduce simulation times.])
 
 RTEMS_BSPOPTS_SET([CLOCK_DRIVER_USE_ONLY_BOOT_PROCESSOR],[*qemu*],[1])
-RTEMS_BSPOPTS_HELP([CLOCK_DRIVER_USE_ONLY_BOOT_PROCESSOR],
-[If defined, then do the clock tick processing on the boot processor on behalf
-of all other processors.])
+RTEMS_BSPOPTS_HELP([CLOCK_DRIVER_USE_ONLY_BOOT_PROCESSOR], [If defined, then do the clock tick processing on the boot processor on behalf of all other processors.])
 
 RTEMS_BSPOPTS_SET([ARM_MMU_USE_SMALL_PAGES],[*],[1])
 RTEMS_BSPOPTS_HELP([ARM_MMU_USE_SMALL_PAGES],[use MMU with small pages (4KiB)])

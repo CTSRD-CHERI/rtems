@@ -1513,7 +1513,6 @@ libpsxhdrs_a_SOURCES = psxhdrs/devctl/posix_devctl.c \
 	psxhdrs/iconv/iconv.c \
 	psxhdrs/iconv/iconv_close.c \
 	psxhdrs/iconv/iconv_open.c \
-	psxhdrs/regex/regfree.c \
 	psxhdrs/langinfo/nl_langinfo.c \
 	psxhdrs/langinfo/nl_langinfo_l.c \
 	psxhdrs/assert/assert.c \
@@ -1582,7 +1581,6 @@ libpsxhdrs_a_SOURCES = psxhdrs/devctl/posix_devctl.c \
 	psxhdrs/complex/ctanh.c \
 	psxhdrs/complex/ctanhf.c \
 	psxhdrs/complex/ctanhl.c \
-	psxhdrs/complex/ctanl.c \
 	psxhdrs/complex/ctanl.c \
 	psxhdrs/ctype/isalnum.c \
 	psxhdrs/ctype/isalnum_l.c \

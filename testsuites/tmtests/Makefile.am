@@ -290,7 +290,7 @@ tm_docs += tm31/tm31.doc
 tm31_SOURCES = tm31/task1.c tm02/system.h include/timesys.h \
 	../support/src/tmtests_empty_function.c
 tm31_CPPFLAGS = $(AM_CPPFLAGS) $(TEST_FLAGS_tm31) $(support_includes) \
-	-I$(top_srcdir)/../tm02 -I$(top_srcdir)/include
+	-I$(top_srcdir)/include
 endif
 
 if TEST_tm32
@@ -299,7 +299,7 @@ tm_docs += tm32/tm32.doc
 tm32_SOURCES = tm32/task1.c tm03/system.h include/timesys.h \
 	../support/src/tmtests_empty_function.c
 tm32_CPPFLAGS = $(AM_CPPFLAGS) $(TEST_FLAGS_tm32) $(support_includes) \
-	-I$(top_srcdir)/../tm03 -I$(top_srcdir)/include
+	-I$(top_srcdir)/include
 endif
 
 if TEST_tm33
@@ -308,7 +308,7 @@ tm_docs += tm33/tm33.doc
 tm33_SOURCES = tm33/task1.c tm02/system.h include/timesys.h \
 	../support/src/tmtests_empty_function.c
 tm33_CPPFLAGS = $(AM_CPPFLAGS) $(TEST_FLAGS_tm33) $(support_includes) \
-	-I$(top_srcdir)/../tm02 -I$(top_srcdir)/include
+	-I$(top_srcdir)/include
 endif
 
 if TEST_tm34
@@ -317,7 +317,7 @@ tm_docs += tm34/tm34.doc
 tm34_SOURCES = tm34/task1.c tm03/system.h include/timesys.h \
 	../support/src/tmtests_empty_function.c
 tm34_CPPFLAGS = $(AM_CPPFLAGS) $(TEST_FLAGS_tm34) $(support_includes) \
-	-I$(top_srcdir)/../tm03 -I$(top_srcdir)/include
+	-I$(top_srcdir)/include
 endif
 
 if TEST_tm35
@@ -326,7 +326,7 @@ tm_docs += tm35/tm35.doc
 tm35_SOURCES = tm35/task1.c tm02/system.h include/timesys.h \
 	../support/src/tmtests_empty_function.c
 tm35_CPPFLAGS = $(AM_CPPFLAGS) $(TEST_FLAGS_tm35) $(support_includes) \
-	-I$(top_srcdir)/../tm02 -I$(top_srcdir)/include
+	-I$(top_srcdir)/include
 endif
 
 if TEST_tm36
@@ -335,7 +335,7 @@ tm_docs += tm36/tm36.doc
 tm36_SOURCES = tm36/task1.c tm03/system.h include/timesys.h \
 	../support/src/tmtests_empty_function.c
 tm36_CPPFLAGS = $(AM_CPPFLAGS) $(TEST_FLAGS_tm36) $(support_includes) \
-	-I$(top_srcdir)/../tm03 -I$(top_srcdir)/include
+	-I$(top_srcdir)/include
 endif
 
 if TEST_tmck

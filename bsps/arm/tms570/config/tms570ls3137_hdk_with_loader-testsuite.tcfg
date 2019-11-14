@@ -5,5 +5,3 @@
 #
 
 include: testdata/small-memory-testsuite.tcfg
-
-exclude: linpack

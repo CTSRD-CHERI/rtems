@@ -4,8 +4,6 @@
 # Format is one line per test that is _NOT_ built.
 #
 
-include: testdata/disable-iconv-tests.tcfg
-include: testdata/disable-jffs2-tests.tcfg
 include: testdata/disable-mrfs-tests.tcfg
 include: testdata/small-memory-testsuite.tcfg
 
@@ -14,22 +12,13 @@ exclude: capture
 exclude: cdtest
 exclude: complex
 exclude: crypt01
-exclude: dl01
-exclude: dl02
-exclude: dl04
-exclude: dl05
-exclude: dl06
-exclude: dl07
 exclude: fileio
-exclude: flashdisk01
 exclude: fsdosfsformat01
-exclude: fsdosfsname01
 exclude: fsdosfswrite01
 exclude: fsrfsbitmap01
 exclude: fsrofs01
 exclude: ftp01
 exclude: iostream
-exclude: linpack
 exclude: loopback
 exclude: math
 exclude: mathf
@@ -57,7 +46,6 @@ exclude: spcxx01
 exclude: sptimecounter02
 exclude: sptimecounter03
 exclude: sptls02
-exclude: spstkalloc02
 exclude: syscall01
 exclude: tar01
 exclude: telnetd01

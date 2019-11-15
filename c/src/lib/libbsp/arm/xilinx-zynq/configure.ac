@@ -43,10 +43,7 @@ RTEMS_BSPOPTS_SET([ZYNQ_CLOCK_CPU_1X],[xilinx_zynq_zedboard*],[111111111U])
 RTEMS_BSPOPTS_SET([ZYNQ_CLOCK_CPU_1X],[*],[111111111U])
 RTEMS_BSPOPTS_HELP([ZYNQ_CLOCK_CPU_1X],[Zynq cpu_1x clock frequency in Hz])
 
-USE_FAST_IDLE=0
-AS_IF([test "x${RTEMS_BSP}" == xxilinx_zynq_a9_qemu], [USE_FAST_IDLE=1])
-
-RTEMS_BSPOPTS_SET([CLOCK_DRIVER_USE_FAST_IDLE],[*qemu],[${USE_FAST_IDLE}])
+RTEMS_BSPOPTS_SET([CLOCK_DRIVER_USE_FAST_IDLE],[*qemu],[1])
 RTEMS_BSPOPTS_HELP([CLOCK_DRIVER_USE_FAST_IDLE], [This sets a mode where the time runs as fast as possible when a clock ISR occurs while the IDLE thread is executing.  This can significantly reduce simulation times.])
 
 RTEMS_BSPOPTS_SET([BSP_CONSOLE_MINOR],[*],[1])

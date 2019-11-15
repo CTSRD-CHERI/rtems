@@ -1,0 +1,21 @@
+actions:
+- get-integer: null
+- define: null
+format: '{}'
+active: true
+build-type: option
+default: 67500000
+default-by-variant: []
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: IMX_CCM_IPG_HZ
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  IPG clock frequency in Hz
+type: build

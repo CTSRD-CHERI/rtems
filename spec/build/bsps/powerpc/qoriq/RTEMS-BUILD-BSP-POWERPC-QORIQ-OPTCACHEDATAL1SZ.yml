@@ -1,0 +1,21 @@
+actions:
+- get-integer: null
+- define: null
+format: '{}'
+active: true
+build-type: option
+default: 32768
+default-by-variant: []
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: PPC_CACHE_DATA_L1_SIZE
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  the L1 data cache size
+type: build

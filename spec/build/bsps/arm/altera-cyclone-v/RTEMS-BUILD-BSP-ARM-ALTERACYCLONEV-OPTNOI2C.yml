@@ -1,0 +1,20 @@
+actions:
+- get-boolean: null
+- define-condition: null
+active: true
+build-type: option
+default: true
+default-by-variant: []
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: CYCLONE_V_NO_I2C
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  Number of configured I2C buses. Note that each bus has to be configured in an apropriate i2cdrv_config array.
+type: build

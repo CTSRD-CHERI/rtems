@@ -1,0 +1,23 @@
+actions:
+- get-boolean: null
+- define-condition: null
+active: true
+build-type: option
+default: false
+default-by-variant:
+- value: true
+  variants:
+  - arm/smdk2410
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: CPU_S3C2410
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  If defined, enable optons for the S3C2410 CPU model.
+type: build

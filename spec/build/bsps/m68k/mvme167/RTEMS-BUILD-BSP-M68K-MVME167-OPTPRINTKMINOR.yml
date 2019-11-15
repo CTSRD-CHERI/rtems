@@ -1,0 +1,21 @@
+actions:
+- get-integer: null
+- define: null
+format: '{}'
+active: true
+build-type: option
+default: 1
+default-by-variant: []
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: PRINTK_MINOR
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  Port to use for printk debugging output.  0 - /dev/tty0, Serial Port 1/Console on the MVME712M.  1 - /dev/tty1, Serial Port 2/TTY01 on the MVME712M.  2 - /dev/tty2, Serial Port 3 on the MVME712M.  3 - /dev/tty3, Serial Port 4 on the MVME712M.
+type: build

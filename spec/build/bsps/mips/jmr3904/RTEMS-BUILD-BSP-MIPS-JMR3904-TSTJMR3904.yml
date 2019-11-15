@@ -1,0 +1,19 @@
+actions:
+- set-test-state:
+    spfatal26: exclude
+active: true
+build-type: option
+default: null
+default-by-variant: []
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links:
+- RTEMS-BUILD-BSP-TSTNOINTRCRIT: null
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: ''
+type: build

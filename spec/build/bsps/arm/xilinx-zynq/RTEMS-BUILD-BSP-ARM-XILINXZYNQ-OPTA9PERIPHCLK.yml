@@ -1,29 +1,27 @@
 actions:
 - get-integer: null
-- assert-uint32: null
-- env-assign: null
 - define: null
+format: '{}'
 active: true
 build-type: option
 default: 100000000
 default-by-variant:
 - value: 333333333
   variants:
-  - arm/xilinx_zynq_zc702
+  - arm/xilinx_zynq_zc702.*
 - value: 666666667
   variants:
-  - arm/xilinx_zynq_zedboard
+  - arm/xilinx_zynq_zedboard.*
 derived: false
 enabled-by: []
-format: '{}'
 header: ''
-level: 1.5
+level: 1.8
 links: []
 name: BSP_ARM_A9MPCORE_PERIPHCLK
 normative: true
 order: 0
 ref: ''
-reviewed: CSKVYJSYBH0taAE6CsNv_Mv_k9RdZchYDRoKDtkAd3w=
+reviewed: null
 text: |
   ARM Cortex-A9 MPCore PERIPHCLK clock frequency in Hz
 type: build

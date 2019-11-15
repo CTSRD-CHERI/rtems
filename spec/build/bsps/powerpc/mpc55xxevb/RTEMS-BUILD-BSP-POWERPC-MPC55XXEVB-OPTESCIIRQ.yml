@@ -1,0 +1,20 @@
+actions:
+- get-boolean: null
+- define-condition: null
+active: true
+build-type: option
+default: true
+default-by-variant: []
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: MPC55XX_ESCI_USE_INTERRUPTS
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  define to zero or one to disable or enable interrupts for the eSCI devices
+type: build

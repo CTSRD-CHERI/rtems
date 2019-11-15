@@ -1,0 +1,11 @@
+settings:
+  digits: 3
+  parent: RTEMS-BUILD-BSP-LM32
+  prefix: RTEMS-BUILD-BSP-LM32-MILKYMIST
+  sep: '-'
+attributes:
+  defaults:
+    build-type: objects
+    enabled-by: []
+    order: 0
+    type: build

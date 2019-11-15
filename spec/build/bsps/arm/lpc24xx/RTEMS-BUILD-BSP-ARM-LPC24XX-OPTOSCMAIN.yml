@@ -1,0 +1,24 @@
+actions:
+- get-integer: null
+- define: null
+format: '{}'
+active: true
+build-type: option
+default: 12000000
+default-by-variant:
+- value: 3686400
+  variants:
+  - arm/lpc23.*
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: LPC24XX_OSCILLATOR_MAIN
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  main oscillator frequency in Hz
+type: build

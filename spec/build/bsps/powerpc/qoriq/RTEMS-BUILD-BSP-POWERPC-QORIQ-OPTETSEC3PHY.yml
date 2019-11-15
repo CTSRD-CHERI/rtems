@@ -1,0 +1,20 @@
+actions:
+- get-boolean: null
+- define-condition: null
+active: true
+build-type: option
+default: true
+default-by-variant: []
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: QORIQ_ETSEC_3_PHY_ADDR
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  PHY address for eTSEC interface 3
+type: build

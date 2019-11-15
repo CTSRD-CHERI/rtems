@@ -1,0 +1,30 @@
+actions:
+- get-integer: null
+- define: null
+format: '{}'
+active: true
+build-type: option
+default: 0
+default-by-variant:
+- value: 2
+  variants:
+  - arm/lm3s3749.*
+- value: 1
+  variants:
+  - arm/lm3s6965.*
+- value: 4
+  variants:
+  - arm/lm4f120.*
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: LM3S69XX_NUM_SSI_BLOCKS
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  number of SSI blocks supported by MCU
+type: build

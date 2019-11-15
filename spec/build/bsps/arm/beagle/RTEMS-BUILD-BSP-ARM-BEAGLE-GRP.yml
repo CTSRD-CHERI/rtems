@@ -1,0 +1,34 @@
+active: true
+build-type: group
+install: []
+derived: true
+enabled-by: []
+header: ''
+includes: []
+ldflags: []
+level: 1.22
+links:
+- RTEMS-BUILD-BSP-ARM-BEAGLE-ABI: null
+- RTEMS-BUILD-BSP-ARM-BEAGLE-OBJ: null
+- RTEMS-BUILD-BSP-ARM-BEAGLE-OPTAM335X: null
+- RTEMS-BUILD-BSP-ARM-BEAGLE-OPTCONBAUD: null
+- RTEMS-BUILD-BSP-ARM-BEAGLE-OPTCONPOLL: null
+- RTEMS-BUILD-BSP-ARM-BEAGLE-OPTDEBUG: null
+- RTEMS-BUILD-BSP-ARM-BEAGLE-OPTDM3730: null
+- RTEMS-BUILD-BSP-ARM-BEAGLE-OPTFDTCPYRO: null
+- RTEMS-BUILD-BSP-ARM-BEAGLE-OPTFDTMXSZ: null
+- RTEMS-BUILD-BSP-ARM-BEAGLE-OPTFDTRO: null
+- RTEMS-BUILD-BSP-ARM-BEAGLE-OPTFDTUBOOT: null
+- RTEMS-BUILD-BSP-ARM-START: null
+- RTEMS-BUILD-BSP-BSPOPTS: null
+- RTEMS-BUILD-BSP-OBJ: null
+- RTEMS-BUILD-BSP-OBJIRQ: null
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: ''
+top-level: false
+type: build
+use-before: []
+use-after: []

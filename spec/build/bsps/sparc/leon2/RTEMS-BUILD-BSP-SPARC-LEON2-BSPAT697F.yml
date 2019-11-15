@@ -1,0 +1,23 @@
+active: true
+arch: sparc
+bsp: at697f
+build-type: bsp
+cflags: []
+cppflags: []
+derived: true
+enabled-by: []
+family: leon2
+header: ''
+includes: []
+install: []
+level: 1.0
+links:
+- RTEMS-BUILD-BSP-OPTO2: null
+- RTEMS-BUILD-BSP-SPARC-LEON2-GRP: null
+normative: true
+order: 0
+ref: ''
+reviewed: null
+source: []
+text: ''
+type: build

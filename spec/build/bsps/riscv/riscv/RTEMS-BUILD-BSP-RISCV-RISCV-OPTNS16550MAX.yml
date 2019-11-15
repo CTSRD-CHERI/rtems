@@ -1,0 +1,24 @@
+actions:
+- get-integer: null
+- define: null
+format: '{}'
+active: true
+build-type: option
+default: 2
+default-by-variant:
+- value: 
+  variants:
+  - riscv/frdme310arty.*
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: RISCV_CONSOLE_MAX_NS16550_DEVICES
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  maximum number of NS16550 devices supported by the console driver (2 by default)
+type: build

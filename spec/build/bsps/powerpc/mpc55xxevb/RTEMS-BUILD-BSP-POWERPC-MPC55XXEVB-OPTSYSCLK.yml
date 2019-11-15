@@ -1,0 +1,30 @@
+actions:
+- get-integer: null
+- define: null
+format: '{}'
+active: true
+build-type: option
+default: 0
+default-by-variant:
+- value: 66000000
+  variants:
+  - powerpc/gwlcfm
+- value: 116000000
+  variants:
+  - powerpc/mpc5668g.*
+- value: 264000000
+  variants:
+  - powerpc/mpc5674f.*
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: MPC55XX_SYSTEM_CLOCK
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  The system clock frequency in Hz.
+type: build

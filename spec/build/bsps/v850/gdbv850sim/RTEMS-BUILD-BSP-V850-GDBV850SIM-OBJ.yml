@@ -1,0 +1,44 @@
+active: true
+build-type: objects
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by: []
+header: ''
+includes: []
+install:
+- destination: ${BSP_INCLUDEDIR}
+  source:
+  - bsps/v850/gdbv850sim/include/bsp.h
+  - bsps/v850/gdbv850sim/include/tm27.h
+- destination: ${BSP_INCLUDEDIR}/bsp
+  source:
+  - bsps/v850/gdbv850sim/include/bsp/irq.h
+  - bsps/v850/gdbv850sim/include/bsp/syscall.h
+- destination: ${BSP_LIBDIR}
+  source:
+  - bsps/v850/gdbv850sim/start/bsp_specs
+  - bsps/v850/gdbv850sim/start/linkcmds
+level: 1.1
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: null
+source:
+- bsps/shared/cache/nocache.c
+- bsps/shared/dev/btimer/btimer-stub.c
+- bsps/shared/dev/clock/clock-simidle.c
+- bsps/shared/dev/getentropy/getentropy-cpucounter.c
+- bsps/shared/dev/serial/console-polled.c
+- bsps/shared/start/bspfatal-default.c
+- bsps/shared/start/bspgetworkarea-default.c
+- bsps/shared/start/bspstart-empty.c
+- bsps/shared/start/sbrk.c
+- bsps/v850/gdbv850sim/console/console-io.c
+- bsps/v850/gdbv850sim/start/bspreset.c
+- bsps/v850/gdbv850sim/start/trap.S
+- bsps/v850/shared/start/crt1.c
+text: ''
+type: build

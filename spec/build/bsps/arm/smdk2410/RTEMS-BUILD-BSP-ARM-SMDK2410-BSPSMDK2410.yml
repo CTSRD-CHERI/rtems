@@ -1,0 +1,66 @@
+active: true
+arch: arm
+bsp: smdk2410
+build-type: bsp
+cflags: []
+cppflags: []
+derived: true
+enabled-by: []
+family: smdk2410
+header: ''
+includes: []
+install:
+- destination: ${BSP_INCLUDEDIR}
+  source:
+  - bsps/arm/smdk2410/include/bsp.h
+  - bsps/arm/smdk2410/include/s3c2400.h
+  - bsps/arm/smdk2410/include/s3c2410.h
+  - bsps/arm/smdk2410/include/s3c24xx.h
+  - bsps/arm/smdk2410/include/smc.h
+  - bsps/arm/smdk2410/include/tm27.h
+- destination: ${BSP_INCLUDEDIR}/bsp
+  source:
+  - bsps/arm/smdk2410/include/bsp/irq.h
+- destination: ${BSP_LIBDIR}
+  source:
+  - bsps/arm/smdk2410/start/bsp_specs
+  - bsps/arm/smdk2410/start/linkcmds
+level: 1.0
+links:
+- RTEMS-BUILD-BSP-ARM-SMDK2410-ABI: null
+- RTEMS-BUILD-BSP-ARM-SMDK2410-OPTCPUS3C2410: null
+- RTEMS-BUILD-BSP-ARM-SMDK2410-OPTSKYEYE: null
+- RTEMS-BUILD-BSP-ARM-SMDK2410-START: null
+- RTEMS-BUILD-BSP-BSPOPTS: null
+- RTEMS-BUILD-BSP-OBJ: null
+- RTEMS-BUILD-BSP-OBJIRQ: null
+- RTEMS-BUILD-BSP-OPTO2: null
+normative: true
+order: 0
+ref: ''
+reviewed: null
+source:
+- bsps/arm/shared/cache/cache-cp15.c
+- bsps/arm/shared/cp15/arm920-mmu.c
+- bsps/arm/smdk2410/btimer/btimer.c
+- bsps/arm/smdk2410/clock/clockdrv.c
+- bsps/arm/smdk2410/clock/support.c
+- bsps/arm/smdk2410/console/uart.c
+- bsps/arm/smdk2410/irq/irq.c
+- bsps/arm/smdk2410/smc/smc.c
+- bsps/arm/smdk2410/start/bspidle.c
+- bsps/arm/smdk2410/start/bspreset.c
+- bsps/arm/smdk2410/start/bspstart.c
+- bsps/arm/smdk2410/start/memmap.c
+- bsps/shared/dev/cpucounter/cpucounterfrequency.c
+- bsps/shared/dev/cpucounter/cpucounterread.c
+- bsps/shared/dev/getentropy/getentropy-cpucounter.c
+- bsps/shared/dev/serial/legacy-console-control.c
+- bsps/shared/dev/serial/legacy-console-select.c
+- bsps/shared/dev/serial/legacy-console.c
+- bsps/shared/irq/irq-default-handler.c
+- bsps/shared/start/bspfatal-default.c
+- bsps/shared/start/bspgetworkarea-default.c
+- bsps/shared/start/sbrk.c
+text: ''
+type: build

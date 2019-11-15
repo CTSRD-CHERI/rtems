@@ -1,0 +1,27 @@
+active: true
+build-type: group
+install: []
+derived: true
+enabled-by: []
+header: ''
+includes: []
+ldflags: []
+level: 1.22
+links:
+- RTEMS-BUILD-BSP-BSPOPTS: null
+- RTEMS-BUILD-BSP-M68K-MVME162-ABI: null
+- RTEMS-BUILD-BSP-M68K-MVME162-OBJ: null
+- RTEMS-BUILD-BSP-M68K-MVME162-OBJNET: null
+- RTEMS-BUILD-BSP-M68K-OBJFPSP: null
+- RTEMS-BUILD-BSP-M68K-START: null
+- RTEMS-BUILD-BSP-OBJ: null
+- RTEMS-BUILD-BSP-OBJIRQDFLT: null
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: ''
+top-level: false
+type: build
+use-before: []
+use-after: []

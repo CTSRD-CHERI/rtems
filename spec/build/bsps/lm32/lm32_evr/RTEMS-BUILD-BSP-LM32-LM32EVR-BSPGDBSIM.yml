@@ -1,0 +1,24 @@
+active: true
+arch: lm32
+bsp: lm32_evr_gdbsim
+build-type: bsp
+cflags: []
+cppflags: []
+derived: true
+enabled-by: []
+family: lm32_evr
+header: ''
+includes: []
+install: []
+level: 1.0
+links:
+- RTEMS-BUILD-BSP-LM32-LM32EVR-GRP: null
+- RTEMS-BUILD-BSP-OPTO2: null
+- RTEMS-BUILD-BSP-TSTNOINTRCRIT: null
+normative: true
+order: 0
+ref: ''
+reviewed: null
+source: []
+text: ''
+type: build

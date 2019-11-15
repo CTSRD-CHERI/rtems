@@ -1,0 +1,23 @@
+actions:
+- get-boolean: null
+- define-condition: null
+active: true
+build-type: option
+default: true
+default-by-variant:
+- value: false
+  variants:
+  - powerpc/pghplus
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: BSP_USE_NETWORK_SCC
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  If defined, then the BSP will use the Serial Communications Controller (SCC1) for 10MBit networking.
+type: build

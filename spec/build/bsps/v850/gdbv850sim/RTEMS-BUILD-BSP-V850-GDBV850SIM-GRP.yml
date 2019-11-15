@@ -1,0 +1,25 @@
+active: true
+build-type: group
+install: []
+derived: true
+enabled-by: []
+header: ''
+includes: []
+ldflags: []
+level: 1.22
+links:
+- RTEMS-BUILD-BSP-BSPOPTS: null
+- RTEMS-BUILD-BSP-OBJ: null
+- RTEMS-BUILD-BSP-OBJIRQDFLT: null
+- RTEMS-BUILD-BSP-V850-GDBV850SIM-ABI: null
+- RTEMS-BUILD-BSP-V850-GDBV850SIM-OBJ: null
+- RTEMS-BUILD-BSP-V850-GDBV850SIM-START: null
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: ''
+top-level: false
+type: build
+use-before: []
+use-after: []

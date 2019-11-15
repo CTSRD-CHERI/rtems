@@ -1,0 +1,23 @@
+active: true
+arch: powerpc
+bsp: mvme2100
+build-type: bsp
+cflags: []
+cppflags: []
+derived: true
+enabled-by: []
+family: motorola_powerpc
+header: ''
+includes: []
+install: []
+level: 1.0
+links:
+- RTEMS-BUILD-BSP-OPTO2: null
+- RTEMS-BUILD-BSP-POWERPC-MOTOROLAPOWERPC-GRP: null
+normative: true
+order: 0
+ref: ''
+reviewed: null
+source: []
+text: ''
+type: build

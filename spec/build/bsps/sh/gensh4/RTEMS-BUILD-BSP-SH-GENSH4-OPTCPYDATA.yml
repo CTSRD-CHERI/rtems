@@ -1,0 +1,20 @@
+actions:
+- get-boolean: null
+- define-condition: null
+active: true
+build-type: option
+default: false
+default-by-variant: []
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: COPY_DATA_FROM_ROM
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  Whether to copy data from ROM to RAM in start.S
+type: build

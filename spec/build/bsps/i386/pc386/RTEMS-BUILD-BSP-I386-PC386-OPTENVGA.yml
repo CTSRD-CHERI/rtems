@@ -1,0 +1,21 @@
+actions:
+- get-boolean: null
+- define-condition: null
+- env-enable: null
+active: true
+build-type: option
+default: true
+default-by-variant: []
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: BSP_ENABLE_VGA
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  Set if the VGA and keyboard console support is enabled.
+type: build

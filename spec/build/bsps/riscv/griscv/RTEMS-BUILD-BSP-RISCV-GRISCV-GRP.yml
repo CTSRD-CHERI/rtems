@@ -1,0 +1,30 @@
+active: true
+build-type: group
+install: []
+derived: true
+enabled-by: []
+header: ''
+includes: []
+ldflags: []
+level: 1.22
+links:
+- RTEMS-BUILD-BSP-BSPOPTS: null
+- RTEMS-BUILD-BSP-OBJ: null
+- RTEMS-BUILD-BSP-OBJGRLIB: null
+- RTEMS-BUILD-BSP-OBJIRQ: null
+- RTEMS-BUILD-BSP-RISCV-GRISCV-ABI: null
+- RTEMS-BUILD-BSP-RISCV-GRISCV-LINKCMDS: null
+- RTEMS-BUILD-BSP-RISCV-GRISCV-OBJ: null
+- RTEMS-BUILD-BSP-RISCV-GRISCV-OBJSMP: null
+- RTEMS-BUILD-BSP-RISCV-GRISCV-OPTCONBAUD: null
+- RTEMS-BUILD-BSP-RISCV-GRISCV-OPTEXTIRQMAX: null
+- RTEMS-BUILD-BSP-RISCV-START: null
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: ''
+top-level: false
+type: build
+use-before: []
+use-after: []

@@ -1,0 +1,21 @@
+actions:
+- get-integer: null
+- define: null
+format: '{}'
+active: true
+build-type: option
+default: 1
+default-by-variant: []
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: CONSOLE_USE_INTERRUPTS
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  The console driver can operate in either polled or interrupt mode.
+type: build

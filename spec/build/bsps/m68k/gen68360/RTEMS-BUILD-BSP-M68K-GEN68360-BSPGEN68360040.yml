@@ -1,0 +1,23 @@
+active: true
+arch: m68k
+bsp: gen68360_040
+build-type: bsp
+cflags: []
+cppflags: []
+derived: true
+enabled-by: []
+family: gen68360
+header: ''
+includes: []
+install: []
+level: 1.0
+links:
+- RTEMS-BUILD-BSP-M68K-GEN68360-GRP: null
+- RTEMS-BUILD-BSP-OPTO2: null
+normative: true
+order: 0
+ref: ''
+reviewed: null
+source: []
+text: ''
+type: build

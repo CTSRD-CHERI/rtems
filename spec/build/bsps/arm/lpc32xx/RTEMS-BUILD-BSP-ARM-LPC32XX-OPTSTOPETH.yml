@@ -1,0 +1,20 @@
+actions:
+- get-boolean: null
+- define-condition: null
+active: true
+build-type: option
+default: true
+default-by-variant: []
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: LPC32XX_STOP_ETHERNET
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  stop Ethernet controller at start-up to avoid DMA interference
+type: build

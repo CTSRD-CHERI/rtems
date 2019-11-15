@@ -1,0 +1,23 @@
+actions:
+- get-boolean: null
+- define-condition: null
+active: true
+build-type: option
+default: false
+default-by-variant:
+- value: true
+  variants:
+  - powerpc/mpc5674f_ecu508.*
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: SMSC9218I_BIG_ENDIAN_SUPPORT
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  enable big endian support for SMSC9218I network interface
+type: build

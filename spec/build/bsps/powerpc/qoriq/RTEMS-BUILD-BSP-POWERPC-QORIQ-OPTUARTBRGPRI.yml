@@ -1,0 +1,21 @@
+actions:
+- get-integer: null
+- define: null
+format: '{}'
+active: true
+build-type: option
+default: 250
+default-by-variant: []
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: QORIQ_UART_BRIDGE_TASK_PRIORITY
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  UART to Intercom bridge task priority
+type: build

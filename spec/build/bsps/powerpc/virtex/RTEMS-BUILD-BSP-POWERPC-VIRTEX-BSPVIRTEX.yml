@@ -1,0 +1,63 @@
+active: true
+arch: powerpc
+bsp: virtex
+build-type: bsp
+cflags: []
+cppflags: []
+derived: true
+enabled-by: []
+family: virtex
+header: ''
+includes: []
+install:
+- destination: ${BSP_INCLUDEDIR}
+  source:
+  - bsps/powerpc/virtex/include/bsp.h
+  - bsps/powerpc/virtex/include/tm27.h
+  - bsps/powerpc/virtex/include/xiltemac.h
+  - bsps/powerpc/virtex/include/xparameters_dflt.h
+- destination: ${BSP_INCLUDEDIR}/bsp
+  source:
+  - bsps/powerpc/virtex/include/bsp/irq.h
+  - bsps/powerpc/virtex/include/bsp/opbintctrl.h
+- destination: ${BSP_LIBDIR}
+  source:
+  - bsps/powerpc/shared/start/linkcmds.base
+  - bsps/powerpc/virtex/start/bsp_specs
+level: 1.0
+links:
+- RTEMS-BUILD-BSP-BSPOPTS: null
+- RTEMS-BUILD-BSP-OBJ: null
+- RTEMS-BUILD-BSP-OBJIRQ: null
+- RTEMS-BUILD-BSP-OPTO2: null
+- RTEMS-BUILD-BSP-POWERPC-OBJ: null
+- RTEMS-BUILD-BSP-POWERPC-OBJEXC: null
+- RTEMS-BUILD-BSP-POWERPC-VIRTEX-ABI: null
+- RTEMS-BUILD-BSP-POWERPC-VIRTEX-LINKCMDS: null
+- RTEMS-BUILD-BSP-POWERPC-VIRTEX-OBJNET: null
+- RTEMS-BUILD-BSP-POWERPC-VIRTEX-OPTCONIRQ: null
+- RTEMS-BUILD-BSP-POWERPC-VIRTEX-OPTXPARAM: null
+- RTEMS-BUILD-BSP-POWERPC-VIRTEX-START: null
+normative: true
+order: 0
+ref: ''
+reviewed: null
+source:
+- bsps/powerpc/shared/btimer/btimer-ppc-dec.c
+- bsps/powerpc/shared/cache/cache.c
+- bsps/powerpc/shared/clock/clock.c
+- bsps/powerpc/shared/start/bsp-start-zero.S
+- bsps/powerpc/virtex/console/consolelite.c
+- bsps/powerpc/virtex/irq/irq_init.c
+- bsps/powerpc/virtex/start/bspstart.c
+- bsps/shared/dev/getentropy/getentropy-cpucounter.c
+- bsps/shared/dev/serial/legacy-console-control.c
+- bsps/shared/dev/serial/legacy-console-select.c
+- bsps/shared/dev/serial/legacy-console.c
+- bsps/shared/irq/irq-default-handler.c
+- bsps/shared/start/bspfatal-default.c
+- bsps/shared/start/bspgetworkarea-default.c
+- bsps/shared/start/bspreset-loop.c
+- bsps/shared/start/sbrk.c
+text: ''
+type: build

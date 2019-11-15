@@ -1,0 +1,20 @@
+actions:
+- get-boolean: null
+- define-condition: null
+active: true
+build-type: option
+default: true
+default-by-variant: []
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: BSP_START_IN_HYP_SUPPORT
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  Support start of BSP in ARM HYP mode
+type: build

@@ -1,0 +1,27 @@
+actions:
+- get-integer: null
+- define: null
+format: '{}'
+active: true
+build-type: option
+default: 
+default-by-variant:
+- value: 3
+  variants:
+  - powerpc/mpc5643l.*
+- value: 8
+  variants:
+  - powerpc/mpc5668g.*
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: MPC55XX_CLOCK_PIT_CHANNEL
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  selects the PIT channel for the RTEMS system tick (the default is the last channel)
+type: build

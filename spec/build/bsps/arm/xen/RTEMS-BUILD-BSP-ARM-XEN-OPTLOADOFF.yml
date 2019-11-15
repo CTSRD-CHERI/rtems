@@ -1,0 +1,21 @@
+actions:
+- get-integer: null
+- define: null
+format: '{:#010x}'
+active: true
+build-type: option
+default: 0x8000
+default-by-variant: []
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: BSP_XEN_LOAD_OFFSET
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  offset of RAM region from memory area base
+type: build

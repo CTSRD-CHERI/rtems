@@ -1,0 +1,20 @@
+actions:
+- get-boolean: null
+- define-condition: null
+active: true
+build-type: option
+default: false
+default-by-variant: []
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: CYCLONE_V_CONFIG_UART_1
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  configuration for UART 1
+type: build

@@ -1,0 +1,22 @@
+active: true
+build-type: objects
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by:
+- RTEMS_NETWORKING
+header: ''
+includes: []
+install: []
+level: 1.0
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: null
+source:
+- bsps/powerpc/mpc55xxevb/net/if_smc.c
+- bsps/powerpc/mpc55xxevb/net/smsc9218i.c
+text: ''
+type: build

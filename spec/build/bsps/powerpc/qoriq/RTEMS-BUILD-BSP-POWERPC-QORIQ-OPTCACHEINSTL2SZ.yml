@@ -1,0 +1,24 @@
+actions:
+- get-integer: null
+- define: null
+format: '{}'
+active: true
+build-type: option
+default: 262144
+default-by-variant:
+- value: 2097152
+  variants:
+  - powerpc/qoriq_e6500.*
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: PPC_CACHE_INSTRUCTION_L2_SIZE
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  the L2 instruction cache size
+type: build

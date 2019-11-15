@@ -1,0 +1,57 @@
+active: true
+arch: arm
+bsp: csb336
+build-type: bsp
+cflags: []
+cppflags: []
+derived: true
+enabled-by: []
+family: csb336
+header: ''
+includes: []
+install:
+- destination: ${BSP_INCLUDEDIR}
+  source:
+  - bsps/arm/csb336/include/bsp.h
+  - bsps/arm/csb336/include/mc9328mxl.h
+  - bsps/arm/csb336/include/tm27.h
+- destination: ${BSP_INCLUDEDIR}/bsp
+  source:
+  - bsps/arm/csb336/include/bsp/irq.h
+- destination: ${BSP_LIBDIR}
+  source:
+  - bsps/arm/csb336/start/bsp_specs
+  - bsps/arm/csb336/start/linkcmds
+  - bsps/arm/csb336/start/linkcmds
+level: 1.0
+links:
+- RTEMS-BUILD-BSP-ARM-CSB336-ABI: null
+- RTEMS-BUILD-BSP-ARM-CSB336-OBJNET: null
+- RTEMS-BUILD-BSP-ARM-CSB336-START: null
+- RTEMS-BUILD-BSP-BSPOPTS: null
+- RTEMS-BUILD-BSP-OBJ: null
+- RTEMS-BUILD-BSP-OBJIRQ: null
+- RTEMS-BUILD-BSP-OPTO2: null
+normative: true
+order: 0
+ref: ''
+reviewed: null
+source:
+- bsps/arm/csb336/btimer/btimer.c
+- bsps/arm/csb336/clock/clockdrv.c
+- bsps/arm/csb336/console/uart.c
+- bsps/arm/csb336/irq/irq.c
+- bsps/arm/csb336/start/bspstart.c
+- bsps/arm/csb336/start/memmap.c
+- bsps/arm/shared/cache/cache-cp15.c
+- bsps/arm/shared/cp15/arm920-mmu.c
+- bsps/shared/dev/cpucounter/cpucounterfrequency.c
+- bsps/shared/dev/cpucounter/cpucounterread.c
+- bsps/shared/dev/getentropy/getentropy-cpucounter.c
+- bsps/shared/irq/irq-default-handler.c
+- bsps/shared/start/bspfatal-default.c
+- bsps/shared/start/bspgetworkarea-default.c
+- bsps/shared/start/bspreset-empty.c
+- bsps/shared/start/sbrk.c
+text: ''
+type: build

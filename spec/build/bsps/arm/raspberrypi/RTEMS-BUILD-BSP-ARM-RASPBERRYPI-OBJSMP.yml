@@ -1,0 +1,22 @@
+active: true
+build-type: objects
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by:
+- RTEMS_SMP
+header: ''
+includes: []
+install: []
+level: 1.0
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: null
+source:
+- bsps/arm/raspberrypi/start/bspsmp.c
+- bsps/arm/raspberrypi/start/bspsmp_init.c
+text: ''
+type: build

@@ -1,0 +1,20 @@
+actions:
+- get-boolean: null
+- define-condition: null
+active: true
+build-type: option
+default: true
+default-by-variant: []
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: ATSAM_SLOWCLOCK_USE_XTAL
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  Use the external crystal as source for the slow clock instead of the internal RC oscillator. Note that on the ATSAM the NRST pin seems to depend on the slow clock as well as all watchdogs. If ATSAM_SLOWCLOCK_USE_XTAL is set to 1 without a external crystal connected, the controller might hang in the switching process without a working NRST pin. 
+type: build

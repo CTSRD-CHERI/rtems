@@ -1,0 +1,36 @@
+actions:
+- get-integer: null
+- define: null
+format: '{}'
+active: true
+build-type: option
+default: 5554
+default-by-variant:
+- value: 5516
+  variants:
+  - powerpc/gwlcfm
+- value: 5566
+  variants:
+  - powerpc/mpc5566.*
+- value: 5643
+  variants:
+  - powerpc/mpc5643l.*
+- value: 5668
+  variants:
+  - powerpc/mpc5668g.*
+- value: 5674
+  variants:
+  - powerpc/mpc5674f.*
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: MPC55XX_CHIP_TYPE
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  specifies the chip type in use (e.g. 5554 for MPC5554)
+type: build

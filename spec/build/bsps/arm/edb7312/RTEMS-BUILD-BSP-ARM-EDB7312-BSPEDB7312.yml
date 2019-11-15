@@ -1,0 +1,59 @@
+active: true
+arch: arm
+bsp: edb7312
+build-type: bsp
+cflags: []
+cppflags: []
+derived: true
+enabled-by: []
+family: edb7312
+header: ''
+includes: []
+install:
+- destination: ${BSP_INCLUDEDIR}
+  source:
+  - bsps/arm/edb7312/include/bsp.h
+  - bsps/arm/edb7312/include/ep7312.h
+  - bsps/arm/edb7312/include/tm27.h
+- destination: ${BSP_INCLUDEDIR}/bsp
+  source:
+  - bsps/arm/edb7312/include/bsp/irq.h
+- destination: ${BSP_LIBDIR}
+  source:
+  - bsps/arm/edb7312/start/bsp_specs
+  - bsps/arm/edb7312/start/linkcmds
+level: 1.0
+links:
+- RTEMS-BUILD-BSP-ARM-EDB7312-ABI: null
+- RTEMS-BUILD-BSP-ARM-EDB7312-OBJNET: null
+- RTEMS-BUILD-BSP-ARM-EDB7312-OPTSKYEYE: null
+- RTEMS-BUILD-BSP-ARM-EDB7312-START: null
+- RTEMS-BUILD-BSP-BSPOPTS: null
+- RTEMS-BUILD-BSP-OBJ: null
+- RTEMS-BUILD-BSP-OBJIRQ: null
+- RTEMS-BUILD-BSP-OPTO2: null
+normative: true
+order: 0
+ref: ''
+reviewed: null
+source:
+- bsps/arm/edb7312/btimer/btimer.c
+- bsps/arm/edb7312/clock/clockdrv.c
+- bsps/arm/edb7312/console/uart.c
+- bsps/arm/edb7312/irq/bsp_irq_asm.S
+- bsps/arm/edb7312/irq/irq.c
+- bsps/arm/edb7312/start/bspreset.c
+- bsps/arm/edb7312/start/bspstart.c
+- bsps/shared/cache/nocache.c
+- bsps/shared/dev/cpucounter/cpucounterfrequency.c
+- bsps/shared/dev/cpucounter/cpucounterread.c
+- bsps/shared/dev/getentropy/getentropy-cpucounter.c
+- bsps/shared/dev/serial/legacy-console-control.c
+- bsps/shared/dev/serial/legacy-console-select.c
+- bsps/shared/dev/serial/legacy-console.c
+- bsps/shared/irq/irq-default-handler.c
+- bsps/shared/start/bspfatal-default.c
+- bsps/shared/start/bspgetworkarea-default.c
+- bsps/shared/start/sbrk.c
+text: ''
+type: build

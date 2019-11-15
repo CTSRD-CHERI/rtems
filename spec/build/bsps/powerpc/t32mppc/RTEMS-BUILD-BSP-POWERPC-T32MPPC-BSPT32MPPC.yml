@@ -1,0 +1,60 @@
+active: true
+arch: powerpc
+bsp: t32mppc
+build-type: bsp
+cflags: []
+cppflags: []
+derived: true
+enabled-by: []
+family: t32mppc
+header: ''
+includes: []
+install:
+- destination: ${BSP_INCLUDEDIR}
+  source:
+  - bsps/powerpc/t32mppc/include/bsp.h
+  - bsps/powerpc/t32mppc/include/tm27.h
+- destination: ${BSP_INCLUDEDIR}/bsp
+  source:
+  - bsps/powerpc/t32mppc/include/bsp/irq.h
+- destination: ${BSP_LIBDIR}
+  source:
+  - bsps/powerpc/shared/start/linkcmds.base
+  - bsps/powerpc/t32mppc/start/bsp_specs
+  - bsps/powerpc/t32mppc/start/linkcmds
+level: 1.0
+links:
+- RTEMS-BUILD-BSP-BSPOPTS: null
+- RTEMS-BUILD-BSP-OBJ: null
+- RTEMS-BUILD-BSP-OBJIRQ: null
+- RTEMS-BUILD-BSP-OPTOG: null
+- RTEMS-BUILD-BSP-POWERPC-OBJ: null
+- RTEMS-BUILD-BSP-POWERPC-OBJEXC: null
+- RTEMS-BUILD-BSP-POWERPC-T32MPPC-ABI: null
+- RTEMS-BUILD-BSP-POWERPC-T32MPPC-OBJSMP: null
+- RTEMS-BUILD-BSP-POWERPC-T32MPPC-OPTEXCBOOKE: null
+- RTEMS-BUILD-BSP-POWERPC-T32MPPC-OPTEXCFIXDHDLR: null
+- RTEMS-BUILD-BSP-POWERPC-T32MPPC-START: null
+normative: true
+order: 0
+ref: ''
+reviewed: null
+source:
+- bsps/powerpc/shared/cache/cache.c
+- bsps/powerpc/shared/exceptions/ppc-exc-handler-table.c
+- bsps/powerpc/shared/start/bsp-start-zero.S
+- bsps/powerpc/shared/start/tictac.c
+- bsps/powerpc/t32mppc/clock/clock-config.c
+- bsps/powerpc/t32mppc/console/console.c
+- bsps/powerpc/t32mppc/irq/irq.c
+- bsps/powerpc/t32mppc/start/bspreset.c
+- bsps/powerpc/t32mppc/start/bspstart.c
+- bsps/shared/dev/btimer/btimer-stub.c
+- bsps/shared/dev/getentropy/getentropy-cpucounter.c
+- bsps/shared/dev/serial/console-termios.c
+- bsps/shared/irq/irq-default-handler.c
+- bsps/shared/start/bspfatal-default.c
+- bsps/shared/start/bspgetworkarea-default.c
+- bsps/shared/start/sbrk.c
+text: ''
+type: build

@@ -1,0 +1,20 @@
+active: true
+asflags: []
+build-type: start-file
+cppflags: []
+derived: true
+install-path: ${BSP_LIBDIR}
+enabled-by: []
+header: ''
+includes: []
+level: 1.0
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: NULL
+source:
+- bsps/m68k/mcf5329/start/start.S
+target: start.o
+text: ''
+type: build

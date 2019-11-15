@@ -1,0 +1,24 @@
+active: true
+arch: arm
+bsp: stm32f4
+build-type: bsp
+cflags: []
+cppflags: []
+derived: true
+enabled-by: []
+family: stm32f4
+header: ''
+includes: []
+install: []
+level: 1.0
+links:
+- RTEMS-BUILD-BSP-ARM-STM32F4-GRP: null
+- RTEMS-BUILD-BSP-OPTO2: null
+- RTEMS-BUILD-BSP-TSTSMALLMEM: null
+normative: true
+order: 0
+ref: ''
+reviewed: null
+source: []
+text: ''
+type: build

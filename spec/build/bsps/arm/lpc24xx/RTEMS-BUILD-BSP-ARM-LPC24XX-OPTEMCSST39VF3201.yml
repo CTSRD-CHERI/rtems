@@ -1,0 +1,20 @@
+actions:
+- get-boolean: null
+- define-condition: null
+active: true
+build-type: option
+default: false
+default-by-variant: []
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: LPC24XX_EMC_SST39VF3201
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  enable SST39VF3201 configuration for EMC
+type: build

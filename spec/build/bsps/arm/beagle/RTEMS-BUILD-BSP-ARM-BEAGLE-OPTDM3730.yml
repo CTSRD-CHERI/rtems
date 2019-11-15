@@ -1,0 +1,23 @@
+actions:
+- get-boolean: null
+- define-condition: null
+active: true
+build-type: option
+default: false
+default-by-variant:
+- value: true
+  variants:
+  - arm/beagleboard.*
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: IS_DM3730
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  true if SOC is DM3730
+type: build

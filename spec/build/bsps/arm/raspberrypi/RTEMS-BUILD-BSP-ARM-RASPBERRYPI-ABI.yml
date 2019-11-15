@@ -1,0 +1,30 @@
+actions:
+- get-string: null
+- split: null
+- env-append: null
+active: true
+build-type: option
+default:
+- -march=armv7-a
+- -mthumb
+- -mfpu=neon
+- -mfloat-abi=hard
+- -mtune=cortex-a7
+default-by-variant:
+- value:
+  - -mcpu=arm1176jzf-s
+  variants:
+  - arm/raspberrypi
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: ABI_FLAGS
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  ABI flags
+type: build

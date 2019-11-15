@@ -1,0 +1,50 @@
+active: true
+arch: nios2
+bsp: nios2_iss
+build-type: bsp
+cflags: []
+cppflags: []
+derived: true
+enabled-by: []
+family: nios2_iss
+header: ''
+includes: []
+install:
+- destination: ${BSP_INCLUDEDIR}
+  source:
+  - bsps/nios2/nios2_iss/include/bsp.h
+  - bsps/nios2/nios2_iss/include/tm27.h
+- destination: ${BSP_INCLUDEDIR}/bsp
+  source:
+  - bsps/nios2/nios2_iss/include/bsp/irq.h
+- destination: ${BSP_LIBDIR}
+  source:
+  - bsps/nios2/nios2_iss/start/bsp_specs
+  - bsps/nios2/nios2_iss/start/linkcmds
+level: 1.0
+links:
+- RTEMS-BUILD-BSP-BSPOPTS: null
+- RTEMS-BUILD-BSP-NIOS2-NIOS2ISS-ABI: null
+- RTEMS-BUILD-BSP-NIOS2-NIOS2ISS-START: null
+- RTEMS-BUILD-BSP-OBJ: null
+- RTEMS-BUILD-BSP-OBJIRQDFLT: null
+- RTEMS-BUILD-BSP-OPTO0: null
+normative: true
+order: 0
+ref: ''
+reviewed: null
+source:
+- bsps/nios2/nios2_iss/btimer/btimer.c
+- bsps/nios2/nios2_iss/clock/clock.c
+- bsps/nios2/nios2_iss/console/console.c
+- bsps/nios2/nios2_iss/start/bspstart.c
+- bsps/nios2/nios2_iss/start/setvec.c
+- bsps/shared/cache/nocache.c
+- bsps/shared/dev/getentropy/getentropy-cpucounter.c
+- bsps/shared/dev/serial/console-polled.c
+- bsps/shared/start/bspfatal-default.c
+- bsps/shared/start/bspgetworkarea-default.c
+- bsps/shared/start/bspreset-loop.c
+- bsps/shared/start/sbrk.c
+text: ''
+type: build

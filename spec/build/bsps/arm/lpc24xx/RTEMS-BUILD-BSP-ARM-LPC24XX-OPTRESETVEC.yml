@@ -1,0 +1,24 @@
+actions:
+- get-integer: null
+- define: null
+format: '{:#010x}'
+active: true
+build-type: option
+default: 0
+default-by-variant:
+- value: 0x80000040
+  variants:
+  - arm/lpc24xx_ncs_rom_ext
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: BSP_START_RESET_VECTOR
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  reset vector address for BSP start
+type: build

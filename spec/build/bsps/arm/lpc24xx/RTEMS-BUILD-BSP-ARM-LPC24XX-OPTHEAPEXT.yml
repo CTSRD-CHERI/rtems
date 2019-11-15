@@ -1,0 +1,23 @@
+actions:
+- get-boolean: null
+- define-condition: null
+active: true
+build-type: option
+default: false
+default-by-variant:
+- value: true
+  variants:
+  - arm/lpc23.*
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: LPC24XX_HEAP_EXTEND
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  enable heap extend by Ethernet and USB regions
+type: build

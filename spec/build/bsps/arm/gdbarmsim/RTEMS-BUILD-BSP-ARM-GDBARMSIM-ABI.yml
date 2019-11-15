@@ -1,0 +1,38 @@
+actions:
+- get-string: null
+- split: null
+- env-append: null
+active: true
+build-type: option
+default:
+- -mcpu=cortex-a9
+default-by-variant:
+- value:
+  - -mcpu=arm920
+  variants:
+  - arm/arm920
+- value:
+  - -mcpu=arm7tdmi
+  variants:
+  - arm/arm7tdmi
+- value:
+  - -mcpu=arm1136j-s
+  variants:
+  - arm/arm1136js
+- value:
+  - -mcpu=arm1136jf-s
+  variants:
+  - arm/arm1136jfs
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: ABI_FLAGS
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  ABI flags
+type: build

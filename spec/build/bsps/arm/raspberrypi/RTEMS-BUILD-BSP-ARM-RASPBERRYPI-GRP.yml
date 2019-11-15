@@ -1,0 +1,32 @@
+active: true
+build-type: group
+install: []
+derived: true
+enabled-by: []
+header: ''
+includes: []
+ldflags: []
+level: 1.22
+links:
+- RTEMS-BUILD-BSP-ARM-RASPBERRYPI-ABI: null
+- RTEMS-BUILD-BSP-ARM-RASPBERRYPI-LINKCMDS: null
+- RTEMS-BUILD-BSP-ARM-RASPBERRYPI-OBJ: null
+- RTEMS-BUILD-BSP-ARM-RASPBERRYPI-OBJSMP: null
+- RTEMS-BUILD-BSP-ARM-RASPBERRYPI-OPTENHYP: null
+- RTEMS-BUILD-BSP-ARM-RASPBERRYPI-OPTI2CIOMODE: null
+- RTEMS-BUILD-BSP-ARM-RASPBERRYPI-OPTRESETVEC: null
+- RTEMS-BUILD-BSP-ARM-RASPBERRYPI-OPTRPI2: null
+- RTEMS-BUILD-BSP-ARM-RASPBERRYPI-OPTSPIIOMODE: null
+- RTEMS-BUILD-BSP-ARM-START: null
+- RTEMS-BUILD-BSP-BSPOPTS: null
+- RTEMS-BUILD-BSP-OBJ: null
+- RTEMS-BUILD-BSP-OBJIRQ: null
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: ''
+top-level: false
+type: build
+use-before: []
+use-after: []

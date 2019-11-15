@@ -1,0 +1,42 @@
+actions:
+- get-string: null
+- split: null
+- env-append: null
+active: true
+build-type: option
+default:
+- -mcpu=8540
+- -meabi
+- -msdata=sysv
+- -fno-common
+- -mstrict-align
+- -mspe
+- -mabi=spe
+- -mfloat-gprs=double
+default-by-variant:
+- value:
+  - -mcpu=e6500
+  - -m64
+  - -fno-common
+  variants:
+  - powerpc/qoriq_e6500_64
+- value:
+  - -mcpu=e6500
+  - -m32
+  - -msdata=sysv
+  - -fno-common
+  variants:
+  - powerpc/qoriq_e6500_32
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: ABI_FLAGS
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  ABI flags
+type: build

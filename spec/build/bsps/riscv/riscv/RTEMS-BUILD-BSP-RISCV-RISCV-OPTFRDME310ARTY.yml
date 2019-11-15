@@ -1,0 +1,23 @@
+actions:
+- get-boolean: null
+- define-condition: null
+active: true
+build-type: option
+default: false
+default-by-variant:
+- value: true
+  variants:
+  - riscv/frdme310arty.*
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: RISCV_ENABLE_FRDME310ARTY_SUPPORT
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  enables support sifive Freedom E310 Arty board if defined to a non-zero value,otherwise it is disabled (disabled by default)
+type: build

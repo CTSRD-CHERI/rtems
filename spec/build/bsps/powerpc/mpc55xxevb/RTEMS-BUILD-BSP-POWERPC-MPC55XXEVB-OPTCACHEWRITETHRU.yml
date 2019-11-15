@@ -1,0 +1,23 @@
+actions:
+- get-boolean: null
+- define-condition: null
+active: true
+build-type: option
+default: false
+default-by-variant:
+- value: true
+  variants:
+  - powerpc/mpc5674f_ecu508.*
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: BSP_DATA_CACHE_USE_WRITE_THROUGH
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  use write-through for data cache
+type: build

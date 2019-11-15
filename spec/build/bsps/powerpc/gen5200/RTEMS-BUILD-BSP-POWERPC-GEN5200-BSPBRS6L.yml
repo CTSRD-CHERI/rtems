@@ -1,0 +1,23 @@
+active: true
+arch: powerpc
+bsp: brs6l
+build-type: bsp
+cflags: []
+cppflags: []
+derived: true
+enabled-by: []
+family: gen5200
+header: ''
+includes: []
+install: []
+level: 1.0
+links:
+- RTEMS-BUILD-BSP-OPTO2: null
+- RTEMS-BUILD-BSP-POWERPC-GEN5200-GRP: null
+normative: true
+order: 0
+ref: ''
+reviewed: null
+source: []
+text: ''
+type: build

@@ -1,0 +1,50 @@
+active: true
+build-type: objects
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by: []
+header: ''
+includes: []
+install:
+- destination: ${BSP_INCLUDEDIR}
+  source:
+  - bsps/arm/gdbarmsim/include/bsp.h
+  - bsps/arm/gdbarmsim/include/tm27.h
+- destination: ${BSP_INCLUDEDIR}/bsp
+  source:
+  - bsps/arm/gdbarmsim/include/bsp/irq.h
+  - bsps/arm/gdbarmsim/include/bsp/swi.h
+- destination: ${BSP_LIBDIR}
+  source:
+  - bsps/arm/gdbarmsim/start/bsp_specs
+  - bsps/arm/gdbarmsim/start/linkcmds
+level: 1.1
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: null
+source:
+- bsps/arm/gdbarmsim/console/console-io.c
+- bsps/arm/gdbarmsim/irq/irq-dispatch.c
+- bsps/arm/gdbarmsim/irq/irq.c
+- bsps/arm/gdbarmsim/start/bspreset.c
+- bsps/arm/gdbarmsim/start/bspstarthooks.c
+- bsps/arm/gdbarmsim/start/syscalls.c
+- bsps/arm/shared/start/bsp-start-memcpy.S
+- bsps/shared/cache/nocache.c
+- bsps/shared/dev/btimer/btimer-stub.c
+- bsps/shared/dev/clock/clock-simidle.c
+- bsps/shared/dev/cpucounter/cpucounterfrequency.c
+- bsps/shared/dev/cpucounter/cpucounterread.c
+- bsps/shared/dev/getentropy/getentropy-cpucounter.c
+- bsps/shared/dev/serial/console-polled.c
+- bsps/shared/irq/irq-default-handler.c
+- bsps/shared/start/bspfatal-default.c
+- bsps/shared/start/bspgetworkarea-default.c
+- bsps/shared/start/bspstart-empty.c
+- bsps/shared/start/sbrk.c
+text: ''
+type: build

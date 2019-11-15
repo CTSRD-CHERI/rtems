@@ -1,0 +1,30 @@
+actions:
+- get-integer: null
+- define: null
+format: '{}'
+active: true
+build-type: option
+default: 63
+default-by-variant:
+- value: 127
+  variants:
+  - powerpc/mpc5643l.*
+- value: 127
+  variants:
+  - powerpc/mpc5566.*
+- value: 255
+  variants:
+  - powerpc/mpc5674f.*
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: BSP_INTERRUPT_HANDLER_TABLE_SIZE
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  defines the maximum number of interrupt handlers
+type: build

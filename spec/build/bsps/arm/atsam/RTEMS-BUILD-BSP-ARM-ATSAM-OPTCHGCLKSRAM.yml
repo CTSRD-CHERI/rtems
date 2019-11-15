@@ -1,0 +1,20 @@
+actions:
+- get-boolean: null
+- define-condition: null
+active: true
+build-type: option
+default: false
+default-by-variant: []
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: ATSAM_CHANGE_CLOCK_FROM_SRAM
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  Move the functions that set up the clock into the SRAM.  This allows to change the clock frequency even if the application is started from SDRAM.  Requires a TCM_SIZE > 0.
+type: build

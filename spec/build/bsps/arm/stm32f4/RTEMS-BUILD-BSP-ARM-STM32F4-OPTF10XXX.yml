@@ -1,0 +1,23 @@
+actions:
+- get-boolean: null
+- define-condition: null
+active: true
+build-type: option
+default: false
+default-by-variant:
+- value: true
+  variants:
+  - arm/stm32f1.*
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: STM32F4_FAMILY_F10XXX
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  Chip belongs to the STM32F10XXX family.
+type: build

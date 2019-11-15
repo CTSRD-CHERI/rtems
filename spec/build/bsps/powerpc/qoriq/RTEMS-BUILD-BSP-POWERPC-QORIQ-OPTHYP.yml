@@ -1,0 +1,23 @@
+actions:
+- get-boolean: null
+- define-condition: null
+active: true
+build-type: option
+default: false
+default-by-variant:
+- value: true
+  variants:
+  - powerpc/qoriq_e6500.*
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: QORIQ_HAS_HYPERVISOR_MODE
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  defined if the processor core has a hypervisor mode
+type: build

@@ -1,0 +1,65 @@
+active: true
+arch: powerpc
+bsp: mpc8260ads
+build-type: bsp
+cflags: []
+cppflags: []
+derived: true
+enabled-by: []
+family: mpc8260ads
+header: ''
+includes: []
+install:
+- destination: ${BSP_INCLUDEDIR}
+  source:
+  - bsps/powerpc/mpc8260ads/include/bsp.h
+  - bsps/powerpc/mpc8260ads/include/tm27.h
+- destination: ${BSP_INCLUDEDIR}/bsp
+  source:
+  - bsps/powerpc/mpc8260ads/include/bsp/irq.h
+- destination: ${BSP_LIBDIR}
+  source:
+  - bsps/powerpc/mpc8260ads/start/bsp_specs
+  - bsps/powerpc/mpc8260ads/start/linkcmds
+level: 1.0
+links:
+- RTEMS-BUILD-BSP-BSPOPTS: null
+- RTEMS-BUILD-BSP-OBJ: null
+- RTEMS-BUILD-BSP-OBJIRQ: null
+- RTEMS-BUILD-BSP-OPTO2: null
+- RTEMS-BUILD-BSP-POWERPC-MPC8260ADS-ABI: null
+- RTEMS-BUILD-BSP-POWERPC-MPC8260ADS-OBJNET: null
+- RTEMS-BUILD-BSP-POWERPC-MPC8260ADS-OPTCONMINOR: null
+- RTEMS-BUILD-BSP-POWERPC-MPC8260ADS-OPTDISPHANDSTAT: null
+- RTEMS-BUILD-BSP-POWERPC-MPC8260ADS-OPTPRINTKMINOR: null
+- RTEMS-BUILD-BSP-POWERPC-MPC8260ADS-OPTUARTSIOMODE: null
+- RTEMS-BUILD-BSP-POWERPC-MPC8260ADS-OPTUARTSTERM: null
+- RTEMS-BUILD-BSP-POWERPC-MPC8260ADS-START: null
+- RTEMS-BUILD-BSP-POWERPC-OBJ: null
+- RTEMS-BUILD-BSP-POWERPC-OBJEXC: null
+normative: true
+order: 0
+ref: ''
+reviewed: null
+source:
+- bsps/powerpc/mpc8260ads/console/console.c
+- bsps/powerpc/mpc8260ads/dev/console-generic.c
+- bsps/powerpc/mpc8260ads/irq/irq.c
+- bsps/powerpc/mpc8260ads/start/brg.c
+- bsps/powerpc/mpc8260ads/start/bspstart.c
+- bsps/powerpc/mpc8260ads/start/cp.c
+- bsps/powerpc/mpc8260ads/start/cpuinit.c
+- bsps/powerpc/mpc8260ads/start/dpram.c
+- bsps/powerpc/mpc8260ads/start/mmu.c
+- bsps/powerpc/shared/btimer/btimer-ppc-dec.c
+- bsps/powerpc/shared/cache/cache.c
+- bsps/powerpc/shared/clock/clock.c
+- bsps/powerpc/shared/start/bspidle.c
+- bsps/shared/dev/getentropy/getentropy-cpucounter.c
+- bsps/shared/irq/irq-default-handler.c
+- bsps/shared/start/bspfatal-default.c
+- bsps/shared/start/bspgetworkarea-default.c
+- bsps/shared/start/bspreset-empty.c
+- bsps/shared/start/sbrk.c
+text: ''
+type: build

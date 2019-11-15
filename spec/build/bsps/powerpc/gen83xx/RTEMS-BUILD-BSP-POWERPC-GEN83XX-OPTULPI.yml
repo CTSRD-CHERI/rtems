@@ -1,0 +1,23 @@
+actions:
+- get-boolean: null
+- define-condition: null
+active: true
+build-type: option
+default: false
+default-by-variant:
+- value: true
+  variants:
+  - powerpc/br_uid
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: BSP_USB_EHCI_MPC83XX_HAS_ULPI
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  the board has an ULPI PHY connected to the USB EHCI controller
+type: build

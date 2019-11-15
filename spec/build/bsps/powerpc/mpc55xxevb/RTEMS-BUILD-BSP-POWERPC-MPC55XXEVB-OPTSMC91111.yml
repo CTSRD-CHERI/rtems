@@ -1,0 +1,23 @@
+actions:
+- get-boolean: null
+- define-condition: null
+active: true
+build-type: option
+default: false
+default-by-variant:
+- value: true
+  variants:
+  - powerpc/phycore_mpc5554
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: HAS_SMC91111
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  If defined the board has the SMC91111 networking chip.
+type: build

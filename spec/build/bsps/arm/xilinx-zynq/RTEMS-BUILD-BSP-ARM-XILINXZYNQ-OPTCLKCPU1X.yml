@@ -1,0 +1,27 @@
+actions:
+- get-integer: null
+- define: null
+format: '{}'
+active: true
+build-type: option
+default: 111111111
+default-by-variant:
+- value: 111111111
+  variants:
+  - arm/xilinx_zynq_zc702.*
+- value: 111111111
+  variants:
+  - arm/xilinx_zynq_zedboard.*
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: ZYNQ_CLOCK_CPU_1X
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  Zynq cpu_1x clock frequency in Hz
+type: build

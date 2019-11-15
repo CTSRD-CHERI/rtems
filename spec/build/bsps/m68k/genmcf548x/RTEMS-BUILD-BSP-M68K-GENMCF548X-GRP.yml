@@ -1,0 +1,31 @@
+active: true
+build-type: group
+install: []
+derived: true
+enabled-by: []
+header: ''
+includes: []
+ldflags: []
+level: 1.22
+links:
+- RTEMS-BUILD-BSP-BSPOPTS: null
+- RTEMS-BUILD-BSP-LINKCMDS: null
+- RTEMS-BUILD-BSP-M68K-GENMCF548X-ABI: null
+- RTEMS-BUILD-BSP-M68K-GENMCF548X-OBJ: null
+- RTEMS-BUILD-BSP-M68K-GENMCF548X-OBJNET: null
+- RTEMS-BUILD-BSP-M68K-GENMCF548X-OPTCONBAUD: null
+- RTEMS-BUILD-BSP-M68K-GENMCF548X-OPTCPUCLK: null
+- RTEMS-BUILD-BSP-M68K-GENMCF548X-OPTDBUG: null
+- RTEMS-BUILD-BSP-M68K-GENMCF548X-OPTLOWINIT: null
+- RTEMS-BUILD-BSP-M68K-GENMCF548X-OPTM5484FIREENGINE: null
+- RTEMS-BUILD-BSP-M68K-GENMCF548X-START: null
+- RTEMS-BUILD-BSP-OBJ: null
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: ''
+top-level: false
+type: build
+use-before: []
+use-after: []

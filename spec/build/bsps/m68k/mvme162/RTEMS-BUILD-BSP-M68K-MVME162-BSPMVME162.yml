@@ -1,0 +1,24 @@
+active: true
+arch: m68k
+bsp: mvme162
+build-type: bsp
+cflags: []
+cppflags: []
+derived: true
+enabled-by: []
+family: mvme162
+header: ''
+includes: []
+install: []
+level: 1.0
+links:
+- RTEMS-BUILD-BSP-M68K-MVME162-GRP: null
+- RTEMS-BUILD-BSP-M68K-MVME162-TSTMVME162: null
+- RTEMS-BUILD-BSP-OPTO2: null
+normative: true
+order: 0
+ref: ''
+reviewed: null
+source: []
+text: ''
+type: build

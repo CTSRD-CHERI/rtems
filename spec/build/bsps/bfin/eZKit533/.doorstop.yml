@@ -1,0 +1,11 @@
+settings:
+  digits: 3
+  parent: RTEMS-BUILD-BSP-BFIN
+  prefix: RTEMS-BUILD-BSP-BFIN-EZKIT533
+  sep: '-'
+attributes:
+  defaults:
+    build-type: objects
+    enabled-by: []
+    order: 0
+    type: build

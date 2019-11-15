@@ -1,0 +1,21 @@
+actions:
+- get-integer: null
+- define: null
+format: '{}'
+active: true
+build-type: option
+default: 48
+default-by-variant: []
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: SMSC9218I_EDMA_TX_CHANNEL
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  transmit eDMA channel for SMSC9218I network interface
+type: build

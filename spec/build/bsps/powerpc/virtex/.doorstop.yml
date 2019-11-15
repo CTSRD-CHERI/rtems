@@ -1,0 +1,11 @@
+settings:
+  digits: 3
+  parent: RTEMS-BUILD-BSP-POWERPC
+  prefix: RTEMS-BUILD-BSP-POWERPC-VIRTEX
+  sep: '-'
+attributes:
+  defaults:
+    build-type: objects
+    enabled-by: []
+    order: 0
+    type: build

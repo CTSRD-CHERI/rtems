@@ -1,0 +1,26 @@
+actions:
+- get-boolean: null
+- define-condition: null
+active: true
+build-type: option
+default: false
+default-by-variant:
+- value: true
+  variants:
+  - arm/lpc17xx_ea_rom_.*
+- value: true
+  variants:
+  - arm/lpc40xx_ea_rom_.*
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: LPC24XX_EMC_IS42S32800B
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  enable ISSI IS42S32800B configuration for EMC
+type: build

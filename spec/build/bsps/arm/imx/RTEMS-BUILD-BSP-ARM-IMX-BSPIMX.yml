@@ -1,0 +1,86 @@
+active: true
+arch: arm
+bsp: imx7
+build-type: bsp
+cflags: []
+cppflags: []
+derived: true
+enabled-by: []
+family: imx
+header: ''
+includes: []
+install:
+- destination: ${BSP_INCLUDEDIR}
+  source:
+  - bsps/arm/imx/include/bsp.h
+  - bsps/arm/imx/include/tm27.h
+- destination: ${BSP_INCLUDEDIR}/arm/freescale/imx
+  source:
+  - bsps/arm/imx/include/arm/freescale/imx/imx_ccmvar.h
+  - bsps/arm/imx/include/arm/freescale/imx/imx_ecspireg.h
+  - bsps/arm/imx/include/arm/freescale/imx/imx_gpcreg.h
+  - bsps/arm/imx/include/arm/freescale/imx/imx_i2creg.h
+  - bsps/arm/imx/include/arm/freescale/imx/imx_iomuxreg.h
+  - bsps/arm/imx/include/arm/freescale/imx/imx_iomuxvar.h
+  - bsps/arm/imx/include/arm/freescale/imx/imx_srcreg.h
+  - bsps/arm/imx/include/arm/freescale/imx/imx_uartreg.h
+  - bsps/arm/imx/include/arm/freescale/imx/imx_wdogreg.h
+- destination: ${BSP_INCLUDEDIR}/bsp
+  source:
+  - bsps/arm/imx/include/bsp/irq.h
+- destination: ${BSP_LIBDIR}
+  source:
+  - bsps/arm/imx/start/bsp_specs
+  - bsps/arm/imx/start/linkcmds
+  - bsps/arm/imx/start/linkcmds
+level: 1.0
+links:
+- RTEMS-BUILD-BSP-ARM-IMX-ABI: null
+- RTEMS-BUILD-BSP-ARM-IMX-OBJSMP: null
+- RTEMS-BUILD-BSP-ARM-IMX-OPTCACHEDATA: null
+- RTEMS-BUILD-BSP-ARM-IMX-OPTCACHEINST: null
+- RTEMS-BUILD-BSP-ARM-IMX-OPTCCMAHB: null
+- RTEMS-BUILD-BSP-ARM-IMX-OPTCMMIPG: null
+- RTEMS-BUILD-BSP-ARM-IMX-OPTCMMSDHCI: null
+- RTEMS-BUILD-BSP-ARM-IMX-OPTCMMUART: null
+- RTEMS-BUILD-BSP-ARM-IMX-OPTCONIRQ: null
+- RTEMS-BUILD-BSP-ARM-IMX-OPTFDTCPYRO: null
+- RTEMS-BUILD-BSP-ARM-IMX-OPTFDTMXSZ: null
+- RTEMS-BUILD-BSP-ARM-IMX-OPTFDTRO: null
+- RTEMS-BUILD-BSP-ARM-IMX-OPTFDTUBOOT: null
+- RTEMS-BUILD-BSP-ARM-IMX-OPTRESETVEC: null
+- RTEMS-BUILD-BSP-ARM-START: null
+- RTEMS-BUILD-BSP-BSPOPTS: null
+- RTEMS-BUILD-BSP-OBJ: null
+- RTEMS-BUILD-BSP-OBJIRQ: null
+- RTEMS-BUILD-BSP-OPTO2: null
+normative: true
+order: 0
+ref: ''
+reviewed: null
+source:
+- bsps/arm/imx/console/console-config.c
+- bsps/arm/imx/i2c/imx-i2c.c
+- bsps/arm/imx/spi/imx-ecspi.c
+- bsps/arm/imx/start/bspreset.c
+- bsps/arm/imx/start/bspstart.c
+- bsps/arm/imx/start/bspstarthooks.c
+- bsps/arm/imx/start/ccm.c
+- bsps/arm/imx/start/imx_iomux.c
+- bsps/arm/shared/cache/cache-cp15.c
+- bsps/arm/shared/cache/cache-v7ar-disable-data.S
+- bsps/arm/shared/clock/clock-generic-timer.c
+- bsps/arm/shared/cp15/arm-cp15-set-exception-handler.c
+- bsps/arm/shared/cp15/arm-cp15-set-ttb-entries.c
+- bsps/arm/shared/irq/irq-gic.c
+- bsps/arm/shared/start/bsp-start-memcpy.S
+- bsps/shared/dev/btimer/btimer-stub.c
+- bsps/shared/dev/getentropy/getentropy-cpucounter.c
+- bsps/shared/dev/serial/console-termios.c
+- bsps/shared/irq/irq-default-handler.c
+- bsps/shared/start/bsp-fdt.c
+- bsps/shared/start/bspfatal-default.c
+- bsps/shared/start/sbrk.c
+- bsps/shared/start/stackalloc.c
+text: ''
+type: build

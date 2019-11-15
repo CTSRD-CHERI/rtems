@@ -1,0 +1,21 @@
+actions:
+- get-integer: null
+- define: null
+format: '{:#010x}'
+active: true
+build-type: option
+default: 0x40000000
+default-by-variant: []
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: BSP_XEN_RAM_BASE
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  base address of memory area available to the BSP
+type: build

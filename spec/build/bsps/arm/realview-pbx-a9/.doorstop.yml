@@ -5,6 +5,7 @@ settings:
   sep: '-'
 attributes:
   defaults:
+    build-type: objects
     enabled-by: []
+    order: 0
     type: build
-    build-type: bsp

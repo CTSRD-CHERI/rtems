@@ -1,0 +1,26 @@
+actions:
+- get-boolean: null
+- define-condition: null
+active: true
+build-type: option
+default: false
+default-by-variant:
+- value: true
+  variants:
+  - arm/lm3s3749.*
+- value: true
+  variants:
+  - arm/lm4f.*
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: LM3S69XX_USE_AHB_FOR_GPIO
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  use AHB apperture to access GPIO registers
+type: build

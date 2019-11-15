@@ -1,0 +1,20 @@
+actions:
+- get-boolean: null
+- define-condition: null
+active: true
+build-type: option
+default: false
+default-by-variant: []
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: START_HW_INIT
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  If defined, selects whether 'early_hw_init()' is called from 'start.S'; 'bsp_hw_init()' is always called from 'bspstart.c'
+type: build

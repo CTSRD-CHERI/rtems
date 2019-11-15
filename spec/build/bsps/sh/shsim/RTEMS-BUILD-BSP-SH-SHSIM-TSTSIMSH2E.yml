@@ -1,0 +1,25 @@
+actions:
+- set-test-state:
+    fileio: exclude
+    fsdosfsname01: exclude
+    iostream: exclude
+    linpack: exclude
+    utf8proc01: exclude
+active: true
+build-type: option
+default: null
+default-by-variant: []
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links:
+- RTEMS-BUILD-BSP-TSTNOICONV: null
+- RTEMS-BUILD-BSP-TSTNOINTRCRIT: null
+- RTEMS-BUILD-BSP-TSTREQTICK: null
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: ''
+type: build

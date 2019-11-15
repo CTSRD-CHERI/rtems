@@ -1,0 +1,24 @@
+active: true
+build-type: objects
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by:
+- RTEMS_NETWORKING
+header: ''
+includes: []
+install: []
+level: 1.0
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: null
+source:
+- bsps/i386/pc386/net/3c509.c
+- bsps/i386/pc386/net/elink.c
+- bsps/i386/pc386/net/ne2000.c
+- bsps/i386/pc386/net/wd8003.c
+text: ''
+type: build

@@ -1,0 +1,24 @@
+active: true
+arch: powerpc
+bsp: qoriq_e500
+build-type: bsp
+cflags: []
+cppflags: []
+derived: true
+enabled-by: []
+family: qoriq
+header: ''
+includes: []
+install: []
+level: 1.0
+links:
+- RTEMS-BUILD-BSP-OPTO2: null
+- RTEMS-BUILD-BSP-POWERPC-QORIQ-GRP: null
+- RTEMS-BUILD-BSP-TSTNOLIBDL: null
+normative: true
+order: 0
+ref: ''
+reviewed: null
+source: []
+text: ''
+type: build

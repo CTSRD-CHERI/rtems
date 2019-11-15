@@ -1,0 +1,27 @@
+actions:
+- get-integer: null
+- define: null
+format: '{}'
+active: true
+build-type: option
+default: 
+default-by-variant:
+- value: 450
+  variants:
+  - powerpc/mpc5674f_ecu508.*
+- value: 193
+  variants:
+  - powerpc/mpc5566.*
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: SMSC9218I_IRQ_PIN
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  IRQ pin for SMSC9218I network interface
+type: build

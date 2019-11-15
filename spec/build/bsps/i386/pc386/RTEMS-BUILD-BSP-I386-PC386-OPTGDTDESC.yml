@@ -1,0 +1,20 @@
+actions:
+- get-boolean: null
+- define-condition: null
+active: true
+build-type: option
+default: false
+default-by-variant: []
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: NUM_APP_DRV_GDT_DESCRIPTORS
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  Defines how many descriptors in GDT may be allocated for application or driver usage.
+type: build

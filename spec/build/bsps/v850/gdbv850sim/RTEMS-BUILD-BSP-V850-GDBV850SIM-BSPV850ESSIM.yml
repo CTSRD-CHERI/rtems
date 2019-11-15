@@ -1,0 +1,24 @@
+active: true
+arch: v850
+bsp: v850essim
+build-type: bsp
+cflags: []
+cppflags: []
+derived: true
+enabled-by: []
+family: gdbv850sim
+header: ''
+includes: []
+install: []
+level: 1.0
+links:
+- RTEMS-BUILD-BSP-OPTO2: null
+- RTEMS-BUILD-BSP-TSTREQTICK: null
+- RTEMS-BUILD-BSP-V850-GDBV850SIM-GRP: null
+normative: true
+order: 0
+ref: ''
+reviewed: null
+source: []
+text: ''
+type: build

@@ -1,0 +1,55 @@
+active: true
+arch: bfin
+bsp: TLL6527M
+build-type: bsp
+cflags: []
+cppflags: []
+derived: true
+enabled-by: []
+family: TLL6527M
+header: ''
+includes: []
+install:
+- destination: ${BSP_INCLUDEDIR}
+  source:
+  - bsps/bfin/TLL6527M/include/bsp.h
+  - bsps/bfin/TLL6527M/include/cplb.h
+  - bsps/bfin/TLL6527M/include/tm27.h
+- destination: ${BSP_INCLUDEDIR}/bsp
+  source:
+  - bsps/bfin/TLL6527M/include/bsp/irq.h
+- destination: ${BSP_LIBDIR}
+  source:
+  - bsps/bfin/TLL6527M/start/bsp_specs
+  - bsps/bfin/TLL6527M/start/linkcmds
+level: 1.0
+links:
+- RTEMS-BUILD-BSP-BFIN-OBJ: null
+- RTEMS-BUILD-BSP-BFIN-START: null
+- RTEMS-BUILD-BSP-BFIN-TLL6527M-ABI: null
+- RTEMS-BUILD-BSP-BFIN-TLL6527M-OPTCONBAUD: null
+- RTEMS-BUILD-BSP-BFIN-TLL6527M-OPTCONIRQ: null
+- RTEMS-BUILD-BSP-BFIN-TLL6527M-OPTIRQTBL: null
+- RTEMS-BUILD-BSP-BFIN-TLL6527M-OPTSKYEYE: null
+- RTEMS-BUILD-BSP-BFIN-TLL6527M-OPTUARTDMA: null
+- RTEMS-BUILD-BSP-BSPOPTS: null
+- RTEMS-BUILD-BSP-OBJ: null
+- RTEMS-BUILD-BSP-OBJIRQDFLT: null
+- RTEMS-BUILD-BSP-OPTO2: null
+normative: true
+order: 0
+ref: ''
+reviewed: null
+source:
+- bsps/bfin/TLL6527M/console/console.c
+- bsps/bfin/TLL6527M/start/bspstart.c
+- bsps/bfin/TLL6527M/start/interrupt.c
+- bsps/bfin/shared/cache/cache.c
+- bsps/shared/dev/getentropy/getentropy-cpucounter.c
+- bsps/shared/start/bspfatal-default.c
+- bsps/shared/start/bspgetworkarea-default.c
+- bsps/shared/start/bspreset-empty.c
+- bsps/shared/start/sbrk.c
+- bsps/shared/start/setvec.c
+text: ''
+type: build

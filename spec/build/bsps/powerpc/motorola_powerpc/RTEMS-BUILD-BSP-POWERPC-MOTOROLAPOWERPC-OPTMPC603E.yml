@@ -1,0 +1,26 @@
+actions:
+- get-boolean: null
+- define-condition: null
+active: true
+build-type: option
+default: false
+default-by-variant:
+- value: true
+  variants:
+  - powerpc/mtx603e
+- value: true
+  variants:
+  - powerpc/mvme2100
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: mpc603e
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  Define when ppc603e -- undefined for others
+type: build

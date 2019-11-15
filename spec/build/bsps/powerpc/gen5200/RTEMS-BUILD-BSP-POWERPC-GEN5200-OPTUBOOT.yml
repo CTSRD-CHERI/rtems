@@ -1,0 +1,29 @@
+actions:
+- get-boolean: null
+- define-condition: null
+active: true
+build-type: option
+default: false
+default-by-variant:
+- value: true
+  variants:
+  - powerpc/pm520.*
+- value: true
+  variants:
+  - powerpc/icecube
+- value: true
+  variants:
+  - powerpc/dp2
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: HAS_UBOOT
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  enable U-Boot startup
+type: build

@@ -1,0 +1,24 @@
+active: true
+build-type: objects
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by:
+- RTEMS_MULTIPROCESSING
+header: ''
+includes: []
+install: []
+level: 1.0
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: null
+source:
+- bsps/m68k/mvme147s/mpci/addrconv.c
+- bsps/m68k/mvme147s/mpci/getcfg.c
+- bsps/m68k/mvme147s/mpci/lock.c
+- bsps/m68k/mvme147s/mpci/mpisr.c
+text: ''
+type: build

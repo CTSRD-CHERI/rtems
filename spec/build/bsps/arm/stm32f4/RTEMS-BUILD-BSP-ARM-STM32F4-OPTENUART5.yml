@@ -1,0 +1,20 @@
+actions:
+- get-boolean: null
+- define-condition: null
+active: true
+build-type: option
+default: false
+default-by-variant: []
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: STM32F4_ENABLE_UART_5
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  enable UART 5
+type: build

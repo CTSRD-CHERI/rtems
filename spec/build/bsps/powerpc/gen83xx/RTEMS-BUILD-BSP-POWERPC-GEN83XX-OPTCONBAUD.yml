@@ -1,0 +1,24 @@
+actions:
+- get-integer: null
+- define: null
+format: '{}'
+active: true
+build-type: option
+default: 115200
+default-by-variant:
+- value: 9600
+  variants:
+  - powerpc/hsc_cm01
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: BSP_CONSOLE_BAUD
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  default baud for console and other serial devices
+type: build

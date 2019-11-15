@@ -1,0 +1,20 @@
+actions:
+- get-boolean: null
+- define-condition: null
+active: true
+build-type: option
+default: false
+default-by-variant: []
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: BFIN_ON_SKYEYE
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  (BSP--Skyeye) If defined, disable features which are not supported on Skyeye.
+type: build

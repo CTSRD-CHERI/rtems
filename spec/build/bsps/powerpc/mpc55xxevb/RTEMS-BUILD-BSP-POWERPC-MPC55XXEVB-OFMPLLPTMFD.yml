@@ -1,0 +1,30 @@
+actions:
+- get-integer: null
+- define: null
+format: '{}'
+active: true
+build-type: option
+default: 0
+default-by-variant:
+- value: 99
+  variants:
+  - powerpc/gwlcfm
+- value: 111
+  variants:
+  - powerpc/mpc5668g.*
+- value: 66
+  variants:
+  - powerpc/mpc5674f.*
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: MPC55XX_FMPLL_MFD
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  Must be defined to be the PLL multiplication factor for clock generation
+type: build

@@ -1,0 +1,24 @@
+actions:
+- get-integer: null
+- define: null
+format: '{}'
+active: true
+build-type: option
+default: 7
+default-by-variant:
+- value: 6
+  variants:
+  - powerpc/mpc5674f_rsm6
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: MPC55XX_FMPLL_ESYNCR1_CLKCFG
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  the FMPLL ESYNCR1[CLKCFG] value
+type: build

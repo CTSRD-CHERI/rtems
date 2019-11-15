@@ -1,0 +1,23 @@
+active: true
+arch: arm
+bsp: tms570ls3137_hdk_sdram
+build-type: bsp
+cflags: []
+cppflags: []
+derived: true
+enabled-by: []
+family: tms570
+header: ''
+includes: []
+install: []
+level: 1.0
+links:
+- RTEMS-BUILD-BSP-ARM-TMS570-GRP: null
+- RTEMS-BUILD-BSP-OPTO2: null
+normative: true
+order: 0
+ref: ''
+reviewed: null
+source: []
+text: ''
+type: build

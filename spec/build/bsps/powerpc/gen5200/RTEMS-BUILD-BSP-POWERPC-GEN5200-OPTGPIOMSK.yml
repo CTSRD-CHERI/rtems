@@ -1,0 +1,30 @@
+actions:
+- get-integer: null
+- define: null
+format: '{:#010x}'
+active: true
+build-type: option
+default: 0x330F0F77
+default-by-variant:
+- value: 0x037F3F07
+  variants:
+  - powerpc/pm520_ze30
+- value: 0xb30F0F77
+  variants:
+  - powerpc/brs.*l
+- value: 0x337F3F77
+  variants:
+  - powerpc/dp2
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: BSP_GPIOPCR_INITMASK
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  Defines the bits cleared in the MPC5200 GPIOPCR register during initialization.  Must match the hardware requirements.  Must be consistent with BSP_GPIOPCR_INITVAL.  The bits are cleared via BSP_GPIOPCR_INITMASK and then set via BSP_GPIOPCR_INITVAL.
+type: build

@@ -4,19 +4,19 @@ actions:
 - env-append: null
 active: true
 build-type: option
-default-by-variant: []
 default:
 - -mcpu=cypress
+default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: 1.3
+level: 1.8
 links: []
 name: ABI_FLAGS
 normative: true
 order: 0
 ref: ''
-reviewed: I2RtTMi4-I_ZFznOGYAMFpdPzucAr3x5-DOBaO6Qf_I=
+reviewed: null
 text: |
   ABI flags
 type: build

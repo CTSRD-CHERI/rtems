@@ -1,0 +1,23 @@
+active: true
+arch: i386
+bsp: pc686
+build-type: bsp
+cflags: []
+cppflags: []
+derived: true
+enabled-by: []
+family: pc386
+header: ''
+includes: []
+install: []
+level: 1.0
+links:
+- RTEMS-BUILD-BSP-I386-PC386-GRP: null
+- RTEMS-BUILD-BSP-OPTO2: null
+normative: true
+order: 0
+ref: ''
+reviewed: null
+source: []
+text: ''
+type: build

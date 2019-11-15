@@ -1,0 +1,24 @@
+active: true
+arch: arm
+bsp: lpc17xx_ea_rom_int
+build-type: bsp
+cflags: []
+cppflags: []
+derived: true
+enabled-by: []
+family: lpc24xx
+header: ''
+includes: []
+install: []
+level: 1.0
+links:
+- RTEMS-BUILD-BSP-ARM-LPC24XX-GRP: null
+- RTEMS-BUILD-BSP-ARM-LPC24XX-TSTLPC17XXEAROMINT: null
+- RTEMS-BUILD-BSP-OPTO2: null
+normative: true
+order: 0
+ref: ''
+reviewed: null
+source: []
+text: ''
+type: build

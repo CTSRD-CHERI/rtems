@@ -1,0 +1,53 @@
+actions:
+- get-string: null
+- split: null
+- env-append: null
+active: true
+build-type: option
+default:
+- -mtune=pentium4
+- -march=pentium4
+- -msse3
+- -mtune=i386
+default-by-variant:
+- value:
+  - -mtune=pentiumpro
+  - -march=pentium
+  - -mtune=i386
+  variants:
+  - i386/pc686
+- value:
+  - -mtune=pentium
+  - -march=pentium
+  - -msse2
+  - -mtune=i386
+  variants:
+  - i386/pc586-sse
+- value:
+  - -mtune=pentium
+  - -march=pentium
+  - -mtune=i386
+  variants:
+  - i386/pc586
+- value:
+  - -mtune=i486
+  - -mtune=i386
+  variants:
+  - i386/pc486
+- value:
+  - -mtune=i386
+  variants:
+  - i386/pc386
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: ABI_FLAGS
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  ABI flags
+type: build

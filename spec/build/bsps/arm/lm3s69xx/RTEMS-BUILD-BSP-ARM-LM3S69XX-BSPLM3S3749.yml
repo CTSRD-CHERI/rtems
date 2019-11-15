@@ -1,0 +1,24 @@
+active: true
+arch: arm
+bsp: lm3s3749
+build-type: bsp
+cflags: []
+cppflags: []
+derived: true
+enabled-by: []
+family: lm3s69xx
+header: ''
+includes: []
+install: []
+level: 1.0
+links:
+- RTEMS-BUILD-BSP-ARM-LM3S69XX-GRP: null
+- RTEMS-BUILD-BSP-ARM-LM3S69XX-TSTLM3S3749: null
+- RTEMS-BUILD-BSP-OPTO2: null
+normative: true
+order: 0
+ref: ''
+reviewed: null
+source: []
+text: ''
+type: build

@@ -1,0 +1,23 @@
+actions:
+- get-boolean: null
+- define-condition: null
+active: true
+build-type: option
+default: false
+default-by-variant:
+- value: true
+  variants:
+  - arm/lm3s6965.*
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: LM3S69XX_MCU_LM3S6965
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  board has LM3S6965 MCU
+type: build

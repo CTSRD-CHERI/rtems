@@ -2,18 +2,17 @@ active: true
 asflags: []
 build-type: start-file
 cppflags: []
-derived: false
+derived: true
 install-path: ${BSP_LIBDIR}
 enabled-by: []
-header: |
-  RISC-V start file
+header: ''
 includes: []
 level: 1.0
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: lQMXnOuGZA-Wr_ZsMmRndBo-YXk6Dl8Q9OP-om13RkA=
+reviewed: NULL
 source:
 - bsps/riscv/shared/start/start.S
 target: start.o

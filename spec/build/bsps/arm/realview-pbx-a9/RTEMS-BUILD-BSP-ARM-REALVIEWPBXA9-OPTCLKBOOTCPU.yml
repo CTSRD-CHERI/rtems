@@ -1,0 +1,23 @@
+actions:
+- get-boolean: null
+- define-condition: null
+active: true
+build-type: option
+default: false
+default-by-variant:
+- value: true
+  variants:
+  - arm/.*qemu.*
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: CLOCK_DRIVER_USE_ONLY_BOOT_PROCESSOR
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  If defined, then do the clock tick processing on the boot processor on behalf of all other processors.
+type: build

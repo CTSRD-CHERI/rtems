@@ -1,0 +1,24 @@
+active: true
+build-type: objects
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by:
+- ENABLE_UMON
+header: ''
+includes: []
+install: []
+level: 1.0
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: null
+source:
+- bsps/arm/csb337/start/umonsupp.c
+- bsps/arm/csb337/umon/monlib.c
+- bsps/arm/csb337/umon/tfsDriver.c
+- bsps/arm/csb337/umon/umonrtemsglue.c
+text: ''
+type: build

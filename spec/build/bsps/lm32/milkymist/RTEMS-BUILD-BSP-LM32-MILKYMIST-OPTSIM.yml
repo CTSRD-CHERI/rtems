@@ -1,0 +1,20 @@
+actions:
+- get-boolean: null
+- define-condition: null
+active: true
+build-type: option
+default: false
+default-by-variant: []
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: LM32_ON_SIMULATOR
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  If defined, this indicates the BSP is being built to run on the lm32 simulator in GDB.  This enables fast idle support which speeds up the clock ticks while the idle task is running so time spent in the idle task is minimized.  This significantly reduces the wall time required to execute the RTEMS test suites.  It also enables a special exit and alternate printk support.
+type: build

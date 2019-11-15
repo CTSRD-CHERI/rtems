@@ -1,0 +1,38 @@
+active: true
+build-type: group
+install: []
+derived: true
+enabled-by: []
+header: ''
+includes: []
+ldflags: []
+level: 1.22
+links:
+- RTEMS-BUILD-BSP-ARM-CSB337-ABI: null
+- RTEMS-BUILD-BSP-ARM-CSB337-OBJ: null
+- RTEMS-BUILD-BSP-ARM-CSB337-OBJLCD: null
+- RTEMS-BUILD-BSP-ARM-CSB337-OBJNET: null
+- RTEMS-BUILD-BSP-ARM-CSB337-OBJUMON: null
+- RTEMS-BUILD-BSP-ARM-CSB337-OBJUMONCON: null
+- RTEMS-BUILD-BSP-ARM-CSB337-OPTCSB637: null
+- RTEMS-BUILD-BSP-ARM-CSB337-OPTENLCD: null
+- RTEMS-BUILD-BSP-ARM-CSB337-OPTENUMON: null
+- RTEMS-BUILD-BSP-ARM-CSB337-OPTENUMONCON: null
+- RTEMS-BUILD-BSP-ARM-CSB337-OPTENUSART0: null
+- RTEMS-BUILD-BSP-ARM-CSB337-OPTENUSART1: null
+- RTEMS-BUILD-BSP-ARM-CSB337-OPTENUSART2: null
+- RTEMS-BUILD-BSP-ARM-CSB337-OPTENUSART3: null
+- RTEMS-BUILD-BSP-ARM-CSB337-START: null
+- RTEMS-BUILD-BSP-BSPOPTS: null
+- RTEMS-BUILD-BSP-LINKCMDS: null
+- RTEMS-BUILD-BSP-OBJ: null
+- RTEMS-BUILD-BSP-OBJIRQ: null
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: ''
+top-level: false
+type: build
+use-before: []
+use-after: []

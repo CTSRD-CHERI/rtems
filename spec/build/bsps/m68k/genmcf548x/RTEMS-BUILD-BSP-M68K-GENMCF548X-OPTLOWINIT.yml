@@ -1,0 +1,23 @@
+actions:
+- get-boolean: null
+- define-condition: null
+active: true
+build-type: option
+default: false
+default-by-variant:
+- value: true
+  variants:
+  - m68k/m5484FireEngine
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: HAS_LOW_LEVEL_INIT
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  If defined, we will do all the low level init of the chip (like bus/memory...).
+type: build

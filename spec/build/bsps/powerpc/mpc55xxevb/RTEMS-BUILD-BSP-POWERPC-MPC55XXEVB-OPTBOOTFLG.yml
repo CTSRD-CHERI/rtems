@@ -1,0 +1,20 @@
+actions:
+- get-boolean: null
+- define-condition: null
+active: true
+build-type: option
+default: false
+default-by-variant: []
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: MPC55XX_BOOTFLAGS
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  if defined, builds in bootflags above the RCHW for setup in a debugger to avoid startup MMU setup
+type: build

@@ -1,0 +1,54 @@
+active: true
+arch: m68k
+bsp: csb360
+build-type: bsp
+cflags: []
+cppflags: []
+derived: true
+enabled-by: []
+family: csb360
+header: ''
+includes: []
+install:
+- destination: ${BSP_INCLUDEDIR}
+  source:
+  - bsps/m68k/csb360/include/bsp.h
+  - bsps/m68k/csb360/include/tm27.h
+- destination: ${BSP_INCLUDEDIR}/bsp
+  source:
+  - bsps/m68k/csb360/include/bsp/irq.h
+- destination: ${BSP_LIBDIR}
+  source:
+  - bsps/m68k/csb360/start/bsp_specs
+  - bsps/m68k/csb360/start/linkcmds
+level: 1.0
+links:
+- RTEMS-BUILD-BSP-BSPOPTS: null
+- RTEMS-BUILD-BSP-M68K-CSB360-ABI: null
+- RTEMS-BUILD-BSP-M68K-CSB360-START: null
+- RTEMS-BUILD-BSP-OBJ: null
+- RTEMS-BUILD-BSP-OBJIRQDFLT: null
+- RTEMS-BUILD-BSP-OPTO2: null
+normative: true
+order: 0
+ref: ''
+reviewed: null
+source:
+- bsps/m68k/csb360/console/console-io.c
+- bsps/m68k/csb360/dev/ckinit.c
+- bsps/m68k/csb360/dev/timer.c
+- bsps/m68k/csb360/dev/timerisr.S
+- bsps/m68k/csb360/start/idle-mcf5272.c
+- bsps/m68k/csb360/start/init5272.c
+- bsps/m68k/shared/memProbe.c
+- bsps/shared/cache/nocache.c
+- bsps/shared/dev/getentropy/getentropy-cpucounter.c
+- bsps/shared/dev/serial/console-polled.c
+- bsps/shared/start/bspfatal-default.c
+- bsps/shared/start/bspgetworkarea-default.c
+- bsps/shared/start/bspreset-empty.c
+- bsps/shared/start/bspstart-empty.c
+- bsps/shared/start/sbrk.c
+- bsps/shared/start/setvec.c
+text: ''
+type: build

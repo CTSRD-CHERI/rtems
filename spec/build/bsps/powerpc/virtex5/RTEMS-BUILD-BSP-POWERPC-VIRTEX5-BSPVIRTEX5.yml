@@ -1,0 +1,61 @@
+active: true
+arch: powerpc
+bsp: virtex5
+build-type: bsp
+cflags: []
+cppflags: []
+derived: true
+enabled-by: []
+family: virtex5
+header: ''
+includes: []
+install:
+- destination: ${BSP_INCLUDEDIR}
+  source:
+  - bsps/powerpc/virtex5/include/bsp.h
+  - bsps/powerpc/virtex5/include/tm27.h
+- destination: ${BSP_INCLUDEDIR}/bsp
+  source:
+  - bsps/powerpc/virtex5/include/bsp/irq.h
+  - bsps/powerpc/virtex5/include/bsp/mmu.h
+- destination: ${BSP_LIBDIR}
+  source:
+  - bsps/powerpc/virtex5/start/bsp_specs
+  - bsps/powerpc/virtex5/start/linkcmds
+level: 1.0
+links:
+- RTEMS-BUILD-BSP-BSPOPTS: null
+- RTEMS-BUILD-BSP-OBJ: null
+- RTEMS-BUILD-BSP-OBJIRQDFLT: null
+- RTEMS-BUILD-BSP-OPTO2: null
+- RTEMS-BUILD-BSP-POWERPC-OBJ: null
+- RTEMS-BUILD-BSP-POWERPC-OBJEXC: null
+- RTEMS-BUILD-BSP-POWERPC-VIRTEX5-ABI: null
+- RTEMS-BUILD-BSP-POWERPC-VIRTEX5-OPTPPCCACHEDATA: null
+- RTEMS-BUILD-BSP-POWERPC-VIRTEX5-OPTSPRG: null
+- RTEMS-BUILD-BSP-POWERPC-VIRTEX5-OPTVECBASE: null
+- RTEMS-BUILD-BSP-POWERPC-VIRTEX5-START: null
+normative: true
+order: 0
+ref: ''
+reviewed: null
+source:
+- bsps/powerpc/shared/btimer/btimer-ppc-dec.c
+- bsps/powerpc/shared/cache/cache.c
+- bsps/powerpc/shared/clock/clock-ppc-dec.c
+- bsps/powerpc/shared/clock/p_clock.c
+- bsps/powerpc/shared/start/memcpy.c
+- bsps/powerpc/shared/start/zerobss.c
+- bsps/powerpc/virtex5/irq/irq_init.c
+- bsps/powerpc/virtex5/start/bspclean.c
+- bsps/powerpc/virtex5/start/bspstart.c
+- bsps/powerpc/virtex5/start/dummy_console.c
+- bsps/powerpc/virtex5/start/mmu.c
+- bsps/powerpc/virtex5/start/start.S
+- bsps/shared/dev/getentropy/getentropy-cpucounter.c
+- bsps/shared/dev/serial/printk-dummy.c
+- bsps/shared/start/bspgetworkarea-default.c
+- bsps/shared/start/bspreset-empty.c
+- bsps/shared/start/sbrk.c
+text: ''
+type: build

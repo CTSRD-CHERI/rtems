@@ -1,0 +1,30 @@
+actions:
+- get-integer: null
+- define: null
+format: '{}'
+active: true
+build-type: option
+default: 0
+default-by-variant:
+- value: 10
+  variants:
+  - powerpc/gwlcfm
+- value: 6
+  variants:
+  - powerpc/mpc5668g.*
+- value: 5
+  variants:
+  - powerpc/mpc5674f.*
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: MPC55XX_FMPLL_PREDIV
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  Must be defined to be the PLL predivider factor for clock generation
+type: build

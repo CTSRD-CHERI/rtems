@@ -1,0 +1,23 @@
+actions:
+- get-boolean: null
+- define-condition: null
+active: true
+build-type: option
+default: false
+default-by-variant:
+- value: true
+  variants:
+  - powerpc/br_uid
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: MPC83XX_BOARD_BR_UID
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  if defined, then use settings for the BR UID board
+type: build

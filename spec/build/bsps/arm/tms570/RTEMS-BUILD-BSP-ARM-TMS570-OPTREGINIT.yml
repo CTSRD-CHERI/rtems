@@ -1,0 +1,20 @@
+actions:
+- get-boolean: null
+- define-condition: null
+active: true
+build-type: option
+default: true
+default-by-variant: []
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: BSP_START_NEEDS_REGISTER_INITIALIZATION
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  The TMS570 needs to have the registers of its CPU initialized to avoid CCMR4F errors
+type: build

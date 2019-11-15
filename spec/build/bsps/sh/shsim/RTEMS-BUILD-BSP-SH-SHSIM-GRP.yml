@@ -1,0 +1,27 @@
+active: true
+build-type: group
+install: []
+derived: true
+enabled-by: []
+header: ''
+includes: []
+ldflags: []
+level: 1.22
+links:
+- RTEMS-BUILD-BSP-BSPOPTS: null
+- RTEMS-BUILD-BSP-OBJ: null
+- RTEMS-BUILD-BSP-OBJIRQDFLT: null
+- RTEMS-BUILD-BSP-SH-SHSIM-ABI: null
+- RTEMS-BUILD-BSP-SH-SHSIM-OBJ: null
+- RTEMS-BUILD-BSP-SH-SHSIM-OPTCPUCLK: null
+- RTEMS-BUILD-BSP-SH-SHSIM-OPTLOWINIT: null
+- RTEMS-BUILD-BSP-SH-SHSIM-START: null
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: ''
+top-level: false
+type: build
+use-before: []
+use-after: []

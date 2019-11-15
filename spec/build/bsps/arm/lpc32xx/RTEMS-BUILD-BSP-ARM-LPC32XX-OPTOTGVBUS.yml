@@ -1,0 +1,24 @@
+actions:
+- get-string: null
+- define-unquoted: null
+format: '{}'
+active: true
+build-type: option
+default: false
+default-by-variant:
+- value: USB_OTG_VBUS_POWER_WITH_CHARGE_PUMP
+  variants:
+  - arm/lpc32xx_mzx.*
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: BSP_USB_OTG_TRANSCEIVER_VBUS
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  USB OTG transceiver VBUS policy
+type: build

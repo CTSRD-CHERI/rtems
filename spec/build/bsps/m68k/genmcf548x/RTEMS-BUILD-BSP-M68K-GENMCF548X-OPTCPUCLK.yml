@@ -1,0 +1,27 @@
+actions:
+- get-integer: null
+- define: null
+format: '{}'
+active: true
+build-type: option
+default: 100000000
+default-by-variant:
+- value: 132000000
+  variants:
+  - m68k/COBRA5475
+- value: 100000000
+  variants:
+  - m68k/m5484FireEngine
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: BSP_CPU_CLOCK_SPEED
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  The bus clock to be used inside the mcf54xx
+type: build

@@ -1,0 +1,23 @@
+actions:
+- get-boolean: null
+- define-condition: null
+active: true
+build-type: option
+default: false
+default-by-variant:
+- value: true
+  variants:
+  - m68k/pgh360
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: PGH360
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  If defined, use custom settings for the pgh360 BSP.
+type: build

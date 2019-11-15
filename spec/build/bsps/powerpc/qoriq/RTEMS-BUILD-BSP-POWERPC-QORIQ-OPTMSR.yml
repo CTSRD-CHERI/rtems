@@ -1,0 +1,27 @@
+actions:
+- get-integer: null
+- define: null
+format: '{:#010x}'
+active: true
+build-type: option
+default: 0x02000200
+default-by-variant:
+- value: 0x82002200
+  variants:
+  - powerpc/qoriq_e6500_64.*
+- value: 0x02002200
+  variants:
+  - powerpc/qoriq_e6500_32.*
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: QORIQ_INITIAL_MSR
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  initial MSR value
+type: build

@@ -1,0 +1,27 @@
+actions:
+- set-test-state:
+    fileio: exclude
+    ftp01: exclude
+    iostream: exclude
+    mghttpd01: exclude
+    monitor02: exclude
+    pppd: exclude
+    rtems: exclude
+    sp71: exclude
+    utf8proc01: exclude
+active: true
+build-type: option
+default: null
+default-by-variant: []
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links:
+- RTEMS-BUILD-BSP-TSTSMALLMEM: null
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: ''
+type: build

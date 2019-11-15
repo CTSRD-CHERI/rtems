@@ -1,0 +1,24 @@
+actions:
+- get-string: null
+- define-unquoted: null
+format: "'{}'"
+active: true
+build-type: option
+default: P
+default-by-variant:
+- value: T
+  variants:
+  - powerpc/qoriq_e6500.*
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: QORIQ_CHIP_SERIES
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  chip series, e.g. 'P' or 'T'
+type: build

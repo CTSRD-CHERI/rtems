@@ -1,0 +1,33 @@
+actions:
+- get-integer: null
+- define: null
+format: '{}'
+active: true
+build-type: option
+default: 8313
+default-by-variant:
+- value: 8309
+  variants:
+  - powerpc/mpc8309som
+- value: 8309
+  variants:
+  - powerpc/br_uid
+- value: 8349
+  variants:
+  - powerpc/mpc8349eamds
+- value: 8349
+  variants:
+  - powerpc/hsc_cm01
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: MPC83XX_CHIP_TYPE
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  chip type of the MPC83XX family
+type: build

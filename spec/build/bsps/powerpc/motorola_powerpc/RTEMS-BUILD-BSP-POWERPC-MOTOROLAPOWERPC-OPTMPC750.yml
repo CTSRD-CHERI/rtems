@@ -1,0 +1,23 @@
+actions:
+- get-boolean: null
+- define-condition: null
+active: true
+build-type: option
+default: false
+default-by-variant:
+- value: true
+  variants:
+  - powerpc/mcp750
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: mpc750
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  Define when mpc750 -- undefined for others
+type: build

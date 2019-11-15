@@ -1,0 +1,20 @@
+actions:
+- get-boolean: null
+- define-condition: null
+active: true
+build-type: option
+default: true
+default-by-variant: []
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: ARM_GENERIC_TIMER_USE_VIRTUAL
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  use virtual ARM generic timer
+type: build

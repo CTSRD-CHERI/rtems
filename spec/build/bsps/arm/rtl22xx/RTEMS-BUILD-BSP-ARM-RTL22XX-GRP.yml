@@ -1,0 +1,27 @@
+active: true
+build-type: group
+install: []
+derived: true
+enabled-by: []
+header: ''
+includes: []
+ldflags: []
+level: 1.22
+links:
+- RTEMS-BUILD-BSP-ARM-RTL22XX-ABI: null
+- RTEMS-BUILD-BSP-ARM-RTL22XX-OBJ: null
+- RTEMS-BUILD-BSP-ARM-RTL22XX-OBJNET: null
+- RTEMS-BUILD-BSP-ARM-RTL22XX-OPTSKYEYE: null
+- RTEMS-BUILD-BSP-ARM-RTL22XX-START: null
+- RTEMS-BUILD-BSP-BSPOPTS: null
+- RTEMS-BUILD-BSP-OBJ: null
+- RTEMS-BUILD-BSP-OBJIRQ: null
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: ''
+top-level: false
+type: build
+use-before: []
+use-after: []

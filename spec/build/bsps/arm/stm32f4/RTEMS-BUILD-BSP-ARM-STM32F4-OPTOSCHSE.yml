@@ -1,0 +1,21 @@
+actions:
+- get-integer: null
+- define: null
+format: '{}'
+active: true
+build-type: option
+default: 8000000
+default-by-variant: []
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: STM32F4_HSE_OSCILLATOR
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  HSE oscillator frequency in Hz
+type: build

@@ -1,0 +1,21 @@
+actions:
+- get-integer: null
+- define: null
+format: '{:#010x}'
+active: true
+build-type: option
+default: 0x00001386
+default-by-variant: []
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: LPC32XX_CONFIG_U3CLK
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  clock configuration for UART 3
+type: build

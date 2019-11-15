@@ -1,0 +1,24 @@
+active: true
+arch: sh
+bsp: simsh2
+build-type: bsp
+cflags: []
+cppflags: []
+derived: true
+enabled-by: []
+family: shsim
+header: ''
+includes: []
+install: []
+level: 1.0
+links:
+- RTEMS-BUILD-BSP-OPTO2: null
+- RTEMS-BUILD-BSP-SH-SHSIM-GRP: null
+- RTEMS-BUILD-BSP-SH-SHSIM-TSTSIMSH2: null
+normative: true
+order: 0
+ref: ''
+reviewed: null
+source: []
+text: ''
+type: build

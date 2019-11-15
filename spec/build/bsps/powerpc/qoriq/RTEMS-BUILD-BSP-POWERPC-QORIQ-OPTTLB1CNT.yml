@@ -1,0 +1,24 @@
+actions:
+- get-integer: null
+- define: null
+format: '{}'
+active: true
+build-type: option
+default: 16
+default-by-variant:
+- value: 64
+  variants:
+  - powerpc/qoriq_e6500.*
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: QORIQ_TLB1_ENTRY_COUNT
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  TLB1 entry count
+type: build

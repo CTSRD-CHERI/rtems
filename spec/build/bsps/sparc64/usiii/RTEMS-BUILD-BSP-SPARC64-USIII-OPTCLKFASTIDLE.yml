@@ -1,0 +1,20 @@
+actions:
+- get-boolean: null
+- define-condition: null
+active: true
+build-type: option
+default: false
+default-by-variant: []
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: SIMSPARC_FAST_IDLE
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  If defined, speed up the clock ticks while the idle task is running so time spent in the idle task is minimized.  This significantly reduces the wall time required to execute the RTEMS test suites.
+type: build

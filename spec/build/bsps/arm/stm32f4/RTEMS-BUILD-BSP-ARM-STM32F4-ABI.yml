@@ -1,0 +1,28 @@
+actions:
+- get-string: null
+- split: null
+- env-append: null
+active: true
+build-type: option
+default:
+- -mthumb
+- -mcpu=cortex-m4
+default-by-variant:
+- value:
+  - -mthumb
+  - -mcpu=cortex-m3
+  variants:
+  - arm/stm32f105rc
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: ABI_FLAGS
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  ABI flags
+type: build

@@ -1,0 +1,20 @@
+actions:
+- get-boolean: null
+- define-condition: null
+active: true
+build-type: option
+default: true
+default-by-variant: []
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: ARM_GENERIC_TIMER_UNMASK_AT_TICK
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  unmask the timer in the tick handler, since Xen will mask the virtual timer before injecting the interrupt to the guest
+type: build

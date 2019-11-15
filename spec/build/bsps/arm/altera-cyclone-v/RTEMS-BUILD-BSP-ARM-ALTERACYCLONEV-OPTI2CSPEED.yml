@@ -1,0 +1,21 @@
+actions:
+- get-integer: null
+- define: null
+format: '{}'
+active: true
+build-type: option
+default: 100000
+default-by-variant: []
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: CYCLONE_V_I2C0_SPEED
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  speed for I2C0 in HZ
+type: build

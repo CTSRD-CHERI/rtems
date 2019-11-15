@@ -1,0 +1,23 @@
+actions:
+- get-boolean: null
+- define-condition: null
+active: true
+build-type: option
+default: true
+default-by-variant:
+- value: false
+  variants:
+  - powerpc/icecube
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: ALLOW_IRQ_NESTING
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  If set to !0, allow nested IRQ processing.
+type: build

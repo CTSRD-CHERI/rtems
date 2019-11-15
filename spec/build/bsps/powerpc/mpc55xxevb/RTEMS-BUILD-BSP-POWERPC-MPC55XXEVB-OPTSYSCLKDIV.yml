@@ -1,0 +1,24 @@
+actions:
+- get-integer: null
+- define: null
+format: '{}'
+active: true
+build-type: option
+default: 1
+default-by-variant:
+- value: 2
+  variants:
+  - powerpc/mpc5674f.*
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: MPC55XX_SYSTEM_CLOCK_DIVIDER
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  system clock divider
+type: build

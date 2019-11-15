@@ -1,0 +1,21 @@
+actions:
+- get-boolean: null
+- define-condition: null
+- env-enable: null
+active: true
+build-type: option
+default: false
+default-by-variant: []
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: TMS570_USE_HWINIT_STARTUP
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  Include BSP startup code for TMS570LS3137 which allows to start RTEMS application directly after reset
+type: build

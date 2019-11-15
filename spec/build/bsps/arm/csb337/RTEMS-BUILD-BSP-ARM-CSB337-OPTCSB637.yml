@@ -1,0 +1,26 @@
+actions:
+- get-boolean: null
+- define-condition: null
+active: true
+build-type: option
+default: false
+default-by-variant:
+- value: true
+  variants:
+  - arm/kit637_v6
+- value: true
+  variants:
+  - arm/csb637
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: csb637
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  If defined, this indicates that the BSP is being built for the csb637 variant.
+type: build

@@ -1,0 +1,21 @@
+actions:
+- get-integer: null
+- define: null
+format: '{}'
+active: true
+build-type: option
+default: 1
+default-by-variant: []
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: LPC176X_PCLKDIV
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  clock divider for default PCLK (PCLK = CCLK / PCLKDIV)
+type: build

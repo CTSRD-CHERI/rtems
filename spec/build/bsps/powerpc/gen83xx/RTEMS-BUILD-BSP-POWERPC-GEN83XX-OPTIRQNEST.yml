@@ -1,0 +1,26 @@
+actions:
+- get-boolean: null
+- define-condition: null
+active: true
+build-type: option
+default: true
+default-by-variant:
+- value: false
+  variants:
+  - powerpc/mpc8313erdb
+- value: false
+  variants:
+  - powerpc/br_uid
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: GEN83XX_ENABLE_INTERRUPT_NESTING
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  enable interrupt nesting
+type: build

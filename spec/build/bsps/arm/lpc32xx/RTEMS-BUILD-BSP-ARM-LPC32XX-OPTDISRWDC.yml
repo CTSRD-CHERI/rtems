@@ -1,0 +1,20 @@
+actions:
+- get-boolean: null
+- define-condition: null
+active: true
+build-type: option
+default: false
+default-by-variant: []
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: LPC32XX_DISABLE_READ_WRITE_DATA_CACHE
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  disable cache for read-write data sections
+type: build

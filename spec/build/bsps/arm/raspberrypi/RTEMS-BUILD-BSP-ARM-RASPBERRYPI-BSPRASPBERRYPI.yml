@@ -1,0 +1,23 @@
+active: true
+arch: arm
+bsp: raspberrypi
+build-type: bsp
+cflags: []
+cppflags: []
+derived: true
+enabled-by: []
+family: raspberrypi
+header: ''
+includes: []
+install: []
+level: 1.0
+links:
+- RTEMS-BUILD-BSP-ARM-RASPBERRYPI-GRP: null
+- RTEMS-BUILD-BSP-OPTO2: null
+normative: true
+order: 0
+ref: ''
+reviewed: null
+source: []
+text: ''
+type: build

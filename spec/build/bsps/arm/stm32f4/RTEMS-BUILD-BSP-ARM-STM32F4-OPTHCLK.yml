@@ -1,0 +1,24 @@
+actions:
+- get-integer: null
+- define: null
+format: '{}'
+active: true
+build-type: option
+default: 16000000
+default-by-variant:
+- value: 8000000
+  variants:
+  - arm/stm32f1.*
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: STM32F4_HCLK
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  HCLK frequency in Hz
+type: build

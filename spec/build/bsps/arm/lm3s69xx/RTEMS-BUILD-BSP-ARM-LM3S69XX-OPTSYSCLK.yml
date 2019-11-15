@@ -1,0 +1,27 @@
+actions:
+- get-integer: null
+- define: null
+format: '{}'
+active: true
+build-type: option
+default: 0
+default-by-variant:
+- value: 50000000
+  variants:
+  - arm/lm3s.*
+- value: 80000000
+  variants:
+  - arm/lm4f.*
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: LM3S69XX_SYSTEM_CLOCK
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  system clock in Hz
+type: build

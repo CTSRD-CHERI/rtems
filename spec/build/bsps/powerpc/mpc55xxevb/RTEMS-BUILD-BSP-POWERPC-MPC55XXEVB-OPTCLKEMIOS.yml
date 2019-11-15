@@ -1,0 +1,30 @@
+actions:
+- get-integer: null
+- define: null
+format: '{}'
+active: true
+build-type: option
+default: 23
+default-by-variant:
+- value: 
+  variants:
+  - powerpc/mpc5643l.*
+- value: 
+  variants:
+  - powerpc/mpc5668g.*
+- value: 31
+  variants:
+  - powerpc/mpc5674f.*
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: MPC55XX_CLOCK_EMIOS_CHANNEL
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  selects the eMIOS channel for the RTEMS system tick (the default is the last channel)
+type: build

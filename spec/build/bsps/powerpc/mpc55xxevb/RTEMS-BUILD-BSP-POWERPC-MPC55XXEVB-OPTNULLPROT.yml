@@ -1,0 +1,26 @@
+actions:
+- get-boolean: null
+- define-condition: null
+active: true
+build-type: option
+default: false
+default-by-variant:
+- value: true
+  variants:
+  - powerpc/mpc5566.*
+- value: true
+  variants:
+  - powerpc/mpc5674f.*
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: MPC55XX_NULL_POINTER_PROTECTION
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  enable NULL pointer protection
+type: build

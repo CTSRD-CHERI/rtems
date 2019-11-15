@@ -5,15 +5,14 @@ cppflags: []
 derived: true
 install-path: ${BSP_LIBDIR}
 enabled-by: []
-header: |
-  SPARC start file
+header: ''
 includes: []
 level: 1.0
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: vs5yXA5jsmGfCK_ILflnbvKbUh_0xjaPaioC1thByCM=
+reviewed: NULL
 source:
 - bsps/sparc/shared/start/start.S
 target: start.o

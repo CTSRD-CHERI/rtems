@@ -1,0 +1,24 @@
+actions:
+- get-integer: null
+- define: null
+format: '{}'
+active: true
+build-type: option
+default: 0
+default-by-variant:
+- value: 5
+  variants:
+  - powerpc/dp2
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: MPC5200_PSC_INDEX_FOR_GPS_MODULE
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  PSC index for GPS module, if defined results in '/dev/gps'
+type: build

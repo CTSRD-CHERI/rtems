@@ -1,0 +1,24 @@
+actions:
+- get-integer: null
+- define: null
+format: '{}'
+active: true
+build-type: option
+default: 0
+default-by-variant:
+- value: 4
+  variants:
+  - powerpc/qoriq_core_1
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: QORIQ_CLOCK_TIMER
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  global timer used for system clock, 0..3 maps to A0..A3, and 4..7 maps to B0..B3
+type: build

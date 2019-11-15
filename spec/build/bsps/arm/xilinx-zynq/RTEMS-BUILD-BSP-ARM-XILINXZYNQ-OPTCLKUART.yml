@@ -1,0 +1,27 @@
+actions:
+- get-integer: null
+- define: null
+format: '{}'
+active: true
+build-type: option
+default: 50000000
+default-by-variant:
+- value: 50000000
+  variants:
+  - arm/xilinx_zynq_zc702.*
+- value: 50000000
+  variants:
+  - arm/xilinx_zynq_zedboard.*
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: ZYNQ_CLOCK_UART
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  Zynq UART clock frequency in Hz
+type: build

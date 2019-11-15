@@ -1,0 +1,24 @@
+active: true
+arch: arm
+bsp: arm920
+build-type: bsp
+cflags: []
+cppflags: []
+derived: true
+enabled-by: []
+family: gdbarmsim
+header: ''
+includes: []
+install: []
+level: 1.0
+links:
+- RTEMS-BUILD-BSP-ARM-GDBARMSIM-GRP: null
+- RTEMS-BUILD-BSP-OPTO2: null
+- RTEMS-BUILD-BSP-TSTREQTICK: null
+normative: true
+order: 0
+ref: ''
+reviewed: null
+source: []
+text: ''
+type: build

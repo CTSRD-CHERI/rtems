@@ -1,0 +1,52 @@
+active: true
+arch: bfin
+bsp: bf537Stamp
+build-type: bsp
+cflags: []
+cppflags: []
+derived: true
+enabled-by: []
+family: bf537Stamp
+header: ''
+includes: []
+install:
+- destination: ${BSP_INCLUDEDIR}
+  source:
+  - bsps/bfin/bf537Stamp/include/bsp.h
+  - bsps/bfin/bf537Stamp/include/tm27.h
+- destination: ${BSP_INCLUDEDIR}/bsp
+  source:
+  - bsps/bfin/bf537Stamp/include/bsp/irq.h
+- destination: ${BSP_LIBDIR}
+  source:
+  - bsps/bfin/bf537Stamp/start/bsp_specs
+  - bsps/bfin/bf537Stamp/start/linkcmds
+level: 1.0
+links:
+- RTEMS-BUILD-BSP-BFIN-BF537STAMP-ABI: null
+- RTEMS-BUILD-BSP-BFIN-BF537STAMP-OBJNET: null
+- RTEMS-BUILD-BSP-BFIN-BF537STAMP-OPTCONIRQ: null
+- RTEMS-BUILD-BSP-BFIN-BF537STAMP-OPTSKYEYE: null
+- RTEMS-BUILD-BSP-BFIN-BF537STAMP-START: null
+- RTEMS-BUILD-BSP-BFIN-OBJ: null
+- RTEMS-BUILD-BSP-BSPOPTS: null
+- RTEMS-BUILD-BSP-OBJ: null
+- RTEMS-BUILD-BSP-OBJIRQDFLT: null
+- RTEMS-BUILD-BSP-OPTO2: null
+normative: true
+order: 0
+ref: ''
+reviewed: null
+source:
+- bsps/bfin/bf537Stamp/console/console.c
+- bsps/bfin/bf537Stamp/start/bspstart.c
+- bsps/bfin/shared/cache/cache.c
+- bsps/bfin/shared/interrupt.c
+- bsps/shared/dev/getentropy/getentropy-cpucounter.c
+- bsps/shared/start/bspfatal-default.c
+- bsps/shared/start/bspgetworkarea-default.c
+- bsps/shared/start/bspreset-empty.c
+- bsps/shared/start/sbrk.c
+- bsps/shared/start/setvec.c
+text: ''
+type: build

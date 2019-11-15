@@ -1,0 +1,20 @@
+actions:
+- get-boolean: null
+- define-condition: null
+active: true
+build-type: option
+default: true
+default-by-variant: []
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: CD2401_INT_LEVEL
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  Interrupt level for the CD2401(when CD2401_IO_MODE == 1).
+type: build

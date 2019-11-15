@@ -1,0 +1,21 @@
+actions:
+- get-integer: null
+- define: null
+format: '{}'
+active: true
+build-type: option
+default: 96000000
+default-by-variant: []
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: TMS570_CCLK
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  CPU clock in Hz
+type: build

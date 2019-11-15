@@ -1,0 +1,20 @@
+actions:
+- get-boolean: null
+- define-condition: null
+active: true
+build-type: option
+default: false
+default-by-variant: []
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: SINGLE_CHAR_MODE
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  enable single character mode for the PSC console driver
+type: build

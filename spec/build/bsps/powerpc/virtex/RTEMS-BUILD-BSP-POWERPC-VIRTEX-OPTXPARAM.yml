@@ -1,0 +1,21 @@
+actions:
+- get-string: null
+- define-unquoted: null
+format: '{}'
+active: true
+build-type: option
+default: <xparameters_dflt.h>
+default-by-variant: []
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: RTEMS_XPARAMETERS_H
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  This defines the location of the hardware specific "xparameters.h" file.  in the file system. Specify an absolute path. Do not forget the double quotes
+type: build

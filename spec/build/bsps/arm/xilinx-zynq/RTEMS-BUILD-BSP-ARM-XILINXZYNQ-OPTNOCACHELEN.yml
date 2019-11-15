@@ -1,24 +1,21 @@
 actions:
 - get-integer: null
-- assert-uint32: null
-- assert-aligned: 1048576
-- env-assign: null
-- format-and-define: null
+- define: null
+format: '{:#010x}'
 active: true
 build-type: option
-default-by-variant: []
 default: 1048576
+default-by-variant: []
 derived: false
 enabled-by: []
-format: '{:#010x}'
 header: ''
-level: 1.12
+level: 1.8
 links: []
-name: ZYNQ_RAM_NOCACHE_LENGTH
+name: BSP_ZYNQ_NOCACHE_LENGTH
 normative: true
 order: 0
 ref: ''
-reviewed: 6fWHB21MmCRiJx_RNcjC4jADxp1FZwxJ3VgM6-pVh08=
+reviewed: null
 text: |
-  Length of nocache RAM region for linker command file
+  length of nocache RAM region
 type: build

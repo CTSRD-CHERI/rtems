@@ -1,0 +1,21 @@
+actions:
+- get-integer: null
+- define: null
+format: '{}'
+active: true
+build-type: option
+default: 1000000
+default-by-variant: []
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: LM3S69XX_SSI_CLOCK
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  SSI clock in Hz
+type: build

@@ -1,0 +1,37 @@
+actions:
+- set-test-state:
+    block08: exclude
+    capture: exclude
+    cdtest: exclude
+    fileio: exclude
+    fsdosfsformat01: exclude
+    ftp01: exclude
+    iostream: exclude
+    loopback: exclude
+    mghttpd01: exclude
+    monitor02: exclude
+    paranoia: exclude
+    pppd: exclude
+    sptimecounter02: exclude
+    sptimecounter03: exclude
+    syscall01: exclude
+    tmcontext01: exclude
+    tmfine01: exclude
+    top: exclude
+    utf8proc01: exclude
+active: true
+build-type: option
+default: null
+default-by-variant: []
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links:
+- RTEMS-BUILD-BSP-TSTSMALLMEM: null
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: ''
+type: build

@@ -1,0 +1,24 @@
+active: true
+arch: arm
+bsp: lpc1768_mbed_ahb_ram_eth
+build-type: bsp
+cflags: []
+cppflags: []
+derived: true
+enabled-by: []
+family: lpc176x
+header: ''
+includes: []
+install: []
+level: 1.0
+links:
+- RTEMS-BUILD-BSP-ARM-LPC176X-GRP: null
+- RTEMS-BUILD-BSP-ARM-LPC176X-TSTLPC1768MBEDAHBRAMETH: null
+- RTEMS-BUILD-BSP-OPTO2: null
+normative: true
+order: 0
+ref: ''
+reviewed: null
+source: []
+text: ''
+type: build

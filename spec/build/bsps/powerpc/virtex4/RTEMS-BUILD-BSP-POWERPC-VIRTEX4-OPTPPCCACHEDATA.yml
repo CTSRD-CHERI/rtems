@@ -1,0 +1,20 @@
+actions:
+- get-boolean: null
+- define-condition: null
+active: true
+build-type: option
+default: true
+default-by-variant: []
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: PPC_USE_DATA_CACHE
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  If defined, then the PowerPC specific code in RTEMS will use data cache instructions to optimize the context switch code.  This code can conflict with debuggers or emulators.  It is known to break the Corelis PowerPC emulator with at least some combinations of PowerPC 603e revisions and emulator versions.  The BSP actually contains the call that enables this.
+type: build

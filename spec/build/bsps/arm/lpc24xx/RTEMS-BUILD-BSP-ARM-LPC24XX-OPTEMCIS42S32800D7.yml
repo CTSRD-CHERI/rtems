@@ -1,0 +1,23 @@
+actions:
+- get-boolean: null
+- define-condition: null
+active: true
+build-type: option
+default: false
+default-by-variant:
+- value: true
+  variants:
+  - arm/.*_plx800_rom_.*
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: LPC24XX_EMC_IS42S32800D7
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  enable ISSI IS42S32800D7 configuration for EMC
+type: build

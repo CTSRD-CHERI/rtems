@@ -5,16 +5,16 @@ cppflags: []
 derived: true
 install-path: ${BSP_LIBDIR}
 enabled-by: []
-header: |
-  ARM start file
+header: ''
 includes: []
 level: 1.0
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: yWB3kdReNmPu4RfeX6yGe2zodihv8tR3P-hO62Q2ENc=
-source: bsps/arm/shared/start/start.S
+reviewed: NULL
+source:
+- bsps/arm/shared/start/start.S
 target: start.o
 text: ''
 type: build

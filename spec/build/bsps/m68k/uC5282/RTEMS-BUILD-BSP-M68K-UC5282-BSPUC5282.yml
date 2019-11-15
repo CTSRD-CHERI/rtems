@@ -1,0 +1,53 @@
+active: true
+arch: m68k
+bsp: uC5282
+build-type: bsp
+cflags: []
+cppflags: []
+derived: true
+enabled-by: []
+family: uC5282
+header: ''
+includes: []
+install:
+- destination: ${BSP_INCLUDEDIR}
+  source:
+  - bsps/m68k/uC5282/include/bsp.h
+  - bsps/m68k/uC5282/include/tm27.h
+- destination: ${BSP_INCLUDEDIR}/bsp
+  source:
+  - bsps/m68k/uC5282/include/bsp/irq.h
+- destination: ${BSP_LIBDIR}
+  source:
+  - bsps/m68k/uC5282/start/bsp_specs
+  - bsps/m68k/uC5282/start/linkcmds
+level: 1.0
+links:
+- RTEMS-BUILD-BSP-BSPOPTS: null
+- RTEMS-BUILD-BSP-M68K-UC5282-ABI: null
+- RTEMS-BUILD-BSP-M68K-UC5282-OBJNET: null
+- RTEMS-BUILD-BSP-M68K-UC5282-START: null
+- RTEMS-BUILD-BSP-OBJ: null
+- RTEMS-BUILD-BSP-OBJIRQDFLT: null
+- RTEMS-BUILD-BSP-OPTO2: null
+normative: true
+order: 0
+ref: ''
+reviewed: null
+source:
+- bsps/m68k/shared/cache/cache-mcf5282.c
+- bsps/m68k/shared/m68kidle.c
+- bsps/m68k/shared/memProbe.c
+- bsps/m68k/uC5282/btimer/btimer.c
+- bsps/m68k/uC5282/clock/clock.c
+- bsps/m68k/uC5282/console/console.c
+- bsps/m68k/uC5282/start/bspclean.c
+- bsps/m68k/uC5282/start/bspreset.c
+- bsps/m68k/uC5282/start/bspstart.c
+- bsps/m68k/uC5282/start/init5282.c
+- bsps/shared/dev/getentropy/getentropy-cpucounter.c
+- bsps/shared/start/bspgetworkarea-default.c
+- bsps/shared/start/sbrk.c
+- bsps/shared/start/setvec.c
+text: ''
+type: build

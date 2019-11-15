@@ -1,0 +1,33 @@
+actions:
+- get-integer: null
+- define: null
+format: '{}'
+active: true
+build-type: option
+default: 72000000
+default-by-variant:
+- value: 96000000
+  variants:
+  - arm/lpc17xx_ea.*
+- value: 96000000
+  variants:
+  - arm/lpc40xx_ea.*
+- value: 58982400
+  variants:
+  - arm/lpc23.*
+- value: 51612800
+  variants:
+  - arm/lpc24xx_plx800_.*
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: LPC24XX_CCLK
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  CPU clock in Hz
+type: build

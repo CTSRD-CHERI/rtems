@@ -1,0 +1,21 @@
+actions:
+- get-integer: null
+- define: null
+format: '{:#010x}'
+active: true
+build-type: option
+default: 1048576
+default-by-variant: []
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: BSP_ZYNQMP_NOCACHE_LENGTH
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  length of nocache RAM region
+type: build

@@ -1,0 +1,71 @@
+active: true
+arch: powerpc
+bsp: ss555
+build-type: bsp
+cflags: []
+cppflags: []
+derived: true
+enabled-by: []
+family: ss555
+header: ''
+includes: []
+install:
+- destination: ${BSP_INCLUDEDIR}
+  source:
+  - bsps/powerpc/ss555/include/bsp.h
+  - bsps/powerpc/ss555/include/tm27.h
+- destination: ${BSP_INCLUDEDIR}/bsp
+  source:
+  - bsps/powerpc/ss555/include/bsp/irq.h
+- destination: ${BSP_LIBDIR}
+  source:
+  - bsps/powerpc/ss555/start/bsp_specs
+  - bsps/powerpc/ss555/start/linkcmds
+level: 1.0
+links:
+- RTEMS-BUILD-BSP-BSPOPTS: null
+- RTEMS-BUILD-BSP-OBJ: null
+- RTEMS-BUILD-BSP-OPTO2: null
+- RTEMS-BUILD-BSP-POWERPC-OBJ: null
+- RTEMS-BUILD-BSP-POWERPC-SS555-ABI: null
+- RTEMS-BUILD-BSP-POWERPC-SS555-OPTCONMINOR: null
+- RTEMS-BUILD-BSP-POWERPC-SS555-OPTPRINTKMINOR: null
+- RTEMS-BUILD-BSP-POWERPC-SS555-OPTUARTSIOMODE: null
+- RTEMS-BUILD-BSP-POWERPC-SS555-OPTUARTSTERM: null
+- RTEMS-BUILD-BSP-POWERPC-SS555-OPTWDGTIMEOUT: null
+- RTEMS-BUILD-BSP-POWERPC-SS555-START: null
+normative: true
+order: 0
+ref: ''
+reviewed: null
+source:
+- bsps/powerpc/shared/btimer/btimer-ppc-dec.c
+- bsps/powerpc/shared/cache/cache.c
+- bsps/powerpc/shared/exceptions/ppc_exc_print.c
+- bsps/powerpc/ss555/clock/clock.c
+- bsps/powerpc/ss555/clock/p_clock.c
+- bsps/powerpc/ss555/console/console.c
+- bsps/powerpc/ss555/dev/console-generic.c
+- bsps/powerpc/ss555/start/bspstart.c
+- bsps/powerpc/ss555/start/irq.c
+- bsps/powerpc/ss555/start/irq_asm.S
+- bsps/powerpc/ss555/start/irq_init.c
+- bsps/powerpc/ss555/start/iss555.c
+- bsps/powerpc/ss555/start/raw_exception.c
+- bsps/powerpc/ss555/start/tm27supp.c
+- bsps/powerpc/ss555/start/vectors.S
+- bsps/powerpc/ss555/start/vectors_init.c
+- bsps/shared/dev/getentropy/getentropy-cpucounter.c
+- bsps/shared/irq/irq-default-handler.c
+- bsps/shared/irq/irq-default.c
+- bsps/shared/irq/irq-generic.c
+- bsps/shared/irq/irq-info.c
+- bsps/shared/irq/irq-lock.c
+- bsps/shared/irq/irq-server.c
+- bsps/shared/irq/irq-shell.c
+- bsps/shared/start/bspfatal-default.c
+- bsps/shared/start/bspgetworkarea-default.c
+- bsps/shared/start/bspreset-empty.c
+- bsps/shared/start/sbrk.c
+text: ''
+type: build

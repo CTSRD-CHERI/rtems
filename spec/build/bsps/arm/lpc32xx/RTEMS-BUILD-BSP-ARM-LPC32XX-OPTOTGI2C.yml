@@ -1,0 +1,24 @@
+actions:
+- get-integer: null
+- define: null
+format: '{:#010x}'
+active: true
+build-type: option
+default: 0
+default-by-variant:
+- value: 0x58
+  variants:
+  - arm/lpc32xx_mzx.*
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: BSP_USB_OTG_TRANSCEIVER_I2C_ADDR
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  USB OTG transceiver I2C address used by USB stack
+type: build

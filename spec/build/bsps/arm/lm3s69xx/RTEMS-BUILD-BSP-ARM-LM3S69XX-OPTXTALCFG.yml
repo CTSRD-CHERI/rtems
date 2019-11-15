@@ -1,0 +1,30 @@
+actions:
+- get-integer: null
+- define: null
+format: '{:#010x}'
+active: true
+build-type: option
+default: 0
+default-by-variant:
+- value: 0xE
+  variants:
+  - arm/lm3s6965.*
+- value: 0x10
+  variants:
+  - arm/lm3s3749.*
+- value: 0x15
+  variants:
+  - arm/lm4f120.*
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: LM3S69XX_XTAL_CONFIG
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  crystal configuration for RCC register
+type: build

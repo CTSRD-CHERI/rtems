@@ -1,0 +1,27 @@
+actions:
+- get-integer: null
+- define: null
+format: '{}'
+active: true
+build-type: option
+default: 0
+default-by-variant:
+- value: 66
+  variants:
+  - powerpc/gwlcfm
+- value: 
+  variants:
+  - powerpc/mpc5643l.*
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: MPC55XX_EMIOS_PRESCALER
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  Must be defined to set the EMIOS prescaler
+type: build

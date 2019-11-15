@@ -1,0 +1,71 @@
+active: true
+arch: arm
+bsp: xilinx_zynqmp_ultra96
+build-type: bsp
+cflags: []
+cppflags: []
+derived: true
+enabled-by: []
+family: xilinx-zynqmp
+header: ''
+includes: []
+install:
+- destination: ${BSP_INCLUDEDIR}
+  source:
+  - bsps/arm/xilinx-zynqmp/include/bsp.h
+  - bsps/arm/xilinx-zynqmp/include/tm27.h
+- destination: ${BSP_INCLUDEDIR}/bsp
+  source:
+  - bsps/arm/xilinx-zynqmp/include/bsp/irq.h
+- destination: ${BSP_LIBDIR}
+  source:
+  - bsps/arm/xilinx-zynqmp/start/bsp_specs
+level: 1.0
+links:
+- RTEMS-BUILD-BSP-ARM-START: null
+- RTEMS-BUILD-BSP-ARM-XILINXZYNQMP-ABI: null
+- RTEMS-BUILD-BSP-ARM-XILINXZYNQMP-LINKCMDS: null
+- RTEMS-BUILD-BSP-ARM-XILINXZYNQMP-OBJSMP: null
+- RTEMS-BUILD-BSP-ARM-XILINXZYNQMP-OPTCACHEDATA: null
+- RTEMS-BUILD-BSP-ARM-XILINXZYNQMP-OPTCACHEINST: null
+- RTEMS-BUILD-BSP-ARM-XILINXZYNQMP-OPTCLKFASTIDLE: null
+- RTEMS-BUILD-BSP-ARM-XILINXZYNQMP-OPTCLKUART: null
+- RTEMS-BUILD-BSP-ARM-XILINXZYNQMP-OPTCONIRQ: null
+- RTEMS-BUILD-BSP-ARM-XILINXZYNQMP-OPTCONMINOR: null
+- RTEMS-BUILD-BSP-ARM-XILINXZYNQMP-OPTGENTMRFREQ: null
+- RTEMS-BUILD-BSP-ARM-XILINXZYNQMP-OPTGENTMRUSEVIRT: null
+- RTEMS-BUILD-BSP-ARM-XILINXZYNQMP-OPTNOCACHELEN: null
+- RTEMS-BUILD-BSP-ARM-XILINXZYNQMP-OPTRAMLEN: null
+- RTEMS-BUILD-BSP-ARM-XILINXZYNQMP-OPTRESETVEC: null
+- RTEMS-BUILD-BSP-BSPOPTS: null
+- RTEMS-BUILD-BSP-OBJ: null
+- RTEMS-BUILD-BSP-OBJIRQ: null
+- RTEMS-BUILD-BSP-OPTO2: null
+normative: true
+order: 0
+ref: ''
+reviewed: null
+source:
+- bsps/arm/shared/cache/cache-cp15.c
+- bsps/arm/shared/clock/clock-generic-timer.c
+- bsps/arm/shared/cp15/arm-cp15-set-exception-handler.c
+- bsps/arm/shared/cp15/arm-cp15-set-ttb-entries.c
+- bsps/arm/shared/irq/irq-gic.c
+- bsps/arm/shared/serial/zynq-uart.c
+- bsps/arm/shared/serial/zynq-uart-polled.c
+- bsps/arm/shared/start/bsp-start-memcpy.S
+- bsps/arm/xilinx-zynqmp/console/console-config.c
+- bsps/arm/xilinx-zynqmp/start/bspreset.c
+- bsps/arm/xilinx-zynqmp/start/bspstart.c
+- bsps/arm/xilinx-zynqmp/start/bspstarthooks.c
+- bsps/arm/xilinx-zynqmp/start/bspstartmmu.c
+- bsps/shared/dev/btimer/btimer-stub.c
+- bsps/shared/dev/getentropy/getentropy-cpucounter.c
+- bsps/shared/dev/serial/console-termios.c
+- bsps/shared/irq/irq-default-handler.c
+- bsps/shared/start/bspfatal-default.c
+- bsps/shared/start/bspgetworkarea-default.c
+- bsps/shared/start/sbrk.c
+- bsps/shared/start/stackalloc.c
+text: ''
+type: build

@@ -1,0 +1,21 @@
+actions:
+- get-boolean: null
+- define-condition: null
+- env-enable: null
+active: true
+build-type: option
+default: true
+default-by-variant: []
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: ENABLE_UMON
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  If defined, enable use of the uMon console.
+type: build

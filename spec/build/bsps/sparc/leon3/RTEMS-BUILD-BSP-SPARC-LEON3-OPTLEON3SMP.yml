@@ -1,0 +1,20 @@
+actions:
+- get-boolean: null
+- define-condition: null
+active: true
+build-type: option
+default: true
+default-by-variant: []
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: BSP_LEON3_SMP
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  Always defined when on a LEON3 to enable the LEON3 support for determining the CPU core number in an SMP configuration.
+type: build

@@ -1,0 +1,23 @@
+actions:
+- get-boolean: null
+- define-condition: null
+active: true
+build-type: option
+default: true
+default-by-variant:
+- value: false
+  variants:
+  - powerpc/hsc_cm01
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: BSP_USE_UART_INTERRUPTS
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  enable usage of interrupts for the UART modules
+type: build

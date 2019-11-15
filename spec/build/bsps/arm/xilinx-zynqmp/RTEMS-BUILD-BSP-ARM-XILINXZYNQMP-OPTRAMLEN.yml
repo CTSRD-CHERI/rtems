@@ -1,0 +1,24 @@
+actions:
+- get-integer: null
+- define: null
+format: '{:#010x}'
+active: true
+build-type: option
+default: 268435456
+default-by-variant:
+- value: 2147483648
+  variants:
+  - arm/xilinx_zynqmp_ultra96
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: BSP_ZYNQMP_RAM_LENGTH
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  override a BSP's default RAM length
+type: build

@@ -1,0 +1,21 @@
+actions:
+- get-integer: null
+- define: null
+format: '{:#010x}'
+active: true
+build-type: option
+default: 0x0100
+default-by-variant: []
+derived: false
+enabled-by: []
+header: ''
+level: 1.8
+links: []
+name: PPC_VECTOR_FILE_BASE
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  This defines the base address of the exception table.  NOTE: Vectors are actually at 0xFFF00000 but file starts at offset.
+type: build

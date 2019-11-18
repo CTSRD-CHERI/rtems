@@ -26,6 +26,7 @@ install:
 level: 1.0
 links:
 - RTEMS-BUILD-BSP-BSPOPTS: null
+- RTEMS-BUILD-BSP-SPARC-GRP: null
 - RTEMS-BUILD-BSP-OBJ: null
 - RTEMS-BUILD-BSP-OBJIRQ: null
 - RTEMS-BUILD-BSP-OPTO2: null

@@ -1,0 +1,36 @@
+active: true
+build-type: group
+install:
+- destination: ${BSP_INCLUDEDIR}
+  source:
+  - bsps/i386/include/i386_io.h
+  - bsps/i386/include/uart.h
+- destination: ${BSP_INCLUDEDIR}/bsp
+  source:
+  - bsps/i386/include/bsp/apic.h
+  - bsps/i386/include/bsp/irq.h
+  - bsps/i386/include/bsp/irq_asm.h
+  - bsps/i386/include/bsp/realmode_int.h
+  - bsps/i386/include/bsp/smp-imps.h
+  - bsps/i386/include/bsp/tty_drv.h
+- destination: ${BSP_INCLUDEDIR}/libcpu
+  source:
+  - bsps/i386/include/libcpu/byteorder.h
+  - bsps/i386/include/libcpu/cpuModel.h
+  - bsps/i386/include/libcpu/page.h
+derived: true
+enabled-by: []
+header: ''
+includes: []
+ldflags: []
+level: 1.22
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: ''
+top-level: false
+type: build
+use-before: []
+use-after: []

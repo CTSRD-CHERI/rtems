@@ -1,0 +1,22 @@
+actions:
+- get-integer: null
+- assert-uint32: null
+- env-assign: null
+- format-and-define: null
+active: true
+build-type: option
+default-by-variant: []
+default: 65024
+derived: false
+enabled-by: []
+format: '{:#010x}'
+header: ''
+level: 1.18
+links: []
+name: ZYNQMP_RAM_INT_1_LENGTH
+normative: true
+order: 0
+ref: ''
+reviewed: pc6n5BLbEmv7aog4Em7uzAHskSZdD3UrF1x22JbQXWQ=
+text: ''
+type: build

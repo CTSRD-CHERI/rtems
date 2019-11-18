@@ -5,6 +5,8 @@ actions:
 active: true
 build-type: option
 default:
+- -DSUN4U
+- -DUS3
 - -mcpu=ultrasparc3
 default-by-variant: []
 derived: false

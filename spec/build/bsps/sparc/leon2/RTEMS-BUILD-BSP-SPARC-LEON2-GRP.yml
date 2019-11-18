@@ -9,6 +9,7 @@ ldflags: []
 level: 1.22
 links:
 - RTEMS-BUILD-BSP-BSPOPTS: null
+- RTEMS-BUILD-BSP-SPARC-GRP: null
 - RTEMS-BUILD-BSP-LINKCMDS: null
 - RTEMS-BUILD-BSP-OBJ: null
 - RTEMS-BUILD-BSP-OBJGRLIB: null

@@ -5,6 +5,7 @@ actions:
 active: true
 build-type: option
 default:
+- -Dmpc860
 - -mcpu=860
 - -mstrict-align
 - -fno-strict-aliasing

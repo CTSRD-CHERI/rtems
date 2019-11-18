@@ -1,0 +1,25 @@
+active: true
+build-type: group
+install:
+- destination: ${BSP_INCLUDEDIR}/bsp
+  source:
+  - bsps/x86_64/include/bsp/irq.h
+- destination: ${BSP_INCLUDEDIR}/libcpu
+  source:
+  - bsps/x86_64/include/libcpu/page.h
+derived: true
+enabled-by: []
+header: ''
+includes: []
+ldflags: []
+level: 1.22
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: ''
+top-level: false
+type: build
+use-before: []
+use-after: []

@@ -15,11 +15,11 @@ actions:
     loopback: exclude
     math: exclude
     mathf: exclude
-    mdosfs_fserror: exclude
-    mdosfs_fspatheval: exclude
-    mdosfs_fsrdwr: exclude
-    mdosfs_fsscandir01: exclude
-    mdosfs_fstime: exclude
+    mdosfsfserror: exclude
+    mdosfsfspatheval: exclude
+    mdosfsfsrdwr: exclude
+    mdosfsfsscandir01: exclude
+    mdosfsfstime: exclude
     mghttpd01: exclude
     monitor: exclude
     monitor02: exclude
@@ -45,6 +45,7 @@ actions:
     termios: exclude
     tmcontext01: exclude
     tmfine01: exclude
+    ttest01: exclude
     top: exclude
     utf8proc01: exclude
 active: true

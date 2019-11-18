@@ -6,7 +6,7 @@ cxxflags: []
 derived: false
 enabled-by:
 - and:
-  - RTEMS_VGA
+  - BSP_ENABLE_VGA
   - USE_CIRRUS_GD5446
 header: ''
 includes: []

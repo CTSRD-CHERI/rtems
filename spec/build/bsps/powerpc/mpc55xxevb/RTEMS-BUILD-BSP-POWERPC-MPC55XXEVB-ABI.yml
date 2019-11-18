@@ -5,6 +5,7 @@ actions:
 active: true
 build-type: option
 default:
+- -D__ppc_generic
 - -mcpu=8540
 - -meabi
 - -msdata=sysv
@@ -15,6 +16,7 @@ default:
 - -mstrict-align
 default-by-variant:
 - value:
+  - -D__ppc_generic
   - -mcpu=8540
   - -meabi
   - -msdata=sysv

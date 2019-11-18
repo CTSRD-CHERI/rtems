@@ -1,0 +1,22 @@
+actions:
+- get-integer: null
+- assert-uint32: null
+- env-assign: null
+- format-and-define: null
+active: true
+build-type: option
+default-by-variant: []
+default: 4294901760
+derived: false
+enabled-by: []
+format: '{:#010x}'
+header: ''
+level: 1.17
+links: []
+name: ZYNQMP_RAM_INT_1_ORIGIN
+normative: true
+order: 0
+ref: ''
+reviewed: fUkis3_hEljJc60RJQIvxX-zz5hJYWZWb5Rlf4viIPU=
+text: ''
+type: build

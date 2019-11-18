@@ -11,8 +11,8 @@ actions:
     iostream: exclude
     loopback: exclude
     math: exclude
-    mdosfs_fserror: exclude
-    mdosfs_fsrdwr: exclude
+    mdosfsfserror: exclude
+    mdosfsfsrdwr: exclude
     mghttpd01: exclude
     monitor02: exclude
     paranoia: exclude
@@ -34,6 +34,7 @@ actions:
     telnetd01: exclude
     tmcontext01: exclude
     tmfine01: exclude
+    ttest01: exclude
     top: exclude
     utf8proc01: exclude
 active: true

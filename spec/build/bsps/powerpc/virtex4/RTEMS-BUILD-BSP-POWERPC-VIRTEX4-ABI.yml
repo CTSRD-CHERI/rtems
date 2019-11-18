@@ -5,6 +5,7 @@ actions:
 active: true
 build-type: option
 default:
+- -Dppc405
 - -mcpu=405
 default-by-variant: []
 derived: false

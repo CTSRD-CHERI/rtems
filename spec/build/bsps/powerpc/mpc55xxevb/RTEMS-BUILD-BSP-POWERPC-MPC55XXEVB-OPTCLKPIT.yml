@@ -4,7 +4,7 @@ actions:
 format: '{}'
 active: true
 build-type: option
-default: 
+default: null
 default-by-variant:
 - value: 3
   variants:

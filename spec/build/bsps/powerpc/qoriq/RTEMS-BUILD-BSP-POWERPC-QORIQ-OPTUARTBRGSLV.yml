@@ -1,9 +1,10 @@
 actions:
-- get-boolean: null
-- define-condition: null
+- get-integer: null
+- define: null
 active: true
 build-type: option
-default: true
+format: '{}'
+default: 0
 default-by-variant: []
 derived: false
 enabled-by: []

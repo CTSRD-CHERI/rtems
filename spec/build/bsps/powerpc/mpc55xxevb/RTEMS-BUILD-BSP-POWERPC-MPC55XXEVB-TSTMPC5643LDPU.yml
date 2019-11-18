@@ -1,5 +1,6 @@
 actions:
 - set-test-state:
+    fileio: exclude
     pppd: exclude
     psxaio02: exclude
 active: true

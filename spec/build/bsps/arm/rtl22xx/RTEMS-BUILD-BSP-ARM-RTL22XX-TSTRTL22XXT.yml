@@ -1,5 +1,6 @@
 actions:
 - set-test-state:
+    dl10: exclude
     fsdosfsname01: exclude
     linpack: exclude
 active: true

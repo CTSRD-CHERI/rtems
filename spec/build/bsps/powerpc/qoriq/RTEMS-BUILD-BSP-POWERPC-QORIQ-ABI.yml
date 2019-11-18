@@ -5,6 +5,7 @@ actions:
 active: true
 build-type: option
 default:
+- -D__ppc_generic
 - -mcpu=8540
 - -meabi
 - -msdata=sysv
@@ -15,12 +16,14 @@ default:
 - -mfloat-gprs=double
 default-by-variant:
 - value:
+  - -D__ppc_generic
   - -mcpu=e6500
   - -m64
   - -fno-common
   variants:
   - powerpc/qoriq_e6500_64
 - value:
+  - -D__ppc_generic
   - -mcpu=e6500
   - -m32
   - -msdata=sysv

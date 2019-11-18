@@ -5,6 +5,7 @@ actions:
 active: true
 build-type: option
 default:
+- -Dppc603e
 - -meabi
 - -mcpu=603e
 - -msdata=sysv

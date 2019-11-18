@@ -5,6 +5,7 @@ actions:
 active: true
 build-type: option
 default:
+- -Dppc405
 - -mcpu=403
 - -meabi
 - -msdata=sysv

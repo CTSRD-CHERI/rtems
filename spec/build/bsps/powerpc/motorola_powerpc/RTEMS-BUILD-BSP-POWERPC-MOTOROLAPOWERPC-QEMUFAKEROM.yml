@@ -1,0 +1,44 @@
+active: true
+build-type: script
+prepare-configure: null
+prepare-build: null
+do-configure: null
+do-build: |
+  def cc(self, bld, bic, flags, source):
+      root, ext = os.path.splitext(source)
+      target = root + ".o"
+      bld(
+          features="asm c",
+          includes=bic.includes,
+          rule="${CC} ${CPPFLAGS} " + flags + " ${DEFINES_ST:DEFINES} ${CPPPATH_ST:INCPATHS} -c ${SRC} -o ${TGT}",
+          source=source,
+          target=target,
+      )
+      return target
+  fakerom_o = cc(self, bld, bic, "-DASM", "bsps/powerpc/motorola_powerpc/bootloader/qemu_fakerom.S")
+  fakeres_o = cc(self, bld, bic, "", "bsps/powerpc/motorola_powerpc/bootloader/qemu_fakeres.c")
+  rule = "${LD} -o ${TGT} ${SRC} -nostdlib -Ttext 0xfff00000 --section-start=.romentry=0xfffffffc"
+  elf = "qemu_fakerom.elf"
+  bld(
+      rule=rule,
+      source=[fakerom_o, fakeres_o],
+      target=elf,
+  )
+  bin = "qemu_fakerom.bin"
+  bld(
+      rule=rule + " --oformat binary",
+      source=[fakerom_o, fakeres_o],
+      target=bin,
+  )
+  bld.install_files("${BSP_LIBDIR}", [fakerom_o, elf, bin])
+derived: false
+enabled-by: []
+header: ''
+level: '1.125'
+links: []
+normative: true
+order: 100
+ref: ''
+reviewed: null
+text: ''
+type: build

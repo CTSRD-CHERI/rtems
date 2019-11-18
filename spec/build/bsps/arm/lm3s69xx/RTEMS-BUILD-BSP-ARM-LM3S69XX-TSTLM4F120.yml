@@ -17,6 +17,7 @@ actions:
     sp42: exclude
     sp48: exclude
     sp71: exclude
+    spregionerr01: exclude
     sptimecounter02: exclude
     sptimecounter03: exclude
     tmcontext01: exclude

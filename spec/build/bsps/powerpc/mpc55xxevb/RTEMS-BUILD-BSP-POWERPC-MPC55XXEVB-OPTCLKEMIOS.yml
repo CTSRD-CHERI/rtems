@@ -6,10 +6,10 @@ active: true
 build-type: option
 default: 23
 default-by-variant:
-- value: 
+- value: null
   variants:
   - powerpc/mpc5643l.*
-- value: 
+- value: null
   variants:
   - powerpc/mpc5668g.*
 - value: 31

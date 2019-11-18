@@ -7,7 +7,8 @@ derived: false
 enabled-by:
 - RTEMS_NETWORKING
 header: ''
-includes: []
+includes:
+- cpukit/libnetworking
 install: []
 level: 1.0
 links: []

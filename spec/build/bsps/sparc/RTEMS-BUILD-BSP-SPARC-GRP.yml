@@ -1,0 +1,26 @@
+active: true
+build-type: group
+install:
+- destination: ${BSP_INCLUDEDIR}/bsp
+  source:
+  - bsps/sparc/include/bsp/gnatcommon.h
+  - bsps/sparc/include/bsp/gr_leon4_n2x.h
+- destination: ${BSP_INCLUDEDIR}/drvmgr
+  source:
+  - bsps/sparc/include/drvmgr/leon2_amba_bus.h
+derived: true
+enabled-by: []
+header: ''
+includes: []
+ldflags: []
+level: 1.22
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: ''
+top-level: false
+type: build
+use-before: []
+use-after: []

@@ -1,23 +1,21 @@
 actions:
-- get-boolean: null
-- define-condition: null
+- get-integer: null
+- define: null
+format: '{}'
 active: true
 build-type: option
-default: true
-default-by-variant:
-- value: false
-  variants:
-  - arm/.*qemu
+default: 20000000
+default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
 level: 1.8
 links: []
-name: BSP_DATA_CACHE_ENABLED
+name: CPU_CLOCK_RATE_HZ
 normative: true
 order: 0
 ref: ''
 reviewed: null
 text: |
-  enable data cache
+  cpu clock rate in HZ
 type: build

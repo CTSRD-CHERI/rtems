@@ -8,8 +8,8 @@ actions:
     ftp01: exclude
     iostream: exclude
     loopback: exclude
-    mdosfs_fserror: exclude
-    mdosfs_fsrdwr: exclude
+    mdosfsfserror: exclude
+    mdosfsfsrdwr: exclude
     mghttpd01: exclude
     monitor02: exclude
     paranoia: exclude
@@ -20,6 +20,7 @@ actions:
     sptls02: exclude
     syscall01: exclude
     telnetd01: exclude
+    ttest01: exclude
     utf8proc01: exclude
 active: true
 build-type: option

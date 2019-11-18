@@ -5,6 +5,7 @@ actions:
 active: true
 build-type: option
 default:
+- -D__ppc_generic
 - -mcpu=7400
 default-by-variant: []
 derived: false

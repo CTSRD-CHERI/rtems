@@ -4,7 +4,7 @@ actions:
     calloc: exclude
     capture: exclude
     cdtest: exclude
-    clock_gettime: exclude
+    clockgettime: exclude
     close: exclude
     debugger01: exclude
     defaultconfig01: exclude
@@ -28,14 +28,14 @@ actions:
     getuid: exclude
     heapwalk: exclude
     htonl: exclude
-    imfs_fserror: exclude
-    imfs_fslink: exclude
-    imfs_fspatheval: exclude
-    imfs_fspermission: exclude
-    imfs_fsrdwr: exclude
-    imfs_fsscandir01: exclude
-    imfs_fssymlink: exclude
-    imfs_fstime: exclude
+    imfsfserror: exclude
+    imfsfslink: exclude
+    imfsfspatheval: exclude
+    imfsfspermission: exclude
+    imfsfsrdwr: exclude
+    imfsfsscandir01: exclude
+    imfsfssymlink: exclude
+    imfsfstime: exclude
     iostream: exclude
     kill: exclude
     longjmp: exclude
@@ -43,29 +43,29 @@ actions:
     lseek: exclude
     lstat: exclude
     malloc: exclude
-    mdosfs_fserror: exclude
-    mdosfs_fspatheval: exclude
-    mdosfs_fsrdwr: exclude
-    mdosfs_fsscandir01: exclude
-    mdosfs_fsstatvfs: exclude
-    mdosfs_fstime: exclude
+    mdosfsfserror: exclude
+    mdosfsfspatheval: exclude
+    mdosfsfsrdwr: exclude
+    mdosfsfsscandir01: exclude
+    mdosfsfsstatvfs: exclude
+    mdosfsfstime: exclude
     mghttpd01: exclude
-    mimfs_fserror: exclude
-    mimfs_fslink: exclude
-    mimfs_fspatheval: exclude
-    mimfs_fspermission: exclude
-    mimfs_fsrdwr: exclude
-    mimfs_fsrename: exclude
-    mimfs_fsscandir01: exclude
-    mimfs_fssymlink: exclude
-    mimfs_fstime: exclude
+    mimfsfserror: exclude
+    mimfsfslink: exclude
+    mimfsfspatheval: exclude
+    mimfsfspermission: exclude
+    mimfsfsrdwr: exclude
+    mimfsfsrename: exclude
+    mimfsfsscandir01: exclude
+    mimfsfssymlink: exclude
+    mimfsfstime: exclude
     monitor: exclude
     monitor01: exclude
     monitor02: exclude
     nanosleep: exclude
     open: exclude
     pipe: exclude
-    posix_memalign: exclude
+    posixmemalign: exclude
     pppd: exclude
     psxaio01: exclude
     psxaio02: exclude
@@ -92,20 +92,20 @@ actions:
     sp35: exclude
     sp42: exclude
     sp48: exclude
-    spclock_err01: exclude
-    spevent_err03: exclude
-    spintr_err01: exclude
-    spmsgq_err01: exclude
-    spmsgq_err02: exclude
-    spport_err01: exclude
-    spratemon_err01: exclude
-    spregion_err01: exclude
-    spsem_err01: exclude
-    spsem_err02: exclude
-    spsignal_err01: exclude
+    spclockerr01: exclude
+    speventerr03: exclude
+    spintrerr01: exclude
+    spmsgqerr01: exclude
+    spmsgqerr02: exclude
+    spporterr01: exclude
+    spratemonerr01: exclude
+    spregionerr01: exclude
+    spsemerr01: exclude
+    spsemerr02: exclude
+    spsignalerr01: exclude
     spstkalloc: exclude
-    sptask_err01: exclude
-    sptask_err03: exclude
+    sptaskerr01: exclude
+    sptaskerr03: exclude
     sptimecounter02: exclude
     sptimecounter03: exclude
     sptls02: exclude

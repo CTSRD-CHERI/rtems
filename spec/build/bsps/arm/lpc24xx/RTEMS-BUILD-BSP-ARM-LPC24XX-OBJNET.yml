@@ -7,7 +7,8 @@ derived: false
 enabled-by:
 - RTEMS_NETWORKING
 header: ''
-includes: []
+includes:
+- cpukit/libnetworking
 install: []
 level: 1.0
 links: []
@@ -16,6 +17,6 @@ order: 0
 ref: ''
 reviewed: null
 source:
-- bsps/arm/shared/net/
+- bsps/arm/shared/net/lpc-ethernet.c
 text: ''
 type: build

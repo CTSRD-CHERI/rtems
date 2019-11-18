@@ -1,5 +1,6 @@
 actions:
 - set-test-state:
+    dl10: exclude
     fileio: exclude
     fsdosfsname01: exclude
     iostream: exclude

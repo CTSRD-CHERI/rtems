@@ -1,6 +1,6 @@
 actions:
-- get-integer: null
-- define: null
+- get-string: null
+- define-unquoted: null
 format: '{}'
 active: true
 build-type: option

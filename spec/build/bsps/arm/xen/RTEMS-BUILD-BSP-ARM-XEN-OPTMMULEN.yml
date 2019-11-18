@@ -1,12 +1,17 @@
 actions:
-- get-boolean: null
-- define-condition: null
+- get-integer: null
+- assert-in-interval:
+  - 16384
+  - 33554432
+- env-assign: null
+- format-and-define: null
 active: true
 build-type: option
-default: 16k
+default: 16384
 default-by-variant: []
 derived: false
 enabled-by: []
+format: '{:#010x}'
 header: ''
 level: 1.8
 links: []

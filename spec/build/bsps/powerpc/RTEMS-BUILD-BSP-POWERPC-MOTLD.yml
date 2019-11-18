@@ -1,0 +1,34 @@
+active: true
+asflags: []
+cppflags: []
+includes: []
+build-type: script
+prepare-configure: null
+prepare-build: null
+do-configure: null
+do-build: |
+  preload_o = "bsps/powerpc/shared/start/preload.o"
+  self.asm(bld, bic, "bsps/powerpc/shared/start/preload.S", preload_o)
+  vectors_entry_o = "bsps/powerpc/shared/start/vectors_entry.o"
+  self.asm(
+      bld, bic, "bsps/powerpc/shared/start/vectors_entry.S", vectors_entry_o
+  )
+  target = "motld_start.o"
+  bld(
+      before=["cstlib"],
+      rule="${LD} -o ${TGT} -r ${SRC}",
+      source=[preload_o, vectors_entry_o, "start.o"],
+      target=target,
+  )
+  bld.install_files("${BSP_LIBDIR}", target)
+derived: false
+enabled-by: []
+header: ''
+level: '1.125'
+links: []
+normative: true
+order: 100
+ref: ''
+reviewed: null
+text: ''
+type: build

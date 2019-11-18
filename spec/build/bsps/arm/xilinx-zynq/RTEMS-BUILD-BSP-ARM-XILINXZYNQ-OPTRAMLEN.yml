@@ -1,6 +1,8 @@
 actions:
 - get-integer: null
-- define: null
+- assert-uint32: null
+- env-assign: null
+- format-and-define: null
 format: '{:#010x}'
 active: true
 build-type: option
@@ -23,7 +25,7 @@ enabled-by: []
 header: ''
 level: 1.8
 links: []
-name: BSP_ZYNQ_RAM_LENGTH
+name: ZYNQ_RAM_LENGTH
 normative: true
 order: 0
 ref: ''

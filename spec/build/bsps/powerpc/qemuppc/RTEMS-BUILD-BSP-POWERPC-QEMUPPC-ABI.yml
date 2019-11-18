@@ -5,6 +5,7 @@ actions:
 active: true
 build-type: option
 default:
+- -Dppc603e
 - -mcpu=603e
 default-by-variant: []
 derived: false

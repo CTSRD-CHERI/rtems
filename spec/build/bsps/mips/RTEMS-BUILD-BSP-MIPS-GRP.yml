@@ -1,0 +1,31 @@
+active: true
+build-type: group
+install:
+- destination: ${BSP_INCLUDEDIR}/bsp
+  source:
+  - bsps/mips/include/bsp/i8259.h
+  - bsps/mips/include/bsp/regs.h
+- destination: ${BSP_INCLUDEDIR}/libcpu
+  source:
+  - bsps/mips/include/libcpu/au1x00.h
+  - bsps/mips/include/libcpu/isr_entries.h
+  - bsps/mips/include/libcpu/rm5231.h
+  - bsps/mips/include/libcpu/tx3904.h
+  - bsps/mips/include/libcpu/tx4925.h
+  - bsps/mips/include/libcpu/tx4938.h
+derived: true
+enabled-by: []
+header: ''
+includes: []
+ldflags: []
+level: 1.22
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: ''
+top-level: false
+type: build
+use-before: []
+use-after: []

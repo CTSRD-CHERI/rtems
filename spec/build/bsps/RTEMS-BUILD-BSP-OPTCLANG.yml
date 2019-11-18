@@ -1,8 +1,8 @@
 actions:
 - set-value: INPUT
-- env-assign: RISCV_LINKER_START_DIRECTIVE
+- env-assign: LINKCMDS_START_DIRECTIVE
 - set-value: ALIGN(8)
-- env-assign: RISCV_LINKER_ALIGN_DIRECTIVE
+- env-assign: LINKCMDS_ALIGN_DIRECTIVE
 active: true
 build-type: option
 default-by-variant: []

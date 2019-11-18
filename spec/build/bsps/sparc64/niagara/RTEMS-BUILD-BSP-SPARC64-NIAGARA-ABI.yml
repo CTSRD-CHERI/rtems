@@ -5,6 +5,7 @@ actions:
 active: true
 build-type: option
 default:
+- -DSUN4V
 - -mcpu=niagara
 default-by-variant: []
 derived: false

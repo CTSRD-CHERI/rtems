@@ -1,0 +1,32 @@
+active: true
+asflags: []
+cppflags: []
+includes: []
+build-type: script
+prepare-configure: null
+prepare-build: null
+do-configure: null
+do-build: |
+  preload_o = "bsps/powerpc/shared/start/preload.o"
+  self.asm(bld, bic, "bsps/powerpc/shared/start/preload.S", preload_o)
+  start_o = "bsps/powerpc/mvme5500/start/start.o"
+  self.asm( bld, bic, "bsps/powerpc/mvme5500/start/start.S", start_o)
+  target = "mvme5500start.o"
+  bld(
+      before=["cstlib"],
+      rule="${LD} -o ${TGT} -r ${SRC}",
+      source=[preload_o, start_o],
+      target=target,
+  )
+  bld.install_files("${BSP_LIBDIR}", target)
+derived: false
+enabled-by: []
+header: ''
+level: '1.125'
+links: []
+normative: true
+order: 100
+ref: ''
+reviewed: null
+text: ''
+type: build

@@ -9,7 +9,8 @@ enabled-by:
   - RTEMS_NETWORKING
   - not: RTEMS_SMP
 header: ''
-includes: []
+includes:
+- cpukit/libnetworking
 install: []
 level: 1.0
 links: []

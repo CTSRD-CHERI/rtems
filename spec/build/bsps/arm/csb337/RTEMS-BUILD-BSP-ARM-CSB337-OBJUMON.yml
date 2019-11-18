@@ -8,7 +8,15 @@ enabled-by:
 - ENABLE_UMON
 header: ''
 includes: []
-install: []
+install:
+- destination: ${BSP_INCLUDEDIR}/rtems
+  source:
+  - bsps/include/rtems/umon.h
+- destination: ${BSP_INCLUDEDIR}/umon
+  source:
+  - bsps/include/umon/cli.h
+  - bsps/include/umon/monlib.h
+  - bsps/include/umon/tfs.h
 level: 1.0
 links: []
 normative: true

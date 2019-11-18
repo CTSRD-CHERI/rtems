@@ -1,0 +1,22 @@
+actions:
+- get-integer: null
+- format-and-define: null
+- env-assign: null
+active: true
+build-type: option
+default: 0x00001000
+default-by-variant: []
+derived: false
+enabled-by: []
+format: '{:#010x}'
+header: ''
+level: 1.8
+links: []
+name: ATSAM_MEMORY_NOCACHE_SIZE
+normative: true
+order: 0
+ref: ''
+reviewed: null
+text: |
+  size of NOCACHE section in bytes
+type: build

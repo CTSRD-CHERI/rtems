@@ -5,7 +5,7 @@ cppflags: []
 cxxflags: []
 derived: false
 enabled-by:
-- RTEMS_VGA
+- BSP_ENABLE_VGA
 header: ''
 includes: []
 install: []

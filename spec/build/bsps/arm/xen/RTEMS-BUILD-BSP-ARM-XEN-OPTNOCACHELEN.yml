@@ -1,6 +1,8 @@
 actions:
 - get-integer: null
-- define: null
+- assert-uint32: null
+- env-assign: null
+- format-and-define: null
 format: '{:#010x}'
 active: true
 build-type: option

@@ -1,0 +1,22 @@
+actions:
+- get-integer: null
+- assert-uint32: null
+- env-assign: null
+- format-and-define: null
+active: true
+build-type: option
+default: 0x7ffffec
+default-by-variant: []
+derived: false
+enabled-by: []
+format: '{:#010x}'
+header: ''
+level: 1.4
+links: []
+name: VIRTEX_RAM_LENGTH
+normative: true
+order: 0
+ref: ''
+reviewed: vtamXhrTWoNpGwOsqg7F2OtQiERYd9_-4Zx-5KrKNpQ=
+text: 'normal RAM region length'
+type: build

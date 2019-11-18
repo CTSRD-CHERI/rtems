@@ -8,7 +8,13 @@ derived: true
 enabled-by: []
 family: atsam
 header: ''
-includes: []
+includes:
+- bsps/arm/atsam/contrib/libraries/libboard
+- bsps/arm/atsam/contrib/libraries/libboard/include
+- bsps/arm/atsam/contrib/libraries/libchip
+- bsps/arm/atsam/contrib/libraries/libchip/include
+- bsps/arm/atsam/include/libchip
+- bsps/arm/atsam/include/libchip/include
 install:
 - destination: ${BSP_INCLUDEDIR}
   source:
@@ -276,18 +282,25 @@ install:
 level: 1.0
 links:
 - RTEMS-BUILD-BSP-ARM-ATSAM-ABI: null
+- RTEMS-BUILD-BSP-ARM-ATSAM-LINKCMDS: null
 - RTEMS-BUILD-BSP-ARM-ATSAM-OBJNET: null
 - RTEMS-BUILD-BSP-ARM-ATSAM-OPTCHGCLKSRAM: null
+- RTEMS-BUILD-BSP-ARM-ATSAM-OPTCHIP: null
 - RTEMS-BUILD-BSP-ARM-ATSAM-OPTCONBAUD: null
 - RTEMS-BUILD-BSP-ARM-ATSAM-OPTCONIDX: null
 - RTEMS-BUILD-BSP-ARM-ATSAM-OPTCONIRQ: null
 - RTEMS-BUILD-BSP-ARM-ATSAM-OPTCONTYPE: null
 - RTEMS-BUILD-BSP-ARM-ATSAM-OPTMCK: null
+- RTEMS-BUILD-BSP-ARM-ATSAM-OPTNOCACHESZ: null
 - RTEMS-BUILD-BSP-ARM-ATSAM-OPTOSCMAIN: null
+- RTEMS-BUILD-BSP-ARM-ATSAM-OPTQSPIFLASHSZ: null
+- RTEMS-BUILD-BSP-ARM-ATSAM-OPTSDRAM: null
+- RTEMS-BUILD-BSP-ARM-ATSAM-OPTTCMSZ: null
 - RTEMS-BUILD-BSP-ARM-ATSAM-OPTUSEXTAL: null
 - RTEMS-BUILD-BSP-ARM-ATSAM-TSTATSAMV: null
 - RTEMS-BUILD-BSP-ARM-START: null
 - RTEMS-BUILD-BSP-BSPOPTS: null
+- RTEMS-BUILD-BSP-ARM-GRP: null
 - RTEMS-BUILD-BSP-OBJ: null
 - RTEMS-BUILD-BSP-OBJIRQ: null
 - RTEMS-BUILD-BSP-OPTO2: null

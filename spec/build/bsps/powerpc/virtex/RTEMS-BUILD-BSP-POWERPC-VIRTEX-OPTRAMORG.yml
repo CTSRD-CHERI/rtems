@@ -1,0 +1,22 @@
+actions:
+- get-integer: null
+- assert-uint32: null
+- env-assign: null
+- format-and-define: null
+active: true
+build-type: option
+default: 0x0
+default-by-variant: []
+derived: false
+enabled-by: []
+format: '{:#010x}'
+header: ''
+level: 1.4
+links: []
+name: VIRTEX_RAM_ORIGIN
+normative: true
+order: 0
+ref: ''
+reviewed: i_CssUBJyqp5PTT684AclQKGnjjqreMFEm0qKc6hfmM=
+text: 'normal RAM region origin'
+type: build

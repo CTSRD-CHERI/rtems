@@ -2,6 +2,7 @@ actions:
 - set-test-state:
     cdtest: exclude
     dl05: exclude
+    dl10: exclude
     fileio: exclude
     fsdosfsname01: exclude
     iostream: exclude

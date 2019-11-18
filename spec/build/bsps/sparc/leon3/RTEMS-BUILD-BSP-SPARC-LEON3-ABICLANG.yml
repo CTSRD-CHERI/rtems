@@ -18,12 +18,16 @@ default-by-variant:
   variants:
   - sparc/ut699
 - value:
-  - -mcpu=leon3
-  - -mfix-gr712rc
+  - -mcpu=gr712rc
   variants:
   - sparc/gr712rc
+- value:
+  - -mcpu=gr740
+  variants:
+  - sparc/gr740
 derived: false
-enabled-by: []
+enabled-by:
+- clang
 header: ''
 level: 1.8
 links: []

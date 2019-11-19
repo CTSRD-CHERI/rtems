@@ -22,7 +22,6 @@ librtemsbsp_a_SOURCES =
 librtemsbsp_a_SOURCES += ../../../../../../bsps/m68k/mvme162/start/bspclean.c
 librtemsbsp_a_SOURCES += ../../../../../../bsps/m68k/mvme162/start/bspstart.c
 librtemsbsp_a_SOURCES += ../../../../../../bsps/shared/dev/getentropy/getentropy-cpucounter.c
-librtemsbsp_a_SOURCES += ../../../../../../bsps/m68k/mvme162/start/page_table.c
 librtemsbsp_a_SOURCES += ../../../../../../bsps/shared/start/bspgetworkarea-default.c
 librtemsbsp_a_SOURCES += ../../../../../../bsps/m68k/mvme162/start/page_table.c
 librtemsbsp_a_SOURCES += ../../../../../../bsps/shared/start/sbrk.c

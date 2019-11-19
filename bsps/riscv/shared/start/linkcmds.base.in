@@ -277,16 +277,16 @@ SECTIONS {
 	.data1 : @RISCV_LINKER_ALIGN_DIRECTIVE@ {
 		*(.data1)
 	} > REGION_DATA AT > REGION_DATA_LOAD
+	.sdata : @RISCV_LINKER_ALIGN_DIRECTIVE@ {
+		__global_pointer$ = . + 0x800;
+		*(.srodata.cst16) *(.srodata.cst8) *(.srodata.cst4) *(.srodata.cst2) *(.srodata .srodata.*)
+		*(.sdata .sdata.* .gnu.linkonce.s.*)
+	} > REGION_DATA AT > REGION_DATA_LOAD
 	.rtemsrwset : @RISCV_LINKER_ALIGN_DIRECTIVE@ {
 		KEEP (*(SORT(.rtemsrwset.*)))
 	} > REGION_DATA AT > REGION_DATA_LOAD
 	.htif ALIGN(4096) : @RISCV_LINKER_ALIGN_DIRECTIVE@ {
 		*(.htif)
-	} > REGION_DATA AT > REGION_DATA_LOAD
-	.sdata : @RISCV_LINKER_ALIGN_DIRECTIVE@ {
-		__global_pointer$ = . + 0x800;
-		*(.srodata.cst16) *(.srodata.cst8) *(.srodata.cst4) *(.srodata.cst2) *(.srodata .srodata.*)
-		*(.sdata .sdata.* .gnu.linkonce.s.*)
 		bsp_section_data_end = .;
 	} > REGION_DATA AT > REGION_DATA_LOAD
 	bsp_section_data_size = bsp_section_data_end - bsp_section_data_begin;

@@ -318,6 +318,7 @@ devnullfatal01_CPPFLAGS = $(AM_CPPFLAGS) $(TEST_FLAGS_devnullfatal01) \
 	$(support_includes)
 endif
 
+if HAS_CXX
 if DLTESTS
 if TEST_dl01
 lib_tests += dl01
@@ -695,6 +696,7 @@ dl10$(EXEEXT):  $(dl10_OBJECTS) $(dl10_DEPENDENCIES) dl10-sym.o
 CLEANFILES += dl10.pre dl10-sym.o libdl10_1.a libdl10_2.a dl10-o1.o dl10-o2.o \
 		dl10-o3.o dl10-o4.o dl10-o5.o dl10-o6.o \
 		dl10.tar dl10-tar.h etc/libdl-dl10.conf
+endif
 endif
 endif
 

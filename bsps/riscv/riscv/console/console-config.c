@@ -194,13 +194,20 @@ static void riscv_console_probe(void)
 
       ctx->clock = fdt32_to_cpu(val[0]);
 
-      val = (fdt32_t *) fdt_getprop(fdt, node, "interrupts", &len);
+      /* XXX Different RISC-V DTBs use different property names for interrupt
+      sources. If an interrupt-driven driver is needed, uncomment, replace the
+      "interrupts-extended" string below with your target's DTB name for UART
+      interrupts, and use interrupt-driven UART functions instead of
+      ns16550_polled_* functions */
+
+      /* val = (fdt32_t *) fdt_getprop(fdt, node, "interrupts-extended", &len);
 
       if (val == NULL || len != 4) {
         bsp_fatal(RISCV_FATAL_NO_NS16550_INTERRUPTS_IN_DEVICE_TREE);
       }
 
       ctx->irq = RISCV_INTERRUPT_VECTOR_EXTERNAL(fdt32_to_cpu(val[0]));
+      */
 
       if (node == console_node) {
         riscv_console.context = &ctx->base;

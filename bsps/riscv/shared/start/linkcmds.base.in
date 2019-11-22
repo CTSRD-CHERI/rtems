@@ -311,6 +311,10 @@ SECTIONS {
 		bsp_section_rtemsstack_begin = .;
 		*(SORT(.rtemsstack.*))
 		bsp_section_rtemsstack_end = .;
+
+		bsp_section_work_begin = .;
+		. += ORIGIN (REGION_WORK) + LENGTH (REGION_WORK) - ABSOLUTE (.);
+		bsp_section_work_end = .;
 	} > REGION_RTEMSSTACK AT > REGION_RTEMSSTACK
 	bsp_section_rtemsstack_size = bsp_section_rtemsstack_end - bsp_section_rtemsstack_begin;
 
@@ -319,9 +323,9 @@ SECTIONS {
 		 * The work section will occupy the remaining REGION_WORK region and
 		 * contains the RTEMS work space and heap.
 		 */
-		bsp_section_work_begin = .;
+		/*bsp_section_work_begin = .;
 		. += ORIGIN (REGION_WORK) + LENGTH (REGION_WORK) - ABSOLUTE (.);
-		bsp_section_work_end = .;
+		bsp_section_work_end = .;*/
 	} > REGION_WORK AT > REGION_WORK
 	bsp_section_work_size = bsp_section_work_end - bsp_section_work_begin;
 

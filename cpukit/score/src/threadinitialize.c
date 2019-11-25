@@ -24,6 +24,7 @@
 #include <rtems/score/tls.h>
 #include <rtems/score/userextimpl.h>
 #include <rtems/score/watchdogimpl.h>
+#include <rtems/score/wkspace.h>
 #include <rtems/config.h>
 
 bool _Thread_Initialize(
@@ -101,7 +102,7 @@ bool _Thread_Initialize(
   if ( tls_size > 0 ) {
     uintptr_t tls_align;
 
-    tls_align = (uintptr_t) _TLS_Alignment;
+    tls_align = (uintptr_t) __TLS_Alignment;
     the_thread->Start.tls_area = (void *)
       ( ( (uintptr_t) stack_area + tls_align - 1 ) & ~( tls_align - 1 ) );
     stack_size -= tls_size;

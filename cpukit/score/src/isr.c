@@ -33,6 +33,9 @@
   #error "CPU_INTERRUPT_MAXIMUM_VECTOR_NUMBER is defined for non-simple vectored interrupts"
 #endif
 
+extern char _ISR_Stack_size[];
+static long __ISR_Stack_size = (long) &_ISR_Stack_size;
+
 void _ISR_Handler_initialization( void )
 {
   uint32_t  cpu_max;
@@ -46,7 +49,8 @@ void _ISR_Handler_initialization( void )
   _CPU_Initialize_vectors();
 #endif
 
-  stack_size = rtems_configuration_get_interrupt_stack_size();
+  //stack_size = rtems_configuration_get_interrupt_stack_size();
+  stack_size = __ISR_Stack_size;
   cpu_max = rtems_configuration_get_maximum_processors();
   stack_low = _ISR_Stack_area_begin;
 

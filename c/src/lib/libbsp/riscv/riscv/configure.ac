@@ -47,7 +47,7 @@ RTEMS_BSPOPTS_HELP([RISCV_ENABLE_FRDME310ARTY_SUPPORT],[enables support sifive F
 RTEMS_BSP_CLEANUP_OPTIONS
 
 case "${RTEMS_BSP}" in
-  rv64*medany)
+  rv64*medany*)
     RISCV_RAM_REGION_BEGIN_DEFAULT=0x80000000
     ;;
   rv64*)

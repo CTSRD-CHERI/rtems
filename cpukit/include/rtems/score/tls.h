@@ -103,7 +103,7 @@ static inline uintptr_t _TLS_Get_size( void )
    * assume that this symbol is not 0 and the tests for 0 will be optimized
    * away.
    */
-  size = (uintptr_t) _TLS_Size;
+  size = (uintptr_t) __TLS_Size;
   RTEMS_OBFUSCATE_VARIABLE( size );
   return size;
 }

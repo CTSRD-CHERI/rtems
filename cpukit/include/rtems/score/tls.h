@@ -60,6 +60,11 @@ extern char _TLS_Size[];
 
 extern char _TLS_Alignment[];
 
+static long __TLS_Alignment = (long)&_TLS_Alignment;
+static long __TLS_Data_size = (long)&_TLS_Data_size;
+static long __TLS_BSS_size = (long)&_TLS_BSS_size;
+static long __TLS_Size = (long)&_TLS_Size;
+
 typedef struct {
   /*
    * FIXME: Not sure if the generation number type is correct for all
@@ -167,7 +172,7 @@ static inline void *_TLS_Copy_and_clear( void *tls_area )
   tls_area = memcpy(
     tls_area,
     _TLS_Data_begin,
-    (size_t) ((uintptr_t)_TLS_Data_size)
+    (size_t) ((uintptr_t)__TLS_Data_size)
   );
 
 
@@ -175,7 +180,7 @@ static inline void *_TLS_Copy_and_clear( void *tls_area )
     (char *) tls_area + (size_t)((intptr_t) _TLS_BSS_begin) -
       (size_t)((intptr_t) _TLS_Data_begin),
     0,
-    ((size_t) (intptr_t)_TLS_BSS_size)
+    ((size_t) (intptr_t)__TLS_BSS_size)
   );
 
   return tls_area;
@@ -223,9 +228,9 @@ static inline void *_TLS_Initialize(
 static inline void *_TLS_TCB_at_area_begin_initialize( void *tls_area )
 {
   void *tls_block = (char *) tls_area
-    + _TLS_Get_thread_control_block_area_size( (uintptr_t) _TLS_Alignment );
+    + _TLS_Get_thread_control_block_area_size( (uintptr_t) __TLS_Alignment );
   TLS_Thread_control_block *tcb = tls_area;
-  uintptr_t aligned_size = _TLS_Heap_align_up( (uintptr_t) _TLS_Size );
+  uintptr_t aligned_size = _TLS_Heap_align_up( (uintptr_t) __TLS_Size );
   TLS_Dynamic_thread_vector *dtv = (TLS_Dynamic_thread_vector *)
     ((char *) tls_block + aligned_size);
 
@@ -246,10 +251,10 @@ static inline void *_TLS_TCB_at_area_begin_initialize( void *tls_area )
 static inline void *_TLS_TCB_before_TLS_block_initialize( void *tls_area )
 {
   void *tls_block = (char *) tls_area
-    + _TLS_Get_thread_control_block_area_size( (uintptr_t) _TLS_Alignment );
+    + _TLS_Get_thread_control_block_area_size( (uintptr_t) __TLS_Alignment );
   TLS_Thread_control_block *tcb = (TLS_Thread_control_block *)
     ((char *) tls_block - sizeof(*tcb));
-  uintptr_t aligned_size = _TLS_Heap_align_up( (uintptr_t) _TLS_Size );
+  uintptr_t aligned_size = _TLS_Heap_align_up( (uintptr_t) __TLS_Size );
   TLS_Dynamic_thread_vector *dtv = (TLS_Dynamic_thread_vector *)
     ((char *) tls_block + aligned_size);
 
@@ -269,8 +274,8 @@ static inline void *_TLS_TCB_before_TLS_block_initialize( void *tls_area )
  */
 static inline void *_TLS_TCB_after_TLS_block_initialize( void *tls_area )
 {
-  uintptr_t size = (uintptr_t) _TLS_Size;
-  uintptr_t tls_align = (uintptr_t) _TLS_Alignment;
+  uintptr_t size = (uintptr_t) __TLS_Size;
+  uintptr_t tls_align = (uintptr_t) __TLS_Alignment;
   uintptr_t tls_mask = tls_align - 1;
   uintptr_t heap_align = _TLS_Heap_align_up( tls_align );
   uintptr_t heap_mask = heap_align - 1;

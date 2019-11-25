@@ -58,7 +58,7 @@ static uintptr_t _Workspace_Space_for_TLS( uintptr_t page_size )
    * determined at application link-time.
    */
   if ( tls_size > 0 ) {
-    uintptr_t tls_align = _TLS_Heap_align_up( (uintptr_t) _TLS_Alignment );
+    uintptr_t tls_align = _TLS_Heap_align_up( (uintptr_t) __TLS_Alignment );
     uintptr_t tls_alloc = _TLS_Get_allocation_size( tls_size, tls_align );
 
     /*

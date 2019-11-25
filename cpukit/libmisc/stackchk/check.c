@@ -60,6 +60,9 @@
 #define BYTE_PATTERN 0xA5
 #define U32_PATTERN 0xA5A5A5A5
 
+extern char _ISR_Stack_size[];
+static long __ISR_Stack_size = (long) &_ISR_Stack_size;
+
 /*
  *  Variable to indicate when the stack checker has been initialized.
  */
@@ -501,7 +504,8 @@ static void Stack_check_Prepare_interrupt_stacks( void )
   uint32_t      cpu_index;
   uint32_t      cpu_max;
 
-  stack.size = rtems_configuration_get_interrupt_stack_size();
+  //stack.size = rtems_configuration_get_interrupt_stack_size();
+  stack.size = __ISR_Stack_size;
   stack.area = _ISR_Stack_area_begin;
   cpu_max = rtems_configuration_get_maximum_processors();
 

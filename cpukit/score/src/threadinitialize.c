@@ -122,7 +122,7 @@ bool _Thread_Initialize(
 
   /* Thread-local storage (TLS) area allocation */
   if ( tls_size > 0 ) {
-    uintptr_t tls_align = _TLS_Heap_align_up( (uintptr_t) _TLS_Alignment );
+    uintptr_t tls_align = _TLS_Heap_align_up( (uintptr_t) __TLS_Alignment );
     uintptr_t tls_alloc = _TLS_Get_allocation_size( tls_size, tls_align );
 
     the_thread->Start.tls_area =

@@ -305,8 +305,12 @@
  *
  * The variable must be simple enough to fit into a register.
  */
-#if defined(__GNUC__)
+/* FIXME: Clang-CHERI can't handle +r (cap) */
+#if defined(__GNUC__) && !defined(__CHERI__)
   #define RTEMS_OBFUSCATE_VARIABLE( _var ) __asm__("" : "+r" (_var))
+#elif defined(__CHERI__)
+  /* X is any reg type */
+  #define RTEMS_OBFUSCATE_VARIABLE( _var ) __asm__("" : "+X" (_var))
 #else
   #define RTEMS_OBFUSCATE_VARIABLE( _var ) (void) (_var)
 #endif

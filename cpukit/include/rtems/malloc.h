@@ -136,8 +136,8 @@ int rtems_memalign(
  */
 void *rtems_heap_allocate_aligned_with_boundary(
   size_t size,
-  uintptr_t alignment,
-  uintptr_t boundary
+  size_t alignment,
+  size_t boundary
 ) RTEMS_MALLOCLIKE RTEMS_ALLOC_SIZE(1) RTEMS_ALLOC_ALIGN(2)
   RTEMS_WARN_UNUSED_RESULT;
 

@@ -77,9 +77,9 @@ void _Malloc_Process_deferred_frees( void )
 }
 
 void *rtems_heap_allocate_aligned_with_boundary(
-  size_t    size,
-  uintptr_t alignment,
-  uintptr_t boundary
+  size_t size,
+  size_t alignment,
+  size_t boundary
 )
 {
   Heap_Control *heap = RTEMS_Malloc_Heap;

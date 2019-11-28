@@ -309,8 +309,9 @@
 #if defined(__GNUC__) && !defined(__CHERI__)
   #define RTEMS_OBFUSCATE_VARIABLE( _var ) __asm__("" : "+r" (_var))
 #elif defined(__CHERI__)
-  /* X is any reg type */
-  #define RTEMS_OBFUSCATE_VARIABLE( _var ) __asm__("" : "+X" (_var))
+  /* FIXME: X is any reg type - See https://github.com/CTSRD-CHERI/llvm-project/issues/355 */
+  //#define RTEMS_OBFUSCATE_VARIABLE( _var ) __asm__("" : "+X" (_var))
+  #define RTEMS_OBFUSCATE_VARIABLE( _var ) (void) (_var)
 #else
   #define RTEMS_OBFUSCATE_VARIABLE( _var ) (void) (_var)
 #endif

@@ -61,7 +61,11 @@ extern "C" {
  *  The following type defines the control block used to manage
  *  object names.
  */
+#ifdef __CHERI__
+typedef struct {
+#else
 typedef union {
+#endif /* __CHERI__ */
   /** This is a pointer to a string name. */
   const char *name_p;
   /** This is the actual 32-bit "raw" integer name. */

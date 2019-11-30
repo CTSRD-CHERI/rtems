@@ -133,6 +133,8 @@ size_t _Record_Stream_header_initialize( Record_Stream_header *header )
   header->format = RTEMS_RECORD_FORMAT_LE_32,
 #elif __INTPTR_WIDTH__ == 64
   header->format = RTEMS_RECORD_FORMAT_LE_64,
+#elif __INTMAX_WIDTH__ == 64 && __CHERI__
+  header->format = RTEMS_RECORD_FORMAT_LE_64,
 #else
 #error "unexpected __INTPTR_WIDTH__"
 #endif

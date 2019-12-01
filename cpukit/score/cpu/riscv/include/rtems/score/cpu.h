@@ -67,13 +67,29 @@ extern "C" {
 
 #if __riscv_xlen == 32
 
+#ifdef __CHERI__
+#if __riscv_clen == 64
+#define CPU_SIZEOF_POINTER 8
+#else
+#error "Unsupported CHERI pointer size"
+#endif /* __riscv_clen */
+#else
 #define CPU_SIZEOF_POINTER 4
+#endif /* __CHERI__ */
 
 #define CPU_STACK_MINIMUM_SIZE 4096
 
 #elif __riscv_xlen == 64
 
+#ifdef __CHERI__
+#if __riscv_clen == 128
+#define CPU_SIZEOF_POINTER 16
+#else
+#error "Unsupported CHERI pointer size"
+#endif /* __riscv_clen */
+#else
 #define CPU_SIZEOF_POINTER 8
+#endif /* __CHERI__ */
 
 #define CPU_STACK_MINIMUM_SIZE 8192
 

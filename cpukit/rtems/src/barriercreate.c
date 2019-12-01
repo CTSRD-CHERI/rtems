@@ -64,7 +64,7 @@ rtems_status_code rtems_barrier_create(
   _Objects_Open(
     &_Barrier_Information,
     &the_barrier->Object,
-    (Objects_Name) name
+    (Objects_Name) {.name_u32 = name}
   );
 
   *id = the_barrier->Object.id;

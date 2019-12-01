@@ -61,7 +61,7 @@ rtems_status_code rtems_rate_monotonic_create(
   _Objects_Open(
     &_Rate_monotonic_Information,
     &the_period->Object,
-    (Objects_Name) name
+    (Objects_Name) {.name_u32 = name}
   );
 
   *id = the_period->Object.id;

@@ -672,7 +672,7 @@ static inline unsigned long _CPU_atomic_Fetch_and_ulong( CPU_atomic_Ulong *obj, 
  *
  * @return The value of @a obj prior to the AND operation with @a arg.
  */
-static inline uintptr_t _CPU_atomic_Fetch_and_uintptr( CPU_atomic_Uintptr *obj, uintptr_t arg, CPU_atomic_Order order )
+static inline uintptr_t _CPU_atomic_Fetch_and_uintptr( CPU_atomic_Uintptr *obj, size_t arg, CPU_atomic_Order order )
 {
 #if defined(_RTEMS_SCORE_CPUSTDATOMIC_USE_ATOMIC)
   return obj->fetch_and( arg, order );

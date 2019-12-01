@@ -249,7 +249,7 @@ rtems_status_code rtems_semaphore_create(
   _Objects_Open(
     &_Semaphore_Information,
     &the_semaphore->Object,
-    (Objects_Name) name
+    (Objects_Name) {.name_u32 = name}
   );
 
   *id = the_semaphore->Object.id;

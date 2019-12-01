@@ -98,7 +98,7 @@ rtems_status_code rtems_partition_create(
   _Objects_Open(
     &_Partition_Information,
     &the_partition->Object,
-    (Objects_Name) name
+    (Objects_Name) {.name_u32 = name}
   );
 
   *id = the_partition->Object.id;

@@ -73,7 +73,7 @@ rtems_status_code rtems_region_create(
         _Objects_Open(
           &_Region_Information,
           &the_region->Object,
-          (Objects_Name) name
+          (Objects_Name) {.name_u32 = name}
         );
 
         *id = the_region->Object.id;

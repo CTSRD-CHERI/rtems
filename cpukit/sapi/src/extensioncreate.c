@@ -50,7 +50,7 @@ rtems_status_code rtems_extension_create(
   _Objects_Open(
     &_Extension_Information,
     &the_extension->Object,
-    (Objects_Name) name
+    (Objects_Name) {.name_u32 = name}
   );
 
   *id = the_extension->Object.id;

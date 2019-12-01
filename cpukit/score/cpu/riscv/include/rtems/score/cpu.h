@@ -70,28 +70,30 @@ extern "C" {
 #ifdef __CHERI__
 #if __riscv_clen == 64
 #define CPU_SIZEOF_POINTER 8
+#define CPU_STACK_MINIMUM_SIZE 4096*2
 #else
 #error "Unsupported CHERI pointer size"
 #endif /* __riscv_clen */
 #else
 #define CPU_SIZEOF_POINTER 4
+#define CPU_STACK_MINIMUM_SIZE 4096
 #endif /* __CHERI__ */
 
-#define CPU_STACK_MINIMUM_SIZE 4096
 
 #elif __riscv_xlen == 64
 
 #ifdef __CHERI__
 #if __riscv_clen == 128
 #define CPU_SIZEOF_POINTER 16
+#define CPU_STACK_MINIMUM_SIZE 8192*2
 #else
 #error "Unsupported CHERI pointer size"
 #endif /* __riscv_clen */
 #else
 #define CPU_SIZEOF_POINTER 8
+#define CPU_STACK_MINIMUM_SIZE 8192
 #endif /* __CHERI__ */
 
-#define CPU_STACK_MINIMUM_SIZE 8192
 
 #endif /* __riscv_xlen */
 

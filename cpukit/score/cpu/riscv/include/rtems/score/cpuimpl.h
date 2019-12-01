@@ -45,13 +45,29 @@
  */
 
 #if defined(__riscv_atomic) && __riscv_xlen == 64
+#if defined(__CHERI__) && __riscv_clen == 128
+#define CPU_PER_CPU_CONTROL_SIZE 80
+#else
 #define CPU_PER_CPU_CONTROL_SIZE 48
+#endif
 #elif defined(__riscv_atomic) && __riscv_xlen == 32
+#if defined(__CHERI__) && __riscv_clen == 64
+#define CPU_PER_CPU_CONTROL_SIZE 56
+#else
 #define CPU_PER_CPU_CONTROL_SIZE 32
+#endif
 #elif __riscv_xlen == 64
+#if defined(__CHERI__) && __riscv_clen == 128
+#define CPU_PER_CPU_CONTROL_SIZE 64
+#else
 #define CPU_PER_CPU_CONTROL_SIZE 32
+#endif
 #elif __riscv_xlen == 32
+#if defined(__CHERI__) && __riscv_clen == 64
+#define CPU_PER_CPU_CONTROL_SIZE 32
+#else
 #define CPU_PER_CPU_CONTROL_SIZE 16
+#endif
 #endif
 
 #ifdef RTEMS_SMP

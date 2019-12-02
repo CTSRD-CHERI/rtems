@@ -70,12 +70,14 @@ extern "C" {
 #ifdef __CHERI__
 #if __riscv_clen == 64
 #define CPU_SIZEOF_POINTER 8
+#define RISCV_CSR_SIZE     4
 #define CPU_STACK_MINIMUM_SIZE 4096*2
 #else
 #error "Unsupported CHERI pointer size"
 #endif /* __riscv_clen */
 #else
 #define CPU_SIZEOF_POINTER 4
+#define RISCV_CSR_SIZE     4
 #define CPU_STACK_MINIMUM_SIZE 4096
 #endif /* __CHERI__ */
 
@@ -85,12 +87,14 @@ extern "C" {
 #ifdef __CHERI__
 #if __riscv_clen == 128
 #define CPU_SIZEOF_POINTER 16
+#define RISCV_CSR_SIZE     8
 #define CPU_STACK_MINIMUM_SIZE 8192*2
 #else
 #error "Unsupported CHERI pointer size"
 #endif /* __riscv_clen */
 #else
 #define CPU_SIZEOF_POINTER 8
+#define RISCV_CSR_SIZE     8
 #define CPU_STACK_MINIMUM_SIZE 8192
 #endif /* __CHERI__ */
 
@@ -107,6 +111,14 @@ extern "C" {
 
 #define CPU_INTERRUPT_STACK_ALIGNMENT CPU_CACHE_LINE_BYTES
 
+#define RISCV_GPR_SIZE CPU_SIZEOF_POINTER
+
+#if __riscv_flen == 32
+#define RISCV_FPR_SIZE 4
+#elif __riscv_flen == 64
+#define RISCV_FPR_SIZE 8
+#endif
+
 /*
  *  Processor defined structures required for cpukit/score.
  */
@@ -119,12 +131,22 @@ typedef float RISCV_Float_Register;
 typedef double RISCV_Float_Register;
 #endif
 
+#ifdef __CHERI__
+#if __riscv_xlen == 32
+typedef uintptr_t RISCV_GPR_Register;
+typedef uint32_t RISCV_CSR_Register;
+#elif __riscv_xlen == 64
+typedef uintptr_t RISCV_GPR_Register;
+typedef uint64_t RISCV_CSR_Register;
+#endif
+#else
 #if __riscv_xlen == 32
 typedef uint32_t RISCV_GPR_Register;
 typedef uint32_t RISCV_CSR_Register;
 #elif __riscv_xlen == 64
 typedef uint64_t RISCV_GPR_Register;
 typedef uint64_t RISCV_CSR_Register;
+#endif
 #endif
 
 typedef struct {

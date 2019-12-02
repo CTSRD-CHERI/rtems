@@ -151,11 +151,11 @@ typedef uint64_t RISCV_CSR_Register;
 
 typedef struct {
 #ifdef RTEMS_SMP
-  volatile uint32_t is_executing;
+  volatile RISCV_GPR_Register is_executing;
 #else
-  uint32_t reserved;
+  RISCV_GPR_Register reserved;
 #endif
-  uint32_t isr_dispatch_disable;
+  RISCV_GPR_Register isr_dispatch_disable;
   RISCV_GPR_Register ra;
   RISCV_GPR_Register sp;
   RISCV_GPR_Register tp;

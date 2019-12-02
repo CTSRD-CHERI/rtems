@@ -28,6 +28,9 @@ extern "C" {
 #elif __SIZEOF_LONG_LONG__ >= __SIZEOF_POINTER__
   typedef long long rtems_rtl_elf_unwind_dw2_sleb128;
   typedef unsigned long long rtems_rtl_elf_unwind_dw2_uleb128;
+#elif defined (__CHERI__)
+  typedef long rtems_rtl_elf_unwind_dw2_sleb128;
+  typedef unsigned long rtems_rtl_elf_unwind_dw2_uleb128;
 #else
   #error No DW2 type available.
 #endif

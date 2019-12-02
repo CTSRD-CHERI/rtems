@@ -64,7 +64,7 @@ riscv_plic_irq_to_cpu[RISCV_MAXIMUM_EXTERNAL_INTERRUPTS];
 
 RTEMS_INTERRUPT_LOCK_DEFINE(static, riscv_plic_lock, "PLIC")
 
-void _RISCV_Interrupt_dispatch(uintptr_t mcause, Per_CPU_Control *cpu_self)
+void _RISCV_Interrupt_dispatch(RISCV_CSR_Register mcause, Per_CPU_Control *cpu_self)
 {
   /*
    * Get rid of the most significant bit which indicates if the exception was

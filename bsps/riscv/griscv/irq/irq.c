@@ -66,7 +66,7 @@ static inline int bsp_irq_cpu(int irq)
 }
 #endif
 
-void _RISCV_Interrupt_dispatch(uintptr_t mcause, Per_CPU_Control *cpu_self)
+void _RISCV_Interrupt_dispatch(RISCV_CSR_Register mcause, Per_CPU_Control *cpu_self)
 {
   if (mcause & 0x80000000) {
 

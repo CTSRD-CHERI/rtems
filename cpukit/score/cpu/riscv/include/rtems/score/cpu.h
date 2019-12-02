@@ -114,9 +114,17 @@ extern "C" {
 #ifndef ASM
 
 #if __riscv_flen == 32
-typedef float RISCV_Float;
+typedef float RISCV_Float_Register;
 #elif __riscv_flen == 64
-typedef double RISCV_Float;
+typedef double RISCV_Float_Register;
+#endif
+
+#if __riscv_xlen == 32
+typedef uint32_t RISCV_GPR_Register;
+typedef uint32_t RISCV_CSR_Register;
+#elif __riscv_xlen == 64
+typedef uint64_t RISCV_GPR_Register;
+typedef uint64_t RISCV_CSR_Register;
 #endif
 
 typedef struct {
@@ -126,35 +134,35 @@ typedef struct {
   uint32_t reserved;
 #endif
   uint32_t isr_dispatch_disable;
-  uintptr_t ra;
-  uintptr_t sp;
-  uintptr_t tp;
-  uintptr_t s0;
-  uintptr_t s1;
-  uintptr_t s2;
-  uintptr_t s3;
-  uintptr_t s4;
-  uintptr_t s5;
-  uintptr_t s6;
-  uintptr_t s7;
-  uintptr_t s8;
-  uintptr_t s9;
-  uintptr_t s10;
-  uintptr_t s11;
+  RISCV_GPR_Register ra;
+  RISCV_GPR_Register sp;
+  RISCV_GPR_Register tp;
+  RISCV_GPR_Register s0;
+  RISCV_GPR_Register s1;
+  RISCV_GPR_Register s2;
+  RISCV_GPR_Register s3;
+  RISCV_GPR_Register s4;
+  RISCV_GPR_Register s5;
+  RISCV_GPR_Register s6;
+  RISCV_GPR_Register s7;
+  RISCV_GPR_Register s8;
+  RISCV_GPR_Register s9;
+  RISCV_GPR_Register s10;
+  RISCV_GPR_Register s11;
 #if __riscv_flen > 0
   uint32_t fcsr;
-  RISCV_Float fs0;
-  RISCV_Float fs1;
-  RISCV_Float fs2;
-  RISCV_Float fs3;
-  RISCV_Float fs4;
-  RISCV_Float fs5;
-  RISCV_Float fs6;
-  RISCV_Float fs7;
-  RISCV_Float fs8;
-  RISCV_Float fs9;
-  RISCV_Float fs10;
-  RISCV_Float fs11;
+  RISCV_Float_Register fs0;
+  RISCV_Float_Register fs1;
+  RISCV_Float_Register fs2;
+  RISCV_Float_Register fs3;
+  RISCV_Float_Register fs4;
+  RISCV_Float_Register fs5;
+  RISCV_Float_Register fs6;
+  RISCV_Float_Register fs7;
+  RISCV_Float_Register fs8;
+  RISCV_Float_Register fs9;
+  RISCV_Float_Register fs10;
+  RISCV_Float_Register fs11;
 #endif
 } Context_Control;
 
@@ -169,7 +177,7 @@ typedef struct {
 
 static inline uint32_t riscv_interrupt_disable( void )
 {
-  unsigned long mstatus;
+  RISCV_CSR_Register mstatus;
 
   __asm__ volatile (
     "csrrc %0, mstatus, " RTEMS_XSTRING( RISCV_MSTATUS_MIE ) :
@@ -281,80 +289,80 @@ typedef enum {
 } RISCV_Exception_code;
 
 typedef struct {
-  uintptr_t mstatus;
-  uintptr_t mepc;
-  uintptr_t a2;
-  uintptr_t s0;
-  uintptr_t s1;
-  uintptr_t ra;
-  uintptr_t a3;
-  uintptr_t a4;
-  uintptr_t a5;
-  uintptr_t a6;
-  uintptr_t a7;
-  uintptr_t t0;
-  uintptr_t t1;
-  uintptr_t t2;
-  uintptr_t t3;
-  uintptr_t t4;
-  uintptr_t t5;
-  uintptr_t t6;
+  RISCV_CSR_Register mstatus;
+  RISCV_CSR_Register mepc;
+  RISCV_GPR_Register a2;
+  RISCV_GPR_Register s0;
+  RISCV_GPR_Register s1;
+  RISCV_GPR_Register ra;
+  RISCV_GPR_Register a3;
+  RISCV_GPR_Register a4;
+  RISCV_GPR_Register a5;
+  RISCV_GPR_Register a6;
+  RISCV_GPR_Register a7;
+  RISCV_GPR_Register t0;
+  RISCV_GPR_Register t1;
+  RISCV_GPR_Register t2;
+  RISCV_GPR_Register t3;
+  RISCV_GPR_Register t4;
+  RISCV_GPR_Register t5;
+  RISCV_GPR_Register t6;
 #if __riscv_flen > 0
   uint32_t fcsr;
-  RISCV_Float ft0;
-  RISCV_Float ft1;
-  RISCV_Float ft2;
-  RISCV_Float ft3;
-  RISCV_Float ft4;
-  RISCV_Float ft5;
-  RISCV_Float ft6;
-  RISCV_Float ft7;
-  RISCV_Float ft8;
-  RISCV_Float ft9;
-  RISCV_Float ft10;
-  RISCV_Float ft11;
-  RISCV_Float fa0;
-  RISCV_Float fa1;
-  RISCV_Float fa2;
-  RISCV_Float fa3;
-  RISCV_Float fa4;
-  RISCV_Float fa5;
-  RISCV_Float fa6;
-  RISCV_Float fa7;
+  RISCV_Float_Register ft0;
+  RISCV_Float_Register ft1;
+  RISCV_Float_Register ft2;
+  RISCV_Float_Register ft3;
+  RISCV_Float_Register ft4;
+  RISCV_Float_Register ft5;
+  RISCV_Float_Register ft6;
+  RISCV_Float_Register ft7;
+  RISCV_Float_Register ft8;
+  RISCV_Float_Register ft9;
+  RISCV_Float_Register ft10;
+  RISCV_Float_Register ft11;
+  RISCV_Float_Register fa0;
+  RISCV_Float_Register fa1;
+  RISCV_Float_Register fa2;
+  RISCV_Float_Register fa3;
+  RISCV_Float_Register fa4;
+  RISCV_Float_Register fa5;
+  RISCV_Float_Register fa6;
+  RISCV_Float_Register fa7;
 #endif
-  uintptr_t a0;
-  uintptr_t a1;
+  RISCV_GPR_Register a0;
+  RISCV_GPR_Register a1;
 } RTEMS_ALIGNED( CPU_STACK_ALIGNMENT ) CPU_Interrupt_frame;
 
 typedef struct {
   CPU_Interrupt_frame Interrupt_frame;
-  uintptr_t mcause;
-  uintptr_t sp;
-  uintptr_t gp;
-  uintptr_t tp;
-  uintptr_t s2;
-  uintptr_t s3;
-  uintptr_t s4;
-  uintptr_t s5;
-  uintptr_t s6;
-  uintptr_t s7;
-  uintptr_t s8;
-  uintptr_t s9;
-  uintptr_t s10;
-  uintptr_t s11;
+  RISCV_CSR_Register mcause;
+  RISCV_GPR_Register sp;
+  RISCV_GPR_Register gp;
+  RISCV_GPR_Register tp;
+  RISCV_GPR_Register s2;
+  RISCV_GPR_Register s3;
+  RISCV_GPR_Register s4;
+  RISCV_GPR_Register s5;
+  RISCV_GPR_Register s6;
+  RISCV_GPR_Register s7;
+  RISCV_GPR_Register s8;
+  RISCV_GPR_Register s9;
+  RISCV_GPR_Register s10;
+  RISCV_GPR_Register s11;
 #if __riscv_flen > 0
-  RISCV_Float fs0;
-  RISCV_Float fs1;
-  RISCV_Float fs2;
-  RISCV_Float fs3;
-  RISCV_Float fs4;
-  RISCV_Float fs5;
-  RISCV_Float fs6;
-  RISCV_Float fs7;
-  RISCV_Float fs8;
-  RISCV_Float fs9;
-  RISCV_Float fs10;
-  RISCV_Float fs11;
+  RISCV_Float_Register fs0;
+  RISCV_Float_Register fs1;
+  RISCV_Float_Register fs2;
+  RISCV_Float_Register fs3;
+  RISCV_Float_Register fs4;
+  RISCV_Float_Register fs5;
+  RISCV_Float_Register fs6;
+  RISCV_Float_Register fs7;
+  RISCV_Float_Register fs8;
+  RISCV_Float_Register fs9;
+  RISCV_Float_Register fs10;
+  RISCV_Float_Register fs11;
 #endif
 } CPU_Exception_frame;
 

@@ -358,7 +358,7 @@ typedef struct {
 struct Per_CPU_Control;
 
 void _RISCV_Interrupt_dispatch(
-  size_t                  mcause,
+  RISCV_CSR_Register      mcause,
   struct Per_CPU_Control *cpu_self
 );
 

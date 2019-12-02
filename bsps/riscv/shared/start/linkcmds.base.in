@@ -165,6 +165,12 @@ SECTIONS {
 		*(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
 		*(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
 	} > REGION_RODATA AT > REGION_RODATA_LOAD
+	.captable : @RISCV_LINKER_ALIGN_DIRECTIVE@ {
+		*(.captable)
+	} > REGION_RODATA AT > REGION_RODATA_LOAD
+	__cap_relocs : @RISCV_LINKER_ALIGN_DIRECTIVE@ {
+		*(__cap_relocs)
+	} > REGION_RODATA AT > REGION_RODATA_LOAD
 	.jcr : @RISCV_LINKER_ALIGN_DIRECTIVE@ {
 		KEEP (*(.jcr))
 	} > REGION_RODATA AT > REGION_RODATA_LOAD
@@ -381,7 +387,6 @@ SECTIONS {
 	.strtab		 0 : { *(.strtab) }
 	.symtab		 0 : { *(.symtab) }
 	.symtab_shndx		 0 : { *(.symtab_shndx) }
-	__cap_relocs		 0 : { *(__cap_relocs) }
 
 	/*
 	 * This is a RTEMS specific section to catch all unexpected input

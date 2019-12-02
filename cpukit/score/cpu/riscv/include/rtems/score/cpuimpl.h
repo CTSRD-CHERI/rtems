@@ -321,7 +321,7 @@ static inline struct Per_CPU_Control *_RISCV_Get_current_per_CPU_control( void )
   struct Per_CPU_Control *cpu_self;
 
 #if __CHERI__
-  unsigned long cpu = (unsigned long) cpu_self;
+  RISCV_CSR_Register cpu = (RISCV_CSR_Register) cpu_self;
   __asm__ volatile ( "csrr %0, mscratch" : "=r" ( cpu ) );
 
   return (Per_CPU_Control *) cpu;

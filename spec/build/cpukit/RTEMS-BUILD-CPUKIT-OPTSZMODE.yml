@@ -9,7 +9,7 @@ default: null
 derived: false
 enabled-by: []
 header: ''
-level: '1.40'
+level: '1.101'
 links: []
 name: __RTEMS_SIZEOF_MODE_T__
 normative: true

@@ -22,7 +22,7 @@ install:
   - cpukit/score/cpu/v850/include/rtems/score/cpuatomic.h
   - cpukit/score/cpu/v850/include/rtems/score/cpuimpl.h
   - cpukit/score/cpu/v850/include/rtems/score/v850.h
-level: 1.34
+level: '1.47'
 links: []
 normative: true
 order: 0

@@ -10,7 +10,7 @@ header: ''
 includes:
 - testsuites/sptests/spintrcritical_support
 ldflags: []
-level: '1.154'
+level: '1.163'
 links: []
 normative: true
 order: 0

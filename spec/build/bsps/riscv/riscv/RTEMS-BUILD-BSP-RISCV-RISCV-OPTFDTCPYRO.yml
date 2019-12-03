@@ -8,7 +8,7 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: 1.8
+level: '1.21'
 links: []
 name: BSP_FDT_BLOB_COPY_TO_READ_ONLY_LOAD_AREA
 normative: true

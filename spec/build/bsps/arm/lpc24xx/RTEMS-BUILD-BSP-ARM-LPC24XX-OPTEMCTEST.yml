@@ -8,7 +8,7 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: 1.8
+level: '1.29'
 links: []
 name: LPC24XX_EMC_TEST
 normative: true

@@ -21,7 +21,7 @@ default-by-variant:
 derived: false
 enabled-by: []
 header: ''
-level: 1.8
+level: '1.45'
 links: []
 name: MPC55XX_REFERENCE_CLOCK
 normative: true

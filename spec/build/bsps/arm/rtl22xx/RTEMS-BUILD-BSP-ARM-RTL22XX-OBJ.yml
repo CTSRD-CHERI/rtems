@@ -20,7 +20,7 @@ install:
   source:
   - bsps/arm/rtl22xx/start/bsp_specs
   - bsps/arm/rtl22xx/start/linkcmds
-level: 1.1
+level: '1.6'
 links: []
 normative: true
 order: 0

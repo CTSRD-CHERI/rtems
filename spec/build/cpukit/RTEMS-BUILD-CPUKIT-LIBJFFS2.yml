@@ -13,7 +13,7 @@ install:
 - destination: ${BSP_INCLUDEDIR}/rtems
   source: cpukit/include/rtems/jffs2.h
 install-path: ${BSP_LIBDIR}
-level: 1.0
+level: '1.52'
 links: []
 normative: true
 order: 0

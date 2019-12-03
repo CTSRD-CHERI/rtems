@@ -9,7 +9,7 @@ derived: false
 format: '{}'
 enabled-by: []
 header: ''
-level: 1.3
+level: '1.38'
 links: []
 name: BSP_PRESS_KEY_FOR_RESET
 normative: true

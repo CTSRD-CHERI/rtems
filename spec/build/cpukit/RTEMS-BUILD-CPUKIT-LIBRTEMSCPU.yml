@@ -456,7 +456,7 @@ install:
   source:
   - cpukit/include/uuid/uuid.h
 install-path: ${BSP_LIBDIR}
-level: 1.6
+level: '1.56'
 links:
 - RTEMS-BUILD-CPUKIT-CPUARM: gHTLjTAlcrz62tV08i7BGMVbbdt6E_dESwezxBhpm_Q=
 - RTEMS-BUILD-CPUKIT-CPUBFIN: dJZozOb8b5mP2KMBC7fNW1kCdsFTiDk0QcxGAd9h2gM=

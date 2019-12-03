@@ -11,7 +11,7 @@ derived: false
 enabled-by:
 - clang
 header: ''
-level: 1.16
+level: '1.22'
 links: []
 name: null
 normative: true

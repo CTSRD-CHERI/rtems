@@ -9,7 +9,7 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: 1.8
+level: '1.21'
 links: []
 name: STM32F4_USART_BAUD
 normative: true

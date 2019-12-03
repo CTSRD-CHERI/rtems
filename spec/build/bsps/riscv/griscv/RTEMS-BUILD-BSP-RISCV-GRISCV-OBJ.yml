@@ -19,7 +19,7 @@ install:
 - destination: ${BSP_LIBDIR}
   source:
   - bsps/riscv/griscv/start/bsp_specs
-level: 1.1
+level: '1.9'
 links: []
 normative: true
 order: 0

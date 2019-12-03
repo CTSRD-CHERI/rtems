@@ -9,7 +9,7 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: 1.8
+level: '1.57'
 links:
 - RTEMS-BUILD-BSP-TSTNOJFFS2: null
 - RTEMS-BUILD-BSP-TSTNOLIBDL: null

@@ -27,7 +27,7 @@ enabled-by:
   - RTEMS_NETWORKING
   - RTEMS_POSIX_API
 header: ''
-level: '1.125'
+level: '1.89'
 links: []
 normative: true
 order: 0

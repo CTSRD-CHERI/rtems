@@ -17,7 +17,7 @@ target: testsuites/ada/ada_sp14.exe
 derived: false
 enabled-by: []
 header: ''
-level: '1.125'
+level: '1.43'
 links: []
 normative: true
 order: 0

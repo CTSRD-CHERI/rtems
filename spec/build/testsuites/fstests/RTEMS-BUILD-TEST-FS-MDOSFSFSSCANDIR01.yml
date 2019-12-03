@@ -10,7 +10,7 @@ header: ''
 includes:
 - testsuites/fstests/mdosfs_support
 ldflags: []
-level: 1.0
+level: '1.42'
 links: []
 normative: true
 order: 0

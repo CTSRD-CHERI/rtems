@@ -11,7 +11,7 @@ default-by-variant:
 derived: false
 enabled-by: []
 header: ''
-level: 1.8
+level: '1.19'
 links: []
 name: MPC5200_BOARD_PM520_CR825
 normative: true

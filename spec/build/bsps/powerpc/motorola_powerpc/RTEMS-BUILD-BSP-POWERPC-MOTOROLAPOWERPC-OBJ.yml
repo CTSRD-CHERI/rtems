@@ -21,7 +21,7 @@ install:
   - bsps/powerpc/motorola_powerpc/start/bsp_specs
   - bsps/powerpc/motorola_powerpc/start/linkcmds
   - bsps/powerpc/shared/start/linkcmds.share
-level: 1.1
+level: '1.11'
 links: []
 normative: true
 order: 0

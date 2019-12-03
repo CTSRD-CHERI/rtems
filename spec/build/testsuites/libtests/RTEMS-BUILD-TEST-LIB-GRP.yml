@@ -11,7 +11,7 @@ includes:
 ldflags:
 - -Wl,--wrap=printf
 - -Wl,--wrap=puts
-level: '1.151'
+level: '1.1'
 links:
 - RTEMS-BUILD-TEST-LIB-OPTBIN2C: null
 - RTEMS-BUILD-TEST-LIB-OPTGZIP: null

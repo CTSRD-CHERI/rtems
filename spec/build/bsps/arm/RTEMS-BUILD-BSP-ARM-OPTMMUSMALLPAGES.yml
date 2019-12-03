@@ -10,7 +10,7 @@ derived: false
 enabled-by: []
 format: '{}'
 header: ''
-level: 1.6
+level: '1.3'
 links: []
 name: ARM_MMU_USE_SMALL_PAGES
 normative: true

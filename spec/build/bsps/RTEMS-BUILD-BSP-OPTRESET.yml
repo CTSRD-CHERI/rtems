@@ -9,7 +9,7 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: 1.3
+level: '1.39'
 links: []
 name: BSP_RESET_BOARD_AT_EXIT
 normative: true

@@ -15,7 +15,7 @@ default:
 derived: false
 enabled-by: []
 header: ''
-level: 1.7
+level: '1.33'
 links: []
 name: OPTIMIZATION_FLAGS
 normative: true

@@ -9,7 +9,7 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: 1.8
+level: '1.20'
 links: []
 name: MPC55XX_CHIP_FAMILY
 normative: true

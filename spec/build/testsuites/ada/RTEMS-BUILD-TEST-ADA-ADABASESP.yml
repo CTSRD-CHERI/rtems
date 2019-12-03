@@ -17,7 +17,7 @@ target: testsuites/ada/ada_base_sp.exe
 derived: false
 enabled-by: []
 header: ''
-level: '1.125'
+level: '1.2'
 links: []
 normative: true
 order: 0

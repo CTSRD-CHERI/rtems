@@ -11,7 +11,7 @@ default-by-variant:
 derived: false
 enabled-by: []
 header: ''
-level: 1.8
+level: '1.42'
 links: []
 name: QORIQ_UART_0_ENABLE
 normative: true

@@ -15,7 +15,7 @@ default-by-variant:
 derived: false
 enabled-by: []
 header: ''
-level: 1.8
+level: '1.18'
 links: []
 name: LM3S69XX_SYSTEM_CLOCK
 normative: true

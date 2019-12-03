@@ -24,7 +24,7 @@ install:
   - bsps/m68k/mcf5235/start/linkcmds
   - bsps/m68k/mcf5235/start/linkcmdsflash
   - bsps/m68k/mcf5235/start/linkcmdsram
-level: 1.0
+level: '1.2'
 links:
 - RTEMS-BUILD-BSP-BSPOPTS: null
 - RTEMS-BUILD-BSP-M68K-GRP: null

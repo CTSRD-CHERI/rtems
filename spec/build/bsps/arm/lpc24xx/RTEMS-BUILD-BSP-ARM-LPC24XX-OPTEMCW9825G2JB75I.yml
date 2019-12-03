@@ -8,7 +8,7 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: 1.8
+level: '1.30'
 links: []
 name: LPC24XX_EMC_W9825G2JB75I
 normative: true

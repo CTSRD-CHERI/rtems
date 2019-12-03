@@ -11,7 +11,7 @@ derived: false
 enabled-by: []
 format: '{:#010x}'
 header: ''
-level: 1.16
+level: '1.18'
 links: []
 name: ZYNQ_RAM_INT_0_LENGTH
 normative: true

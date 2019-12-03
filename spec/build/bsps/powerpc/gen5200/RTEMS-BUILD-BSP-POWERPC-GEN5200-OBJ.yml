@@ -56,7 +56,7 @@ install:
   - bsps/powerpc/gen5200/start/linkcmds.icecube
   - bsps/powerpc/gen5200/start/linkcmds.pm520_cr825
   - bsps/powerpc/gen5200/start/linkcmds.pm520_ze30
-level: 1.1
+level: '1.10'
 links: []
 normative: true
 order: 0

@@ -11,7 +11,7 @@ includes:
 - cpukit/libnetworking
 install: []
 install-path: ${BSP_LIBDIR}
-level: 1.15
+level: '1.54'
 links: []
 normative: true
 order: 0

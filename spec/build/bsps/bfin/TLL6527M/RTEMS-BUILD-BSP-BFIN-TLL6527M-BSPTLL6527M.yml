@@ -22,7 +22,7 @@ install:
   source:
   - bsps/bfin/TLL6527M/start/bsp_specs
   - bsps/bfin/TLL6527M/start/linkcmds
-level: 1.0
+level: '1.2'
 links:
 - RTEMS-BUILD-BSP-BFIN-OBJ: null
 - RTEMS-BUILD-BSP-BFIN-START: null

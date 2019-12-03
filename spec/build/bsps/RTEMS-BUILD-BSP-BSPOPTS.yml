@@ -6,7 +6,7 @@ guard: __BSP_OPTIONS_H
 header: ''
 include-headers: []
 install-path: ${BSP_INCLUDEDIR}
-level: '1.30'
+level: '1.2'
 links:
 - RTEMS-BUILD-BSP-GRPMAKE: null
 - RTEMS-BUILD-BSP-OPTABI: 9S6xLt9NNTeh7TML05T2jYdN5pVs4S6Z-e3mWIjWpCw=

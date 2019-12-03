@@ -9,7 +9,7 @@ default: false
 derived: false
 enabled-by: []
 header: ''
-level: 1.26
+level: '1.87'
 links: []
 name: RTEMS_DRVMGR_STARTUP
 normative: true

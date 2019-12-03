@@ -9,7 +9,7 @@ default: true
 derived: false
 enabled-by: []
 header: ''
-level: 1.22
+level: '1.95'
 links: []
 name: RTEMS_NEWLIB
 normative: true

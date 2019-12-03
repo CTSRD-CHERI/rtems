@@ -9,7 +9,7 @@ header: ''
 includes: []
 install: []
 install-path: ${BSP_LIBDIR}
-level: 1.7
+level: '1.57'
 links: []
 normative: true
 order: 0

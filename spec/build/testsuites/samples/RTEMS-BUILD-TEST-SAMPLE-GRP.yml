@@ -11,7 +11,7 @@ includes:
 ldflags:
 - -Wl,--wrap=printf
 - -Wl,--wrap=puts
-level: '1.16'
+level: '1.1'
 links:
 - RTEMS-BUILD-TEST-SAMPLE-BASEMPNODE1: null
 - RTEMS-BUILD-TEST-SAMPLE-BASEMPNODE2: null

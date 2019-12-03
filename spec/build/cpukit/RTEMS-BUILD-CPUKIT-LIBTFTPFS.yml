@@ -13,7 +13,7 @@ install:
   source:
   - cpukit/include/rtems/tftp.h
 install-path: ${BSP_LIBDIR}
-level: 1.11
+level: '1.60'
 links: []
 normative: true
 order: 0

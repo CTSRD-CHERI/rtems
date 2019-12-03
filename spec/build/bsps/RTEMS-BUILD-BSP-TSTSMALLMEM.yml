@@ -117,7 +117,7 @@ default: null
 derived: false
 enabled-by: []
 header: ''
-level: 1.8
+level: '1.47'
 links:
 - RTEMS-BUILD-BSP-TSTNOICONV: null
 - RTEMS-BUILD-BSP-TSTNOJFFS2: null

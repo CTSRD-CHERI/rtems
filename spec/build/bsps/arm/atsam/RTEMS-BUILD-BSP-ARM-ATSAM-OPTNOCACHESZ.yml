@@ -10,7 +10,7 @@ derived: false
 enabled-by: []
 format: '{:#010x}'
 header: ''
-level: 1.8
+level: '1.12'
 links: []
 name: ATSAM_MEMORY_NOCACHE_SIZE
 normative: true

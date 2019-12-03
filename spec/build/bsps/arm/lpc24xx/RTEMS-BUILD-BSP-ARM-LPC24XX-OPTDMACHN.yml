@@ -15,7 +15,7 @@ default-by-variant:
 derived: false
 enabled-by: []
 header: ''
-level: 1.8
+level: '1.21'
 links: []
 name: LPC_DMA_CHANNEL_COUNT
 normative: true

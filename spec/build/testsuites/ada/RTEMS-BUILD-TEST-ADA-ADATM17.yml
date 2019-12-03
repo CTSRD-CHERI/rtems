@@ -17,7 +17,7 @@ target: testsuites/ada/ada_tm17.exe
 derived: false
 enabled-by: []
 header: ''
-level: '1.125'
+level: '1.72'
 links: []
 normative: true
 order: 0

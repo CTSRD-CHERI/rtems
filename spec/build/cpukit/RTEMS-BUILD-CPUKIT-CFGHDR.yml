@@ -7,7 +7,7 @@ guard: ''
 header: ''
 include-headers:
 - rtems/score/cpu.h
-level: 1.38
+level: '1.12'
 links:
 - RTEMS-BUILD-CPUKIT-CFGSZOFF: VvI04d8mAhoa4F_uUS-lr030o43QtxmTGIAUcvZWvE0=
 - RTEMS-BUILD-CPUKIT-CFGSZSIZE: oN9A8j9x7Ta8BlHQ-LQBCnQBBQq7WvcsNNzEgI4qGzs=

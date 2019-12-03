@@ -13,7 +13,7 @@ install:
   source:
   - cpukit/include/rtems/telnetd.h
 install-path: ${BSP_LIBDIR}
-level: 1.12
+level: '1.59'
 links: []
 normative: true
 order: 0

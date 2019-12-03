@@ -18,7 +18,7 @@ default-by-variant:
 derived: false
 enabled-by: []
 header: ''
-level: 1.8
+level: '1.55'
 links: []
 name: MPC55XX_SYSTEM_CLOCK
 normative: true

@@ -9,7 +9,7 @@ default: false
 derived: false
 enabled-by: []
 header: ''
-level: 1.23
+level: '1.97'
 links: []
 name: RTEMS_POSIX_API
 normative: true

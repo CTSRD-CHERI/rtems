@@ -33,7 +33,7 @@ install:
   source:
   - bsps/i386/pc386/start/bsp_specs
   - bsps/i386/pc386/start/linkcmds
-level: 1.1
+level: '1.16'
 links: []
 normative: true
 order: 0

@@ -47,7 +47,7 @@ derived: false
 enabled-by: []
 format: '{}'
 header: ''
-level: 1.8
+level: '1.6'
 links: []
 name: ATSAM_CHIP
 normative: true

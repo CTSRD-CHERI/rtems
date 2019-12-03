@@ -8,7 +8,7 @@ default: null
 derived: false
 enabled-by: []
 header: ''
-level: 1.63
+level: '1.14'
 links: []
 name: HAVE_MEMORY_H
 normative: true

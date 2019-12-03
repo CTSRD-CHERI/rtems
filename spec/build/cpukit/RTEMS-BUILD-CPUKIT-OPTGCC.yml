@@ -31,7 +31,7 @@ derived: false
 enabled-by:
 - gcc
 header: ''
-level: 1.39
+level: '1.88'
 links: []
 name: GCC
 normative: true

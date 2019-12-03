@@ -11,7 +11,7 @@ install:
 - destination: ${BSP_INCLUDEDIR}/utf8proc
   source:
   - cpukit/include/utf8proc/utf8proc.h
-level: 1.79
+level: '1.80'
 links: []
 normative: true
 order: 0

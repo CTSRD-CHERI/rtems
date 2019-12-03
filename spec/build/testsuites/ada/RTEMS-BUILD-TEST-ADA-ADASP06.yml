@@ -17,7 +17,7 @@ target: testsuites/ada/ada_sp06.exe
 derived: false
 enabled-by: []
 header: ''
-level: '1.125'
+level: '1.36'
 links: []
 normative: true
 order: 0

@@ -9,7 +9,7 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: 1.8
+level: '1.11'
 links: []
 name: RISCV_MAXIMUM_EXTERNAL_INTERRUPTS
 normative: true

@@ -8,7 +8,7 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: 1.8
+level: '1.17'
 links: []
 name: CYCLONE_V_NO_I2C
 normative: true

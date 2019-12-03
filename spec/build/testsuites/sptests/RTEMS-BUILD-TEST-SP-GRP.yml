@@ -11,7 +11,7 @@ includes:
 ldflags:
 - -Wl,--wrap=printf
 - -Wl,--wrap=puts
-level: '1.220'
+level: '1.1'
 links:
 - RTEMS-BUILD-TEST-SP-SP01: null
 - RTEMS-BUILD-TEST-SP-SP02: null

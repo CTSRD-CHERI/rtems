@@ -21,7 +21,7 @@ install:
   - cpukit/score/cpu/moxie/include/rtems/score/cpuatomic.h
   - cpukit/score/cpu/moxie/include/rtems/score/cpuimpl.h
   - cpukit/score/cpu/moxie/include/rtems/score/moxie.h
-level: 1.34
+level: '1.38'
 links: []
 normative: true
 order: 0

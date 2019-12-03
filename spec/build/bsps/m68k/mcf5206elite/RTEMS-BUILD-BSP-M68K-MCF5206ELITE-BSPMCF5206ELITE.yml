@@ -27,7 +27,7 @@ install:
   - bsps/m68k/mcf5206elite/start/gdbinit
   - bsps/m68k/mcf5206elite/start/linkcmds
   - bsps/m68k/mcf5206elite/start/linkcmds.flash
-level: 1.0
+level: '1.2'
 links:
 - RTEMS-BUILD-BSP-BSPOPTS: null
 - RTEMS-BUILD-BSP-M68K-GRP: null

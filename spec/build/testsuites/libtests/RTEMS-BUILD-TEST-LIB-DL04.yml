@@ -35,7 +35,7 @@ enabled-by:
   - not: TEST_DL04_EXCLUDE
   - BUILD_LIBDL
 header: ''
-level: '1.125'
+level: '1.38'
 links: []
 normative: true
 order: 0

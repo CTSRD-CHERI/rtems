@@ -24,7 +24,7 @@ install:
   source:
   - bsps/arm/beagle/start/bsp_specs
   - bsps/arm/beagle/start/linkcmds
-level: 1.1
+level: '1.7'
 links: []
 normative: true
 order: 0

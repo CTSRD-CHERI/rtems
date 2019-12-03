@@ -17,7 +17,7 @@ target: testsuites/ada/ada_sp13.exe
 derived: false
 enabled-by: []
 header: ''
-level: '1.125'
+level: '1.42'
 links: []
 normative: true
 order: 0

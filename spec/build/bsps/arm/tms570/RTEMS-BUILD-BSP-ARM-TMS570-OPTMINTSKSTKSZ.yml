@@ -9,7 +9,7 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: 1.8
+level: '1.12'
 links: []
 name: BSP_MINIMUM_TASK_STACK_SIZE
 normative: true

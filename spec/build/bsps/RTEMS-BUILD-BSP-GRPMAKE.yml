@@ -28,7 +28,7 @@ enabled-by:
 header: ''
 includes: []
 ldflags: []
-level: 1.22
+level: '1.1'
 links:
 - RTEMS-BUILD-BSP-MAKEBSP: null
 - RTEMS-BUILD-BSP-MAKECUSTOM: null

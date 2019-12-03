@@ -43,7 +43,7 @@ install:
   - bsps/arm/lpc24xx/start/linkcmds.lpc24xx_plx800_rom_int
   - bsps/arm/lpc24xx/start/linkcmds.lpc40xx_ea_ram
   - bsps/arm/lpc24xx/start/linkcmds.lpc40xx_ea_rom_int
-level: 1.1
+level: '1.18'
 links: []
 normative: true
 order: 0

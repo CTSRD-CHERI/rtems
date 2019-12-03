@@ -15,7 +15,7 @@ default-by-variant:
 derived: false
 enabled-by: []
 header: ''
-level: 1.8
+level: '1.23'
 links: []
 name: MPC55XX_CLOCK_PIT_CHANNEL
 normative: true

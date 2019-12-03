@@ -12,7 +12,7 @@ default-by-variant:
 derived: false
 enabled-by: []
 header: ''
-level: 1.8
+level: '1.37'
 links: []
 name: QORIQ_MMU_DEVICE_MAS7
 normative: true

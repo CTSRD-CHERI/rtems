@@ -23,7 +23,7 @@ install:
   - bsps/powerpc/shared/start/linkcmds.base
   - bsps/powerpc/tqm8xx/start/bsp_specs
   - bsps/powerpc/tqm8xx/start/linkcmds
-level: 1.1
+level: '1.6'
 links: []
 normative: true
 order: 0

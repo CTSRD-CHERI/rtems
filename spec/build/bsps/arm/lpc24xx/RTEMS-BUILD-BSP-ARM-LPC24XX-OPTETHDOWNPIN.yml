@@ -8,7 +8,7 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: 1.8
+level: '1.31'
 links: []
 name: LPC24XX_PIN_ETHERNET_POWER_DOWN
 normative: true

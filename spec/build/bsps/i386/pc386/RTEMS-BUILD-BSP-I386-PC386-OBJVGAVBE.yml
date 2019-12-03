@@ -11,7 +11,7 @@ enabled-by:
 header: ''
 includes: []
 install: []
-level: 1.0
+level: '1.13'
 links: []
 normative: true
 order: 0

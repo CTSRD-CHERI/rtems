@@ -11,7 +11,7 @@ default-by-variant:
 derived: false
 enabled-by: []
 header: ''
-level: 1.8
+level: '1.44'
 links: []
 name: MPC55XX_BOARD_PHYCORE_MPC5554
 normative: true

@@ -129,7 +129,7 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: 1.8
+level: '1.19'
 links:
 - RTEMS-BUILD-BSP-TSTNORFS: null
 - RTEMS-BUILD-BSP-TSTSMALLMEM: null

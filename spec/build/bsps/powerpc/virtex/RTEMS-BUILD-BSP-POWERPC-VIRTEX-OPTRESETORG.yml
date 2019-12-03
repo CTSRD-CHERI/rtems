@@ -11,7 +11,7 @@ derived: false
 enabled-by: []
 format: '{:#010x}'
 header: ''
-level: 1.4
+level: '1.11'
 links: []
 name: VIRTEX_RESET_ORIGIN
 normative: true

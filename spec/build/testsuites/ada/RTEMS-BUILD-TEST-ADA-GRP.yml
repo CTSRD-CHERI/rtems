@@ -13,7 +13,7 @@ includes: []
 ldflags:
 - -Wl,--wrap=printf
 - -Wl,--wrap=puts
-level: '1.16'
+level: '1.1'
 links:
 - RTEMS-BUILD-TEST-ADA-ADABASESP: null
 - RTEMS-BUILD-TEST-ADA-ADAHELLO: null

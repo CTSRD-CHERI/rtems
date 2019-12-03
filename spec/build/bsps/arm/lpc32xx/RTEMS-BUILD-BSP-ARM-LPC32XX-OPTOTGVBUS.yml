@@ -12,7 +12,7 @@ default-by-variant:
 derived: false
 enabled-by: []
 header: ''
-level: 1.8
+level: '1.18'
 links: []
 name: BSP_USB_OTG_TRANSCEIVER_VBUS
 normative: true

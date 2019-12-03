@@ -32,7 +32,7 @@ install:
   - bsps/arm/lpc32xx/start/linkcmds.lpc32xx_mzx_stage_1
   - bsps/arm/lpc32xx/start/linkcmds.lpc32xx_mzx_stage_2
   - bsps/arm/lpc32xx/start/linkcmds.lpc32xx_phycore
-level: 1.1
+level: '1.8'
 links: []
 normative: true
 order: 0

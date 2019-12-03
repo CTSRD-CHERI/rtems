@@ -8,7 +8,7 @@ default: null
 derived: false
 enabled-by: []
 header: ''
-level: 1.78
+level: '1.8'
 links: []
 name: HAVE_CONFIG_H
 normative: true

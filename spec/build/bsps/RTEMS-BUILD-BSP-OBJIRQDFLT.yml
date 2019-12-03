@@ -8,7 +8,7 @@ enabled-by: []
 header: ''
 includes: []
 install: []
-level: 1.0
+level: '1.11'
 links:
 - RTEMS-BUILD-BSP-OBJIRQ: null
 normative: true

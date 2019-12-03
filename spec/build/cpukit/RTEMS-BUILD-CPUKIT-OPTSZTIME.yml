@@ -9,7 +9,7 @@ default: null
 derived: false
 enabled-by: []
 header: ''
-level: 1.42
+level: '1.103'
 links: []
 name: __RTEMS_SIZEOF_TIME_T__
 normative: true

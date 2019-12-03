@@ -7,7 +7,7 @@ header: ''
 includes:
 - ${BSP_INCLUDES}
 ldflags: []
-level: 1.0
+level: '1.1'
 links:
 - RTEMS-BUILD-TEST-OPTALL: _UzqlO-yFSoQEvrzR5u_qyaNQzbRB54xU2CYZ6tXWj0=
 - RTEMS-BUILD-TEST-OPTADA: 2YwiCqaeLGz8RUW0KocT2D_67AxqeBUN2QSW1zD5r2c=

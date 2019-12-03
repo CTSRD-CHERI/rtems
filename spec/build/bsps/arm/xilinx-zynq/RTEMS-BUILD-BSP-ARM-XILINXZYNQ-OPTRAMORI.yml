@@ -15,7 +15,7 @@ derived: false
 enabled-by: []
 format: '{:#010x}'
 header: ''
-level: 1.13
+level: '1.25'
 links: []
 name: ZYNQ_RAM_ORIGIN
 normative: true

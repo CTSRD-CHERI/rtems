@@ -27,7 +27,7 @@ install:
   - bsps/sparc/leon3/start/linkcmds.ut699
   - bsps/sparc/leon3/start/linkcmds.ut700
   - bsps/sparc/shared/start/linkcmds.base
-level: 1.1
+level: '1.13'
 links: []
 normative: true
 order: 0

@@ -8,7 +8,7 @@ default: null
 derived: false
 enabled-by: []
 header: ''
-level: 1.53
+level: '1.4'
 links: []
 name: HAVE_DECL_PTHREAD_ATTR_GETSTACK
 normative: true

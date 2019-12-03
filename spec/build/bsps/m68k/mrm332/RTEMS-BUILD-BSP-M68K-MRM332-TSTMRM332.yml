@@ -17,7 +17,7 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: 1.8
+level: '1.4'
 links:
 - RTEMS-BUILD-BSP-TSTNOICONV: null
 normative: true

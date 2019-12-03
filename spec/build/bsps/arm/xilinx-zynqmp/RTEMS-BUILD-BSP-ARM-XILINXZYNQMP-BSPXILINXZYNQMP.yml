@@ -20,7 +20,7 @@ install:
 - destination: ${BSP_LIBDIR}
   source:
   - bsps/arm/xilinx-zynqmp/start/bsp_specs
-level: 1.0
+level: '1.2'
 links:
 - RTEMS-BUILD-BSP-ARM-START: null
 - RTEMS-BUILD-BSP-ARM-XILINXZYNQMP-ABI: null

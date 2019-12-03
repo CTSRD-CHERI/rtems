@@ -10,7 +10,7 @@ default:
 derived: false
 enabled-by: []
 header: ''
-level: '1.30'
+level: '1.91'
 links: []
 name: LDFLAGS
 normative: true

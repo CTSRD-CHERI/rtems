@@ -12,7 +12,7 @@ default:
 derived: false
 enabled-by: []
 header: ''
-level: 1.31
+level: '1.108'
 links: []
 name: WARNING_FLAGS
 normative: true

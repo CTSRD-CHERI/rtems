@@ -23,7 +23,7 @@ install:
   - bsps/arm/csb336/start/bsp_specs
   - bsps/arm/csb336/start/linkcmds
   - bsps/arm/csb336/start/linkcmds
-level: 1.0
+level: '1.2'
 links:
 - RTEMS-BUILD-BSP-ARM-CSB336-ABI: null
 - RTEMS-BUILD-BSP-ARM-CSB336-OBJNET: null

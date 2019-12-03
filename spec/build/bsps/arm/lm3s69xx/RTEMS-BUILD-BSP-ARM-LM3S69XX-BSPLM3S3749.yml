@@ -10,7 +10,7 @@ family: lm3s69xx
 header: ''
 includes: []
 install: []
-level: 1.0
+level: '1.3'
 links:
 - RTEMS-BUILD-BSP-ARM-LM3S69XX-GRP: null
 - RTEMS-BUILD-BSP-ARM-LM3S69XX-TSTLM3S3749: null

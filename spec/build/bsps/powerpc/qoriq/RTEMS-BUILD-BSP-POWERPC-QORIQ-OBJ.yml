@@ -36,7 +36,7 @@ install:
   - bsps/powerpc/qoriq/start/linkcmds.qoriq_e6500_32
   - bsps/powerpc/qoriq/start/linkcmds.qoriq_e6500_64
   - bsps/powerpc/shared/start/linkcmds.base
-level: 1.1
+level: '1.10'
 links: []
 normative: true
 order: 0

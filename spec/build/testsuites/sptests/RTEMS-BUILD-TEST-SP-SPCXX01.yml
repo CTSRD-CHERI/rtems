@@ -10,7 +10,7 @@ features: cxx cxxprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.91'
+level: '1.92'
 links: []
 normative: true
 order: 0

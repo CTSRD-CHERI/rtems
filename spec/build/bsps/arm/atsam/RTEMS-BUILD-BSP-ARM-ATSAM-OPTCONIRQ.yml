@@ -8,7 +8,7 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: 1.8
+level: '1.9'
 links: []
 name: ATSAM_CONSOLE_USE_INTERRUPTS
 normative: true

@@ -6,7 +6,7 @@ enabled-by: []
 header: ''
 includes: []
 ldflags: []
-level: 1.22
+level: '1.1'
 links:
 - RTEMS-BUILD-BSP-ARM-START: null
 - RTEMS-BUILD-BSP-ARM-STM32F4-ABI: null

@@ -8,7 +8,7 @@ default: null
 derived: false
 enabled-by: []
 header: ''
-level: 1.47
+level: '1.106'
 links: []
 name: __RTEMS_REVISION__
 normative: true

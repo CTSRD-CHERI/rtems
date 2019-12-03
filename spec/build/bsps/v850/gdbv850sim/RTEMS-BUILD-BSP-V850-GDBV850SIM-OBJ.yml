@@ -20,7 +20,7 @@ install:
   source:
   - bsps/v850/gdbv850sim/start/bsp_specs
   - bsps/v850/gdbv850sim/start/linkcmds
-level: 1.1
+level: '1.9'
 links: []
 normative: true
 order: 0

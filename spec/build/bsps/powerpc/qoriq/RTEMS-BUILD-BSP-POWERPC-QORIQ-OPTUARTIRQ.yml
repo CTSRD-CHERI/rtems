@@ -8,7 +8,7 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: 1.8
+level: '1.49'
 links: []
 name: BSP_USE_UART_INTERRUPTS
 normative: true

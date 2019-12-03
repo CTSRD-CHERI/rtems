@@ -24,7 +24,7 @@ default-by-variant:
 derived: false
 enabled-by: []
 header: ''
-level: 1.8
+level: '1.21'
 links: []
 name: MPC55XX_CHIP_TYPE
 normative: true

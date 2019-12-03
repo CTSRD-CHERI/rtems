@@ -23,7 +23,7 @@ derived: false
 install-path: ${PREFIX}/lib/pkgconfig
 enabled-by: []
 header: ''
-level: 1.3
+level: '1.40'
 links: []
 normative: true
 order: 0

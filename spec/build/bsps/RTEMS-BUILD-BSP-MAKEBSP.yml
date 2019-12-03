@@ -36,7 +36,7 @@ derived: false
 install-path: ${PREFIX}/${ARCH}-rtems${__RTEMS_MAJOR__}/${BSP_NAME}/make
 enabled-by: []
 header: ''
-level: 1.3
+level: '1.4'
 links: []
 normative: true
 order: 0

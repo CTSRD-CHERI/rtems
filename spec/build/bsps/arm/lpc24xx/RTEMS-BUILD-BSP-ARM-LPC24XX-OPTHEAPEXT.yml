@@ -11,7 +11,7 @@ default-by-variant:
 derived: false
 enabled-by: []
 header: ''
-level: 1.8
+level: '1.33'
 links: []
 name: LPC24XX_HEAP_EXTEND
 normative: true

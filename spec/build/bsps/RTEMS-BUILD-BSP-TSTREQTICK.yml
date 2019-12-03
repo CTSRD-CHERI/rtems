@@ -54,7 +54,7 @@ default: null
 derived: false
 enabled-by: []
 header: ''
-level: 1.8
+level: '1.46'
 links: []
 normative: true
 order: 0

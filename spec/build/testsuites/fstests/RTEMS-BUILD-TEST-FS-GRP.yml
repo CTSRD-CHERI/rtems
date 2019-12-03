@@ -12,7 +12,7 @@ includes:
 ldflags:
 - -Wl,--wrap=printf
 - -Wl,--wrap=puts
-level: 1.82
+level: '1.1'
 links:
 - RTEMS-BUILD-TEST-FS-FSBDPART01: XI3scjunt6OmV0ruXumEW8QVPRYoQO84AlCO5HWas5M=
 - RTEMS-BUILD-TEST-FS-FSCLOSE01: pND99ZT2xisy0K3ucoiS_VcNXBnHPwyfUki2hGMFcQ8=

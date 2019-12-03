@@ -9,7 +9,7 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: 1.8
+level: '1.8'
 links: []
 name: CPU_CLOCK_RATE_HZ
 normative: true

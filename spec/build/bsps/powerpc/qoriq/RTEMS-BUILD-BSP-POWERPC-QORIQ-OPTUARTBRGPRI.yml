@@ -9,7 +9,7 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: 1.8
+level: '1.47'
 links: []
 name: QORIQ_UART_BRIDGE_TASK_PRIORITY
 normative: true

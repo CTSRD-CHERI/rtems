@@ -11,7 +11,7 @@ default-by-variant:
 derived: false
 enabled-by: []
 header: ''
-level: 1.8
+level: '1.23'
 links: []
 name: BSP_USB_EHCI_MPC83XX_HAS_ULPI
 normative: true

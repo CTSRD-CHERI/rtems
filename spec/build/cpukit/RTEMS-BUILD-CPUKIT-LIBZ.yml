@@ -13,7 +13,7 @@ install:
   - cpukit/include/zconf.h
   - cpukit/include/zlib.h
 install-path: ${BSP_LIBDIR}
-level: 1.14
+level: '1.61'
 links: []
 normative: true
 order: 0

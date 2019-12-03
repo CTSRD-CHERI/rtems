@@ -6,7 +6,7 @@ enabled-by: []
 header: ''
 includes: []
 ldflags: []
-level: 1.81
+level: '1.1'
 links:
 - RTEMS-BUILD-CPUKIT-CFGHDR: EVlIyT6WpK6MmKFxQIGPP8yRSYz66Hejw4k0a4MKN18=
 - RTEMS-BUILD-CPUKIT-CPUOPTS: WowoUiyajKi009cqCsSUx6oiDxeqkrGCw1lxl3rGUbc=

@@ -11,7 +11,7 @@ default-by-variant:
 derived: false
 enabled-by: []
 header: ''
-level: 1.8
+level: '1.24'
 links: []
 name: LPC24XX_EMC_IS42S32800D7
 normative: true

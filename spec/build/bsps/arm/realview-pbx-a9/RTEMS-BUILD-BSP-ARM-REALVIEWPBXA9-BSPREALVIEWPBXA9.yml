@@ -22,7 +22,7 @@ install:
   source:
   - bsps/arm/realview-pbx-a9/start/bsp_specs
   - bsps/arm/realview-pbx-a9/start/linkcmds.realview_pbx_a9_qemu
-level: 1.0
+level: '1.2'
 links:
 - RTEMS-BUILD-BSP-ARM-REALVIEWPBXA9-ABI: null
 - RTEMS-BUILD-BSP-ARM-REALVIEWPBXA9-OBJSMP: null

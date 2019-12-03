@@ -15,7 +15,7 @@ install:
 - destination: ${BSP_INCLUDEDIR}/libchip
   source:
   - bsps/include/libchip/greth.h
-level: 1.0
+level: '1.14'
 links: []
 normative: true
 order: 0

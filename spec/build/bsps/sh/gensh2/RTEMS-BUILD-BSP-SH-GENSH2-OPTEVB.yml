@@ -8,7 +8,7 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: 1.8
+level: '1.4'
 links: []
 name: STANDALONE_EVB
 normative: true

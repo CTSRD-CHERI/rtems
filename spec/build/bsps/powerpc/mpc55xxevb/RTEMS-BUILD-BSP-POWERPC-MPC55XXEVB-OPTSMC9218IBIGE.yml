@@ -11,7 +11,7 @@ default-by-variant:
 derived: false
 enabled-by: []
 header: ''
-level: 1.8
+level: '1.48'
 links: []
 name: SMSC9218I_BIG_ENDIAN_SUPPORT
 normative: true

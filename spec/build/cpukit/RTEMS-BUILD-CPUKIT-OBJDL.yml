@@ -27,7 +27,7 @@ install:
   - cpukit/include/rtems/rtl/rtl-trace.h
   - cpukit/include/rtems/rtl/rtl-unresolved.h
   - cpukit/include/rtems/rtl/rtl.h
-level: 1.79
+level: '1.71'
 links:
 - RTEMS-BUILD-CPUKIT-OBJDLARM: I-9YGIWsGsfuR0Kw5gMhbmYIALUr4Wf2X-ThoceWJnY=
 - RTEMS-BUILD-CPUKIT-OBJDLI386: cMsU4zK0u2m8iEocLWZdtwQUufqRUjKCQENgCllDVgg=

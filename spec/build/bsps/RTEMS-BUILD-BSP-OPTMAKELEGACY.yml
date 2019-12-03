@@ -8,7 +8,7 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: 1.3
+level: '1.30'
 links: []
 name: INSTALL_LEGACY_MAKEFILES
 normative: true

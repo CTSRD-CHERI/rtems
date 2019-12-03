@@ -19,7 +19,7 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: 1.8
+level: '1.25'
 links: []
 name: NUM_APP_DRV_GDT_DESCRIPTORS
 normative: true

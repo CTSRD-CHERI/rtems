@@ -56,7 +56,7 @@ enabled-by: []
 header: ''
 includes: []
 ldflags: []
-level: 1.22
+level: '1.1'
 links: []
 normative: true
 order: 0

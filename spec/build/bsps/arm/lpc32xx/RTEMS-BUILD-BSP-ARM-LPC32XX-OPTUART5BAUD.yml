@@ -9,7 +9,7 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: 1.8
+level: '1.33'
 links: []
 name: LPC32XX_UART_5_BAUD
 normative: true

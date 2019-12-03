@@ -9,7 +9,7 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: 1.8
+level: '1.46'
 links: []
 name: QORIQ_UART_BRIDGE_MASTER_CORE
 normative: true

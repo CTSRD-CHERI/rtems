@@ -10,7 +10,7 @@ family: riscv
 header: ''
 includes: []
 install: []
-level: 1.0
+level: '1.4'
 links:
 - RTEMS-BUILD-BSP-OPTO2: null
 - RTEMS-BUILD-BSP-RISCV-RISCV-GRP: null

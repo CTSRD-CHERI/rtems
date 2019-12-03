@@ -8,7 +8,7 @@ default: null
 derived: false
 enabled-by: []
 header: ''
-level: 1.48
+level: '1.27'
 links: []
 name: SIZEOF_OFF_T
 normative: true

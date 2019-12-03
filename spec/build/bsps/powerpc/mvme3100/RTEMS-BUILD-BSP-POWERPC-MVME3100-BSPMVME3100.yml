@@ -25,7 +25,7 @@ install:
   - bsps/powerpc/mvme3100/start/bsp_specs
   - bsps/powerpc/mvme3100/start/linkcmds
   - bsps/powerpc/shared/start/linkcmds.share
-level: 1.0
+level: '1.2'
 links:
 - RTEMS-BUILD-BSP-BSPOPTS: null
 - RTEMS-BUILD-BSP-POWERPC-GRP: null

@@ -14,7 +14,7 @@ default-by-variant:
 derived: false
 enabled-by: []
 header: ''
-level: 1.8
+level: '1.16'
 links: []
 name: __ppc_generic
 normative: true

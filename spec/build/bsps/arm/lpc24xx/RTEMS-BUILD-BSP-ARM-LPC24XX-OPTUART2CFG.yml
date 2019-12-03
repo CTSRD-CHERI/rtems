@@ -17,7 +17,7 @@ default-by-variant:
 derived: false
 enabled-by: []
 header: ''
-level: 1.8
+level: '1.43'
 links: []
 name: LPC24XX_CONFIG_UART_2
 normative: true

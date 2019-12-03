@@ -21,7 +21,7 @@ install:
   source:
   - bsps/mips/rbtx4938/start/bsp_specs
   - bsps/mips/rbtx4938/start/linkcmds
-level: 1.0
+level: '1.2'
 links:
 - RTEMS-BUILD-BSP-BSPOPTS: null
 - RTEMS-BUILD-BSP-MIPS-RBTX4938-ABI: null

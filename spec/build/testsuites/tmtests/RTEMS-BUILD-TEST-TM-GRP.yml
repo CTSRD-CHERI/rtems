@@ -12,7 +12,7 @@ includes:
 ldflags:
 - -Wl,--wrap=printf
 - -Wl,--wrap=puts
-level: '1.43'
+level: '1.1'
 links:
 - RTEMS-BUILD-TEST-TM-TM01: null
 - RTEMS-BUILD-TEST-TM-TM02: null

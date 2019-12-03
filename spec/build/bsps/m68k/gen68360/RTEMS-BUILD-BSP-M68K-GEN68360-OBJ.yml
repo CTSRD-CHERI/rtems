@@ -21,7 +21,7 @@ install:
   - bsps/m68k/gen68360/start/linkcmds
   - bsps/m68k/gen68360/start/linkcmds.bootp
   - bsps/m68k/gen68360/start/linkcmds.prom
-level: 1.1
+level: '1.7'
 links: []
 normative: true
 order: 0

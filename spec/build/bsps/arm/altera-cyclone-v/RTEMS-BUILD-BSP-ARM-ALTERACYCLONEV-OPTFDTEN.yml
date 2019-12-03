@@ -8,7 +8,7 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: 1.8
+level: '1.12'
 links: []
 name: BSP_FDT_IS_SUPPORTED
 normative: true

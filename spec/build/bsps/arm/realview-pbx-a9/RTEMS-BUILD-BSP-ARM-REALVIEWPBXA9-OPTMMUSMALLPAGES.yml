@@ -8,7 +8,7 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: 1.8
+level: '1.9'
 links: []
 name: ARM_MMU_USE_SMALL_PAGES
 normative: true

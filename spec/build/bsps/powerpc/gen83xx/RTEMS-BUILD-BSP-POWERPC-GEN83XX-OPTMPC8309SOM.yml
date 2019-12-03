@@ -11,7 +11,7 @@ default-by-variant:
 derived: false
 enabled-by: []
 header: ''
-level: 1.8
+level: '1.15'
 links: []
 name: MPC83XX_BOARD_MPC8309SOM
 normative: true

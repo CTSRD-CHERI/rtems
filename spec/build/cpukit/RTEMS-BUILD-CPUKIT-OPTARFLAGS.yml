@@ -10,7 +10,7 @@ default:
 derived: false
 enabled-by: []
 header: ''
-level: 1.33
+level: '1.82'
 links: []
 name: ARFLAGS
 normative: true

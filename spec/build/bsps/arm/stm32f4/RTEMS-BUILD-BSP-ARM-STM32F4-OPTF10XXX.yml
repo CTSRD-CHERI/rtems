@@ -11,7 +11,7 @@ default-by-variant:
 derived: false
 enabled-by: []
 header: ''
-level: 1.8
+level: '1.14'
 links: []
 name: STM32F4_FAMILY_F10XXX
 normative: true

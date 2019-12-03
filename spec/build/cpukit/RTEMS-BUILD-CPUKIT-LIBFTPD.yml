@@ -12,7 +12,7 @@ install:
   source:
   - cpukit/include/rtems/ftpd.h
 install-path: ${BSP_LIBDIR}
-level: 1.9
+level: '1.50'
 links: []
 normative: true
 order: 0

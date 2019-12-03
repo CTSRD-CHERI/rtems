@@ -8,7 +8,7 @@ default: false
 derived: false
 enabled-by: []
 header: ''
-level: 1.83
+level: '1.3'
 links: []
 name: BUILD_TESTS
 normative: true

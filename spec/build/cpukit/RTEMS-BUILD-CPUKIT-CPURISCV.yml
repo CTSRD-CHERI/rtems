@@ -24,7 +24,7 @@ install:
   - cpukit/score/cpu/riscv/include/rtems/score/cpuimpl.h
   - cpukit/score/cpu/riscv/include/rtems/score/riscv-utility.h
   - cpukit/score/cpu/riscv/include/rtems/score/riscv.h
-level: '1.80'
+level: '1.43'
 links: []
 normative: true
 order: 0

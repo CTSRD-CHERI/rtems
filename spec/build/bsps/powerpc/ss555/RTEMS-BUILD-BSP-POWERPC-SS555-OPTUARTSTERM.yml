@@ -8,7 +8,7 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: 1.8
+level: '1.6'
 links: []
 name: UARTS_USE_TERMIOS
 normative: true

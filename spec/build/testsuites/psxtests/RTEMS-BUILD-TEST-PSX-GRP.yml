@@ -12,7 +12,7 @@ includes:
 ldflags:
 - -Wl,--wrap=printf
 - -Wl,--wrap=puts
-level: '1.109'
+level: '1.1'
 links:
 - RTEMS-BUILD-TEST-PSX-LIBPSXHDRS: null
 - RTEMS-BUILD-TEST-PSX-PSX01: null

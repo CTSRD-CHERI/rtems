@@ -26,7 +26,7 @@ install:
   - cpukit/score/cpu/sparc/include/rtems/score/cpuimpl.h
   - cpukit/score/cpu/sparc/include/rtems/score/sparc.h
   - cpukit/score/cpu/sparc/include/rtems/score/sparcimpl.h
-level: 1.34
+level: '1.46'
 links: []
 normative: true
 order: 0

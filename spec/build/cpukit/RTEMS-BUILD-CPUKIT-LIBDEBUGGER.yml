@@ -9,7 +9,7 @@ header: ''
 includes: []
 install: []
 install-path: ${BSP_LIBDIR}
-level: 1.2
+level: '1.49'
 links:
 - RTEMS-BUILD-CPUKIT-OBJDBGARM: 0Go_qkrm0bqrulsiGjmkVAXYZouAZYblfRJCRDQo5-w=
 - RTEMS-BUILD-CPUKIT-OBJDBGI386: DSvo591FN5vwZQz93QMWTmGbVlXiWSb4OAey9OIDUQg=

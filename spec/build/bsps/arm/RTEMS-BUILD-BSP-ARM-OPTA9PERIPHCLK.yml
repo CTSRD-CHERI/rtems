@@ -17,7 +17,7 @@ derived: false
 enabled-by: []
 format: '{}'
 header: ''
-level: 1.5
+level: '1.2'
 links: []
 name: BSP_ARM_A9MPCORE_PERIPHCLK
 normative: true

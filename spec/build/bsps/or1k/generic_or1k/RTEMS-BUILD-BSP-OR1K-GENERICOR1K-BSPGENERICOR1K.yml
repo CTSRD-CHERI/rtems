@@ -24,7 +24,7 @@ install:
   - bsps/or1k/generic_or1k/start/bsp_specs
   - bsps/or1k/generic_or1k/start/linkcmds
   - bsps/or1k/shared/start/linkcmds.base
-level: 1.0
+level: '1.2'
 links:
 - RTEMS-BUILD-BSP-BSPOPTS: null
 - RTEMS-BUILD-BSP-OR1K-GRP: null

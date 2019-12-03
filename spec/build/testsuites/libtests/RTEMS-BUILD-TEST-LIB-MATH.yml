@@ -10,7 +10,7 @@ header: ''
 includes:
 - testsuites/libtests/math
 ldflags: []
-level: '1.85'
+level: '1.87'
 links: []
 normative: true
 order: 0

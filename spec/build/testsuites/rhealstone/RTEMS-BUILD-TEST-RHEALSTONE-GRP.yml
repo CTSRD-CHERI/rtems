@@ -12,7 +12,7 @@ includes:
 ldflags:
 - -Wl,--wrap=printf
 - -Wl,--wrap=puts
-level: '1.7'
+level: '1.1'
 links:
 - RTEMS-BUILD-TEST-RHEALSTONE-RHDEADLOCKBRK: null
 - RTEMS-BUILD-TEST-RHEALSTONE-RHILATENCY: null

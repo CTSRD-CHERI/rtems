@@ -56,7 +56,7 @@ install:
   source:
   - bsps/include/rtems/zilog/z8036.h
   - bsps/include/rtems/zilog/z8530.h
-level: 1.0
+level: '1.16'
 links:
 - RTEMS-BUILD-BSP-OBJMPCI: null
 - RTEMS-BUILD-BSP-OBJNET: null

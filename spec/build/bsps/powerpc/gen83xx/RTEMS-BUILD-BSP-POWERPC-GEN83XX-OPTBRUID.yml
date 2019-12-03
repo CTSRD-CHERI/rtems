@@ -11,7 +11,7 @@ default-by-variant:
 derived: false
 enabled-by: []
 header: ''
-level: 1.8
+level: '1.10'
 links: []
 name: MPC83XX_BOARD_BR_UID
 normative: true

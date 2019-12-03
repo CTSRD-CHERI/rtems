@@ -10,7 +10,7 @@ family: lm32_evr
 header: ''
 includes: []
 install: []
-level: 1.0
+level: '1.3'
 links:
 - RTEMS-BUILD-BSP-LM32-LM32EVR-GRP: null
 - RTEMS-BUILD-BSP-OPTO2: null

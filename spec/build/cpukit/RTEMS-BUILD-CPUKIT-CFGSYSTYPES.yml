@@ -8,7 +8,7 @@ default: null
 derived: false
 enabled-by: []
 header: ''
-level: 1.75
+level: '1.26'
 links: []
 name: HAVE_SYS_TYPES_H
 normative: true

@@ -8,7 +8,7 @@ default: null
 derived: false
 enabled-by: []
 header: ''
-level: 1.69
+level: '1.22'
 links: []
 name: HAVE_STDLIB_H
 normative: true

@@ -8,7 +8,7 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: 1.8
+level: '1.10'
 links: []
 name: ARM_LPC1768
 normative: true

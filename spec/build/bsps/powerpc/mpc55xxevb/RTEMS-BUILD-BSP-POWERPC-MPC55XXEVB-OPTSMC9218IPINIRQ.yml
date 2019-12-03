@@ -15,7 +15,7 @@ default-by-variant:
 derived: false
 enabled-by: []
 header: ''
-level: 1.8
+level: '1.50'
 links: []
 name: SMSC9218I_IRQ_PIN
 normative: true

@@ -71,7 +71,7 @@ install:
   - bsps/include/grlib/spwcuc.h
   - bsps/include/grlib/spwtdp.h
   - bsps/include/grlib/tlib.h
-level: 1.0
+level: '1.10'
 links:
 - RTEMS-BUILD-BSP-OBJGRLIBNET: null
 - RTEMS-BUILD-BSP-OBJGRLIBNOSMP: null

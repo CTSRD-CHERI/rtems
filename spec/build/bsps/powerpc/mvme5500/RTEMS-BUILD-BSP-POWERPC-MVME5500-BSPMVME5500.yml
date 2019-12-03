@@ -33,7 +33,7 @@ install:
   - bsps/powerpc/mvme5500/start/bsp_specs
   - bsps/powerpc/mvme5500/start/linkcmds
   - bsps/powerpc/shared/start/linkcmds.share
-level: 1.0
+level: '1.2'
 links:
 - RTEMS-BUILD-BSP-BSPOPTS: null
 - RTEMS-BUILD-BSP-POWERPC-GRP: null

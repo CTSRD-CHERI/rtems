@@ -56,7 +56,7 @@ install:
   - bsps/arm/altera-cyclone-v/start/bsp_specs
   - bsps/arm/altera-cyclone-v/start/linkcmds
   - bsps/arm/altera-cyclone-v/start/linkcmds.altcycv
-level: 1.0
+level: '1.2'
 links:
 - RTEMS-BUILD-BSP-ARM-ALTERACYCLONEV-ABI: null
 - RTEMS-BUILD-BSP-ARM-ALTERACYCLONEV-OBJSMP: null

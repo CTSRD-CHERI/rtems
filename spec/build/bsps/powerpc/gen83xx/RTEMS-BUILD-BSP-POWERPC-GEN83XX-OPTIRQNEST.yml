@@ -14,7 +14,7 @@ default-by-variant:
 derived: false
 enabled-by: []
 header: ''
-level: 1.8
+level: '1.14'
 links: []
 name: GEN83XX_ENABLE_INTERRUPT_NESTING
 normative: true

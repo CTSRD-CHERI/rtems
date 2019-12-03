@@ -10,7 +10,7 @@ derived: false
 install-path: ${PREFIX}/make/custom
 enabled-by: []
 header: ''
-level: 1.3
+level: '1.5'
 links: []
 normative: true
 order: 0

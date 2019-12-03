@@ -9,7 +9,7 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: 1.8
+level: '1.12'
 links: []
 name: RTEMS_XPARAMETERS_H
 normative: true

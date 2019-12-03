@@ -15,7 +15,7 @@ default-by-variant:
 derived: false
 enabled-by: []
 header: ''
-level: 1.8
+level: '1.12'
 links: []
 name: CONS_SMC1_MODE
 normative: true

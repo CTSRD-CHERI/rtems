@@ -29,7 +29,7 @@ derived: false
 enabled-by:
 - clang
 header: ''
-level: 1.8
+level: '1.2'
 links: []
 name: ABI_FLAGS
 normative: true

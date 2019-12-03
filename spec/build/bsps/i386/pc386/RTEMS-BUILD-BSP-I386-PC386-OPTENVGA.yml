@@ -9,7 +9,7 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: 1.8
+level: '1.23'
 links: []
 name: BSP_ENABLE_VGA
 normative: true

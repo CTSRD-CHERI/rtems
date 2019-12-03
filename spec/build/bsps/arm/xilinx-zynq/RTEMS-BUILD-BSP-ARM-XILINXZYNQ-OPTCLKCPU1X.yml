@@ -15,7 +15,7 @@ default-by-variant:
 derived: false
 enabled-by: []
 header: ''
-level: 1.8
+level: '1.13'
 links: []
 name: ZYNQ_CLOCK_CPU_1X
 normative: true

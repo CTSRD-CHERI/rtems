@@ -31,7 +31,7 @@ install:
   - bsps/arm/csb337/start/bsp_specs
   - bsps/arm/csb337/start/linkcmds.csb337
   - bsps/arm/csb337/start/linkcmds.csb637
-level: 1.1
+level: '1.10'
 links: []
 normative: true
 order: 0

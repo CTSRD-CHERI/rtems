@@ -11,7 +11,7 @@ default-by-variant:
 derived: false
 enabled-by: []
 header: ''
-level: 1.8
+level: '1.41'
 links: []
 name: MPC55XX_BOARD_MPC5674FEVB
 normative: true

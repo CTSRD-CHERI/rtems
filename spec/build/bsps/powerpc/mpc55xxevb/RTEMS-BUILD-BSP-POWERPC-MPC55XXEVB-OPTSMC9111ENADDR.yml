@@ -11,7 +11,7 @@ default-by-variant:
 derived: false
 enabled-by: []
 header: ''
-level: 1.8
+level: '1.47'
 links: []
 name: SMC91111_ENADDR_IS_SETUP
 normative: true

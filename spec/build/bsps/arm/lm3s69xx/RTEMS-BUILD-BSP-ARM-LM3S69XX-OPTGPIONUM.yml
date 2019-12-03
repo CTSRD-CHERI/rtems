@@ -18,7 +18,7 @@ default-by-variant:
 derived: false
 enabled-by: []
 header: ''
-level: 1.8
+level: '1.12'
 links: []
 name: LM3S69XX_NUM_GPIO_BLOCKS
 normative: true

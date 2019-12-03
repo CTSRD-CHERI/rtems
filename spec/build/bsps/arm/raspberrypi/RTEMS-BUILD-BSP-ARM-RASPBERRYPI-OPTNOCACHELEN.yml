@@ -11,7 +11,7 @@ derived: false
 enabled-by: []
 format: '{:#010x}'
 header: ''
-level: 1.13
+level: '1.11'
 links: []
 name: RPI_RAM_NOCACHE_LENGTH
 normative: true

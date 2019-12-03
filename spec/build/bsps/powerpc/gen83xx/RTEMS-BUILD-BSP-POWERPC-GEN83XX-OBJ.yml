@@ -28,7 +28,7 @@ install:
   - bsps/powerpc/gen83xx/start/linkcmds.mpc8349eamds
   - bsps/powerpc/gen83xx/start/linkcmds.mpc83xx
   - bsps/powerpc/shared/start/linkcmds.base
-level: 1.1
+level: '1.9'
 links: []
 normative: true
 order: 0

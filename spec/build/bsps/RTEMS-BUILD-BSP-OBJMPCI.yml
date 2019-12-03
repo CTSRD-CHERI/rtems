@@ -13,7 +13,7 @@ install:
   source:
   - bsps/include/mpci.h
   - bsps/include/shm_driver.h
-level: 1.0
+level: '1.13'
 links: []
 normative: true
 order: 0

@@ -19,7 +19,7 @@ derived: false
 enabled-by:
 - RTEMS_MULTIPROCESSING
 header: ''
-level: '1.125'
+level: '1.18'
 links: []
 normative: true
 order: 0

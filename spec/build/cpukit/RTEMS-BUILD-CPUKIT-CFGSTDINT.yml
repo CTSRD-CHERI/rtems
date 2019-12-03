@@ -8,7 +8,7 @@ default: null
 derived: false
 enabled-by: []
 header: ''
-level: 1.68
+level: '1.21'
 links: []
 name: HAVE_STDINT_H
 normative: true

@@ -23,7 +23,7 @@ install:
   - bsps/powerpc/psim/start/bsp_specs
   - bsps/powerpc/psim/start/linkcmds
   - bsps/powerpc/shared/start/linkcmds.base
-level: 1.0
+level: '1.2'
 links:
 - RTEMS-BUILD-BSP-BSPOPTS: null
 - RTEMS-BUILD-BSP-POWERPC-GRP: null

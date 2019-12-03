@@ -21,7 +21,7 @@ install:
   - bsps/m68k/genmcf548x/start/linkcmds.COBRA5475
   - bsps/m68k/genmcf548x/start/linkcmds.m5484FireEngine
   - bsps/m68k/genmcf548x/start/linkcmds.m5484FireEngine.flash
-level: 1.1
+level: '1.6'
 links: []
 normative: true
 order: 0

@@ -14,7 +14,7 @@ default:
 derived: false
 enabled-by: []
 header: ''
-level: 1.32
+level: '1.83'
 links: []
 name: CC_WARNING_FLAGS
 normative: true

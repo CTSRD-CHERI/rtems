@@ -22,7 +22,7 @@ install:
   source:
   - bsps/m68k/mrm332/start/bsp_specs
   - bsps/m68k/mrm332/start/linkcmds
-level: 1.0
+level: '1.2'
 links:
 - RTEMS-BUILD-BSP-BSPOPTS: null
 - RTEMS-BUILD-BSP-M68K-GRP: null

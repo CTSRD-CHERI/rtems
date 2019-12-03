@@ -8,7 +8,7 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: 1.8
+level: '1.9'
 links: []
 name: STM32F4_ENABLE_UART_5
 normative: true

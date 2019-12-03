@@ -8,7 +8,7 @@ default: null
 derived: false
 enabled-by: []
 header: ''
-level: 1.62
+level: '1.13'
 links: []
 name: HAVE_INTTYPES_H
 normative: true

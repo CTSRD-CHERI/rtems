@@ -11,7 +11,7 @@ default-by-variant:
 derived: false
 enabled-by: []
 header: ''
-level: 1.8
+level: '1.25'
 links: []
 name: LPC24XX_EMC_M29W160E
 normative: true

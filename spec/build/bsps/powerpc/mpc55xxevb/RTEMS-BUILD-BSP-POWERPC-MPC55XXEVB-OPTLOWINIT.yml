@@ -11,7 +11,7 @@ default-by-variant:
 derived: false
 enabled-by: []
 header: ''
-level: 1.8
+level: '1.38'
 links: []
 name: MPC55XX_NEEDS_LOW_LEVEL_INIT
 normative: true

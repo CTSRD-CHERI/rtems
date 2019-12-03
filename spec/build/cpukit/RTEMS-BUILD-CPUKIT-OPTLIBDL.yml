@@ -15,7 +15,7 @@ enabled-by:
 - powerpc
 - sparc
 header: ''
-level: 1.47
+level: '1.92'
 links: []
 name: BUILD_LIBDL
 normative: true

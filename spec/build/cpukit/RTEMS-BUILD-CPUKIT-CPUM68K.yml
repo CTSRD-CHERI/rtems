@@ -27,7 +27,7 @@ install:
   - cpukit/score/cpu/m68k/include/rtems/score/cpuatomic.h
   - cpukit/score/cpu/m68k/include/rtems/score/cpuimpl.h
   - cpukit/score/cpu/m68k/include/rtems/score/m68k.h
-level: 1.34
+level: '1.36'
 links: []
 normative: true
 order: 0

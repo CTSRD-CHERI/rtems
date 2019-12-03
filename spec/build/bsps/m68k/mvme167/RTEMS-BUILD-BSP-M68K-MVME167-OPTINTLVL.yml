@@ -8,7 +8,7 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: 1.8
+level: '1.5'
 links: []
 name: CD2401_INT_LEVEL
 normative: true

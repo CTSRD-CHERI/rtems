@@ -18,7 +18,7 @@ install:
   - cpukit/score/cpu/sparc64/include/rtems/score/cpuatomic.h
   - cpukit/score/cpu/sparc64/include/rtems/score/cpuimpl.h
   - cpukit/score/cpu/sparc64/include/rtems/score/sparc64.h
-level: 1.34
+level: '1.45'
 links: []
 normative: true
 order: 0

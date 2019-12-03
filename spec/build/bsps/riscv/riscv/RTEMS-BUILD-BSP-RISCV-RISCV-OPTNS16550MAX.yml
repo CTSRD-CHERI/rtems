@@ -12,7 +12,7 @@ default-by-variant:
 derived: false
 enabled-by: []
 header: ''
-level: 1.8
+level: '1.27'
 links: []
 name: RISCV_CONSOLE_MAX_NS16550_DEVICES
 normative: true

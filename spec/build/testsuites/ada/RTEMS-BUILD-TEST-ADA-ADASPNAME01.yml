@@ -18,7 +18,7 @@ derived: false
 enabled-by:
 - RTEMS_POSIX_API
 header: ''
-level: '1.125'
+level: '1.54'
 links: []
 normative: true
 order: 0

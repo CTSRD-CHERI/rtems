@@ -8,7 +8,7 @@ default: null
 derived: false
 enabled-by: []
 header: ''
-level: 1.67
+level: '1.20'
 links: []
 name: HAVE_STDATOMIC_H
 normative: true

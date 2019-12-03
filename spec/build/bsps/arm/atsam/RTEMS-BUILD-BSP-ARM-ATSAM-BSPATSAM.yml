@@ -279,7 +279,7 @@ install:
   - bsps/arm/atsam/start/linkcmds.intsram
   - bsps/arm/atsam/start/linkcmds.qspiflash
   - bsps/arm/atsam/start/linkcmds.sdram
-level: 1.0
+level: '1.2'
 links:
 - RTEMS-BUILD-BSP-ARM-ATSAM-ABI: null
 - RTEMS-BUILD-BSP-ARM-ATSAM-LINKCMDS: null

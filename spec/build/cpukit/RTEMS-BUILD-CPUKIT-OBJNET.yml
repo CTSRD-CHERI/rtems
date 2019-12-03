@@ -146,7 +146,7 @@ install:
   - cpukit/libnetworking/vm/vm_extern.h
   - cpukit/libnetworking/vm/vm_kern.h
   - cpukit/libnetworking/vm/vm_param.h
-level: 1.79
+level: '1.75'
 links: []
 normative: true
 order: 0

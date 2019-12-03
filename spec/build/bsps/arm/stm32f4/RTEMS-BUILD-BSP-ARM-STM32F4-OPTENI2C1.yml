@@ -11,7 +11,7 @@ default-by-variant:
 derived: false
 enabled-by: []
 header: ''
-level: 1.8
+level: '1.6'
 links: []
 name: STM32F4_ENABLE_I2C1
 normative: true

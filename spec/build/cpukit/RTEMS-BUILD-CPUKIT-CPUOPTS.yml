@@ -6,7 +6,7 @@ enabled-by: []
 guard: _RTEMS_SCORE_CPUOPTS_H
 header: ''
 include-headers: []
-level: 1.36
+level: '1.40'
 links:
 - RTEMS-BUILD-CPUKIT-OPTARFLAGS: BfC0jRi7FJEizkg6mtX6B5cQT0IITbOlSFn-OySi-Q0=
 - RTEMS-BUILD-CPUKIT-OPTCCWARNFLAGS: aZsW_Wrlhrfoh1AG8C5oF2nd4vL-38drzZEz5tAaMNY=

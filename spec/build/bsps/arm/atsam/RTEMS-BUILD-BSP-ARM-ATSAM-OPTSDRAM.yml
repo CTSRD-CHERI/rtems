@@ -22,7 +22,7 @@ derived: false
 enabled-by: []
 format: '{}'
 header: ''
-level: 1.8
+level: '1.15'
 links: []
 name: ATSAM_SDRAM
 normative: true

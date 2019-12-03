@@ -11,7 +11,7 @@ default-by-variant:
 derived: false
 enabled-by: []
 header: ''
-level: 1.8
+level: '1.15'
 links: []
 name: LM3S69XX_MCU_LM4F120
 normative: true

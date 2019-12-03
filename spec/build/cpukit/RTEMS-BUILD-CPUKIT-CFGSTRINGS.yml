@@ -8,7 +8,7 @@ default: null
 derived: false
 enabled-by: []
 header: ''
-level: 1.7
+level: '1.23'
 links: []
 name: HAVE_STRINGS_H
 normative: true

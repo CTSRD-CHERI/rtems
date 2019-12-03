@@ -41,7 +41,7 @@ derived: false
 install-path: ${BSP_LIBDIR}
 enabled-by: []
 header: ''
-level: 1.2
+level: '1.3'
 links: []
 normative: true
 order: 1000

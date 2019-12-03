@@ -9,7 +9,7 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: 1.8
+level: '1.35'
 links: []
 name: QORIQ_INTERCOM_AREA_BEGIN
 normative: true

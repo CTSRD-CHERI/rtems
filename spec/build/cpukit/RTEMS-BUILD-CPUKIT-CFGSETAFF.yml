@@ -8,7 +8,7 @@ default: null
 derived: false
 enabled-by: []
 header: ''
-level: 1.59
+level: '1.19'
 links: []
 name: HAVE_DECL_PTHREAD_SETAFFINITY_NP
 normative: true

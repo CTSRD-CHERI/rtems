@@ -10,7 +10,7 @@ default: null
 derived: false
 enabled-by: []
 header: ''
-level: 1.33
+level: '1.18'
 links: []
 name: ASFLAGS
 normative: true

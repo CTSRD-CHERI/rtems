@@ -12,7 +12,7 @@ default-by-variant:
 derived: false
 enabled-by: []
 header: ''
-level: 1.8
+level: '1.22'
 links: []
 name: MPC5200_PSC_INDEX_FOR_GPS_MODULE
 normative: true

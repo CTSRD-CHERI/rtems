@@ -20,7 +20,7 @@ install:
   - bsps/include/libchip/smc91111.h
   - bsps/include/libchip/smc91111exp.h
   - bsps/include/libchip/sonic.h
-level: 1.0
+level: '1.15'
 links: []
 normative: true
 order: 0

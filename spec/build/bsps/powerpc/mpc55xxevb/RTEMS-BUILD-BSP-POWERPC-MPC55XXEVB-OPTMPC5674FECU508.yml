@@ -11,7 +11,7 @@ default-by-variant:
 derived: false
 enabled-by: []
 header: ''
-level: 1.8
+level: '1.40'
 links: []
 name: MPC55XX_BOARD_MPC5674F_ECU508
 normative: true

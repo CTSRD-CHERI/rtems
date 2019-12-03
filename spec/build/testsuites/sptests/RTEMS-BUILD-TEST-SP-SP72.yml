@@ -9,7 +9,7 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.69'
+level: '1.70'
 links: []
 normative: true
 order: 0

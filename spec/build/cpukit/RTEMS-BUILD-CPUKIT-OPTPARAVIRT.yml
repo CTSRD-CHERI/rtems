@@ -9,7 +9,7 @@ default: false
 derived: false
 enabled-by: []
 header: ''
-level: 1.24
+level: '1.96'
 links: []
 name: RTEMS_PARAVIRT
 normative: true

@@ -57,7 +57,7 @@ install:
   - bsps/powerpc/mpc55xxevb/start/linkcmds.mpc5674fevb_spe
   - bsps/powerpc/mpc55xxevb/start/linkcmds.phycore_mpc5554
   - bsps/powerpc/shared/start/linkcmds.base
-level: 1.1
+level: '1.16'
 links: []
 normative: true
 order: 0

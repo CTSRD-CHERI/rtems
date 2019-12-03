@@ -8,7 +8,7 @@ default: null
 derived: false
 enabled-by: []
 header: ''
-level: 1.77
+level: '1.15'
 links: []
 name: HAVE_PTHREAD_MUTEX_GETCEILING_CONST
 normative: true

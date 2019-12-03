@@ -16,7 +16,7 @@ install:
   - cpukit/include/drvmgr/drvmgr_confdefs.h
   - cpukit/include/drvmgr/drvmgr_list.h
   - cpukit/include/drvmgr/pci_bus.h
-level: 1.79
+level: '1.72'
 links: []
 normative: true
 order: 0

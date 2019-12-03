@@ -11,7 +11,7 @@ default-by-variant:
 derived: false
 enabled-by: []
 header: ''
-level: 1.8
+level: '1.26'
 links: []
 name: LPC24XX_EMC_M29W320E70
 normative: true

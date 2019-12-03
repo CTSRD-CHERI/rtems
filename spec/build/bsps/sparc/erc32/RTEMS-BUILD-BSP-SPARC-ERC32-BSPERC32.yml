@@ -23,7 +23,7 @@ install:
   - bsps/sparc/erc32/start/bsp_specs
   - bsps/sparc/erc32/start/linkcmds
   - bsps/sparc/shared/start/linkcmds.base
-level: 1.0
+level: '1.2'
 links:
 - RTEMS-BUILD-BSP-BSPOPTS: null
 - RTEMS-BUILD-BSP-SPARC-GRP: null

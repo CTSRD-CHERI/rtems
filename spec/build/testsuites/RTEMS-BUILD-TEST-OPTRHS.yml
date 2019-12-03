@@ -8,7 +8,7 @@ default: false
 derived: false
 enabled-by: []
 header: ''
-level: 1.83
+level: '1.10'
 links: []
 name: BUILD_RHEALSTONE
 normative: true

@@ -3,9 +3,4 @@ settings:
   parent: RTEMS-BUILD
   prefix: RTEMS-BUILD-TEST
   sep: '-'
-attributes:
-  defaults:
-    build-type: option
-    enabled-by: []
-    order: 0
-    type: build
+attributes: !include ../attributes.inc

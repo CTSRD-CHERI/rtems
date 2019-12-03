@@ -3,9 +3,4 @@ settings:
   parent: RTEMS-BUILD-BSP-SPARC
   prefix: RTEMS-BUILD-BSP-SPARC-LEON3
   sep: '-'
-attributes:
-  defaults:
-    build-type: objects
-    enabled-by: []
-    order: 0
-    type: build
+attributes: !include ../../../attributes.inc

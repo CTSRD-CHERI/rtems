@@ -3,9 +3,4 @@ settings:
   parent: RTEMS-BUILD-BSP-EPIPHANY
   prefix: RTEMS-BUILD-BSP-EPIPHANY-EPIPHANYSIM
   sep: '-'
-attributes:
-  defaults:
-    build-type: objects
-    enabled-by: []
-    order: 0
-    type: build
+attributes: !include ../../../attributes.inc

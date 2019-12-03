@@ -3,9 +3,4 @@ settings:
   parent: RTEMS-BUILD-BSP-POWERPC
   prefix: RTEMS-BUILD-BSP-POWERPC-MVME3100
   sep: '-'
-attributes:
-  defaults:
-    build-type: objects
-    enabled-by: []
-    order: 0
-    type: build
+attributes: !include ../../../attributes.inc

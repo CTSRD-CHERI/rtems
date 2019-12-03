@@ -3,9 +3,4 @@ settings:
   parent: RTEMS-BUILD-BSP-SPARC64
   prefix: RTEMS-BUILD-BSP-SPARC64-USIII
   sep: '-'
-attributes:
-  defaults:
-    build-type: objects
-    enabled-by: []
-    order: 0
-    type: build
+attributes: !include ../../../attributes.inc

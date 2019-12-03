@@ -3,9 +3,4 @@ settings:
   parent: RTEMS-BUILD-BSP-M68K
   prefix: RTEMS-BUILD-BSP-M68K-MCF5206ELITE
   sep: '-'
-attributes:
-  defaults:
-    build-type: objects
-    enabled-by: []
-    order: 0
-    type: build
+attributes: !include ../../../attributes.inc

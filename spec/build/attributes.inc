@@ -1,0 +1,43 @@
+defaults:
+  enabled-by: []
+  order: 0
+  type: build
+reviewed:
+- actions
+- adaflags
+- adaincludes
+- ada-main
+- ada-object-directory
+- arch
+- asflags
+- bsp
+- build-type
+- cflags
+- content
+- cppflags
+- cxxflags
+- default
+- default-by-variant
+- do-build
+- do-configure
+- enabled-by
+- family
+- features
+- format
+- guard
+- include-headers
+- includes
+- install
+- install-path
+- ldflags
+- name
+- order
+- prepare-build
+- prepare-configure
+- source
+- stlib
+- target
+- top-level
+- type
+- use-after
+- use-before

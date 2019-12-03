@@ -3,9 +3,4 @@ settings:
   parent: RTEMS-BUILD-BSP-SH
   prefix: RTEMS-BUILD-BSP-SH-GENSH4
   sep: '-'
-attributes:
-  defaults:
-    build-type: objects
-    enabled-by: []
-    order: 0
-    type: build
+attributes: !include ../../../attributes.inc

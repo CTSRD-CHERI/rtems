@@ -3,9 +3,4 @@ settings:
   parent: RTEMS-BUILD-BSP-ARM
   prefix: RTEMS-BUILD-BSP-ARM-ALTERACYCLONEV
   sep: '-'
-attributes:
-  defaults:
-    build-type: objects
-    enabled-by: []
-    order: 0
-    type: build
+attributes: !include ../../../attributes.inc

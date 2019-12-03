@@ -3,9 +3,4 @@ settings:
   parent: RTEMS-BUILD-BSP
   prefix: RTEMS-BUILD-BSP-NIOS2
   sep: '-'
-attributes:
-  defaults:
-    build-type: objects
-    enabled-by: []
-    order: 0
-    type: build
+attributes: !include ../../attributes.inc

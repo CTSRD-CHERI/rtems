@@ -3,9 +3,4 @@ settings:
   parent: RTEMS-BUILD-BSP-X8664
   prefix: RTEMS-BUILD-BSP-X8664-AMD64
   sep: '-'
-attributes:
-  defaults:
-    build-type: objects
-    enabled-by: []
-    order: 0
-    type: build
+attributes: !include ../../../attributes.inc

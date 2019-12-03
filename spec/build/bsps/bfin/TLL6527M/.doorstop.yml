@@ -3,9 +3,4 @@ settings:
   parent: RTEMS-BUILD-BSP-BFIN
   prefix: RTEMS-BUILD-BSP-BFIN-TLL6527M
   sep: '-'
-attributes:
-  defaults:
-    build-type: objects
-    enabled-by: []
-    order: 0
-    type: build
+attributes: !include ../../../attributes.inc

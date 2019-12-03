@@ -3,9 +3,4 @@ settings:
   parent: RTEMS-BUILD-BSP-V850
   prefix: RTEMS-BUILD-BSP-V850-GDBV850SIM
   sep: '-'
-attributes:
-  defaults:
-    build-type: objects
-    enabled-by: []
-    order: 0
-    type: build
+attributes: !include ../../../attributes.inc

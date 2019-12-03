@@ -3,9 +3,4 @@ settings:
   parent: RTEMS-BUILD-BSP-MOXIE
   prefix: RTEMS-BUILD-BSP-MOXIE-MOXIESIM
   sep: '-'
-attributes:
-  defaults:
-    build-type: objects
-    enabled-by: []
-    order: 0
-    type: build
+attributes: !include ../../../attributes.inc

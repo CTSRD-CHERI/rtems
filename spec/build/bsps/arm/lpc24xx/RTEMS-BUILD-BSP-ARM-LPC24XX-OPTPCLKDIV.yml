@@ -1,7 +1,6 @@
 actions:
 - get-integer: null
 - define: null
-format: '{}'
 active: true
 build-type: option
 default: 1
@@ -14,14 +13,15 @@ default-by-variant:
   - arm/lpc40xx_ea.*
 derived: false
 enabled-by: []
+format: '{}'
 header: ''
-level: '1.37'
+level: 1.37
 links: []
 name: LPC24XX_PCLKDIV
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: JUh6CdV4EPJLCzd5u1W0PDAj1giEJBcVeN5N7iizIJA=
 text: |
   clock divider for default PCLK (PCLK = CCLK / PCLKDIV)
 type: build

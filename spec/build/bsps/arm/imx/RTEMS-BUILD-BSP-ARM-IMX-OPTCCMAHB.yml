@@ -1,21 +1,21 @@
 actions:
 - get-integer: null
 - define: null
-format: '{}'
 active: true
 build-type: option
 default: 135000000
 default-by-variant: []
 derived: false
 enabled-by: []
+format: '{}'
 header: ''
-level: '1.6'
+level: 1.6
 links: []
 name: IMX_CCM_AHB_HZ
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: TtoyqBF8la6Cz_mvT4-P50_sDihyRBK1L_45Jlm_On0=
 text: |
   AHB clock frequency in Hz
 type: build

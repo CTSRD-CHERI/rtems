@@ -33,15 +33,15 @@ content: |
   ##
   HAS_NETWORKING = ${RTEMS_HAS_NETWORKING}
 derived: false
-install-path: ${PREFIX}/${ARCH}-rtems${__RTEMS_MAJOR__}/${BSP_NAME}/make
 enabled-by: []
 header: ''
-level: '1.4'
+install-path: ${PREFIX}/${ARCH}-rtems${__RTEMS_MAJOR__}/${BSP_NAME}/make
+level: 1.4
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: TpCdbz2VC5FRxLRFps15i3OhPZHZgk9sMrE2iiXv6I4=
 target: bsp.cfg
 text: ''
 type: build

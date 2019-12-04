@@ -9,12 +9,12 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.4'
+level: 1.4
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: nsPl27-9OlQcvln-hVbuHdm18FD3FQVo-_Sg0J70j9o=
 source:
 - testsuites/benchmarks/whetstone/init.c
 - testsuites/benchmarks/whetstone/whetstone.c
@@ -23,5 +23,5 @@ stlib:
 target: testsuites/benchmarks/whetstone.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

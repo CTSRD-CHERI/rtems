@@ -10,14 +10,14 @@ family: csb337
 header: ''
 includes: []
 install: []
-level: '1.4'
+level: 1.4
 links:
-- RTEMS-BUILD-BSP-ARM-CSB337-GRP: null
-- RTEMS-BUILD-BSP-OPTO2: null
+- RTEMS-BUILD-BSP-OPTO2: r0q7M48XBHR1ES8QcdIvYFB5cSdkfBWkJTXycbg43og=
+- RTEMS-BUILD-BSP-ARM-CSB337-GRP: 7sYpkFGt4d-AkCwSyQ8jzrOQ7FKKyQ1Hfclp_VIfcB0=
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: GbB1CkD2fX91oxJTMGQgHmVO_sIIc9IvbMnQiDT5Vzg=
 source: []
 text: ''
 type: build

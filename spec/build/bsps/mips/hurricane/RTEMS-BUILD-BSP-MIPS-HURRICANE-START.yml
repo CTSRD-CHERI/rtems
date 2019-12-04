@@ -3,16 +3,16 @@ asflags: []
 build-type: start-file
 cppflags: []
 derived: true
-install-path: ${BSP_LIBDIR}
 enabled-by: []
 header: ''
 includes: []
-level: '1.5'
+install-path: ${BSP_LIBDIR}
+level: 1.5
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: NULL
+reviewed: r6wWuSxO3hG-ouFl4yg-KPsYGpD7OkEZcD5vJQCIznE=
 source:
 - bsps/mips/hurricane/start/start.S
 target: start.o

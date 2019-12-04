@@ -8,13 +8,13 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.8'
+level: 1.8
 links: []
 name: LPC176X_CONFIG_CONSOLE
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: mkg7hl1gCgGctKtCyIVfbK3966oB-hYQeQsOBt-hA_g=
 text: |
   configuration for console (UART 0)
 type: build

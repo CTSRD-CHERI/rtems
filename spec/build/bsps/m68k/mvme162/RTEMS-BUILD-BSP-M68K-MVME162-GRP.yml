@@ -1,28 +1,28 @@
 active: true
 build-type: group
-install: []
 derived: true
 enabled-by: []
 header: ''
 includes: []
+install: []
 ldflags: []
-level: '1.1'
+level: 1.1
 links:
-- RTEMS-BUILD-BSP-BSPOPTS: null
-- RTEMS-BUILD-BSP-M68K-GRP: null
-- RTEMS-BUILD-BSP-M68K-MVME162-ABI: null
-- RTEMS-BUILD-BSP-M68K-MVME162-OBJ: null
-- RTEMS-BUILD-BSP-M68K-MVME162-OBJNET: null
-- RTEMS-BUILD-BSP-M68K-OBJFPSP: null
-- RTEMS-BUILD-BSP-M68K-START: null
-- RTEMS-BUILD-BSP-OBJ: null
-- RTEMS-BUILD-BSP-OBJIRQDFLT: null
+- RTEMS-BUILD-BSP-BSPOPTS: Wm3sxAZgV2qTZy3j7vLFzPcSbrq55VDM052Ocsaid9E=
+- RTEMS-BUILD-BSP-OBJ: tgEqqyPlwgBwG3s7tNDgDZwObWvqNe4c2CTFSuj7X88=
+- RTEMS-BUILD-BSP-OBJIRQDFLT: P_sOhDGyvLSOoeKh2lKXmFA84ufQVtMaSDR9UJ6b0x0=
+- RTEMS-BUILD-BSP-M68K-GRP: JngOc5ZlkrTeFAyso_wsFTHDR2OcBuxVcLq9aF21ikQ=
+- RTEMS-BUILD-BSP-M68K-OBJFPSP: 4gowJeOv_LhbWawGPu7BrSlNmswDNHLZMuQ_rvsECoY=
+- RTEMS-BUILD-BSP-M68K-START: Pdcy-13yGiC3kAd9Gl3a7UUWAJHIJ5WI6sv3mJ7S3Nw=
+- RTEMS-BUILD-BSP-M68K-MVME162-ABI: RSVCwpzZV04Z_v_prj6oZaIg3rKO4hSBbfB31Xzah0w=
+- RTEMS-BUILD-BSP-M68K-MVME162-OBJ: wHRAHsoRmU2_GOgm2P8bHYWo830LhB-ujcLL4U2uLnc=
+- RTEMS-BUILD-BSP-M68K-MVME162-OBJNET: FhrvMuSFq3kJFWT2WpaPT1o75U2Uw2DImBlr64y5NXM=
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: Q27u_fFtCJvVF0_9jhKP0Dxky8-Hj9TRlu0mVWUYnFo=
 text: ''
 top-level: false
 type: build
-use-before: []
 use-after: []
+use-before: []

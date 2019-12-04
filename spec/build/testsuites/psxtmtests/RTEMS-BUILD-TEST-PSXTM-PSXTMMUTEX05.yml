@@ -14,7 +14,7 @@ links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: ySV8dQ5mtUpNdy6tdcX5F75QLtjYZXqABYBfXWCM_eI=
 source:
 - testsuites/psxtmtests/psxtmmutex05/init.c
 - testsuites/support/src/tmtests_empty_function.c
@@ -23,5 +23,5 @@ stlib: []
 target: testsuites/psxtmtests/psxtmmutex05.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

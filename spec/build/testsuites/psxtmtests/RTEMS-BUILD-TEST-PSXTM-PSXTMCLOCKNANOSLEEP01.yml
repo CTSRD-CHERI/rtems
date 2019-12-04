@@ -9,12 +9,12 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.8'
+level: 1.8
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: MJ2SxBe_aWbn71Ae3oeCXJalyKS0s_L3AP92U6hKoDo=
 source:
 - testsuites/psxtmtests/psxtmclocknanosleep01/init.c
 - testsuites/support/src/tmtests_empty_function.c
@@ -23,5 +23,5 @@ stlib: []
 target: testsuites/psxtmtests/psxtmclocknanosleep01.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

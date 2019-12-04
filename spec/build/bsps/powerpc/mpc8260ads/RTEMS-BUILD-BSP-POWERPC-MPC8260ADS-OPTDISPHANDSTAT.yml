@@ -8,13 +8,13 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.5'
+level: 1.5
 links: []
 name: DISPATCH_HANDLER_STAT
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: Pjb1n7n4XG65VQQIqpf2HzG5wy05hvbtSgUt7BzHrUU=
 text: |
   used by irq/irq.c
 type: build

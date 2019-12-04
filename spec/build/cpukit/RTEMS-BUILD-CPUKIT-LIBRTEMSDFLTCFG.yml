@@ -9,12 +9,12 @@ header: ''
 includes: []
 install: []
 install-path: ${BSP_LIBDIR}
-level: '1.57'
+level: 1.57
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: 7QQX1d3H1cUW8zCgDtNsA9Isc0_fL5-5TijmJnde6QA=
+reviewed: mMDacNoZThpYly7rJar0VekwIRIuIaKEFBHFpMP6m0s=
 source:
 - cpukit/libmisc/dummy/default-configuration.c
 target: rtemsdefaultconfig

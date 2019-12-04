@@ -8,13 +8,13 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.12'
+level: 1.12
 links: []
 name: ARM_GENERIC_TIMER_USE_VIRTUAL
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: 5x8uigvOV-p_cvM3gocpQ-210HidvxFVMEJk4oE4riQ=
 text: |
   Use virtual ARM generic timer
 type: build

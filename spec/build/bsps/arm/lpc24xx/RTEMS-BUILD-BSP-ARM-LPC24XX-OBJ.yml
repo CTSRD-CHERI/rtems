@@ -43,12 +43,12 @@ install:
   - bsps/arm/lpc24xx/start/linkcmds.lpc24xx_plx800_rom_int
   - bsps/arm/lpc24xx/start/linkcmds.lpc40xx_ea_ram
   - bsps/arm/lpc24xx/start/linkcmds.lpc40xx_ea_rom_int
-level: '1.18'
+level: 1.18
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: pJK2-bkbb2oH30vAzHjZyO41qSbUTdzVi4VJENngo_I=
 source:
 - bsps/arm/lpc24xx/console/console-config.c
 - bsps/arm/lpc24xx/console/uart-probe-1.c

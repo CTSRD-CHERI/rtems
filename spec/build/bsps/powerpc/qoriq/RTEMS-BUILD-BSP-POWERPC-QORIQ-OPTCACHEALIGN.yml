@@ -1,24 +1,24 @@
 actions:
 - get-integer: null
 - define: null
-format: '{}'
 active: true
 build-type: option
-default: 
+default: null
 default-by-variant:
 - value: 64
   variants:
   - powerpc/qoriq_e6500.*
 derived: false
 enabled-by: []
+format: '{}'
 header: ''
-level: '1.13'
+level: 1.13
 links: []
 name: PPC_CACHE_ALIGNMENT
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: -6qRAwEj_ebMIJt6c9EUD0xpy3A6P9N_A_Io_Gc-iss=
 text: |
   the cache alignment
 type: build

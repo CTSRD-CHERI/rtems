@@ -11,13 +11,13 @@ default-by-variant:
 derived: false
 enabled-by: []
 header: ''
-level: '1.17'
+level: 1.17
 links: []
 name: MPC83XX_BOARD_MPC8349EAMDS
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: RtnU9TJTlXSe_f3lLyO7k2TIxxFsl37kIyhR2BC9C4A=
 text: |
   if defined, then use settings for the MPC8349EAMDS board
 type: build

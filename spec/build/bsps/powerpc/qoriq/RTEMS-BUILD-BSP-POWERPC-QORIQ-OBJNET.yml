@@ -10,12 +10,12 @@ header: ''
 includes:
 - cpukit/libnetworking
 install: []
-level: '1.8'
+level: 1.8
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: NJdmcaFCjLP4-5vp66QZ7zWjW8BWU9zpk1fCPMWul4Q=
 source:
 - bsps/powerpc/qoriq/net/if_intercom.c
 - bsps/powerpc/qoriq/net/network.c

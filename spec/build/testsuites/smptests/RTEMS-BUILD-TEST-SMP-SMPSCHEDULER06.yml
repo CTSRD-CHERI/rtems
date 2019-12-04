@@ -10,12 +10,12 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.52'
+level: 1.52
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: aZt4KvTdrK1JOX39iSsmqIojtcC-OyTEAE08838z2uQ=
 source:
 - testsuites/smptests/smpscheduler06/init.c
 - testsuites/smptests/smpscheduler03/test.c
@@ -23,5 +23,5 @@ stlib: []
 target: testsuites/smptests/smpscheduler06.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

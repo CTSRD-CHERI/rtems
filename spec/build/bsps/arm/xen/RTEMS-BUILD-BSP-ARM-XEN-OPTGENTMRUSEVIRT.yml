@@ -14,7 +14,7 @@ name: ARM_GENERIC_TIMER_USE_VIRTUAL
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: f0ESTc_Eq6Ur2mY-0idQr6ltdLT4EpBBh9i60_8nSDg=
 text: |
   use virtual ARM generic timer
 type: build

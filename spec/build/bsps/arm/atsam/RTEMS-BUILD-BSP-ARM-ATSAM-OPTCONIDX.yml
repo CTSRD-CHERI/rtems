@@ -8,13 +8,13 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.8'
+level: 1.8
 links: []
 name: ATSAM_CONSOLE_DEVICE_INDEX
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: V_lXgTHu9ENm20RH0RV3mCsoB21wtDLniLQOti05xlw=
 text: |
   device index for /dev/console (default 1, e.g. USART1)
 type: build

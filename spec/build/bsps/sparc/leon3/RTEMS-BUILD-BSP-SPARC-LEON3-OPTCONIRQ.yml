@@ -1,21 +1,21 @@
 actions:
 - get-integer: null
 - define: null
-format: '{}'
 active: true
 build-type: option
 default: 0
 default-by-variant: []
 derived: false
 enabled-by: []
+format: '{}'
 header: ''
-level: '1.14'
+level: 1.14
 links: []
 name: CONSOLE_USE_INTERRUPTS
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: csSxJWkwmiz1YnPvWpF-uXY4e41WabFaToYZyohFvD4=
 text: |
   The leon3 console driver can operate in either polled or interrupt mode.  Under the simulator (especially when FAST_UART is defined), polled seems to operate better.
 type: build

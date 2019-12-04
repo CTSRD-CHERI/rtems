@@ -1,7 +1,6 @@
 actions:
 - get-integer: null
 - define: null
-format: '{}'
 active: true
 build-type: option
 default: 2
@@ -11,14 +10,15 @@ default-by-variant:
   - powerpc/qoriq_e6500.*
 derived: false
 enabled-by: []
+format: '{}'
 header: ''
-level: '1.24'
+level: 1.24
 links: []
 name: QORIQ_CPU_COUNT
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: jXwXnxWzECIgPjPSd7SA9P2Q8pWCuZVnV1YTsWfLXig=
 text: |
   maximum virtual processor count
 type: build

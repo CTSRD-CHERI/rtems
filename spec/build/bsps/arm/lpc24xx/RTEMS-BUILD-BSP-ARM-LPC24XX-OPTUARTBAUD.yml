@@ -1,21 +1,21 @@
 actions:
 - get-integer: null
 - define: null
-format: '{}'
 active: true
 build-type: option
 default: 115200
 default-by-variant: []
 derived: false
 enabled-by: []
+format: '{}'
 header: ''
-level: '1.45'
+level: 1.45
 links: []
 name: LPC24XX_UART_BAUD
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: 6BT1dqYzoXQJb3yn8UXHZIwMT4Cep1Dap9_7_TGa7pw=
 text: |
   baud for UARTs
 type: build

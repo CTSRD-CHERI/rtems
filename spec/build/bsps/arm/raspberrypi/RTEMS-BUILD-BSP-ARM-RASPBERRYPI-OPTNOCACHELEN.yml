@@ -11,12 +11,13 @@ derived: false
 enabled-by: []
 format: '{:#010x}'
 header: ''
-level: '1.11'
+level: 1.11
 links: []
 name: RPI_RAM_NOCACHE_LENGTH
 normative: true
 order: 0
 ref: ''
-reviewed: cY6hpjtgQc-x3ujVWnNcTt4FzWMmThc_StP5OEAMAR4=
-text: 'No-cache region length'
+reviewed: _cHMvMVW0xrarGUv8Pve_aW1bmegSpxlIiSkZctfk58=
+text: |
+  No-cache region length
 type: build

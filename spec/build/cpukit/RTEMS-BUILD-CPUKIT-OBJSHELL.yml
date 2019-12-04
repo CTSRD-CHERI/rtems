@@ -8,12 +8,12 @@ enabled-by: []
 header: ''
 includes: []
 install: []
-level: '1.78'
+level: 1.78
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: bzh61zij5iPE-RI7os3fvHNQOSseHC7SMaMh2AmrnJE=
+reviewed: PvLE3q67BtQo0ssCRgz0WBB4lv5upos1nag2BshtUOY=
 source:
 - cpukit/libmisc/shell/cat_file.c
 - cpukit/libmisc/shell/cmds.c

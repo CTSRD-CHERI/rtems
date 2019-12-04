@@ -9,12 +9,12 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.31'
+level: 1.31
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: 26Q-jje1W-f9A53DMnL-eOvk1sSpum-yDpc29ecv6yc=
 source:
 - testsuites/sptests/sp31/delay.c
 - testsuites/sptests/sp31/init.c
@@ -24,5 +24,5 @@ stlib: []
 target: testsuites/sptests/sp31.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

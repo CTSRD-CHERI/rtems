@@ -15,12 +15,12 @@ links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: 52qmTh7w2EHptuzbXOG7pvCsvXj5mkxwIPOUUbjPX3U=
 source:
 - testsuites/smptests/smpmutex01/init.c
 stlib: []
 target: testsuites/smptests/smpmutex01.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

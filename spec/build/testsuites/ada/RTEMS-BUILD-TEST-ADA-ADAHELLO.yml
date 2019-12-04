@@ -1,29 +1,29 @@
 active: true
-build-type: ada-test-program
+ada-main: testsuites/ada/samples/hello/hello.adb
+ada-object-directory: testsuites/ada/samples/hello
 adaflags: []
-cflags: []
-cppflags: []
-includes: []
 adaincludes:
 - cpukit/include/adainclude
 - testsuites/ada/support
-ldflags: []
-stlib: []
-ada-object-directory: testsuites/ada/samples/hello
-source:
-- testsuites/ada/samples/hello/init.c
-ada-main: testsuites/ada/samples/hello/hello.adb
-target: testsuites/ada/ada_hello.exe
+build-type: ada-test-program
+cflags: []
+cppflags: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.3'
+includes: []
+ldflags: []
+level: 1.3
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: bmsTE3Hu8OsqQlwUeMvwloGNv9MwHUZiOVB0_l9wmDo=
+source:
+- testsuites/ada/samples/hello/init.c
+stlib: []
+target: testsuites/ada/ada_hello.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

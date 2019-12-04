@@ -11,12 +11,12 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.27'
+level: 1.27
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: 0rmHWvgwSJIdJth3y3o13s9KXE8lrIDeC2Y3wko_uBI=
 source:
 - testsuites/libtests/debugger01/init.c
 - testsuites/libtests/debugger01/remote.c
@@ -24,6 +24,6 @@ stlib: []
 target: testsuites/libtests/debugger01.exe
 text: ''
 type: build
-use-before: []
 use-after:
 - debugger
+use-before: []

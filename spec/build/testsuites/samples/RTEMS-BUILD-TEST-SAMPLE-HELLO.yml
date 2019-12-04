@@ -9,17 +9,17 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.8'
+level: 1.8
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: wNauMMNhN4SQ2teHSSnb7n_b9DmjM0tDBDrD6Kx43iI=
 source:
 - testsuites/samples/hello/init.c
 stlib: []
 target: testsuites/samples/hello.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

@@ -1,5 +1,9 @@
 active: true
 build-type: group
+derived: true
+enabled-by: []
+header: ''
+includes: []
 install:
 - destination: ${BSP_INCLUDEDIR}
   source:
@@ -35,19 +39,15 @@ install:
   - bsps/bfin/include/libcpu/uart.h
   - bsps/bfin/include/libcpu/uartRegs.h
   - bsps/bfin/include/libcpu/wdogRegs.h
-derived: true
-enabled-by: []
-header: ''
-includes: []
 ldflags: []
-level: '1.1'
+level: 1.1
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: dwbn7rrUkXRungLtwp8SP9KLTGY_K65Y6pPDS7s9xxQ=
 text: ''
 top-level: false
 type: build
-use-before: []
 use-after: []
+use-before: []

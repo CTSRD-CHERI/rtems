@@ -3,15 +3,7 @@ build-type: script
 cflags: []
 cppflags: []
 cxxflags: []
-ldflags: []
-stlib: []
-use-before: []
-use-after: []
-includes:
-- testsuites/libtests/dl04
-prepare-configure: null
-prepare-build: null
-do-configure: null
+derived: false
 do-build: |
   path = "testsuites/libtests/dl04/"
   objs = []
@@ -29,17 +21,25 @@ do-build: |
   objs.append(dl04_sym_o)
   self.rtems_syms(bld, dl04_pre, dl04_sym_o)
   self.link_cc(bld, bic, objs, "testsuites/libtests/dl04.exe")
-derived: false
+do-configure: null
 enabled-by:
 - and:
   - not: TEST_DL04_EXCLUDE
   - BUILD_LIBDL
 header: ''
-level: '1.38'
+includes:
+- testsuites/libtests/dl04
+ldflags: []
+level: 1.38
 links: []
 normative: true
 order: 0
+prepare-build: null
+prepare-configure: null
 ref: ''
-reviewed: null
+reviewed: YoEbo0abZYwIy_RkF7hGxge8KO2egsn4pvVlyLrM7VY=
+stlib: []
 text: ''
 type: build
+use-after: []
+use-before: []

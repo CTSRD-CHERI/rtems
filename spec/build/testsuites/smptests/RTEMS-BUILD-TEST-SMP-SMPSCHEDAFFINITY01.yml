@@ -10,17 +10,17 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.37'
+level: 1.37
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: oXe0NzJaBt8Iq78GhIw9Rcclci41g1z3MG28VPP3xUU=
 source:
 - testsuites/smptests/smpschedaffinity01/init.c
 stlib: []
 target: testsuites/smptests/smpschedaffinity01.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

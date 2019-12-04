@@ -9,12 +9,12 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.67'
+level: 1.67
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: pZ9s8ST9vKKYt7RLWqHG5uf3FuAG7N31LCJ1zxMpPdA=
 source:
 - testsuites/sptests/sp69/init.c
 - testsuites/support/src/spin.c
@@ -22,5 +22,5 @@ stlib: []
 target: testsuites/sptests/sp69.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

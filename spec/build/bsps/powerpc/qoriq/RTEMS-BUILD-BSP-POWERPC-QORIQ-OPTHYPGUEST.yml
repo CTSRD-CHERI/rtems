@@ -8,13 +8,13 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.33'
+level: 1.33
 links: []
 name: QORIQ_IS_HYPERVISOR_GUEST
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: oaqyO1elzLKJ6WdJLjOjZYuCf2j40nf6DnKtk5Y-uWE=
 text: |
   defined if we are a hypervisor guest
 type: build

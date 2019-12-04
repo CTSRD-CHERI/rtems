@@ -11,13 +11,13 @@ default-by-variant:
 derived: false
 enabled-by: []
 header: ''
-level: '1.42'
+level: 1.42
 links: []
 name: MPC55XX_BOARD_MPC5674F_RSM6
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: YtdSzjWjZR6Wz63IgoTogEHfLcQyhLf1g5oYwZN-NpA=
 text: |
   if defined, use custom settings for RSM6 board
 type: build

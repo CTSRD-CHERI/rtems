@@ -10,13 +10,13 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.1'
+level: 1.1
 links: []
 name: ABI_FLAGS
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: b9MsTKDGkTQusYd3LucxrAB4DsKr7IkGStoE3jTxxMU=
 text: |
   ABI flags
 type: build

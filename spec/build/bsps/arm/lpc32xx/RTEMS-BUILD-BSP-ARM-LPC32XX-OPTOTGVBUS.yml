@@ -1,7 +1,6 @@
 actions:
 - get-string: null
 - define-unquoted: null
-format: '{}'
 active: true
 build-type: option
 default: false
@@ -11,14 +10,15 @@ default-by-variant:
   - arm/lpc32xx_mzx.*
 derived: false
 enabled-by: []
+format: '{}'
 header: ''
-level: '1.18'
+level: 1.18
 links: []
 name: BSP_USB_OTG_TRANSCEIVER_VBUS
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: fpDigQ2LOA54vFfwHsziUaU673igBV-SBtuKxomoGCs=
 text: |
   USB OTG transceiver VBUS policy
 type: build

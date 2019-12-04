@@ -22,20 +22,20 @@ install:
   - bsps/sparc64/shared/start/linkcmds
   - bsps/sparc64/shared/start/linkcmds
   - bsps/sparc64/usiii/start/bsp_specs
-level: '1.2'
+level: 1.2
 links:
-- RTEMS-BUILD-BSP-BSPOPTS: null
-- RTEMS-BUILD-BSP-SPARC64-GRP: null
-- RTEMS-BUILD-BSP-OBJ: null
-- RTEMS-BUILD-BSP-OBJIRQDFLT: null
-- RTEMS-BUILD-BSP-OPTO2: null
-- RTEMS-BUILD-BSP-SPARC64-START: null
-- RTEMS-BUILD-BSP-SPARC64-USIII-ABI: null
-- RTEMS-BUILD-BSP-SPARC64-USIII-OPTCLKFASTIDLE: null
+- RTEMS-BUILD-BSP-BSPOPTS: Wm3sxAZgV2qTZy3j7vLFzPcSbrq55VDM052Ocsaid9E=
+- RTEMS-BUILD-BSP-OBJ: tgEqqyPlwgBwG3s7tNDgDZwObWvqNe4c2CTFSuj7X88=
+- RTEMS-BUILD-BSP-OBJIRQDFLT: P_sOhDGyvLSOoeKh2lKXmFA84ufQVtMaSDR9UJ6b0x0=
+- RTEMS-BUILD-BSP-OPTO2: r0q7M48XBHR1ES8QcdIvYFB5cSdkfBWkJTXycbg43og=
+- RTEMS-BUILD-BSP-SPARC64-GRP: 2gVDPIJj-P4u0UsqKoVfAxvvjcWg_xDTVwDj5-nhub0=
+- RTEMS-BUILD-BSP-SPARC64-START: KA4FcMjLLvjqaGtVTI_gf2Ls85ZMsGABj7qguNsLY3E=
+- RTEMS-BUILD-BSP-SPARC64-USIII-ABI: LvxquxkBKXHi_Q300QXRwO6ox9MYzKSgtkW-PEHQjOw=
+- RTEMS-BUILD-BSP-SPARC64-USIII-OPTCLKFASTIDLE: qmtkBsIryRt6CQj4w8sHsSV7H0nQ0pPM3H6mYc7fT1Q=
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: NcP1AYVwZooC7OXonj_SysUJ8Dol28_95xxSYk4825I=
 source:
 - bsps/shared/cache/nocache.c
 - bsps/shared/dev/btimer/btimer-stub.c

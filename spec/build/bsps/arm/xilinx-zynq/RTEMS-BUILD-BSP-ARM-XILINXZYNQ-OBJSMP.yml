@@ -9,12 +9,12 @@ enabled-by:
 header: ''
 includes: []
 install: []
-level: '1.8'
+level: 1.8
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: DOSdoUhq1Dn3KhNsEViYYstnAK-q-nBdaO3G_sjUYS8=
 source:
 - bsps/arm/shared/start/arm-a9mpcore-smp.c
 - bsps/arm/xilinx-zynq/start/bspsmp.c

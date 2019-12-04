@@ -3,13 +3,13 @@ actions:
 - assert-uint32: null
 - env-assign: null
 - format-and-define: null
-format: '{:#010x}'
 active: true
 build-type: option
 default: 1048576
 default-by-variant: []
 derived: false
 enabled-by: []
+format: '{:#010x}'
 header: ''
 level: 1.8
 links: []
@@ -17,7 +17,7 @@ name: BSP_XEN_NOCACHE_LENGTH
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: UVmqPkOMxoBgbOxljIpFPfdCNhL-lxwPBesm9oKFoms=
 text: |
   length of nocache RAM region
 type: build

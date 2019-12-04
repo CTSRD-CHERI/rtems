@@ -9,12 +9,12 @@ enabled-by:
 header: ''
 includes: []
 install: []
-level: '1.68'
+level: 1.68
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: Mcad2AGGi9BnW9D8a_FrSTCHMswzkcjEQpK6AYYDWuk=
+reviewed: Ud-K62FsAyuDqNHEpwsl-dP15GM4w3aj_H3thsEOnVU=
 source:
 - cpukit/libdl/rtl-mdreloc-moxie.c
 text: ''

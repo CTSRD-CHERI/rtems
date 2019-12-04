@@ -8,13 +8,13 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.29'
+level: 1.29
 links: []
 name: LPC24XX_EMC_TEST
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: cgA052PpwILlj75QioINgAFkj8kjidGty6TgcoZx1x8=
 text: |
   enable tests for EMC
 type: build

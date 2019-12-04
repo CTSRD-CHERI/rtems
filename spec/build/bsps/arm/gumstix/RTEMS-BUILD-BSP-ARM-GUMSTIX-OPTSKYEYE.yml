@@ -8,13 +8,13 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.4'
+level: 1.4
 links: []
 name: ON_SKYEYE
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: aUAjdSGg7xQ9jW4yliUz_FW4KLj3ziluE-RTCl1M_s8=
 text: |
   If defined, enable options which optimize executingon the Skyeye simulator.  Speed up the clock ticks while the idle task is running so time spent in the idle task is minimized.  This significantly reduces the wall time required to execute the RTEMS test suites.
 type: build

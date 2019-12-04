@@ -1,30 +1,30 @@
 actions:
 - get-integer: null
 - define: null
-format: '{:#010x}'
 active: true
 build-type: option
 default: 0
 default-by-variant:
-- value: 0xE
+- value: 14
   variants:
   - arm/lm3s6965.*
-- value: 0x10
+- value: 16
   variants:
   - arm/lm3s3749.*
-- value: 0x15
+- value: 21
   variants:
   - arm/lm4f120.*
 derived: false
 enabled-by: []
+format: '{:#010x}'
 header: ''
-level: '1.21'
+level: 1.21
 links: []
 name: LM3S69XX_XTAL_CONFIG
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: TKCPkFxlkPs6Lnd_OGns6_rMp3-Su1OsT0HED3T05GQ=
 text: |
   crystal configuration for RCC register
 type: build

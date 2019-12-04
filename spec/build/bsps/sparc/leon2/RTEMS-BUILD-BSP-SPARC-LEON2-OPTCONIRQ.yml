@@ -1,21 +1,21 @@
 actions:
 - get-integer: null
 - define: null
-format: '{}'
 active: true
 build-type: option
 default: 0
 default-by-variant: []
 derived: false
 enabled-by: []
+format: '{}'
 header: ''
-level: '1.8'
+level: 1.8
 links: []
 name: CONSOLE_USE_INTERRUPTS
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: aDH-UBG-ebwgZWA4YvlvAZ6Yffq2XqKlj2FGgWvSc9I=
 text: |
   The leon2 console driver can operate in either polled or interrupt mode.  Under the simulator (especially when FAST_UART is defined), polled seems to operate better. It is common for a task to print a line (like the end of test message) and then exit.  In this case, the program returns control to the simulator command line before the program has even queued the output to the uart.  Thus sis has no chance of getting the data out.
 type: build

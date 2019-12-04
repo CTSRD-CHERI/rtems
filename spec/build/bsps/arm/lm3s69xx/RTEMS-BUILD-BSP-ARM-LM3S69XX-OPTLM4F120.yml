@@ -11,13 +11,13 @@ default-by-variant:
 derived: false
 enabled-by: []
 header: ''
-level: '1.15'
+level: 1.15
 links: []
 name: LM3S69XX_MCU_LM4F120
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: rwX57hsF7RXS7jXZD1sjPxado2RWw-DiRJSXoyD7zbg=
 text: |
   board has LM4F120xxx MCU
 type: build

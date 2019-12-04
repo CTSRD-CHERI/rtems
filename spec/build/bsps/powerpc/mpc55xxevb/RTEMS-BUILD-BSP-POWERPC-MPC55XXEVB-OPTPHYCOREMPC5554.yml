@@ -11,13 +11,13 @@ default-by-variant:
 derived: false
 enabled-by: []
 header: ''
-level: '1.44'
+level: 1.44
 links: []
 name: MPC55XX_BOARD_PHYCORE_MPC5554
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: oNso4htw_Ptq8q1NOGeyEgd5pbx7dUAdSs-w9hZhbQA=
 text: |
   if defined, use custom settings for phyCORE MPC5554 board
 type: build

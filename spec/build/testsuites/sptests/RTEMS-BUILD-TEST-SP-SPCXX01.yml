@@ -10,17 +10,17 @@ features: cxx cxxprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.92'
+level: 1.92
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: iUjtaAJXSh1RLXBfbm6mfRDn8y712luAiR2eJO0azkA=
 source:
 - testsuites/sptests/spcxx01/init.cc
 stlib: []
 target: testsuites/sptests/spcxx01.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

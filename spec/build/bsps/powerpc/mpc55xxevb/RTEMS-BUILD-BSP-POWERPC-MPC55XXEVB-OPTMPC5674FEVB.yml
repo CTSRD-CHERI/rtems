@@ -11,13 +11,13 @@ default-by-variant:
 derived: false
 enabled-by: []
 header: ''
-level: '1.41'
+level: 1.41
 links: []
 name: MPC55XX_BOARD_MPC5674FEVB
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: xUewoUPjIkcCF3Au2Ue5hw-VG2MoG_cjKbc8EPBzc_U=
 text: |
   if defined, use custom settings for MPC5674FEVB board
 type: build

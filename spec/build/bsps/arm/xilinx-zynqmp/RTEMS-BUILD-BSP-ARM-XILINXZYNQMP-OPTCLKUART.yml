@@ -1,7 +1,6 @@
 actions:
 - get-integer: null
 - define: null
-format: '{}'
 active: true
 build-type: option
 default: 100000000
@@ -11,14 +10,15 @@ default-by-variant:
   - arm/xilinx_zynqmp_ultra96.*
 derived: false
 enabled-by: []
+format: '{}'
 header: ''
-level: '1.8'
+level: 1.8
 links: []
 name: ZYNQ_CLOCK_UART
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: ercsJxI9Ecp43Luof_qZ_FaAw8QmgqCQufC1MNmh7kI=
 text: |
   Zynq UART clock frequency in Hz
 type: build

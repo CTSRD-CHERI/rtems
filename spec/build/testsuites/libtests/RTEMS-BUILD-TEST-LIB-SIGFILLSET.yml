@@ -9,12 +9,12 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.122'
+level: 1.122
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: DAiBJbCfcWb1NLvC9_E4EEEYSca5NVZW9z9Rdqgh_HM=
 source:
 - testsuites/libtests/POSIX/sigfillset.c
 stlib: []

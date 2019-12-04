@@ -9,17 +9,17 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.67'
+level: 1.67
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: TJeG4GQWdbWB6F5URFGaciuWwy6VHufsIV9NUYex58w=
 source:
 - testsuites/libtests/i2c01/init.c
 stlib: []
 target: testsuites/libtests/i2c01.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

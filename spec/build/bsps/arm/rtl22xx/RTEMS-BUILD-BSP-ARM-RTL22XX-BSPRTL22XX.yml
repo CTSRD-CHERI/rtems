@@ -10,15 +10,15 @@ family: rtl22xx
 header: ''
 includes: []
 install: []
-level: '1.4'
+level: 1.4
 links:
-- RTEMS-BUILD-BSP-ARM-RTL22XX-GRP: null
-- RTEMS-BUILD-BSP-ARM-RTL22XX-TSTRTL22XX: null
-- RTEMS-BUILD-BSP-OPTO2: null
+- RTEMS-BUILD-BSP-OPTO2: r0q7M48XBHR1ES8QcdIvYFB5cSdkfBWkJTXycbg43og=
+- RTEMS-BUILD-BSP-ARM-RTL22XX-GRP: XJ813DgfYNzSX4BmZXcXdqqppdcRYXDgLd_j32TLY0E=
+- RTEMS-BUILD-BSP-ARM-RTL22XX-TSTRTL22XX: bOGyTduX8O0cg8cu0jmG9SOHFl80DWk_AKSXCu8Nhe8=
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: zXBEGI8JfbsgtgxVgD2MQH5lWNatWzz3cO1MhwNaxvg=
 source: []
 text: ''
 type: build

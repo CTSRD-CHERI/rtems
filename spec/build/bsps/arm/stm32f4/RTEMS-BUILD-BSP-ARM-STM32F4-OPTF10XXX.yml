@@ -11,13 +11,13 @@ default-by-variant:
 derived: false
 enabled-by: []
 header: ''
-level: '1.14'
+level: 1.14
 links: []
 name: STM32F4_FAMILY_F10XXX
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: r82nZjZdPO59uWoUhKJCEXBY-4ooqqdDycM4BKkZYsU=
 text: |
   Chip belongs to the STM32F10XXX family.
 type: build

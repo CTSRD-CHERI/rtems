@@ -3,17 +3,17 @@ actions:
 - env-append: CPPFLAGS
 active: true
 build-type: option
-default-by-variant: []
 default: null
+default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.8'
+level: 1.8
 links: []
 name: HAVE_CONFIG_H
 normative: true
 order: 0
 ref: ''
-reviewed: vEocNT0zt5fV5RZJrDmgomVPNii0pmjwRAXEPY04sY8=
+reviewed: r5ZHTs9WwSW5PHxcRkXUE6HK2h-V7M5V3SChIrrAitE=
 text: ''
 type: build

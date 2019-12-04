@@ -14,7 +14,7 @@ name: BSP_START_RESET_VECTOR
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: qichEZU0ND19pocPWwdxHQltiB6yEUGPyzWVhF4Z__E=
 text: |
   reset vector address for BSP start
 type: build

@@ -9,12 +9,12 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.69'
+level: 1.69
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: olCEnvXyfOfu98OsPVLR6sL47wCYDnKga2KOuC2XTd4=
 source:
 - testsuites/libtests/POSIX/iconv_open.c
 stlib: []

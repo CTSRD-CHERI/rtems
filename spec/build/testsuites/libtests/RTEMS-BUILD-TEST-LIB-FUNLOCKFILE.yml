@@ -9,12 +9,12 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.57'
+level: 1.57
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: -zOU5_pTzlfWsXXiIueFRJ_S6YT_rdY30ADtCxovgp4=
 source:
 - testsuites/libtests/POSIX/funlockfile.c
 stlib: []

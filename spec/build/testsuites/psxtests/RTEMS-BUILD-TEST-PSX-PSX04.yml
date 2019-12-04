@@ -10,12 +10,12 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.6'
+level: 1.6
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: KffoRAu-Li9_UxmwDogYTuXlRohr7UDfg5HsXy-P4XE=
 source:
 - testsuites/psxtests/psx04/init.c
 - testsuites/psxtests/psx04/task1.c
@@ -25,5 +25,5 @@ stlib: []
 target: testsuites/psxtests/psx04.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

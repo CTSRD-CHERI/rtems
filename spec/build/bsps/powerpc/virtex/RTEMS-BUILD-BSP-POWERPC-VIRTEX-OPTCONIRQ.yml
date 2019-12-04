@@ -8,13 +8,13 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.5'
+level: 1.5
 links: []
 name: VIRTEX_CONSOLE_USE_INTERRUPTS
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: VqyagqJD9F3F-toIjiSx9K0iC-Cmoe3op2b44NLzLvk=
 text: |
   if defined use interrupt driven Termios mode
 type: build

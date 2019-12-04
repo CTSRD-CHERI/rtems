@@ -4,19 +4,19 @@ actions:
 - env-assign: null
 active: true
 build-type: option
-default: 0x00001000
+default: 4096
 default-by-variant: []
 derived: false
 enabled-by: []
 format: '{:#010x}'
 header: ''
-level: '1.12'
+level: 1.12
 links: []
 name: ATSAM_MEMORY_NOCACHE_SIZE
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: WEqfJihIhz0JXoB0wL0gHreYpJhtdu3AFzuirll3IbU=
 text: |
   size of NOCACHE section in bytes
 type: build

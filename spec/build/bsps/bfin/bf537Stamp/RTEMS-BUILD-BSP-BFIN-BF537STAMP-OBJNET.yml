@@ -10,12 +10,12 @@ header: ''
 includes:
 - cpukit/libnetworking
 install: []
-level: '1.3'
+level: 1.3
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: voSREghNxY8b1JSxDWZNlYhTYZ0H9gbdtwNOdulgKLU=
 source:
 - bsps/bfin/bf537Stamp/net/ethernet.c
 - bsps/bfin/bf537Stamp/net/networkconfig.c

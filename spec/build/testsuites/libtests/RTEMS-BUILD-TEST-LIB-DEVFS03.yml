@@ -9,17 +9,17 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.31'
+level: 1.31
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: q389bCDhHjIXkCNxIi0p_-VLLeITxCvYyeov8_SPeck=
 source:
 - testsuites/libtests/devfs03/init.c
 stlib: []
 target: testsuites/libtests/devfs03.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

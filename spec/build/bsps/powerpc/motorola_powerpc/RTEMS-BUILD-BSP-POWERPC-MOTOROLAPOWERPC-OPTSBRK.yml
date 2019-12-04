@@ -8,13 +8,13 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.18'
+level: 1.18
 links: []
 name: CONFIGURE_MALLOC_BSP_SUPPORTS_SBRK
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: VaNcWOwIT0RR3pM71zvoLT0B6Iq4ecj04RCZw2YO_TM=
 text: |
   None
 type: build

@@ -3,17 +3,17 @@ actions:
 - define-condition: null
 active: true
 build-type: option
-default-by-variant: []
 default: null
+default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.9'
+level: 1.9
 links: []
 name: HAVE_STRUCT__PTHREAD_CLEANUP_CONTEXT
 normative: true
 order: 0
 ref: ''
-reviewed: 4JHJoctzU0JT0Y0oLAQ3gWTK6WCby4OxOILknnrGK28=
+reviewed: zSl060_UqW9TKOV4w3UgpBAIo2LBmNl0kGPMDGj8cSU=
 text: ''
 type: build

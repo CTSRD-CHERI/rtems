@@ -9,12 +9,12 @@ enabled-by:
 header: ''
 includes: []
 install: []
-level: '1.7'
+level: 1.7
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: cbgGEFnJwNkc03kYkThPr8ccwWgtJaA-7Mfss9XZ8VM=
 source:
 - bsps/arm/tms570/start/bspstarthooks-hwinit.c
 - bsps/arm/tms570/start/fail_notification.c

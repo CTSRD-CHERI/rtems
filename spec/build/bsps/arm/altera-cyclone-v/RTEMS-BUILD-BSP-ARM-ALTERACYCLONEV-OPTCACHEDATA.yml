@@ -8,13 +8,13 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.5'
+level: 1.5
 links: []
 name: BSP_DATA_CACHE_ENABLED
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: -n5LeSw7OUJ6FX9-CXGzP7osidE6geDM7NjNUlbr0X0=
 text: |
   enable data cache
 type: build

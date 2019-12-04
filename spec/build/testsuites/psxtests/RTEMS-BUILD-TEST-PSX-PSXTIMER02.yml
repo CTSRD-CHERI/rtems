@@ -10,17 +10,17 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.107'
+level: 1.107
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: LOLwyvdLVFYidFeTVXJOw1_q6hBSoZSsCWPQ_4kX4vs=
 source:
 - testsuites/psxtests/psxtimer02/psxtimer.c
 stlib: []
 target: testsuites/psxtests/psxtimer02.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

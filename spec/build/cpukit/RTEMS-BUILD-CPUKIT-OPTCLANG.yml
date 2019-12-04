@@ -19,18 +19,18 @@ actions:
     conf.load(load)
 active: true
 build-type: option
-default-by-variant: []
 default: null
+default-by-variant: []
 derived: false
 enabled-by:
 - clang
 header: ''
-level: '1.84'
+level: 1.84
 links: []
 name: clang
 normative: true
 order: -900
 ref: ''
-reviewed: oRRzhna6a47p0_QjPWqYLful9JgHGbxMqy-q7mSiZiU=
+reviewed: YGHNCIGRsTIzqZvmg0Gw_BhMUy_yHmtfq-BL55GWC_Q=
 text: ''
 type: build

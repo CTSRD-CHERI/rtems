@@ -10,17 +10,17 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.22'
+level: 1.22
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: vDMGG63uOdYVE9L9ir_xUpVcVd5wA_LToSU5UI5CCk8=
 source:
 - testsuites/psxtests/psxalarm01/init.c
 stlib: []
 target: testsuites/psxtests/psxalarm01.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

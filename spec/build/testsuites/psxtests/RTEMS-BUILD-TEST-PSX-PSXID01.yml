@@ -9,17 +9,17 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.56'
+level: 1.56
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: d9yl-0c6gliLHFZfN7aZMVXVZY0hnH1ifhX5dM_JOn4=
 source:
 - testsuites/psxtests/psxid01/init.c
 stlib: []
 target: testsuites/psxtests/psxid01.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

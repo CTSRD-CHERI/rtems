@@ -3,17 +3,17 @@ actions:
 - define-condition: null
 active: true
 build-type: option
-default-by-variant: []
 default: null
+default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.22'
+level: 1.22
 links: []
 name: HAVE_STDLIB_H
 normative: true
 order: 0
 ref: ''
-reviewed: -9qCLtAjcDOeHmUAGX8ti5FR2E0WgmhiHJr8jFO6rYk=
+reviewed: 5nz5muwsF4I_10ryHJu5hrlNOazgkuJ6q3LXKENHqd8=
 text: ''
 type: build

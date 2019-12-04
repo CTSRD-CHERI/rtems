@@ -8,13 +8,13 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.7'
+level: 1.7
 links: []
 name: STM32F4_ENABLE_I2C2
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: vU6wCRNjBDUXI16Gm-ZUFzUSVTdB8qR0eYtaHLhiNUQ=
 text: |
   enable I2C 2
 type: build

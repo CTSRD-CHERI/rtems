@@ -8,13 +8,13 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.5'
+level: 1.5
 links: []
 name: INTERRUPT_USE_TABLE
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: wjZBjARRtnDJDJrz1CNzvbK-3knUV0lQlV9QSLK1eUo=
 text: |
   Select if INTERRUPT use table or link list
 type: build

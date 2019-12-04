@@ -14,7 +14,7 @@ name: LPC24XX_STOP_GPDMA
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: N5XiAuY3bvgWbBpbC4iuatNr_Gn31Je7eKhXl97hmfM=
 text: |
   stop general purpose DMA at start-up to avoid DMA interference
 type: build

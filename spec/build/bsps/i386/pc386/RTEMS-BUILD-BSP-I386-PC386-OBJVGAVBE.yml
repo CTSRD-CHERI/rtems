@@ -11,12 +11,12 @@ enabled-by:
 header: ''
 includes: []
 install: []
-level: '1.13'
+level: 1.13
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: 5J4jEV6eDfetlR2PJwR_nF_T_CYG_2VIyaavNaABxds=
 source:
 - bsps/i386/pc386/console/fb_vesa_rm.c
 text: ''

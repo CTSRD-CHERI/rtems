@@ -10,12 +10,12 @@ header: ''
 includes:
 - cpukit/libnetworking
 install: []
-level: '1.15'
+level: 1.15
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: 3uWUKlb8nuzubch6gZb3Pnht6eFi1EuaY4jU_JdBgYE=
 source:
 - bsps/powerpc/mpc55xxevb/net/if_smc.c
 - bsps/powerpc/mpc55xxevb/net/smsc9218i.c

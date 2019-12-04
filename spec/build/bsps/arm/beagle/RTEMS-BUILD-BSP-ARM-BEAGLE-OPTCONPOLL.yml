@@ -14,7 +14,7 @@ name: CONSOLE_POLLED
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: Ooqu59H2075L5YtjxKferzvRMsEHeei-4FUjqrfHfEM=
 text: |
   polled console i/o (e.g. to run testsuite)
 type: build

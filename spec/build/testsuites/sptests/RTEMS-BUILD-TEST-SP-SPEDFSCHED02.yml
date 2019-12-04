@@ -9,12 +9,12 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.94'
+level: 1.94
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: oS1HfC8s_tCFRHaOAH5Ekq3xTjA0gOHbCLQo-6FaUyU=
 source:
 - testsuites/sptests/spedfsched02/init.c
 - testsuites/sptests/spedfsched02/getall.c
@@ -23,5 +23,5 @@ stlib: []
 target: testsuites/sptests/spedfsched02.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

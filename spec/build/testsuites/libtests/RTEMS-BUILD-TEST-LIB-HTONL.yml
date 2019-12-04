@@ -9,12 +9,12 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.66'
+level: 1.66
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: cmm-GoriZUA6kpbMFfAE3DM1zHEr0ZY-oEgXyqhKN0A=
 source:
 - testsuites/libtests/POSIX/htonl.c
 stlib: []

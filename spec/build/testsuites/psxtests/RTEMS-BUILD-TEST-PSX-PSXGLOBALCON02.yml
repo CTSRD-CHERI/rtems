@@ -9,17 +9,17 @@ features: cxx cxxprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.54'
+level: 1.54
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: 9fmEmpW-meCAq2PQ63bwXY3xAsYviXyruR12pJbz52k=
 source:
 - testsuites/psxtests/psxglobalcon02/init.cc
 stlib: []
 target: testsuites/psxtests/psxglobalcon02.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

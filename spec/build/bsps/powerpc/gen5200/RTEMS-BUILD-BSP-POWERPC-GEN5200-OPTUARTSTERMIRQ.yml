@@ -8,13 +8,13 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.25'
+level: 1.25
 links: []
 name: UARTS_USE_TERMIOS_INT
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: jxoYIoS3ng4AFd120oR0zBAC0Gu2GGdeWbhiNbqonjo=
 text: |
   enable interrupt support for the PSC console driver
 type: build

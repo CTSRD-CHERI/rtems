@@ -8,13 +8,13 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.17'
+level: 1.17
 links: []
 name: CYCLONE_V_NO_I2C
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: BPmkVxb8eOSjG3eCqlYNjsMoJ73qzOmflwVeOrf1V2k=
 text: |
   Number of configured I2C buses. Note that each bus has to be configured in an apropriate i2cdrv_config array.
 type: build

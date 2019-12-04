@@ -8,13 +8,13 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.6'
+level: 1.6
 links: []
 name: CONFIGURE_MALLOC_BSP_SUPPORTS_SBRK
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: xRoE88QFJ7VBCk7GL1ZHRLMEmcO0oXen38ZTZlT8MhU=
 text: |
   If defined then the BSP may reduce the available memory size initially. This can be useful for debugging (reduce the core size) or dynamic loading (std gcc text offsets/jumps are < +/-32M).  Note that the policy can still be defined by the application (see sbrk.c, BSP_sbrk_policy). By undefining CONFIGURE_MALLOC_BSP_SUPPORTS_SBRK this feature is removed and a little memory is saved.
 type: build

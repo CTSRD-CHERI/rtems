@@ -1,7 +1,6 @@
 actions:
 - get-integer: null
 - define: null
-format: '{}'
 active: true
 build-type: option
 default: 0
@@ -17,14 +16,15 @@ default-by-variant:
   - powerpc/mpc5674f.*
 derived: false
 enabled-by: []
+format: '{}'
 header: ''
-level: '1.55'
+level: 1.55
 links: []
 name: MPC55XX_SYSTEM_CLOCK
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: ilfj4GcYpD6ic5_T8jYGWUO0A5f_a2m1QeUPHuv2WCk=
 text: |
   The system clock frequency in Hz.
 type: build

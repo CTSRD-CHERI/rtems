@@ -15,12 +15,12 @@ links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: ebIuUTohCqfDi8oEIYOD3PqOxMPAOxysO1AmsRB_nc4=
 source:
 - testsuites/smptests/smpfatal06/init.c
 stlib: []
 target: testsuites/smptests/smpfatal06.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

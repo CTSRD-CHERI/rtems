@@ -9,17 +9,17 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.48'
+level: 1.48
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: m9XPc_GLDOfH96vhKOw_oC1tWy3Gzs6pnuxObIksyAM=
 source:
 - testsuites/libtests/exit02/init.c
 stlib: []
 target: testsuites/libtests/exit02.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

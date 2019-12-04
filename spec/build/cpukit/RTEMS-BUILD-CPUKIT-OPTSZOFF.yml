@@ -4,17 +4,17 @@ actions:
 - define: null
 active: true
 build-type: option
-default-by-variant: []
 default: null
+default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.102'
+level: 1.102
 links: []
 name: __RTEMS_SIZEOF_OFF_T__
 normative: true
 order: 0
 ref: ''
-reviewed: xXtitYu0mmEYLhEXK3KqSAcU6YydtcxG1p9DbUjIYb4=
+reviewed: q6cICw8EjK9OR97v6N_1NnqLFFJkLvbragzIIW5clK8=
 text: ''
 type: build

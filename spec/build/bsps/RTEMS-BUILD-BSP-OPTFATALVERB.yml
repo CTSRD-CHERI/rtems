@@ -6,16 +6,16 @@ build-type: option
 default: 1
 default-by-variant: []
 derived: false
-format: '{}'
 enabled-by: []
+format: '{}'
 header: ''
-level: '1.26'
+level: 1.26
 links: []
 name: BSP_VERBOSE_FATAL_EXTENSION
 normative: true
 order: 0
 ref: ''
-reviewed: IO9y2aPswCo6YTuCfOj4pHAk98xbI08IcoZBlwanHxg=
+reviewed: 2j0GwFL5lsDlRkqTXmY45trZVWxA8vhAMluHqhqlxKk=
 text: |
   If defined to a non-zero value, prints the some information in case of a
   fatal error.

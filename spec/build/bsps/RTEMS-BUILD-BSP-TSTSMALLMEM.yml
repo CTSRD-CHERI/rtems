@@ -3,10 +3,10 @@ actions:
     flashdisk01: exclude
     fsdosfsname01: exclude
     linpack: exclude
-    spstkalloc02: exclude
-    sp47: exclude
-    psxusleep: exclude
     psxconfig01: exclude
+    psxusleep: exclude
+    sp47: exclude
+    spstkalloc02: exclude
 - set-value: -DPER_ALLOCATION=10
 - append-test-cppflags: sp71
 - set-value: -DMAXIMUM_DISTRIBUTION=10
@@ -112,19 +112,19 @@ actions:
 - append-test-cppflags: tmtimer01
 active: true
 build-type: option
-default-by-variant: []
 default: null
+default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.47'
+level: 1.47
 links:
-- RTEMS-BUILD-BSP-TSTNOICONV: null
-- RTEMS-BUILD-BSP-TSTNOJFFS2: null
-- RTEMS-BUILD-BSP-TSTNOLIBDL: null
+- RTEMS-BUILD-BSP-TSTNOICONV: v9QKh4lgczHjE-voT-zEEryeBRrO_ONsSSkfSDHwcoY=
+- RTEMS-BUILD-BSP-TSTNOJFFS2: iBF-8OWS2MBA-uO-D1awI3MtIvDmlrsXtVT_Pu6rRCs=
+- RTEMS-BUILD-BSP-TSTNOLIBDL: 2wzNvdkiCGsGpP4u1UZ_Wxj5tmN5vR19UIOKq6s2t9g=
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: Imcs4wWrnL_eTIaNkptcIhBb_lijUj6C6AyPfrvGE2U=
 text: ''
 type: build

@@ -9,12 +9,12 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.15'
+level: 1.15
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: iswwVoBOJQnZjXZuuSQ445AzvqBOVeC1I-vg7P5GtWI=
 source:
 - testsuites/samples/ticker/init.c
 - testsuites/samples/ticker/tasks.c
@@ -22,5 +22,5 @@ stlib: []
 target: testsuites/samples/ticker.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

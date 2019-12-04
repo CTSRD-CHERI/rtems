@@ -9,12 +9,12 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.123'
+level: 1.123
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: cB2cdBLxfYR2ahlK3vTXfTRbBf5PxhexjVJOKidQp_w=
 source:
 - testsuites/libtests/POSIX/sigismember.c
 stlib: []

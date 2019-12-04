@@ -12,14 +12,14 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.13'
+level: 1.13
 links:
-- RTEMS-BUILD-BSP-TSTNOICONV: null
-- RTEMS-BUILD-BSP-TSTNOINTRCRIT: null
-- RTEMS-BUILD-BSP-TSTREQTICK: null
+- RTEMS-BUILD-BSP-TSTNOICONV: v9QKh4lgczHjE-voT-zEEryeBRrO_ONsSSkfSDHwcoY=
+- RTEMS-BUILD-BSP-TSTNOINTRCRIT: B0OyrkoHI35ZcG4AzvQ-Cafu6ncswy4E8HhxFJ0ifNU=
+- RTEMS-BUILD-BSP-TSTREQTICK: 9MuFMm40DY36LgsLbjcLWydStpJJMALSZbzorIMdydE=
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: Y0xn558ZFPj9XNUjCGDuebhp7SK0PsAHXQhZNla-Jmc=
 text: ''
 type: build

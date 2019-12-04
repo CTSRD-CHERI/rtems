@@ -20,12 +20,12 @@ install:
   source:
   - bsps/m68k/mvme162/start/bsp_specs
   - bsps/m68k/mvme162/start/linkcmds
-level: '1.6'
+level: 1.6
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: wHRAHsoRmU2_GOgm2P8bHYWo830LhB-ujcLL4U2uLnc=
 source:
 - bsps/m68k/mvme162/btimer/btimer.c
 - bsps/m68k/mvme162/btimer/timerisr.S

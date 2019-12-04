@@ -1,13 +1,13 @@
 actions:
 - get-string: null
 - define-unquoted: null
-format: '{}'
 active: true
 build-type: option
 default: CONS_MODE_UNUSED
 default-by-variant: []
 derived: false
 enabled-by: []
+format: '{}'
 header: ''
 level: '1.10'
 links: []
@@ -15,7 +15,7 @@ name: CONS_SCC3_MODE
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: _ZyK0SunI5oHPcHSo9VoUZ1GThyIJq8TUxFYOw2LpWk=
 text: |
   (BSP--SCC3 UART IF mode) Must be defined if SCC3 is used as a tty (UART) channel. Set it to CONS_MODE_POLLED for polled operation, CONS_MODE_IRQ for interrupt driven (spooled) operation. Set it to CONS_MODE_UNUSED, if not used
 type: build

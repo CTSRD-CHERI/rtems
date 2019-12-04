@@ -10,12 +10,12 @@ enabled-by:
 header: ''
 includes: []
 install: []
-level: '1.2'
+level: 1.2
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: 4gowJeOv_LhbWawGPu7BrSlNmswDNHLZMuQ_rvsECoY=
 source:
 - bsps/m68k/shared/fpsp/bindec.S
 - bsps/m68k/shared/fpsp/binstr.S

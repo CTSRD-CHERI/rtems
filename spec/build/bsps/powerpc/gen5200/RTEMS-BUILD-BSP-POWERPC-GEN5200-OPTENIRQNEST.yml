@@ -11,13 +11,13 @@ default-by-variant:
 derived: false
 enabled-by: []
 header: ''
-level: '1.15'
+level: 1.15
 links: []
 name: ALLOW_IRQ_NESTING
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: FUjBienZkg6KsGnqA-39ent9Ol9MRiY-LYKR50SX3HE=
 text: |
   If set to !0, allow nested IRQ processing.
 type: build

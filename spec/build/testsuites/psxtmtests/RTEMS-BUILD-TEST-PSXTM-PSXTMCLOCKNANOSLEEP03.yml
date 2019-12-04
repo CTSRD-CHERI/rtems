@@ -14,7 +14,7 @@ links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: XenxEiAwuFSYK3V5KQ5VLYhlE_MKitzGtC2tHT4oslU=
 source:
 - testsuites/psxtmtests/psxtmclocknanosleep03/init.c
 - testsuites/support/src/tmtests_empty_function.c
@@ -23,5 +23,5 @@ stlib: []
 target: testsuites/psxtmtests/psxtmclocknanosleep03.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

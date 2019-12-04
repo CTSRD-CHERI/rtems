@@ -33,12 +33,12 @@ install:
   source:
   - bsps/i386/pc386/start/bsp_specs
   - bsps/i386/pc386/start/linkcmds
-level: '1.16'
+level: 1.16
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: GiZMBwqBO9trCRTSlJ-z2Yoa-rjiEfCKy0Io7KzDHOI=
 source:
 - bsps/i386/pc386/btimer/btimer.c
 - bsps/i386/pc386/btimer/timerisr.S

@@ -6,16 +6,16 @@ build-type: option
 default: 1
 default-by-variant: []
 derived: false
-format: '{}'
 enabled-by: []
+format: '{}'
 header: ''
-level: '1.37'
+level: 1.37
 links: []
 name: BSP_PRINT_EXCEPTION_CONTEXT
 normative: true
 order: 0
 ref: ''
-reviewed: IO9y2aPswCo6YTuCfOj4pHAk98xbI08IcoZBlwanHxg=
+reviewed: 0eMUQi90729DY61KPxTmCcRTbcala_5KVfXy0PUjn6s=
 text: |
   If defined to a non-zero value, prints the exception context when an
   unexpected exception occurs.

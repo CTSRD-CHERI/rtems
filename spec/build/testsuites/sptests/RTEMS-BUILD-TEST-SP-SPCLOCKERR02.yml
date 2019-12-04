@@ -9,17 +9,17 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.84'
+level: 1.84
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: zgHj6F1Bc19LqtNZzN5_wOZ3jFAoOsr9jVj1DJd07h8=
 source:
 - testsuites/sptests/spclock_err02/init.c
 stlib: []
 target: testsuites/sptests/spclock_err02.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

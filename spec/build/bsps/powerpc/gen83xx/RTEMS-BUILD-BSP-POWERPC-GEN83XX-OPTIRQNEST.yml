@@ -14,13 +14,13 @@ default-by-variant:
 derived: false
 enabled-by: []
 header: ''
-level: '1.14'
+level: 1.14
 links: []
 name: GEN83XX_ENABLE_INTERRUPT_NESTING
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: IrWUHAXOwx9_I0tXW72DHGf3E4pcY9TgZj6YgKEObjI=
 text: |
   enable interrupt nesting
 type: build

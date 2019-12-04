@@ -3,17 +3,17 @@ actions:
 - define-condition: null
 active: true
 build-type: option
-default-by-variant: []
 default: null
+default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.4'
+level: 1.4
 links: []
 name: HAVE_DECL_PTHREAD_ATTR_GETSTACK
 normative: true
 order: 0
 ref: ''
-reviewed: JOy5hH0DzkV0Q1-Hd6vBgJCAkdVeIaBgV1yzAGJ8EkE=
+reviewed: k-xA6M6JkjEFrsXvBv0LZy1H_qq_gptHQJReIi860Hk=
 text: ''
 type: build

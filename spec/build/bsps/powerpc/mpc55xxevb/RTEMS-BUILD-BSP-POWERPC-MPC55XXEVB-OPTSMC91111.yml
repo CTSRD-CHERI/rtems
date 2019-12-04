@@ -11,13 +11,13 @@ default-by-variant:
 derived: false
 enabled-by: []
 header: ''
-level: '1.46'
+level: 1.46
 links: []
 name: HAS_SMC91111
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: IZVxOv_j__xc0mrM93C1APa0ncr4XOoNHgsrn9HW0J0=
 text: |
   If defined the board has the SMC91111 networking chip.
 type: build

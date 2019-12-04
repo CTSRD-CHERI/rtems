@@ -9,12 +9,12 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.63'
+level: 1.63
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: tNmyFeI65XdVFMW4oGBefLIGZ3vzylicF_AXwy8HR_w=
 source:
 - testsuites/libtests/POSIX/getuid.c
 stlib: []

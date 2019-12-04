@@ -1,21 +1,21 @@
 actions:
 - get-integer: null
 - define: null
-format: '{}'
 active: true
 build-type: option
 default: 64
 default-by-variant: []
 derived: false
 enabled-by: []
+format: '{}'
 header: ''
-level: '1.11'
+level: 1.11
 links: []
 name: RISCV_MAXIMUM_EXTERNAL_INTERRUPTS
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: 5aATUZ81JHYCT0HmFtS0wbJy7HOssKCBBvKDtaMwaw4=
 text: |
   maximum number of external interrupts supported by the BSP (default 64)
 type: build

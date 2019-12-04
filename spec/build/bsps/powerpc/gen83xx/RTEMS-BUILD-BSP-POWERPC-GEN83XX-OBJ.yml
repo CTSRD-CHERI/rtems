@@ -28,12 +28,12 @@ install:
   - bsps/powerpc/gen83xx/start/linkcmds.mpc8349eamds
   - bsps/powerpc/gen83xx/start/linkcmds.mpc83xx
   - bsps/powerpc/shared/start/linkcmds.base
-level: '1.9'
+level: 1.9
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: vAyRRsbPFF1kmTY2rsHBzWlHosG-5gh4k09C3pkcP4E=
 source:
 - bsps/powerpc/gen83xx/console/console-config.c
 - bsps/powerpc/gen83xx/dev/gtm.c

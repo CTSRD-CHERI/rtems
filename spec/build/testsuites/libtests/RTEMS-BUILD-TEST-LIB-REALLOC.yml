@@ -9,12 +9,12 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.112'
+level: 1.112
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: qsc7l3XVbqi3VJODzCRXmfQZ7zyA_NlpjejQJfw8PX8=
 source:
 - testsuites/libtests/POSIX/realloc.c
 stlib: []

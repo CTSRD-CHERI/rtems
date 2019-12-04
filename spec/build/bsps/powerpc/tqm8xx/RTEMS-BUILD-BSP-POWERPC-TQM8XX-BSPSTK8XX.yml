@@ -10,14 +10,14 @@ family: tqm8xx
 header: ''
 includes: []
 install: []
-level: '1.4'
+level: 1.4
 links:
-- RTEMS-BUILD-BSP-OPTO2: null
-- RTEMS-BUILD-BSP-POWERPC-TQM8XX-GRP: null
+- RTEMS-BUILD-BSP-OPTO2: r0q7M48XBHR1ES8QcdIvYFB5cSdkfBWkJTXycbg43og=
+- RTEMS-BUILD-BSP-POWERPC-TQM8XX-GRP: xV_pz2Xr3SF818rB5bLtXG_678wop-4T2YYGaNdwvk4=
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: KoRipRuxIyyEplqix8mxfQuTKMlE-63RELNYQmPQJuY=
 source: []
 text: ''
 type: build

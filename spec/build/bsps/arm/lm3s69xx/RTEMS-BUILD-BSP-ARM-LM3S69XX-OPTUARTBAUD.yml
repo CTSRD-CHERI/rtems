@@ -1,21 +1,21 @@
 actions:
 - get-integer: null
 - define: null
-format: '{}'
 active: true
 build-type: option
 default: 115200
 default-by-variant: []
 derived: false
 enabled-by: []
+format: '{}'
 header: ''
-level: '1.19'
+level: 1.19
 links: []
 name: LM3S69XX_UART_BAUD
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: V7k1s3sBX0D9PdbTs3M5anBhkGmuTLIdvZwVgi6Bn-Q=
 text: |
   baud for UARTs
 type: build

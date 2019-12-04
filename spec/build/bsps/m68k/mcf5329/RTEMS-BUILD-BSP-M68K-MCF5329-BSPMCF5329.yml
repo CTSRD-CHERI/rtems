@@ -22,20 +22,20 @@ install:
   - bsps/m68k/mcf5329/start/bsp_specs
   - bsps/m68k/mcf5329/start/linkcmds
   - bsps/m68k/mcf5329/start/linkcmdsflash
-level: '1.2'
+level: 1.2
 links:
-- RTEMS-BUILD-BSP-BSPOPTS: null
-- RTEMS-BUILD-BSP-M68K-GRP: null
-- RTEMS-BUILD-BSP-M68K-MCF5329-ABI: null
-- RTEMS-BUILD-BSP-M68K-MCF5329-OBJNET: null
-- RTEMS-BUILD-BSP-M68K-MCF5329-START: null
-- RTEMS-BUILD-BSP-OBJ: null
-- RTEMS-BUILD-BSP-OBJIRQDFLT: null
-- RTEMS-BUILD-BSP-OPTO2: null
+- RTEMS-BUILD-BSP-BSPOPTS: Wm3sxAZgV2qTZy3j7vLFzPcSbrq55VDM052Ocsaid9E=
+- RTEMS-BUILD-BSP-OBJ: tgEqqyPlwgBwG3s7tNDgDZwObWvqNe4c2CTFSuj7X88=
+- RTEMS-BUILD-BSP-OBJIRQDFLT: P_sOhDGyvLSOoeKh2lKXmFA84ufQVtMaSDR9UJ6b0x0=
+- RTEMS-BUILD-BSP-OPTO2: r0q7M48XBHR1ES8QcdIvYFB5cSdkfBWkJTXycbg43og=
+- RTEMS-BUILD-BSP-M68K-GRP: JngOc5ZlkrTeFAyso_wsFTHDR2OcBuxVcLq9aF21ikQ=
+- RTEMS-BUILD-BSP-M68K-MCF5329-ABI: cUAmI5LA7F_XKF8VEPh-xmmNoFv2vJPU9bHm7sAcAx0=
+- RTEMS-BUILD-BSP-M68K-MCF5329-OBJNET: YV7yYfk1llIIisYHxsDPfoDg3p1Mdex7EZrU7X6KQo0=
+- RTEMS-BUILD-BSP-M68K-MCF5329-START: Dv29BNYr4iv0rZQkyRHx0aAF_96PvURue3G9GbdGXYQ=
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: yOsldRHoU-4bfc6aRQug4kM8_raCYRG_msHMqIwg0zU=
 source:
 - bsps/m68k/mcf5329/btimer/btimer.c
 - bsps/m68k/mcf5329/clock/clock.c

@@ -9,12 +9,12 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.169'
+level: 1.169
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: AO4j5zA9SYC0v8pguQ43gQ2ym-0mofOxNq9RV0oHMRE=
 source:
 - testsuites/sptests/splinkersets01/init.c
 - testsuites/sptests/splinkersets01/sets.c
@@ -23,6 +23,6 @@ stlib: []
 target: testsuites/sptests/splinkersets01.exe
 text: ''
 type: build
-use-before: []
 use-after:
 - splinkersets01
+use-before: []

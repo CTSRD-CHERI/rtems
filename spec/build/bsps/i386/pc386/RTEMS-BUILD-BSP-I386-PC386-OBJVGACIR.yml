@@ -11,12 +11,12 @@ enabled-by:
 header: ''
 includes: []
 install: []
-level: '1.12'
+level: 1.12
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: -SUG_p692jFTeCSwWa_2CulPeP3hilX7qEV07IB4anU=
 source:
 - bsps/i386/pc386/console/fb_cirrus.c
 text: ''

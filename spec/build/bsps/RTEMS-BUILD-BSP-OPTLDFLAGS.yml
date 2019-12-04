@@ -9,17 +9,17 @@ actions:
 - env-append: null
 active: true
 build-type: option
-default-by-variant: []
 default: null
+default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.29'
+level: 1.29
 links: []
 name: LDFLAGS
 normative: true
 order: 0
 ref: ''
-reviewed: 6HoMy5B4IKqMs0mRkW5MDzKj2q-bgAXy-GmxAo2kDuI=
+reviewed: tIf1XALd4UdBrQDAHaMq0ytzWo4QonzcK8N5D_VSjIU=
 text: ''
 type: build

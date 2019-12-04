@@ -14,7 +14,7 @@ links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: u9YfRWrUuYMI3vy8aAuc48qKjVzM8oq-8iKxc9MnU2g=
 source:
 - testsuites/libtests/POSIX/calloc.c
 stlib: []

@@ -14,12 +14,12 @@ links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: vo7bi5YBjfJsn_R1lVU3CYTiNaR8z6BFC81p9YCqYME=
 source:
 - testsuites/sptests/spsimplesched02/init.c
 stlib: []
 target: testsuites/sptests/spsimplesched02.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

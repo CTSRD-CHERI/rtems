@@ -9,12 +9,12 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.49'
+level: 1.49
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: iQ-RkN7d5kL6q4LIHRVvVRxp8v62liy8TEbnKC3tv9E=
 source:
 - testsuites/libtests/POSIX/fcntl.c
 stlib: []

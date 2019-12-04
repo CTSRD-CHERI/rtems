@@ -10,15 +10,15 @@ family: qoriq
 header: ''
 includes: []
 install: []
-level: '1.5'
+level: 1.5
 links:
-- RTEMS-BUILD-BSP-OPTO2: null
-- RTEMS-BUILD-BSP-POWERPC-QORIQ-GRP: null
-- RTEMS-BUILD-BSP-TSTNOLIBDL: null
+- RTEMS-BUILD-BSP-OPTO2: r0q7M48XBHR1ES8QcdIvYFB5cSdkfBWkJTXycbg43og=
+- RTEMS-BUILD-BSP-TSTNOLIBDL: 2wzNvdkiCGsGpP4u1UZ_Wxj5tmN5vR19UIOKq6s2t9g=
+- RTEMS-BUILD-BSP-POWERPC-QORIQ-GRP: X1fWTJz10tmawdpKi8wWNXtHnTrHWgciZZMnSr3tF14=
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: S1h1cv0sAAze6r5qT_-SV8GRqsQaXiRuMnWncmQudf8=
 source: []
 text: ''
 type: build

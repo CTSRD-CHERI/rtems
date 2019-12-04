@@ -1,22 +1,22 @@
 active: true
 build-type: group
-install:
-- destination: ${BSP_INCLUDEDIR}/bsp
-  source:
-  - bsps/or1k/include/bsp/linker-symbols.h
 derived: true
 enabled-by: []
 header: ''
 includes: []
+install:
+- destination: ${BSP_INCLUDEDIR}/bsp
+  source:
+  - bsps/or1k/include/bsp/linker-symbols.h
 ldflags: []
-level: '1.1'
+level: 1.1
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: ZNviqyexxIsbOcs0LqnuuJ6Zu9a3HtjyaTi_w_mdlfI=
 text: ''
 top-level: false
 type: build
-use-before: []
 use-after: []
+use-before: []

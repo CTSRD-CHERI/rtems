@@ -1,21 +1,21 @@
 actions:
 - get-integer: null
 - define: null
-format: '{}'
 active: true
 build-type: option
 default: 115200
 default-by-variant: []
 derived: false
 enabled-by: []
+format: '{}'
 header: ''
-level: '1.7'
+level: 1.7
 links: []
 name: ATSAM_CONSOLE_BAUD
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: akFh6FQEsjyQProc6FzoMqabU-z0ohXjFDURdoFaXH4=
 text: |
   initial baud for console devices (default 115200)
 type: build

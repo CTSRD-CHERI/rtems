@@ -10,17 +10,17 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.47'
+level: 1.47
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: XD_-1LvIMBN5HmRaIYyXC-aAA-tZNFtwmtVCHh5x2m8=
 source:
 - testsuites/smptests/smpscheduler01/init.c
 stlib: []
 target: testsuites/smptests/smpscheduler01.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

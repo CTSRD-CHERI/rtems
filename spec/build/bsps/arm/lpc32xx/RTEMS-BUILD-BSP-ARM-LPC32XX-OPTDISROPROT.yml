@@ -14,7 +14,7 @@ name: LPC32XX_DISABLE_READ_ONLY_PROTECTION
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: 9vDJyDmwjpENf45dYCY-S24Ng62bN0E0_FGzjXWx5QM=
 text: |
   disable MMU protection of read-only sections
 type: build

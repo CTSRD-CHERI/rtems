@@ -22,21 +22,21 @@ install:
   source:
   - bsps/mips/hurricane/start/bsp_specs
   - bsps/mips/hurricane/start/linkcmds
-level: '1.2'
+level: 1.2
 links:
-- RTEMS-BUILD-BSP-BSPOPTS: null
-- RTEMS-BUILD-BSP-MIPS-HURRICANE-ABI: null
-- RTEMS-BUILD-BSP-MIPS-HURRICANE-OPTRM52XX: null
-- RTEMS-BUILD-BSP-MIPS-HURRICANE-OPTUSC320: null
-- RTEMS-BUILD-BSP-MIPS-HURRICANE-START: null
-- RTEMS-BUILD-BSP-OBJ: null
-- RTEMS-BUILD-BSP-OBJIRQ: null
-- RTEMS-BUILD-BSP-OPTO2: null
-- RTEMS-BUILD-BSP-TSTNOLIBDL: null
+- RTEMS-BUILD-BSP-BSPOPTS: Wm3sxAZgV2qTZy3j7vLFzPcSbrq55VDM052Ocsaid9E=
+- RTEMS-BUILD-BSP-OBJ: tgEqqyPlwgBwG3s7tNDgDZwObWvqNe4c2CTFSuj7X88=
+- RTEMS-BUILD-BSP-OBJIRQ: _OqhvvRHGIHemeHqqsoj1_V-pK4C0oiOOk7rshs7RJg=
+- RTEMS-BUILD-BSP-OPTO2: r0q7M48XBHR1ES8QcdIvYFB5cSdkfBWkJTXycbg43og=
+- RTEMS-BUILD-BSP-TSTNOLIBDL: 2wzNvdkiCGsGpP4u1UZ_Wxj5tmN5vR19UIOKq6s2t9g=
+- RTEMS-BUILD-BSP-MIPS-HURRICANE-ABI: TiAXhdYFntKCkxYt_DJpzXPrTSUTGwM94honT8ELSG8=
+- RTEMS-BUILD-BSP-MIPS-HURRICANE-OPTRM52XX: QOJTTsv7_LPo5YpKrzmoNFRHt-oAkiFPx63Wf-HWnsk=
+- RTEMS-BUILD-BSP-MIPS-HURRICANE-OPTUSC320: 7hMliMBOIH-AoUTtP4abEMu66fHq_lxGPwcstxSa5I4=
+- RTEMS-BUILD-BSP-MIPS-HURRICANE-START: r6wWuSxO3hG-ouFl4yg-KPsYGpD7OkEZcD5vJQCIznE=
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: QaL1Pd6yQuYX9LqEYbHCqVrc6_FuuktTlF84rK2RaEQ=
 source:
 - bsps/mips/hurricane/clock/ckinit.c
 - bsps/mips/hurricane/console/console.c

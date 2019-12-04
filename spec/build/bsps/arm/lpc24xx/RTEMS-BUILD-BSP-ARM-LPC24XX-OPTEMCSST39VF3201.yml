@@ -8,13 +8,13 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.28'
+level: 1.28
 links: []
 name: LPC24XX_EMC_SST39VF3201
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: a2flx1kCbjh05RHAjOJEraMzrY4ABND2tHLdIT0Qrmo=
 text: |
   enable SST39VF3201 configuration for EMC
 type: build

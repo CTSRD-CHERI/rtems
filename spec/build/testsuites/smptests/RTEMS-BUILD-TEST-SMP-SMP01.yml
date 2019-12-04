@@ -10,12 +10,12 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.2'
+level: 1.2
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: S1iobz5TcAZNOk1-zPQWyI40P6aD0iyhKdnWEQP3QKg=
 source:
 - testsuites/smptests/smp01/init.c
 - testsuites/smptests/smp01/tasks.c
@@ -24,5 +24,5 @@ stlib: []
 target: testsuites/smptests/smp01.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

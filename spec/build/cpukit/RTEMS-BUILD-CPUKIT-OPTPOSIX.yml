@@ -4,18 +4,18 @@ actions:
 - define-condition: null
 active: true
 build-type: option
-default-by-variant: []
 default: false
+default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.97'
+level: 1.97
 links: []
 name: RTEMS_POSIX_API
 normative: true
 order: 0
 ref: ''
-reviewed: uQlEHkw9XHLdQiDixTuS3J6dEitwqE4BSAky25sw0YY=
+reviewed: PgP3zwzEF81tiLdfV05ptRM_VDnEpkn5aRtkF_NWjhw=
 text: |
   Enable support for POSIX signals
 type: build

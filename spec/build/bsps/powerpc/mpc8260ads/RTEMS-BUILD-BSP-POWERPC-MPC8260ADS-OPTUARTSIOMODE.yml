@@ -8,13 +8,13 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.7'
+level: 1.7
 links: []
 name: UARTS_IO_MODE
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: AZIF1KHzSBUcG3f_L_ANxTt_GxdrijOLbU6cq2Sfltk=
 text: |
   (BSP--console driver) Define to 0 or 1 if you want polled I/O performed by RTEMS.  Define to 1 if you want interrupt-driven performed by RTEMS.  Define to 2 if you want polled I/O performed by EPPCBug.  There is no provision to have a mix of interrupt-driven and polled I/O ports, except that the printk port may use a different mode from the other ports. If this is done, do not open the printk port from an RTEMS application. With EPPCBug 1.1, if mode 2 is selected, CONSOLE_MINOR must be set to SMC1_MINOR. This is a deficiency of the firmware: it does not perform serial I/O on any port other than its default debug port, which must be SMC1.
 type: build

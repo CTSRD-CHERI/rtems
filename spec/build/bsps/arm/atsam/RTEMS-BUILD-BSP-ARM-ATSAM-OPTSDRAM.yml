@@ -22,13 +22,13 @@ derived: false
 enabled-by: []
 format: '{}'
 header: ''
-level: '1.15'
+level: 1.15
 links: []
 name: ATSAM_SDRAM
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: sNABnMKj5rXpWweMD4EvBZxDOpBGCT35csheP9emYm8=
 text: |
   SDRAM variant
 type: build

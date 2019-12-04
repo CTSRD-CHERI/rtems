@@ -3,17 +3,17 @@ actions:
 - define-unquoted: null
 active: true
 build-type: option
-default-by-variant: []
 default: null
+default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.15'
+level: 1.15
 links: []
 name: HAVE_PTHREAD_MUTEX_GETCEILING_CONST
 normative: true
 order: 0
 ref: ''
-reviewed: NJK-8HMFtTv1V9mYwyOUnGMx9PC87zMYuV3g-pyIERs=
+reviewed: X4yHdy3VBbUvrB8t5N7DNify0ci3GiLAQGsWCe2w3cw=
 text: ''
 type: build

@@ -1,29 +1,29 @@
 active: true
-build-type: ada-test-program
+ada-main: testsuites/ada/tmtests/tm06/tm06.adb
+ada-object-directory: testsuites/ada/tmtests/tm06
 adaflags: []
-cflags: []
-cppflags: []
-includes: []
 adaincludes:
 - cpukit/include/adainclude
 - testsuites/ada/support
-ldflags: []
-stlib: []
-ada-object-directory: testsuites/ada/tmtests/tm06
-source:
-- testsuites/ada/tmtests/tm06/init.c
-ada-main: testsuites/ada/tmtests/tm06/tm06.adb
-target: testsuites/ada/ada_tm06.exe
+build-type: ada-test-program
+cflags: []
+cppflags: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.61'
+includes: []
+ldflags: []
+level: 1.61
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: 83LigEPe8T7o1se1u-QCFgXVaNtr9Hm8tcKClLNiaXY=
+source:
+- testsuites/ada/tmtests/tm06/init.c
+stlib: []
+target: testsuites/ada/ada_tm06.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

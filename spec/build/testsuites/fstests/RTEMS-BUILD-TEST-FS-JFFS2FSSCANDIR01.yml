@@ -10,12 +10,12 @@ header: ''
 includes:
 - testsuites/fstests/jffs2_support
 ldflags: []
-level: '1.31'
+level: 1.31
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: EQLCa_lVhykdcFMjbmdKrrQlymF57VaR4S_wHFKOiNI=
+reviewed: BNadxE58XIMvrJDIK-zj6c7WrLReoAS62h26vS_PEV0=
 source:
 - testsuites/fstests/fsscandir01/init.c
 stlib:

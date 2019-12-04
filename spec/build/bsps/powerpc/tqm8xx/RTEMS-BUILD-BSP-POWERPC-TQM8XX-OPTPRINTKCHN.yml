@@ -1,21 +1,21 @@
 actions:
 - get-string: null
 - define-unquoted: null
-format: '{}'
 active: true
 build-type: option
 default: CONS_CHN_SMC1
 default-by-variant: []
 derived: false
 enabled-by: []
+format: '{}'
 header: ''
-level: '1.16'
+level: 1.16
 links: []
 name: PRINTK_CHN
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: IfDU3-4WBysBya1J3DiByoZ65oXEzLnvk0ssAd4V6Fg=
 text: |
   (BSP--console driver) Must be defined to be one of CONS_CHN_SMC1, CONS_CHN_SMC2, CONS_CHN_SCC2, CONS_CHN_SCC3, or CONS_CHN_SCC4. Determines which device is used for output by printk(). If the port that printk() uses is also used for other I/O (e.g. if  PRINTK_CHN == CONSOLE_CHN), then both ports should use the same type of I/O, otherwise the drivers will likely conflict with each other.
 type: build

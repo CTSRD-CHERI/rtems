@@ -10,12 +10,12 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.58'
+level: 1.58
 links:
-- RTEMS-BUILD-BSP-TSTSMALLMEM: null
+- RTEMS-BUILD-BSP-TSTSMALLMEM: Lg42ddtDa4S7zu0Zuz1GSrvW18j9kPUrgfsLDgeVgeQ=
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: pVnbR2pgw2T-xDLkdyedl8I5una45jm34SmKHpF1q08=
 text: ''
 type: build

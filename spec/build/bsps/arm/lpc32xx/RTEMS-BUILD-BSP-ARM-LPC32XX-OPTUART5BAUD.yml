@@ -1,21 +1,21 @@
 actions:
 - get-integer: null
 - define: null
-format: '{}'
 active: true
 build-type: option
 default: 115200
 default-by-variant: []
 derived: false
 enabled-by: []
+format: '{}'
 header: ''
-level: '1.33'
+level: 1.33
 links: []
 name: LPC32XX_UART_5_BAUD
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: qlLJJ6mY9hLMFmZrK7w_bzx1iP9bj1faMROjO984vcU=
 text: |
   baud for UART 5
 type: build

@@ -9,12 +9,12 @@ enabled-by:
 header: ''
 includes: []
 install: []
-level: '1.4'
+level: 1.4
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: aOtziyC7cI0IMrkCp628zWsOAAest3tTcmauMkI-Elw=
 source:
 - bsps/sparc/erc32/start/bspsmp.c
 text: ''

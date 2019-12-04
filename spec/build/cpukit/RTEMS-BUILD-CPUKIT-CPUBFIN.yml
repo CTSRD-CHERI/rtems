@@ -27,12 +27,12 @@ install:
   - cpukit/score/cpu/bfin/include/rtems/score/cpu_asm.h
   - cpukit/score/cpu/bfin/include/rtems/score/cpuatomic.h
   - cpukit/score/cpu/bfin/include/rtems/score/cpuimpl.h
-level: '1.32'
+level: 1.32
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: dJZozOb8b5mP2KMBC7fNW1kCdsFTiDk0QcxGAd9h2gM=
+reviewed: 6fDLul_401W14Kryua01cUiHsI8rjZksNBWbwmM85Q8=
 source:
 - cpukit/score/cpu/bfin/bfin-exception-frame-print.c
 - cpukit/score/cpu/bfin/cpu_asm.S

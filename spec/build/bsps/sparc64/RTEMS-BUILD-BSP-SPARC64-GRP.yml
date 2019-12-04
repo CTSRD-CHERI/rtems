@@ -1,5 +1,9 @@
 active: true
 build-type: group
+derived: true
+enabled-by: []
+header: ''
+includes: []
 install:
 - destination: ${BSP_INCLUDEDIR}
   source:
@@ -47,19 +51,15 @@ install:
 - destination: ${BSP_INCLUDEDIR}/kernel
   source:
   - bsps/sparc64/include/kernel/align.h
-derived: true
-enabled-by: []
-header: ''
-includes: []
 ldflags: []
-level: '1.1'
+level: 1.1
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: 2gVDPIJj-P4u0UsqKoVfAxvvjcWg_xDTVwDj5-nhub0=
 text: ''
 top-level: false
 type: build
-use-before: []
 use-after: []
+use-before: []

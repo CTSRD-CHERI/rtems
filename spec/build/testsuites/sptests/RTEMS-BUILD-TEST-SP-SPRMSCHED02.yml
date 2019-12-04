@@ -9,12 +9,12 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.191'
+level: 1.191
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: jNON67_7EoEqWpLtWMYhHqn2LX1gQlgq_Zv8GAF2lh0=
 source:
 - testsuites/sptests/sprmsched02/init.c
 - testsuites/support/src/spin.c
@@ -22,5 +22,5 @@ stlib: []
 target: testsuites/sptests/sprmsched02.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

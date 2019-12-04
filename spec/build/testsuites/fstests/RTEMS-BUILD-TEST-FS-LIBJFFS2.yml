@@ -10,12 +10,12 @@ includes:
 - testsuites/fstests/jffs2_support
 install: []
 install-path: null
-level: '1.36'
+level: 1.36
 links: []
 normative: true
 order: -1
 ref: ''
-reviewed: VgBoqay-m7o_-pVXhYOZttPft5x_brtoEjiINQgIYw8=
+reviewed: HA_K9vNc-QEBAlq8QriRu8G4uPnGFzQU2Rhq3w1wM_I=
 source:
 - testsuites/fstests/jffs2_support/fs_support.c
 - testsuites/fstests/support/fstest_support.c

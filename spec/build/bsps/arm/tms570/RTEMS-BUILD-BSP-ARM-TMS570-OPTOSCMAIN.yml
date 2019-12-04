@@ -1,21 +1,21 @@
 actions:
 - get-integer: null
 - define: null
-format: '{}'
 active: true
 build-type: option
 default: 12000000
 default-by-variant: []
 derived: false
 enabled-by: []
+format: '{}'
 header: ''
-level: '1.13'
+level: 1.13
 links: []
 name: TMS570_OSCILLATOR_MAIN
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: Zo1Vn7Q9293BuRIxTrM9380d401OouRQnoa4GnOPfzQ=
 text: |
   main oscillator frequency in Hz
 type: build

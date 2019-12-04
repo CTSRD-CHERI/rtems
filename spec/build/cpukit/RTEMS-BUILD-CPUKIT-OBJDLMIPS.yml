@@ -9,12 +9,12 @@ enabled-by:
 header: ''
 includes: []
 install: []
-level: '1.67'
+level: 1.67
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: ooNsmzsLmlNozem9mo2FemIz3Sx1UyOPR19HinKvskI=
+reviewed: 6_o_Df1-bpvnBzLIvuJSb-o1P7UmwxinRleZNkZo7iM=
 source:
 - cpukit/libdl/rtl-mdreloc-mips.c
 text: ''

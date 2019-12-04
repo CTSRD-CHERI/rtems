@@ -9,17 +9,17 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.35'
+level: 1.35
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: wKpX2bSZlWUEEtPAnGGBEcldJDRw-JUQ2iLdlLOnwGU=
 source:
 - testsuites/sptests/sp35/priinv.c
 stlib: []
 target: testsuites/sptests/sp35.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

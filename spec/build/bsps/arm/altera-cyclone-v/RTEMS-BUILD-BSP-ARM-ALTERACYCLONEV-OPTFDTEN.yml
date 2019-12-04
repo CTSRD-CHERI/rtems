@@ -8,13 +8,13 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.12'
+level: 1.12
 links: []
 name: BSP_FDT_IS_SUPPORTED
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: SHF4WHnfdduOBx5-nlfVK6tg5sFWzO0IxQgiBYUcDAQ=
 text: |
   define if FDT is supported
 type: build

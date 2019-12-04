@@ -10,15 +10,15 @@ family: shsim
 header: ''
 includes: []
 install: []
-level: '1.5'
+level: 1.5
 links:
-- RTEMS-BUILD-BSP-OPTO2: null
-- RTEMS-BUILD-BSP-SH-SHSIM-GRP: null
-- RTEMS-BUILD-BSP-SH-SHSIM-TSTSIMSH2: null
+- RTEMS-BUILD-BSP-OPTO2: r0q7M48XBHR1ES8QcdIvYFB5cSdkfBWkJTXycbg43og=
+- RTEMS-BUILD-BSP-SH-SHSIM-GRP: L38-ZhcLrjr8MNadpve8mwJvtEPjG1AuWST4d73o2i4=
+- RTEMS-BUILD-BSP-SH-SHSIM-TSTSIMSH2: 8oL2muTzN1jw2btU6NMWmgOE1RbmNup4obbqiEUpqS8=
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: HraoA_zmOuk06E4Ss3MUQG9kWm0Or1jqzb5dRRIjvXc=
 source: []
 text: ''
 type: build

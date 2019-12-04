@@ -1,27 +1,27 @@
 actions:
 - get-integer: null
 - define: null
-format: '{:#010x}'
 active: true
 build-type: option
 default: 0
 default-by-variant:
-- value: 0x5e
+- value: 94
   variants:
   - arm/lpc17xx_ea.*
-- value: 0x5e
+- value: 94
   variants:
   - arm/lpc40xx_ea.*
 derived: false
 enabled-by: []
+format: '{:#010x}'
 header: ''
-level: '1.36'
+level: 1.36
 links: []
 name: BSP_USB_OTG_TRANSCEIVER_I2C_ADDR
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: R1RCbiBCkkOq2RD9xLSgvJxrZYgAXoiUw0jjyDrM2hk=
 text: |
   USB OTG transceiver I2C address used by USB stack
 type: build

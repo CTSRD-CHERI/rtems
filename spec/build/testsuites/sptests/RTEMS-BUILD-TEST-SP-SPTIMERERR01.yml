@@ -14,12 +14,12 @@ links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: 6TWzoIJW_hOu01eF_lTeSCrgCX2PdEyYUEQ2s0KuaGI=
 source:
 - testsuites/sptests/sptimer_err01/init.c
 stlib: []
 target: testsuites/sptests/sptimer_err01.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

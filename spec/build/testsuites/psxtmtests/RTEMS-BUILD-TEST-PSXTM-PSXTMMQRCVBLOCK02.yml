@@ -9,12 +9,12 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.25'
+level: 1.25
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: DMdZJ-0awckOAI53IfrtYH2HA5Z0qlNHln_3aImaPF4=
 source:
 - testsuites/psxtmtests/psxtmmqrcvblock02/init.c
 - testsuites/support/src/tmtests_empty_function.c
@@ -23,5 +23,5 @@ stlib: []
 target: testsuites/psxtmtests/psxtmmqrcvblock02.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

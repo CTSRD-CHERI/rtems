@@ -26,12 +26,12 @@ install:
   - cpukit/score/cpu/sparc/include/rtems/score/cpuimpl.h
   - cpukit/score/cpu/sparc/include/rtems/score/sparc.h
   - cpukit/score/cpu/sparc/include/rtems/score/sparcimpl.h
-level: '1.46'
+level: 1.46
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: wdfb4_gbGsSo4golOpcjF9aQXilgDhU43W5DBYs2BWY=
+reviewed: qFpoo1ONjnElTE3NPzGUE6DcNMoziL31t3Tz0YDrJKs=
 source:
 - cpukit/score/cpu/no_cpu/cpuidle.c
 - cpukit/score/cpu/sparc/access_le.c

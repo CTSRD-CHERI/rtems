@@ -11,13 +11,13 @@ default-by-variant:
 derived: false
 enabled-by: []
 header: ''
-level: '1.34'
+level: 1.34
 links: []
 name: QORIQ_HAS_HYPERVISOR_MODE
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: STAj0tX-5P15_9sr7gLZA49f0GDpWPPMOJLBtGA_RpQ=
 text: |
   defined if the processor core has a hypervisor mode
 type: build

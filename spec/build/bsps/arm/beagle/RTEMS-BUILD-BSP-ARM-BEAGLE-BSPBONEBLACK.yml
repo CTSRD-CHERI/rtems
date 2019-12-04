@@ -10,14 +10,14 @@ family: beagle
 header: ''
 includes: []
 install: []
-level: '1.5'
+level: 1.5
 links:
-- RTEMS-BUILD-BSP-ARM-BEAGLE-GRP: null
-- RTEMS-BUILD-BSP-OPTO2: null
+- RTEMS-BUILD-BSP-OPTO2: r0q7M48XBHR1ES8QcdIvYFB5cSdkfBWkJTXycbg43og=
+- RTEMS-BUILD-BSP-ARM-BEAGLE-GRP: suWVhwK6QvWAKhqv9nT1Ftn6GuJAuTe06CcojV-BzeQ=
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: FbOXCxTE-V4ct0mYB6JLrSkAAzA2QBfa06ew14S9m1I=
 source: []
 text: ''
 type: build

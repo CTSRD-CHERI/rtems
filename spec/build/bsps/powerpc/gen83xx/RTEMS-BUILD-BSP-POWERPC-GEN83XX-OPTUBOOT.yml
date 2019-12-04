@@ -17,13 +17,13 @@ default-by-variant:
 derived: false
 enabled-by: []
 header: ''
-level: '1.22'
+level: 1.22
 links: []
 name: HAS_UBOOT
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: c9U_NdA9Ym-Jypi0-ieM_tvPUc-8RZll_a0gQpPb6ho=
 text: |
   if defined, enables U-Boot support
 type: build

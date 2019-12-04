@@ -8,13 +8,13 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.11'
+level: 1.11
 links: []
 name: BENCHMARK_IRQ_PROCESSING
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: yJiiL4nBmpC8cFc7Mejg8Guivux28ZzoRXhmg3DrB10=
 text: |
   If set to !0, enable code to benchmark IRQ processing.
 type: build

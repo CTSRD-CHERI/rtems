@@ -4,18 +4,18 @@ actions:
 - define-condition: null
 active: true
 build-type: option
-default-by-variant: []
 default: false
+default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.96'
+level: 1.96
 links: []
 name: RTEMS_PARAVIRT
 normative: true
 order: 0
 ref: ''
-reviewed: 9iKTD9MU7-QiMPAlJCmVk7eU3-y18hQtA-QwJmoZaiY=
+reviewed: SlhBxIDMfZLW7y6wVfxymLuVFAW0XOjvO8h7Mhi-Xrw=
 text: |
   Enable the para-virtualization support
 type: build

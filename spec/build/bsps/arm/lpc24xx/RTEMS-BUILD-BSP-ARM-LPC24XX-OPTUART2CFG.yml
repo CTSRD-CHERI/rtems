@@ -17,13 +17,13 @@ default-by-variant:
 derived: false
 enabled-by: []
 header: ''
-level: '1.43'
+level: 1.43
 links: []
 name: LPC24XX_CONFIG_UART_2
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: ZwNdMBA-kMvSpNINVkZHnYeDJ7SgWq2utMi094L8X-I=
 text: |
   configuration for UART 2
 type: build

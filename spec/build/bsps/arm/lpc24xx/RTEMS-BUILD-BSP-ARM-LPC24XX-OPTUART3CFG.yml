@@ -14,13 +14,13 @@ default-by-variant:
 derived: false
 enabled-by: []
 header: ''
-level: '1.44'
+level: 1.44
 links: []
 name: LPC24XX_CONFIG_UART_3
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: TBoitmIykEosjmVpsj6ZcwQcFNL7zun4GGVQ8kDzD_Y=
 text: |
   configuration for UART 3
 type: build

@@ -3,17 +3,17 @@ actions:
 - define-condition: null
 active: true
 build-type: option
-default-by-variant: []
 default: null
+default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.24'
+level: 1.24
 links: []
 name: HAVE_STRING_H
 normative: true
 order: 0
 ref: ''
-reviewed: LycFkhJ6fE81VYpo9uvu8erz_w4k-jwW3kIGUuqrM6c=
+reviewed: 7ai82jw5QzLjVE5PoNe8JmDZtuhoB-mYHCQd8WKkZz0=
 text: ''
 type: build

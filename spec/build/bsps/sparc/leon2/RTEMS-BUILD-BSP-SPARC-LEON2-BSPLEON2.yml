@@ -10,14 +10,14 @@ family: leon2
 header: ''
 includes: []
 install: []
-level: '1.4'
+level: 1.4
 links:
-- RTEMS-BUILD-BSP-OPTO2: null
-- RTEMS-BUILD-BSP-SPARC-LEON2-GRP: null
+- RTEMS-BUILD-BSP-OPTO2: r0q7M48XBHR1ES8QcdIvYFB5cSdkfBWkJTXycbg43og=
+- RTEMS-BUILD-BSP-SPARC-LEON2-GRP: IK6r96dJyM_jryNf0Q98UOP0tYwsLdW6SfjAR0J8qAE=
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: z0oKESfaBBV0ZdjZp3kEcVRSrRE_Dxdby7krRirEEOQ=
 source: []
 text: ''
 type: build

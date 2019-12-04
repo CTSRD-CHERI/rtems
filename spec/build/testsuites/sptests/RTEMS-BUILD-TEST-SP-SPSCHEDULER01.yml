@@ -9,17 +9,17 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.192'
+level: 1.192
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: R7MwnaFk0ezg64D1x6pugR6s2Yb36M9OXe56OtEE77M=
 source:
 - testsuites/sptests/spscheduler01/init.c
 stlib: []
 target: testsuites/sptests/spscheduler01.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

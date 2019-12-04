@@ -11,13 +11,13 @@ default-by-variant:
 derived: false
 enabled-by: []
 header: ''
-level: '1.13'
+level: 1.13
 links: []
 name: MPC83XX_BOARD_HSC_CM01
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: vTMfcyVhogbok_j4tdas8-cbef605LVm3eHUuFWkiSY=
 text: |
   if defined, then use settings for the HSC_CM01 board
 type: build

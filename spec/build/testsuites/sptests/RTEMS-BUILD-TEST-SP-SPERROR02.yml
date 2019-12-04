@@ -9,17 +9,17 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.98'
+level: 1.98
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: kJwDUbg8xbEXZMVUlbQjkc8KozyHLVlanyWaV59q89I=
 source:
 - testsuites/sptests/sperror02/init.c
 stlib: []
 target: testsuites/sptests/sperror02.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

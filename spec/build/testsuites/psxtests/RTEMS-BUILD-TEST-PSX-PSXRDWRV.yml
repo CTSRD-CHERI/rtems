@@ -9,12 +9,12 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.85'
+level: 1.85
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: l6gkGLJ582pRNl1dAu9uZdjcUNRS-jK2nuTGC0IjkU8=
 source:
 - testsuites/psxtests/psxrdwrv/main.c
 - testsuites/psxtests/psxrdwrv/test.c
@@ -22,5 +22,5 @@ stlib: []
 target: testsuites/psxtests/psxrdwrv.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

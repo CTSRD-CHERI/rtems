@@ -1,20 +1,20 @@
 actions:
 - set-test-state:
     iconv: exclude
-    iconvopen: exclude
     iconvclose: exclude
+    iconvopen: exclude
 active: true
 build-type: option
-default-by-variant: []
 default: null
+default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.41'
+level: 1.41
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: v9QKh4lgczHjE-voT-zEEryeBRrO_ONsSSkfSDHwcoY=
 text: ''
 type: build

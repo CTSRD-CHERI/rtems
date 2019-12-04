@@ -1,7 +1,6 @@
 actions:
 - get-integer: null
 - define: null
-format: '{}'
 active: true
 build-type: option
 default: 1
@@ -11,14 +10,15 @@ default-by-variant:
   - powerpc/qoriq_e6500.*
 derived: false
 enabled-by: []
+format: '{}'
 header: ''
-level: '1.12'
+level: 1.12
 links: []
 name: QORIQ_BUS_CLOCK_DIVIDER
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: IFRAZHj7R_l5yzcMnocRmtbF_ySwSlC53B_WvplbM8g=
 text: |
   divider of the platform clock to get the clock most on-chip peripherals
 type: build

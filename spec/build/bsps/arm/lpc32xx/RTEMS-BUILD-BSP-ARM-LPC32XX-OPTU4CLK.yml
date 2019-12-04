@@ -1,21 +1,21 @@
 actions:
 - get-integer: null
 - define: null
-format: '{:#010x}'
 active: true
 build-type: option
-default: 0x00001386
+default: 4998
 default-by-variant: []
 derived: false
 enabled-by: []
+format: '{:#010x}'
 header: ''
-level: '1.26'
+level: 1.26
 links: []
 name: LPC32XX_CONFIG_U4CLK
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: 9LgMKugZ_ya1u163xq0n5_16VS2_LSDes2-eE1T9wCk=
 text: |
   clock configuration for UART 4
 type: build

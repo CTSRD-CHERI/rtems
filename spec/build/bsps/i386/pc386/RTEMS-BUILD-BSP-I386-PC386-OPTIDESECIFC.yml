@@ -8,13 +8,13 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.27'
+level: 1.27
 links: []
 name: IDE_USE_SECONDARY_INTERFACE
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: X6TQHB_HJUkWwLr_8I_wTfLVsxHXWyJcx9jhyqAG_nk=
 text: |
   Determines, whether RTEMS will try to use the secondary IDE interface.  Enable it, if: - you have a secondary IDE interface - and you have at least one disk attached to this interface - and you do want to access disks attached to this interface
 type: build

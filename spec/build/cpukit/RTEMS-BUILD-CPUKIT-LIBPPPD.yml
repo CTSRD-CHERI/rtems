@@ -11,12 +11,12 @@ includes:
 - cpukit/libnetworking
 install: []
 install-path: ${BSP_LIBDIR}
-level: '1.55'
+level: 1.55
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: mLYA4le0g0IAvmCI0yYhIuN6mCxedRpxdESK-pHDpF8=
+reviewed: rTrsd1YhmaPjaVJ1cuk1X_JOYCoJq3bzoYpZpR_rLvs=
 source:
 - cpukit/pppd/auth.c
 - cpukit/pppd/ccp.c

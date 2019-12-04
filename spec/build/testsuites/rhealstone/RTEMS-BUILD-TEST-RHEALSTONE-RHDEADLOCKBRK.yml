@@ -9,17 +9,17 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.2'
+level: 1.2
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: OZHFurE4mK8kM3YNdi7RZUMF_ulwzNutWN-5cAGUVP8=
 source:
 - testsuites/rhealstone/rhdeadlockbrk/deadlockbrk.c
 stlib: []
 target: testsuites/rhealstone/rhdeadlockbrk.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

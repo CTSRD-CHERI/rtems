@@ -21,12 +21,12 @@ install:
   - cpukit/include/pci/ids_extra.h
   - cpukit/include/pci/irq.h
   - cpukit/include/pci/pcireg.h
-level: '1.76'
+level: 1.76
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: FydMvoo_msnfH-sfAjcW9G-xypDdZI3rln_Ycj7ojn4=
+reviewed: IyHkK7wODZMyW3Xr-Nwm-v6liRKcREA50J7GjDZp4Xs=
 source:
 - cpukit/libmisc/shell/main_pci.c
 - cpukit/libpci/pci_access.c

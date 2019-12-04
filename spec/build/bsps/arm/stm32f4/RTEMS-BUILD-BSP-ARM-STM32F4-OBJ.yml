@@ -39,12 +39,12 @@ install:
   - bsps/arm/stm32f4/start/bsp_specs
   - bsps/arm/stm32f4/start/linkcmds.stm32f105rc
   - bsps/arm/stm32f4/start/linkcmds.stm32f4
-level: '1.5'
+level: 1.5
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: GhvEuaN6_HAtmeXV7_6PkTpgdfQt1PWZ6wflM6kswm4=
 source:
 - bsps/arm/shared/clock/clock-armv7m.c
 - bsps/arm/shared/irq/irq-armv7m.c

@@ -3,19 +3,19 @@ actions:
 - define: null
 active: true
 build-type: option
-format: '{}'
 default: 0
 default-by-variant: []
 derived: false
 enabled-by: []
+format: '{}'
 header: ''
-level: '1.48'
+level: 1.48
 links: []
 name: QORIQ_UART_BRIDGE_SLAVE_CORE
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: RHVc0q6SDQKzcg83Zojz7LgW0iZ2itRP8YUvVuUzY-I=
 text: |
   UART to Intercom bridge slave core index
 type: build

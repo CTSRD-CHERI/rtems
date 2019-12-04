@@ -8,13 +8,13 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.26'
+level: 1.26
 links: []
 name: IDE_USE_PRIMARY_INTERFACE
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: Q5xHCzncEGrGhszc2CXZD5zp-qyawc0cuJn6NYYJUZc=
 text: |
   Determines, whether RTEMS will try to use the primary IDE interface.  Disable it, if: - you have no primary IDE interface - or you have no disk attached to this interface - or you do not want to access disks attached to this interface
 type: build

@@ -1,20 +1,21 @@
 actions:
-- set-value: bsps/include bsps/${ARCH}/include bsps/${ARCH}/${BSP_FAMILY}/include
+- set-value: |
+    bsps/include bsps/${ARCH}/include bsps/${ARCH}/${BSP_FAMILY}/include
 - substitute: null
 - env-assign: null
 active: true
 build-type: option
-default-by-variant: []
 default: null
+default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.28'
+level: 1.28
 links: []
 name: BSP_INCLUDES
 normative: true
 order: 0
 ref: ''
-reviewed: SU7veJS8vcm3y9MNLrCwR-4j6P8zaxbfIAc-o9-O5V0=
+reviewed: EyfJPJuJpfx2brSCHIg_iMUNg7DsQSUpyR1DM4fK2T8=
 text: ''
 type: build

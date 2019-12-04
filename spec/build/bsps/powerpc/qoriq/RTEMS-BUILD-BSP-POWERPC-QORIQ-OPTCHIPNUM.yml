@@ -1,7 +1,6 @@
 actions:
 - get-integer: null
 - define: null
-format: '{}'
 active: true
 build-type: option
 default: 1020
@@ -11,14 +10,15 @@ default-by-variant:
   - powerpc/qoriq_e6500.*
 derived: false
 enabled-by: []
+format: '{}'
 header: ''
-level: '1.19'
+level: 1.19
 links: []
 name: QORIQ_CHIP_NUMBER
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: 3drCPuBOaX4_Z5rBxbI_sJm30fs7W--EmVFQ3vLLV30=
 text: |
   chip number, e.g. 1020, 2040, 2080, 4240
 type: build

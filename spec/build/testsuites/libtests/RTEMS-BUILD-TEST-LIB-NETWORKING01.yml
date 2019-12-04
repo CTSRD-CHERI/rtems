@@ -11,17 +11,17 @@ header: ''
 includes:
 - cpukit/libnetworking
 ldflags: []
-level: '1.94'
+level: 1.94
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: nAZAlJrHxt9ykGUfhuPQ3vvGrtj8DLtWsPMbwEwc0tc=
 source:
 - testsuites/libtests/networking01/init.c
 stlib: []
 target: testsuites/libtests/networking01.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

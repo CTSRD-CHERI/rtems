@@ -9,12 +9,12 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.12'
+level: 1.12
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: qYk8Jht_-pjIS4-tpL3KY6k9C6qFe1Mw1Nor_4dr7JM=
+reviewed: dhJiPPaWBV_TgHppchagwsCP7EI-c6-10dWAEGKV2Yg=
 source:
 - testsuites/fstests/fsimfsconfig03/init.c
 stlib: []

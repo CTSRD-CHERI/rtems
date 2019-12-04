@@ -9,12 +9,12 @@ enabled-by:
 header: ''
 includes: []
 install: []
-level: '1.6'
+level: 1.6
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: ra6YHhvPYi_DLwf29ZfOaobZ6KIuuqwR2wFdDHyjyA4=
 source:
 - bsps/arm/raspberrypi/start/bspsmp.c
 - bsps/arm/raspberrypi/start/bspsmp_init.c

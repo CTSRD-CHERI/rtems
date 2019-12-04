@@ -2,15 +2,7 @@ active: true
 build-type: script
 cflags: []
 cppflags: []
-ldflags: []
-stlib: []
-use-before: []
-use-after: []
-includes:
-- testsuites/libtests/dl06
-prepare-configure: null
-prepare-build: null
-do-configure: null
+derived: false
 do-build: |
   path = "testsuites/libtests/dl06/"
   pre_tar = path + "dl06-pre.tar"
@@ -38,17 +30,25 @@ do-build: |
   objs.append(dl06_sym_o)
   self.rtems_syms(bld, dl06_pre, dl06_sym_o)
   self.link_cc(bld, bic, objs, "testsuites/libtests/dl06.exe")
-derived: false
+do-configure: null
 enabled-by:
 - and:
   - not: TEST_DL06_EXCLUDE
   - BUILD_LIBDL
 header: ''
+includes:
+- testsuites/libtests/dl06
+ldflags: []
 level: '1.40'
 links: []
 normative: true
 order: 0
+prepare-build: null
+prepare-configure: null
 ref: ''
-reviewed: null
+reviewed: PqIqm3sBTPhj8ol9QNU-Tu9SZQi_DLVoMx98y3OVCbg=
+stlib: []
 text: ''
 type: build
+use-after: []
+use-before: []

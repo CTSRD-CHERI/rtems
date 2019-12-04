@@ -10,12 +10,12 @@ header: ''
 includes:
 - testsuites/fstests/imfs_support
 ldflags: []
-level: '1.18'
+level: 1.18
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: 5fDaQNvxz3bH_8DwhUVFqOn50G8mAD2vzae2AAaLOe0=
+reviewed: lOEl9MeLSaBTpbv62PxOKNlX6LIjWNNb16lTwb9Ka_A=
 source:
 - testsuites/fstests/fserror/test.c
 stlib: []

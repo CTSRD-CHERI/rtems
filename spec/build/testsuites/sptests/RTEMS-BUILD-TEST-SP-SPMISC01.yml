@@ -14,12 +14,12 @@ links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: AOWa_geRadPzztMls8nb3CO3vG_2RxJF9aO-16G5SAo=
 source:
 - testsuites/sptests/spmisc01/init.c
 stlib: []
 target: testsuites/sptests/spmisc01.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

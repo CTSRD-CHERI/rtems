@@ -1,6 +1,5 @@
 active: true
 build-type: group
-install: []
 derived: false
 enabled-by:
 - BUILD_TESTS
@@ -9,10 +8,11 @@ header: ''
 includes:
 - testsuites/support/include
 - testsuites/fstests/support
+install: []
 ldflags:
 - -Wl,--wrap=printf
 - -Wl,--wrap=puts
-level: '1.1'
+level: 1.1
 links:
 - RTEMS-BUILD-TEST-FS-FSBDPART01: XI3scjunt6OmV0ruXumEW8QVPRYoQO84AlCO5HWas5M=
 - RTEMS-BUILD-TEST-FS-FSCLOSE01: pND99ZT2xisy0K3ucoiS_VcNXBnHPwyfUki2hGMFcQ8=
@@ -79,7 +79,7 @@ links:
 normative: true
 order: 0
 ref: ''
-reviewed: UTFBIL1OgHydPVjaimpwXgFn91oTjUmIQttAMTGqLgE=
+reviewed: BAGrZlQnPeG1q-yfAqylx9_Hq_JPqduyyIkvpAJltps=
 text: ''
 top-level: false
 type: build

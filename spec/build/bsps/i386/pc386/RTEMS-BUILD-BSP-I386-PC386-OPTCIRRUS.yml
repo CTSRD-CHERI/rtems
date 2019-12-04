@@ -9,13 +9,13 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.17'
+level: 1.17
 links: []
 name: USE_CIRRUS_GD5446
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: gd0jqY9XJ6SSV_GVCdaOTixAS23wi1nYPg9iq56LBCE=
 text: |
   If defined, enables use of the Cirrus GD5446 controller rather than the controller utilizing Vesa Bios Extensions - real mode interface.  NOTE: This has only been tested on Qemu.
 type: build

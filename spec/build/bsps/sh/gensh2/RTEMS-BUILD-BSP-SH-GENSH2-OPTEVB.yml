@@ -8,13 +8,13 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.4'
+level: 1.4
 links: []
 name: STANDALONE_EVB
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: QQejaPEvuj4dP_rCRosFawHPcoApurWhIRqylOj9soI=
 text: |
   If defined, compiles code to jump-start from FLASH, without a monitor
 type: build

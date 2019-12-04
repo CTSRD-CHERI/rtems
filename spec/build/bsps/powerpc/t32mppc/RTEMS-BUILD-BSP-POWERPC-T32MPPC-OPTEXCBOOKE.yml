@@ -8,13 +8,13 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.4'
+level: 1.4
 links: []
 name: PPC_EXC_CONFIG_BOOKE_ONLY
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: S6iOIM5sLxSpF_z3HsQyBXfFRWHVeGaJisU1QOm2r9k=
 text: |
   only support Book E exception types
 type: build

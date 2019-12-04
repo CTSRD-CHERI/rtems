@@ -10,12 +10,12 @@ header: ''
 includes:
 - cpukit/libnetworking
 install: []
-level: '1.11'
+level: 1.11
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: xKHyjo0tznoml4uWFdimtzsJe_IjXzF84qv9RYqS-VE=
 source:
 - bsps/sparc/leon3/net/leon_open_eth.c
 - bsps/sparc/leon3/net/leon_smc91111.c

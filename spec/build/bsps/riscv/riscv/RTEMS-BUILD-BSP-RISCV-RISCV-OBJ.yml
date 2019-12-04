@@ -23,12 +23,12 @@ install:
 - destination: ${BSP_LIBDIR}
   source:
   - bsps/riscv/riscv/start/bsp_specs
-level: '1.18'
+level: 1.18
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: uEIxQMIaQSue2PdVzeNaMiDQ79w1rsmf1UYN2ySmsR4=
 source:
 - bsps/riscv/riscv/clock/clockdrv.c
 - bsps/riscv/riscv/console/console-config.c

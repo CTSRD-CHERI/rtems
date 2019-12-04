@@ -8,13 +8,13 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.24'
+level: 1.24
 links: []
 name: BSP_GDB_STUB
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: P9y4MauD5OQxwX__Z0ao6hYl-iRNdbUlGeM0f6N7fNU=
 text: |
   Defined by default. Enables use of the GDB stub for debugging via a serial port.
 type: build

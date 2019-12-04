@@ -1,5 +1,4 @@
 active: true
-active: true
 build-type: library
 cflags: []
 cppflags: []
@@ -10,12 +9,12 @@ header: ''
 includes: []
 install: []
 install-path: null
-level: '1.73'
+level: 1.73
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: P-1q3AP6yS9HlsN4_5T8tf-ZAvg5Ml0ck8amxEF9osE=
 source:
 - testsuites/libtests/dl08-o3.c
 - testsuites/libtests/dl08-o5.c

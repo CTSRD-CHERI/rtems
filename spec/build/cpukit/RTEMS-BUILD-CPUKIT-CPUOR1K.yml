@@ -20,12 +20,12 @@ install:
   - cpukit/score/cpu/or1k/include/rtems/score/cpuimpl.h
   - cpukit/score/cpu/or1k/include/rtems/score/or1k-utility.h
   - cpukit/score/cpu/or1k/include/rtems/score/or1k.h
-level: '1.41'
+level: 1.41
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: EMTx_PdHN2OJi6-JTcl8b4iC6LSl7T8-IXUtkp0f-gs=
+reviewed: Y_uEGojQpyKBIdnBhBfJF-dVAnfCvnyJ5Vj91acpCWE=
 source:
 - cpukit/score/cpu/no_cpu/cpucounterfrequency.c
 - cpukit/score/cpu/or1k/cpu.c

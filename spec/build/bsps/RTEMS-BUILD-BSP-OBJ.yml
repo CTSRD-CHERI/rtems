@@ -56,15 +56,15 @@ install:
   source:
   - bsps/include/rtems/zilog/z8036.h
   - bsps/include/rtems/zilog/z8530.h
-level: '1.16'
+level: 1.16
 links:
-- RTEMS-BUILD-BSP-OBJMPCI: null
-- RTEMS-BUILD-BSP-OBJNET: null
-- RTEMS-BUILD-BSP-OBJNETNOSMP: null
+- RTEMS-BUILD-BSP-OBJMPCI: kaawfISmul7pfsXlSgtkyqzcb2Hoa53-1s4ZOqBbgQQ=
+- RTEMS-BUILD-BSP-OBJNET: iryGTt_JOK6p6czcYrKG4RXDjHwJAIEQQEYXScqlW_I=
+- RTEMS-BUILD-BSP-OBJNETNOSMP: ukTx6D6CT1pgMQsamfCNIN5L7yCYrBqDPDSrN1V6inA=
 normative: true
 order: 0
 ref: ''
-reviewed: G3nZiEJdrxpN0oqcuDq8o0pt756DYfMk2UECU6ULObA=
+reviewed: dv9x_yFxG5D9-ykb0z-rrDsEsRrJHW_w56O8tMPnf-c=
 source:
 - bsps/shared/dev/display/disp_hcms29xx.c
 - bsps/shared/dev/display/font_hcms29xx.c

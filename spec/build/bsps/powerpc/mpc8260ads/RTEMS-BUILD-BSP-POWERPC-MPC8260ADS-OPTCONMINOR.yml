@@ -1,21 +1,21 @@
 actions:
 - get-string: null
 - define-unquoted: null
-format: '{}'
 active: true
 build-type: option
 default: SCC2_MINOR
 default-by-variant: []
 derived: false
 enabled-by: []
+format: '{}'
 header: ''
-level: '1.4'
+level: 1.4
 links: []
 name: CONSOLE_MINOR
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: uKPeL0s2RxAg-dLceyPAtYNzeBXoXv_oUYMa-l6-4LM=
 text: |
   (BSP--console driver) Must be defined to be one of SMC1_MINOR, SMC2_MINOR, SCC2_MINOR, SCC3_MINOR, or SCC4_MINOR.  Determines which device will be registered as /dev/console.
 type: build

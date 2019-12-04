@@ -10,12 +10,12 @@ header: ''
 includes:
 - cpukit/libnetworking
 install: []
-level: '1.8'
+level: 1.8
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: CoiqUxvBFBd1p7hLLt27m34y-seEuh2C-sq2bfbA4JM=
 source:
 - bsps/shared/grlib/net/greth.c
 - bsps/shared/grlib/net/network_interface_add.c

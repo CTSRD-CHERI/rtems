@@ -8,13 +8,13 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.16'
+level: 1.16
 links: []
 name: ZYNQ_CONSOLE_USE_INTERRUPTS
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: CDzW1YHtXdaIysThjVwjnWkiCQ8KuXLSZxcKUGUMUlY=
 text: |
   use interrupt driven mode for console devices (used by default)
 type: build

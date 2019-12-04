@@ -10,12 +10,12 @@ header: ''
 includes:
 - cpukit/libnetworking
 install: []
-level: '1.5'
+level: 1.5
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: FhrvMuSFq3kJFWT2WpaPT1o75U2Uw2DImBlr64y5NXM=
 source:
 - bsps/m68k/mvme167/net/network.c
 text: ''

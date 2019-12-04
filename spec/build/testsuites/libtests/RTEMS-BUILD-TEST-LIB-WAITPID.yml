@@ -9,12 +9,12 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.155'
+level: 1.155
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: ZWbns7V6vcTCqR7xjuNEURWUvVBcNzWBRuTYfoBXy5k=
 source:
 - testsuites/libtests/POSIX/waitpid.c
 stlib: []

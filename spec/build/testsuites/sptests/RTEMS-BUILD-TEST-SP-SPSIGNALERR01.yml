@@ -9,12 +9,12 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.198'
+level: 1.198
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: 7jf15pr3c194ayQ9N5t6xDfOmvUj-N1ynNeZ1l-i6gk=
 source:
 - testsuites/sptests/spsignal_err01/init.c
 - testsuites/sptests/spsignal_err01/isr.c
@@ -22,5 +22,5 @@ stlib: []
 target: testsuites/sptests/spsignal_err01.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

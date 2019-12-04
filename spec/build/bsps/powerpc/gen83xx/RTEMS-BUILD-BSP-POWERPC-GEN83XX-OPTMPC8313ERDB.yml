@@ -11,13 +11,13 @@ default-by-variant:
 derived: false
 enabled-by: []
 header: ''
-level: '1.16'
+level: 1.16
 links: []
 name: MPC83XX_BOARD_MPC8313ERDB
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: kl02fxpzR5jgllRS-j85-SVIHN_p_fSI0jyEn5JvApg=
 text: |
   if defined, then use settings for the MPC8313ERDB board
 type: build

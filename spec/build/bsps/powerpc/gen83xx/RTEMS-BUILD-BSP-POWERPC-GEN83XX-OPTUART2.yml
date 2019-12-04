@@ -14,7 +14,7 @@ name: BSP_USE_UART2
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: f2sLOJrTPvZIqjkEr39zdfd-CsA1nzQfhfyFaGrFIVw=
 text: |
   if defined, enables UART2
 type: build

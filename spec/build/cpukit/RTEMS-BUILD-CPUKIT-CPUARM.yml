@@ -28,12 +28,12 @@ install:
   - cpukit/score/cpu/arm/include/rtems/score/cpuatomic.h
   - cpukit/score/cpu/arm/include/rtems/score/cpuimpl.h
   - cpukit/score/cpu/arm/include/rtems/score/paravirt.h
-level: '1.31'
+level: 1.31
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: gHTLjTAlcrz62tV08i7BGMVbbdt6E_dESwezxBhpm_Q=
+reviewed: exo-x1CufbPouDnxNnT8sHNvU6_M1F5cIAnEz8WB12U=
 source:
 - cpukit/score/cpu/arm/__aeabi_read_tp.c
 - cpukit/score/cpu/arm/arm-context-validate.S

@@ -9,17 +9,17 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.78'
+level: 1.78
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: o3Ev6e65CMsjtAedh9lBhe1-rHZtuyl9gi_rKiXLehg=
 source:
 - testsuites/psxtests/psxmutexattr01/init.c
 stlib: []
 target: testsuites/psxtests/psxmutexattr01.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

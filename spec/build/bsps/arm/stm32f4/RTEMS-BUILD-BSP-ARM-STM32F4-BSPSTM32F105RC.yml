@@ -10,15 +10,15 @@ family: stm32f4
 header: ''
 includes: []
 install: []
-level: '1.3'
+level: 1.3
 links:
-- RTEMS-BUILD-BSP-ARM-STM32F4-GRP: null
-- RTEMS-BUILD-BSP-ARM-STM32F4-TSTSTM32F105RC: null
-- RTEMS-BUILD-BSP-OPTO2: null
+- RTEMS-BUILD-BSP-OPTO2: r0q7M48XBHR1ES8QcdIvYFB5cSdkfBWkJTXycbg43og=
+- RTEMS-BUILD-BSP-ARM-STM32F4-GRP: 2oFqwvbH4FmxGgICWwxNkTUK73oKmsJSgCrU_B6VAO8=
+- RTEMS-BUILD-BSP-ARM-STM32F4-TSTSTM32F105RC: l1dwJdy4vZD4N9o8IAQRHy0V2vriXfnYNU2dJEqCuhg=
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: qX2xzf6i_zLzqZId6nQCopdxF9n0nzeRxQ9aFNr1nVg=
 source: []
 text: ''
 type: build

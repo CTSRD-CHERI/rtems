@@ -14,13 +14,13 @@ default-by-variant:
 derived: false
 enabled-by: []
 header: ''
-level: '1.16'
+level: 1.16
 links: []
 name: __ppc_generic
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: Xpud-_fVm_pO43EIKmV02-914SoF6OFyj9Y0Z62lkfs=
 text: |
   Define when generic PPC -- undefined for others
 type: build

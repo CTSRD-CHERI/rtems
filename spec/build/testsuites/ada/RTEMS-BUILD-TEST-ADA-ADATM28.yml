@@ -1,29 +1,29 @@
 active: true
-build-type: ada-test-program
+ada-main: testsuites/ada/tmtests/tm28/tm28.adb
+ada-object-directory: testsuites/ada/tmtests/tm28
 adaflags: []
-cflags: []
-cppflags: []
-includes: []
 adaincludes:
 - cpukit/include/adainclude
 - testsuites/ada/support
-ldflags: []
-stlib: []
-ada-object-directory: testsuites/ada/tmtests/tm28
-source:
-- testsuites/ada/tmtests/tm28/init.c
-ada-main: testsuites/ada/tmtests/tm28/tm28.adb
-target: testsuites/ada/ada_tm28.exe
+build-type: ada-test-program
+cflags: []
+cppflags: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.81'
+includes: []
+ldflags: []
+level: 1.81
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: pIiaw9OYbpaQlD9xXfpjytWC4X2xHDapzgRl5_wSCMI=
+source:
+- testsuites/ada/tmtests/tm28/init.c
+stlib: []
+target: testsuites/ada/ada_tm28.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

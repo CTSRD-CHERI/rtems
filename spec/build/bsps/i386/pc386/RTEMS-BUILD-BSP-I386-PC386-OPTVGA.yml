@@ -9,13 +9,13 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.29'
+level: 1.29
 links: []
 name: USE_VGA
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: VPyaCU9P78WRUGEiMBZHQPLf63tknmfKQReiU_kSEI4=
 text: |
   If defined, enables use of the very basic VGA driver for framebuffer support rather than the controller utilizing Vesa Bios Extensions - real mode interface.
 type: build

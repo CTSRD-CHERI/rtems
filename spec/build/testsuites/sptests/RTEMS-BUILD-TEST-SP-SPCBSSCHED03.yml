@@ -9,12 +9,12 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.81'
+level: 1.81
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: GRlteHYryCodCP_-yhh7p6R2cU3mOam_DMgRw_85o7M=
 source:
 - testsuites/sptests/spcbssched03/init.c
 - testsuites/sptests/spcbssched03/tasks_periodic.c
@@ -23,5 +23,5 @@ stlib: []
 target: testsuites/sptests/spcbssched03.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

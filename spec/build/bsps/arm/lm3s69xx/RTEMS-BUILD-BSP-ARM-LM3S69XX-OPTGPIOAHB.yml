@@ -14,13 +14,13 @@ default-by-variant:
 derived: false
 enabled-by: []
 header: ''
-level: '1.11'
+level: 1.11
 links: []
 name: LM3S69XX_USE_AHB_FOR_GPIO
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: mW1wM10D7tU4QefrNHPW7-gLmLZpweu6pjE0Uccd0iI=
 text: |
   use AHB apperture to access GPIO registers
 type: build

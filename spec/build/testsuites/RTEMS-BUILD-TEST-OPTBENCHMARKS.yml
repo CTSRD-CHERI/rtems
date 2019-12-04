@@ -3,18 +3,18 @@ actions:
 - env-enable: null
 active: true
 build-type: option
-default-by-variant: []
 default: false
+default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.4'
+level: 1.4
 links: []
 name: BUILD_BENCHMARKS
 normative: true
 order: -1000
 ref: ''
-reviewed: vfe-pauXu5mbwORsHjGGdQRu-V6ohmxgEX0ppiN3vYQ=
+reviewed: 5E6anmk09XjmvNUDbQBlRRISUEA9Z1yicJFYZ2lmoS0=
 text: |
   Build the benchmark programs (may be also enabled by BUILD_TESTS)
 type: build

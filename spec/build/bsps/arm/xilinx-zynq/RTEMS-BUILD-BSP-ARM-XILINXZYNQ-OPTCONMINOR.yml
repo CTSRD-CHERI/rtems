@@ -8,13 +8,13 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.17'
+level: 1.17
 links: []
 name: BSP_CONSOLE_MINOR
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: OE1bxbBxEVWen1g-mwXBGVcQCkHPu_MYdoC2TP2_Ak8=
 text: |
   minor number of console device
 type: build

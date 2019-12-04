@@ -5,19 +5,19 @@ actions:
 - env-assign: LINKCMDS_ALIGN_DIRECTIVE
 active: true
 build-type: option
-default-by-variant: []
 default: null
+default-by-variant: []
 derived: false
 enabled-by:
 - gcc
 header: ''
-level: '1.27'
+level: 1.27
 links: []
 name: null
 normative: true
 order: 0
 ref: ''
-reviewed: qK46HrQo2n8gQ1cV69dj5tYzb4P61wHPIOC67vvtj9U=
+reviewed: 6sfxfF3paAAmMa9WHXvdkLXhAkIti4gs0C9VYV_COWI=
 text: |
   Provides GCC and GNU ld support.
 type: build

@@ -20,12 +20,12 @@ install:
   - cpukit/score/cpu/epiphany/include/rtems/score/cpuimpl.h
   - cpukit/score/cpu/epiphany/include/rtems/score/epiphany-utility.h
   - cpukit/score/cpu/epiphany/include/rtems/score/epiphany.h
-level: '1.33'
+level: 1.33
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: ddT57T5odSCBsDFFiv48ScS4GzCZITBFGLYFCJjZtnU=
+reviewed: OMGiFAdWqDbdyUFXQZCynlmFs16Tj8rtu3ycxZ2HMPE=
 source:
 - cpukit/score/cpu/epiphany/cpu.c
 - cpukit/score/cpu/epiphany/epiphany-context-initialize.c

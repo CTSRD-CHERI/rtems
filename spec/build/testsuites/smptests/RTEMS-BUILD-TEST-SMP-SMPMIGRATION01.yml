@@ -10,17 +10,17 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.26'
+level: 1.26
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: 5FCkUGP9xvAfQx7UY7RYdnnCgqP_5jFlYjVNKWHcNNA=
 source:
 - testsuites/smptests/smpmigration01/init.c
 stlib: []
 target: testsuites/smptests/smpmigration01.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

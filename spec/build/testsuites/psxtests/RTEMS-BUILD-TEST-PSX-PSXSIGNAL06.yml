@@ -10,17 +10,17 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.96'
+level: 1.96
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: gy1HArAT7EEpZvQqvNpcj5B8gQZdGxVq6ZDFM4ub9DQ=
 source:
 - testsuites/psxtests/psxsignal06/init.c
 stlib: []
 target: testsuites/psxtests/psxsignal06.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

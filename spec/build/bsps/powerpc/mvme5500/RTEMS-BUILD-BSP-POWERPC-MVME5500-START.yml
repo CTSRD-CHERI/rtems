@@ -1,11 +1,8 @@
 active: true
 asflags: []
-cppflags: []
-includes: []
 build-type: script
-prepare-configure: null
-prepare-build: null
-do-configure: null
+cppflags: []
+derived: false
 do-build: |
   preload_o = "bsps/powerpc/shared/start/preload.o"
   self.asm(bld, bic, "bsps/powerpc/shared/start/preload.S", preload_o)
@@ -19,14 +16,17 @@ do-build: |
       target=target,
   )
   bld.install_files("${BSP_LIBDIR}", target)
-derived: false
+do-configure: null
 enabled-by: []
 header: ''
-level: '1.5'
+includes: []
+level: 1.5
 links: []
 normative: true
 order: 100
+prepare-build: null
+prepare-configure: null
 ref: ''
-reviewed: null
+reviewed: x6hvJ1U7ZMtSZaKu65Gjc2b5LrD8cat4zK7bPcxdFtg=
 text: ''
 type: build

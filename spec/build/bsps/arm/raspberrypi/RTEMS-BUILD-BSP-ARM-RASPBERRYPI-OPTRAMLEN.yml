@@ -3,21 +3,21 @@ actions:
 - assert-uint32: null
 - env-assign: null
 - format-and-define: null
-format: '{:#010x}'
 active: true
 build-type: option
 default: 268435456
 default-by-variant: []
 derived: false
 enabled-by: []
+format: '{:#010x}'
 header: ''
-level: '1.12'
+level: 1.12
 links: []
 name: RPI_RAM_LENGTH_AVAILABLE
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: xcOvgmt_WLOi76AAmvqSuVRnypVYcW9rnkQXhOWBT_s=
 text: |
   RAM region length
 type: build

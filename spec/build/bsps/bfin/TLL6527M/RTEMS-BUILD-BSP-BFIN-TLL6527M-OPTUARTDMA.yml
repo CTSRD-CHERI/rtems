@@ -8,13 +8,13 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.7'
+level: 1.7
 links: []
 name: UART_USE_DMA
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: CVxU4KbYiS8Fhnoor7bHMgDmLz7mJqAZW4X8xW6bSPU=
 text: |
-  The uart driver can operate in dma mode with interrupts.  Set to 1 if DMA operation is required 
+  The uart driver can operate in dma mode with interrupts.  Set to 1 if DMA operation is required
 type: build

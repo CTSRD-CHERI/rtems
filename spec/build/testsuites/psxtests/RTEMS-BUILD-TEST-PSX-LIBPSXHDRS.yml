@@ -1,5 +1,4 @@
 active: true
-active: true
 build-type: library
 cflags: []
 cppflags: []
@@ -10,12 +9,12 @@ header: ''
 includes: []
 install: []
 install-path: null
-level: '1.2'
+level: 1.2
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: L2pYpd146pZiV0ddTE9zXMweYYEO4h4GKUvuU9VV1yA=
 source:
 - testsuites/psxtests/psxhdrs/devctl/posix_devctl.c
 - testsuites/psxtests/psxhdrs/pthread/pthread_attr_destroy.c

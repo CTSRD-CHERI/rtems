@@ -10,12 +10,12 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.98'
+level: 1.98
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: tGZH_ImuzSxtu_tFWGns_SUB_534gkFuMdvNbgOlg0Q=
 source:
 - testsuites/psxtests/psxsignal08/main.c
 - testsuites/psxtests/psxsignal08/rtems_config.c
@@ -23,5 +23,5 @@ stlib: []
 target: testsuites/psxtests/psxsignal08.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

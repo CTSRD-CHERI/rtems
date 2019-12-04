@@ -11,13 +11,13 @@ default-by-variant:
 derived: false
 enabled-by: []
 header: ''
-level: '1.13'
+level: 1.13
 links: []
 name: MPC5200_BOARD_BRS6L
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: q1_PH98ygLW8w_ldWhRoEd70x-ybnWJY0HLYomyg4yY=
 text: |
   enable settings for BRS6L
 type: build

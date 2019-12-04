@@ -1,29 +1,29 @@
 active: true
-build-type: ada-test-program
+ada-main: testsuites/ada/tmtests/tm17/tm17.adb
+ada-object-directory: testsuites/ada/tmtests/tm17
 adaflags: []
-cflags: []
-cppflags: []
-includes: []
 adaincludes:
 - cpukit/include/adainclude
 - testsuites/ada/support
-ldflags: []
-stlib: []
-ada-object-directory: testsuites/ada/tmtests/tm17
-source:
-- testsuites/ada/tmtests/tm17/init.c
-ada-main: testsuites/ada/tmtests/tm17/tm17.adb
-target: testsuites/ada/ada_tm17.exe
+build-type: ada-test-program
+cflags: []
+cppflags: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.72'
+includes: []
+ldflags: []
+level: 1.72
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: DFAcVxDvZPoR3UsmXbFlhwl8ACoyzDNij-05EBNmAoI=
+source:
+- testsuites/ada/tmtests/tm17/init.c
+stlib: []
+target: testsuites/ada/ada_tm17.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

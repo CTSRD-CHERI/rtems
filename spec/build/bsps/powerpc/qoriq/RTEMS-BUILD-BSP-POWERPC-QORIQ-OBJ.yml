@@ -41,7 +41,7 @@ links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: pBTN3pMGCOqzfWvrJ6yF-3_mn35Snbby-JORHAB-OUo=
 source:
 - bsps/powerpc/qoriq/btimer/btimer.c
 - bsps/powerpc/qoriq/clock/clock-config.c

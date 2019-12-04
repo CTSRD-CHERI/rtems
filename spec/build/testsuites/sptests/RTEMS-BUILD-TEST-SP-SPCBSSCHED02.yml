@@ -14,7 +14,7 @@ links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: YSKe6y4tvvcaaLfGLxE1JPcPakgsrFXmvASaeXrLodc=
 source:
 - testsuites/sptests/spcbssched02/init.c
 - testsuites/sptests/spcbssched02/task_periodic.c
@@ -22,5 +22,5 @@ stlib: []
 target: testsuites/sptests/spcbssched02.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

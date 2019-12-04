@@ -3,16 +3,16 @@ asflags: []
 build-type: start-file
 cppflags: []
 derived: true
-install-path: ${BSP_LIBDIR}
 enabled-by: []
 header: ''
 includes: []
-level: '1.12'
+install-path: ${BSP_LIBDIR}
+level: 1.12
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: NULL
+reviewed: AipMKk38Z5ZGQg7LzmL-zkvYoMn37ZRyFNXV9rjTe1I=
 source:
 - bsps/m68k/genmcf548x/start/start.S
 target: start.o

@@ -9,12 +9,12 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.7'
+level: 1.7
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: Rw50-kcMfbUESc3CRYG6PhTK-9dv4SoCrObNQN6vx9Y=
 source:
 - testsuites/sptests/sp06/init.c
 - testsuites/sptests/sp06/task1.c
@@ -24,5 +24,5 @@ stlib: []
 target: testsuites/sptests/sp06.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

@@ -9,12 +9,12 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.22'
+level: 1.22
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: fPyTPjJ8Q9UIn64OPgVzGBYGJqOKaoc0FDwnn7PVSuE=
 source:
 - testsuites/psxtmtests/psxtmkey02/init.c
 - testsuites/support/src/tmtests_empty_function.c
@@ -23,5 +23,5 @@ stlib: []
 target: testsuites/psxtmtests/psxtmkey02.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

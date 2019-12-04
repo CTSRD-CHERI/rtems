@@ -10,12 +10,12 @@ header: ''
 includes:
 - cpukit/libnetworking
 install: []
-level: '1.3'
+level: 1.3
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: gFb6AqEyl76QARW9XkbEwHA9jVwzaM1qdMO0Qt1G9XA=
 source:
 - bsps/powerpc/mpc8260ads/net/if_hdlcsubr.c
 - bsps/powerpc/mpc8260ads/net/network.c

@@ -22,12 +22,12 @@ install:
   - cpukit/score/cpu/v850/include/rtems/score/cpuatomic.h
   - cpukit/score/cpu/v850/include/rtems/score/cpuimpl.h
   - cpukit/score/cpu/v850/include/rtems/score/v850.h
-level: '1.47'
+level: 1.47
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: fV9Rn87Tbm126cM3WWbY-g04YvTaMY6H6YDBsg2-24c=
+reviewed: DrGX0cBY7J6YqegS48gZZ0AzyfmL8X-OKn_mlsH_6fg=
 source:
 - cpukit/score/cpu/no_cpu/cpucounterfrequency.c
 - cpukit/score/cpu/no_cpu/cpucounterread.c

@@ -14,7 +14,7 @@ links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: DSQM86VR6TJ0qCegPBI92QgklD133HbYanJTJHTN9Gk=
 source:
 - testsuites/sptests/sp11/init.c
 - testsuites/sptests/sp11/task1.c
@@ -24,5 +24,5 @@ stlib: []
 target: testsuites/sptests/sp11.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

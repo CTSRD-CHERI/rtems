@@ -11,13 +11,13 @@ default-by-variant:
 derived: false
 enabled-by: []
 header: ''
-level: '1.25'
+level: 1.25
 links: []
 name: RISCV_ENABLE_FRDME310ARTY_SUPPORT
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: 9YAk8cSwJnRe9pSyy4O8iboLHoy-NrMfpkZWuR0nIKg=
 text: |
   enables support sifive Freedom E310 Arty board if defined to a non-zero value,otherwise it is disabled (disabled by default)
 type: build

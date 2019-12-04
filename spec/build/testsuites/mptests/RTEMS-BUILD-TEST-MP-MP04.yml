@@ -14,7 +14,7 @@ links: []
 normative: true
 order: 0
 ref: ''
-reviewed: qxpC1qgz0pg2W-_8dbIrzQDcd0yUnKZIvR89yxEOpSc=
+reviewed: IXJi3ajNWmjJHivmb1_oskKsw7tl5l9pbBZf6Wwdtes=
 source:
 - testsuites/mptests/mp04/init1.c
 - testsuites/mptests/mp04/init2.c
@@ -23,5 +23,5 @@ stlib: []
 target: testsuites/mptests/mp04.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

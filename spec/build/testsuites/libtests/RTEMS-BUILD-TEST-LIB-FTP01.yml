@@ -11,19 +11,19 @@ header: ''
 includes:
 - cpukit/libnetworking
 ldflags: []
-level: '1.55'
+level: 1.55
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: 8JODHwXBtXXf2yX15p482zPwgOqAY3txYtIOynlF_NM=
 source:
 - testsuites/libtests/ftp01/init.c
 stlib: []
 target: testsuites/libtests/ftp01.exe
 text: ''
 type: build
-use-before: []
 use-after:
 - ftpd
 - ftpfs
+use-before: []

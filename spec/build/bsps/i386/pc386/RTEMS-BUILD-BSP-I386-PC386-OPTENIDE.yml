@@ -9,13 +9,13 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.22'
+level: 1.22
 links: []
 name: BSP_ENABLE_IDE
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: nIw1L5aFrL6WaN-aVFkYIb9MBaMofdmNY850YksFf9M=
 text: |
   Set if IDE support is enabled.
 type: build

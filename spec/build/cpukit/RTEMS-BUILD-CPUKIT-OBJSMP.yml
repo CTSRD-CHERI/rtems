@@ -9,12 +9,12 @@ enabled-by:
 header: ''
 includes: []
 install: []
-level: '1.79'
+level: 1.79
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: d5jwFoggXfs3-55FTkkH73ojg1mvGPUz2WuNizd1234=
+reviewed: M_3OTF2rCYF-CAcdXAGqjUq2gnboDe56ayl3atzm9ak=
 source:
 - cpukit/score/src/percpustatewait.c
 - cpukit/score/src/profilingsmplock.c

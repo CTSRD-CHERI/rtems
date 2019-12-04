@@ -11,13 +11,13 @@ default-by-variant:
 derived: false
 enabled-by: []
 header: ''
-level: '1.41'
+level: 1.41
 links: []
 name: LPC24XX_STOP_USB
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: hiAnMySSDqIhdRmDjIS8Wo_fUqpxZKRy-Ik0YP9zI0M=
 text: |
   stop USB controller at start-up to avoid DMA interference
 type: build

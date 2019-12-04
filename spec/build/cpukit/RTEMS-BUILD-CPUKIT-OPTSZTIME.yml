@@ -4,17 +4,17 @@ actions:
 - define: null
 active: true
 build-type: option
-default-by-variant: []
 default: null
+default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.103'
+level: 1.103
 links: []
 name: __RTEMS_SIZEOF_TIME_T__
 normative: true
 order: 0
 ref: ''
-reviewed: calRbKWXEy2zC9ts-whhaw43aKHgdIOn-1gkv0ng4sk=
+reviewed: 1SUEkkE5ocKtyNB__TDAukZ0QBi51abbXawH9Spqnd0=
 text: ''
 type: build

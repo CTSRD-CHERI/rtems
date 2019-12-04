@@ -1,21 +1,21 @@
 actions:
 - get-integer: null
 - define: null
-format: '{:#010x}'
 active: true
 build-type: option
-default: 0x3000000
+default: 50331648
 default-by-variant: []
 derived: false
 enabled-by: []
+format: '{:#010x}'
 header: ''
-level: '1.35'
+level: 1.35
 links: []
 name: QORIQ_INTERCOM_AREA_BEGIN
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: 0cRvbvrgCb8FWVOG69TNOUyt1nNYVobptpP5u3h7TUU=
 text: |
   inter-processor communication area begin
 type: build

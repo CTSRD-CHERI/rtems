@@ -8,13 +8,13 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.4'
+level: 1.4
 links: []
 name: BSP_ARM_A9MPCORE_PERIPHCLK
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: BoKvVkH_mGzOPX9pbX6gLJeUMOlOJANPRUHNv9cWAGk=
 text: |
   define to set ARM Cortex-A9 MPCore PERIPHCLK clock frequency in Hz, otherwise alt_clk_freq_get() is used
 type: build

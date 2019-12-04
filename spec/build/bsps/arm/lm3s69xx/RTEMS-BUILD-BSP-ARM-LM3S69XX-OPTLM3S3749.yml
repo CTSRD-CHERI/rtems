@@ -11,13 +11,13 @@ default-by-variant:
 derived: false
 enabled-by: []
 header: ''
-level: '1.13'
+level: 1.13
 links: []
 name: LM3S69XX_MCU_LM3S3749
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: IE6C6ZI71Hhii1_6K0ZDDE689Y69sIJuG5W5BY-3flM=
 text: |
   board has LM3S3749 MCU
 type: build

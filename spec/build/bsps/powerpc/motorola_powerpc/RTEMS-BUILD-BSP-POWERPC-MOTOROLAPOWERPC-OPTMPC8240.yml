@@ -11,13 +11,13 @@ default-by-variant:
 derived: false
 enabled-by: []
 header: ''
-level: '1.14'
+level: 1.14
 links: []
 name: mpc8240
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: RmAtadswjogsS7fwcBGjl4CE_Ln8fy9hfswB_ZGe3d0=
 text: |
   Defined for boards with MPC8240 -- undefined for others
 type: build

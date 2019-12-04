@@ -8,13 +8,13 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.21'
+level: 1.21
 links: []
 name: BSP_FDT_BLOB_COPY_TO_READ_ONLY_LOAD_AREA
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: vikLVR0s1C-sI5BH7lhxZSoM3bj3wQFMqk8_4QYmcEY=
 text: |
   copy the FDT blob into the read-only load area via bsp_fdt_copy()
 type: build

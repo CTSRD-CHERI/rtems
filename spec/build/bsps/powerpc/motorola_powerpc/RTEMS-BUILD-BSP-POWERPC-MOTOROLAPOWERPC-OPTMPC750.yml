@@ -11,13 +11,13 @@ default-by-variant:
 derived: false
 enabled-by: []
 header: ''
-level: '1.13'
+level: 1.13
 links: []
 name: mpc750
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: naSVRdjQ3sCoPk8N1xm_AmXF49i-fZXilNhOYaXYDBg=
 text: |
   Define when mpc750 -- undefined for others
 type: build

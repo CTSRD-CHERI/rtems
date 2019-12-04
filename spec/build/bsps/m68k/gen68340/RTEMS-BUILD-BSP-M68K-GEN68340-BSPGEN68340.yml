@@ -26,19 +26,19 @@ install:
   source:
   - bsps/m68k/gen68340/start/bsp_specs
   - bsps/m68k/gen68340/start/linkcmds
-level: '1.2'
+level: 1.2
 links:
-- RTEMS-BUILD-BSP-BSPOPTS: null
-- RTEMS-BUILD-BSP-M68K-GRP: null
-- RTEMS-BUILD-BSP-M68K-GEN68340-ABI: null
-- RTEMS-BUILD-BSP-M68K-GEN68340-START: null
-- RTEMS-BUILD-BSP-OBJ: null
-- RTEMS-BUILD-BSP-OBJIRQDFLT: null
-- RTEMS-BUILD-BSP-OPTO2: null
+- RTEMS-BUILD-BSP-BSPOPTS: Wm3sxAZgV2qTZy3j7vLFzPcSbrq55VDM052Ocsaid9E=
+- RTEMS-BUILD-BSP-OBJ: tgEqqyPlwgBwG3s7tNDgDZwObWvqNe4c2CTFSuj7X88=
+- RTEMS-BUILD-BSP-OBJIRQDFLT: P_sOhDGyvLSOoeKh2lKXmFA84ufQVtMaSDR9UJ6b0x0=
+- RTEMS-BUILD-BSP-OPTO2: r0q7M48XBHR1ES8QcdIvYFB5cSdkfBWkJTXycbg43og=
+- RTEMS-BUILD-BSP-M68K-GRP: JngOc5ZlkrTeFAyso_wsFTHDR2OcBuxVcLq9aF21ikQ=
+- RTEMS-BUILD-BSP-M68K-GEN68340-ABI: OJI0N1a93Nd_Pjof6dBbwS2v_VC9LN5yAwVYQoHers8=
+- RTEMS-BUILD-BSP-M68K-GEN68340-START: k1o94yHeAaI8JZ2SM2w3FTY2iRkGefr5m3tYNAdWEAU=
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: _3kaMta8CpypxQfO90JWGXCExthOmLOkAaHCsi1Xknk=
 source:
 - bsps/m68k/gen68340/btimer/btimer.c
 - bsps/m68k/gen68340/clock/ckinit.c

@@ -11,13 +11,13 @@ default-by-variant:
 derived: false
 enabled-by: []
 header: ''
-level: '1.23'
+level: 1.23
 links: []
 name: BSP_USB_EHCI_MPC83XX_HAS_ULPI
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: 1fBUAGgvdz_084-iKxp0sznjOLNQnGeLKlbq5eEF6dc=
 text: |
   the board has an ULPI PHY connected to the USB EHCI controller
 type: build

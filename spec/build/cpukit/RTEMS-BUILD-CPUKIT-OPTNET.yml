@@ -4,18 +4,18 @@ actions:
 - define-condition: null
 active: true
 build-type: option
-default-by-variant: []
 default: false
+default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.94'
+level: 1.94
 links: []
 name: RTEMS_NETWORKING
 normative: true
 order: 0
 ref: ''
-reviewed: hKsogO6lEqXoqerjL7n_jdfML8_oYuZnjHQoc7mDU3M=
+reviewed: xNDc-o4VspBcgAiE1TWePjQSXnbAOA9ybOzEErpiwJs=
 text: |
   Enable the legacy TCP/IP network support
 type: build

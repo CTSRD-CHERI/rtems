@@ -26,12 +26,12 @@ install:
   - bsps/arm/lm3s69xx/start/linkcmds.lm3s3749
   - bsps/arm/lm3s69xx/start/linkcmds.lm3s6965
   - bsps/arm/lm3s69xx/start/linkcmds.lm3s6965_qemu
-level: '1.7'
+level: 1.7
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: pNdo20A2fTXzEP__T1NhVTnrJOlqzCEI_uaXe7hZ12M=
 source:
 - bsps/arm/lm3s69xx/console/console-config.c
 - bsps/arm/lm3s69xx/console/uart.c

@@ -9,17 +9,17 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.189'
+level: 1.189
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: PtOCHypKdg7NvHVQO9ftKpM8dvICGg9TQ-PmdhstYfo=
 source:
 - testsuites/sptests/spregion_err01/init.c
 stlib: []
 target: testsuites/sptests/spregion_err01.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

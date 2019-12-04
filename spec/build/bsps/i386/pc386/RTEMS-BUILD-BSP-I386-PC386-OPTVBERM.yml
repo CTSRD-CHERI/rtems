@@ -9,13 +9,13 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.28'
+level: 1.28
 links: []
 name: USE_VBE_RM
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: 1y0oUb0COL7RGt_kpCEJSxyqP95xdZNtKAoFj4qDAGQ=
 text: |
   Defined by default. Enables use of the Vesa Bios Extensions - real mode interface, which enables graphical mode and introduce it upon bootup.
 type: build

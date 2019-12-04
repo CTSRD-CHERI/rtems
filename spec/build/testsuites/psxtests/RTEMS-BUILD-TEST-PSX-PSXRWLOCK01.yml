@@ -9,12 +9,12 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.87'
+level: 1.87
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: Yrnxj8-79DXE72OUr-1y0yiZk6-oMv6ZW3JGUTzzP9Q=
 source:
 - testsuites/psxtests/psxrwlock01/main.c
 - testsuites/psxtests/psxrwlock01/test.c
@@ -22,5 +22,5 @@ stlib: []
 target: testsuites/psxtests/psxrwlock01.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

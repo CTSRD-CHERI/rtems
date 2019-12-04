@@ -9,12 +9,12 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.52'
+level: 1.52
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: UyGYLJBYH54_z3uvWf6YbOHxMU6AKJlTN3aze6Z9Eh0=
 source:
 - testsuites/libtests/POSIX/fork.c
 stlib: []

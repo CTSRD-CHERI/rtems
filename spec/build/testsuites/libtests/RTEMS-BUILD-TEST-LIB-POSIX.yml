@@ -9,12 +9,12 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.105'
+level: 1.105
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: AcauDQ7-_3PNbE4oulhwHSiThEH26y-Oq-jjp6uvxZg=
+reviewed: 9mNsPxAFbnGI4NBvHmrhP6UhOzlNwhcFkiKFKuRW31Y=
 source:
 - testsuites/libtests/POSIX/calloc.c
 - testsuites/libtests/POSIX/clock_gettime.c
@@ -68,5 +68,5 @@ stlib: []
 target: testsuites/libtests/POSIX.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

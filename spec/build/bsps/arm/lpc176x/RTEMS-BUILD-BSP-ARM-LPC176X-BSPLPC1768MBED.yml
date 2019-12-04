@@ -10,15 +10,15 @@ family: lpc176x
 header: ''
 includes: []
 install: []
-level: '1.5'
+level: 1.5
 links:
-- RTEMS-BUILD-BSP-ARM-LPC176X-GRP: null
-- RTEMS-BUILD-BSP-ARM-LPC176X-TSTLPC1768MBED: null
-- RTEMS-BUILD-BSP-OPTO2: null
+- RTEMS-BUILD-BSP-OPTO2: r0q7M48XBHR1ES8QcdIvYFB5cSdkfBWkJTXycbg43og=
+- RTEMS-BUILD-BSP-ARM-LPC176X-GRP: AwQS6dyIraUIRNRMOXogjgh2xkBuOlPNWKDn9S5cRgs=
+- RTEMS-BUILD-BSP-ARM-LPC176X-TSTLPC1768MBED: HnSqqz2t-7mCcfzDPFMa8BLFX1r9HoKrx48dYCX9qv8=
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: IaNAiLQ3kVd7Ir5V5O4JKCbDVMESBD7pAvbV0IQCQNc=
 source: []
 text: ''
 type: build

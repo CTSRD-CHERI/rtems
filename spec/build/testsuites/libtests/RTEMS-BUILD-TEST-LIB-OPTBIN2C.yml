@@ -4,16 +4,16 @@ actions:
 - env-assign: BIN2C
 active: true
 build-type: option
-default-by-variant: []
 default: null
+default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.97'
+level: 1.97
 links: []
 normative: true
 order: -100
 ref: ''
-reviewed: oRRzhna6a47p0_QjPWqYLful9JgHGbxMqy-q7mSiZiU=
+reviewed: gl4MXtUUEgOjfBCamu4Ky5O4pgawa4tcKGChlQ-K6SU=
 text: ''
 type: build

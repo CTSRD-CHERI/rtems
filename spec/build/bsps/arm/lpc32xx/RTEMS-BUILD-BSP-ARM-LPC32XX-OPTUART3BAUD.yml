@@ -1,21 +1,21 @@
 actions:
 - get-integer: null
 - define: null
-format: '{}'
 active: true
 build-type: option
 default: 115200
 default-by-variant: []
 derived: false
 enabled-by: []
+format: '{}'
 header: ''
-level: '1.31'
+level: 1.31
 links: []
 name: LPC32XX_UART_3_BAUD
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: ePsvW1aY7BSXBNMBw7lARIKbpPJN-r_q_1_rS0M1Q2A=
 text: |
   baud for UART 3
 type: build

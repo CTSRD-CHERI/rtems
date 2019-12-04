@@ -9,17 +9,17 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.82'
+level: 1.82
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: 5-qUGsPSAjckEEU1DiDB35Gb8dk1pDKZjkKjHWxQy0I=
 source:
 - testsuites/libtests/malloc04/init.c
 stlib: []
 target: testsuites/libtests/malloc04.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

@@ -9,12 +9,12 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.12'
+level: 1.12
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: bKPM9FpP1LvlBY2Pn5GycaERS8xklgYorsEAnn7lADg=
 source:
 - testsuites/samples/nsecs/init.c
 - testsuites/samples/nsecs/empty.c
@@ -22,5 +22,5 @@ stlib: []
 target: testsuites/samples/nsecs.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

@@ -23,20 +23,20 @@ install:
   - bsps/arm/csb336/start/bsp_specs
   - bsps/arm/csb336/start/linkcmds
   - bsps/arm/csb336/start/linkcmds
-level: '1.2'
+level: 1.2
 links:
-- RTEMS-BUILD-BSP-ARM-CSB336-ABI: null
-- RTEMS-BUILD-BSP-ARM-CSB336-OBJNET: null
-- RTEMS-BUILD-BSP-ARM-CSB336-START: null
-- RTEMS-BUILD-BSP-BSPOPTS: null
-- RTEMS-BUILD-BSP-ARM-GRP: null
-- RTEMS-BUILD-BSP-OBJ: null
-- RTEMS-BUILD-BSP-OBJIRQ: null
-- RTEMS-BUILD-BSP-OPTO2: null
+- RTEMS-BUILD-BSP-BSPOPTS: Wm3sxAZgV2qTZy3j7vLFzPcSbrq55VDM052Ocsaid9E=
+- RTEMS-BUILD-BSP-OBJ: tgEqqyPlwgBwG3s7tNDgDZwObWvqNe4c2CTFSuj7X88=
+- RTEMS-BUILD-BSP-OBJIRQ: _OqhvvRHGIHemeHqqsoj1_V-pK4C0oiOOk7rshs7RJg=
+- RTEMS-BUILD-BSP-OPTO2: r0q7M48XBHR1ES8QcdIvYFB5cSdkfBWkJTXycbg43og=
+- RTEMS-BUILD-BSP-ARM-GRP: iZa6gACdSilaXe6UFc1fz-ysw2mGgBcAtcbcvjE7bqE=
+- RTEMS-BUILD-BSP-ARM-CSB336-ABI: 3rFBS7uM-J2aWEQtccxFm_9B0Vt7oQHtf1c84J31fHQ=
+- RTEMS-BUILD-BSP-ARM-CSB336-OBJNET: rNhPAKxleHNVTRsklFIj35mIFVcZqeuwaJYfziq5Yi8=
+- RTEMS-BUILD-BSP-ARM-CSB336-START: TyAEmuHkGf9STBdUUIKVRHfIF_bcmnZqjJWKUnxR_uY=
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: -bdww3BTaQCL6Ysz6OBCSN8pN2mLT6au8XMlnVEZba8=
 source:
 - bsps/arm/csb336/btimer/btimer.c
 - bsps/arm/csb336/clock/clockdrv.c

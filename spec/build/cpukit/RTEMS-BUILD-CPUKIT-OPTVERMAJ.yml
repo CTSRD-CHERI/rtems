@@ -3,17 +3,17 @@ actions:
 - env-assign: null
 active: true
 build-type: option
-default-by-variant: []
 default: null
+default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.104'
+level: 1.104
 links: []
 name: __RTEMS_MAJOR__
 normative: true
 order: -1000
 ref: ''
-reviewed: kAPDfn4ZTLb9UGnEhmN4hMMVHvfSqLtnkg6-T4JXo-M=
+reviewed: -EVeU180Ydd4ORDkcQqLViQXdXhsEY0s-TlXxwx9Irk=
 text: ''
 type: build

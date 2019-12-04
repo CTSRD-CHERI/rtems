@@ -9,17 +9,17 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.188'
+level: 1.188
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: Vx_oyR_9uVPrVBNgxIMqkd1fQnAC_xOBBBlRyVo6Kyc=
 source:
 - testsuites/sptests/sprbtree01/init.c
 stlib: []
 target: testsuites/sptests/sprbtree01.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

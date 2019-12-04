@@ -9,13 +9,13 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.23'
+level: 1.23
 links: []
 name: BSP_ENABLE_VGA
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: FtRlo_CwNuI5jHUU8V8mqDEakQx9cG-cgNLkjMeHPe8=
 text: |
   Set if the VGA and keyboard console support is enabled.
 type: build

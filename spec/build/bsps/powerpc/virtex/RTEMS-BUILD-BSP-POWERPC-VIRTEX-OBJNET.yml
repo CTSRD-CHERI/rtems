@@ -10,12 +10,12 @@ header: ''
 includes:
 - cpukit/libnetworking
 install: []
-level: '1.4'
+level: 1.4
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: 8jQaYFfelqEi3Ev5tDvVWZarg47QmDtFia_DKIwdmIQ=
 source:
 - bsps/powerpc/virtex/net/xiltemac.c
 text: ''

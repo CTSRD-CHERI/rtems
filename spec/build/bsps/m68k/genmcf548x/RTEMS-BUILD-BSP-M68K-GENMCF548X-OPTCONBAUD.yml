@@ -1,7 +1,6 @@
 actions:
 - get-integer: null
 - define: null
-format: '{}'
 active: true
 build-type: option
 default: 9600
@@ -11,14 +10,15 @@ default-by-variant:
   - m68k/COBRA5475
 derived: false
 enabled-by: []
+format: '{}'
 header: ''
-level: '1.7'
+level: 1.7
 links: []
 name: BSP_CONSOLE_BAUD
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: Bk5aMKnCaoUQHyoXIB8lZ_Hu9Tu91nYGAxlmLTk8DMk=
 text: |
   initial baudrate for UARTs
 type: build

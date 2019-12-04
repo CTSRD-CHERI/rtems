@@ -9,12 +9,12 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.49'
+level: 1.49
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: WRveKD4KJ4BF9-q9sIpL2SxAxQBzzERtDqvgix9FT_I=
 source:
 - testsuites/psxtests/psxfile02/init.c
 - testsuites/support/src/spin.c
@@ -22,5 +22,5 @@ stlib: []
 target: testsuites/psxtests/psxfile02.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

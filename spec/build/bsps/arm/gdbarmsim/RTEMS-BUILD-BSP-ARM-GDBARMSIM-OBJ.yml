@@ -20,12 +20,12 @@ install:
   source:
   - bsps/arm/gdbarmsim/start/bsp_specs
   - bsps/arm/gdbarmsim/start/linkcmds
-level: '1.9'
+level: 1.9
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: xyzsI4BNLdwXTZCiea6uXal2a31q_vxudS2ob02ZEr4=
 source:
 - bsps/arm/gdbarmsim/console/console-io.c
 - bsps/arm/gdbarmsim/irq/irq-dispatch.c

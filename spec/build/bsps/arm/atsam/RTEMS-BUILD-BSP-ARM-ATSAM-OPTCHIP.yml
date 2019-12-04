@@ -47,13 +47,13 @@ derived: false
 enabled-by: []
 format: '{}'
 header: ''
-level: '1.6'
+level: 1.6
 links: []
 name: ATSAM_CHIP
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: emRaLdP-cH8SBLcllU-sLMGLh980aglw8vwj0gcSvpM=
 text: |
   Chip variant
 type: build

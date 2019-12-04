@@ -8,13 +8,13 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.8'
+level: 1.8
 links: []
 name: CYCLONE_V_CONFIG_CONSOLE
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: gJMKfTJcyMXBk_Mc5su-vaRprmdcOdvdT3xS2FZH38A=
 text: |
   configuration for console (UART 0)
 type: build

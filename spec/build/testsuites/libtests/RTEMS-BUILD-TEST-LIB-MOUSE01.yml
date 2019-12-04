@@ -9,12 +9,12 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.92'
+level: 1.92
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: 7e8OCq8pc7Y4iPHOFt7JazTjXSba71aeqCzVBPAjYLM=
 source:
 - testsuites/libtests/mouse01/init.c
 - testsuites/libtests/mouse01/serial_mouse_config.c
@@ -24,5 +24,5 @@ stlib: []
 target: testsuites/libtests/mouse01.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

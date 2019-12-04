@@ -8,13 +8,13 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.23'
+level: 1.23
 links: []
 name: SINGLE_CHAR_MODE
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: JEQb_zOjGbSaZNtJA3weIFFF_yxTDzb5E6F-hzzE_A4=
 text: |
   enable single character mode for the PSC console driver
 type: build

@@ -3,17 +3,17 @@ actions:
 - define-condition: null
 active: true
 build-type: option
-default-by-variant: []
 default: null
+default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.18'
+level: 1.18
 links: []
 name: HAVE_DECL_RCMD
 normative: true
 order: 0
 ref: ''
-reviewed: 7nqmG6xduk7r8T8xe64tlNjZjn6BB_ZeTGMyD9UgKxI=
+reviewed: j41INCFyljyljchu_Q6BdZ-W5rR8UUveMX1p3PSd_X0=
 text: ''
 type: build

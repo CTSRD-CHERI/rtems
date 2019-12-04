@@ -8,13 +8,13 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.5'
+level: 1.5
 links: []
 name: UARTS_IO_MODE
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: 2spe_iDxM4QKb9kNvVytbbvDqlqAho0jCWZX3EGCDXE=
 text: |
   Define to 1 if you want interrupt-driven I/O for the SCI ports.
 type: build

@@ -3,19 +3,19 @@ actions:
 - define: null
 active: true
 build-type: option
-format: '{}'
 default: 0
 default-by-variant: []
 derived: false
 enabled-by: []
+format: '{}'
 header: ''
-level: '1.46'
+level: 1.46
 links: []
 name: QORIQ_UART_BRIDGE_MASTER_CORE
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: 90nhWyGbknRsYyiy9V8NhWSuJDRN9bJmJN7IHqJouys=
 text: |
   UART to Intercom bridge master core index
 type: build

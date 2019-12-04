@@ -20,12 +20,12 @@ install:
   source:
   - bsps/sh/shsim/start/bsp_specs
   - bsps/sh/shsim/start/linkcmds
-level: '1.7'
+level: 1.7
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: pCrZ90gWOP_ZpZ8DsZ4RNHE_76WL7HO1GQ_LCqKTOMs=
 source:
 - bsps/sh/shared/start/bsphwinit.c
 - bsps/sh/shared/start/bspstart.c

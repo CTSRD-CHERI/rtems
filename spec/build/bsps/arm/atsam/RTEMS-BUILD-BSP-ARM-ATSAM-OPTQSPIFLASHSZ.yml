@@ -4,19 +4,19 @@ actions:
 - env-assign: null
 active: true
 build-type: option
-default: 0x00200000
+default: 2097152
 default-by-variant: []
 derived: false
 enabled-by: []
 format: '{:#010x}'
 header: ''
-level: '1.14'
+level: 1.14
 links: []
 name: ATSAM_MEMORY_QSPIFLASH_SIZE
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: 1qmkod3gpZyG8w7-M-4SvpOD7GH562sX4Dau72qatnM=
 text: |
   size of QSPI flash in bytes
 type: build

@@ -15,12 +15,12 @@ links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: WtpcGQs2e4xwx6kNwZdvNids-9MlHRAxEmuoXkhFDq0=
 source:
 - testsuites/smptests/smpwakeafter01/init.c
 stlib: []
 target: testsuites/smptests/smpwakeafter01.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

@@ -10,12 +10,12 @@ header: ''
 includes:
 - cpukit/libnetworking
 install: []
-level: '1.3'
+level: 1.3
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: zJKluGcXTedc7F2NL8EQHbpRiT7h0knQLMX80QHROcM=
 source:
 - bsps/powerpc/mvme5500/net/if_100MHz/GT64260eth.c
 - bsps/powerpc/mvme5500/net/if_1GHz/if_wm.c

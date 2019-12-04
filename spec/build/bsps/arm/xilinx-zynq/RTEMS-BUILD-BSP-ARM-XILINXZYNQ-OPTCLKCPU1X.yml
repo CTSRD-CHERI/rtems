@@ -1,7 +1,6 @@
 actions:
 - get-integer: null
 - define: null
-format: '{}'
 active: true
 build-type: option
 default: 111111111
@@ -14,14 +13,15 @@ default-by-variant:
   - arm/xilinx_zynq_zedboard.*
 derived: false
 enabled-by: []
+format: '{}'
 header: ''
-level: '1.13'
+level: 1.13
 links: []
 name: ZYNQ_CLOCK_CPU_1X
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: NmA9tc1XUoq0J9DxDtpRzFszjK8R7g5qtw-25npzjcw=
 text: |
   Zynq cpu_1x clock frequency in Hz
 type: build

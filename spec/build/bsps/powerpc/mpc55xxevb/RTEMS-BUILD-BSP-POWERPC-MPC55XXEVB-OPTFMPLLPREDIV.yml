@@ -1,7 +1,6 @@
 actions:
 - get-integer: null
 - define: null
-format: '{}'
 active: true
 build-type: option
 default: 0
@@ -17,14 +16,15 @@ default-by-variant:
   - powerpc/mpc5674f.*
 derived: false
 enabled-by: []
+format: '{}'
 header: ''
-level: '1.35'
+level: 1.35
 links: []
 name: MPC55XX_FMPLL_PREDIV
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: Qya-b79sE1IJHlZC_ZJFszow-qax6dt8ZcK5UyFcJtg=
 text: |
   Must be defined to be the PLL predivider factor for clock generation
 type: build

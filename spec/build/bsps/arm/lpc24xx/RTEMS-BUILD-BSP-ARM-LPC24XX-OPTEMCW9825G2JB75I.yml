@@ -14,7 +14,7 @@ name: LPC24XX_EMC_W9825G2JB75I
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: 8vpiLAxY9qmzJHG_DkA_wd9Qf9ztnYnwcTYq2NF_qiE=
 text: |
   enable Winbond W9825G2JB75I configuration for EMC
 type: build

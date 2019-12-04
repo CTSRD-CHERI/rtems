@@ -1,7 +1,6 @@
 actions:
 - get-integer: null
 - define: null
-format: '{}'
 active: true
 build-type: option
 default: 8000000
@@ -20,14 +19,15 @@ default-by-variant:
   - powerpc/mpc5674f.*
 derived: false
 enabled-by: []
+format: '{}'
 header: ''
-level: '1.45'
+level: 1.45
 links: []
 name: MPC55XX_REFERENCE_CLOCK
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: j8s9qmVVry4OAifY-WQhLFnIGSpbo0ovoJXBGugGYZI=
 text: |
   None
 type: build

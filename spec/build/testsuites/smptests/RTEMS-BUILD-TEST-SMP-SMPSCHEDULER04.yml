@@ -15,12 +15,12 @@ links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: L9ZIepBsjrS4Q06JWZx7ceQGmbzb4xqihGuJ2GiBvG0=
 source:
 - testsuites/smptests/smpscheduler04/init.c
 stlib: []
 target: testsuites/smptests/smpscheduler04.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

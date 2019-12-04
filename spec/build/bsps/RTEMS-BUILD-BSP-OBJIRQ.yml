@@ -8,12 +8,12 @@ enabled-by: []
 header: ''
 includes: []
 install: []
-level: '1.12'
+level: 1.12
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: 53VttLhTsBrxeLpydfi44cyYSWsaXSQnID7kBjHVVvA=
+reviewed: _OqhvvRHGIHemeHqqsoj1_V-pK4C0oiOOk7rshs7RJg=
 source:
 - bsps/shared/irq/irq-generic.c
 - bsps/shared/irq/irq-info.c

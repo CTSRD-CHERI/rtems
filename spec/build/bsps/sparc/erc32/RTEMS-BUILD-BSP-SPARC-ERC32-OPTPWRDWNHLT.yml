@@ -8,13 +8,13 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.6'
+level: 1.6
 links: []
 name: BSP_POWER_DOWN_AT_FATAL_HALT
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: XlSMRs_VZznuMsqTmrgw426J0XjYEabdhvaE7tHRoqg=
 text: |
   If defined, CPU is spinning on fatal exit. Otherwise generate system error which will hand over to debugger, simulator, etc.
 type: build

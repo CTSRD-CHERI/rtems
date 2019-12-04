@@ -12,12 +12,12 @@ install:
   source:
   - cpukit/include/rtems/ftpfs.h
 install-path: ${BSP_LIBDIR}
-level: '1.51'
+level: 1.51
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: vEAEN_V_BMb8E8BzLliyJ0lErZxDKbOt9rKqRX4IyqU=
+reviewed: sKK8l70JafAMV4Ct7NGsYs69d2K4-Q1gi0pGFKXA0OE=
 source:
 - cpukit/libnetworking/lib/ftpfs.c
 target: ftpfs

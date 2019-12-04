@@ -8,13 +8,13 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.5'
+level: 1.5
 links: []
 name: START_HW_INIT
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: 0_0zTC-_07ragUB6yrzHBmzjf48JiZoSgPAYZlDRW_k=
 text: |
   Whether to call early_hw_init from start.S
 type: build

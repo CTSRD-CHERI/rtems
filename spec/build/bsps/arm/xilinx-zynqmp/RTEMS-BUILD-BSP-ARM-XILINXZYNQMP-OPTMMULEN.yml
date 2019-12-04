@@ -7,18 +7,18 @@ actions:
 - format-and-define: null
 active: true
 build-type: option
-default-by-variant: []
 default: 16384
+default-by-variant: []
 derived: false
 enabled-by: []
 format: '{:#010x}'
 header: ''
-level: '1.17'
+level: 1.17
 links: []
 name: ZYNQMP_RAM_MMU_LENGTH
 normative: true
 order: 0
 ref: ''
-reviewed: 2fMAYXps7O5MY-fTGxYWkMtkLCfFZZeJ6vtmut4Chbk=
+reviewed: LiVBEqaXeVLH4GgWbwe8SnsYErY-odmLPf_9Wm9d0Uo=
 text: ''
 type: build

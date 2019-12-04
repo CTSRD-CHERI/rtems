@@ -8,13 +8,13 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.13'
+level: 1.13
 links: []
 name: LPC32XX_ENABLE_WATCHDOG_RESET
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: 7jN0SeQKp7Eh0rq8unnEr3TYaSE8HWWglRO1TjZjpfE=
 text: |
   bsp_reset() will use the watchdog to reset the chip
 type: build

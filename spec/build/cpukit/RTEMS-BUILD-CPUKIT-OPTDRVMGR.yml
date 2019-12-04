@@ -4,18 +4,18 @@ actions:
 - define-condition: null
 active: true
 build-type: option
-default-by-variant: []
 default: false
+default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.87'
+level: 1.87
 links: []
 name: RTEMS_DRVMGR_STARTUP
 normative: true
 order: 0
 ref: ''
-reviewed: mM_OLNA319EKX0VIUDHRpLXhV_j8tWlJGVqr-Z-Y6mY=
+reviewed: JPiRm2yYq3FT82MgMnHIMyOE9tCHB4OQZM7rAWKUrRY=
 text: |
   Enable the Driver Manager startup
 type: build

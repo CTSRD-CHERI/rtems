@@ -8,13 +8,13 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.4'
+level: 1.4
 links: []
 name: PPC_USE_SPRG
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: YJrCJwPhQ68XD4vI27Od7MoW7mYgnTtzNMCTtbDMEvE=
 text: |
   If defined, then the PowerPC specific code in RTEMS will use some of the special purpose registers to slightly optimize interrupt response time.  The use of these registers can conflict with other tools like debuggers.
 type: build

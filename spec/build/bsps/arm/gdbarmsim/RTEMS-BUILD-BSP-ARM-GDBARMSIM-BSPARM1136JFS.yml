@@ -10,15 +10,15 @@ family: gdbarmsim
 header: ''
 includes: []
 install: []
-level: '1.3'
+level: 1.3
 links:
-- RTEMS-BUILD-BSP-ARM-GDBARMSIM-GRP: null
-- RTEMS-BUILD-BSP-OPTO2: null
-- RTEMS-BUILD-BSP-TSTREQTICK: null
+- RTEMS-BUILD-BSP-OPTO2: r0q7M48XBHR1ES8QcdIvYFB5cSdkfBWkJTXycbg43og=
+- RTEMS-BUILD-BSP-TSTREQTICK: 9MuFMm40DY36LgsLbjcLWydStpJJMALSZbzorIMdydE=
+- RTEMS-BUILD-BSP-ARM-GDBARMSIM-GRP: jtI5zlwK3C06krGXIkz8ENuAd_SHXnOc5W8skhWlHwA=
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: x3D3QyoDHwE6w5jXv0AhnZJJ-q4WM9X5CMIa2U0-LiA=
 source: []
 text: ''
 type: build

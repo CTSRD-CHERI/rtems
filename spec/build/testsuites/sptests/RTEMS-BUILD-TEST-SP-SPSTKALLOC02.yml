@@ -9,17 +9,17 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.204'
+level: 1.204
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: iF5WpXbbsqsUZ0V9lQ_C0q0ozL-SCFaSMW6M3WgJSTQ=
 source:
 - testsuites/sptests/spstkalloc02/init.c
 stlib: []
 target: testsuites/sptests/spstkalloc02.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

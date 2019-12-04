@@ -1,6 +1,5 @@
 active: true
 build-type: group
-install: []
 derived: false
 enabled-by:
 - BUILD_TESTS
@@ -8,21 +7,22 @@ enabled-by:
 header: ''
 includes:
 - testsuites/support/include
+install: []
 ldflags:
 - -Wl,--wrap=printf
 - -Wl,--wrap=puts
-level: '1.1'
+level: 1.1
 links:
-- RTEMS-BUILD-TEST-BENCHMARK-DHRYSTONE: null
-- RTEMS-BUILD-TEST-BENCHMARK-LINPACK: null
-- RTEMS-BUILD-TEST-BENCHMARK-WHETSTONE: null
+- RTEMS-BUILD-TEST-BENCHMARK-DHRYSTONE: NLA5W7I-d1UpfpBQjvzublpZIjdYukoDtquAlkvlw0Y=
+- RTEMS-BUILD-TEST-BENCHMARK-LINPACK: YStl-JXkVNZWYEBV2g06kgkDw24UwJ4QUM58quhEutc=
+- RTEMS-BUILD-TEST-BENCHMARK-WHETSTONE: nsPl27-9OlQcvln-hVbuHdm18FD3FQVo-_Sg0J70j9o=
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: s8B7NWXJNFkfgJB9tid34zJkp-14KdBkGv96MPP1Oi0=
 text: ''
 top-level: false
 type: build
-use-before: []
 use-after:
 - rtemstest
+use-before: []

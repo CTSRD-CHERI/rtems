@@ -9,12 +9,12 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.28'
+level: 1.28
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: I7ACvxx4oXlMbzUPii6H2xArwZ8uKiLtfIs7nZM0uaE=
 source:
 - testsuites/libtests/defaultconfig01/init.c
 stlib: []

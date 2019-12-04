@@ -8,13 +8,13 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.24'
+level: 1.24
 links: []
 name: LPC32XX_STOP_USB
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: 5sO4RlEc650jHJYQVp5odSoW8Nf-kitRa__zLJCPakY=
 text: |
   stop USB controller at start-up to avoid DMA interference
 type: build

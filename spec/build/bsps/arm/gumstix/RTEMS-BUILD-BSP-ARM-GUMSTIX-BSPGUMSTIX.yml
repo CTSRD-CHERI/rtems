@@ -23,21 +23,21 @@ install:
   source:
   - bsps/arm/gumstix/start/bsp_specs
   - bsps/arm/gumstix/start/linkcmds
-level: '1.2'
+level: 1.2
 links:
-- RTEMS-BUILD-BSP-ARM-GUMSTIX-ABI: null
-- RTEMS-BUILD-BSP-ARM-GUMSTIX-OBJNET: null
-- RTEMS-BUILD-BSP-ARM-GUMSTIX-OPTSKYEYE: null
-- RTEMS-BUILD-BSP-ARM-GUMSTIX-START: null
-- RTEMS-BUILD-BSP-BSPOPTS: null
-- RTEMS-BUILD-BSP-ARM-GRP: null
-- RTEMS-BUILD-BSP-OBJ: null
-- RTEMS-BUILD-BSP-OBJIRQ: null
-- RTEMS-BUILD-BSP-OPTO2: null
+- RTEMS-BUILD-BSP-BSPOPTS: Wm3sxAZgV2qTZy3j7vLFzPcSbrq55VDM052Ocsaid9E=
+- RTEMS-BUILD-BSP-OBJ: tgEqqyPlwgBwG3s7tNDgDZwObWvqNe4c2CTFSuj7X88=
+- RTEMS-BUILD-BSP-OBJIRQ: _OqhvvRHGIHemeHqqsoj1_V-pK4C0oiOOk7rshs7RJg=
+- RTEMS-BUILD-BSP-OPTO2: r0q7M48XBHR1ES8QcdIvYFB5cSdkfBWkJTXycbg43og=
+- RTEMS-BUILD-BSP-ARM-GRP: iZa6gACdSilaXe6UFc1fz-ysw2mGgBcAtcbcvjE7bqE=
+- RTEMS-BUILD-BSP-ARM-GUMSTIX-ABI: dqQ5Om--dLm-t7q1CXNGblw6wZeOzAGA2q1dXlgOz1k=
+- RTEMS-BUILD-BSP-ARM-GUMSTIX-OBJNET: SePWZvrze-5VaIPdi6N57E3wqCoNXT7ikBVFMX2lhOs=
+- RTEMS-BUILD-BSP-ARM-GUMSTIX-OPTSKYEYE: aUAjdSGg7xQ9jW4yliUz_FW4KLj3ziluE-RTCl1M_s8=
+- RTEMS-BUILD-BSP-ARM-GUMSTIX-START: 8M44JFLJOQIRefL3JiUhmbyAgRvk_JJfYoBBxWJydZI=
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: JEMrAnqjbga2jNX7FCw8tAtsqMgX31xWX8JBPByZOp4=
 source:
 - bsps/arm/gumstix/btimer/btimer.c
 - bsps/arm/gumstix/clock/clock.c

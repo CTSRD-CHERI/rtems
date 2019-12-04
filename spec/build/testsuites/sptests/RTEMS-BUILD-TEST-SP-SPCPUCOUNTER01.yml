@@ -14,12 +14,12 @@ links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: oL3wyR62my5h27tE1D6v8VxYncinTe5kL4NHJD8Sv4g=
 source:
 - testsuites/sptests/spcpucounter01/init.c
 stlib: []
 target: testsuites/sptests/spcpucounter01.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

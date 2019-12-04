@@ -9,12 +9,12 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.78'
+level: 1.78
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: iemXn60IHf0fH6nGDNYuuh-njGqMre9nKbYVwGXlBFg=
 source:
 - testsuites/libtests/POSIX/lseek.c
 stlib: []

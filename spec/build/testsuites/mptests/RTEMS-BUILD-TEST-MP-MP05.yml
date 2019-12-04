@@ -9,12 +9,12 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.13'
+level: 1.13
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: TKTHb917IP5rTbfaHna9AhykuQwE0oyMfbQdgUIrEwA=
+reviewed: iH5NV8dteG6-Ho4q-FX0Jdh26dHqqpUeKtmmL4ytgSo=
 source:
 - testsuites/mptests/mp05/asr.c
 - testsuites/mptests/mp05/init1.c
@@ -24,5 +24,5 @@ stlib: []
 target: testsuites/mptests/mp05.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

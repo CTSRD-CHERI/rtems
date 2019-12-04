@@ -9,17 +9,17 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.178'
+level: 1.178
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: Gjln09fjTDSnVCPVB8sIDGeOcMXsWkSkXipPVzGQcCs=
 source:
 - testsuites/sptests/spobjgetnext/init.c
 stlib: []
 target: testsuites/sptests/spobjgetnext.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

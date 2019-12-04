@@ -3,17 +3,17 @@ actions:
 - define-condition: null
 active: true
 build-type: option
-default-by-variant: []
 default: null
+default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.19'
+level: 1.19
 links: []
 name: HAVE_DECL_PTHREAD_SETAFFINITY_NP
 normative: true
 order: 0
 ref: ''
-reviewed: Lix1LWBjyRxDYy6A806GG_b1Glo8c2kPw5XLbMqUzyE=
+reviewed: dW5EuLg9jCCe09oEXyPKe-lUyIGOSmgIqNrHy8MEy90=
 text: ''
 type: build

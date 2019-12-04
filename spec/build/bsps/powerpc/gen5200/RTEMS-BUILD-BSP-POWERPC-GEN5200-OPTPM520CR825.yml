@@ -11,13 +11,13 @@ default-by-variant:
 derived: false
 enabled-by: []
 header: ''
-level: '1.19'
+level: 1.19
 links: []
 name: MPC5200_BOARD_PM520_CR825
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: M90AH6i3DZEbhtMEmLx_JCCg7X7Hdp4N4gv5oVd8e9A=
 text: |
   enable settings for PM520 CR825
 type: build

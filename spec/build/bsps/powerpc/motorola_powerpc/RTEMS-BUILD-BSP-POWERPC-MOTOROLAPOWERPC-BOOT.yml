@@ -1,8 +1,6 @@
 active: true
 build-type: script
-prepare-configure: null
-prepare-build: null
-do-configure: null
+derived: false
 do-build: |
   def cc(self, bld, bic, flags, source):
       root, ext = os.path.splitext(source)
@@ -42,14 +40,16 @@ do-build: |
       "${BSP_LIBDIR}",
       [target, "bsps/powerpc/motorola_powerpc/bootloader/ppcboot.lds"],
   )
-derived: false
+do-configure: null
 enabled-by: []
 header: ''
-level: '1.3'
+level: 1.3
 links: []
 normative: true
 order: 100
+prepare-build: null
+prepare-configure: null
 ref: ''
-reviewed: null
+reviewed: I56M0IJeKE4PVSrWTwHY1P8vweJqkOakzsWtDBKLh2k=
 text: ''
 type: build

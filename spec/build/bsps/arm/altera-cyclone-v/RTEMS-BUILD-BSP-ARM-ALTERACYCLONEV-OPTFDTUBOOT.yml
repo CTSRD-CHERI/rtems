@@ -8,13 +8,13 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.15'
+level: 1.15
 links: []
 name: BSP_START_COPY_FDT_FROM_U_BOOT
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: iCsOzTNcxuMy2VLStjqhXf3ona4edZ019CYhyWoWFcg=
 text: |
   copy the U-Boot provided FDT to an internal storage
 type: build

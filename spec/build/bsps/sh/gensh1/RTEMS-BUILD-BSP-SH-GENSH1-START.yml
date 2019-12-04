@@ -3,16 +3,16 @@ asflags: []
 build-type: start-file
 cppflags: []
 derived: true
-install-path: ${BSP_LIBDIR}
 enabled-by: []
 header: ''
 includes: []
-level: '1.5'
+install-path: ${BSP_LIBDIR}
+level: 1.5
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: NULL
+reviewed: JVg8TDemzdP50rHPn7tdAebb5n_boReUgRck5k6w6io=
 source:
 - bsps/sh/gensh1/start/start.S
 target: start.o

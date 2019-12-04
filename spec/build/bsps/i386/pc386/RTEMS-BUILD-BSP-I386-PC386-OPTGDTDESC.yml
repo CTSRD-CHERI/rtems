@@ -11,21 +11,21 @@ actions:
         else:
             value = 2
 - define: null
-format: '{}'
 active: true
 build-type: option
 default: 0
 default-by-variant: []
 derived: false
 enabled-by: []
+format: '{}'
 header: ''
-level: '1.25'
+level: 1.25
 links: []
 name: NUM_APP_DRV_GDT_DESCRIPTORS
 normative: true
 order: 100
 ref: ''
-reviewed: null
+reviewed: zs9_11Uq8Zh6ZOU5l_lypiwdRyALCNWiVjyTlWEnB8c=
 text: |
   Defines how many descriptors in GDT may be allocated for application or driver usage.
 type: build

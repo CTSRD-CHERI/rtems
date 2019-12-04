@@ -4,18 +4,18 @@ actions:
 - define-condition: null
 active: true
 build-type: option
-default-by-variant: []
 default: false
+default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.81'
+level: 1.81
 links: []
 name: __RTEMS_ADA__
 normative: true
 order: 0
 ref: ''
-reviewed: dAX7df84XmdhS8-PnyUmY4Hs0SSuJwOb71D-zhpfGaA=
+reviewed: ShKVwMyfAHl9RIwmEslgQlaoY5A0ajIgIGE76R3oMWU=
 text: |
   Enable the Ada support
 type: build

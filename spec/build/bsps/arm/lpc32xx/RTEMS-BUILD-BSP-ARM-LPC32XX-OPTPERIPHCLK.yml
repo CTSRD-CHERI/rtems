@@ -1,21 +1,21 @@
 actions:
 - get-integer: null
 - define: null
-format: '{}'
 active: true
 build-type: option
 default: 13000000
 default-by-variant: []
 derived: false
 enabled-by: []
+format: '{}'
 header: ''
-level: '1.19'
+level: 1.19
 links: []
 name: LPC32XX_PERIPH_CLK
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: eEsyS_x5adkm9vJzFV3pcwirBNeQ_XqX2SXLs5ooGVA=
 text: |
   peripheral clock in Hz
 type: build

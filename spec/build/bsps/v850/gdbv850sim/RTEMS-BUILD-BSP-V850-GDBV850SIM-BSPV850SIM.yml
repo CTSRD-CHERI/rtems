@@ -10,15 +10,15 @@ family: gdbv850sim
 header: ''
 includes: []
 install: []
-level: '1.8'
+level: 1.8
 links:
-- RTEMS-BUILD-BSP-OPTO2: null
-- RTEMS-BUILD-BSP-TSTREQTICK: null
-- RTEMS-BUILD-BSP-V850-GDBV850SIM-GRP: null
+- RTEMS-BUILD-BSP-OPTO2: r0q7M48XBHR1ES8QcdIvYFB5cSdkfBWkJTXycbg43og=
+- RTEMS-BUILD-BSP-TSTREQTICK: 9MuFMm40DY36LgsLbjcLWydStpJJMALSZbzorIMdydE=
+- RTEMS-BUILD-BSP-V850-GDBV850SIM-GRP: rFn7MiFmsHbg_ErIokJmpv9yHPX0EAGnfkGSsv30hjU=
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: R-PsPeDPc-N8BqyTuLZW8FWtacsz553DUrtC0Y_KTmQ=
 source: []
 text: ''
 type: build

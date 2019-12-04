@@ -8,13 +8,13 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.18'
+level: 1.18
 links: []
 name: CLOCK_DRIVER_USE_8254
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: SlHmJBtZh9th8D2zhZ2g63dxxhnazFUfbKIapJaVMm0=
 text: |
   None
 type: build

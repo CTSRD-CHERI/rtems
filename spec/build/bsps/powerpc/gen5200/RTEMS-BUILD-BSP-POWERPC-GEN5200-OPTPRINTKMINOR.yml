@@ -1,7 +1,6 @@
 actions:
 - get-integer: null
 - define: null
-format: '{}'
 active: true
 build-type: option
 default: 0
@@ -11,14 +10,15 @@ default-by-variant:
   - powerpc/dp2
 derived: false
 enabled-by: []
+format: '{}'
 header: ''
-level: '1.21'
+level: 1.21
 links: []
 name: PRINTK_MINOR
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: -9mhZcUXDTyZ1ym5C5VjqIQ1wgLNNT-Hnz7Is82PuPA=
 text: |
   console minor number used by printk()
 type: build

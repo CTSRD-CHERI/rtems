@@ -9,12 +9,12 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.31'
+level: 1.31
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: wdirOKR4IZB_99ojsYIIRqs7ZaMUl5yVJsXdHXAW3yo=
 source:
 - testsuites/psxtests/psxcleanup02/init.c
 - testsuites/psxtests/psxcleanup02/main.c
@@ -22,5 +22,5 @@ stlib: []
 target: testsuites/psxtests/psxcleanup02.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

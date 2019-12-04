@@ -23,23 +23,23 @@ install:
   - bsps/sparc/erc32/start/bsp_specs
   - bsps/sparc/erc32/start/linkcmds
   - bsps/sparc/shared/start/linkcmds.base
-level: '1.2'
+level: 1.2
 links:
-- RTEMS-BUILD-BSP-BSPOPTS: null
-- RTEMS-BUILD-BSP-SPARC-GRP: null
-- RTEMS-BUILD-BSP-OBJ: null
-- RTEMS-BUILD-BSP-OBJIRQ: null
-- RTEMS-BUILD-BSP-OPTO2: null
-- RTEMS-BUILD-BSP-SPARC-ERC32-ABI: null
-- RTEMS-BUILD-BSP-SPARC-ERC32-OBJNET: null
-- RTEMS-BUILD-BSP-SPARC-ERC32-OBJSMP: null
-- RTEMS-BUILD-BSP-SPARC-ERC32-OPTCONIRQ: null
-- RTEMS-BUILD-BSP-SPARC-ERC32-OPTPWRDWNHLT: null
-- RTEMS-BUILD-BSP-SPARC-START: null
+- RTEMS-BUILD-BSP-BSPOPTS: Wm3sxAZgV2qTZy3j7vLFzPcSbrq55VDM052Ocsaid9E=
+- RTEMS-BUILD-BSP-OBJ: tgEqqyPlwgBwG3s7tNDgDZwObWvqNe4c2CTFSuj7X88=
+- RTEMS-BUILD-BSP-OBJIRQ: _OqhvvRHGIHemeHqqsoj1_V-pK4C0oiOOk7rshs7RJg=
+- RTEMS-BUILD-BSP-OPTO2: r0q7M48XBHR1ES8QcdIvYFB5cSdkfBWkJTXycbg43og=
+- RTEMS-BUILD-BSP-SPARC-GRP: M3Ls0cd9ZoUgM6bJwdc00eRkGqOgN2cI1tX-r4HNeyQ=
+- RTEMS-BUILD-BSP-SPARC-START: ajJ0OSKIJHE6NLrEo2cKeDfdgSHDp7PA67zt00Z4Crg=
+- RTEMS-BUILD-BSP-SPARC-ERC32-ABI: wQFkpOnlnNve_AN7_OwwWwn8MSwrSbLKvFYseV2em4s=
+- RTEMS-BUILD-BSP-SPARC-ERC32-OBJNET: SCWRQ7Pw-F9zVS1javM5kvSRyXwpjyjLUOnEiwtFNkk=
+- RTEMS-BUILD-BSP-SPARC-ERC32-OBJSMP: aOtziyC7cI0IMrkCp628zWsOAAest3tTcmauMkI-Elw=
+- RTEMS-BUILD-BSP-SPARC-ERC32-OPTCONIRQ: 0M5WyOCqG-vTVw78jlmk2Nrl71UJxrctzhukyv42xV8=
+- RTEMS-BUILD-BSP-SPARC-ERC32-OPTPWRDWNHLT: XlSMRs_VZznuMsqTmrgw426J0XjYEabdhvaE7tHRoqg=
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: oQhrIpSstYWYmnyDvhVvCQ02hIx0yyoeFV9JyOmgHnk=
 source:
 - bsps/shared/cache/nocache.c
 - bsps/shared/dev/getentropy/getentropy-cpucounter.c

@@ -1,21 +1,21 @@
 actions:
 - get-integer: null
 - define: null
-format: '{}'
 active: true
 build-type: option
 default: 12000000
 default-by-variant: []
 derived: false
 enabled-by: []
+format: '{}'
 header: ''
-level: '1.13'
+level: 1.13
 links: []
 name: BOARD_MAINOSC
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: yuaE8m4Ex6DMH-k8Iwwg0wjn9Df9dnSfdW43DoFazaI=
 text: |
   Main oscillator frequency in Hz (default 12MHz)
 type: build

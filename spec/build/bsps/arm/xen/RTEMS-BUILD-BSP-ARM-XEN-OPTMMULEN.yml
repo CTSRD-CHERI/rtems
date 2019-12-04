@@ -19,7 +19,7 @@ name: BSP_XEN_MMU_LENGTH
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: 5wthUN0T_iy7LZY-UwPeSplTv9DT3bg6FYp4nH8gG-c=
 text: |
   length of MMU region
 type: build

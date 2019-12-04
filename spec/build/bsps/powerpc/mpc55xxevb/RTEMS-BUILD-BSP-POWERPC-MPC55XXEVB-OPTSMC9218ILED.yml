@@ -11,13 +11,13 @@ default-by-variant:
 derived: false
 enabled-by: []
 header: ''
-level: '1.49'
+level: 1.49
 links: []
 name: SMSC9218I_ENABLE_LED_OUTPUTS
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: ZTDXH0S8Pjt3oO69pYqiU9NBTB5FYVCKiUDKsxWO6Tg=
 text: |
   enable LED outputs for SMSC9218I network interface
 type: build

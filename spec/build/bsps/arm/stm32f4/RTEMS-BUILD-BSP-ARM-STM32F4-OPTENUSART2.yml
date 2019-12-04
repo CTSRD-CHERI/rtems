@@ -8,13 +8,13 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.11'
+level: 1.11
 links: []
 name: STM32F4_ENABLE_USART_2
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: Fjo_H7LP--yY5JX6TzQQ0VB72sv4qRngCJ_-gpI3h3M=
 text: |
   enable USART 2
 type: build

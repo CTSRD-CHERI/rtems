@@ -17,6 +17,7 @@ name: RPI_RAM_MMU_LENGTH
 normative: true
 order: 0
 ref: ''
-reviewed: cY6hpjtgQc-x3ujVWnNcTt4FzWMmThc_StP5OEAMAR4=
-text: 'MMU region length'
+reviewed: jh0ciIKXMpJ2QQuY8l1EYzPq2PgvgdcOxpxgwVZiJ5o=
+text: |
+  MMU region length
 type: build

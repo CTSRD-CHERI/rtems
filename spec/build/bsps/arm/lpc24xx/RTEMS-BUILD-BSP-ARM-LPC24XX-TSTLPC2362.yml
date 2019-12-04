@@ -34,8 +34,8 @@ actions:
     telnetd01: exclude
     tmcontext01: exclude
     tmfine01: exclude
-    ttest01: exclude
     top: exclude
+    ttest01: exclude
     utf8proc01: exclude
 active: true
 build-type: option
@@ -44,13 +44,13 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.48'
+level: 1.48
 links:
-- RTEMS-BUILD-BSP-TSTNORFS: null
-- RTEMS-BUILD-BSP-TSTSMALLMEM: null
+- RTEMS-BUILD-BSP-TSTNORFS: ZBv0Nsh1WvEHTRnFOpV96oSbQbMYYj9rF5iHSOYAr_E=
+- RTEMS-BUILD-BSP-TSTSMALLMEM: Lg42ddtDa4S7zu0Zuz1GSrvW18j9kPUrgfsLDgeVgeQ=
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: CYgIwPZFKsVgx_lQ5UMcaZIlCXO_QJrV_3L1addJr6I=
 text: ''
 type: build

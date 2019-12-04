@@ -4,18 +4,18 @@ actions:
 - define-condition: null
 active: true
 build-type: option
-default-by-variant: []
 default: false
+default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.98'
+level: 1.98
 links: []
 name: RTEMS_SMP
 normative: true
 order: 0
 ref: ''
-reviewed: 070jU-SazQnuXIxC6z1G24I1AV954PO-x-7TI5zUp4U=
+reviewed: _3eYHArhFrUQiXB9YTQ4sYjODYWzR-BiyBSmdIlLruw=
 text: |
   Enable the Symmetric Multiprocessing (SMP) support
 type: build

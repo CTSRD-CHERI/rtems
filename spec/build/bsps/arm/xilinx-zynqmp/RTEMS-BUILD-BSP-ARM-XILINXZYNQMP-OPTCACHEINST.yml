@@ -11,13 +11,13 @@ default-by-variant:
 derived: false
 enabled-by: []
 header: ''
-level: '1.6'
+level: 1.6
 links: []
 name: BSP_INSTRUCTION_CACHE_ENABLED
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: t3z_Da5w_xVyKAYB_jM4Y6dq53MFkUpgORIpgtqWjOU=
 text: |
   enable instruction cache
 type: build

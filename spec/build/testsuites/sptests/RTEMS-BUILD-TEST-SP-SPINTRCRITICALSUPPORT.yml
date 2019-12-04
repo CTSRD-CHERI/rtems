@@ -9,17 +9,17 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.167'
+level: 1.167
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: bhK7_mMW55TW80o7SFy73esBQsOHRiyP1qfUQH8rvEE=
+reviewed: dc7TkYdsudqrZg2w6FEd9RMivFegE-peqzItwME7hnc=
 source:
 - testsuites/sptests/spintrcritical_support/intrcritical.c
 stlib: []
 target: testsuites/sptests/spintrcritical_support.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

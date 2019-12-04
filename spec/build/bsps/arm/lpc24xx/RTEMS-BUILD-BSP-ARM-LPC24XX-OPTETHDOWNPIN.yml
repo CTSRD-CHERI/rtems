@@ -8,13 +8,13 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.31'
+level: 1.31
 links: []
 name: LPC24XX_PIN_ETHERNET_POWER_DOWN
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: ma28awN53aTyN3m0wNwf-2tiBGbsjiSDPPMf4D67uf8=
 text: |
   optional Ethernet power-down pin, output is set to high to enable power
 type: build

@@ -1,5 +1,9 @@
 active: true
 build-type: group
+derived: true
+enabled-by: []
+header: ''
+includes: []
 install:
 - destination: ${BSP_INCLUDEDIR}
   source:
@@ -80,19 +84,15 @@ install:
   - bsps/powerpc/include/rtems/powerpc/cache.h
   - bsps/powerpc/include/rtems/powerpc/debugmod.h
   - bsps/powerpc/include/rtems/powerpc/powerpc.h
-derived: true
-enabled-by: []
-header: ''
-includes: []
 ldflags: []
-level: '1.1'
+level: 1.1
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: wYwMYy0GdBCIbcu0PtQM__2nRlk75uThLrfRJ--1DyY=
 text: ''
 top-level: false
 type: build
-use-before: []
 use-after: []
+use-before: []

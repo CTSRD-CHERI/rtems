@@ -4,18 +4,18 @@ actions:
 - define-condition: null
 active: true
 build-type: option
-default-by-variant: []
 default: false
+default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.86'
+level: 1.86
 links: []
 name: RTEMS_DEBUG
 normative: true
 order: 0
 ref: ''
-reviewed: i98kpxed0BCJGA5AF2dUr8ndrd72QIRZgAxGzkm4Vb8=
+reviewed: aTVpoLi4rxlzGIQ5OsGBiT3HJZgbRqm6jYTiE8Kzx5g=
 text: |
   Enable the RTEMS internal debug support
 type: build

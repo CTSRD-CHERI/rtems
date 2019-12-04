@@ -21,12 +21,12 @@ install:
   - bsps/m68k/gen68360/start/linkcmds
   - bsps/m68k/gen68360/start/linkcmds.bootp
   - bsps/m68k/gen68360/start/linkcmds.prom
-level: '1.7'
+level: 1.7
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: 3YtVWn7mO9c9NjTbXetNSX2t2GRz795nAgHXfmyaEAg=
 source:
 - bsps/m68k/gen68360/btimer/btimer.c
 - bsps/m68k/gen68360/clock/clock.c

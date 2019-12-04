@@ -11,13 +11,13 @@ default-by-variant:
 derived: false
 enabled-by: []
 header: ''
-level: '1.15'
+level: 1.15
 links: []
 name: mvme2100
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: e15jBegW8nkZiJoiswtKcoWAzYj7cmh4pcoVF0dc3Ik=
 text: |
   Defined for MVME2100 -- undefined for others
 type: build

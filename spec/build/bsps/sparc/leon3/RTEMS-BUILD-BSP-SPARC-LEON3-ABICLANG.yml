@@ -29,13 +29,13 @@ derived: false
 enabled-by:
 - clang
 header: ''
-level: '1.2'
+level: 1.2
 links: []
 name: ABI_FLAGS
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: 38LOVIwSx2HxRQiTWYoEc8yy9zGoEIL0C5wIgDB4OsA=
 text: |
   ABI flags
 type: build

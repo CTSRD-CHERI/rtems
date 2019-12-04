@@ -14,7 +14,7 @@ name: ARM_LPC1768
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: 1j2V7GmMk4yzLOlPqstvg_HG3Eiwdo5eiIn1lKtaq8U=
 text: |
   target used for identify LPC1768 board
 type: build

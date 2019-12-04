@@ -8,13 +8,13 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.8'
+level: 1.8
 links: []
 name: UARTS_USE_TERMIOS
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: 03Zh-QRd7BK8KcY9RXXPepFGE1Ckwq4xZ9uNbrkrGOk=
 text: |
   Define to 1 if you want termios support for every port.  Termios support is independent of the choice of UART I/O mode.
 type: build

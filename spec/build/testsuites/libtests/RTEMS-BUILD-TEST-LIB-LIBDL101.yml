@@ -1,5 +1,4 @@
 active: true
-active: true
 build-type: library
 cflags: []
 cppflags: []
@@ -10,12 +9,12 @@ header: ''
 includes: []
 install: []
 install-path: null
-level: '1.74'
+level: 1.74
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: wH8e5IC_8_3YNUzNYbJhOMwhKNhiitDejIaJsbqV1IY=
 source:
 - testsuites/libtests/dl10-o2.c
 - testsuites/libtests/dl10-o4.c

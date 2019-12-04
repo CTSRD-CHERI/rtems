@@ -10,12 +10,12 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.11'
+level: 1.11
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: dhcFS4RG2F3ifBVo-AE-on_Hm_rQ5e4O3SWOc1fx4FU=
 source:
 - testsuites/mptests/mp05/init1.c
 - testsuites/mptests/mp05/task1.c
@@ -24,5 +24,5 @@ stlib: []
 target: testsuites/mptests/mp05_node1.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

@@ -1,21 +1,21 @@
 actions:
 - get-integer: null
 - define: null
-format: '{}'
 active: true
 build-type: option
 default: 32768
 default-by-variant: []
 derived: false
 enabled-by: []
+format: '{}'
 header: ''
-level: '1.16'
+level: 1.16
 links: []
 name: LPC32XX_OSCILLATOR_RTC
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: SblfgbFmxwLmJFYnqFWUZT-zdnpDcVbSkM8FaWGuVBM=
 text: |
   RTC oscillator frequency in Hz
 type: build

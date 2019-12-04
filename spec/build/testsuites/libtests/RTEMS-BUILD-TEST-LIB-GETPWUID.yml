@@ -9,12 +9,12 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.61'
+level: 1.61
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: yOPnLJtstihPoOfZTGN3hFzQk1cpooDrmMQ807PXezU=
 source:
 - testsuites/libtests/POSIX/getpwuid.c
 stlib: []

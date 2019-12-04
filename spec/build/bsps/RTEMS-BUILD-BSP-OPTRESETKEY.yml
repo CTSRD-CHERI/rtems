@@ -6,16 +6,16 @@ build-type: option
 default: 0
 default-by-variant: []
 derived: false
-format: '{}'
 enabled-by: []
+format: '{}'
 header: ''
-level: '1.38'
+level: 1.38
 links: []
 name: BSP_PRESS_KEY_FOR_RESET
 normative: true
 order: 0
 ref: ''
-reviewed: IO9y2aPswCo6YTuCfOj4pHAk98xbI08IcoZBlwanHxg=
+reviewed: T91-bV-xa7CV_rYKPwWUJnueshYhN4wlWjzfcWfuQvc=
 text: |
   If defined to a non-zero value, print a message and wait until pressed before
   resetting board when application exits.

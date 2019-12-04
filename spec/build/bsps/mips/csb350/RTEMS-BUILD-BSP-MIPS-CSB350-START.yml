@@ -3,16 +3,16 @@ asflags: []
 build-type: start-file
 cppflags: []
 derived: true
-install-path: ${BSP_LIBDIR}
 enabled-by: []
 header: ''
 includes: []
-level: '1.4'
+install-path: ${BSP_LIBDIR}
+level: 1.4
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: NULL
+reviewed: A6ewR6dSQfopa_zP9iU9hp9cS-Ph9o3e50ht4Yi5tUE=
 source:
 - bsps/mips/csb350/start/start.S
 target: start.o

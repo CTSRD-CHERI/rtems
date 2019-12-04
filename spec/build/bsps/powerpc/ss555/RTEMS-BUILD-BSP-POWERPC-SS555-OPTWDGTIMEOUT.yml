@@ -1,21 +1,21 @@
 actions:
 - get-integer: null
 - define: null
-format: '{:#010x}'
 active: true
 build-type: option
-default: 0xFFFF
+default: 65535
 default-by-variant: []
 derived: false
 enabled-by: []
+format: '{:#010x}'
 header: ''
-level: '1.7'
+level: 1.7
 links: []
 name: WATCHDOG_TIMEOUT
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: YsbpivqBDQveplTwAZSlenBnWzvs82JA0VMeBYCzSuw=
 text: |
   Define to the desired timeout (in steps of 1/20 msec) to enable the watchdog.  Default is to disable the watchdog entirely.
 type: build

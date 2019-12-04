@@ -9,12 +9,12 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.24'
+level: 1.24
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: 2flzQ2bCjpIUT9S6oy7FS1Hf2qUYuoIKywv1RQT4cGY=
 source:
 - testsuites/libtests/complex/init.c
 - testsuites/libtests/complex/docomplex.c
@@ -25,5 +25,5 @@ stlib:
 target: testsuites/libtests/complex.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

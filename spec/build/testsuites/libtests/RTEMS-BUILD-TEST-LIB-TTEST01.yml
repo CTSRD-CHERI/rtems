@@ -9,12 +9,12 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.149'
+level: 1.149
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: 4f7hLZj7wnYAx9my3rlwzZa2xELKYLqN7AJG9bnUikY=
 source:
 - testsuites/libtests/ttest01/init.c
 - testsuites/libtests/ttest01/test-assert.c
@@ -38,5 +38,5 @@ stlib: []
 target: testsuites/libtests/ttest01.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

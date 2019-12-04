@@ -10,17 +10,17 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.32'
+level: 1.32
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: sYUbeqCQhyflx-nN6mAgOEMBFS4EjqfXsbjTK1n_P3s=
 source:
 - testsuites/mptests/mp12/init1.c
 stlib: []
 target: testsuites/mptests/mp12_node1.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

@@ -9,12 +9,12 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.7'
+level: 1.7
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: n3tD_0Dxpw8TJID11N-vFgTme7DRoNIn6f1jC7v1rwc=
+reviewed: qkmBrHza3zMEIXrbkoN2ak9LWm4imOfLpQR51hViQR0=
 source:
 - testsuites/fstests/fsdosfssync01/init.c
 stlib: []

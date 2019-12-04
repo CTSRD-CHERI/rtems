@@ -14,7 +14,7 @@ name: LM3S69XX_ENABLE_UART_2
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: y2RORAUEq4DYCD54jrNo_slaYPBqDnrriWIzdu5pGDc=
 text: |
   enable UART 2
 type: build

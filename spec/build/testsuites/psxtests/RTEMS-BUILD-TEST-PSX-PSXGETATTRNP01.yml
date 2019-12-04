@@ -9,17 +9,17 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.51'
+level: 1.51
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: otTkIKat5UlFyzYrwH4tbJNB-Cua1ptmoNighfsymGY=
 source:
 - testsuites/psxtests/psxgetattrnp01/init.c
 stlib: []
 target: testsuites/psxtests/psxgetattrnp01.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

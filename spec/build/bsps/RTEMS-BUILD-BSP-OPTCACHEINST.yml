@@ -12,13 +12,13 @@ default-by-variant:
 derived: false
 enabled-by: []
 header: ''
-level: '1.21'
+level: 1.21
 links: []
 name: BSP_INSTRUCTION_CACHE_ENABLED
 normative: true
 order: 0
 ref: ''
-reviewed: hpi_3x9liK78EPJzHyz-InQc89Yr9z1-ayhYLrf9ssA=
+reviewed: FFlc3CRzNgfYLLIeHyjdyoRl6OEEYlVrfQxT9YUowT8=
 text: |
   Enable instruction cache
 type: build

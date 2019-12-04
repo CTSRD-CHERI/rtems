@@ -9,12 +9,12 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.175'
+level: 1.175
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: PqHFl4gspQu1BkhOwsKIYifGeyVhhSZVZe64XO-ad7M=
 source:
 - testsuites/sptests/spmsgq_err02/init.c
 - testsuites/sptests/spmsgq_err02/task3.c
@@ -22,5 +22,5 @@ stlib: []
 target: testsuites/sptests/spmsgq_err02.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

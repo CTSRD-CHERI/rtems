@@ -9,17 +9,17 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.82'
+level: 1.82
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: nCApV6lel8y2oVnNa7WewFiRXgyP018DX_gWPv66UnA=
 source:
 - testsuites/sptests/spchain/init.c
 stlib: []
 target: testsuites/sptests/spchain.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

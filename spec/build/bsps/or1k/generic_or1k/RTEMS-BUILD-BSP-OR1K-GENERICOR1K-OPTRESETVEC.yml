@@ -8,13 +8,13 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.4'
+level: 1.4
 links: []
 name: BSP_START_RESET_VECTOR
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: YVKwGC5PjZUfJiutmubFMctD98spp8l2DYLkM1U7iwg=
 text: |
   reset vector address for BSP start
 type: build

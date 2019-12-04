@@ -1,21 +1,21 @@
 actions:
 - get-integer: null
 - define: null
-format: '{}'
 active: true
 build-type: option
 default: 0
 default-by-variant: []
 derived: false
 enabled-by: []
+format: '{}'
 header: ''
-level: '1.26'
+level: 1.26
 links: []
 name: QORIQ_ETSEC_2_PHY_ADDR
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: FjoTcHmkfFUFcuU24b6u2CE7OJzZVvk8ntDAPXRoZwU=
 text: |
   PHY address for eTSEC interface 2
 type: build

@@ -10,12 +10,12 @@ header: ''
 includes:
 - cpukit/libnetworking
 install: []
-level: '1.3'
+level: 1.3
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: cLSMcYeUMgnGaMiC7gWwWHFIkNnSVupNWShihi0zoOg=
 source:
 - bsps/lm32/shared/net/network.c
 text: ''

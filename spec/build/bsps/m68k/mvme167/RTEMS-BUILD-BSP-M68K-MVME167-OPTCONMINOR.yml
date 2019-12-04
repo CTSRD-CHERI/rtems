@@ -8,13 +8,13 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.4'
+level: 1.4
 links: []
 name: CONSOLE_MINOR
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: iwYHNiY-rkuLZqt3-yfTRyuwIZpK1iTXeSBpeY0JG4Y=
 text: |
   Port to use for the RTEMS console.  0 - /dev/tty0, Serial Port 1/Console on the MVME712M.  1 - /dev/tty1, Serial Port 2/TTY01 on the MVME712M.  2 - /dev/tty2, Serial Port 3 on the MVME712M.  3 - /dev/tty3, Serial Port 4 on the MVME712M.
 type: build

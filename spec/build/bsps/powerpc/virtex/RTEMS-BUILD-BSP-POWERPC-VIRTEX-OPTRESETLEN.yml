@@ -5,7 +5,7 @@ actions:
 - format-and-define: null
 active: true
 build-type: option
-default: 0x14
+default: 20
 default-by-variant: []
 derived: false
 enabled-by: []
@@ -17,6 +17,6 @@ name: VIRTEX_RESET_LENGTH
 normative: true
 order: 0
 ref: ''
-reviewed: vtamXhrTWoNpGwOsqg7F2OtQiERYd9_-4Zx-5KrKNpQ=
+reviewed: FprMsZoqjao6e70KkifFVdjVVrnsZ5Un34V5YUIcvMk=
 text: ''
 type: build

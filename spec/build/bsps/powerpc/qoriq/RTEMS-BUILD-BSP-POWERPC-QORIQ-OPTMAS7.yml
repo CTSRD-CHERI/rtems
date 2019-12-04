@@ -1,24 +1,24 @@
 actions:
 - get-integer: null
 - define: null
-format: '{:#010x}'
 active: true
 build-type: option
-default: 0x0
+default: 0
 default-by-variant:
-- value: 0xf
+- value: 15
   variants:
   - powerpc/qoriq_e6500.*
 derived: false
 enabled-by: []
+format: '{:#010x}'
 header: ''
-level: '1.37'
+level: 1.37
 links: []
 name: QORIQ_MMU_DEVICE_MAS7
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: FgWuhbmm_XzoC40Q35cg00JZFKYvKL7Bm6xRZ9y5_wk=
 text: |
   MAS7 value for device TLB1 entries
 type: build

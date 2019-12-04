@@ -9,12 +9,12 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.83'
+level: 1.83
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: JVKolR8wIwGYxC6sJYdrDmoQXyhpFh7rpmSULlrowhM=
 source:
 - testsuites/sptests/spclock_err01/init.c
 - testsuites/sptests/spclock_err01/delay.c
@@ -22,5 +22,5 @@ stlib: []
 target: testsuites/sptests/spclock_err01.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

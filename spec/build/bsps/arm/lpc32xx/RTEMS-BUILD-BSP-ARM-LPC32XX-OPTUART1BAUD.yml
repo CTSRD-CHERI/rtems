@@ -8,13 +8,13 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.29'
+level: 1.29
 links: []
 name: LPC32XX_UART_1_BAUD
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: 3JRE2_qhQBkpukvev6w4o-3z7wbzaNrARvxgg8HIIko=
 text: |
   baud for UART 1
 type: build

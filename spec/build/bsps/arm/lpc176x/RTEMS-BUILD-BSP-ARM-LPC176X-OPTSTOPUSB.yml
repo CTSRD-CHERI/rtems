@@ -8,13 +8,13 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.16'
+level: 1.16
 links: []
 name: LPC176X_STOP_USB
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: KU0qsnHVX2uQubWSPoMiE7Y_APHNw9YgM_6INn40sFQ=
 text: |
   stop USB controller at start-up to avoid DMA interference
 type: build

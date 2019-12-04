@@ -1,21 +1,21 @@
 actions:
 - get-integer: null
 - define: null
-format: '{}'
 active: true
 build-type: option
 default: 1024
 default-by-variant: []
 derived: false
 enabled-by: []
+format: '{}'
 header: ''
-level: '1.11'
+level: 1.11
 links: []
 name: BSP_MINIMUM_TASK_STACK_SIZE
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: 6SSJIT7jYvePc6jKkw65YrX0qWHFUzL6yLMWqsXVRFQ=
 text: |
   Suggested minimum task stack size in bytes
 type: build

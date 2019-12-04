@@ -19,12 +19,12 @@ install:
   - cpukit/score/cpu/sh/include/rtems/score/cpuimpl.h
   - cpukit/score/cpu/sh/include/rtems/score/sh.h
   - cpukit/score/cpu/sh/include/rtems/score/sh_io.h
-level: '1.44'
+level: 1.44
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: jqTdLVH9GBxp9-MYuAbbMyFC1VQtyGEpcRxjr8awzmc=
+reviewed: fiAT-VSif0MXct1D6Dm3TU7ahU1BgHKoOnWRR2bPv5k=
 source:
 - cpukit/score/cpu/no_cpu/cpucounterfrequency.c
 - cpukit/score/cpu/no_cpu/cpucounterread.c

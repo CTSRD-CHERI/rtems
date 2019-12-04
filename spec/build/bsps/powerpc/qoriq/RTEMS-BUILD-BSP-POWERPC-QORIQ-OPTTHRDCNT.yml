@@ -1,7 +1,6 @@
 actions:
 - get-integer: null
 - define: null
-format: '{}'
 active: true
 build-type: option
 default: 1
@@ -11,6 +10,7 @@ default-by-variant:
   - powerpc/qoriq_e6500.*
 derived: false
 enabled-by: []
+format: '{}'
 header: ''
 level: '1.40'
 links: []
@@ -18,7 +18,7 @@ name: QORIQ_PHYSICAL_THREAD_COUNT
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: 3vk_2nH6qg_svCiC1AhOz8U9V71UhWBukZ9FG4s1sYE=
 text: |
   the number of threads per core
 type: build

@@ -9,17 +9,17 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.7'
+level: 1.7
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: ogXKibPwFWfF1E_6KA2gUnVDoc0zFebOV1uYxDfE-BQ=
 source:
 - testsuites/libtests/block06/init.c
 stlib: []
 target: testsuites/libtests/block06.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

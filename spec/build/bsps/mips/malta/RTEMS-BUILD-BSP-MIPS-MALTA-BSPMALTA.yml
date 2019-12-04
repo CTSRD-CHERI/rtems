@@ -22,18 +22,18 @@ install:
   source:
   - bsps/mips/malta/start/bsp_specs
   - bsps/mips/malta/start/linkcmds
-level: '1.2'
+level: 1.2
 links:
-- RTEMS-BUILD-BSP-BSPOPTS: null
-- RTEMS-BUILD-BSP-MIPS-MALTA-ABI: null
-- RTEMS-BUILD-BSP-MIPS-MALTA-START: null
-- RTEMS-BUILD-BSP-OBJ: null
-- RTEMS-BUILD-BSP-OBJIRQ: null
-- RTEMS-BUILD-BSP-OPTO0: null
+- RTEMS-BUILD-BSP-BSPOPTS: Wm3sxAZgV2qTZy3j7vLFzPcSbrq55VDM052Ocsaid9E=
+- RTEMS-BUILD-BSP-OBJ: tgEqqyPlwgBwG3s7tNDgDZwObWvqNe4c2CTFSuj7X88=
+- RTEMS-BUILD-BSP-OBJIRQ: _OqhvvRHGIHemeHqqsoj1_V-pK4C0oiOOk7rshs7RJg=
+- RTEMS-BUILD-BSP-OPTO0: t-BHoy0Tld_j41qFVyjVBQwMOl69JogX75N64J0dPRU=
+- RTEMS-BUILD-BSP-MIPS-MALTA-ABI: DsQ6WJIpcYHFhff27XjK6jqa7zLILeCEWnIr-She3mc=
+- RTEMS-BUILD-BSP-MIPS-MALTA-START: 6ISonSjG-hN-qhUGTgp3G_5sdDLdfepW49-wmN8ilcA=
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: 3sLcOfExdw0Fdr335X1NnzdlG2rR7wZ_CrTaF3kbtw4=
 source:
 - bsps/mips/malta/console/conscfg.c
 - bsps/mips/malta/console/printk_support.c

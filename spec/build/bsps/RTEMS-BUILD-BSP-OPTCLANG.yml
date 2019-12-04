@@ -5,19 +5,19 @@ actions:
 - env-assign: LINKCMDS_ALIGN_DIRECTIVE
 active: true
 build-type: option
-default-by-variant: []
 default: null
+default-by-variant: []
 derived: false
 enabled-by:
 - clang
 header: ''
-level: '1.22'
+level: 1.22
 links: []
 name: null
 normative: true
 order: 0
 ref: ''
-reviewed: qK46HrQo2n8gQ1cV69dj5tYzb4P61wHPIOC67vvtj9U=
+reviewed: LRBWocnOHE6D9Ssfx2SZAeFuQz2AU6vsuPu9APUK3to=
 text: |
   Provides clang support.
 type: build

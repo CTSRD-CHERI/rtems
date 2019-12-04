@@ -3,16 +3,16 @@ asflags: []
 build-type: start-file
 cppflags: []
 derived: true
-install-path: ${BSP_LIBDIR}
 enabled-by: []
 header: ''
 includes: []
-level: '1.19'
+install-path: ${BSP_LIBDIR}
+level: 1.19
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: NULL
+reviewed: Pig1ZHlHtAtmT-3OmQr07HxPK0RKnClwxf19Yss_nzE=
 source:
 - bsps/arm/csb337/start/start.S
 target: start.o

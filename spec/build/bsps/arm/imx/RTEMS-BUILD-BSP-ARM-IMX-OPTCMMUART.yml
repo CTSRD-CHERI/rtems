@@ -1,21 +1,21 @@
 actions:
 - get-integer: null
 - define: null
-format: '{}'
 active: true
 build-type: option
 default: 24000000
 default-by-variant: []
 derived: false
 enabled-by: []
+format: '{}'
 header: ''
-level: '1.9'
+level: 1.9
 links: []
 name: IMX_CCM_UART_HZ
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: XhbSoLNGHOAKTzJS6tHv1QUHRRdqbNkna6EyPEE4Zws=
 text: |
   UART clock frequency in Hz
 type: build

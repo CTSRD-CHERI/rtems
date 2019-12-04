@@ -41,12 +41,12 @@ install:
   - bsps/arm/lpc176x/start/linkcmds.lpc1768_mbed
   - bsps/arm/lpc176x/start/linkcmds.lpc1768_mbed_ahb_ram
   - bsps/arm/lpc176x/start/linkcmds.lpc1768_mbed_ahb_ram_eth
-level: '1.6'
+level: 1.6
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: E-_wnalQovpOcuQvi5V4VQIVDCqojIwMJv-4zPNY33g=
 source:
 - bsps/arm/lpc176x/btimer/btimer.c
 - bsps/arm/lpc176x/can/can.c

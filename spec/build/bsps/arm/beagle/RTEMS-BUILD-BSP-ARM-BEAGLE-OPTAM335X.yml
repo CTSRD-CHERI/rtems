@@ -11,13 +11,13 @@ default-by-variant:
 derived: false
 enabled-by: []
 header: ''
-level: '1.8'
+level: 1.8
 links: []
 name: IS_AM335X
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: D_daBRQ3Yy1_OoJWMQ4JBvOfTNVr70qWpuejLGQ-h6c=
 text: |
   true if SOC is AM335X
 type: build

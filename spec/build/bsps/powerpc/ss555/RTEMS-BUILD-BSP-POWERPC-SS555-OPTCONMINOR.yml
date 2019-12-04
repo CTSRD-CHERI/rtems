@@ -1,21 +1,21 @@
 actions:
 - get-string: null
 - define-unquoted: null
-format: '{}'
 active: true
 build-type: option
 default: SCI2_MINOR
 default-by-variant: []
 derived: false
 enabled-by: []
+format: '{}'
 header: ''
-level: '1.3'
+level: 1.3
 links: []
 name: CONSOLE_MINOR
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: QZ650sdGGDy8oyJzSSFuvudLSoi7Fasf9V7Et3W_K84=
 text: |
   Must be defined to be one of SCI1_MINOR or SCI2_MINOR.  Determines which device will be registered as /dev/console.
 type: build

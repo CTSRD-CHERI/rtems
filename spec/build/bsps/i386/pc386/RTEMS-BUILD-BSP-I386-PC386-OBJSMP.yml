@@ -9,12 +9,12 @@ enabled-by:
 header: ''
 includes: []
 install: []
-level: '1.11'
+level: 1.11
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: WB0k0uIbG6UUIPV5uPEkM6YgDInNm7gOInPMRK_mnEE=
 source:
 - bsps/i386/pc386/start/getcpuid.c
 - bsps/i386/pc386/start/smp-imps.c

@@ -14,12 +14,12 @@ links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: EBABXENRMDhuE_0TWtjWL58mkjTFCrBKWzSwGfAY7G8=
 source:
 - testsuites/libtests/malloc02/init.c
 stlib: []
 target: testsuites/libtests/malloc02.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

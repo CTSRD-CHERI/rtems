@@ -18,7 +18,7 @@ name: BSP_DATA_CACHE_ENABLED
 normative: true
 order: 0
 ref: ''
-reviewed: IO9y2aPswCo6YTuCfOj4pHAk98xbI08IcoZBlwanHxg=
+reviewed: kpOaZVznNJ53fymZwThPiFcHT0VyCOoMMaXTOtvLz3c=
 text: |
   Enable data cache
 type: build

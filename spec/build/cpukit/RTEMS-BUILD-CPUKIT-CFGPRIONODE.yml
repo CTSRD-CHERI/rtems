@@ -3,17 +3,17 @@ actions:
 - define-condition: null
 active: true
 build-type: option
-default-by-variant: []
 default: null
+default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.16'
+level: 1.16
 links: []
 name: HAVE_STRUCT__PRIORITY_NODE
 normative: true
 order: 0
 ref: ''
-reviewed: 3dAoV-uty2f31mr7aDOL84UXvPo32bG0Jo1qDyfgpKI=
+reviewed: cvFQAOn2VGGxQ_z_eWkd9vzWUPZdQj8BRHgnzskVku0=
 text: ''
 type: build

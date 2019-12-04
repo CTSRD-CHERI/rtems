@@ -10,14 +10,14 @@ family: gen68360
 header: ''
 includes: []
 install: []
-level: '1.5'
+level: 1.5
 links:
-- RTEMS-BUILD-BSP-M68K-GEN68360-GRP: null
-- RTEMS-BUILD-BSP-OPTO2: null
+- RTEMS-BUILD-BSP-OPTO2: r0q7M48XBHR1ES8QcdIvYFB5cSdkfBWkJTXycbg43og=
+- RTEMS-BUILD-BSP-M68K-GEN68360-GRP: 2wORoIEH9iTJMLS5y8eYMiv5Dn--V-hm46yLflaSDic=
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: XbX3n921waMXFqBzSDrqiOhtEjD88jXxCyz6NF8zyQc=
 source: []
 text: ''
 type: build

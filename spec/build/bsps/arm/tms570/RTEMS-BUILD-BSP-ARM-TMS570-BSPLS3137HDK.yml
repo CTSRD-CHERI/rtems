@@ -10,15 +10,15 @@ family: tms570
 header: ''
 includes: []
 install: []
-level: '1.6'
+level: 1.6
 links:
-- RTEMS-BUILD-BSP-ARM-TMS570-GRP: null
-- RTEMS-BUILD-BSP-OPTO2: null
-- RTEMS-BUILD-BSP-TSTSMALLMEM: null
+- RTEMS-BUILD-BSP-OPTO2: r0q7M48XBHR1ES8QcdIvYFB5cSdkfBWkJTXycbg43og=
+- RTEMS-BUILD-BSP-TSTSMALLMEM: Lg42ddtDa4S7zu0Zuz1GSrvW18j9kPUrgfsLDgeVgeQ=
+- RTEMS-BUILD-BSP-ARM-TMS570-GRP: fXjmUFTtFJM0V_uoS8uB9CeUXrtUp5h-frmLuzT73A4=
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: UyXOAvWrp9W34AHQYHhxVfajsFbx1ZDFyKFiZfUKDMU=
 source: []
 text: ''
 type: build

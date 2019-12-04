@@ -8,13 +8,13 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.6'
+level: 1.6
 links: []
 name: BFIN_ON_SKYEYE
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: HTcqqpADmLgwSzA28mzN963wlkXlPEgIqu8MjFQ2NhM=
 text: |
   (BSP--Skyeye) If defined, disable features which are not supported on Skyeye.
 type: build

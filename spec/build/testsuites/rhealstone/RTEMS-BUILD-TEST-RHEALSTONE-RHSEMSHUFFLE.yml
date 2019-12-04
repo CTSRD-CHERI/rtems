@@ -9,17 +9,17 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.5'
+level: 1.5
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: Ip7S0T3BIWoT7zNvTOsRZ2uCyfJ033Zp4ucTclB8BBI=
 source:
 - testsuites/rhealstone/rhsemshuffle/semshuffle.c
 stlib: []
 target: testsuites/rhealstone/rhsemshuffle.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

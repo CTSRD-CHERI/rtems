@@ -10,12 +10,12 @@ header: ''
 includes:
 - cpukit/libnetworking
 install: []
-level: '1.7'
+level: 1.7
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: NXkvpbcOsYfkRURw-ie9qho1cASMmnNAUPopvyRKAdI=
 source:
 - bsps/arm/shared/net/lpc-ethernet.c
 text: ''

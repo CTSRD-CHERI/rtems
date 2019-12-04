@@ -3,8 +3,8 @@ actions:
 - env-enable: null
 active: true
 build-type: option
-default-by-variant: []
 default: false
+default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
@@ -14,7 +14,7 @@ name: BUILD_RHEALSTONE
 normative: true
 order: -1000
 ref: ''
-reviewed: hOdGdrkBaKU_J616iGO2MvZmmev0TU3tQRFMFzIBmDA=
+reviewed: _EOGKnDjgWRCScP0eP9siUVtLDbCnrLT8djZf6n-2iM=
 text: |
   Build the Rhealstone benchmark programs (may be also enabled by BUILD_TESTS)
 type: build

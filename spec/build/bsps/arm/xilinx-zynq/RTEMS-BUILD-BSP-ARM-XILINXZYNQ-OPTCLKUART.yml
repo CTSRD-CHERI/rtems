@@ -1,7 +1,6 @@
 actions:
 - get-integer: null
 - define: null
-format: '{}'
 active: true
 build-type: option
 default: 50000000
@@ -14,14 +13,15 @@ default-by-variant:
   - arm/xilinx_zynq_zedboard.*
 derived: false
 enabled-by: []
+format: '{}'
 header: ''
-level: '1.15'
+level: 1.15
 links: []
 name: ZYNQ_CLOCK_UART
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: 0lmmMKaieVwV5qZsbm-wT49Ht8rdxcBIEshA53s8vVE=
 text: |
   Zynq UART clock frequency in Hz
 type: build

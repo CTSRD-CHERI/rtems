@@ -1,30 +1,30 @@
 active: true
-build-type: ada-test-program
+ada-main: testsuites/ada/sptests/spatcb01/spatcb01.adb
+ada-object-directory: testsuites/ada/sptests/spatcb01
 adaflags: []
-cflags: []
-cppflags: []
-includes: []
 adaincludes:
 - cpukit/include/adainclude
 - testsuites/ada/support
-ldflags: []
-stlib: []
-ada-object-directory: testsuites/ada/sptests/spatcb01
-source:
-- testsuites/ada/sptests/spatcb01/init.c
-ada-main: testsuites/ada/sptests/spatcb01/spatcb01.adb
-target: testsuites/ada/ada_spatcb01.exe
+build-type: ada-test-program
+cflags: []
+cppflags: []
 derived: false
 enabled-by:
 - RTEMS_POSIX_API
 header: ''
-level: '1.53'
+includes: []
+ldflags: []
+level: 1.53
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: a9X0bRrHpIPb6OJ225ZkJ7XUes4-jGWbxnEJT77KOyk=
+source:
+- testsuites/ada/sptests/spatcb01/init.c
+stlib: []
+target: testsuites/ada/ada_spatcb01.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

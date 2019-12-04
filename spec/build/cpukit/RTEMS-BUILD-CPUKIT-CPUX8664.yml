@@ -23,12 +23,12 @@ install:
   - cpukit/score/cpu/x86_64/include/rtems/score/cpuimpl.h
   - cpukit/score/cpu/x86_64/include/rtems/score/idt.h
   - cpukit/score/cpu/x86_64/include/rtems/score/x86_64.h
-level: '1.48'
+level: 1.48
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: HWfjOtZH6dsXCQ9zS9XdU-vpdeQ07IDIqgOtQdKDVXc=
+reviewed: Bd5xN259boK17QRBJLCKbs9OzUqdfpWOmoX9x1unps4=
 source:
 - cpukit/score/cpu/no_cpu/cpucounterfrequency.c
 - cpukit/score/cpu/no_cpu/cpucounterread.c

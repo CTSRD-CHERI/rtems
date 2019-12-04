@@ -9,12 +9,12 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.168'
+level: 1.168
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: q1vIklsXG-WraqwK8-6Y3xhGTHlVX32Kl4BliPIqy0w=
 source:
 - testsuites/sptests/spintr_err01/init.c
 - testsuites/sptests/spintr_err01/isr.c
@@ -22,5 +22,5 @@ stlib: []
 target: testsuites/sptests/spintr_err01.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

@@ -21,19 +21,19 @@ install:
   source:
   - bsps/mips/jmr3904/start/bsp_specs
   - bsps/mips/jmr3904/start/linkcmds
-level: '1.2'
+level: 1.2
 links:
-- RTEMS-BUILD-BSP-BSPOPTS: null
-- RTEMS-BUILD-BSP-MIPS-JMR3904-ABI: null
-- RTEMS-BUILD-BSP-MIPS-JMR3904-START: null
-- RTEMS-BUILD-BSP-MIPS-JMR3904-TSTJMR3904: null
-- RTEMS-BUILD-BSP-OBJ: null
-- RTEMS-BUILD-BSP-OBJIRQ: null
-- RTEMS-BUILD-BSP-OPTO2: null
+- RTEMS-BUILD-BSP-BSPOPTS: Wm3sxAZgV2qTZy3j7vLFzPcSbrq55VDM052Ocsaid9E=
+- RTEMS-BUILD-BSP-OBJ: tgEqqyPlwgBwG3s7tNDgDZwObWvqNe4c2CTFSuj7X88=
+- RTEMS-BUILD-BSP-OBJIRQ: _OqhvvRHGIHemeHqqsoj1_V-pK4C0oiOOk7rshs7RJg=
+- RTEMS-BUILD-BSP-OPTO2: r0q7M48XBHR1ES8QcdIvYFB5cSdkfBWkJTXycbg43og=
+- RTEMS-BUILD-BSP-MIPS-JMR3904-ABI: Utf4F384filIm29uAnckC8mZ685xBhZb73o2z0Qn3pg=
+- RTEMS-BUILD-BSP-MIPS-JMR3904-START: ykiBCD_U7rgVei2m4f2dt6wpD2mY9RB27Y_EbvXuRso=
+- RTEMS-BUILD-BSP-MIPS-JMR3904-TSTJMR3904: xiEgyxq3l7nOgpabMn_r1wlW2axNjQI-VZ0CHn9d-t8=
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: ilCa47m3hb7Lo_f8wtYNmD6VG0E_U8CJu4g3C8pknq0=
 source:
 - bsps/mips/jmr3904/btimer/btimer.c
 - bsps/mips/jmr3904/clock/clockdrv.c

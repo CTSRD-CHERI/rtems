@@ -3,17 +3,17 @@ actions:
 - define-condition: null
 active: true
 build-type: option
-default-by-variant: []
 default: null
+default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.14'
+level: 1.14
 links: []
 name: HAVE_MEMORY_H
 normative: true
 order: 0
 ref: ''
-reviewed: lYlNKTTBo1HTSOdc4LO0MSGIh2bR8p4XSUyNtBn-oUo=
+reviewed: tRWFeYzoEtEJtzMI2zwoay5Jvqd915sxtPCoHL7Hjl4=
 text: ''
 type: build

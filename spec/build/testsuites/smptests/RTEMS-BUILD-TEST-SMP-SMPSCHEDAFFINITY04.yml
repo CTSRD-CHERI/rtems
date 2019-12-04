@@ -15,12 +15,12 @@ links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: MxKs8gasaHKALBJHidVUUjqiMK9uFf4gdAZ4as7Lqgk=
 source:
 - testsuites/smptests/smpschedaffinity04/init.c
 stlib: []
 target: testsuites/smptests/smpschedaffinity04.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

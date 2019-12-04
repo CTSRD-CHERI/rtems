@@ -8,13 +8,13 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.6'
+level: 1.6
 links: []
 name: CD2401_IO_MODE
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: oh3KolBxMZ_0p-m8cBd0dLcfIHwcVV61FnzgzaDnej0=
 text: |
   0 for polled I/O, 1 for interrupt-driven.
 type: build

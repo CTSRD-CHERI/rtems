@@ -9,12 +9,12 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.93'
+level: 1.93
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: 82NnVMLzjVqXhd2XJCUI6spB7IS0vEIldyt2QmhoAb0=
 source:
 - testsuites/libtests/POSIX/nanosleep.c
 stlib: []

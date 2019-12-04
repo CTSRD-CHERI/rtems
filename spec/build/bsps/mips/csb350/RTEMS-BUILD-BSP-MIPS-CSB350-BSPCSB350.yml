@@ -21,19 +21,19 @@ install:
   source:
   - bsps/mips/csb350/start/bsp_specs
   - bsps/mips/csb350/start/linkcmds
-level: '1.2'
+level: 1.2
 links:
-- RTEMS-BUILD-BSP-BSPOPTS: null
-- RTEMS-BUILD-BSP-MIPS-CSB350-ABI: null
-- RTEMS-BUILD-BSP-MIPS-CSB350-OBJNET: null
-- RTEMS-BUILD-BSP-MIPS-CSB350-START: null
-- RTEMS-BUILD-BSP-OBJ: null
-- RTEMS-BUILD-BSP-OBJIRQ: null
-- RTEMS-BUILD-BSP-OPTO2: null
+- RTEMS-BUILD-BSP-BSPOPTS: Wm3sxAZgV2qTZy3j7vLFzPcSbrq55VDM052Ocsaid9E=
+- RTEMS-BUILD-BSP-OBJ: tgEqqyPlwgBwG3s7tNDgDZwObWvqNe4c2CTFSuj7X88=
+- RTEMS-BUILD-BSP-OBJIRQ: _OqhvvRHGIHemeHqqsoj1_V-pK4C0oiOOk7rshs7RJg=
+- RTEMS-BUILD-BSP-OPTO2: r0q7M48XBHR1ES8QcdIvYFB5cSdkfBWkJTXycbg43og=
+- RTEMS-BUILD-BSP-MIPS-CSB350-ABI: JNjgKKfcR2bq5pn-p9NBCujpLSSXZDgcGIoCwg1swWc=
+- RTEMS-BUILD-BSP-MIPS-CSB350-OBJNET: M0ncl8aUKcY--SYO3GNz-ofGKGEYeSaDwMpgOXK15Ls=
+- RTEMS-BUILD-BSP-MIPS-CSB350-START: A6ewR6dSQfopa_zP9iU9hp9cS-Ph9o3e50ht4Yi5tUE=
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: GK2qWElvwYVyUCt6YrICjAdzh0J2p9vUMvHTcQsbcGU=
 source:
 - bsps/mips/csb350/btimer/btimer.c
 - bsps/mips/csb350/clock/clockdrv.c

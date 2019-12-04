@@ -1,10 +1,9 @@
 actions:
 - get-integer: null
 - define: null
-format: '{}'
 active: true
 build-type: option
-default: 
+default: null
 default-by-variant:
 - value: 433
   variants:
@@ -14,14 +13,15 @@ default-by-variant:
   - powerpc/mpc5566.*
 derived: false
 enabled-by: []
+format: '{}'
 header: ''
-level: '1.51'
+level: 1.51
 links: []
 name: SMSC9218I_RESET_PIN
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: dPR6SqEt1WHXTxoTtRV75AuSIO77xsyrmr25klHeTXQ=
 text: |
   reset pin for SMSC9218I network interface
 type: build

@@ -9,12 +9,12 @@ enabled-by:
 header: ''
 includes: []
 install: []
-level: '1.3'
+level: 1.3
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: SraO6qeLvkAnweBdWLO4CWmiD9D1XNXnVFmfflcmE78=
 source:
 - bsps/arm/realview-pbx-a9/start/bspsmp.c
 - bsps/arm/shared/start/arm-a9mpcore-smp.c

@@ -25,12 +25,12 @@ install:
   - cpukit/score/cpu/powerpc/include/rtems/score/cpuimpl.h
   - cpukit/score/cpu/powerpc/include/rtems/score/paravirt.h
   - cpukit/score/cpu/powerpc/include/rtems/score/powerpc.h
-level: '1.42'
+level: 1.42
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: wHXzi1Ln0q0WyEFmBcClrMKV0-6D-aV0-5h9ogIr64A=
+reviewed: _hzV-lFvWkrRkZaFCQHXlhBlM0gNz99C6yb2tad0pdk=
 source:
 - cpukit/score/cpu/no_cpu/cpuidle.c
 - cpukit/score/cpu/powerpc/cpu.c

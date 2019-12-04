@@ -9,12 +9,12 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.62'
+level: 1.62
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: Sz_xFZFxeOsD-EXt8HpwoQWn8a-11GxRBOq3NCzKJEo=
 source:
 - testsuites/libtests/POSIX/gettimeofday.c
 stlib: []

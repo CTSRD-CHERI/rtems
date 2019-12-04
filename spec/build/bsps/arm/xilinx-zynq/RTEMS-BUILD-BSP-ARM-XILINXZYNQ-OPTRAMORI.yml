@@ -15,12 +15,12 @@ derived: false
 enabled-by: []
 format: '{:#010x}'
 header: ''
-level: '1.25'
+level: 1.25
 links: []
 name: ZYNQ_RAM_ORIGIN
 normative: true
 order: 0
 ref: ''
-reviewed: cY6hpjtgQc-x3ujVWnNcTt4FzWMmThc_StP5OEAMAR4=
+reviewed: sJlRBScxtlOr-4BoD35_CnO1mubt1YjdVL12JWCPH6w=
 text: ''
 type: build

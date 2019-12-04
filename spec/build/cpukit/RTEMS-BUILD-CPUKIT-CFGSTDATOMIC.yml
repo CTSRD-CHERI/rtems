@@ -3,8 +3,8 @@ actions:
 - define-condition: null
 active: true
 build-type: option
-default-by-variant: []
 default: null
+default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
@@ -14,6 +14,6 @@ name: HAVE_STDATOMIC_H
 normative: true
 order: 0
 ref: ''
-reviewed: EAcwNQkXE6PUaTFCAxpHVcTasVd-9VJluZYwmeQP4fw=
+reviewed: 9MQ1hGZUqfsJX8ts1PjRip00JJDxm1NAqEIlor54RWE=
 text: ''
 type: build

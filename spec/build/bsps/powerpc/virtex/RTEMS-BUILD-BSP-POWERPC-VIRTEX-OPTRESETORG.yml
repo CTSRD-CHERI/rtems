@@ -5,18 +5,19 @@ actions:
 - format-and-define: null
 active: true
 build-type: option
-default: 0x7ffffec
+default: 134217708
 default-by-variant: []
 derived: false
 enabled-by: []
 format: '{:#010x}'
 header: ''
-level: '1.11'
+level: 1.11
 links: []
 name: VIRTEX_RESET_ORIGIN
 normative: true
 order: 0
 ref: ''
-reviewed: i_CssUBJyqp5PTT684AclQKGnjjqreMFEm0qKc6hfmM=
-text: 'reset region origin'
+reviewed: -4x1vUhyOKD6ICzXXcDGMtlsJG_IncJ2hiq1m9Q50iM=
+text: |
+  reset region origin
 type: build

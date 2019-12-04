@@ -15,7 +15,7 @@ links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: jZQxyHXhQ0fNHqaY23W0RkJkBCpIaV_JFDf6YOpKW6o=
 source:
 - testsuites/sptests/spintrcritical16/init.c
 - testsuites/sptests/spintrcritical_support/intrcritical.c
@@ -23,5 +23,5 @@ stlib: []
 target: testsuites/sptests/spintrcritical16.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

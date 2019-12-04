@@ -9,12 +9,12 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.47'
+level: 1.47
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: RfMX9TnjI8d7n4zqLHqQc2gP-HZXyOyREFRIV6Z2Bgw=
 source:
 - testsuites/psxtmtests/psxtmsem04/init.c
 - testsuites/support/src/tmtests_empty_function.c
@@ -23,5 +23,5 @@ stlib: []
 target: testsuites/psxtmtests/psxtmsem04.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

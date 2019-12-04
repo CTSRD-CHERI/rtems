@@ -8,13 +8,13 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.23'
+level: 1.23
 links: []
 name: LPC32XX_STOP_GPDMA
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: uG-8B5JfjsQVOzRSFwMpzoA7rfKGzkx_VzZ2Vh1L6BE=
 text: |
   stop general purpose DMA at start-up to avoid DMA interference
 type: build

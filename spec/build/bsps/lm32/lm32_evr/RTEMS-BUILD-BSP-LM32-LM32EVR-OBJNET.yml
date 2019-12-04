@@ -10,12 +10,12 @@ header: ''
 includes:
 - cpukit/libnetworking
 install: []
-level: '1.5'
+level: 1.5
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: eumObqMxEPGo8gASrEJZbBBpszvlBFAs4vZHKK1bMuk=
 source:
 - bsps/lm32/shared/net/tsmac.c
 text: ''

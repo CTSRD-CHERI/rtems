@@ -9,17 +9,17 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.27'
+level: 1.27
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: Cb9pKojZtTx518NNOCvaRkxg1r4WXxj4VybjrM22eKY=
 source:
 - testsuites/psxtests/psxcancel/init.c
 stlib: []
 target: testsuites/psxtests/psxcancel.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

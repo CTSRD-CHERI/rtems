@@ -9,12 +9,12 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.104'
+level: 1.104
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: 2pQlwZErN5V1oYDAlFQNZt53aq7uHmvq28D8dS5EF28=
 source:
 - testsuites/libtests/POSIX/posix_memalign.c
 stlib: []

@@ -14,12 +14,12 @@ links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: oSYREVkLz6b9d0JasxB8EYJkURSBTdNYSLjx6Ct_Dq0=
 source:
 - testsuites/psxtests/psxinttypes01/init.c
 stlib: []
 target: testsuites/psxtests/psxinttypes01.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

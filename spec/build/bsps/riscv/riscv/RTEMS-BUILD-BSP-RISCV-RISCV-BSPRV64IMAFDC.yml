@@ -10,14 +10,14 @@ family: riscv
 header: ''
 includes: []
 install: []
-level: '1.14'
+level: 1.14
 links:
-- RTEMS-BUILD-BSP-OPTO2: null
-- RTEMS-BUILD-BSP-RISCV-RISCV-GRP: null
+- RTEMS-BUILD-BSP-OPTO2: r0q7M48XBHR1ES8QcdIvYFB5cSdkfBWkJTXycbg43og=
+- RTEMS-BUILD-BSP-RISCV-RISCV-GRP: 9Zo3oe-fxhtMJjJb98AxGY6RPMerKByGIhS6KzCOUQg=
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: EM6cJH2ABjIlqnoICKlKB3G4fvdrCVLJH41TZM7ujKw=
 source: []
 text: ''
 type: build

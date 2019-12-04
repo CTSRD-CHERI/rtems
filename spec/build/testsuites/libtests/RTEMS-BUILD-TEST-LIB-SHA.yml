@@ -9,17 +9,17 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.117'
+level: 1.117
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: TvDpZBlcuukFato5vzjnmgmW-mTkYfKzwFKvt58OzJs=
 source:
 - testsuites/libtests/sha/init.c
 stlib: []
 target: testsuites/libtests/sha.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

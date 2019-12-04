@@ -14,13 +14,13 @@ default-by-variant:
 derived: false
 enabled-by: []
 header: ''
-level: '1.45'
+level: 1.45
 links: []
 name: QORIQ_UART_BRIDGE_1_ENABLE
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: s0gOSE4txSWtuh0VHwTSmOopTfCPF5s9SmMOuAQGkY4=
 text: |
   use 1 to enable UART 1 to Intercom bridge, otherwise use 0
 type: build

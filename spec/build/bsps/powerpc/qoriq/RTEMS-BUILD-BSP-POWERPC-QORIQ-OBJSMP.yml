@@ -9,12 +9,12 @@ enabled-by:
 header: ''
 includes: []
 install: []
-level: '1.9'
+level: 1.9
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: 8SEZgmq_wPRa_hZR3Fled11AhFk8JP05t0_KXMgXA6A=
 source:
 - bsps/powerpc/qoriq/start/bspsmp.c
 text: ''

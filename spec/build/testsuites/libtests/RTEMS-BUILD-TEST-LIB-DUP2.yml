@@ -9,12 +9,12 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.46'
+level: 1.46
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: UaBRHQWe-l6tLBP-tVt3ODBEG8YFuUdOjuVhVNzfcio=
 source:
 - testsuites/libtests/POSIX/dup2.c
 stlib: []

@@ -1,7 +1,6 @@
 actions:
 - get-integer: null
 - define: null
-format: '{}'
 active: true
 build-type: option
 default: 5554
@@ -23,14 +22,15 @@ default-by-variant:
   - powerpc/mpc5674f.*
 derived: false
 enabled-by: []
+format: '{}'
 header: ''
-level: '1.21'
+level: 1.21
 links: []
 name: MPC55XX_CHIP_TYPE
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: SoiiTF0Q2vcxPRYSMOGdrQEgHiQdD8lk3FCxKkrOXSQ=
 text: |
   specifies the chip type in use (e.g. 5554 for MPC5554)
 type: build

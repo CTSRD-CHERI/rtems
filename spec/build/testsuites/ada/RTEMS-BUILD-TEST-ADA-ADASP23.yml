@@ -1,29 +1,29 @@
 active: true
-build-type: ada-test-program
+ada-main: testsuites/ada/sptests/sp23/sp23.adb
+ada-object-directory: testsuites/ada/sptests/sp23
 adaflags: []
-cflags: []
-cppflags: []
-includes: []
 adaincludes:
 - cpukit/include/adainclude
 - testsuites/ada/support
-ldflags: []
-stlib: []
-ada-object-directory: testsuites/ada/sptests/sp23
-source:
-- testsuites/ada/sptests/sp23/init.c
-ada-main: testsuites/ada/sptests/sp23/sp23.adb
-target: testsuites/ada/ada_sp23.exe
+build-type: ada-test-program
+cflags: []
+cppflags: []
 derived: false
 enabled-by: []
 header: ''
+includes: []
+ldflags: []
 level: '1.50'
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: Wc47bSkhG0CFTzpTd1homJ9UK4oBfAyD9oXmF40dhbI=
+source:
+- testsuites/ada/sptests/sp23/init.c
+stlib: []
+target: testsuites/ada/ada_sp23.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

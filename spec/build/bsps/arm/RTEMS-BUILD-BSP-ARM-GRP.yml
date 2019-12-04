@@ -1,5 +1,9 @@
 active: true
 build-type: group
+derived: true
+enabled-by: []
+header: ''
+includes: []
 install:
 - destination: ${BSP_INCLUDEDIR}
   source:
@@ -51,19 +55,15 @@ install:
   - bsps/arm/shared/start/linkcmds.armv4
   - bsps/arm/shared/start/linkcmds.armv7m
   - bsps/arm/shared/start/linkcmds.base
-derived: true
-enabled-by: []
-header: ''
-includes: []
 ldflags: []
-level: '1.1'
+level: 1.1
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: iZa6gACdSilaXe6UFc1fz-ysw2mGgBcAtcbcvjE7bqE=
 text: ''
 top-level: false
 type: build
-use-before: []
 use-after: []
+use-before: []

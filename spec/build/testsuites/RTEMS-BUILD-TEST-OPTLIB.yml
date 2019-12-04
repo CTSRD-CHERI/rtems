@@ -3,18 +3,18 @@ actions:
 - env-enable: null
 active: true
 build-type: option
-default-by-variant: []
 default: false
+default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.6'
+level: 1.6
 links: []
 name: BUILD_LIBTESTS
 normative: true
 order: -1000
 ref: ''
-reviewed: bT2hWdCEpsrb1S8LXs9c2wHiEKX4fls3am8RS_DQezM=
+reviewed: tgOZr20BGAt-A7cRhQ3qqw9Dwchz6lNTueaWrZuVR6U=
 text: |
   Build the library test programs (may be also enabled by BUILD_TESTS)
 type: build

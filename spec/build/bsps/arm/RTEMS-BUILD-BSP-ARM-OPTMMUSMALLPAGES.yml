@@ -10,13 +10,13 @@ derived: false
 enabled-by: []
 format: '{}'
 header: ''
-level: '1.3'
+level: 1.3
 links: []
 name: ARM_MMU_USE_SMALL_PAGES
 normative: true
 order: 0
 ref: ''
-reviewed: Sn8SO7Eoqyfuhpzy0MYTMfpCZ7S4od-QC60_gUdQwsQ=
+reviewed: M_COvRBOUlGic_Luz_OnmGiOQkspVNYO0FL7q5yMbPc=
 text: |
   Use MMU with small pages (4KiB)
 type: build

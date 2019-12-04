@@ -3,8 +3,8 @@ actions:
 - define-condition: null
 active: true
 build-type: option
-default-by-variant: []
 default: null
+default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
@@ -14,6 +14,6 @@ name: HAVE_UNISTD_H
 normative: true
 order: 0
 ref: ''
-reviewed: Jcf4rALv8m3uzcPuLRyiBI_Jyv2Opjogjotb3AyJegY=
+reviewed: sPzqPKVt8S-UPqwqcY2IOWr4iaGJ5--w-HmR-sq176Q=
 text: ''
 type: build

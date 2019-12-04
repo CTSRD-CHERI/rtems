@@ -13,12 +13,12 @@ install:
   - cpukit/include/zconf.h
   - cpukit/include/zlib.h
 install-path: ${BSP_LIBDIR}
-level: '1.61'
+level: 1.61
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: fCmWaj3nLWf12cOwqXVNJ-S2NrdgsHo7Jy9KoP_QFJA=
+reviewed: _xOrw3XYzuwWXINABghCVQMlrUfAJ-7K1JvXlvrFaYA=
 source:
 - cpukit/zlib/adler32.c
 - cpukit/zlib/compress.c

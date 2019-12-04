@@ -33,13 +33,13 @@ default-by-variant:
 derived: false
 enabled-by: []
 header: ''
-level: '1.2'
+level: 1.2
 links: []
 name: ABI_FLAGS
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: p1XRMFnOYJSfcx_ioXfI_C87U8qaoaFrLjfhzyrYmpM=
 text: |
   ABI flags
 type: build

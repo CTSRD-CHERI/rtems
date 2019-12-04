@@ -1,21 +1,21 @@
 actions:
 - get-integer: null
 - define: null
-format: '{:#010x}'
 active: true
 build-type: option
-default: 0x1000000
+default: 16777216
 default-by-variant: []
 derived: false
 enabled-by: []
+format: '{:#010x}'
 header: ''
-level: '1.36'
+level: 1.36
 links: []
 name: QORIQ_INTERCOM_AREA_SIZE
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: yoag9dEvD-41fKJHbjs2ay43H-RVw8tCrHGvIKYYhNM=
 text: |
   inter-processor communication area size
 type: build

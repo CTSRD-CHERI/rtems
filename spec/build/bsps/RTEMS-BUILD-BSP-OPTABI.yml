@@ -6,17 +6,17 @@ actions:
 - env-append: LDFLAGS
 active: true
 build-type: option
-default-by-variant: []
 default: null
+default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.17'
+level: 1.17
 links: []
 name: ABI_FLAGS
 normative: true
 order: 0
 ref: ''
-reviewed: 9S6xLt9NNTeh7TML05T2jYdN5pVs4S6Z-e3mWIjWpCw=
+reviewed: aQs6MWJVA_wjSsDqmLkek4gBkWeEIoPL6awyE5-_7Ts=
 text: ''
 type: build

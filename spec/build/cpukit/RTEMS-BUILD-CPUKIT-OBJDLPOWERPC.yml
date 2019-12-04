@@ -9,12 +9,12 @@ enabled-by:
 header: ''
 includes: []
 install: []
-level: '1.69'
+level: 1.69
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: 7LuK3hAh3FwzH8V9PMkdFLy7Xm4O4zCRvqpbIzY7FjY=
+reviewed: goDp8owKaxlLxY48-CxHFANiBzbvxZRhrlCUkZDMU4U=
 source:
 - cpukit/libdl/rtl-mdreloc-powerpc.c
 text: ''

@@ -14,7 +14,7 @@ links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: E8xNHYre8hPwpDDYmC2L5eSuSlK6RHd2dJSjLOApV2I=
 source:
 - testsuites/tmtests/tm19/task1.c
 - testsuites/support/src/tmtests_empty_function.c
@@ -22,5 +22,5 @@ stlib: []
 target: testsuites/tmtests/tm19.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

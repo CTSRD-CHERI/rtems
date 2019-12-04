@@ -9,12 +9,12 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.72'
+level: 1.72
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: O-vxmpPPxBzO2w5O8CeP4ua6qg5xzPcD8pqYgCK0CZU=
 source:
 - testsuites/psxtests/psxmmap01/init.c
 - testsuites/psxtests/psxmmap01/test_helper.c
@@ -23,5 +23,5 @@ stlib: []
 target: testsuites/psxtests/psxmmap01.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

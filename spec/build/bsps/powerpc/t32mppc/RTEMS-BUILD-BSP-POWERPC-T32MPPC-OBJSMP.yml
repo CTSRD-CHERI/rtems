@@ -9,12 +9,12 @@ enabled-by:
 header: ''
 includes: []
 install: []
-level: '1.3'
+level: 1.3
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: Js5lSpcW2eZ25p4a6UE6L_Pkl96Qqc6YWYgUaIlIWFQ=
 source:
 - bsps/shared/start/bspsmp-dummy.c
 text: ''

@@ -9,12 +9,12 @@ enabled-by:
 header: ''
 includes: []
 install: []
-level: '1.66'
+level: 1.66
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: GaJd89X7LwxaIAdesfpI8eQovkrz1bJpVCx4kalUmW0=
+reviewed: Ghy0f8pwgv8iO-tn0ozHFZ59RY1H5T7d48D_ClU0S7I=
 source:
 - cpukit/libdl/rtl-mdreloc-m68k.c
 text: ''

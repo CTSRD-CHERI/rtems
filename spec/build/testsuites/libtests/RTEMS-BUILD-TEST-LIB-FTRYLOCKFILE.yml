@@ -9,12 +9,12 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.56'
+level: 1.56
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: dbRA2aIBfXD1sv9K2915A5kp8uslJPHwh6VkfdR8RMg=
 source:
 - testsuites/libtests/POSIX/ftrylockfile.c
 stlib: []

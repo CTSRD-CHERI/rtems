@@ -9,17 +9,17 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.137'
+level: 1.137
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: PSPLF2c3JImRBu4Pmm_QhyH7hKJLDVfRVc3sy9bJf5w=
 source:
 - testsuites/libtests/termios02/init.c
 stlib: []
 target: testsuites/libtests/termios02.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

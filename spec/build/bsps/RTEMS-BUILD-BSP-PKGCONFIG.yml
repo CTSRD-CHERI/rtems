@@ -20,15 +20,15 @@ content: |
   Libs:
   Cflags: -qrtems --specs bsp_specs -B$${libdir} $${CFLAGS}
 derived: false
-install-path: ${PREFIX}/lib/pkgconfig
 enabled-by: []
 header: ''
+install-path: ${PREFIX}/lib/pkgconfig
 level: '1.40'
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: 5D9JhGN2mOwppCOeI7VRVAYQZu6EutecoDpu42I1O5c=
 target: ${ARCH}-rtems${__RTEMS_MAJOR__}-${BSP_NAME}.pc
 text: ''
 type: build

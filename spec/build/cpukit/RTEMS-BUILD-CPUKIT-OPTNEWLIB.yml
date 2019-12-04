@@ -4,18 +4,18 @@ actions:
 - define-condition: null
 active: true
 build-type: option
-default-by-variant: []
 default: true
+default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.95'
+level: 1.95
 links: []
 name: RTEMS_NEWLIB
 normative: true
 order: 0
 ref: ''
-reviewed: R8d04Iiw2qf1SaXLuJbe1W0kZJpUx8YsVrvbVu8wV4w=
+reviewed: L2wljFsZe08VjgPMIHjP3UB3d2NGZ5xEAFfVcyzSaDk=
 text: |
   Enable the Newlib C library support
 type: build

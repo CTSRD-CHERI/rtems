@@ -32,12 +32,12 @@ install:
   - bsps/arm/lpc32xx/start/linkcmds.lpc32xx_mzx_stage_1
   - bsps/arm/lpc32xx/start/linkcmds.lpc32xx_mzx_stage_2
   - bsps/arm/lpc32xx/start/linkcmds.lpc32xx_phycore
-level: '1.8'
+level: 1.8
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: GC0E8lLHgHNzMJMcdwKCCu6uxYZVXsv51DqCiyhh6O4=
 source:
 - bsps/arm/lpc32xx/console/console-config.c
 - bsps/arm/lpc32xx/console/hsu.c

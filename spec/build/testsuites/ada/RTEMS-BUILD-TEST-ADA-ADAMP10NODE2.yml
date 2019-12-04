@@ -1,31 +1,31 @@
 active: true
-build-type: ada-test-program
+ada-main: testsuites/ada/mptests/mp10/node2/mp10_node2.adb
+ada-object-directory: testsuites/ada/mptests/mp10/node2
 adaflags: []
-cflags: []
-cppflags: []
-includes: []
 adaincludes:
 - cpukit/include/adainclude
 - testsuites/ada/support
 - testsuites/ada/mptests/mp10
-ldflags: []
-stlib: []
-ada-object-directory: testsuites/ada/mptests/mp10/node2
-source:
-- testsuites/ada/mptests/mp10/node2/init.c
-ada-main: testsuites/ada/mptests/mp10/node2/mp10_node2.adb
-target: testsuites/ada/ada_mp10_node2.exe
+build-type: ada-test-program
+cflags: []
+cppflags: []
 derived: false
 enabled-by:
 - RTEMS_MULTIPROCESSING
 header: ''
-level: '1.21'
+includes: []
+ldflags: []
+level: 1.21
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: tieRZSdSBvLb4On2trHailbx6xrD2Wko7ZSUVk8aYKY=
+source:
+- testsuites/ada/mptests/mp10/node2/init.c
+stlib: []
+target: testsuites/ada/ada_mp10_node2.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

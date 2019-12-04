@@ -4,17 +4,17 @@ actions:
 - define: null
 active: true
 build-type: option
-default-by-variant: []
 default: null
+default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.99'
+level: 1.99
 links: []
 name: __RTEMS_SIZEOF_BLKCNT_T__
 normative: true
 order: 0
 ref: ''
-reviewed: GvYKsugdxZChupoS7OvN2QQ7zXIQ_JEFdmlvGPeILTc=
+reviewed: 3aOZGaUDGQ2BJCHRkxkyyDE885CY19Ll1dSBflHJiiU=
 text: ''
 type: build

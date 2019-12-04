@@ -3,16 +3,16 @@ asflags: []
 build-type: start-file
 cppflags: []
 derived: true
-install-path: ${BSP_LIBDIR}
 enabled-by: []
 header: ''
 includes: []
-level: '1.4'
+install-path: ${BSP_LIBDIR}
+level: 1.4
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: NULL
+reviewed: 79V9UP1QXAxzQVDFzpPntg896l8kD1NDymcp3jVG-AQ=
 source:
 - bsps/mips/rbtx4925/start/start.S
 target: start.o

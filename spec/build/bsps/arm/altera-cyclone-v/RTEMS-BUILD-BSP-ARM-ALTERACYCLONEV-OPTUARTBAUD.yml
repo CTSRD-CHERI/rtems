@@ -1,21 +1,21 @@
 actions:
 - get-integer: null
 - define: null
-format: '{}'
 active: true
 build-type: option
 default: 115200
 default-by-variant: []
 derived: false
 enabled-by: []
+format: '{}'
 header: ''
-level: '1.19'
+level: 1.19
 links: []
 name: CYCLONE_V_UART_BAUD
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: rYAsxH-YDdBov-j_DiSye0wfXalW8-m1wJcSJX6h4Wk=
 text: |
   baud for UARTs
 type: build

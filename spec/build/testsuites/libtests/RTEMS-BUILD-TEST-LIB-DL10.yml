@@ -2,15 +2,7 @@ active: true
 build-type: script
 cflags: []
 cppflags: []
-ldflags: []
-stlib: []
-use-before: []
-use-after: []
-includes:
-- testsuites/libtests/dl10
-prepare-configure: null
-prepare-build: null
-do-configure: null
+derived: false
 do-build: |
   path = "testsuites/libtests/dl10/"
   objs = []
@@ -37,17 +29,25 @@ do-build: |
   objs.append(dl10_sym_o)
   self.rtems_syms(bld, dl10_pre, dl10_sym_o)
   self.link_cc(bld, bic, objs, "testsuites/libtests/dl10.exe")
-derived: false
+do-configure: null
 enabled-by:
 - and:
   - not: TEST_DL10_EXCLUDE
   - BUILD_LIBDL
 header: ''
-level: '1.44'
+includes:
+- testsuites/libtests/dl10
+ldflags: []
+level: 1.44
 links: []
 normative: true
 order: 0
+prepare-build: null
+prepare-configure: null
 ref: ''
-reviewed: null
+reviewed: uFogQaG1jGSztDAnaWl8lC2piQmrtzSGBYMX4QWP4jQ=
+stlib: []
 text: ''
 type: build
+use-after: []
+use-before: []

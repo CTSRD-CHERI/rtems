@@ -1,29 +1,29 @@
 active: true
-build-type: ada-test-program
+ada-main: testsuites/ada/tmtests/tm25/tm25.adb
+ada-object-directory: testsuites/ada/tmtests/tm25
 adaflags: []
-cflags: []
-cppflags: []
-includes: []
 adaincludes:
 - cpukit/include/adainclude
 - testsuites/ada/support
-ldflags: []
-stlib: []
-ada-object-directory: testsuites/ada/tmtests/tm25
-source:
-- testsuites/ada/tmtests/tm25/init.c
-ada-main: testsuites/ada/tmtests/tm25/tm25.adb
-target: testsuites/ada/ada_tm25.exe
+build-type: ada-test-program
+cflags: []
+cppflags: []
 derived: false
 enabled-by: []
 header: ''
+includes: []
+ldflags: []
 level: '1.80'
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: csRUhVVouPtMirhwaTQK4_EAOZgridC5nOkN5ScACok=
+source:
+- testsuites/ada/tmtests/tm25/init.c
+stlib: []
+target: testsuites/ada/ada_tm25.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

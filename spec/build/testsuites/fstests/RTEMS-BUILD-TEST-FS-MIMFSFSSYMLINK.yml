@@ -10,12 +10,12 @@ header: ''
 includes:
 - testsuites/fstests/mimfs_support
 ldflags: []
-level: '1.52'
+level: 1.52
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: RwMEgTWK5Nz2qAKGYPYU_8yIQMBV1DX-ILZaHOwjEmo=
+reviewed: HvMjsBoVuG88hufG4bCvr__GO9CIux26rrWn_KEU0uY=
 source:
 - testsuites/fstests/fssymlink/test.c
 stlib: []

@@ -8,13 +8,13 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.9'
+level: 1.9
 links: []
 name: CD2401_USE_TERMIOS
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: -ezU2PFhRp3L_STasJZFBKGJGmg4DXn6Wn75NAbVY-w=
 text: |
   1 for using termios based console.
 type: build

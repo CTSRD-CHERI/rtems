@@ -9,17 +9,17 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.67'
+level: 1.67
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: TW9n11Z9JuoqT07tiaTC_a5OzdDOC87X2yV5Q9UK688=
 source:
 - testsuites/psxtests/psxkey06/init.c
 stlib: []
 target: testsuites/psxtests/psxkey06.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

@@ -3,8 +3,8 @@ actions:
 - define-condition: null
 active: true
 build-type: option
-default-by-variant: []
 default: null
+default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
@@ -14,6 +14,6 @@ name: HAVE_DECL_PTHREAD_GETAFFINITY_NP
 normative: true
 order: 0
 ref: ''
-reviewed: LRt7AtYefTB3u5ovWGtK3kZa5rrqnu-xzNSfEm1VZXE=
+reviewed: lhlbhIrvch4AOHat8nusdeWsLzpO9B-wYkgJqTDBde0=
 text: ''
 type: build

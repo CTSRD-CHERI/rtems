@@ -9,12 +9,12 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.208'
+level: 1.208
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: NBYefWdvcEin1RvKTYsVQTvihQUm3xrtt6LgWNABp6k=
 source:
 - testsuites/sptests/sptask_err01/init.c
 - testsuites/sptests/sptask_err01/task2.c
@@ -22,5 +22,5 @@ stlib: []
 target: testsuites/sptests/sptask_err01.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

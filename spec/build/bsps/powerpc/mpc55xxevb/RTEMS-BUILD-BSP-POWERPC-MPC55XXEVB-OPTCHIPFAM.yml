@@ -1,13 +1,13 @@
 actions:
 - get-string: null
 - define-unquoted: null
-format: '{}'
 active: true
 build-type: option
 default: (MPC55XX_CHIP_TYPE / 10)
 default-by-variant: []
 derived: false
 enabled-by: []
+format: '{}'
 header: ''
 level: '1.20'
 links: []
@@ -15,7 +15,7 @@ name: MPC55XX_CHIP_FAMILY
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: LokHJ4NE4A-BGUw9GQ_XiSi4MeX70aLdPHCshpKy3HM=
 text: |
   specifies the chip family in use (e.g. 555 for MPC5554)
 type: build

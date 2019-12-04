@@ -8,12 +8,12 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.7'
+level: 1.7
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: Sv64k4hqPXI3X__91I-46tacydqdh67Qogo84Bq-yTs=
 text: |
   Defines mvme167 in <bspopts.h>.
 type: build

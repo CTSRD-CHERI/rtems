@@ -9,12 +9,12 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.103'
+level: 1.103
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: 7QkTjk0yp1ciisz-yMyIhTuLolf-lAWhvCYwLb6CDl8=
 source:
 - testsuites/libtests/POSIX/pipe.c
 stlib: []

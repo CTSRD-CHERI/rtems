@@ -1,21 +1,21 @@
 actions:
 - get-integer: null
 - define: null
-format: '{}'
 active: true
 build-type: option
 default: 115200
 default-by-variant: []
 derived: false
 enabled-by: []
+format: '{}'
 header: ''
-level: '1.9'
+level: 1.9
 links: []
 name: CONSOLE_BAUD
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: ZEx8hB_IZnvrk5i1ccfqRfBnMYyXjW0Yz84oGM1guGE=
 text: |
   initial baud for console UART
 type: build

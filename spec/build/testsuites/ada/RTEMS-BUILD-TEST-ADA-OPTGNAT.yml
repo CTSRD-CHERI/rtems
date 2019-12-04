@@ -5,16 +5,16 @@ actions:
 - env-assign: GNATMAKE
 active: true
 build-type: option
-default-by-variant: []
 default: null
+default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.85'
+level: 1.85
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: oRRzhna6a47p0_QjPWqYLful9JgHGbxMqy-q7mSiZiU=
+reviewed: cuyVG1F1ozuL_ZwCNIpzCE01wREiXkmU22q0hv52YxU=
 text: ''
 type: build

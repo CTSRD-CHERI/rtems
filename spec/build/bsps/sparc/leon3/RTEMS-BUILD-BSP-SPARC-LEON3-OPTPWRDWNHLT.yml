@@ -8,13 +8,13 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.16'
+level: 1.16
 links: []
 name: BSP_POWER_DOWN_AT_FATAL_HALT
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: dK707MJ6B_PYD_tFd1BAElCrA9egMfwjyaiJNiG443I=
 text: |
   If defined, CPU is powered down on fatal exit. Otherwise generate system error which will hand over to debugger, simulator, etc.
 type: build

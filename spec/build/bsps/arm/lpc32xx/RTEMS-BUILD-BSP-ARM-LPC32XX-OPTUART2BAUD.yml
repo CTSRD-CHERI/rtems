@@ -14,7 +14,7 @@ name: LPC32XX_UART_2_BAUD
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: mnqCKRNrw0yYT3oAurwHyCYI6gtWCZQMQBnGImKBepI=
 text: |
   baud for UART 2
 type: build

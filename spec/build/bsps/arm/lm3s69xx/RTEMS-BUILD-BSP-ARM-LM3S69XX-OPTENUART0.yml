@@ -8,13 +8,13 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.8'
+level: 1.8
 links: []
 name: LM3S69XX_ENABLE_UART_0
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: u7smQanGL7TbbnnA0-K7g5DwUMlJFs2vVBvwXmBmcF4=
 text: |
   enable UART 0
 type: build

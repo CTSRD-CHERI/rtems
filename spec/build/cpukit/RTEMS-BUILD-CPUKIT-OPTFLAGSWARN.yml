@@ -6,19 +6,19 @@ actions:
 - env-append: CXXFLAGS
 active: true
 build-type: option
-default-by-variant: []
 default:
 - -Wall
+default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.108'
+level: 1.108
 links: []
 name: WARNING_FLAGS
 normative: true
 order: 0
 ref: ''
-reviewed: SF0IXBidYOAMcvESmV-lWqWPHt84-RtZ1NkdP9MwqRc=
+reviewed: qyO6tbmsXBDJAlN8lfMPfiTRWyZx0ayas7KOSYlD63s=
 text: |
   Warning flags passed to the C and C++ compiler
 type: build

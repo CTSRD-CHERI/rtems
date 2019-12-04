@@ -14,12 +14,12 @@ links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: WVtNn6k0FRqmRJ2lLl5wY8xCh9lYsmeEUC5v8B1Nrws=
 source:
 - testsuites/sptests/sppartition_err01/init.c
 stlib: []
 target: testsuites/sptests/sppartition_err01.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

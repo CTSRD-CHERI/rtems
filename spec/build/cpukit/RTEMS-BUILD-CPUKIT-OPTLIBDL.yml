@@ -3,8 +3,8 @@ actions:
 - env-enable: null
 active: true
 build-type: option
-default-by-variant: []
 default: null
+default-by-variant: []
 derived: false
 enabled-by:
 - arm
@@ -15,12 +15,12 @@ enabled-by:
 - powerpc
 - sparc
 header: ''
-level: '1.92'
+level: 1.92
 links: []
 name: BUILD_LIBDL
 normative: true
 order: 0
 ref: ''
-reviewed: LXEn-HgtXt_jvXFC8s2nHNoVBNzpgOhJqP77YEEGTbQ=
+reviewed: LvUXiB1T_Wrs57BRgWBjlt3Omu0RkopHl1r6cY4LuGQ=
 text: ''
 type: build

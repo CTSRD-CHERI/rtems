@@ -10,14 +10,14 @@ family: gen5200
 header: ''
 includes: []
 install: []
-level: '1.5'
+level: 1.5
 links:
-- RTEMS-BUILD-BSP-OPTO2: null
-- RTEMS-BUILD-BSP-POWERPC-GEN5200-GRP: null
+- RTEMS-BUILD-BSP-OPTO2: r0q7M48XBHR1ES8QcdIvYFB5cSdkfBWkJTXycbg43og=
+- RTEMS-BUILD-BSP-POWERPC-GEN5200-GRP: ti5JSmKMWzQhnr2KmLvhcfpDbKoVFVwzgVgXJ31eMzM=
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: G5s8EG5vhgwIfWcha6EuD1rpUryg0fPVy5q0KBTUioo=
 source: []
 text: ''
 type: build

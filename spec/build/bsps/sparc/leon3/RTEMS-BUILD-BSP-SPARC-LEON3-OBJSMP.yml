@@ -9,12 +9,12 @@ enabled-by:
 header: ''
 includes: []
 install: []
-level: '1.12'
+level: 1.12
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: RaFEiXvXtne_Mw31Y5uf3h7UR7PKr-ecwhia0yRdfr0=
 source:
 - bsps/sparc/leon3/start/bspsmp.c
 text: ''

@@ -14,13 +14,13 @@ default-by-variant:
 derived: false
 enabled-by: []
 header: ''
-level: '1.43'
+level: 1.43
 links: []
 name: MPC55XX_NULL_POINTER_PROTECTION
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: 5PHjP6vFXA86d5RE9RZ6fZ0itu4BKxtRJpCEiRTa8to=
 text: |
   enable NULL pointer protection
 type: build

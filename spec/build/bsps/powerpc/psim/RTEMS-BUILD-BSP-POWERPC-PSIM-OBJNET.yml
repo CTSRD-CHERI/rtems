@@ -10,12 +10,12 @@ header: ''
 includes:
 - cpukit/libnetworking
 install: []
-level: '1.4'
+level: 1.4
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: PNy1oW2omPvaVGO6FdZMpSPDMHV2JK7sfODOTW_tma0=
 source:
 - bsps/powerpc/psim/net/if_sim.c
 text: ''

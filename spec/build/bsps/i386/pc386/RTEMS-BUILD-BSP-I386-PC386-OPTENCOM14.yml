@@ -8,13 +8,13 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.21'
+level: 1.21
 links: []
 name: BSP_ENABLE_COM1_COM4
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: Syb1EDxY023MT7z2vV8Pzb8Sc_YDSUXzns28Ga_aoT8=
 text: |
   Set if COM1..COM4 support is enabled.
 type: build

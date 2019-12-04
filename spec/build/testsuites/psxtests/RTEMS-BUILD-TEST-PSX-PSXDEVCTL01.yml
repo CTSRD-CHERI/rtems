@@ -14,7 +14,7 @@ links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: MMlzusrsUkkoQib8PHexzuK5PCYgHjmOJnmlm0GscDU=
 source:
 - testsuites/psxtests/psxdevctl01/main.c
 - testsuites/psxtests/psxdevctl01/test.c
@@ -22,5 +22,5 @@ stlib: []
 target: testsuites/psxtests/psxdevctl01.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

@@ -9,12 +9,12 @@ features: c cxx cxxprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.6'
+level: 1.6
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: 9CgtAUMCJHHmdZ9_4kyEqDOB2LUOjFTSekN70eImPYY=
 source:
 - testsuites/samples/cdtest/init.c
 - testsuites/samples/cdtest/main.cc
@@ -22,5 +22,5 @@ stlib: []
 target: testsuites/samples/cdtest.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

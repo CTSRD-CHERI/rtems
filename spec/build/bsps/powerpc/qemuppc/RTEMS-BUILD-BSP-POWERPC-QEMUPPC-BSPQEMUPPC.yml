@@ -22,22 +22,22 @@ install:
   - bsps/powerpc/qemuppc/start/bsp_specs
   - bsps/powerpc/qemuppc/start/linkcmds
   - bsps/powerpc/shared/start/linkcmds.base
-level: '1.2'
+level: 1.2
 links:
-- RTEMS-BUILD-BSP-BSPOPTS: null
-- RTEMS-BUILD-BSP-POWERPC-GRP: null
-- RTEMS-BUILD-BSP-OBJ: null
-- RTEMS-BUILD-BSP-OBJIRQ: null
-- RTEMS-BUILD-BSP-OPTO2: null
-- RTEMS-BUILD-BSP-POWERPC-OBJ: null
-- RTEMS-BUILD-BSP-POWERPC-OBJEXC: null
-- RTEMS-BUILD-BSP-POWERPC-QEMUPPC-ABI: null
-- RTEMS-BUILD-BSP-POWERPC-CRTI: null
-- RTEMS-BUILD-BSP-POWERPC-QEMUPPC-START: null
+- RTEMS-BUILD-BSP-BSPOPTS: Wm3sxAZgV2qTZy3j7vLFzPcSbrq55VDM052Ocsaid9E=
+- RTEMS-BUILD-BSP-OBJ: tgEqqyPlwgBwG3s7tNDgDZwObWvqNe4c2CTFSuj7X88=
+- RTEMS-BUILD-BSP-OBJIRQ: _OqhvvRHGIHemeHqqsoj1_V-pK4C0oiOOk7rshs7RJg=
+- RTEMS-BUILD-BSP-OPTO2: r0q7M48XBHR1ES8QcdIvYFB5cSdkfBWkJTXycbg43og=
+- RTEMS-BUILD-BSP-POWERPC-CRTI: nF9N4tQeXyud7rVPuI3ynG-kfRD6fZBfY7tTPQyot-k=
+- RTEMS-BUILD-BSP-POWERPC-GRP: wYwMYy0GdBCIbcu0PtQM__2nRlk75uThLrfRJ--1DyY=
+- RTEMS-BUILD-BSP-POWERPC-OBJ: WdLlZRsTI9EOpFYWeHlT8oOApv5LRKckFL9Dyoq06IE=
+- RTEMS-BUILD-BSP-POWERPC-OBJEXC: FSrak8teYAfvf-MzzoqrHEOTCm6U52xWH2yZ7gjjLKk=
+- RTEMS-BUILD-BSP-POWERPC-QEMUPPC-ABI: zBPeDdTXW3TkomELKxWXP4NIxePrPq9-kwqazKhOyMQ=
+- RTEMS-BUILD-BSP-POWERPC-QEMUPPC-START: K9otUq30eqd5j6XBB7YLETtUxxo8U0HFXZeC9zwwH_g=
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: N-kp5mE6S00P2t2Ess-0k8BdI0yjeNsGkEVn03Zhh7c=
 source:
 - bsps/powerpc/qemuppc/console/console-io.c
 - bsps/powerpc/qemuppc/irq/irq_init.c

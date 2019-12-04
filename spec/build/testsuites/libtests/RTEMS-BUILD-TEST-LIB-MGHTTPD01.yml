@@ -2,17 +2,7 @@ active: true
 build-type: script
 cflags: []
 cppflags: []
-ldflags: []
-stlib: []
-use-before: []
-use-after:
-- mghttpd
-includes:
-- cpukit/libnetworking
-- testsuites/libtests/mghttpd01
-prepare-configure: null
-prepare-build: null
-do-configure: null
+derived: false
 do-build: |
   path = "testsuites/libtests/mghttpd01/"
   tar_c, tar_h = self.bin2c(bld, path + "mghttpd01.tar")
@@ -21,17 +11,27 @@ do-build: |
   objs.append(self.cc(bld, bic, path + "init.c", deps=[tar_h], cppflags=bld.env.TEST_MGHTTPD01_CPPFLAGS))
   objs.append(self.cc(bld, bic, path + "test-http-client.c"))
   self.link_cc(bld, bic, objs, "testsuites/libtests/mghttpd01.exe")
-derived: false
+do-configure: null
 enabled-by:
 - and:
   - RTEMS_NETWORKING
   - RTEMS_POSIX_API
 header: ''
-level: '1.89'
+includes:
+- cpukit/libnetworking
+- testsuites/libtests/mghttpd01
+ldflags: []
+level: 1.89
 links: []
 normative: true
 order: 0
+prepare-build: null
+prepare-configure: null
 ref: ''
-reviewed: null
+reviewed: wmnImZft39S4DZgrQStELL5vVco8usjGcVblcJVPDo8=
+stlib: []
 text: ''
 type: build
+use-after:
+- mghttpd
+use-before: []

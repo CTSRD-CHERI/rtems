@@ -1,36 +1,36 @@
 actions:
 - get-integer: null
 - define: null
-format: '{:#010x}'
 active: true
 build-type: option
-default: 0x01
+default: 1
 default-by-variant:
-- value: 0x39
+- value: 57
   variants:
   - powerpc/pm520_ze30
-- value: 0x07
+- value: 7
   variants:
   - powerpc/pm520_cr825
-- value: 0x07
+- value: 7
   variants:
   - powerpc/brs.*l
-- value: 0x01
+- value: 1
   variants:
   - powerpc/icecube
-- value: 0x22
+- value: 34
   variants:
   - powerpc/dp2
 derived: false
 enabled-by: []
+format: '{:#010x}'
 header: ''
-level: '1.24'
+level: 1.24
 links: []
 name: BSP_UART_AVAIL_MASK
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: g_McdnxXZvgBImlht3hNnApBDPpu_2LeTj0_PuFzWHg=
 text: |
   bit mask to specify the UARTS (PSCs), which should be enabled on this board.  Must match the hardware requirements. PSC1 corresponds to the LSB
 type: build

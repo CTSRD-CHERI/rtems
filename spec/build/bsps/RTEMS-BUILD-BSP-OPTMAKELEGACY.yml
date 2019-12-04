@@ -14,7 +14,7 @@ name: INSTALL_LEGACY_MAKEFILES
 normative: true
 order: -100
 ref: ''
-reviewed: null
+reviewed: lejad10p9--h-WD1Mpdbb6BlEufZ8yHdfdpBE2RoMrY=
 text: |
   Install the legacy application Makefile framework.
 type: build

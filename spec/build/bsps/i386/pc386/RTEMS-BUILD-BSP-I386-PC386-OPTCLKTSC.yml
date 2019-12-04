@@ -8,13 +8,13 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.19'
+level: 1.19
 links: []
 name: CLOCK_DRIVER_USE_TSC
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: y2jnpMG3AlUUec27IvCmABTrQR0da47eSq-cwTSKjkY=
 text: |
   None
 type: build

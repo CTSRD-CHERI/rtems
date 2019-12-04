@@ -1,7 +1,6 @@
 actions:
 - get-integer: null
 - define: null
-format: '{}'
 active: true
 build-type: option
 default: 1
@@ -11,14 +10,15 @@ default-by-variant:
   - powerpc/mpc5674f.*
 derived: false
 enabled-by: []
+format: '{}'
 header: ''
-level: '1.54'
+level: 1.54
 links: []
 name: MPC55XX_SYSTEM_CLOCK_DIVIDER
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: kJG69pFQBc9C9HiefEut6iHxKqchBhk7fc_ZWAQnRLo=
 text: |
   system clock divider
 type: build

@@ -9,12 +9,12 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.3'
+level: 1.3
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: YStl-JXkVNZWYEBV2g06kgkDw24UwJ4QUM58quhEutc=
 source:
 - testsuites/benchmarks/linpack/init.c
 - testsuites/benchmarks/linpack/linpack-pc.c
@@ -23,5 +23,5 @@ stlib:
 target: testsuites/benchmarks/linpack.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

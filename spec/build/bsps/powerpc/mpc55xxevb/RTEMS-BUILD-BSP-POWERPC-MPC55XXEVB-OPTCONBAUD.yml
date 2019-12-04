@@ -1,21 +1,21 @@
 actions:
 - get-integer: null
 - define: null
-format: '{}'
 active: true
 build-type: option
 default: 115200
 default-by-variant: []
 derived: false
 enabled-by: []
+format: '{}'
 header: ''
-level: '1.24'
+level: 1.24
 links: []
 name: BSP_DEFAULT_BAUD_RATE
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: frvxBCqR0a8_rw0s2_I4_P3a5Ef5876kOrYZemvsM0w=
 text: |
   default console baud
 type: build

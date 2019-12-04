@@ -14,12 +14,12 @@ links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: AP5doYDjk1XcN2r0Go_B0Ywp384qQd6VJU335jJ28pc=
 source:
 - testsuites/libtests/stringto01/init.c
 stlib: []
 target: testsuites/libtests/stringto01.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

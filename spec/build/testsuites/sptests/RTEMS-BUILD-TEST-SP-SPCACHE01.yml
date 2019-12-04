@@ -9,17 +9,17 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.78'
+level: 1.78
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: DChaeRcFKBDEpktTg9HaoumXgboKBD8KR1ryWC2ay6k=
 source:
 - testsuites/sptests/spcache01/init.c
 stlib: []
 target: testsuites/sptests/spcache01.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

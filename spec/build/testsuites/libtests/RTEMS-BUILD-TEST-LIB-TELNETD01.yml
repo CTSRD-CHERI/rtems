@@ -11,18 +11,18 @@ header: ''
 includes:
 - cpukit/libnetworking
 ldflags: []
-level: '1.135'
+level: 1.135
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: O5bXneoGYr1GISCwxL5ItTmeWAMgCFnTAkPRdDz6huI=
 source:
 - testsuites/libtests/telnetd01/init.c
 stlib: []
 target: testsuites/libtests/telnetd01.exe
 text: ''
 type: build
-use-before: []
 use-after:
 - telnetd
+use-before: []

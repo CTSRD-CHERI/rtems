@@ -3,18 +3,18 @@ actions:
 - env-enable: null
 active: true
 build-type: option
-default-by-variant: []
 default: false
+default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.8'
+level: 1.8
 links: []
 name: BUILD_PSXTMTESTS
 normative: true
 order: -1000
 ref: ''
-reviewed: Ip_l4FYMHMtO-l3HFzEeAhY-idKYgDaVHCh5svowdrE=
+reviewed: KaSeBar4r_IGPjqDGChR12M5aqBcrqadvOuHCns5PcA=
 text: |
   Build the POSIX timing test programs (may be also enabled by BUILD_TESTS)
 type: build

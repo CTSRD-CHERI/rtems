@@ -9,17 +9,17 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.46'
+level: 1.46
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: KFf89vnjMSppO8LQnPrgTD-ig3szYCkeBDWfKTv0-l0=
 source:
 - testsuites/sptests/sp47/init.c
 stlib: []
 target: testsuites/sptests/sp47.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

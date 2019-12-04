@@ -10,15 +10,15 @@ family: mvme162
 header: ''
 includes: []
 install: []
-level: '1.3'
+level: 1.3
 links:
-- RTEMS-BUILD-BSP-M68K-MVME162-GRP: null
-- RTEMS-BUILD-BSP-M68K-MVME162-TSTMVME162LX: null
-- RTEMS-BUILD-BSP-OPTO2: null
+- RTEMS-BUILD-BSP-OPTO2: r0q7M48XBHR1ES8QcdIvYFB5cSdkfBWkJTXycbg43og=
+- RTEMS-BUILD-BSP-M68K-MVME162-GRP: TSuYX6koaP4l9_UIJ6-8LyN0gGeVoH_oswFQcvgveFY=
+- RTEMS-BUILD-BSP-M68K-MVME162-TSTMVME162LX: 9LauMfpDXxBL686rA7j0joqzEfNdFt8sB_2vT-qJf34=
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: 18D75pCy49OU3XGSZgS-7d_Mys3LSnoXfztXOUxiJ9k=
 source: []
 text: ''
 type: build

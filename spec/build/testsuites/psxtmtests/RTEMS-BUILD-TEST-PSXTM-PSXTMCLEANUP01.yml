@@ -9,12 +9,12 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.7'
+level: 1.7
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: 8pxPEkfhXs_-up_x3_Tf3bBd8wENF5IoVDQNp-6zynA=
 source:
 - testsuites/psxtmtests/psxtmcleanup01/init.c
 - testsuites/support/src/tmtests_empty_function.c
@@ -23,5 +23,5 @@ stlib: []
 target: testsuites/psxtmtests/psxtmcleanup01.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

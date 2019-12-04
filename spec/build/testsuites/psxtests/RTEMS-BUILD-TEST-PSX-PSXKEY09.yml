@@ -14,12 +14,12 @@ links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: 6BJZbyXSXaX83d-I6eqqLxaQmiCy1YfPRBYUX1nGjNc=
 source:
 - testsuites/psxtests/psxkey09/init.c
 stlib: []
 target: testsuites/psxtests/psxkey09.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

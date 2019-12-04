@@ -1,5 +1,9 @@
 active: true
 build-type: group
+derived: true
+enabled-by: []
+header: ''
+includes: []
 install:
 - destination: ${BSP_INCLUDEDIR}/bsp
   source:
@@ -7,19 +11,15 @@ install:
 - destination: ${BSP_INCLUDEDIR}/libcpu
   source:
   - bsps/x86_64/include/libcpu/page.h
-derived: true
-enabled-by: []
-header: ''
-includes: []
 ldflags: []
-level: '1.1'
+level: 1.1
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: GzpultDOG_p-HV45CLNEYtV28MRTmFbiay5JenRo6ZQ=
 text: ''
 top-level: false
 type: build
-use-before: []
 use-after: []
+use-before: []

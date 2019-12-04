@@ -9,17 +9,17 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.88'
+level: 1.88
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: le_Ab9Srms5vHGPi-FbDCwNl20PQYAnRnFRoQ4NvTQc=
 source:
 - testsuites/libtests/md501/init.c
 stlib: []
 target: testsuites/libtests/md501.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

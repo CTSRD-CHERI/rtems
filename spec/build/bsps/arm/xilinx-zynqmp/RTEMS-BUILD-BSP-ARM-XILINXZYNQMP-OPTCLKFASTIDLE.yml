@@ -11,13 +11,13 @@ default-by-variant:
 derived: false
 enabled-by: []
 header: ''
-level: '1.7'
+level: 1.7
 links: []
 name: CLOCK_DRIVER_USE_FAST_IDLE
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: nXJiNP17SSul6dsGenFdA3VmawDTjnROLt6FiDz67zY=
 text: |
   This sets a mode where the time runs as fast as possible when a clock ISR occurs while the IDLE thread is executing.  This can significantly reduce simulation times.
 type: build

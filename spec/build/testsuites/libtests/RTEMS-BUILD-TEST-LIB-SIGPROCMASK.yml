@@ -9,12 +9,12 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.124'
+level: 1.124
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: yijZTV5Dsv4z4Ouj0jf9YDT7qvKANyOd5RYxFk5v-2k=
 source:
 - testsuites/libtests/POSIX/sigprocmask.c
 stlib: []

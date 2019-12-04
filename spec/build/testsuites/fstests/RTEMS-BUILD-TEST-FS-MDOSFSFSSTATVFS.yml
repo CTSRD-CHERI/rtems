@@ -10,12 +10,12 @@ header: ''
 includes:
 - testsuites/fstests/mdosfs_support
 ldflags: []
-level: '1.43'
+level: 1.43
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: _YnmAyTz29sOnk1FEr-4lOQDOaM0gYK2IGwLpM3HImQ=
+reviewed: adXhyYl1yCrKUkdJAsz6S44lYPM-nnROlsMun5h5F8Y=
 source:
 - testsuites/fstests/fsstatvfs/test.c
 stlib: []

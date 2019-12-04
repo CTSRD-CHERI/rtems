@@ -3,16 +3,16 @@ asflags: []
 build-type: start-file
 cppflags: []
 derived: true
-install-path: ${BSP_LIBDIR}
 enabled-by: []
 header: ''
 includes: []
-level: '1.3'
+install-path: ${BSP_LIBDIR}
+level: 1.3
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: NULL
+reviewed: tve7cWZQ74_GprIOJO83aWDKXCDP_Lmt3Am4c5D_g4I=
 source:
 - bsps/nios2/nios2_iss/start/start.S
 target: start.o

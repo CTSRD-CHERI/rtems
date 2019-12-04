@@ -9,12 +9,12 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.59'
+level: 1.59
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: 1hWvAC0mH4XSr2rlgSaZXPLRK1Erv_GeZlAdbQHjzZQ=
 source:
 - testsuites/libtests/POSIX/getlogin.c
 stlib: []

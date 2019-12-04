@@ -9,17 +9,17 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.153'
+level: 1.153
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: 185lDp25awe_68gsfgBjp33ZvPsrtFF7-KfhlD06Sr0=
 source:
 - testsuites/libtests/utf8proc01/init.c
 stlib: []
 target: testsuites/libtests/utf8proc01.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

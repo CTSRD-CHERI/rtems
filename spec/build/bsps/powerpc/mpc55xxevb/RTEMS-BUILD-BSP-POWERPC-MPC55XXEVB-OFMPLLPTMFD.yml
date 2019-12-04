@@ -1,7 +1,6 @@
 actions:
 - get-integer: null
 - define: null
-format: '{}'
 active: true
 build-type: option
 default: 0
@@ -17,14 +16,15 @@ default-by-variant:
   - powerpc/mpc5674f.*
 derived: false
 enabled-by: []
+format: '{}'
 header: ''
-level: '1.17'
+level: 1.17
 links: []
 name: MPC55XX_FMPLL_MFD
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: ftaor2hK2-icUsIJPsn_NlXVnZOVN3YyHHl2UM22pHs=
 text: |
   Must be defined to be the PLL multiplication factor for clock generation
 type: build

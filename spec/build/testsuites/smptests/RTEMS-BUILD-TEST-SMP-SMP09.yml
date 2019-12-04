@@ -10,12 +10,12 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.8'
+level: 1.8
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: wpMx_em9oigVxrSCOL5Fogzk1cRpuffQO3Rs_LM1j34=
 source:
 - testsuites/smptests/smp09/init.c
 - testsuites/support/src/locked_print.c
@@ -23,5 +23,5 @@ stlib: []
 target: testsuites/smptests/smp09.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

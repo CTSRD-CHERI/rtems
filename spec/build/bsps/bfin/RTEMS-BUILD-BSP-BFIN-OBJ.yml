@@ -8,12 +8,12 @@ enabled-by: []
 header: ''
 includes: []
 install: []
-level: '1.2'
+level: 1.2
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: 5aPuTLd88Rk_09W1hd49ws6DGbSojqrXcNNxqNGdZNg=
 source:
 - bsps/bfin/shared/mmu.c
 - bsps/bfin/shared/dev/clock.c

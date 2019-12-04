@@ -61,7 +61,7 @@ links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: fl7zGbM-ZXfZtwvYnAFYjYZE4LxLoKVMajZQqwtuFzo=
 source:
 - bsps/powerpc/gen5200/ata/ata-dma-pio-single.c
 - bsps/powerpc/gen5200/ata/ata-instance.c

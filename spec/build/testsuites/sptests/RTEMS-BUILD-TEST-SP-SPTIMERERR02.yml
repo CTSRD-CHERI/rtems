@@ -9,17 +9,17 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.221'
+level: 1.221
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: qYFXi9gFd05fmQi03zEm1KuHwigIq-ZZK3Ido1Nmgyo=
 source:
 - testsuites/sptests/sptimer_err02/init.c
 stlib: []
 target: testsuites/sptests/sptimer_err02.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

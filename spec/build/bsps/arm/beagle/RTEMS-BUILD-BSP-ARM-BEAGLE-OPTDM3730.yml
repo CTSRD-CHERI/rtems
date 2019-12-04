@@ -11,13 +11,13 @@ default-by-variant:
 derived: false
 enabled-by: []
 header: ''
-level: '1.12'
+level: 1.12
 links: []
 name: IS_DM3730
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: 6vyhs2PN6uIWC24Tyi_o14UEN9ISLmjkx4GtXaceGR8=
 text: |
   true if SOC is DM3730
 type: build

@@ -19,12 +19,12 @@ install:
 - destination: ${BSP_LIBDIR}
   source:
   - bsps/riscv/griscv/start/bsp_specs
-level: '1.9'
+level: 1.9
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: xb7sy_dabvdi9e0ZVYuePfdCxNIxC_olpAUrY18xcIE=
 source:
 - bsps/riscv/griscv/clock/clockdrv.c
 - bsps/riscv/griscv/console/console.c

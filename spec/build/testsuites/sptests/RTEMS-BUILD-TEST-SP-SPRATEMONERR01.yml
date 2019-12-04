@@ -9,12 +9,12 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.187'
+level: 1.187
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: v8iKP3UzZ8zpzgLMpKZHWZys-jooGQV7vBzn5x7UzSg=
 source:
 - testsuites/sptests/spratemon_err01/init.c
 - testsuites/sptests/spratemon_err01/screen10.c
@@ -23,5 +23,5 @@ stlib: []
 target: testsuites/sptests/spratemon_err01.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

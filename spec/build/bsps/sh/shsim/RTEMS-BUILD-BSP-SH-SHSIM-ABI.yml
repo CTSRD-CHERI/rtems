@@ -24,13 +24,13 @@ default-by-variant:
 derived: false
 enabled-by: []
 header: ''
-level: '1.2'
+level: 1.2
 links: []
 name: ABI_FLAGS
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: MU5EVl42V49vELBQGbpLriEzdRQOQl1M6VMZlyfnKLk=
 text: |
   ABI flags
 type: build

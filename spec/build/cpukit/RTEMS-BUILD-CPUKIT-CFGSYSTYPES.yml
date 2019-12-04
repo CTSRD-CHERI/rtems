@@ -3,17 +3,17 @@ actions:
 - define-condition: null
 active: true
 build-type: option
-default-by-variant: []
 default: null
+default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.26'
+level: 1.26
 links: []
 name: HAVE_SYS_TYPES_H
 normative: true
 order: 0
 ref: ''
-reviewed: Gk2Sa9lb0-z0O6x7h4sQjSw2U-qz9OxlIgZtvuDACOE=
+reviewed: NgJ1yVb13DHwyyR3v054SwAhqLkSC41EDHbJsqiq2C0=
 text: ''
 type: build

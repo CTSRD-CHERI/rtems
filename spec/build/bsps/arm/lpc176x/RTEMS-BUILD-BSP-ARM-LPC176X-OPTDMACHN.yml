@@ -1,21 +1,21 @@
 actions:
 - get-integer: null
 - define: null
-format: '{}'
 active: true
 build-type: option
 default: 2
 default-by-variant: []
 derived: false
 enabled-by: []
+format: '{}'
 header: ''
-level: '1.9'
+level: 1.9
 links: []
 name: LPC_DMA_CHANNEL_COUNT
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: iSPQUUumx1538apZNmZWzMfLTPMP-5DWayr77ap7_wI=
 text: |
   DMA channel count
 type: build

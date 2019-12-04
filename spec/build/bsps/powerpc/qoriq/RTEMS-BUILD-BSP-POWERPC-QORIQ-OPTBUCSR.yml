@@ -1,24 +1,24 @@
 actions:
 - get-integer: null
 - define: null
-format: '{:#010x}'
 active: true
 build-type: option
-default: 
+default: null
 default-by-variant:
-- value: 0x01400201
+- value: 20972033
   variants:
   - powerpc/qoriq_e6500.*
 derived: false
 enabled-by: []
+format: '{:#010x}'
 header: ''
-level: '1.11'
+level: 1.11
 links: []
 name: QORIQ_INITIAL_BUCSR
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: tApzNnI37aGA9iwcuP12WXp2SAmTJNnhlT1C0UuaA9s=
 text: |
   initial BUCSR value
 type: build

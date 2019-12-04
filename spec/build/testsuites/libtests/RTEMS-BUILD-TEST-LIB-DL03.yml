@@ -11,12 +11,12 @@ header: ''
 includes:
 - cpukit/libdl
 ldflags: []
-level: '1.37'
+level: 1.37
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: zA4oQS6uplvjEeOcu8SRwvmaKUj3pZ_Vnt9qkxNXlzs=
 source:
 - testsuites/libtests/dl03/dl-bit-alloc.c
 - testsuites/libtests/dl03/dl-cache.c
@@ -25,5 +25,5 @@ stlib: []
 target: testsuites/libtests/dl03.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

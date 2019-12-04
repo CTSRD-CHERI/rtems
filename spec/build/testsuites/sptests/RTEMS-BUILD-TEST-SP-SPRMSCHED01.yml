@@ -14,7 +14,7 @@ links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: gFNXLJWxAI-DHBnJ2sOsPqP9-_PZBg0UuqMfkw-JHjQ=
 source:
 - testsuites/sptests/sprmsched01/init.c
 - testsuites/support/src/spin.c
@@ -22,5 +22,5 @@ stlib: []
 target: testsuites/sptests/sprmsched01.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

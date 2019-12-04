@@ -4,19 +4,19 @@ actions:
 - env-assign: null
 active: true
 build-type: option
-default: 0x00000000
+default: 0
 default-by-variant: []
 derived: false
 enabled-by: []
 format: '{:#010x}'
 header: ''
-level: '1.16'
+level: 1.16
 links: []
 name: ATSAM_MEMORY_TCM_SIZE
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: q0a3TfX2PMx0UnYxFHPh1PtJO5On8Q-poX3cOqLxZ1s=
 text: |
   size of tightly coupled memories (TCM) in bytes
 type: build

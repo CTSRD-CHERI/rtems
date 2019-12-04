@@ -10,12 +10,12 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.2'
+level: 1.2
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: jvqYy4L7APFnlwRO127g6XZumLI7N7Y4tRvQrSgFFfY=
 source:
 - testsuites/samples/base_mp/init1.c
 - testsuites/samples/base_mp/apptask.c
@@ -23,5 +23,5 @@ stlib: []
 target: testsuites/samples/base_mp_node1.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

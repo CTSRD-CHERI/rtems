@@ -11,13 +11,13 @@ default-by-variant:
 derived: false
 enabled-by: []
 header: ''
-level: '1.8'
+level: 1.8
 links: []
 name: GEN68360_040
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: Wepd6ZbOoGxVZ82UXVo5CEbNnzyBtcLWxOrHnuiSEoA=
 text: |
   If defined, use custom settings for the gen68360_040 BSP.
 type: build

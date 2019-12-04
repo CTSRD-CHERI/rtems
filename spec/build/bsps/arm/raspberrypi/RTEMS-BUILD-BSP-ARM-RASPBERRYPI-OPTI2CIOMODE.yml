@@ -8,13 +8,13 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.9'
+level: 1.9
 links: []
 name: I2C_IO_MODE
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: aBXg07vSeAiRBZQgAr6A_32FWrbyZI-JZJLlUuHJw4w=
 text: |
   Define to 1 to use interrupt-driven I/O with the Raspberry Pi I2C bus. If defined to other value the access will be polled-driven.
 type: build

@@ -20,12 +20,12 @@ install:
   source:
   - bsps/arm/rtl22xx/start/bsp_specs
   - bsps/arm/rtl22xx/start/linkcmds
-level: '1.6'
+level: 1.6
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: yRWg4uXsuyngG3a9kHc_yAcq-aQjhdBDwBDGQrRho_c=
 source:
 - bsps/arm/rtl22xx/btimer/btimer.c
 - bsps/arm/rtl22xx/clock/clockdrv.c

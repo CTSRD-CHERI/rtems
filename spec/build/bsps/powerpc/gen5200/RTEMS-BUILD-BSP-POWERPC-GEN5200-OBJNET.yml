@@ -10,12 +10,12 @@ header: ''
 includes:
 - cpukit/libnetworking
 install: []
-level: '1.9'
+level: 1.9
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: _N88nrRl-c6ZP_ZOiXDiol2KbGFwRi4vpeV6ZCv9CU8=
 source:
 - bsps/powerpc/gen5200/net/network.c
 text: ''

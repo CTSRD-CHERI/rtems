@@ -9,17 +9,17 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.201'
+level: 1.201
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: fWJ3ORU0JFdAf6h0HwXCPRKTbFS6i9dLZMh9SIlHa9s=
 source:
 - testsuites/sptests/spsimplesched03/init.c
 stlib: []
 target: testsuites/sptests/spsimplesched03.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

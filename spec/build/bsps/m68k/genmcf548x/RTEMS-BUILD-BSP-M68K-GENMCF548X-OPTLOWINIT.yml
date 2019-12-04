@@ -17,7 +17,7 @@ name: HAS_LOW_LEVEL_INIT
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: YKzZUGZPAJyKAFGj8Ace7j4Pi1f9YUk6kc61zMKkMCs=
 text: |
   If defined, we will do all the low level init of the chip (like bus/memory...).
 type: build

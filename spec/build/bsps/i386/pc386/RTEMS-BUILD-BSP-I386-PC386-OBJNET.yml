@@ -15,7 +15,7 @@ links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: bGHuPg03e_og1SmLD6O_3LlWAH_VSo3Ud-jd_hQ58gw=
 source:
 - bsps/i386/pc386/net/3c509.c
 - bsps/i386/pc386/net/elink.c

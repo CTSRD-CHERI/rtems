@@ -9,17 +9,17 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.218'
+level: 1.218
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: MXxP4_xdaF838SC8KP7bxb8vONUna6ZVCs87QmrMlCc=
 source:
 - testsuites/sptests/sptimecounter03/init.c
 stlib: []
 target: testsuites/sptests/sptimecounter03.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

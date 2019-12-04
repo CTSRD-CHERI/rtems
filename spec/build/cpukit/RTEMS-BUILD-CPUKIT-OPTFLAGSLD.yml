@@ -1,22 +1,22 @@
 actions:
 - get-string: null
 - split: null
-- env-assign: null
-- env-append: CXXFLAGS
+- env-append: LDFLAGS
 active: true
 build-type: option
+default:
+- -Wl,--gc-sections
 default-by-variant: []
-default: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.85'
+level: 1.91
 links: []
-name: CXX_WARNING_FLAGS
+name: LDFLAGS
 normative: true
 order: 0
 ref: ''
-reviewed: pjeiC4Pwgl_SI-fLOflijGvdqQPYvKmZXUVFib_j5dY=
+reviewed: mxKW-OAIkpBfQmrEX52IwdlPYsrI_19IURAJYVTiaYI=
 text: |
-  Warning flags passed to the C++ compiler
+  Flags passed to the linker (GNU ld)
 type: build

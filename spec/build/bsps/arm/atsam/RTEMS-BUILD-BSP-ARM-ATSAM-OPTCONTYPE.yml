@@ -14,7 +14,7 @@ name: ATSAM_CONSOLE_DEVICE_TYPE
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: nsFciivriPyw3PwdtXi1gtBfCy2ojwtQnAMd4ksS3aQ=
 text: |
   device type for /dev/console, use 0 for USART and 1 for UART (default USART)
 type: build

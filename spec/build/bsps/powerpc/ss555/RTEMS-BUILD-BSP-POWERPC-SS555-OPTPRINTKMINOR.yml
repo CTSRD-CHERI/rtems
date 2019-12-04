@@ -1,21 +1,21 @@
 actions:
 - get-string: null
 - define-unquoted: null
-format: '{}'
 active: true
 build-type: option
 default: SCI2_MINOR
 default-by-variant: []
 derived: false
 enabled-by: []
+format: '{}'
 header: ''
-level: '1.4'
+level: 1.4
 links: []
 name: PRINTK_MINOR
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: -z6JIszdn05VbGOA-hVMO5eN8EsTvtt7a-etzPIxYhs=
 text: |
   Must be defined to be one of SCI1_MINOR or SCI2_MINOR.  Determines which device is used for output by printk().  The printk port always uses polled I/O.  Don't open the printk port from RTEMS unless also using polled I/O for the SCI ports.
 type: build

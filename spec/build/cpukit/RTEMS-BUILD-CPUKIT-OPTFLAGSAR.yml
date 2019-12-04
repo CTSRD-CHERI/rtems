@@ -1,22 +1,22 @@
 actions:
 - get-string: null
 - split: null
-- env-append: LDFLAGS
+- env-assign: ARFLAGS
 active: true
 build-type: option
-default-by-variant: []
 default:
-- -Wl,--gc-sections
+- crD
+default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.91'
+level: 1.82
 links: []
-name: LDFLAGS
+name: ARFLAGS
 normative: true
 order: 0
 ref: ''
-reviewed: S92-pHpWz-8_p2Vx6SUwIsK9OMEhpV4tlJkF5iN9Ps8=
+reviewed: egM1GY99yUTtg0WtMwoeup2VRdBkB5Q0Pc86UKyads8=
 text: |
-  Flags passed to the linker (GNU ld)
+  Flags passed to the library archiver
 type: build

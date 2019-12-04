@@ -9,17 +9,17 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.135'
+level: 1.135
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: KS8pWOSCvDxqJhJ3vUttKlhBh5oxZV3x1Hr8HmTmXIU=
 source:
 - testsuites/sptests/spfifo02/init.c
 stlib: []
 target: testsuites/sptests/spfifo02.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

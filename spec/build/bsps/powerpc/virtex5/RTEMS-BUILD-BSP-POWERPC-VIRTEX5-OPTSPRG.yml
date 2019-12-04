@@ -8,13 +8,13 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.4'
+level: 1.4
 links: []
 name: PPC_USE_SPRG
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: rJqQ1YerwZkDfZCxh0TeLLkvh9I_DMXAe9IoZEp4_hU=
 text: |
   None
 type: build

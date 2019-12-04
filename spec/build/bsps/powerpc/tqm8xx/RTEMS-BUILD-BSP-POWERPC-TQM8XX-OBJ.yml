@@ -23,12 +23,12 @@ install:
   - bsps/powerpc/shared/start/linkcmds.base
   - bsps/powerpc/tqm8xx/start/bsp_specs
   - bsps/powerpc/tqm8xx/start/linkcmds
-level: '1.6'
+level: 1.6
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: _cBxH_UUb5J4hrIgwEBWg7m2IDkvWC9JVK6K9oEiwgs=
 source:
 - bsps/powerpc/shared/btimer/btimer-ppc-dec.c
 - bsps/powerpc/shared/cache/cache.c

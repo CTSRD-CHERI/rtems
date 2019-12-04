@@ -13,12 +13,12 @@ install:
   source:
   - cpukit/include/mghttpd/mongoose.h
 install-path: ${BSP_LIBDIR}
-level: '1.53'
+level: 1.53
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: F6qpCnVFTagOMFm0IjGz6Eh-Ov6djEK_lHmaHxA_Cgk=
+reviewed: H4IeA-ZHbblu3Fs1Q1bT6VBtvgphQiAAYM9EikwrNcA=
 source:
 - cpukit/mghttpd/mongoose.c
 target: mghttpd

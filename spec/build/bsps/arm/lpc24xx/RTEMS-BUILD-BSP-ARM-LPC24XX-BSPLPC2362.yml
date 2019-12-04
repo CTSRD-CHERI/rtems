@@ -10,15 +10,15 @@ family: lpc24xx
 header: ''
 includes: []
 install: []
-level: '1.7'
+level: 1.7
 links:
-- RTEMS-BUILD-BSP-ARM-LPC24XX-GRP: null
-- RTEMS-BUILD-BSP-ARM-LPC24XX-TSTLPC2362: null
-- RTEMS-BUILD-BSP-OPTO2: null
+- RTEMS-BUILD-BSP-OPTO2: r0q7M48XBHR1ES8QcdIvYFB5cSdkfBWkJTXycbg43og=
+- RTEMS-BUILD-BSP-ARM-LPC24XX-GRP: TqFEgBQHK7jhp-oKqf_dW1y8vDi8eD4h6wO4TjFGLoY=
+- RTEMS-BUILD-BSP-ARM-LPC24XX-TSTLPC2362: ju8IwgzLJri72g5sFvrjMjrdMO5mxdi6aTKRvyWRFBM=
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: Sy0B7S4RIssM0XgkLVXjapEUFLYHwbjfoUr7Ry_nUYQ=
 source: []
 text: ''
 type: build

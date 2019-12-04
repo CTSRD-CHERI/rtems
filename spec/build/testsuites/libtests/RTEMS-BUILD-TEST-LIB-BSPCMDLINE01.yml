@@ -9,17 +9,17 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.19'
+level: 1.19
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: U0xXoJPDpVvTidy6SQ8bAvDJxwQVfaN2_hTT9hx8Zqs=
 source:
 - testsuites/libtests/bspcmdline01/init.c
 stlib: []
 target: testsuites/libtests/bspcmdline01.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

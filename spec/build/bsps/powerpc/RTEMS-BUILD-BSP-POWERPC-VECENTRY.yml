@@ -3,16 +3,16 @@ asflags: []
 build-type: start-file
 cppflags: []
 derived: true
-install-path: ${BSP_LIBDIR}
 enabled-by: []
 header: ''
 includes: []
-level: '1.9'
+install-path: ${BSP_LIBDIR}
+level: 1.9
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: NULL
+reviewed: 5tLOSxpdTbxKRJ-GqdITNsSJtghh8dCanDSVQCSyb-k=
 source:
 - bsps/powerpc/shared/start/vectors_entry.S
 target: vectors_entry.o

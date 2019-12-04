@@ -10,12 +10,12 @@ header: ''
 includes:
 - cpukit/libnetworking
 install: []
-level: '1.5'
+level: 1.5
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: hU5kZOv4cpFMf3cu0pFLS1JJzjVOOTY3vqIBK2hZR7o=
 source:
 - bsps/arm/rtl22xx/net/network.c
 text: ''

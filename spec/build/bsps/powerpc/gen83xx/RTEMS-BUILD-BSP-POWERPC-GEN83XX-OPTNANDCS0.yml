@@ -11,13 +11,13 @@ default-by-variant:
 derived: false
 enabled-by: []
 header: ''
-level: '1.18'
+level: 1.18
 links: []
 name: MPC83XX_HAS_NAND_LP_FLASH_ON_CS0
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: zyQcnGPTqkb-k7h-otMMG5YLHuXwZ-OGA8kY9FUq0LE=
 text: |
   indicates if the board has a NAND large page flash on chip select 0
 type: build

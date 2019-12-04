@@ -1,7 +1,6 @@
 actions:
 - get-integer: null
 - define: null
-format: '{}'
 active: true
 build-type: option
 default: 16000000
@@ -11,6 +10,7 @@ default-by-variant:
   - arm/stm32f1.*
 derived: false
 enabled-by: []
+format: '{}'
 header: ''
 level: '1.20'
 links: []
@@ -18,7 +18,7 @@ name: STM32F4_SYSCLK
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: NTMLGXgYwYXj7Jhi_dydOzyDOLZyxoshInIhL6I3fa0=
 text: |
   SYSCLK frequency in Hz
 type: build

@@ -14,17 +14,17 @@ actions:
 - define: null
 active: true
 build-type: option
-default-by-variant: []
 default: null
+default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.107'
+level: 1.107
 links: []
 name: RTEMS_VERSION
 normative: true
 order: 0
 ref: ''
-reviewed: 4LSthNT5THxbQ7kUFgk6-HN2TDSYwA3m4AAIkZHY7zk=
+reviewed: i3xHPoF-3mlKybTcTNFugN1JTbT5258-Z5l304N6riY=
 text: ''
 type: build

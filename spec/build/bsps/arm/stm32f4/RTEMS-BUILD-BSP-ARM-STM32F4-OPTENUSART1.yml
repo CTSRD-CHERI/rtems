@@ -14,7 +14,7 @@ name: STM32F4_ENABLE_USART_1
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: ZAW0K_bQkKjqclPgcChm9zZccucTJZRLhtIyBJMKgFU=
 text: |
   enable USART 1
 type: build

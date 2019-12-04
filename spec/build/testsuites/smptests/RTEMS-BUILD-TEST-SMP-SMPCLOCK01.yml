@@ -10,12 +10,12 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.14'
+level: 1.14
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: lPcMtHvt9RIWsQWlV4CUI0DhrS2_RH8MxTtQpONdj4o=
 source:
 - testsuites/smptests/smpclock01/init.c
 - testsuites/support/src/spin.c
@@ -23,5 +23,5 @@ stlib: []
 target: testsuites/smptests/smpclock01.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

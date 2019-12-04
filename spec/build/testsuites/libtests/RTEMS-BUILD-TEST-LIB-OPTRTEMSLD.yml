@@ -4,8 +4,8 @@ actions:
 - env-assign: RTEMS_LD
 active: true
 build-type: option
-default-by-variant: []
 default: null
+default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
@@ -14,6 +14,6 @@ links: []
 normative: true
 order: -100
 ref: ''
-reviewed: oRRzhna6a47p0_QjPWqYLful9JgHGbxMqy-q7mSiZiU=
+reviewed: YwtSWBgaz1kSr4RIHiqTq22nFW7Y3PBcszrk3dvnuBE=
 text: ''
 type: build

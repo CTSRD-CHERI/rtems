@@ -146,12 +146,12 @@ install:
   - cpukit/libnetworking/vm/vm_extern.h
   - cpukit/libnetworking/vm/vm_kern.h
   - cpukit/libnetworking/vm/vm_param.h
-level: '1.75'
+level: 1.75
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: yRbwDLPDAzotZo-7veLcWM5r7ZqVw44b6OH7XckHnEw=
+reviewed: ZjRcLoH1VRxXTRb02F7AIIl7IIGcpkblxXbBi856N-A=
 source:
 - cpukit/libmisc/dummy/dummy-networking.c
 - cpukit/libmisc/monitor/mon-network.c

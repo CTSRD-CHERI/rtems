@@ -14,7 +14,7 @@ links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: XE2dg5LvWtXlneKbH3Ogk_zPTIi035VtKw7Fw801lig=
 source:
 - testsuites/libtests/POSIX/readv.c
 stlib: []

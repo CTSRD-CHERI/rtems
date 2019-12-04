@@ -3,16 +3,16 @@ asflags: []
 build-type: start-file
 cppflags: []
 derived: true
-install-path: ${BSP_LIBDIR}
 enabled-by: []
 header: ''
 includes: []
-level: '1.3'
+install-path: ${BSP_LIBDIR}
+level: 1.3
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: NULL
+reviewed: _RP2rXyUOsaTg5eE6nTLzeZx4EZJ_8xVGpsx3Y-k6Ks=
 source:
 - bsps/bfin/shared/start/start.S
 target: start.o

@@ -9,17 +9,17 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.89'
+level: 1.89
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: j7HyzCnGc8y2ha8UFsf5WbQsjohVlEaf-umteqzDBiA=
 source:
 - testsuites/sptests/spcoverage/init.c
 stlib: []
 target: testsuites/sptests/spcoverage.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

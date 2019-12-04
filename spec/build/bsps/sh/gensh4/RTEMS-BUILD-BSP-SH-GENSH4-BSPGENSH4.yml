@@ -34,21 +34,21 @@ install:
   - bsps/sh/gensh4/start/linkcmds
   - bsps/sh/gensh4/start/linkcmds.rom
   - bsps/sh/gensh4/start/linkcmds.rom2ram
-level: '1.2'
+level: 1.2
 links:
-- RTEMS-BUILD-BSP-BSPOPTS: null
-- RTEMS-BUILD-BSP-OBJ: null
-- RTEMS-BUILD-BSP-OBJIRQDFLT: null
-- RTEMS-BUILD-BSP-OPTO2: null
-- RTEMS-BUILD-BSP-SH-GENSH4-ABI: null
-- RTEMS-BUILD-BSP-SH-GENSH4-OPTCPUCLK: null
-- RTEMS-BUILD-BSP-SH-GENSH4-OPTCPYDATA: null
-- RTEMS-BUILD-BSP-SH-GENSH4-OPTLOWINIT: null
-- RTEMS-BUILD-BSP-SH-GENSH4-START: null
+- RTEMS-BUILD-BSP-BSPOPTS: Wm3sxAZgV2qTZy3j7vLFzPcSbrq55VDM052Ocsaid9E=
+- RTEMS-BUILD-BSP-OBJ: tgEqqyPlwgBwG3s7tNDgDZwObWvqNe4c2CTFSuj7X88=
+- RTEMS-BUILD-BSP-OBJIRQDFLT: P_sOhDGyvLSOoeKh2lKXmFA84ufQVtMaSDR9UJ6b0x0=
+- RTEMS-BUILD-BSP-OPTO2: r0q7M48XBHR1ES8QcdIvYFB5cSdkfBWkJTXycbg43og=
+- RTEMS-BUILD-BSP-SH-GENSH4-ABI: 02DiIUzsek47DREX-yNzsrGH8qc2gnyXUAOyA4FXNkY=
+- RTEMS-BUILD-BSP-SH-GENSH4-OPTCPUCLK: 2E8ItxqWoNMw60GzHRyjOWFgxCCyUbY7vS-Fw5zBS0w=
+- RTEMS-BUILD-BSP-SH-GENSH4-OPTCPYDATA: Myp9myS2bVPHa9QYc3c21GzpVPrBtv_c_nwu3pxXD9A=
+- RTEMS-BUILD-BSP-SH-GENSH4-OPTLOWINIT: 0_0zTC-_07ragUB6yrzHBmzjf48JiZoSgPAYZlDRW_k=
+- RTEMS-BUILD-BSP-SH-GENSH4-START: YIyQ116Zc4T6wCMrJAEkvNxbPugJcEiFGUl8ujDmawk=
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: OVbpIuEo4FyzfSXRdmC09WFTg70gxKqhviJZAEQ741U=
 source:
 - bsps/sh/gensh4/btimer/btimer.c
 - bsps/sh/gensh4/clock/ckinit.c

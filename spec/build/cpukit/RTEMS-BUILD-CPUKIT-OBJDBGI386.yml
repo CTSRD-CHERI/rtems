@@ -9,12 +9,12 @@ enabled-by:
 header: ''
 includes: []
 install: []
-level: '1.63'
+level: 1.63
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: DSvo591FN5vwZQz93QMWTmGbVlXiWSb4OAey9OIDUQg=
+reviewed: -AuX62zVrxrtITXtmJeNTHhNeVtabe4A9iUsnIHpigw=
 source:
 - cpukit/libdebugger/rtems-debugger-i386.c
 text: ''

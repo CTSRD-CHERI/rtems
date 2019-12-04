@@ -1,21 +1,21 @@
 actions:
 - get-integer: null
 - define: null
-format: '{}'
 active: true
 build-type: option
 default: 115200
 default-by-variant: []
 derived: false
 enabled-by: []
+format: '{}'
 header: ''
-level: '1.34'
+level: 1.34
 links: []
 name: LPC32XX_UART_6_BAUD
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: ZyxB7jQxPSrmsqw4W-gvN2ssXX4HJzZVb9yCt2tDKvo=
 text: |
   baud for UART 6
 type: build

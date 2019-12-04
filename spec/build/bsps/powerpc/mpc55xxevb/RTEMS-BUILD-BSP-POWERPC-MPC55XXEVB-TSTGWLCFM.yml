@@ -9,13 +9,13 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.57'
+level: 1.57
 links:
-- RTEMS-BUILD-BSP-TSTNOJFFS2: null
-- RTEMS-BUILD-BSP-TSTNOLIBDL: null
+- RTEMS-BUILD-BSP-TSTNOJFFS2: iBF-8OWS2MBA-uO-D1awI3MtIvDmlrsXtVT_Pu6rRCs=
+- RTEMS-BUILD-BSP-TSTNOLIBDL: 2wzNvdkiCGsGpP4u1UZ_Wxj5tmN5vR19UIOKq6s2t9g=
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: 88OLy7K2uXM6iHYjsJSp6TmwXiaGIK-7DEzh2iPQHjs=
 text: ''
 type: build

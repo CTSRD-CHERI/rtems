@@ -1,24 +1,24 @@
 actions:
 - get-integer: null
 - define: null
-format: '{:#010x}'
 active: true
 build-type: option
-default: 
+default: null
 default-by-variant:
-- value: 0x40000000
+- value: 1073741824
   variants:
   - powerpc/qoriq_e6500.*
 derived: false
 enabled-by: []
+format: '{:#010x}'
 header: ''
-level: '1.32'
+level: 1.32
 links: []
 name: QORIQ_INITIAL_HID0
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: 7A4Ce09mBK9WbRfmRBo5y8PpHyXf7VYQtIgh2dWYUUQ=
 text: |
   initial HID0 value (EN_L2MMU_MHD is set by default on the T-series)
 type: build

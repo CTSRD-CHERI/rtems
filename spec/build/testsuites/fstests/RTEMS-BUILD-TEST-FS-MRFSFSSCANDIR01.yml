@@ -15,7 +15,7 @@ links: []
 normative: true
 order: 0
 ref: ''
-reviewed: OARj88i1iu-W_Y0Wqy89k8m-GcWg21VXpISHZI3D7FU=
+reviewed: jFgmf043iDrGpdAr-oI0bGlinweJT52s_D8M8nFTIog=
 source:
 - testsuites/fstests/fsscandir01/init.c
 stlib: []

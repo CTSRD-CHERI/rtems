@@ -1,7 +1,6 @@
 actions:
 - get-string: null
 - define: null
-format: '{}'
 active: true
 build-type: option
 default: false
@@ -11,14 +10,15 @@ default-by-variant:
   - powerpc/gwlcfm
 derived: false
 enabled-by: []
+format: '{}'
 header: ''
-level: '1.27'
+level: 1.27
 links: []
 name: RTEMS_BSP_I2C_EEPROM_DEVICE_NAME
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: wYZZeRENBuIsfxKCulbwnyRmRnImJkG3K_B6iYsCtZk=
 text: |
   EEPROM name for LibI2C
 type: build

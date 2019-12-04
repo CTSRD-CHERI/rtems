@@ -9,12 +9,12 @@ enabled-by:
 header: ''
 includes: []
 install: []
-level: '1.65'
+level: 1.65
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: cMsU4zK0u2m8iEocLWZdtwQUufqRUjKCQENgCllDVgg=
+reviewed: OF0QbwUhtAPVRPSZS22OjbCe4FJMnjChpw9zgoWcP7Y=
 source:
 - cpukit/libdl/rtl-mdreloc-i386.c
 text: ''

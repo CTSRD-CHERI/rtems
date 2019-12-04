@@ -9,17 +9,17 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.65'
+level: 1.65
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: WiYcS2M3GPjOphf5ZRDYUsJMh4qPWPALhC7fPtuSE5I=
 source:
 - testsuites/libtests/heapwalk/init.c
 stlib: []
 target: testsuites/libtests/heapwalk.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

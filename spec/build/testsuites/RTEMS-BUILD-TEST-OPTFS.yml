@@ -3,18 +3,18 @@ actions:
 - env-enable: null
 active: true
 build-type: option
-default-by-variant: []
 default: false
+default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.5'
+level: 1.5
 links: []
 name: BUILD_FSTESTS
 normative: true
 order: -1000
 ref: ''
-reviewed: iGMhzGbG_PiSzaUKLhWroviwOYvkfoAKtzUjVRfxCB4=
+reviewed: xFUJdmqvQIfIujXnes-97pqTm0vT8cSn5HzecORvDU8=
 text: |
   Build the file system test programs (may be also enabled by BUILD_TESTS)
 type: build

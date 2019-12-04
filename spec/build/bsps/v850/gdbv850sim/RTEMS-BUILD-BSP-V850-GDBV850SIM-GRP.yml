@@ -1,25 +1,25 @@
 active: true
 build-type: group
-install: []
 derived: true
 enabled-by: []
 header: ''
 includes: []
+install: []
 ldflags: []
-level: '1.1'
+level: 1.1
 links:
-- RTEMS-BUILD-BSP-BSPOPTS: null
-- RTEMS-BUILD-BSP-OBJ: null
-- RTEMS-BUILD-BSP-OBJIRQDFLT: null
-- RTEMS-BUILD-BSP-V850-GDBV850SIM-ABI: null
-- RTEMS-BUILD-BSP-V850-GDBV850SIM-OBJ: null
-- RTEMS-BUILD-BSP-V850-GDBV850SIM-START: null
+- RTEMS-BUILD-BSP-BSPOPTS: Wm3sxAZgV2qTZy3j7vLFzPcSbrq55VDM052Ocsaid9E=
+- RTEMS-BUILD-BSP-OBJ: tgEqqyPlwgBwG3s7tNDgDZwObWvqNe4c2CTFSuj7X88=
+- RTEMS-BUILD-BSP-OBJIRQDFLT: P_sOhDGyvLSOoeKh2lKXmFA84ufQVtMaSDR9UJ6b0x0=
+- RTEMS-BUILD-BSP-V850-GDBV850SIM-ABI: 9s4LB9uzEPN6WCyFbVKP4K17INxLrJ9_2JKYziOIw0s=
+- RTEMS-BUILD-BSP-V850-GDBV850SIM-OBJ: Y45yUm4nB_KHN1cE5LKcVPf8m0Hx5IOPFvTJ_6TVvfI=
+- RTEMS-BUILD-BSP-V850-GDBV850SIM-START: B1vpmar2NbmkxyDV0RxHkHseDGyGuTvD8T1uhncOgLc=
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: lQGaf9X6UJAS_UoisAZ3L6WyIoztryASr5CDg6gBcx8=
 text: ''
 top-level: false
 type: build
-use-before: []
 use-after: []
+use-before: []

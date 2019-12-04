@@ -14,7 +14,7 @@ links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: uYG1qi3XfjzoIoRqKi8gBIWZ9Gel4gs0GNqx88xfbic=
 source:
 - testsuites/libtests/POSIX/getpwnam.c
 stlib: []

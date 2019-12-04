@@ -10,15 +10,15 @@ family: mpc55xxevb
 header: ''
 includes: []
 install: []
-level: '1.6'
+level: 1.6
 links:
-- RTEMS-BUILD-BSP-OPTO2: null
-- RTEMS-BUILD-BSP-POWERPC-MPC55XXEVB-GRP: null
-- RTEMS-BUILD-BSP-POWERPC-MPC55XXEVB-TSTMPC5643LDPU: null
+- RTEMS-BUILD-BSP-OPTO2: r0q7M48XBHR1ES8QcdIvYFB5cSdkfBWkJTXycbg43og=
+- RTEMS-BUILD-BSP-POWERPC-MPC55XXEVB-GRP: Dt0AnKPXnoBeA7AHtWQIJXpuygYbMbAhSM3dVj4Cx4g=
+- RTEMS-BUILD-BSP-POWERPC-MPC55XXEVB-TSTMPC5643LDPU: 6Y-nZl2JPmjG-63nfUOCKHZj21Vt_O5DKxCdr-rp78M=
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: YZiwtwGIoz2Omr7qreThgRLavF2MpDGlhV_qd_OCW8w=
 source: []
 text: ''
 type: build

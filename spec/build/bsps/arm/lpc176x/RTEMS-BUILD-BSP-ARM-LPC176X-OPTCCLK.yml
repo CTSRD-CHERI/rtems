@@ -1,21 +1,21 @@
 actions:
 - get-integer: null
 - define: null
-format: '{}'
 active: true
 build-type: option
 default: 96000000
 default-by-variant: []
 derived: false
 enabled-by: []
+format: '{}'
 header: ''
-level: '1.7'
+level: 1.7
 links: []
 name: LPC176X_CCLK
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: zAWDK8u4WHmQqC0RdIUN0885t2YNFF0kWhB3HjWEM5o=
 text: |
   CPU clock in Hz
 type: build

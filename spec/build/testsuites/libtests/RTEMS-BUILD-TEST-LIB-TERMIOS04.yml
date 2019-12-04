@@ -9,12 +9,12 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.139'
+level: 1.139
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: wTN1xYzL899spOGxCTzhpSCObMpobuV7pk9U8PQ2kXY=
 source:
 - testsuites/libtests/termios04/init.c
 - testsuites/libtests/termios04/termios_testdriver_intr.c
@@ -22,5 +22,5 @@ stlib: []
 target: testsuites/libtests/termios04.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

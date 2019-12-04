@@ -11,13 +11,13 @@ default-by-variant:
 derived: false
 enabled-by: []
 header: ''
-level: '1.42'
+level: 1.42
 links: []
 name: LPC24XX_CONFIG_UART_1
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: wrC5MIjdekIkhNa_AIQW0y6f_xkewZ8WOSLB8TQgvIM=
 text: |
   configuration for UART 1
 type: build

@@ -3,17 +3,17 @@ actions:
 - define-unquoted: null
 active: true
 build-type: option
-default-by-variant: []
 default: null
+default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.28'
+level: 1.28
 links: []
 name: SIZEOF_SIZE_T
 normative: true
 order: 0
 ref: ''
-reviewed: oN9A8j9x7Ta8BlHQ-LQBCnQBBQq7WvcsNNzEgI4qGzs=
+reviewed: QQaw9jtzU7MMUu7dXwzI5wIuI9_CinI4jBLw5ysAgpA=
 text: ''
 type: build

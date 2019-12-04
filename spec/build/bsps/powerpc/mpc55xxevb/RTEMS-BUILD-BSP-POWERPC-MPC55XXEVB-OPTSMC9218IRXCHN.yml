@@ -1,21 +1,21 @@
 actions:
 - get-integer: null
 - define: null
-format: '{}'
 active: true
 build-type: option
 default: 49
 default-by-variant: []
 derived: false
 enabled-by: []
+format: '{}'
 header: ''
-level: '1.52'
+level: 1.52
 links: []
 name: SMSC9218I_EDMA_RX_CHANNEL
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: N5MhXRd0_8YrL0QYS9d84oSsn7_ndMCsXGQq7lyFwPs=
 text: |
   receive eDMA channel for SMSC9218I network interface
 type: build

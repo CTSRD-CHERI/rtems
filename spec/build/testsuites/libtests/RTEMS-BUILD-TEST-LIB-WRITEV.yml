@@ -9,12 +9,12 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.157'
+level: 1.157
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: 3hpZhCp-b8UdQOq41bs6uuuIfWggnu-2Lko5bdg6q4Y=
 source:
 - testsuites/libtests/POSIX/writev.c
 stlib: []

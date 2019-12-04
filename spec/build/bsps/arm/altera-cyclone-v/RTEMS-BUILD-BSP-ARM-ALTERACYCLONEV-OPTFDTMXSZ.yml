@@ -1,21 +1,21 @@
 actions:
 - get-integer: null
 - define: null
-format: '{}'
 active: true
 build-type: option
 default: 262144
 default-by-variant: []
 derived: false
 enabled-by: []
+format: '{}'
 header: ''
-level: '1.13'
+level: 1.13
 links: []
 name: BSP_FDT_BLOB_SIZE_MAX
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: ZHyTzkaZjiTrh_2SMpj3_Rfz45d2IFfWdB9p9NXumkU=
 text: |
   maximum size of the FDT blob in bytes
 type: build

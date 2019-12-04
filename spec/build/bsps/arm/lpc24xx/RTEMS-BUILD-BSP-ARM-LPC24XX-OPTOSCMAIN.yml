@@ -1,7 +1,6 @@
 actions:
 - get-integer: null
 - define: null
-format: '{}'
 active: true
 build-type: option
 default: 12000000
@@ -11,14 +10,15 @@ default-by-variant:
   - arm/lpc23.*
 derived: false
 enabled-by: []
+format: '{}'
 header: ''
-level: '1.34'
+level: 1.34
 links: []
 name: LPC24XX_OSCILLATOR_MAIN
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: pTVoq4sDJjG_uERnUJCVaFue69plxe5YqlSjlit16wo=
 text: |
   main oscillator frequency in Hz
 type: build

@@ -9,12 +9,12 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.12'
+level: 1.12
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: xTQFUJp2ext1o5BqupyuI2UzqbWxCsSpCo-B0p1ZF7g=
 source:
 - testsuites/sptests/sp13/init.c
 - testsuites/sptests/sp13/fillbuff.c
@@ -26,5 +26,5 @@ stlib: []
 target: testsuites/sptests/sp13.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

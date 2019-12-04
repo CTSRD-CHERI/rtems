@@ -11,13 +11,13 @@ default-by-variant:
 derived: false
 enabled-by: []
 header: ''
-level: '1.4'
+level: 1.4
 links: []
 name: BSP_DATA_CACHE_ENABLED
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: oHaW-S24_Lngs647i08gbRoQKnXY8fMogjWY8mHypTo=
 text: |
   enable data cache
 type: build

@@ -9,12 +9,12 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.156'
+level: 1.156
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: I16nS0rBgz0RFL3IPsQTZ8n4RjjqtgazIwUTRC5YaRE=
 source:
 - testsuites/libtests/POSIX/wait.c
 stlib: []

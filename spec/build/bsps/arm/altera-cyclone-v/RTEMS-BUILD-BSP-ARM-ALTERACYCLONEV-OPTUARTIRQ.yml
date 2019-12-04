@@ -14,7 +14,7 @@ name: BSP_USE_UART_INTERRUPTS
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: M6cFZt5q1_MftPgyfEsPph5VqIPEbB8c5Rt916uLdII=
 text: |
   enable usage of interrupts for the UART modules
 type: build

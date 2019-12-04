@@ -13,12 +13,12 @@ install:
   source:
   - bsps/include/mpci.h
   - bsps/include/shm_driver.h
-level: '1.13'
+level: 1.13
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: G3nZiEJdrxpN0oqcuDq8o0pt756DYfMk2UECU6ULObA=
+reviewed: kaawfISmul7pfsXlSgtkyqzcb2Hoa53-1s4ZOqBbgQQ=
 source:
 - bsps/shared/shmdr/shmdr-addlq.c
 - bsps/shared/shmdr/shmdr-cnvpkt.c

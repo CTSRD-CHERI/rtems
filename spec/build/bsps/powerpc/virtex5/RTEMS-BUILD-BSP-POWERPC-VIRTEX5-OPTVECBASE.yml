@@ -1,21 +1,21 @@
 actions:
 - get-integer: null
 - define: null
-format: '{:#010x}'
 active: true
 build-type: option
-default: 0x0100
+default: 256
 default-by-variant: []
 derived: false
 enabled-by: []
+format: '{:#010x}'
 header: ''
-level: '1.5'
+level: 1.5
 links: []
 name: PPC_VECTOR_FILE_BASE
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: YBWp_gr37jGgo8yt5BwFHAXU4vNbSjZYKaig0hVyFeY=
 text: |
   This defines the base address of the exception table.
 type: build

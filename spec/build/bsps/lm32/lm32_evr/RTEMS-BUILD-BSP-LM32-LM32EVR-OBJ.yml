@@ -20,12 +20,12 @@ install:
   source:
   - bsps/lm32/lm32_evr/start/bsp_specs
   - bsps/lm32/lm32_evr/start/linkcmds
-level: '1.6'
+level: 1.6
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: Gn9XlEazUFx2LtlmLMFm3iK3A1vtD9Hn2bhibdwAi58=
 source:
 - bsps/lm32/shared/btimer/btimer.c
 - bsps/lm32/shared/clock/ckinit.c

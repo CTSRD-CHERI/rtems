@@ -10,14 +10,14 @@ family: lm3s69xx
 header: ''
 includes: []
 install: []
-level: '1.6'
+level: 1.6
 links:
-- RTEMS-BUILD-BSP-ARM-LM3S69XX-GRP: null
-- RTEMS-BUILD-BSP-OPTO2: null
+- RTEMS-BUILD-BSP-OPTO2: r0q7M48XBHR1ES8QcdIvYFB5cSdkfBWkJTXycbg43og=
+- RTEMS-BUILD-BSP-ARM-LM3S69XX-GRP: exdtkVaDCJaN0LzB5F-gmmFIqLOReww01jNHU7zf1sI=
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: OZ6Sn3TPjDbP1ZNeow5h2tDrpKBPDRxfJyj0bMBZa4w=
 source: []
 text: ''
 type: build

@@ -10,17 +10,17 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.25'
+level: 1.25
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: gNBlNNcGiiTWf2EwwmHgCjFcI0q1kwboML9ewiKP0dk=
 source:
 - testsuites/smptests/smplock01/init.c
 stlib: []
 target: testsuites/smptests/smplock01.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

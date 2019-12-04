@@ -1,7 +1,6 @@
 actions:
 - get-integer: null
 - define: null
-format: '{}'
 active: true
 build-type: option
 default: 16000000
@@ -11,14 +10,15 @@ default-by-variant:
   - arm/stm32f1.*
 derived: false
 enabled-by: []
+format: '{}'
 header: ''
-level: '1.19'
+level: 1.19
 links: []
 name: STM32F4_PCLK2
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: yy67o93QEn_cW1CrroCPlDH2ODOgSJD2BRQ4_qHfkik=
 text: |
   PCLK2 frequency in Hz
 type: build

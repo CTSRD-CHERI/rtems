@@ -1,5 +1,9 @@
 active: true
 build-type: group
+derived: true
+enabled-by: []
+header: ''
+includes: []
 install:
 - destination: ${BSP_INCLUDEDIR}/bsp
   source:
@@ -8,19 +12,15 @@ install:
 - destination: ${BSP_INCLUDEDIR}/drvmgr
   source:
   - bsps/sparc/include/drvmgr/leon2_amba_bus.h
-derived: true
-enabled-by: []
-header: ''
-includes: []
 ldflags: []
-level: '1.1'
+level: 1.1
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: M3Ls0cd9ZoUgM6bJwdc00eRkGqOgN2cI1tX-r4HNeyQ=
 text: ''
 top-level: false
 type: build
-use-before: []
 use-after: []
+use-before: []

@@ -1,21 +1,21 @@
 actions:
 - get-integer: null
 - define: null
-format: '{}'
 active: true
 build-type: option
 default: 115200
 default-by-variant: []
 derived: false
 enabled-by: []
+format: '{}'
 header: ''
-level: '1.16'
+level: 1.16
 links: []
 name: TMS570_SCI_BAUD_RATE
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: b3x3YYJVQTRCdJ_EL_XVaZM5D3-irDhWtr-9-btIYMc=
 text: |
   baud for UARTs
 type: build

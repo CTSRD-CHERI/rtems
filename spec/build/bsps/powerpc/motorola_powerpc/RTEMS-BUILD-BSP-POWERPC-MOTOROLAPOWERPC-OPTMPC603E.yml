@@ -14,13 +14,13 @@ default-by-variant:
 derived: false
 enabled-by: []
 header: ''
-level: '1.12'
+level: 1.12
 links: []
 name: mpc603e
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: 3mNPuZ6m2IObmZRTATySQF2GYI7UhzBE5dvQM0ZYt30=
 text: |
   Define when ppc603e -- undefined for others
 type: build

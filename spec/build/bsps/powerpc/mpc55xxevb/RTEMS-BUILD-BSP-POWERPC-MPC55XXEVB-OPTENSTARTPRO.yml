@@ -17,7 +17,7 @@ name: MPC55XX_ENABLE_START_PROLOGUE
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: u8K5WAxBTFdfziTHR9dsbuRH1NgmqkCmwVje5GaxveE=
 text: |
   if defined, enable start prologue
 type: build

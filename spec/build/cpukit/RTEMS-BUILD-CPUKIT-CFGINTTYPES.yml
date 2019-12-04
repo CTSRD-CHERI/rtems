@@ -3,17 +3,17 @@ actions:
 - define-condition: null
 active: true
 build-type: option
-default-by-variant: []
 default: null
+default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.13'
+level: 1.13
 links: []
 name: HAVE_INTTYPES_H
 normative: true
 order: 0
 ref: ''
-reviewed: THj22nURCahnbeO_HRU4tDwRYL5czFvd80t7zge2WAI=
+reviewed: 5SqyXZM4ak5czLwmy49pzS13Qxj32VjYGX3L4lTzlmE=
 text: ''
 type: build

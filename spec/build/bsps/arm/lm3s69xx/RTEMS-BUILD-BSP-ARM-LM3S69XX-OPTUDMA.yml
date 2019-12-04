@@ -20,7 +20,7 @@ name: LM3S69XX_HAS_UDMA
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: Pyv-eLZ5eIDrx2Th6kct5SYo0dNBrY3pTydXk_MkJT0=
 text: |
   defined if MCU supports UDMA
 type: build

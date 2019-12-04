@@ -1,12 +1,11 @@
 actions:
 - get-integer: null
 - define: null
-format: '{:#010x}'
 active: true
 build-type: option
 default: 0
 default-by-variant:
-- value: 0x11
+- value: 17
   variants:
   - powerpc/mpc8309som
 - value: -1
@@ -14,14 +13,15 @@ default-by-variant:
   - powerpc/br_uid
 derived: false
 enabled-by: []
+format: '{:#010x}'
 header: ''
-level: '1.19'
+level: 1.19
 links: []
 name: MPC83XX_NETWORK_INTERFACE_0_PHY_ADDR
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: D3bxbmN9PMAOVy3aesw06AuZo-TrLFtgDlKIRcmxrOE=
 text: |
   PHY address of network interface 0
 type: build

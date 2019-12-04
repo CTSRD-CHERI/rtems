@@ -74,12 +74,12 @@ install:
   - bsps/arm/tms570/start/linkcmds.tms570ls3137_hdk_intram
   - bsps/arm/tms570/start/linkcmds.tms570ls3137_hdk_sdram
   - bsps/arm/tms570/start/linkcmds.tms570ls3137_hdk_with_loader
-level: '1.8'
+level: 1.8
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: CoCqGar-8Z1LcQArwCj7qVrUuZ6mi7AQE0W19VOWEKQ=
 source:
 - bsps/arm/shared/cp15/arm-cp15-set-exception-handler.c
 - bsps/arm/shared/cp15/arm-cp15-set-ttb-entries.c

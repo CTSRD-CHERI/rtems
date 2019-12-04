@@ -1,21 +1,21 @@
 actions:
 - get-integer: null
 - define: null
-format: '{}'
 active: true
 build-type: option
 default: 9600
 default-by-variant: []
 derived: false
 enabled-by: []
+format: '{}'
 header: ''
-level: '1.18'
+level: 1.18
 links: []
 name: LPC176X_UART_BAUD
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: EjHmFtDfN_QvAORWEgwJJ0EaMAHTLey3PrvvpR50xWc=
 text: |
   baud for UARTs
 type: build

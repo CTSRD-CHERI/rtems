@@ -1,29 +1,29 @@
 active: true
-build-type: ada-test-program
+ada-main: testsuites/ada/samples/base_sp/base_sp.adb
+ada-object-directory: testsuites/ada/samples/base_sp
 adaflags: []
-cflags: []
-cppflags: []
-includes: []
 adaincludes:
 - cpukit/include/adainclude
 - testsuites/ada/support
-ldflags: []
-stlib: []
-ada-object-directory: testsuites/ada/samples/base_sp
-source:
-- testsuites/ada/samples/base_sp/init.c
-ada-main: testsuites/ada/samples/base_sp/base_sp.adb
-target: testsuites/ada/ada_base_sp.exe
+build-type: ada-test-program
+cflags: []
+cppflags: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.2'
+includes: []
+ldflags: []
+level: 1.2
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: WVFVsYYteTBRt6g33YgWoDwpnNsgp8xNgZqXXbDK43c=
+source:
+- testsuites/ada/samples/base_sp/init.c
+stlib: []
+target: testsuites/ada/ada_base_sp.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

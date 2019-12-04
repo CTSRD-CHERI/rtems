@@ -10,12 +10,12 @@ header: ''
 includes:
 - testsuites/libtests/math
 ldflags: []
-level: '1.87'
+level: 1.87
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: NHm5m4gfv93FXj2Qw1J1Vex_3DK4vy_PSy-dyiQDCzk=
 source:
 - testsuites/libtests/math/init.c
 - testsuites/libtests/math/domath.c
@@ -24,5 +24,5 @@ stlib:
 target: testsuites/libtests/math.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

@@ -1,13 +1,13 @@
 actions:
 - get-integer: null
 - define: null
-format: '{}'
 active: true
 build-type: option
 default: 115200
 default-by-variant: []
 derived: false
 enabled-by: []
+format: '{}'
 header: ''
 level: '1.10'
 links: []
@@ -15,7 +15,7 @@ name: BSP_CONSOLE_BAUD
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: 5qdq1AenDNYA57THJ7EnbweFE1vZQYe1XqG97AANLFg=
 text: |
   default baud for console driver devices (default 115200)
 type: build

@@ -1,21 +1,21 @@
 actions:
 - get-integer: null
 - define: null
-format: '{}'
 active: true
 build-type: option
 default: 96000000
 default-by-variant: []
 derived: false
 enabled-by: []
+format: '{}'
 header: ''
-level: '1.9'
+level: 1.9
 links: []
 name: TMS570_CCLK
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: sg2mHGIG-JQDpSxEVZ7dRZyGo3P8xI2zSFyFrsfboug=
 text: |
   CPU clock in Hz
 type: build

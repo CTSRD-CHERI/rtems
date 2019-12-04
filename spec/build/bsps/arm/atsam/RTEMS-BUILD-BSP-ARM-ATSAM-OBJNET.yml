@@ -16,12 +16,12 @@ includes:
 - bsps/arm/atsam/include/libchip/include
 - cpukit/libnetworking
 install: []
-level: '1.4'
+level: 1.4
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: YUt911pqW2l1BoGt9qThhCk6WGHl_AsKAwH4ZSxbcF0=
 source:
 - bsps/arm/atsam/net/if_atsam.c
 text: ''

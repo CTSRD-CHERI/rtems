@@ -1,30 +1,30 @@
 active: true
-build-type: ada-test-program
+ada-main: testsuites/ada/sptests/spname01/spname01.adb
+ada-object-directory: testsuites/ada/sptests/spname01
 adaflags: []
-cflags: []
-cppflags: []
-includes: []
 adaincludes:
 - cpukit/include/adainclude
 - testsuites/ada/support
-ldflags: []
-stlib: []
-ada-object-directory: testsuites/ada/sptests/spname01
-source:
-- testsuites/ada/sptests/spname01/init.c
-ada-main: testsuites/ada/sptests/spname01/spname01.adb
-target: testsuites/ada/ada_spname01.exe
+build-type: ada-test-program
+cflags: []
+cppflags: []
 derived: false
 enabled-by:
 - RTEMS_POSIX_API
 header: ''
-level: '1.54'
+includes: []
+ldflags: []
+level: 1.54
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: Zp-WEkJEPQpZpnxIuoFsGfnHYOzt3Uk48W25z5AXbd4=
+source:
+- testsuites/ada/sptests/spname01/init.c
+stlib: []
+target: testsuites/ada/ada_spname01.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

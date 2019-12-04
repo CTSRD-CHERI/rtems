@@ -1,29 +1,29 @@
 active: true
-build-type: ada-test-program
+ada-main: testsuites/ada/tmtests/tm11/tm11.adb
+ada-object-directory: testsuites/ada/tmtests/tm11
 adaflags: []
-cflags: []
-cppflags: []
-includes: []
 adaincludes:
 - cpukit/include/adainclude
 - testsuites/ada/support
-ldflags: []
-stlib: []
-ada-object-directory: testsuites/ada/tmtests/tm11
-source:
-- testsuites/ada/tmtests/tm11/init.c
-ada-main: testsuites/ada/tmtests/tm11/tm11.adb
-target: testsuites/ada/ada_tm11.exe
+build-type: ada-test-program
+cflags: []
+cppflags: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.66'
+includes: []
+ldflags: []
+level: 1.66
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: jqPRvIpm0vm3qKuP3YeGrmH7hgqH2l1VCgYDRtffTVM=
+source:
+- testsuites/ada/tmtests/tm11/init.c
+stlib: []
+target: testsuites/ada/ada_tm11.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

@@ -9,12 +9,12 @@ enabled-by:
 header: ''
 includes: []
 install: []
-level: '1.15'
+level: 1.15
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: C5aAWfdBJz0pVeFySzkfY750A5wUUNGKajsW-SvzLyY=
 source:
 - bsps/i386/pc386/console/defkeymap.c
 - bsps/i386/pc386/console/inch.c

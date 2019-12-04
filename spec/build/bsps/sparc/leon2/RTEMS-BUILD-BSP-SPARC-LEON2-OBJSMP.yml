@@ -9,12 +9,12 @@ enabled-by:
 header: ''
 includes: []
 install: []
-level: '1.6'
+level: 1.6
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: HOt5a3UtPRpigLxFZ7DkhKJ9iSAsSY83vBz4xFxzNK0=
 source:
 - bsps/shared/start/bspsmp-dummy.c
 - bsps/shared/start/getcurrentprocessor-zero.c

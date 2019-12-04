@@ -1,7 +1,6 @@
 actions:
 - get-integer: null
 - define: null
-format: '{}'
 active: true
 build-type: option
 default: 0
@@ -17,14 +16,15 @@ default-by-variant:
   - arm/lm4f120.*
 derived: false
 enabled-by: []
+format: '{}'
 header: ''
-level: '1.12'
+level: 1.12
 links: []
 name: LM3S69XX_NUM_GPIO_BLOCKS
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: jqFoDcj6Eo4b31l_V_6MjsWvF_rHFY0zOUpY9yxYMuQ=
 text: |
   number of GPIO blocks supported by MCU
 type: build

@@ -8,13 +8,13 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.9'
+level: 1.9
 links: []
 name: ATSAM_CONSOLE_USE_INTERRUPTS
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: g80Gh6ZDPt-X6echJ1OfQkg8XM4XL4M1r1UwtpEpZrA=
 text: |
   use interrupt driven mode for console devices (used by default)
 type: build

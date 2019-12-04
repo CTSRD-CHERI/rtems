@@ -1,5 +1,10 @@
 active: true
 build-type: group
+derived: true
+enabled-by:
+- INSTALL_LEGACY_MAKEFILES
+header: ''
+includes: []
 install:
 - destination: ${PREFIX}/share/rtems${__RTEMS_MAJOR__}/make
   source:
@@ -22,25 +27,20 @@ install:
 - destination: ${PREFIX}/make/custom
   source:
   - make/custom/default.cfg
-derived: true
-enabled-by:
-- INSTALL_LEGACY_MAKEFILES
-header: ''
-includes: []
 ldflags: []
-level: '1.1'
+level: 1.1
 links:
-- RTEMS-BUILD-BSP-MAKEBSP: null
-- RTEMS-BUILD-BSP-MAKECUSTOM: null
-- RTEMS-BUILD-BSP-MAKEINC: null
-- RTEMS-BUILD-BSP-MAKETARGET: null
-- RTEMS-BUILD-BSP-OPTMAKE: null
+- RTEMS-BUILD-BSP-MAKEBSP: TpCdbz2VC5FRxLRFps15i3OhPZHZgk9sMrE2iiXv6I4=
+- RTEMS-BUILD-BSP-MAKECUSTOM: et6x1hjPsEWhBNOWNFuOMA0xcTTZjhjeafNqC_Srs3Q=
+- RTEMS-BUILD-BSP-MAKEINC: HXNS4q9-Vy7KcWKtCXhGcypH4uQ9G0mRjeNXSmszNvM=
+- RTEMS-BUILD-BSP-MAKETARGET: 9_bg1MB7mkB6F3SCV5PcJXqLx2kJoBdeRNgrWojxhA8=
+- RTEMS-BUILD-BSP-OPTMAKE: L-ELLcLI8Tmmg-fUYwSTKBt58-9zOcypR6eNzWGyLho=
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: 1b0bEwDAu2dO9uikn8kCLN-dbG0_YJQXQBHVuPHC_EE=
 text: ''
 top-level: false
 type: build
-use-before: []
 use-after: []
+use-before: []

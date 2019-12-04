@@ -7,15 +7,15 @@ content: |
   CFLAGS_OPTIMIZE_V = ${OPTIMIZATION_FLAGS}
   LDFLAGS = ${LDFLAGS}
 derived: false
-install-path: ${PREFIX}/make/custom
 enabled-by: []
 header: ''
-level: '1.5'
+install-path: ${PREFIX}/make/custom
+level: 1.5
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: et6x1hjPsEWhBNOWNFuOMA0xcTTZjhjeafNqC_Srs3Q=
 target: ${BSP_NAME}.cfg
 text: ''
 type: build

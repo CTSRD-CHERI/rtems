@@ -9,12 +9,12 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.96'
+level: 1.96
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: Rm-_Ep5_I1U0D41Ggjp5syv74Yi4ewBmCD5f7wlGlRA=
 source:
 - testsuites/libtests/POSIX/open.c
 stlib: []

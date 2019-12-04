@@ -1,29 +1,29 @@
 active: true
-build-type: ada-test-program
+ada-main: testsuites/ada/tmtests/tm21/tm21.adb
+ada-object-directory: testsuites/ada/tmtests/tm21
 adaflags: []
-cflags: []
-cppflags: []
-includes: []
 adaincludes:
 - cpukit/include/adainclude
 - testsuites/ada/support
-ldflags: []
-stlib: []
-ada-object-directory: testsuites/ada/tmtests/tm21
-source:
-- testsuites/ada/tmtests/tm21/init.c
-ada-main: testsuites/ada/tmtests/tm21/tm21.adb
-target: testsuites/ada/ada_tm21.exe
+build-type: ada-test-program
+cflags: []
+cppflags: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.76'
+includes: []
+ldflags: []
+level: 1.76
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: lFMutiRUEPtKG7zZViHl-3q8zZudqQnhU9mV9yT965Q=
+source:
+- testsuites/ada/tmtests/tm21/init.c
+stlib: []
+target: testsuites/ada/ada_tm21.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

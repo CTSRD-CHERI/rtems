@@ -9,17 +9,17 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.33'
+level: 1.33
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: Z7C9qzQ_RzD6USbJJDp_pjtMbqSnOkI9d9kUd_zRDQw=
 source:
 - testsuites/psxtests/psxclock01/init.c
 stlib: []
 target: testsuites/psxtests/psxclock01.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

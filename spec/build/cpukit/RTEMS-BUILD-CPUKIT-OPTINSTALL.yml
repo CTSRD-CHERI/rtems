@@ -10,8 +10,8 @@ actions:
 - env-assign: BSP_INCLUDEDIR
 active: true
 build-type: option
-default-by-variant: []
 default: null
+default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
@@ -21,6 +21,6 @@ name: INSTALL
 normative: true
 order: 0
 ref: ''
-reviewed: syP1PGi2-KlNTGIM-jF_-c_rhmUSIHDPW5z_OyQFLi4=
+reviewed: J7jeBSlypqFfkjYkyxP7Omw86BwjBUPsFyId8VK_xUk=
 text: ''
 type: build

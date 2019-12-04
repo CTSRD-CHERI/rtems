@@ -10,14 +10,14 @@ family: motorola_powerpc
 header: ''
 includes: []
 install: []
-level: '1.8'
+level: 1.8
 links:
-- RTEMS-BUILD-BSP-OPTO2: null
-- RTEMS-BUILD-BSP-POWERPC-MOTOROLAPOWERPC-GRP: null
+- RTEMS-BUILD-BSP-OPTO2: r0q7M48XBHR1ES8QcdIvYFB5cSdkfBWkJTXycbg43og=
+- RTEMS-BUILD-BSP-POWERPC-MOTOROLAPOWERPC-GRP: H9B9FiG0T0oqA0legJjV_25BUIB0X7dabZXSWTTeAlI=
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: yxtgUAP1dtiwrqnygPrQQa9cDw9UUfxO0b1EWZyMqs8=
 source: []
 text: ''
 type: build

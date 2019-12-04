@@ -8,13 +8,13 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.4'
+level: 1.4
 links: []
 name: COPY_DATA_FROM_ROM
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: Myp9myS2bVPHa9QYc3c21GzpVPrBtv_c_nwu3pxXD9A=
 text: |
   Whether to copy data from ROM to RAM in start.S
 type: build

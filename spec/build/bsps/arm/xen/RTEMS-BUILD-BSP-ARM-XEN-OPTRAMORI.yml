@@ -3,13 +3,13 @@ actions:
 - assert-uint32: null
 - env-assign: null
 - format-and-define: null
-format: '{:#010x}'
 active: true
 build-type: option
-default: 0x40000000
+default: 1073741824
 default-by-variant: []
 derived: false
 enabled-by: []
+format: '{:#010x}'
 header: ''
 level: 1.8
 links: []
@@ -17,7 +17,7 @@ name: BSP_XEN_RAM_BASE
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: dl4Y-Zj3x-1zmfdjRBzPBM20IrbTAYIKY8NLr-WEDck=
 text: |
   base address of memory area available to the BSP
 type: build

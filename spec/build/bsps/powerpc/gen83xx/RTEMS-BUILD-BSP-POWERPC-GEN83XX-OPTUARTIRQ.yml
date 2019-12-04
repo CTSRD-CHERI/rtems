@@ -11,13 +11,13 @@ default-by-variant:
 derived: false
 enabled-by: []
 header: ''
-level: '1.21'
+level: 1.21
 links: []
 name: BSP_USE_UART_INTERRUPTS
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: T2bDkgNBbBVs2WUZ9v0cnpCA3THJshtxY-CocPfR9Jw=
 text: |
   enable usage of interrupts for the UART modules
 type: build

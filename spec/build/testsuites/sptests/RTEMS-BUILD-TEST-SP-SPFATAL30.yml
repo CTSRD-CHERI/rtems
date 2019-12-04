@@ -14,12 +14,12 @@ links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: WnUUaYml_BJ8QBq-xnbiFQX4sIA5ttEtA-YZxEq_8YE=
 source:
 - testsuites/sptests/spfatal30/init.c
 stlib: []
 target: testsuites/sptests/spfatal30.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

@@ -6,22 +6,22 @@ actions:
 - env-append: CXXFLAGS
 active: true
 build-type: option
-default-by-variant: []
 default:
 - -O0
 - -g
 - -fdata-sections
 - -ffunction-sections
+default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.32'
+level: 1.32
 links: []
 name: OPTIMIZATION_FLAGS
 normative: true
 order: 0
 ref: ''
-reviewed: a0rmO1gkjPQ8PGj5xNt4sCmyZyQrufsVMAZtXxfJ3uE=
+reviewed: t-BHoy0Tld_j41qFVyjVBQwMOl69JogX75N64J0dPRU=
 text: |
   Optimization flags passed to the C and C++ compiler
 type: build

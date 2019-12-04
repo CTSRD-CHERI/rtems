@@ -8,13 +8,13 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.18'
+level: 1.18
 links: []
 name: MPC55XX_BOOTFLAGS
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: -nWNNxnSzODiVVuvDBlUhZ6ev75ZK23vQ88EyXv4cc0=
 text: |
   if defined, builds in bootflags above the RCHW for setup in a debugger to avoid startup MMU setup
 type: build

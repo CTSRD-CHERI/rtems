@@ -17,7 +17,7 @@ name: MPC55XX_BOARD_MPC5674F_ECU508
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: yZluk0XQ4qLcw2jYZME_TgZW6Dgd7gUZ-ClR4JZ_FsE=
 text: |
   if defined, use custom settings for ECU508 board
 type: build

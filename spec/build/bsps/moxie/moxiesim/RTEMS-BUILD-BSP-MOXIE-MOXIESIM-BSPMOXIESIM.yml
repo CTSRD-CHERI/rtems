@@ -21,20 +21,20 @@ install:
   source:
   - bsps/moxie/moxiesim/start/bsp_specs
   - bsps/moxie/moxiesim/start/linkcmds
-level: '1.2'
+level: 1.2
 links:
-- RTEMS-BUILD-BSP-BSPOPTS: null
-- RTEMS-BUILD-BSP-MOXIE-MOXIESIM-ABI: null
-- RTEMS-BUILD-BSP-MOXIE-MOXIESIM-START: null
-- RTEMS-BUILD-BSP-OBJ: null
-- RTEMS-BUILD-BSP-OBJIRQDFLT: null
-- RTEMS-BUILD-BSP-OPTOS: null
-- RTEMS-BUILD-BSP-TSTNOLIBDL: null
-- RTEMS-BUILD-BSP-TSTREQTICK: null
+- RTEMS-BUILD-BSP-BSPOPTS: Wm3sxAZgV2qTZy3j7vLFzPcSbrq55VDM052Ocsaid9E=
+- RTEMS-BUILD-BSP-OBJ: tgEqqyPlwgBwG3s7tNDgDZwObWvqNe4c2CTFSuj7X88=
+- RTEMS-BUILD-BSP-OBJIRQDFLT: P_sOhDGyvLSOoeKh2lKXmFA84ufQVtMaSDR9UJ6b0x0=
+- RTEMS-BUILD-BSP-OPTOS: j0W_VgI8txGgGkiOwmU3zipXxDysvE6zBN9tB8lpijQ=
+- RTEMS-BUILD-BSP-TSTNOLIBDL: 2wzNvdkiCGsGpP4u1UZ_Wxj5tmN5vR19UIOKq6s2t9g=
+- RTEMS-BUILD-BSP-TSTREQTICK: 9MuFMm40DY36LgsLbjcLWydStpJJMALSZbzorIMdydE=
+- RTEMS-BUILD-BSP-MOXIE-MOXIESIM-ABI: iQdYdlt4ZuuN4TsmutIIcSdcybXPu4cSA0aXUh07u2c=
+- RTEMS-BUILD-BSP-MOXIE-MOXIESIM-START: 2-ZkwUlwaUNKOexj-FIQWI14-mlpptNxxyw2txlZprU=
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: aZbsTuMc6UL5iQB_qMJ5IDXsSujU2EwNiiGxEEhEp3M=
 source:
 - bsps/moxie/moxiesim/console/console-io.c
 - bsps/moxie/moxiesim/console/syscalls.S

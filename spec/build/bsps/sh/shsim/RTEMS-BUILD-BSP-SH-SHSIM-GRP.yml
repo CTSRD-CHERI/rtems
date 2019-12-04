@@ -1,27 +1,27 @@
 active: true
 build-type: group
-install: []
 derived: true
 enabled-by: []
 header: ''
 includes: []
+install: []
 ldflags: []
-level: '1.1'
+level: 1.1
 links:
-- RTEMS-BUILD-BSP-BSPOPTS: null
-- RTEMS-BUILD-BSP-OBJ: null
-- RTEMS-BUILD-BSP-OBJIRQDFLT: null
-- RTEMS-BUILD-BSP-SH-SHSIM-ABI: null
-- RTEMS-BUILD-BSP-SH-SHSIM-OBJ: null
-- RTEMS-BUILD-BSP-SH-SHSIM-OPTCPUCLK: null
-- RTEMS-BUILD-BSP-SH-SHSIM-OPTLOWINIT: null
-- RTEMS-BUILD-BSP-SH-SHSIM-START: null
+- RTEMS-BUILD-BSP-BSPOPTS: Wm3sxAZgV2qTZy3j7vLFzPcSbrq55VDM052Ocsaid9E=
+- RTEMS-BUILD-BSP-OBJ: tgEqqyPlwgBwG3s7tNDgDZwObWvqNe4c2CTFSuj7X88=
+- RTEMS-BUILD-BSP-OBJIRQDFLT: P_sOhDGyvLSOoeKh2lKXmFA84ufQVtMaSDR9UJ6b0x0=
+- RTEMS-BUILD-BSP-SH-SHSIM-ABI: MU5EVl42V49vELBQGbpLriEzdRQOQl1M6VMZlyfnKLk=
+- RTEMS-BUILD-BSP-SH-SHSIM-OBJ: pCrZ90gWOP_ZpZ8DsZ4RNHE_76WL7HO1GQ_LCqKTOMs=
+- RTEMS-BUILD-BSP-SH-SHSIM-OPTCPUCLK: DJZesGFA66l9Tm0az_LDrET-oi6FkbL7y0_HpAnWp8E=
+- RTEMS-BUILD-BSP-SH-SHSIM-OPTLOWINIT: J73tq_NCY_UXx88Th9j54A9msXDH6zOefR6XR1NklwE=
+- RTEMS-BUILD-BSP-SH-SHSIM-START: VgQivf79iGflWJ0jPq4lqLOyzsKzWHn3-NDlJQ6iTk0=
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: 7x82me3zB0mpbDAMYQlZpJ3PPunONNzsA-3IuuKw69s=
 text: ''
 top-level: false
 type: build
-use-before: []
 use-after: []
+use-before: []

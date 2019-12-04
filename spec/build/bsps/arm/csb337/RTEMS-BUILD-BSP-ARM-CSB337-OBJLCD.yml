@@ -9,12 +9,12 @@ enabled-by:
 header: ''
 includes: []
 install: []
-level: '1.6'
+level: 1.6
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: wHLLqwcZhawIWp0SH8a3mnQXGLOAHEl7tfRp8H9AZO0=
 source:
 - bsps/arm/csb337/console/fbcons.c
 - bsps/arm/csb337/console/sed1356.c

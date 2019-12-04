@@ -3,17 +3,17 @@ actions:
 - define-condition: null
 active: true
 build-type: option
-default-by-variant: []
 default: null
+default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.6'
+level: 1.6
 links: []
 name: HAVE_DECL_PTHREAD_ATTR_SETGUARDSIZE
 normative: true
 order: 0
 ref: ''
-reviewed: GIO8etND7fg60q4weMeATxX4lsp56LZQbQ3TY3lEIsw=
+reviewed: q6LWGvo2IugQnEfC4D8B6BcM_kVFMIWKA-b6eynd8CE=
 text: ''
 type: build

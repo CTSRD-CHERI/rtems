@@ -1,29 +1,29 @@
 active: true
-build-type: ada-test-program
+ada-main: testsuites/ada/tmtests/tmck/tmck.adb
+ada-object-directory: testsuites/ada/tmtests/tmck
 adaflags: []
-cflags: []
-cppflags: []
-includes: []
 adaincludes:
 - cpukit/include/adainclude
 - testsuites/ada/support
-ldflags: []
-stlib: []
-ada-object-directory: testsuites/ada/tmtests/tmck
-source:
-- testsuites/ada/tmtests/tmck/init.c
-ada-main: testsuites/ada/tmtests/tmck/tmck.adb
-target: testsuites/ada/ada_tmck.exe
+build-type: ada-test-program
+cflags: []
+cppflags: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.83'
+includes: []
+ldflags: []
+level: 1.83
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: jhSfaY3L4kKwf2TnQOGYqJLZpz1_hoezF6pWlVi0RZk=
+source:
+- testsuites/ada/tmtests/tmck/init.c
+stlib: []
+target: testsuites/ada/ada_tmck.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

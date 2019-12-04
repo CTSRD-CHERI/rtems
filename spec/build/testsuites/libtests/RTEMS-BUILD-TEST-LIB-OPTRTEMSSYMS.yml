@@ -4,16 +4,16 @@ actions:
 - env-assign: RTEMS_SYMS
 active: true
 build-type: option
-default-by-variant: []
 default: null
+default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.101'
+level: 1.101
 links: []
 normative: true
 order: -100
 ref: ''
-reviewed: oRRzhna6a47p0_QjPWqYLful9JgHGbxMqy-q7mSiZiU=
+reviewed: Ig92Qm7bDy_9OUksN_aDvoSNqv861Uo1HKP4TRRTH_8=
 text: ''
 type: build

@@ -3,17 +3,17 @@ actions:
 - define-unquoted: null
 active: true
 build-type: option
-default-by-variant: []
 default: null
+default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.17'
+level: 1.17
 links: []
 name: HAVE_PTHREAD_SETSCHEDPARAM_CONST
 normative: true
 order: 0
 ref: ''
-reviewed: Bw8tXtUjQyUlwCi7Goc0cqBt4P0AgKfZNqUc8rTF1ZY=
+reviewed: 2dTTqyu0erCw9D9pUdKdUa_09WsW3DPShV0lvSB-y7k=
 text: ''
 type: build

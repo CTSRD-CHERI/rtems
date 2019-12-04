@@ -73,12 +73,12 @@ install:
   - bsps/include/grlib/tlib.h
 level: '1.10'
 links:
-- RTEMS-BUILD-BSP-OBJGRLIBNET: null
-- RTEMS-BUILD-BSP-OBJGRLIBNOSMP: null
+- RTEMS-BUILD-BSP-OBJGRLIBNET: CoiqUxvBFBd1p7hLLt27m34y-seEuh2C-sq2bfbA4JM=
+- RTEMS-BUILD-BSP-OBJGRLIBNOSMP: iG02khxZYs2FCl8LjEERKStJ86k-JkQ6MFYioRaj4IE=
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: K_xfukN7fvOu5bu46VVZOVTy8Ijv5l_QQnQAlqi2OCk=
 source:
 - bsps/shared/grlib/1553/b1553brm.c
 - bsps/shared/grlib/1553/b1553rt.c

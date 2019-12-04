@@ -11,13 +11,13 @@ default-by-variant:
 derived: false
 enabled-by: []
 header: ''
-level: '1.25'
+level: 1.25
 links: []
 name: LPC24XX_EMC_M29W160E
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: 5YvU1ZI-6FA-T2BdEMIoHzhqHbo9o7WZLjlGSW_BT-M=
 text: |
   enable M29W160E configuration for EMC
 type: build

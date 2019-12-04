@@ -10,12 +10,12 @@ header: ''
 includes:
 - cpukit/libnetworking
 install: []
-level: '1.3'
+level: 1.3
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: rNhPAKxleHNVTRsklFIj35mIFVcZqeuwaJYfziq5Yi8=
 source:
 - bsps/arm/csb336/net/lan91c11x.c
 - bsps/arm/csb336/net/network.c

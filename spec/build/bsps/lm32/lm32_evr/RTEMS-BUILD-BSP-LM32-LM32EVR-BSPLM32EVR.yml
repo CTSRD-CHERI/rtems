@@ -10,14 +10,14 @@ family: lm32_evr
 header: ''
 includes: []
 install: []
-level: '1.4'
+level: 1.4
 links:
-- RTEMS-BUILD-BSP-LM32-LM32EVR-GRP: null
-- RTEMS-BUILD-BSP-OPTO2: null
+- RTEMS-BUILD-BSP-OPTO2: r0q7M48XBHR1ES8QcdIvYFB5cSdkfBWkJTXycbg43og=
+- RTEMS-BUILD-BSP-LM32-LM32EVR-GRP: tacjgKyFsANcW0OsqJb99zV_j-QxteyMYNhbLbPE67k=
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: 4428Pqa-mTcynsOFbu1LvN3tfB9KntAmqGB7ev7e7vU=
 source: []
 text: ''
 type: build

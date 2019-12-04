@@ -9,12 +9,12 @@ enabled-by:
 header: ''
 includes: []
 install: []
-level: '1.8'
+level: 1.8
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: Miwt0_z2TBFaBwymQhHLFYGWFIEaOZwfp2UmRHE52ng=
 source:
 - bsps/riscv/griscv/start/bspsmp.c
 text: ''

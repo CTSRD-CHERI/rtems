@@ -17,13 +17,13 @@ derived: false
 enabled-by: []
 format: '{}'
 header: ''
-level: '1.2'
+level: 1.2
 links: []
 name: BSP_ARM_A9MPCORE_PERIPHCLK
 normative: true
 order: 0
 ref: ''
-reviewed: dRcUNOEQ_KtsdxQbIUyZtiPw43Hh26iefzOw_F3z76g=
+reviewed: CYOHB22-UyFDmokps9NApl8l87OKPpEKfPbgNY7KRG8=
 text: |
   ARM Cortex-A9 MPCore PERIPHCLK clock frequency in Hz
 type: build

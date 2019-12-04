@@ -5,18 +5,19 @@ actions:
 - format-and-define: null
 active: true
 build-type: option
-default: 0x0
+default: 0
 default-by-variant: []
 derived: false
 enabled-by: []
 format: '{:#010x}'
 header: ''
-level: '1.7'
+level: 1.7
 links: []
 name: VIRTEX_FAST_RAM_ORIGIN
 normative: true
 order: 0
 ref: ''
-reviewed: i_CssUBJyqp5PTT684AclQKGnjjqreMFEm0qKc6hfmM=
-text: 'fast RAM region origin'
+reviewed: vr4p6GKwnmUyeqTMF0cGsEyKJGC5dCbF3bqYxyZZIVM=
+text: |
+  fast RAM region origin
 type: build

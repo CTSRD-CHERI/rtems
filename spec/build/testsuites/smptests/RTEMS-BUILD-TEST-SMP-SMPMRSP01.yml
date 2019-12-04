@@ -10,17 +10,17 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.28'
+level: 1.28
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: 6U8h3LOQz-4Z4qcGQypC-KyYOmwXziDqt3ACVQpR8O8=
 source:
 - testsuites/smptests/smpmrsp01/init.c
 stlib: []
 target: testsuites/smptests/smpmrsp01.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

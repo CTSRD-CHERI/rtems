@@ -10,14 +10,14 @@ family: pc386
 header: ''
 includes: []
 install: []
-level: '1.5'
+level: 1.5
 links:
-- RTEMS-BUILD-BSP-I386-PC386-GRP: null
-- RTEMS-BUILD-BSP-OPTO2: null
+- RTEMS-BUILD-BSP-OPTO2: r0q7M48XBHR1ES8QcdIvYFB5cSdkfBWkJTXycbg43og=
+- RTEMS-BUILD-BSP-I386-PC386-GRP: iSIQ5cFktX-OTJPwJJMUPTpN87NmSijv23p1seI-S9M=
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: HBQyfpHD3be4mzZcMd3gSvqqYZ8bsPhdZgKCA3I-8Is=
 source: []
 text: ''
 type: build

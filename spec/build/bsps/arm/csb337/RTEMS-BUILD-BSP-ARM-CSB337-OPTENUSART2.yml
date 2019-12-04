@@ -8,13 +8,13 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.17'
+level: 1.17
 links: []
 name: ENABLE_USART2
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: Kynq6riWNvEkV8DnaHy1MbyPFWqbJ8OrVzaahSoSs0o=
 text: |
   If defined, enable use of the USART 2.
 type: build

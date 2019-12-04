@@ -14,7 +14,7 @@ links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: WQScCjwr-QqGhhw53_3bldN0kc3uDLaZZcf7rnFgU40=
 source:
 - testsuites/psxtmtests/psxtmrwlock04/init.c
 - testsuites/support/src/tmtests_empty_function.c
@@ -23,5 +23,5 @@ stlib: []
 target: testsuites/psxtmtests/psxtmrwlock04.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

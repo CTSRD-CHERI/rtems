@@ -17,7 +17,7 @@ name: PGH360
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: 0znMnXiSof_lII7KveDrdrS4bSsFJqWLMUh5bXBX9ns=
 text: |
   If defined, use custom settings for the pgh360 BSP.
 type: build

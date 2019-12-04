@@ -10,14 +10,14 @@ family: raspberrypi
 header: ''
 includes: []
 install: []
-level: '1.3'
+level: 1.3
 links:
-- RTEMS-BUILD-BSP-ARM-RASPBERRYPI-GRP: null
-- RTEMS-BUILD-BSP-OPTO2: null
+- RTEMS-BUILD-BSP-OPTO2: r0q7M48XBHR1ES8QcdIvYFB5cSdkfBWkJTXycbg43og=
+- RTEMS-BUILD-BSP-ARM-RASPBERRYPI-GRP: 7hj5c4KZlIZmH7t8eixz57fggFd94vk8v1BxodVNBb4=
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: N_phUfs8hyD9zO3JByQdewaYNEkH8eqkwQryqOYW_4E=
 source: []
 text: ''
 type: build

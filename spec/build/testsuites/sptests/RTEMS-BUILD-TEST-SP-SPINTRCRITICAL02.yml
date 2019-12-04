@@ -10,12 +10,12 @@ header: ''
 includes:
 - testsuites/sptests/spintrcritical_support
 ldflags: []
-level: '1.146'
+level: 1.146
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: AiQmHyKCQVZRUK2m5y9rBIf1_J6nLV1ZOtyhvzlvQEA=
 source:
 - testsuites/sptests/spintrcritical02/init.c
 - testsuites/sptests/spintrcritical_support/intrcritical.c
@@ -23,5 +23,5 @@ stlib: []
 target: testsuites/sptests/spintrcritical02.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

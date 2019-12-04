@@ -5,8 +5,8 @@ actions:
 - format-and-define: null
 active: true
 build-type: option
-default-by-variant: []
 default: 65024
+default-by-variant: []
 derived: false
 enabled-by: []
 format: '{:#010x}'
@@ -17,6 +17,6 @@ name: ZYNQ_RAM_INT_1_LENGTH
 normative: true
 order: 0
 ref: ''
-reviewed: pc6n5BLbEmv7aog4Em7uzAHskSZdD3UrF1x22JbQXWQ=
+reviewed: wuIMID23RixgnS27qYucKZKSIDBCWuN9A8I_HrFBrrk=
 text: ''
 type: build

@@ -9,17 +9,17 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.4'
+level: 1.4
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: Z63zQtQyRAqAKozWLGQ63x62DsTo4hEdhGslNSP6ICE=
 source:
 - testsuites/rhealstone/rhmlatency/mlatency.c
 stlib: []
 target: testsuites/rhealstone/rhmlatency.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

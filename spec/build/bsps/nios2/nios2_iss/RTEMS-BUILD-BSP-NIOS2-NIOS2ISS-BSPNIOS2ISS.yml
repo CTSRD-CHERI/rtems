@@ -21,18 +21,18 @@ install:
   source:
   - bsps/nios2/nios2_iss/start/bsp_specs
   - bsps/nios2/nios2_iss/start/linkcmds
-level: '1.2'
+level: 1.2
 links:
-- RTEMS-BUILD-BSP-BSPOPTS: null
-- RTEMS-BUILD-BSP-NIOS2-NIOS2ISS-ABI: null
-- RTEMS-BUILD-BSP-NIOS2-NIOS2ISS-START: null
-- RTEMS-BUILD-BSP-OBJ: null
-- RTEMS-BUILD-BSP-OBJIRQDFLT: null
-- RTEMS-BUILD-BSP-OPTO0: null
+- RTEMS-BUILD-BSP-BSPOPTS: Wm3sxAZgV2qTZy3j7vLFzPcSbrq55VDM052Ocsaid9E=
+- RTEMS-BUILD-BSP-OBJ: tgEqqyPlwgBwG3s7tNDgDZwObWvqNe4c2CTFSuj7X88=
+- RTEMS-BUILD-BSP-OBJIRQDFLT: P_sOhDGyvLSOoeKh2lKXmFA84ufQVtMaSDR9UJ6b0x0=
+- RTEMS-BUILD-BSP-OPTO0: t-BHoy0Tld_j41qFVyjVBQwMOl69JogX75N64J0dPRU=
+- RTEMS-BUILD-BSP-NIOS2-NIOS2ISS-ABI: 8HQ7RrYSVPgTKsMjgJmE_6gvTbsBZ_5xWbjpumQhp0c=
+- RTEMS-BUILD-BSP-NIOS2-NIOS2ISS-START: tve7cWZQ74_GprIOJO83aWDKXCDP_Lmt3Am4c5D_g4I=
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: uU31Zem9aNP-COTz56EFwyPRYZ0ZjE7huzeCJacEDr4=
 source:
 - bsps/nios2/nios2_iss/btimer/btimer.c
 - bsps/nios2/nios2_iss/clock/clock.c

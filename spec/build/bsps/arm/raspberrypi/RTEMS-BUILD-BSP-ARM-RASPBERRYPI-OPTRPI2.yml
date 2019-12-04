@@ -11,13 +11,13 @@ default-by-variant:
 derived: false
 enabled-by: []
 header: ''
-level: '1.14'
+level: 1.14
 links: []
 name: BSP_IS_RPI2
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: vR4YBUJIy5WOFom8eh8KVP4vb9QRQS_1s5fol_KUEfE=
 text: |
   Set if the BSP variant is Raspberry Pi 2.
 type: build

@@ -13,12 +13,12 @@ install:
   source:
   - cpukit/include/rtems/telnetd.h
 install-path: ${BSP_LIBDIR}
-level: '1.59'
+level: 1.59
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: cA8P7KK0q0lNJYE2Wo8mt1t4cNs1mlFkO5ePPm7-JX8=
+reviewed: TkVI_e-t3fF8rR_79mTyU4YcpyHDBUirD6KoL2a2Wok=
 source:
 - cpukit/telnetd/check_passwd.c
 - cpukit/telnetd/des.c

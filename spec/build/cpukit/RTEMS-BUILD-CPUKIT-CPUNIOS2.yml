@@ -24,12 +24,12 @@ install:
   - cpukit/score/cpu/nios2/include/rtems/score/nios2-count-zeros.h
   - cpukit/score/cpu/nios2/include/rtems/score/nios2-utility.h
   - cpukit/score/cpu/nios2/include/rtems/score/nios2.h
-level: '1.39'
+level: 1.39
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: iQwyvurUFioF8mZUSmKvPFeJabptI2a8JKWjI_FBFSI=
+reviewed: MCRRpzr6ciF6-Z-iv9l1_ERz6Bjw9NfurLkjcVfOsXI=
 source:
 - cpukit/score/cpu/nios2/nios2-context-initialize.c
 - cpukit/score/cpu/nios2/nios2-context-switch.S

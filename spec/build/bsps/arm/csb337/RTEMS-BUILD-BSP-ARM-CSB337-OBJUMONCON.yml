@@ -9,12 +9,12 @@ enabled-by:
 header: ''
 includes: []
 install: []
-level: '1.8'
+level: 1.8
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: lktZjLrEJaL2Umlgvqhl0Idw5NHtap8JE-UsL3bTrWE=
 source:
 - bsps/arm/csb337/umon/umoncons.c
 text: ''

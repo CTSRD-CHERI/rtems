@@ -9,12 +9,12 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.115'
+level: 1.115
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: S08JYVlUmQK9CATb5FaHUhp5WqYbBrY_FWjggjDjE_Q=
 source:
 - testsuites/libtests/rtmonuse/init.c
 - testsuites/libtests/rtmonuse/getall.c
@@ -23,5 +23,5 @@ stlib: []
 target: testsuites/libtests/rtmonuse.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

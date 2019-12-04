@@ -9,12 +9,12 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.3'
+level: 1.3
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: Wu9f4-T2T1V5Zvk9pwkZufIEPvOpXNIJIpvJf2R95zM=
+reviewed: pND99ZT2xisy0K3ucoiS_VcNXBnHPwyfUki2hGMFcQ8=
 source:
 - testsuites/fstests/fsclose01/init.c
 stlib: []

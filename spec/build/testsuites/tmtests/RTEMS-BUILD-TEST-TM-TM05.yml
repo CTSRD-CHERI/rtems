@@ -9,12 +9,12 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.6'
+level: 1.6
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: FRWXVMVEvLyJ4JjYCHHbW9Ey1dkjxIChVQi206E7gDw=
 source:
 - testsuites/tmtests/tm05/task1.c
 - testsuites/support/src/tmtests_empty_function.c
@@ -22,5 +22,5 @@ stlib: []
 target: testsuites/tmtests/tm05.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

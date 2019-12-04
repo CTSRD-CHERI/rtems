@@ -1,24 +1,24 @@
 actions:
 - get-integer: null
 - define: null
-format: '{:#010x}'
 active: true
 build-type: option
-default: 0x00000000
+default: 0
 default-by-variant:
-- value: 
+- value: null
   variants:
   - powerpc/qoriq_e6500.*
 derived: false
 enabled-by: []
+format: '{:#010x}'
 header: ''
-level: '1.39'
+level: 1.39
 links: []
 name: QORIQ_INITIAL_SPEFSCR
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: P_2ZvgFGoLaRukOfBPWZVfSFXet1dINPF_Vm5nW975Q=
 text: |
   initial SPEFSCR value
 type: build

@@ -5,18 +5,19 @@ actions:
 - format-and-define: null
 active: true
 build-type: option
-default: 0x7ffffec
+default: 134217708
 default-by-variant: []
 derived: false
 enabled-by: []
 format: '{:#010x}'
 header: ''
-level: '1.8'
+level: 1.8
 links: []
 name: VIRTEX_RAM_LENGTH
 normative: true
 order: 0
 ref: ''
-reviewed: vtamXhrTWoNpGwOsqg7F2OtQiERYd9_-4Zx-5KrKNpQ=
-text: 'normal RAM region length'
+reviewed: OyLfbDIIa8_vB3o94QLMIQJTVUmmTYy-qtQz9eDnChs=
+text: |
+  normal RAM region length
 type: build

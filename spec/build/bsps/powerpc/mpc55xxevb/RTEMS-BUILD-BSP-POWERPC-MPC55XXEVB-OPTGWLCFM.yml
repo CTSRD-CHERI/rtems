@@ -11,13 +11,13 @@ default-by-variant:
 derived: false
 enabled-by: []
 header: ''
-level: '1.36'
+level: 1.36
 links: []
 name: MPC55XX_BOARD_GWLCFM
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: ab2TwQ394AcwAhG8Re4CmM1IwLF_4BfABFEhHjKpYuI=
 text: |
   if defined, use custom settings for GWLCFM board
 type: build

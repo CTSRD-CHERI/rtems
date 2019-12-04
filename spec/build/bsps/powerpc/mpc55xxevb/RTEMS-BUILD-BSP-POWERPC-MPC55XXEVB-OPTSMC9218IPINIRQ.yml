@@ -1,10 +1,9 @@
 actions:
 - get-integer: null
 - define: null
-format: '{}'
 active: true
 build-type: option
-default: 
+default: null
 default-by-variant:
 - value: 450
   variants:
@@ -14,6 +13,7 @@ default-by-variant:
   - powerpc/mpc5566.*
 derived: false
 enabled-by: []
+format: '{}'
 header: ''
 level: '1.50'
 links: []
@@ -21,7 +21,7 @@ name: SMSC9218I_IRQ_PIN
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: t8DnAZpHAGm6KU8pEo2SGXGHV7-CnIgfGvJTVadomsw=
 text: |
   IRQ pin for SMSC9218I network interface
 type: build

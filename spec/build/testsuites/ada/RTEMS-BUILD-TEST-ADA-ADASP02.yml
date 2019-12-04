@@ -1,29 +1,29 @@
 active: true
-build-type: ada-test-program
+ada-main: testsuites/ada/sptests/sp02/sp02.adb
+ada-object-directory: testsuites/ada/sptests/sp02
 adaflags: []
-cflags: []
-cppflags: []
-includes: []
 adaincludes:
 - cpukit/include/adainclude
 - testsuites/ada/support
-ldflags: []
-stlib: []
-ada-object-directory: testsuites/ada/sptests/sp02
-source:
-- testsuites/ada/sptests/sp02/init.c
-ada-main: testsuites/ada/sptests/sp02/sp02.adb
-target: testsuites/ada/ada_sp02.exe
+build-type: ada-test-program
+cflags: []
+cppflags: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.32'
+includes: []
+ldflags: []
+level: 1.32
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: NwXkIh2M_j2aIVeSPOY3HsKuiQqCeCZAGqvCVTQSKxs=
+source:
+- testsuites/ada/sptests/sp02/init.c
+stlib: []
+target: testsuites/ada/ada_sp02.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

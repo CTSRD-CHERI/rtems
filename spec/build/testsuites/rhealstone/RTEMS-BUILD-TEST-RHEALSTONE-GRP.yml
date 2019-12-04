@@ -1,6 +1,5 @@
 active: true
 build-type: group
-install: []
 derived: false
 enabled-by:
 - BUILD_TESTS
@@ -9,24 +8,25 @@ header: ''
 includes:
 - testsuites/support/include
 - testsuites/tmtests/include
+install: []
 ldflags:
 - -Wl,--wrap=printf
 - -Wl,--wrap=puts
-level: '1.1'
+level: 1.1
 links:
-- RTEMS-BUILD-TEST-RHEALSTONE-RHDEADLOCKBRK: null
-- RTEMS-BUILD-TEST-RHEALSTONE-RHILATENCY: null
-- RTEMS-BUILD-TEST-RHEALSTONE-RHMLATENCY: null
-- RTEMS-BUILD-TEST-RHEALSTONE-RHSEMSHUFFLE: null
-- RTEMS-BUILD-TEST-RHEALSTONE-RHTASKPREEMPT: null
-- RTEMS-BUILD-TEST-RHEALSTONE-RHTASKSWITCH: null
+- RTEMS-BUILD-TEST-RHEALSTONE-RHDEADLOCKBRK: OZHFurE4mK8kM3YNdi7RZUMF_ulwzNutWN-5cAGUVP8=
+- RTEMS-BUILD-TEST-RHEALSTONE-RHILATENCY: _k8kvHyQR_Ph6tTRrhSfszk2jhx6ydd_LscgNpJP89s=
+- RTEMS-BUILD-TEST-RHEALSTONE-RHMLATENCY: Z63zQtQyRAqAKozWLGQ63x62DsTo4hEdhGslNSP6ICE=
+- RTEMS-BUILD-TEST-RHEALSTONE-RHSEMSHUFFLE: Ip7S0T3BIWoT7zNvTOsRZ2uCyfJ033Zp4ucTclB8BBI=
+- RTEMS-BUILD-TEST-RHEALSTONE-RHTASKPREEMPT: mMMESeAtkxlzWVm-L270qtOg4iHEteJc8LWGoMp7yJ0=
+- RTEMS-BUILD-TEST-RHEALSTONE-RHTASKSWITCH: 261kYx6bZkITMYsXuOmgOjLUet4IJeP_DEgrAt8P6Ic=
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: vcz6OCaQO3zfe6a0TQdO6CqtYIVcMT666yocn_92B58=
 text: ''
 top-level: false
 type: build
-use-before: []
 use-after:
 - rtemstest
+use-before: []

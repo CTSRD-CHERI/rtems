@@ -9,17 +9,17 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.83'
+level: 1.83
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: tFHrYITn6C4GAD6BHyKEVEltkJisFapyBjoY60RdxUs=
 source:
 - testsuites/psxtests/psxpasswd02/init.c
 stlib: []
 target: testsuites/psxtests/psxpasswd02.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

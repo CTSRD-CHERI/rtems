@@ -9,17 +9,17 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.58'
+level: 1.58
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: qe38o3E76PObPgCkVnRPMhL3ldpK4ZOr-oXIo9fRqNk=
 source:
 - testsuites/libtests/getentropy01/init.c
 stlib: []
 target: testsuites/libtests/getentropy01.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

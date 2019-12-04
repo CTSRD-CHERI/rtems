@@ -9,12 +9,12 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.33'
+level: 1.33
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: dBPMlmBbv3E6NaehDIzTlMZJT-1Y0tw3I5eIlT4R7Jc=
 source:
 - testsuites/psxtmtests/psxtmmutexattr01/init.c
 - testsuites/support/src/tmtests_empty_function.c
@@ -23,5 +23,5 @@ stlib: []
 target: testsuites/psxtmtests/psxtmmutexattr01.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

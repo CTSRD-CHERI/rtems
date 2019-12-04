@@ -41,15 +41,15 @@ content: |
   atsam_memory_qspiflash_end = ORIGIN (QSPIFLASH) + LENGTH (QSPIFLASH);
   atsam_memory_qspiflash_size = LENGTH (QSPIFLASH);
 derived: false
-install-path: ${BSP_LIBDIR}
 enabled-by: []
 header: ''
-level: '1.3'
+install-path: ${BSP_LIBDIR}
+level: 1.3
 links: []
 normative: true
 order: 1000
 ref: ''
-reviewed: Y8pey-TyKHxv_ezsDMqVzNEE4jKba6JwzG-52PpuPzk=
+reviewed: cnMevCAp1tuN7rVYCQ39hsCerDCVI6B4PD6VWyQc6h8=
 target: linkcmds.memory
 text: ''
 type: build

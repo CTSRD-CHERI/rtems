@@ -3,21 +3,21 @@ actions:
 - assert-uint32: null
 - env-assign: null
 - format-and-define: null
-format: '{:#010x}'
 active: true
 build-type: option
 default: 1048576
 default-by-variant: []
 derived: false
 enabled-by: []
+format: '{:#010x}'
 header: ''
-level: '1.23'
+level: 1.23
 links: []
 name: ZYNQ_RAM_NOCACHE_LENGTH
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: iAJIUVUw26lTC3c7ZBnV125AozLkbLSh2bJsLiOr-pQ=
 text: |
   length of nocache RAM region
 type: build

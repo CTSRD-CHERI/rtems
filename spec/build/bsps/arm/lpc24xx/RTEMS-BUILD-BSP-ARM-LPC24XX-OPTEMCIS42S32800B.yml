@@ -14,13 +14,13 @@ default-by-variant:
 derived: false
 enabled-by: []
 header: ''
-level: '1.23'
+level: 1.23
 links: []
 name: LPC24XX_EMC_IS42S32800B
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: LyiXQrLnIYIks9rKj83Cvu1d80SaEAScNQnX0LVlV4Q=
 text: |
   enable ISSI IS42S32800B configuration for EMC
 type: build

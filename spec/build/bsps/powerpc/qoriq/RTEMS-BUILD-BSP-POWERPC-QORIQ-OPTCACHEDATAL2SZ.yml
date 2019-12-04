@@ -1,7 +1,6 @@
 actions:
 - get-integer: null
 - define: null
-format: '{}'
 active: true
 build-type: option
 default: 262144
@@ -11,14 +10,15 @@ default-by-variant:
   - powerpc/qoriq_e6500.*
 derived: false
 enabled-by: []
+format: '{}'
 header: ''
-level: '1.16'
+level: 1.16
 links: []
 name: PPC_CACHE_DATA_L2_SIZE
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: XGL1JemfZNCeIlOd6AswFI7oCncW2m6mYaB7wOJSOhQ=
 text: |
   the L2 data cache size
 type: build

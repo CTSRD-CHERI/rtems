@@ -9,12 +9,12 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.76'
+level: 1.76
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: U_vpbtfGwil-IXkclLcoaEvtUryWg7KNCmDWaJUNrDs=
 source:
 - testsuites/libtests/libfdt01/init.c
 - testsuites/libtests/libfdt01/some.c
@@ -22,5 +22,5 @@ stlib: []
 target: testsuites/libtests/libfdt01.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

@@ -12,17 +12,17 @@ actions:
     whetstone: benchmark
 active: true
 build-type: option
-default-by-variant: []
 default: null
+default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.48'
+level: 1.48
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: C_x3lppZsXiIU-1qWm5Ou_kZ7wbsa8ksLsBWjI7EVj8=
 text: |
   Provides general test states.
 type: build

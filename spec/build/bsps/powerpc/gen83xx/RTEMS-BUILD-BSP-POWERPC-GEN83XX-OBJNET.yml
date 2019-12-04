@@ -10,12 +10,12 @@ header: ''
 includes:
 - cpukit/libnetworking
 install: []
-level: '1.8'
+level: 1.8
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: VVYrtRsk9IO4HIUUG3kC-fuz-BF039UukIWlH_cQklw=
 source:
 - bsps/powerpc/gen83xx/net/network.c
 - bsps/powerpc/shared/net/tsec.c

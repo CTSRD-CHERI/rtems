@@ -1,21 +1,21 @@
 actions:
 - get-integer: null
 - define: null
-format: '{}'
 active: true
 build-type: option
 default: 115200
 default-by-variant: []
 derived: false
 enabled-by: []
+format: '{}'
 header: ''
-level: '1.21'
+level: 1.21
 links: []
 name: STM32F4_USART_BAUD
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: 7oxsdcZ-EXpBiF1J-nnUHTulSJObVv4GejtZ8UjaDfo=
 text: |
   baud for USARTs
 type: build

@@ -8,13 +8,13 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.29'
+level: 1.29
 links: []
 name: PPC_EXC_CONFIG_USE_FIXED_HANDLER
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: PyujFiwlODnIgDOYej2yrLlEsNi3v8HkysfUwGUC4Rk=
 text: |
   use fixed high-level exception handler
 type: build

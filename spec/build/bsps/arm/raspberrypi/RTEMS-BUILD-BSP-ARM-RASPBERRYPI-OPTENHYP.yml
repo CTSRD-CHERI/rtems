@@ -8,13 +8,13 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.8'
+level: 1.8
 links: []
 name: BSP_START_IN_HYP_SUPPORT
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: pUebgh5utyuwga2GG3yUHkOw8PTmoqwlZkgqICxAvgY=
 text: |
   Support start of BSP in ARM HYP mode
 type: build

@@ -11,13 +11,13 @@ default-by-variant:
 derived: false
 enabled-by: []
 header: ''
-level: '1.14'
+level: 1.14
 links: []
 name: LM3S69XX_MCU_LM3S6965
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: Lww8Mz42yOVOGgbEw0n-AqLY2qoBzCFRKA5tGqJ2KdE=
 text: |
   board has LM3S6965 MCU
 type: build

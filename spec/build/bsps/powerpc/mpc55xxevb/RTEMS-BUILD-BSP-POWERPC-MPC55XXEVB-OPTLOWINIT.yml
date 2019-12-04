@@ -11,13 +11,13 @@ default-by-variant:
 derived: false
 enabled-by: []
 header: ''
-level: '1.38'
+level: 1.38
 links: []
 name: MPC55XX_NEEDS_LOW_LEVEL_INIT
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: 4tD-2exl_fzANrc8vd0TnhHveblMDE68vJWztnQ8JAE=
 text: |
   if defined, do low level initialization
 type: build

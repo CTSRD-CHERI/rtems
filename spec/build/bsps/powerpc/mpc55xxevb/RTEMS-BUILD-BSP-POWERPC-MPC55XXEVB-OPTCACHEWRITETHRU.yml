@@ -11,13 +11,13 @@ default-by-variant:
 derived: false
 enabled-by: []
 header: ''
-level: '1.19'
+level: 1.19
 links: []
 name: BSP_DATA_CACHE_USE_WRITE_THROUGH
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: 3ch7K6lOdhuJGIB5_nxXzshIAD1mBPxhrDhNtXG8ymU=
 text: |
   use write-through for data cache
 type: build

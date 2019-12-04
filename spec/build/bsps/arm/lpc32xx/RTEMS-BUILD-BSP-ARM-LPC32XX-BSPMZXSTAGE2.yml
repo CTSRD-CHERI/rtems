@@ -10,14 +10,14 @@ family: lpc32xx
 header: ''
 includes: []
 install: []
-level: '1.5'
+level: 1.5
 links:
-- RTEMS-BUILD-BSP-ARM-LPC32XX-GRP: null
-- RTEMS-BUILD-BSP-OPTO2: null
+- RTEMS-BUILD-BSP-OPTO2: r0q7M48XBHR1ES8QcdIvYFB5cSdkfBWkJTXycbg43og=
+- RTEMS-BUILD-BSP-ARM-LPC32XX-GRP: D0Zadzhos_VJ2ZyfCeSmE5k38nbOQUcS0a3chXhDC2Y=
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: 03cOQ9oRjDwDSW42Y5zoXq_fii6LLfTftP9buU6G3Vw=
 source: []
 text: ''
 type: build

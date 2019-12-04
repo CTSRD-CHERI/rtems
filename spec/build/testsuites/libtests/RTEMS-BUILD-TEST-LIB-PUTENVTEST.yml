@@ -9,17 +9,17 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.106'
+level: 1.106
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: ajIXk7LDQXiyzlSlDWUaL9lwR5q3mpq3yZRLbUgIrOs=
 source:
 - testsuites/libtests/putenvtest/init.c
 stlib: []
 target: testsuites/libtests/putenvtest.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

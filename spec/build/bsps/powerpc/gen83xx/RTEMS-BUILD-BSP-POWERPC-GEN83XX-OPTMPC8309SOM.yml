@@ -11,13 +11,13 @@ default-by-variant:
 derived: false
 enabled-by: []
 header: ''
-level: '1.15'
+level: 1.15
 links: []
 name: MPC83XX_BOARD_MPC8309SOM
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: fJxuyuabTQ08XYzSslGqV-oobBxxtRGRIINSQ4_1vjE=
 text: |
   if defined, then use settings for the MPC8309SOM board
 type: build

@@ -9,12 +9,12 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.84'
+level: 1.84
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: _drkKOcSwFHK93e9O9dtQXUernnWWspmPLIyde8XFCE=
 source:
 - testsuites/libtests/POSIX/malloc.c
 stlib: []

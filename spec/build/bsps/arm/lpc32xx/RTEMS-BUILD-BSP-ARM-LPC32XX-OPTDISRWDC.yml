@@ -8,13 +8,13 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.11'
+level: 1.11
 links: []
 name: LPC32XX_DISABLE_READ_WRITE_DATA_CACHE
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: mUpulyrpdKZZZqYyw-oBg0Pjs-OE8k7k53ZX1A5A5Pw=
 text: |
   disable cache for read-write data sections
 type: build

@@ -11,13 +11,13 @@ default-by-variant:
 derived: false
 enabled-by: []
 header: ''
-level: '1.48'
+level: 1.48
 links: []
 name: SMSC9218I_BIG_ENDIAN_SUPPORT
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: FY3dG626BERmOTGNltJT-IJdynM5EQtx46HG1N_QZO0=
 text: |
   enable big endian support for SMSC9218I network interface
 type: build

@@ -2,15 +2,7 @@ active: true
 build-type: script
 cflags: []
 cppflags: []
-ldflags: []
-stlib: []
-use-before: []
-use-after: []
-includes:
-- testsuites/libtests/dl02
-prepare-configure: null
-prepare-build: null
-do-configure: null
+derived: false
 do-build: |
   path = "testsuites/libtests/dl02/"
   objs = []
@@ -29,17 +21,25 @@ do-build: |
   objs.append(dl02_sym_o)
   self.rtems_syms(bld, dl02_pre, dl02_sym_o)
   self.link_cc(bld, bic, objs, "testsuites/libtests/dl02.exe")
-derived: false
+do-configure: null
 enabled-by:
 - and:
   - not: TEST_DL02_EXCLUDE
   - BUILD_LIBDL
 header: ''
-level: '1.36'
+includes:
+- testsuites/libtests/dl02
+ldflags: []
+level: 1.36
 links: []
 normative: true
 order: 0
+prepare-build: null
+prepare-configure: null
 ref: ''
-reviewed: null
+reviewed: Q2FW63DyAw9yg-RLfaPVx-kCI3w1LNcqrX7LIoy4qp0=
+stlib: []
 text: ''
 type: build
+use-after: []
+use-before: []

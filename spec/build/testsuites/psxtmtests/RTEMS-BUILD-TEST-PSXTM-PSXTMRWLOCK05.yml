@@ -9,12 +9,12 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.41'
+level: 1.41
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: W7Y5kMXQLJC1SGFwQIwt6Z1h7fyUnGA5wEB2iZXaIFU=
 source:
 - testsuites/psxtmtests/psxtmrwlock05/init.c
 - testsuites/support/src/tmtests_empty_function.c
@@ -23,5 +23,5 @@ stlib: []
 target: testsuites/psxtmtests/psxtmrwlock05.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

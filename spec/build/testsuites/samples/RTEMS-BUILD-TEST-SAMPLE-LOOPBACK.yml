@@ -16,12 +16,12 @@ links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: 5Xk1cX8CvohhPfomSCxlruQ03B3zIrS8h9cNMGJAoOM=
 source:
 - testsuites/samples/loopback/init.c
 stlib: []
 target: testsuites/samples/loopback.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

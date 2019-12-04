@@ -8,13 +8,13 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.14'
+level: 1.14
 links: []
 name: BSP_USE_DATA_CACHE_BLOCK_TOUCH
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: bBMC0NEOtsojZL4OBfXQMcAkcWLPtBU7C2t-BopPKyI=
 text: |
   if defined use dcbt instruction
 type: build

@@ -14,7 +14,7 @@ name: USE_COM1_AS_CONSOLE
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: BXB8gNRmXRhiC1fY8P2uliXCiuLR9H7hH8vI7DWFmiI=
 text: |
   Determines, whether the console will be associated with the standard VGA display or with the COM1 serial port.  Currently only the VGA display and COM1 support printk.
 type: build

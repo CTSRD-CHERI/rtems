@@ -1,21 +1,21 @@
 actions:
 - get-integer: null
 - define: null
-format: '{}'
 active: true
 build-type: option
 default: 20000000
 default-by-variant: []
 derived: false
 enabled-by: []
+format: '{}'
 header: ''
-level: '1.8'
+level: 1.8
 links: []
 name: CPU_CLOCK_RATE_HZ
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: DJZesGFA66l9Tm0az_LDrET-oi6FkbL7y0_HpAnWp8E=
 text: |
   cpu clock rate in HZ
 type: build

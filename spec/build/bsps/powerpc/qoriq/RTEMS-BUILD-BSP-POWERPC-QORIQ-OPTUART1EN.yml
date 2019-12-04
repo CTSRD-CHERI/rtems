@@ -11,13 +11,13 @@ default-by-variant:
 derived: false
 enabled-by: []
 header: ''
-level: '1.43'
+level: 1.43
 links: []
 name: QORIQ_UART_1_ENABLE
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: kMDffou5hOHb1Re-P4iQMPfF-SJMyOyOJVTvtzVIxSA=
 text: |
   use 1 to enable UART 1, otherwise use 0
 type: build

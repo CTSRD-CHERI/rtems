@@ -9,12 +9,12 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.217'
+level: 1.217
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: SBIrQqryW1zyAMS4lvIEKsiQFo8kJ6QivZ7rgyDIiWM=
 source:
 - testsuites/sptests/sptimecounter02/init.c
 - testsuites/support/src/spin.c
@@ -22,5 +22,5 @@ stlib: []
 target: testsuites/sptests/sptimecounter02.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

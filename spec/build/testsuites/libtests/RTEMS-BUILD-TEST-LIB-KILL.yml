@@ -9,12 +9,12 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.71'
+level: 1.71
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: QnYprQ4PZ_ypz5qAwyU_4aKiyqD_EXrZDJyhQ_8uDeI=
 source:
 - testsuites/libtests/POSIX/kill.c
 stlib: []

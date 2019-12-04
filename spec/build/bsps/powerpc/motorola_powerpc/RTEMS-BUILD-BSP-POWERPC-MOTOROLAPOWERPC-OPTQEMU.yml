@@ -11,13 +11,13 @@ default-by-variant:
 derived: false
 enabled-by: []
 header: ''
-level: '1.17'
+level: 1.17
 links: []
 name: qemu
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: UyyNAerVwNnmZN_3Cxt0phjI48cxdfLtcX4Yx26FAts=
 text: |
   Defined for QEMU BSP -- undefined for others
 type: build

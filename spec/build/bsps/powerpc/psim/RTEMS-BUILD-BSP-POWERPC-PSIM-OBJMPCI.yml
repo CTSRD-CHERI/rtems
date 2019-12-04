@@ -9,12 +9,12 @@ enabled-by:
 header: ''
 includes: []
 install: []
-level: '1.3'
+level: 1.3
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: Ddp_G4wbNRxp74IeOp1-OlMLm71hg1Tp2gQ-68WMvAc=
 source:
 - bsps/powerpc/psim/mpci/addrconv.c
 - bsps/powerpc/psim/mpci/getcfg.c

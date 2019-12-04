@@ -8,13 +8,13 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.4'
+level: 1.4
 links: []
 name: BSP_HAS_USC320
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: 7hMliMBOIH-AoUTtP4abEMu66fHq_lxGPwcstxSa5I4=
 text: |
   This BSP has a V3 USC320 system controller chip.
 type: build

@@ -21,20 +21,20 @@ install:
   source:
   - bsps/m68k/uC5282/start/bsp_specs
   - bsps/m68k/uC5282/start/linkcmds
-level: '1.2'
+level: 1.2
 links:
-- RTEMS-BUILD-BSP-BSPOPTS: null
-- RTEMS-BUILD-BSP-M68K-GRP: null
-- RTEMS-BUILD-BSP-M68K-UC5282-ABI: null
-- RTEMS-BUILD-BSP-M68K-UC5282-OBJNET: null
-- RTEMS-BUILD-BSP-M68K-UC5282-START: null
-- RTEMS-BUILD-BSP-OBJ: null
-- RTEMS-BUILD-BSP-OBJIRQDFLT: null
-- RTEMS-BUILD-BSP-OPTO2: null
+- RTEMS-BUILD-BSP-BSPOPTS: Wm3sxAZgV2qTZy3j7vLFzPcSbrq55VDM052Ocsaid9E=
+- RTEMS-BUILD-BSP-OBJ: tgEqqyPlwgBwG3s7tNDgDZwObWvqNe4c2CTFSuj7X88=
+- RTEMS-BUILD-BSP-OBJIRQDFLT: P_sOhDGyvLSOoeKh2lKXmFA84ufQVtMaSDR9UJ6b0x0=
+- RTEMS-BUILD-BSP-OPTO2: r0q7M48XBHR1ES8QcdIvYFB5cSdkfBWkJTXycbg43og=
+- RTEMS-BUILD-BSP-M68K-GRP: JngOc5ZlkrTeFAyso_wsFTHDR2OcBuxVcLq9aF21ikQ=
+- RTEMS-BUILD-BSP-M68K-UC5282-ABI: TrUlkpmZmSPmIH1ZSva5Q-wBKWAdET9gDrKOgcN7Rqs=
+- RTEMS-BUILD-BSP-M68K-UC5282-OBJNET: QApUp4iDahzXg6z-W4PT-PiWTUOaBXt_Mmd7dtT0EjM=
+- RTEMS-BUILD-BSP-M68K-UC5282-START: _OGKkigMzuiXyd96Um6nKPAAaMa6_mXWri1xXZ8hWyM=
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: Xx3GkWE4y358m2e81S_CNQapuv4izsnXSCWRY-NbZ5M=
 source:
 - bsps/m68k/shared/cache/cache-mcf5282.c
 - bsps/m68k/shared/m68kidle.c

@@ -8,12 +8,12 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.52'
+level: 1.52
 links:
-- RTEMS-BUILD-BSP-TSTNOICONV: null
+- RTEMS-BUILD-BSP-TSTNOICONV: v9QKh4lgczHjE-voT-zEEryeBRrO_ONsSSkfSDHwcoY=
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: t8a9R6pcJ7l6_jbcvdXHDxDJ_MG_UhCGQX67fEiotgA=
 text: ''
 type: build

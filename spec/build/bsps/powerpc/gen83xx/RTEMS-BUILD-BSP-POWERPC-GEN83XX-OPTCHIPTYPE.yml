@@ -1,7 +1,6 @@
 actions:
 - get-integer: null
 - define: null
-format: '{}'
 active: true
 build-type: option
 default: 8313
@@ -20,14 +19,15 @@ default-by-variant:
   - powerpc/hsc_cm01
 derived: false
 enabled-by: []
+format: '{}'
 header: ''
-level: '1.11'
+level: 1.11
 links: []
 name: MPC83XX_CHIP_TYPE
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: lA1_OH-7m0eVTVR2R3HZ84LGSnZcdYcynF6BworHAuk=
 text: |
   chip type of the MPC83XX family
 type: build

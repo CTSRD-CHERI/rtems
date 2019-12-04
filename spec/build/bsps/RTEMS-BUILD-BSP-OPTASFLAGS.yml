@@ -5,17 +5,17 @@ actions:
 - env-append: null
 active: true
 build-type: option
-default-by-variant: []
 default: null
+default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.18'
+level: 1.18
 links: []
 name: ASFLAGS
 normative: true
 order: 0
 ref: ''
-reviewed: zM8gZZU1KdeHQaDmbPFVsj98H8ifK0mRv-m-mwENuKI=
+reviewed: MibgSl6cSTWP9wWHdPpCmglpnv377jUUuQirsrYT1as=
 text: ''
 type: build

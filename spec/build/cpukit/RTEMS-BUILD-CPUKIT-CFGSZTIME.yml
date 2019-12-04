@@ -3,17 +3,17 @@ actions:
 - define-unquoted: null
 active: true
 build-type: option
-default-by-variant: []
 default: null
+default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.29'
+level: 1.29
 links: []
 name: SIZEOF_TIME_T
 normative: true
 order: 0
 ref: ''
-reviewed: yOR_2L-X-IMXpJlVvihRMrjw5B1zoxMQ5KLKqcDgLX0=
+reviewed: j94BDWIknINSyROeorgIuE02GlRp5EJDmXgknWfrUQs=
 text: ''
 type: build

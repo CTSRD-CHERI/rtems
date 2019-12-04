@@ -1,8 +1,6 @@
 active: true
 build-type: script
-prepare-configure: null
-prepare-build: null
-do-configure: null
+derived: false
 do-build: |
   def cc(self, bld, bic, flags, source):
       root, ext = os.path.splitext(source)
@@ -31,14 +29,16 @@ do-build: |
       target=bin,
   )
   bld.install_files("${BSP_LIBDIR}", [fakerom_o, elf, bin])
-derived: false
+do-configure: null
 enabled-by: []
 header: ''
-level: '1.19'
+level: 1.19
 links: []
 normative: true
 order: 100
+prepare-build: null
+prepare-configure: null
 ref: ''
-reviewed: null
+reviewed: c4zKWDrzbnS40zrCns9HupkSxUmJcA0PvwpfCENDUZI=
 text: ''
 type: build

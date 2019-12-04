@@ -38,15 +38,15 @@ content: |
 
   INCLUDE linkcmds.armv4
 derived: false
-install-path: ${BSP_LIBDIR}
 enabled-by: []
 header: ''
-level: '1.7'
+install-path: ${BSP_LIBDIR}
+level: 1.7
 links: []
 normative: true
 order: 1000
 ref: ''
-reviewed: Y8pey-TyKHxv_ezsDMqVzNEE4jKba6JwzG-52PpuPzk=
+reviewed: 9zoRyl9UQC0rbqCLtoyn6RSvfwC64hztAySU2YX3xG0=
 target: linkcmds
 text: ''
 type: build

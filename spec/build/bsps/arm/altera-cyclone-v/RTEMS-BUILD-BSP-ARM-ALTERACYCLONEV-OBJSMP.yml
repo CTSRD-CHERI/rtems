@@ -9,12 +9,12 @@ enabled-by:
 header: ''
 includes: []
 install: []
-level: '1.3'
+level: 1.3
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: FA8zAdNP7pI6W0LcHKSNLns5n7eT6tCEW_MWlHLtThg=
 source:
 - bsps/arm/altera-cyclone-v/start/bspsmp.c
 - bsps/arm/shared/start/arm-a9mpcore-smp.c

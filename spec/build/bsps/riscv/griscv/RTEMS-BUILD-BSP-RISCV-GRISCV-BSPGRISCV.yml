@@ -10,14 +10,14 @@ family: griscv
 header: ''
 includes: []
 install: []
-level: '1.3'
+level: 1.3
 links:
-- RTEMS-BUILD-BSP-OPTO2: null
-- RTEMS-BUILD-BSP-RISCV-GRISCV-GRP: null
+- RTEMS-BUILD-BSP-OPTO2: r0q7M48XBHR1ES8QcdIvYFB5cSdkfBWkJTXycbg43og=
+- RTEMS-BUILD-BSP-RISCV-GRISCV-GRP: 1S-PwsVqgO1R8zpGeK0RqCT3ewVoLIRGPqUjE8A2DEs=
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: 3v8dtuFUkTA_1I8B294PTXd59eYp7bjFVi8QzgVsdf0=
 source: []
 text: ''
 type: build

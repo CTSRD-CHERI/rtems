@@ -12,13 +12,13 @@ default-by-variant:
 derived: false
 enabled-by: []
 header: ''
-level: '1.23'
+level: 1.23
 links: []
 name: CLOCK_DRIVER_USE_ONLY_BOOT_PROCESSOR
 normative: true
 order: 0
 ref: ''
-reviewed: USBgqzaxuHhXQ4VhyiISbcS-L1SdILp5l18Awzqw8no=
+reviewed: uOo57lhsvlSBwXXubA19sFWURmXhCXaaJFROuQJOlvk=
 text: |
   Do the clock tick processing on the boot processor on behalf of all other
   processors.

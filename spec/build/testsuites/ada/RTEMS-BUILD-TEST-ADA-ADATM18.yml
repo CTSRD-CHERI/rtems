@@ -1,29 +1,29 @@
 active: true
-build-type: ada-test-program
+ada-main: testsuites/ada/tmtests/tm18/tm18.adb
+ada-object-directory: testsuites/ada/tmtests/tm18
 adaflags: []
-cflags: []
-cppflags: []
-includes: []
 adaincludes:
 - cpukit/include/adainclude
 - testsuites/ada/support
-ldflags: []
-stlib: []
-ada-object-directory: testsuites/ada/tmtests/tm18
-source:
-- testsuites/ada/tmtests/tm18/init.c
-ada-main: testsuites/ada/tmtests/tm18/tm18.adb
-target: testsuites/ada/ada_tm18.exe
+build-type: ada-test-program
+cflags: []
+cppflags: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.73'
+includes: []
+ldflags: []
+level: 1.73
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: qWA94zFgu73jPoNbUs6QHpPZqsPKK3Vkn03dTcZxlHU=
+source:
+- testsuites/ada/tmtests/tm18/init.c
+stlib: []
+target: testsuites/ada/ada_tm18.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

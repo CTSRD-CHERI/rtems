@@ -14,12 +14,12 @@ links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: tpubCTWjEMNnIyzD01hjGFKtq1XvSORwWA-8pdad_Zk=
 source:
 - testsuites/psxtests/psxshm02/init.c
 stlib: []
 target: testsuites/psxtests/psxshm02.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

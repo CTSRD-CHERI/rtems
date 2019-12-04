@@ -14,7 +14,7 @@ links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: Ij3G3cPItYasTGJUig2v150rQum6z3Ethzm64mqkf4Y=
 source:
 - testsuites/libtests/termios05/init.c
 - testsuites/libtests/termios05/termios_testdriver_task.c
@@ -22,5 +22,5 @@ stlib: []
 target: testsuites/libtests/termios05.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

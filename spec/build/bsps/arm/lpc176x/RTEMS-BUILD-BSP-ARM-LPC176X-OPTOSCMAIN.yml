@@ -1,21 +1,21 @@
 actions:
 - get-integer: null
 - define: null
-format: '{}'
 active: true
 build-type: option
 default: 12000000
 default-by-variant: []
 derived: false
 enabled-by: []
+format: '{}'
 header: ''
-level: '1.12'
+level: 1.12
 links: []
 name: LPC176X_OSCILLATOR_MAIN
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: 6W6WiKL8ZqPQP5bBKOLuVnXRLGFjgR3Tm3sIVpuyyso=
 text: |
   main oscillator frequency in Hz
 type: build

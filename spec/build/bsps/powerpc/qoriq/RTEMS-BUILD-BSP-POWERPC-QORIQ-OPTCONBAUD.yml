@@ -1,21 +1,21 @@
 actions:
 - get-integer: null
 - define: null
-format: '{}'
 active: true
 build-type: option
 default: 115200
 default-by-variant: []
 derived: false
 enabled-by: []
+format: '{}'
 header: ''
-level: '1.23'
+level: 1.23
 links: []
 name: BSP_CONSOLE_BAUD
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: YJa14MoKc6DpTIIN7KtOAKxRW7sHwHnSytMbID-iVyE=
 text: |
   default baud for console and other serial devices
 type: build

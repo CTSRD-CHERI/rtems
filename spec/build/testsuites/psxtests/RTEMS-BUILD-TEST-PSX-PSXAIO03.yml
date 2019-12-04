@@ -10,17 +10,17 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.21'
+level: 1.21
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: RiNIcKhOTBwsQlJSBPlizZvjerNq9728mP1w27xE5Ww=
 source:
 - testsuites/psxtests/psxaio03/init.c
 stlib: []
 target: testsuites/psxtests/psxaio03.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

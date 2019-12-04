@@ -1,7 +1,6 @@
 actions:
 - get-integer: null
 - define: null
-format: '{}'
 active: true
 build-type: option
 default: 2
@@ -14,14 +13,15 @@ default-by-variant:
   - arm/lpc40.*
 derived: false
 enabled-by: []
+format: '{}'
 header: ''
-level: '1.21'
+level: 1.21
 links: []
 name: LPC_DMA_CHANNEL_COUNT
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: tdpzeYxPXPGShNPmYer7Ll4Vkil-nVi7hR2D-Xbj9xM=
 text: |
   DMA channel count
 type: build

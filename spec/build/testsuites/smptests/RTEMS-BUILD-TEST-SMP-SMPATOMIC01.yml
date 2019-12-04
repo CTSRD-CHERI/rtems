@@ -15,12 +15,12 @@ links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: g8pjEApm2Qn31LQkbV7o6fZGp5Au7rsbamgvklnrmcs=
 source:
 - testsuites/smptests/smpatomic01/init.c
 stlib: []
 target: testsuites/smptests/smpatomic01.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

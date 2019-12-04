@@ -15,7 +15,7 @@ links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: boCd3_uBpsv_WHYcis-LKjMjzIDx52L-6RR5PvxPTAw=
 source:
 - testsuites/mptests/mp08/init1.c
 - testsuites/mptests/mp08/task1.c
@@ -23,5 +23,5 @@ stlib: []
 target: testsuites/mptests/mp08_node1.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

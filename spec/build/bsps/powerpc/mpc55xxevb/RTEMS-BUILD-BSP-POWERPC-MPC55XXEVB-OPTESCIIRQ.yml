@@ -8,13 +8,13 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.31'
+level: 1.31
 links: []
 name: MPC55XX_ESCI_USE_INTERRUPTS
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: bQUzw96iA_PEfp0NLRxoMn3Fi6EphyMu07ajP3bt5Gs=
 text: |
   define to zero or one to disable or enable interrupts for the eSCI devices
 type: build

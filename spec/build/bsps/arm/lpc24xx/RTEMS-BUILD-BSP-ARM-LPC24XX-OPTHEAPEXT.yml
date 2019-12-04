@@ -11,13 +11,13 @@ default-by-variant:
 derived: false
 enabled-by: []
 header: ''
-level: '1.33'
+level: 1.33
 links: []
 name: LPC24XX_HEAP_EXTEND
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: QN99qpWBy4xdG4bG7d3see4RIcQA2pEeofKUqrZELLg=
 text: |
   enable heap extend by Ethernet and USB regions
 type: build

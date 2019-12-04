@@ -36,7 +36,7 @@ links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: iWxcHH_FqmhuLwnYubm8Xc8blvkoqumIAoP8Rl2Tif0=
 source:
 - bsps/arm/csb337/btimer/btimer.c
 - bsps/arm/csb337/clock/clock.c

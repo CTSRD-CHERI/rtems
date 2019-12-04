@@ -9,12 +9,12 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.25'
+level: 1.25
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: S3qhOFI-r18PDa-DgoCwSlHio6TB7Bz7DBb8AkS4Q5o=
 source:
 - testsuites/libtests/cpuuse/init.c
 - testsuites/libtests/cpuuse/task1.c
@@ -25,5 +25,5 @@ stlib: []
 target: testsuites/libtests/cpuuse.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

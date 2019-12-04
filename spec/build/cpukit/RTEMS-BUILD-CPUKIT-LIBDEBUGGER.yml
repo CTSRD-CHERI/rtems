@@ -9,14 +9,14 @@ header: ''
 includes: []
 install: []
 install-path: ${BSP_LIBDIR}
-level: '1.49'
+level: 1.49
 links:
-- RTEMS-BUILD-CPUKIT-OBJDBGARM: 0Go_qkrm0bqrulsiGjmkVAXYZouAZYblfRJCRDQo5-w=
-- RTEMS-BUILD-CPUKIT-OBJDBGI386: DSvo591FN5vwZQz93QMWTmGbVlXiWSb4OAey9OIDUQg=
+- RTEMS-BUILD-CPUKIT-OBJDBGARM: p0CHF2w1l5fboNHEaE5RNbCwP5C-iC7jd0y_5WZiqdk=
+- RTEMS-BUILD-CPUKIT-OBJDBGI386: -AuX62zVrxrtITXtmJeNTHhNeVtabe4A9iUsnIHpigw=
 normative: true
 order: 0
 ref: ''
-reviewed: zSnRaQzMrv0X0tHVAsUt0PAOaQjBEMiJ1bCA30AzTxE=
+reviewed: NChOt_xSi8JU3P30934uU1uWvSAxVH3G8ZP0P5DKD3g=
 source:
 - cpukit/libdebugger/rtems-debugger-block.c
 - cpukit/libdebugger/rtems-debugger-bsp.c

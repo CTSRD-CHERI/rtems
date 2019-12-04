@@ -23,12 +23,12 @@ install:
   - bsps/sparc/leon2/start/linkcmds.at697f
   - bsps/sparc/leon2/start/linkcmds.leon2
   - bsps/sparc/shared/start/linkcmds.base
-level: '1.7'
+level: 1.7
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: aiIQYwutL9Ph3z6345bd721qIVe_JnZUIL8YvAvft08=
 source:
 - bsps/shared/dev/getentropy/getentropy-cpucounter.c
 - bsps/shared/irq/irq-default-handler.c

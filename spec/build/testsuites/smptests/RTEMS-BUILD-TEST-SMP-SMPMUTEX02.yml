@@ -10,17 +10,17 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.31'
+level: 1.31
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: rrY9THG8AxTj3hO8o2dcWL3QwtmkzNq-eXCEHBRp37c=
 source:
 - testsuites/smptests/smpmutex02/init.c
 stlib: []
 target: testsuites/smptests/smpmutex02.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

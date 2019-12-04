@@ -9,12 +9,12 @@ enabled-by:
 header: ''
 includes: []
 install: []
-level: '1.73'
+level: 1.73
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: ZWPh_ZVWOqHi2mFE5wlcM206j1wY9G2OR1I2G05QvF8=
+reviewed: oSSxRkgzsXQDbk1jCkK8MLDs2RiHQ-aHdufDIEWuS5A=
 source:
 - cpukit/libgnat/ada_intrsupp.c
 - cpukit/libgnat/adasupp.c

@@ -9,12 +9,12 @@ enabled-by:
 header: ''
 includes: []
 install: []
-level: '1.64'
+level: 1.64
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: I-9YGIWsGsfuR0Kw5gMhbmYIALUr4Wf2X-ThoceWJnY=
+reviewed: 3Bet0EA2zrh4oNGsj1l0-31AIcrZ98_P7K4ibySt9V0=
 source:
 - cpukit/libdl/rtl-mdreloc-arm.c
 text: ''

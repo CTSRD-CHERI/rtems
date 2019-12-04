@@ -5,18 +5,18 @@ actions:
 - format-and-define: null
 active: true
 build-type: option
-default-by-variant: []
 default: 4294901760
+default-by-variant: []
 derived: false
 enabled-by: []
 format: '{:#010x}'
 header: ''
-level: '1.16'
+level: 1.16
 links: []
 name: ZYNQMP_RAM_INT_1_ORIGIN
 normative: true
 order: 0
 ref: ''
-reviewed: fUkis3_hEljJc60RJQIvxX-zz5hJYWZWb5Rlf4viIPU=
+reviewed: AbaQU-MRtpx3uFPiV108zqw1Bl7Hq6phpKCLaRJbgxw=
 text: ''
 type: build

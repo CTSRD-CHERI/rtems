@@ -4,16 +4,16 @@ actions:
 - env-assign: GZIP
 active: true
 build-type: option
-default-by-variant: []
 default: null
+default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.98'
+level: 1.98
 links: []
 normative: true
 order: -100
 ref: ''
-reviewed: oRRzhna6a47p0_QjPWqYLful9JgHGbxMqy-q7mSiZiU=
+reviewed: GZtfhgrGfiyB5yAHlFpjkewgzKTeYquXOhtuVn2IDsM=
 text: ''
 type: build

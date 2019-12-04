@@ -3,7 +3,6 @@ actions:
 - assert-uint32: null
 - env-assign: null
 - format-and-define: null
-format: '{:#010x}'
 active: true
 build-type: option
 default: 268435456
@@ -13,14 +12,15 @@ default-by-variant:
   - arm/xilinx_zynqmp_ultra96
 derived: false
 enabled-by: []
+format: '{:#010x}'
 header: ''
-level: '1.19'
+level: 1.19
 links: []
 name: ZYNQMP_RAM_LENGTH
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: UzaSUEVxjNw-VBgofP-ESzguNYg36mMEE_D3kxG3O-c=
 text: |
   override a BSP's default RAM length
 type: build

@@ -10,12 +10,12 @@ header: ''
 includes:
 - cpukit/libnetworking
 install: []
-level: '1.5'
+level: 1.5
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: TLBFTbjXShKHMwQl08Zpc3KsYtYZ0vhC5I6FtxpuUsE=
 source:
 - bsps/powerpc/tqm8xx/net/network_fec.c
 - bsps/powerpc/tqm8xx/net/network_scc.c

@@ -1,7 +1,6 @@
 actions:
 - get-integer: null
 - define: null
-format: '{}'
 active: true
 build-type: option
 default: 72000000
@@ -20,14 +19,15 @@ default-by-variant:
   - arm/lpc24xx_plx800_.*
 derived: false
 enabled-by: []
+format: '{}'
 header: ''
-level: '1.19'
+level: 1.19
 links: []
 name: LPC24XX_CCLK
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: d9AkZig2CoS8xSK5hQO4PI0Ebf7VVN3PVO9dQkfPErI=
 text: |
   CPU clock in Hz
 type: build

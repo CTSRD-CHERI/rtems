@@ -25,18 +25,18 @@ actions:
     conf.load(load)
 active: true
 build-type: option
-default-by-variant: []
 default: null
+default-by-variant: []
 derived: false
 enabled-by:
 - gcc
 header: ''
-level: '1.88'
+level: 1.88
 links: []
 name: GCC
 normative: true
 order: -900
 ref: ''
-reviewed: oRRzhna6a47p0_QjPWqYLful9JgHGbxMqy-q7mSiZiU=
+reviewed: pbtInG_q8SgngvH6xloxT-68DtEgO13rqeELfNVaOyU=
 text: ''
 type: build

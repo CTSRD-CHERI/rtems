@@ -9,12 +9,12 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.229'
+level: 1.229
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: plQj4q3SuQPz6lwFqfPmJPt-VVFWcEtYb9qMxRUtD5g=
 source:
 - testsuites/sptests/spwatchdog/init.c
 - testsuites/sptests/spwatchdog/task1.c
@@ -24,5 +24,5 @@ stlib: []
 target: testsuites/sptests/spwatchdog.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

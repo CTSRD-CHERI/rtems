@@ -14,12 +14,12 @@ links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: -2-V4C4ItyilgVww99WwkF10W3P3XMhh1m7yhu8LDZY=
 source:
 - testsuites/libtests/block09/init.c
 stlib: []
 target: testsuites/libtests/block09.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

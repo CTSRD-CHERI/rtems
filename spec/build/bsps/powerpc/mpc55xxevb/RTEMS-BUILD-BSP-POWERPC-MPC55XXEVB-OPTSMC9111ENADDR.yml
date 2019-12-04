@@ -11,13 +11,13 @@ default-by-variant:
 derived: false
 enabled-by: []
 header: ''
-level: '1.47'
+level: 1.47
 links: []
 name: SMC91111_ENADDR_IS_SETUP
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: x8rqeb1P9J8n5vTmwJ_Qg10ZUarKleAsoaoeQyZB_Dg=
 text: |
   If defined the SMC91111 chip has the ethernet address loaded at reset.
 type: build

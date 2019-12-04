@@ -9,12 +9,12 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.22'
+level: 1.22
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: qlRGVVHzfh2790MwNkMEfSsseS6oa-u1MNn8xyZPZFU=
 source:
 - testsuites/libtests/POSIX/clock_gettime.c
 stlib: []

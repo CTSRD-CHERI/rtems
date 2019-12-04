@@ -9,12 +9,12 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.7'
+level: 1.7
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: TRqvQkCJWrLuVQ9mE5Q4P23DoeGEiB-n4wpArtrhQ4I=
+reviewed: sLTIfKaIjLuHAltmQkJxBxQa5B8cSBIIlhqLhs3DOR4=
 source:
 - testsuites/mptests/mp03/delay.c
 - testsuites/mptests/mp03/init1.c
@@ -24,5 +24,5 @@ stlib: []
 target: testsuites/mptests/mp03.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

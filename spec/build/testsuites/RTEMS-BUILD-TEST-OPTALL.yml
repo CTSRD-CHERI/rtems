@@ -3,18 +3,18 @@ actions:
 - env-enable: null
 active: true
 build-type: option
-default-by-variant: []
 default: false
+default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.3'
+level: 1.3
 links: []
 name: BUILD_TESTS
 normative: true
 order: -1000
 ref: ''
-reviewed: tiLYnjoIg4MzuUdcaahroKdN7fK1LYZJVxiqVfc64UA=
+reviewed: tx4OoqkdzH-51Ht9q8gLMhL6IQadCDkX3CecSfMZePc=
 text: |
   Build the test programs
 type: build

@@ -9,12 +9,12 @@ enabled-by:
 header: ''
 includes: []
 install: []
-level: '1.3'
+level: 1.3
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: CyxM_cHH7r7Jy6oBO13x1vngI9wc-lRB1bbznUSYDtc=
 source:
 - bsps/m68k/mvme147s/mpci/addrconv.c
 - bsps/m68k/mvme147s/mpci/getcfg.c

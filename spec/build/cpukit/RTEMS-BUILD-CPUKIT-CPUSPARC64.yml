@@ -18,12 +18,12 @@ install:
   - cpukit/score/cpu/sparc64/include/rtems/score/cpuatomic.h
   - cpukit/score/cpu/sparc64/include/rtems/score/cpuimpl.h
   - cpukit/score/cpu/sparc64/include/rtems/score/sparc64.h
-level: '1.45'
+level: 1.45
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: dpTHCqMAfSRLlChSJLsqvTwwwSTOqLZIySBg-ZsUmk4=
+reviewed: mki_GnYK7e8I-Q7lPcAN3bY7cJLEnx2uzCKXpuj0KEo=
 source:
 - cpukit/score/cpu/no_cpu/cpucounterfrequency.c
 - cpukit/score/cpu/no_cpu/cpucounterread.c

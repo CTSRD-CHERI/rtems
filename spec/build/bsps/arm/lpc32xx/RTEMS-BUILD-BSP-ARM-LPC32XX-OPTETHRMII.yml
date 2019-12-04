@@ -8,13 +8,13 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.14'
+level: 1.14
 links: []
 name: LPC32XX_ETHERNET_RMII
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: pJ1ug7ZPA8sT5IfqJg2E6gBDrlMib2LgoxuwOyEuu7w=
 text: |
   enable RMII for Ethernet
 type: build

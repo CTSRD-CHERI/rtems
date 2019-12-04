@@ -10,14 +10,14 @@ family: gen83xx
 header: ''
 includes: []
 install: []
-level: '1.6'
+level: 1.6
 links:
-- RTEMS-BUILD-BSP-OPTO2: null
-- RTEMS-BUILD-BSP-POWERPC-GEN83XX-GRP: null
+- RTEMS-BUILD-BSP-OPTO2: r0q7M48XBHR1ES8QcdIvYFB5cSdkfBWkJTXycbg43og=
+- RTEMS-BUILD-BSP-POWERPC-GEN83XX-GRP: Tksu33DH6BUP2jpFoiQlCeXlci-kOa0HW8pElvtpjrc=
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: _fH9evqW3aKG9XwYKvoYuMMQCmKs47enjGyGC8UnAas=
 source: []
 text: ''
 type: build

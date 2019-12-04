@@ -21,12 +21,12 @@ install:
   - bsps/powerpc/motorola_powerpc/start/bsp_specs
   - bsps/powerpc/motorola_powerpc/start/linkcmds
   - bsps/powerpc/shared/start/linkcmds.share
-level: '1.11'
+level: 1.11
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: HKlkPNprEoN0m6U49z_UKE3FURYv-EDDlYgF6zW72Q8=
 source:
 - bsps/powerpc/motorola_powerpc/console/polled_io.c
 - bsps/powerpc/motorola_powerpc/start/bspreset.c

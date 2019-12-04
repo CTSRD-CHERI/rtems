@@ -1,7 +1,6 @@
 actions:
 - get-string: null
 - define-unquoted: null
-format: '{}'
 active: true
 build-type: option
 default: CONS_MODE_UNUSED
@@ -11,14 +10,15 @@ default-by-variant:
   - powerpc/tqm8xx_stk8xx
 derived: false
 enabled-by: []
+format: '{}'
 header: ''
-level: '1.13'
+level: 1.13
 links: []
 name: CONS_SMC2_MODE
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: zhp6pG6JRV_PuNUbKvJeDDYS5uvEcYmzgCeuf2F7HfQ=
 text: |
   (BSP--SMC2 UART IF mode) Must be defined if SMC2 is used as a tty (UART) channel. Set it to CONS_MODE_POLLED for polled operation, CONS_MODE_IRQ for interrupt driven (spooled) operation. Set it to CONS_MODE_UNUSED, if not used
 type: build

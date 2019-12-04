@@ -10,15 +10,15 @@ family: tms570
 header: ''
 includes: []
 install: []
-level: '1.3'
+level: 1.3
 links:
-- RTEMS-BUILD-BSP-ARM-TMS570-GRP: null
-- RTEMS-BUILD-BSP-ARM-TMS570-TSTLS3137HDKINTRAM: null
-- RTEMS-BUILD-BSP-OPTO2: null
+- RTEMS-BUILD-BSP-OPTO2: r0q7M48XBHR1ES8QcdIvYFB5cSdkfBWkJTXycbg43og=
+- RTEMS-BUILD-BSP-ARM-TMS570-GRP: fXjmUFTtFJM0V_uoS8uB9CeUXrtUp5h-frmLuzT73A4=
+- RTEMS-BUILD-BSP-ARM-TMS570-TSTLS3137HDKINTRAM: oa0vZDeWz3veVj3bra99MXD7VCXabYFz_Nzs2aGb6R8=
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: tdmNf6gGj9YlUxD1s7F1eNfvLwysWwP3lfAQmxVn_w0=
 source: []
 text: ''
 type: build

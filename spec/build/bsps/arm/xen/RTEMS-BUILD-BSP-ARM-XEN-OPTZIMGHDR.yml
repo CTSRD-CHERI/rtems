@@ -14,7 +14,7 @@ name: BSP_START_ZIMAGE_HEADER
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: 0ZXEjVvB5dAHgX9AtVmoytg5zr7nuM-L8SSrrzCCBvo=
 text: |
   include zImage boot header
 type: build

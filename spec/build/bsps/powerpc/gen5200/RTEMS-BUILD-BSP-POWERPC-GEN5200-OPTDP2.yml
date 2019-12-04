@@ -11,13 +11,13 @@ default-by-variant:
 derived: false
 enabled-by: []
 header: ''
-level: '1.14'
+level: 1.14
 links: []
 name: MPC5200_BOARD_DP2
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: jknaDPo5TPR17jQXY19VznD4QHKg9qvFbP4H3JrDIY0=
 text: |
   enable settings for DP2
 type: build

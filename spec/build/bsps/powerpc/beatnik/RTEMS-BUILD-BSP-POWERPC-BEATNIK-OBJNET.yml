@@ -10,12 +10,12 @@ header: ''
 includes:
 - cpukit/libnetworking
 install: []
-level: '1.3'
+level: 1.3
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: Hz009PD55ZPZKAlwrzWczVi3Li2J63Tf4UrqT_WELlE=
 source:
 - bsps/powerpc/beatnik/net/if_em/if_em.c
 - bsps/powerpc/beatnik/net/if_em/if_em_hw.c

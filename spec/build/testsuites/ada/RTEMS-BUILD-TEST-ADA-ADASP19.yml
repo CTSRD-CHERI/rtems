@@ -1,29 +1,29 @@
 active: true
-build-type: ada-test-program
+ada-main: testsuites/ada/sptests/sp19/sp19.adb
+ada-object-directory: testsuites/ada/sptests/sp19
 adaflags: []
-cflags: []
-cppflags: []
-includes: []
 adaincludes:
 - cpukit/include/adainclude
 - testsuites/ada/support
-ldflags: []
-stlib: []
-ada-object-directory: testsuites/ada/sptests/sp19
-source:
-- testsuites/ada/sptests/sp19/init.c
-ada-main: testsuites/ada/sptests/sp19/sp19.adb
-target: testsuites/ada/ada_sp19.exe
+build-type: ada-test-program
+cflags: []
+cppflags: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.47'
+includes: []
+ldflags: []
+level: 1.47
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: BwRVN7BbngwbjTJImJC4fbsjOafnIY5yMclPkpKfszw=
+source:
+- testsuites/ada/sptests/sp19/init.c
+stlib: []
+target: testsuites/ada/ada_sp19.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

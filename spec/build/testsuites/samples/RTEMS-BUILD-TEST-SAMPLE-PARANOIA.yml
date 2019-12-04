@@ -9,12 +9,12 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.13'
+level: 1.13
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: ZUWmbPiy4NDV2TioND5F3rLPvvMVdhHDCSidZArOFCE=
 source:
 - testsuites/samples/paranoia/init.c
 - testsuites/samples/paranoia/paranoia.c
@@ -23,5 +23,5 @@ stlib:
 target: testsuites/samples/paranoia.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

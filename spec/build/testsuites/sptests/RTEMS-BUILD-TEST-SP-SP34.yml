@@ -9,17 +9,17 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.34'
+level: 1.34
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: zkXSv7KwDTwD9XMeJQD6-7loFkBQ_v_PX4K-4wASTTk=
 source:
 - testsuites/sptests/sp34/changepri.c
 stlib: []
 target: testsuites/sptests/sp34.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

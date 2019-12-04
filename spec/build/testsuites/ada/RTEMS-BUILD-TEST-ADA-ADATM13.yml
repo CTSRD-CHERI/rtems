@@ -1,29 +1,29 @@
 active: true
-build-type: ada-test-program
+ada-main: testsuites/ada/tmtests/tm13/tm13.adb
+ada-object-directory: testsuites/ada/tmtests/tm13
 adaflags: []
-cflags: []
-cppflags: []
-includes: []
 adaincludes:
 - cpukit/include/adainclude
 - testsuites/ada/support
-ldflags: []
-stlib: []
-ada-object-directory: testsuites/ada/tmtests/tm13
-source:
-- testsuites/ada/tmtests/tm13/init.c
-ada-main: testsuites/ada/tmtests/tm13/tm13.adb
-target: testsuites/ada/ada_tm13.exe
+build-type: ada-test-program
+cflags: []
+cppflags: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.68'
+includes: []
+ldflags: []
+level: 1.68
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: YQRh6B0jrhBYVCcvNsojt5Nq9ANtPRi0-py7titN4Vw=
+source:
+- testsuites/ada/tmtests/tm13/init.c
+stlib: []
+target: testsuites/ada/ada_tm13.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

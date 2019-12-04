@@ -9,12 +9,12 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.2'
+level: 1.2
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: NLA5W7I-d1UpfpBQjvzublpZIjdYukoDtquAlkvlw0Y=
 source:
 - testsuites/benchmarks/dhrystone/init.c
 - testsuites/benchmarks/dhrystone/dhry_1.c
@@ -23,5 +23,5 @@ stlib: []
 target: testsuites/benchmarks/dhrystone.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

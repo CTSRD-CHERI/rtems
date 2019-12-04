@@ -13,12 +13,12 @@ install:
 - destination: ${BSP_INCLUDEDIR}/rtems
   source: cpukit/include/rtems/jffs2.h
 install-path: ${BSP_LIBDIR}
-level: '1.52'
+level: 1.52
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: IRjpXXIo2wrzE_5I6PDydhBc2DljOAD7ufOgRsmqgIA=
+reviewed: QDHnsO3U1yNGaWGSv32A0gRXAixGKksdaUPYRliT4AQ=
 source:
 - cpukit/libfs/src/jffs2/src/build.c
 - cpukit/libfs/src/jffs2/src/compat-crc32.c

@@ -12,12 +12,12 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.7'
+level: 1.7
 links:
-- RTEMS-BUILD-BSP-TSTNOICONV: null
+- RTEMS-BUILD-BSP-TSTNOICONV: v9QKh4lgczHjE-voT-zEEryeBRrO_ONsSSkfSDHwcoY=
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: xrYM2SFMkkaK0VWYL4InRYd68TTHH0Zr5RD-znIvPFA=
 text: ''
 type: build

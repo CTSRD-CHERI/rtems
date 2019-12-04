@@ -8,13 +8,13 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.13'
+level: 1.13
 links: []
 name: BSP_FDT_BLOB_READ_ONLY
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: LbBIytObSiuf7B6RXBPtcmwnDnW9bYxtgWqZnrBsaTY=
 text: |
   place the FDT blob into the read-only data area
 type: build

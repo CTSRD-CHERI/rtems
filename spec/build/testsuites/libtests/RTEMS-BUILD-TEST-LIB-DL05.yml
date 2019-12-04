@@ -3,15 +3,7 @@ build-type: script
 cflags: []
 cppflags: []
 cxxflags: []
-ldflags: []
-stlib: []
-use-before: []
-use-after: []
-includes:
-- testsuites/libtests/dl05
-prepare-configure: null
-prepare-build: null
-do-configure: null
+derived: false
 do-build: |
   path = "testsuites/libtests/dl05/"
   objs = []
@@ -30,17 +22,25 @@ do-build: |
   objs.append(dl05_sym_o)
   self.rtems_syms(bld, dl05_pre, dl05_sym_o)
   self.link_cxx(bld, bic, objs, "testsuites/libtests/dl05.exe")
-derived: false
+do-configure: null
 enabled-by:
 - and:
   - not: TEST_DL05_EXCLUDE
   - BUILD_LIBDL
 header: ''
-level: '1.39'
+includes:
+- testsuites/libtests/dl05
+ldflags: []
+level: 1.39
 links: []
 normative: true
 order: 0
+prepare-build: null
+prepare-configure: null
 ref: ''
-reviewed: null
+reviewed: BIDmh5zB_X1fMvDdpWAg0EL4jlgPTROalLlBOM8WayU=
+stlib: []
 text: ''
 type: build
+use-after: []
+use-before: []

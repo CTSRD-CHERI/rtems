@@ -11,13 +11,13 @@ default-by-variant:
 derived: false
 enabled-by: []
 header: ''
-level: '1.39'
+level: 1.39
 links: []
 name: MPC55XX_BOARD_MPC5566EVB
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: 6FS2lyigeW-KDo_KXx8QGIorVEclKFrXul5LJ4jAKPA=
 text: |
   if defined, use custom settings for MPC5566EVB board
 type: build

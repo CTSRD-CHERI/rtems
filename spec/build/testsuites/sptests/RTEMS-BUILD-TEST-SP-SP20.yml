@@ -14,7 +14,7 @@ links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: Feb3XTOfF2up5ioJL4KQZUxS0gBaeKf3qpHfG8HG670=
 source:
 - testsuites/sptests/sp20/init.c
 - testsuites/sptests/sp20/getall.c
@@ -23,5 +23,5 @@ stlib: []
 target: testsuites/sptests/sp20.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

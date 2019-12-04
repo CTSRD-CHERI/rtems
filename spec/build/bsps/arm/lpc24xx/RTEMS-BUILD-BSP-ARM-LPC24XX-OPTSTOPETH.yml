@@ -11,13 +11,13 @@ default-by-variant:
 derived: false
 enabled-by: []
 header: ''
-level: '1.39'
+level: 1.39
 links: []
 name: LPC24XX_STOP_ETHERNET
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: 4f64ewYHGtlrwlFwzI_Sr9gxB1O6MyP_tLpduw769M0=
 text: |
   stop Ethernet controller at start-up to avoid DMA interference
 type: build

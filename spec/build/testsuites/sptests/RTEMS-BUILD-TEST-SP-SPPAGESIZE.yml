@@ -9,17 +9,17 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.179'
+level: 1.179
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: hHPkLZGup7bzgp64QQa-2ea24lqwynZtBjXUPvHJaSY=
 source:
 - testsuites/sptests/sppagesize/init.c
 stlib: []
 target: testsuites/sptests/sppagesize.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

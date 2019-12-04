@@ -8,13 +8,13 @@ default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.17'
+level: 1.17
 links: []
 name: ARM_TMS570LS3137
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: NK5in3ItIeYeISM1xdRCJ7rAcKNk4rr2RQqjkr-wj-k=
 text: |
   target used for identify TMS570LS3137 board
 type: build

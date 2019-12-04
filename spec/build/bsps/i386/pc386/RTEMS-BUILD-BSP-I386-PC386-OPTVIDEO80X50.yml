@@ -14,7 +14,7 @@ name: BSP_VIDEO_80x50
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: 5j18lyfBKNPDXPfLAejxAWrBxHAk1vd_RfUviNp8NSM=
 text: |
   If defined, set the VGA display to 80x50.
 type: build

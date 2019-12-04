@@ -3,18 +3,18 @@ actions:
 - env-enable: null
 active: true
 build-type: option
-default-by-variant: []
 default: true
+default-by-variant: []
 derived: false
 enabled-by: []
 header: ''
-level: '1.11'
+level: 1.11
 links: []
 name: BUILD_SAMPLES
 normative: true
 order: -1000
 ref: ''
-reviewed: vfe-pauXu5mbwORsHjGGdQRu-V6ohmxgEX0ppiN3vYQ=
+reviewed: MyJ72biku_a4prUcTIR_l2cTiU4Jz3tRRsB_OwzhQyo=
 text: |
   Build the sample programs (may be also enabled by BUILD_TESTS)
 type: build

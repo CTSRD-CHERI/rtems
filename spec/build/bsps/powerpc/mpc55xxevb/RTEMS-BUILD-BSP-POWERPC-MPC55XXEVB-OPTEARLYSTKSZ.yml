@@ -1,21 +1,21 @@
 actions:
 - get-integer: null
 - define: null
-format: '{}'
 active: true
 build-type: option
 default: 1024
 default-by-variant: []
 derived: false
 enabled-by: []
+format: '{}'
 header: ''
-level: '1.26'
+level: 1.26
 links: []
 name: MPC55XX_EARLY_STACK_SIZE
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: 7ObeT8zn_ZO0sb93uAL5bKkL8rZLV8zajcR9a5CmmaI=
 text: |
   size of the early initialization stack in bytes
 type: build

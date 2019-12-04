@@ -9,12 +9,12 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.9'
+level: 1.9
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: Jy0WIkRJuQbP-R0BE25sXMW0ohihrO0_0P70ibcNyw8=
 source:
 - testsuites/libtests/block08/init.c
 - testsuites/libtests/block08/bdbuf_tests.c
@@ -36,5 +36,5 @@ stlib: []
 target: testsuites/libtests/block08.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

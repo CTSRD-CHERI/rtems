@@ -9,17 +9,17 @@ features: c cprogram
 header: ''
 includes: []
 ldflags: []
-level: '1.142'
+level: 1.142
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: NKRQTso5EmayF1DUiXEuksWn__04BQAfRwTepjH5320=
 source:
 - testsuites/sptests/spheapprot/init.c
 stlib: []
 target: testsuites/sptests/spheapprot.exe
 text: ''
 type: build
-use-before: []
 use-after: []
+use-before: []

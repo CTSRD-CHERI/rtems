@@ -3,16 +3,16 @@ asflags: []
 build-type: start-file
 cppflags: []
 derived: true
-install-path: ${BSP_LIBDIR}
 enabled-by: []
 header: ''
 includes: []
-level: '1.31'
+install-path: ${BSP_LIBDIR}
+level: 1.31
 links: []
 normative: true
 order: 0
 ref: ''
-reviewed: NULL
+reviewed: 9bn4zaLgdiWWM9fezqeNA1SRAlu86GhMDraJbYEdl5w=
 source:
 - bsps/i386/pc386/start/start.S
 target: start.o

@@ -1,7 +1,6 @@
 actions:
 - get-integer: null
 - define: null
-format: '{}'
 active: true
 build-type: option
 default: 0
@@ -11,14 +10,15 @@ default-by-variant:
   - powerpc/mpc5674f_ecu508.*
 derived: false
 enabled-by: []
+format: '{}'
 header: ''
-level: '1.25'
+level: 1.25
 links: []
 name: MPC55XX_CONSOLE_MINOR
 normative: true
 order: 0
 ref: ''
-reviewed: null
+reviewed: 8jpAAhDG-_AL87QYpcNIGsuap6owKxFgc26r8wFPh98=
 text: |
   determines which serial device will be registered as /dev/console
 type: build

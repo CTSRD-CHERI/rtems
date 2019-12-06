@@ -35,13 +35,36 @@
 #include <bsp/linker-symbols.h>
 #include <bspopts.h>
 
+
 PUBLIC(_start)
+#ifdef __CHERI__
+.option nocapmode
+#endif /* __CHERI__ */
 
 	.section	.bsp_start_text, "wax", @progbits
 	.align	2
 
 TYPE_FUNC(_start)
 SYM(_start):
+
+#ifdef __CHERI__
+# W^X for PCC and DDC
+  cspecialrw      ct0, ddc, cnull
+  li              t1, (1<<1)
+  not             t1, t1
+  candperm        ct0, ct0, t1
+  cspecialrw      cnull, ddc, ct0
+
+  cspecialrw      ct0, pcc, cnull
+  li              t1, ((1<<3) | (1<<5))
+  not             t1, t1
+  candperm        ct0, ct0, t1
+  la              t2, 1f
+  csetoffset      ct0, ct0, t2
+  cjr             ct0
+1:
+#endif /* __CHERI__ */
+
 	/* Load global pointer */
 	.option	push
 	.option	norelax
@@ -60,6 +83,63 @@ SYM(_start):
 	csrw	mtvec, t0
 
 	/* Load stack pointer and branch to secondary processor start if necessary */
+
+#if __CHERI__
+#ifdef RTEMS_SMP
+#error "No support for SMP in CHERI mode yet"
+#endif /* RTEMS_SMP */
+
+  /* Move a1 (DTB address) to s0 (callee saved) for later use */
+  mv              s0, a1
+
+  /* Setup the stack */
+  LADDR           t1, _ISR_Stack_area_end
+  LADDR           t0, _ISR_Stack_area_begin
+  cfromptr        csp, ddc, t0
+  LADDR           t2, _ISR_Stack_size
+  csetbounds      csp, csp, t2
+  csetoffset      csp, csp, t2
+
+  /* Initialise the captable. */
+  cspecialrw      ct0, pcc, cnull
+  la              t1, riscv_cheri_init_globals
+  csetoffset      ct0, ct0, t1
+  li              t1, 1
+  csetflags       ct0, ct0, t1
+  cjalr           cra, ct0
+
+#ifdef BSP_START_COPY_FDT_FROM_U_BOOT
+	mv	a0, s0
+	cfromptr	ca0, ddc, s0
+  LADDR t1, bsp_fdt_copy
+  csetoffset ct0, ct0, t1
+  cjalr cra, ct0
+#endif
+
+	/* Clear .bss */
+	LADDR	a0, bsp_section_bss_begin
+	cfromptr	ca0, ddc, a0
+	li	a1, 0
+	LADDR	a2, bsp_section_bss_size
+	csetbounds ca0, ca0, a2
+  LADDR t1, memset
+  csetoffset ct0, ct0, t1
+  cjalr cra, ct0
+
+#ifdef RTEMS_SMP
+	/* Give go to secondary processors */
+	LADDR	t0, .Lsecondary_processor_go
+	fence	iorw,ow
+	amoswap.w	zero, zero, 0(t0)
+#endif
+
+  /* Jump to boot_card in purecap mode */
+	li	a0, 0
+  LADDR t1, boot_card
+  csetoffset ct0, ct0, t1
+  cjr ct0
+#else
+
 #ifdef RTEMS_SMP
 	LADDR	sp, _ISR_Stack_area_begin
 	LADDR	t2, _ISR_Stack_size
@@ -94,6 +174,7 @@ SYM(_start):
 
 	li	a0, 0
 	j	boot_card
+#endif /* __CHERI__ */
 
 #ifdef RTEMS_SMP
 
@@ -145,3 +226,7 @@ SYM(_start):
 #endif
 
 #endif /* RTEMS_SMP */
+
+#ifdef __CHERI__
+.option capmode
+#endif /* __CHERI__ */

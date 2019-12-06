@@ -99,6 +99,35 @@ SYM(_CPU_Context_switch):
 
 .Lrestore:
 
+#if __CHERI__
+.option capmode
+
+	clw	 a3, RISCV_CONTEXT_ISR_DISPATCH_DISABLE(ca1)
+
+	clc	cra, RISCV_CONTEXT_RA(ca1)
+	clc	csp, RISCV_CONTEXT_SP(ca1)
+	clc	ctp, RISCV_CONTEXT_TP(ca1)
+	clc	cs0, RISCV_CONTEXT_S0(ca1)
+	clc	cs1, RISCV_CONTEXT_S1(ca1)
+	clc	cs2, RISCV_CONTEXT_S2(ca1)
+	clc	cs3, RISCV_CONTEXT_S3(ca1)
+	clc	cs4, RISCV_CONTEXT_S4(ca1)
+	clc	cs5, RISCV_CONTEXT_S5(ca1)
+	clc	cs6, RISCV_CONTEXT_S6(ca1)
+	clc	cs7, RISCV_CONTEXT_S7(ca1)
+	clc	cs8, RISCV_CONTEXT_S8(ca1)
+	clc	cs9, RISCV_CONTEXT_S9(ca1)
+	clc	cs10, RISCV_CONTEXT_S10(ca1)
+	clc	cs11, RISCV_CONTEXT_S11(ca1)
+
+#if __riscv_flen > 0
+#error "No support for CHERI with hard FPU yet"
+#endif
+
+	csw	a3, PER_CPU_ISR_DISPATCH_DISABLE(ca2)
+
+	cret
+#else
 	lw	a3, RISCV_CONTEXT_ISR_DISPATCH_DISABLE(a1)
 
 	LREG	ra, RISCV_CONTEXT_RA(a1)
@@ -139,11 +168,20 @@ SYM(_CPU_Context_switch):
 	CLEAR_RESERVATIONS	a2
 
 	ret
+#endif
 
 TYPE_FUNC(_CPU_Context_restore)
 SYM(_CPU_Context_restore):
+#if __CHERI__
+	cmove	ca1, ca0
+.option nocapmode
+	LADDR     t0, _Per_CPU_Information
+	cfromptr  ca2, ddc, t0
+.option capmode
+#else
 	mv	a1, a0
 	GET_SELF_CPU_CONTROL	a2
+#endif /* __CHERI__ */
 	j	.Lrestore
 
 #ifdef RTEMS_SMP

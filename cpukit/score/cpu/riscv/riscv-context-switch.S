@@ -140,6 +140,7 @@ SYM(_CPU_Context_switch):
 
 	ret
 
+TYPE_FUNC(_CPU_Context_restore)
 SYM(_CPU_Context_restore):
 	mv	a1, a0
 	GET_SELF_CPU_CONTROL	a2

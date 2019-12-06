@@ -32,6 +32,10 @@
 #include <libfdt.h>
 #include <string.h>
 
+#if __CHERI__
+#include <cheri_init_globals.h>
+#endif
+
 static uint32_t riscv_core_freq;
 
 void *riscv_fdt_get_address(const void *fdt, int node)
@@ -200,3 +204,11 @@ void bsp_start(void)
   bsp_interrupt_initialize();
   riscv_core_freq = get_core_frequency();
 }
+
+#if __CHERI__
+void riscv_cheri_init_globals(void) {
+  cheri_init_globals_3(__builtin_cheri_global_data_get(),
+      __builtin_cheri_program_counter_get(),
+      __builtin_cheri_global_data_get());
+}
+#endif

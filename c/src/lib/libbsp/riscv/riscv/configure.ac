@@ -68,7 +68,7 @@ case "${RTEMS_BSP}" in
 esac
 
 case "${RTEMS_BSP}" in
-  *clang | *cheri)
+  *clang | *cheri*)
     RISCV_LINKER_START_DIRECTIVE_DEFAULT="INPUT"
     RISCV_LINKER_ALIGN_DIRECTIVE_DEFAULT="ALIGN(8)"
     ;;

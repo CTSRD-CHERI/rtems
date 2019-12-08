@@ -32,7 +32,7 @@ static const uint32_t
 bsp_fdt_blob[BSP_FDT_BLOB_SIZE_MAX / sizeof(uint32_t)] = { 0xdeadbeef };
 #else
 static uint32_t
-bsp_fdt_blob[BSP_FDT_BLOB_SIZE_MAX / sizeof(uint32_t)];
+bsp_fdt_blob[BSP_FDT_BLOB_SIZE_MAX / sizeof(uint32_t)] = { 0xdeadbeef };
 #endif
 
 void bsp_fdt_copy(const void *src)

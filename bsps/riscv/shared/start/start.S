@@ -100,31 +100,37 @@ SYM(_start):
   csetbounds      csp, csp, t2
   csetoffset      csp, csp, t2
 
-  /* Initialise the captable. */
+  /* From now on, run in purecap mode */
   cspecialrw      ct0, pcc, cnull
-  la              t1, riscv_cheri_init_globals
-  csetoffset      ct0, ct0, t1
   li              t1, 1
   csetflags       ct0, ct0, t1
+  la              t1, purecap
+  csetoffset      ct0, ct0, t1
+  cjr             ct0
+
+purecap:
+  /* Initialise the captable. */
+  la              t1, riscv_cheri_init_globals
+  csetoffset      ct0, ct0, t1
   cjalr           cra, ct0
 
 #ifdef BSP_START_COPY_FDT_FROM_U_BOOT
-	mv	a0, s0
-	cfromptr	ca0, ddc, s0
-  LADDR t1, bsp_fdt_copy
-  csetoffset ct0, ct0, t1
-  cjalr cra, ct0
+	mv	            a0, s0
+  cfromptr        ca0, ddc, s0
+  LADDR           t1, bsp_fdt_copy
+  csetoffset      ct0, ct0, t1
+  cjalr           cra, ct0
 #endif
 
 	/* Clear .bss */
-	LADDR	a0, bsp_section_bss_begin
-	cfromptr	ca0, ddc, a0
-	li	a1, 0
-	LADDR	a2, bsp_section_bss_size
-	csetbounds ca0, ca0, a2
-  LADDR t1, memset
-  csetoffset ct0, ct0, t1
-  cjalr cra, ct0
+	LADDR	         a0, bsp_section_bss_begin
+	cfromptr	     ca0, ddc, a0
+	li	           a1, 0
+	LADDR 	       a2, bsp_section_bss_size
+	csetbounds     ca0, ca0, a2
+  LADDR          t1, memset
+  csetoffset     ct0, ct0, t1
+  cjalr          cra, ct0
 
 #ifdef RTEMS_SMP
 	/* Give go to secondary processors */

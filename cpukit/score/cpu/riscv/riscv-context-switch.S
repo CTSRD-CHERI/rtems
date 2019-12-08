@@ -39,6 +39,7 @@
 PUBLIC(_CPU_Context_switch)
 PUBLIC(_CPU_Context_restore)
 
+TYPE_FUNC(_CPU_Context_switch)
 SYM(_CPU_Context_switch):
 	GET_SELF_CPU_CONTROL	a2
 	lw	a3, PER_CPU_ISR_DISPATCH_DISABLE(a2)

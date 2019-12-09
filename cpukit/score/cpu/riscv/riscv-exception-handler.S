@@ -48,6 +48,167 @@ PUBLIC(_RISCV_Exception_handler)
 
 TYPE_FUNC(_RISCV_Exception_handler)
 SYM(_RISCV_Exception_handler):
+
+#ifdef __CHERI__
+.option capmode
+	cincoffset	csp, csp, -CPU_INTERRUPT_FRAME_SIZE
+
+	/* Save */
+	csc	  ca0, RISCV_INTERRUPT_FRAME_A0(csp)
+	csc	  ca1, RISCV_INTERRUPT_FRAME_A1(csp)
+	csc	  ca2, RISCV_INTERRUPT_FRAME_A2(csp)
+	csc	  cs0, RISCV_INTERRUPT_FRAME_S0(csp)
+	csrr	a0, mcause
+	csrr	a1, mstatus
+	csrr	a2, mepc
+	GET_SELF_CPU_CONTROL	cs0
+	csc 	cs1, RISCV_INTERRUPT_FRAME_S1(csp)
+
+#if __riscv_flen > 0
+#error "No suppoer for FPU in CHERI yet"
+#endif
+
+	csc	cra, RISCV_INTERRUPT_FRAME_RA(csp)
+	csc	ca3, RISCV_INTERRUPT_FRAME_A3(csp)
+	csc	ca4, RISCV_INTERRUPT_FRAME_A4(csp)
+	csc	ca5, RISCV_INTERRUPT_FRAME_A5(csp)
+	csc	ca6, RISCV_INTERRUPT_FRAME_A6(csp)
+	csc	ca7, RISCV_INTERRUPT_FRAME_A7(csp)
+	csc	ct0, RISCV_INTERRUPT_FRAME_T0(csp)
+	csc	ct1, RISCV_INTERRUPT_FRAME_T1(csp)
+	csc	ct2, RISCV_INTERRUPT_FRAME_T2(csp)
+	csc	ct3, RISCV_INTERRUPT_FRAME_T3(csp)
+	csc	ct4, RISCV_INTERRUPT_FRAME_T4(csp)
+	csc	ct5, RISCV_INTERRUPT_FRAME_T5(csp)
+	csc	ct6, RISCV_INTERRUPT_FRAME_T6(csp)
+
+  # TODO: csd/csw depending on xlen, but for now assume rv64
+	csd	 a1, RISCV_INTERRUPT_FRAME_MSTATUS(csp)
+	csd	 a2, RISCV_INTERRUPT_FRAME_MEPC(csp)
+
+	/* Check if this is a synchronous or interrupt exception */
+	bgez	a0, .Lsynchronous_exception
+
+	/* Increment interrupt nest and thread dispatch disable level */
+	clw	t0, PER_CPU_ISR_NEST_LEVEL(cs0)
+	clw	t1, PER_CPU_THREAD_DISPATCH_DISABLE_LEVEL(cs0)
+	addi	t2, t0, 1
+	addi	t1, t1, 1
+	csw	t2, PER_CPU_ISR_NEST_LEVEL(cs0)
+	csw	t1, PER_CPU_THREAD_DISPATCH_DISABLE_LEVEL(cs0)
+
+	// CLEAR_RESERVATIONS	s0
+
+	/*
+	 * Remember current stack pointer in non-volatile register s1.  Switch
+	 * to interrupt stack if necessary.
+	 */
+	cmove	cs1, csp
+	bnez	t0, .Linterrupt_stack_switch_done
+	clc 	csp, PER_CPU_INTERRUPT_STACK_HIGH(cs0)
+.Linterrupt_stack_switch_done:
+
+	cmove	ca1, cs0
+
+	#call	_RISCV_Interrupt_dispatch
+1:auipcc            ct0, %pcrel_hi(_RISCV_Interrupt_dispatch)
+  cincoffset        ct0, ct0, %pcrel_lo(1b)
+  cjalr             cra, ct0
+
+	/* Load some per-CPU variables */
+	clw	t0, PER_CPU_THREAD_DISPATCH_DISABLE_LEVEL(cs0)
+	clbu	t1, PER_CPU_DISPATCH_NEEDED(cs0)
+	clw	t2, PER_CPU_ISR_DISPATCH_DISABLE(cs0)
+	clw	t3, PER_CPU_ISR_NEST_LEVEL(cs0)
+
+	/* Restore stack pointer */
+	cmove	csp, cs1
+
+	/* Decrement levels and determine thread dispatch state */
+	xor	t1, t1, t0
+	addi	t0, t0, -1
+	or	t1, t1, t0
+	or	t1, t1, t2
+	addi	t3, t3, -1
+
+	/* Store thread dispatch disable and ISR nest levels */
+	csw	t0, PER_CPU_THREAD_DISPATCH_DISABLE_LEVEL(cs0)
+	csw	t3, PER_CPU_ISR_NEST_LEVEL(cs0)
+
+	/*
+	 * Check thread dispatch necessary, ISR dispatch disable and thread
+	 * dispatch disable level.
+	 */
+	bnez	t1, .Lthread_dispatch_done
+
+.Ldo_thread_dispatch:
+
+	/* Set ISR dispatch disable and thread dispatch disable level to one */
+	li	t0, 1
+	csw	t0, PER_CPU_ISR_DISPATCH_DISABLE(cs0)
+	csw	t0, PER_CPU_THREAD_DISPATCH_DISABLE_LEVEL(cs0)
+
+	/* Call _Thread_Do_dispatch(), this function will enable interrupts */
+	cmove	ca0, cs0
+	li	a1, RISCV_MSTATUS_MIE
+
+	#call	_Thread_Do_dispatch
+1:auipcc            ct0, %pcrel_hi(_Thread_Do_dispatch)
+  cincoffset        ct0, ct0, %pcrel_lo(1b)
+  cjalr             cra, ct0
+
+	/* Disable interrupts */
+	csrrc	zero, mstatus, RISCV_MSTATUS_MIE
+
+	GET_SELF_CPU_CONTROL	cs0
+
+	/* Check if we have to do the thread dispatch again */
+	clbu	t0, PER_CPU_DISPATCH_NEEDED(cs0)
+	bnez	t0, .Ldo_thread_dispatch
+
+	/* We are done with thread dispatching */
+	csw	zero, PER_CPU_ISR_DISPATCH_DISABLE(cs0)
+
+.Lthread_dispatch_done:
+
+	/* Restore */
+	cld	a0, RISCV_INTERRUPT_FRAME_MSTATUS(csp)
+	cld	a1, RISCV_INTERRUPT_FRAME_MEPC(csp)
+
+	clc	ca2, RISCV_INTERRUPT_FRAME_A2(csp)
+	clc	cs0, RISCV_INTERRUPT_FRAME_S0(csp)
+	clc	cs1, RISCV_INTERRUPT_FRAME_S1(csp)
+	clc	cra, RISCV_INTERRUPT_FRAME_RA(csp)
+	clc	ca3, RISCV_INTERRUPT_FRAME_A3(csp)
+	clc	ca4, RISCV_INTERRUPT_FRAME_A4(csp)
+	clc	ca5, RISCV_INTERRUPT_FRAME_A5(csp)
+	clc	ca6, RISCV_INTERRUPT_FRAME_A6(csp)
+	clc	ca7, RISCV_INTERRUPT_FRAME_A7(csp)
+	clc	ct0, RISCV_INTERRUPT_FRAME_T0(csp)
+	clc	ct1, RISCV_INTERRUPT_FRAME_T1(csp)
+	clc	ct2, RISCV_INTERRUPT_FRAME_T2(csp)
+	clc	ct3, RISCV_INTERRUPT_FRAME_T3(csp)
+	clc	ct4, RISCV_INTERRUPT_FRAME_T4(csp)
+	clc	ct5, RISCV_INTERRUPT_FRAME_T5(csp)
+	clc	ct6, RISCV_INTERRUPT_FRAME_T6(csp)
+	csrw	mstatus, a0
+	csrw	mepc, a1
+
+  cspecialrw ca0, pcc, cnull
+  csetoffset ca0, ca0, a1
+  cspecialrw cnull, mepcc, ca0
+
+#if __riscv_flen > 0
+#error "No FPU support with CHERI yet"
+#endif
+
+	clc	ca0, RISCV_INTERRUPT_FRAME_A0(csp)
+	clc	ca1, RISCV_INTERRUPT_FRAME_A1(csp)
+
+	cincoffset	csp, csp, CPU_INTERRUPT_FRAME_SIZE
+
+	mret
+#else
 	addi	sp, sp, -CPU_INTERRUPT_FRAME_SIZE
 
 	/* Save */
@@ -232,9 +393,36 @@ SYM(_RISCV_Exception_handler):
 	addi	sp, sp, CPU_INTERRUPT_FRAME_SIZE
 
 	mret
+#endif /* __CHERI__ */
 
 .Lsynchronous_exception:
 
+#ifdef __CHERI__
+	csd a0, RISCV_EXCEPTION_FRAME_MCAUSE(csp)
+  cincoffset ca0, csp, CPU_INTERRUPT_FRAME_SIZE
+	csc	ca0, RISCV_EXCEPTION_FRAME_SP(csp)
+	csc	cgp, RISCV_EXCEPTION_FRAME_GP(csp)
+	csc	ctp, RISCV_EXCEPTION_FRAME_TP(csp)
+	csc	cs2, RISCV_EXCEPTION_FRAME_S2(csp)
+	csc	cs3, RISCV_EXCEPTION_FRAME_S3(csp)
+	csc	cs4, RISCV_EXCEPTION_FRAME_S4(csp)
+	csc	cs5, RISCV_EXCEPTION_FRAME_S5(csp)
+	csc	cs6, RISCV_EXCEPTION_FRAME_S6(csp)
+	csc	cs7, RISCV_EXCEPTION_FRAME_S7(csp)
+	csc	cs8, RISCV_EXCEPTION_FRAME_S8(csp)
+	csc	cs9, RISCV_EXCEPTION_FRAME_S9(csp)
+	csc	cs10, RISCV_EXCEPTION_FRAME_S10(csp)
+	csc	cs11, RISCV_EXCEPTION_FRAME_S11(csp)
+#if __riscv_flen > 0
+#error "No FPU support with CHERI yet"
+#endif
+
+	li	a0, 9
+  cmove ca1, csp
+
+1:auipcc            ct0, %pcrel_hi(_Terminate)
+  cincoffset        ct0, ct0, %pcrel_lo(1b)
+#else
 	SREG	a0, RISCV_EXCEPTION_FRAME_MCAUSE(sp)
 	addi	a0, sp, CPU_INTERRUPT_FRAME_SIZE
 	SREG	a0, RISCV_EXCEPTION_FRAME_SP(sp)
@@ -268,3 +456,4 @@ SYM(_RISCV_Exception_handler):
 	li	a0, 9
 	mv	a1, sp
 	call	_Terminate
+#endif /* __CHERI__ */

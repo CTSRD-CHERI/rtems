@@ -175,10 +175,7 @@ TYPE_FUNC(_CPU_Context_restore)
 SYM(_CPU_Context_restore):
 #if __CHERI__
 	cmove	ca1, ca0
-.option nocapmode
-	LADDR     t0, _Per_CPU_Information
-	cfromptr  ca2, ddc, t0
-.option capmode
+  GET_SELF_CPU_CONTROL ca2
 #else
 	mv	a1, a0
 	GET_SELF_CPU_CONTROL	a2

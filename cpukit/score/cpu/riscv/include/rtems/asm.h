@@ -184,11 +184,15 @@
 #endif /* __riscv_flen */
 
 .macro GET_SELF_CPU_CONTROL REG
+#if __CHERI__
+  cspecialrw \REG, mscratchc, \REG
+#else
 #ifdef RTEMS_SMP
 	csrr	\REG, mscratch
 #else
 	LADDR	\REG, _Per_CPU_Information
 #endif
+#endif /* __CHERI__ */
 .endm
 
 .macro CLEAR_RESERVATIONS REG

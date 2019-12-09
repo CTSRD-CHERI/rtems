@@ -185,7 +185,7 @@
 
 .macro GET_SELF_CPU_CONTROL REG
 #if __CHERI__
-  cspecialrw \REG, mscratchc, \REG
+  cspecialrw \REG, mscratchc, cnull
 #else
 #ifdef RTEMS_SMP
 	csrr	\REG, mscratch

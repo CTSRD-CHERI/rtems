@@ -41,6 +41,33 @@ PUBLIC(_CPU_Context_restore)
 
 TYPE_FUNC(_CPU_Context_switch)
 SYM(_CPU_Context_switch):
+#if __CHERI__
+.option capmode
+  GET_SELF_CPU_CONTROL ca2
+  clw  a3, RISCV_CONTEXT_ISR_DISPATCH_DISABLE(ca2)
+
+	csc	cra, RISCV_CONTEXT_RA(ca0)
+	csc	csp, RISCV_CONTEXT_SP(ca0)
+	csc	cs0, RISCV_CONTEXT_S0(ca0)
+	csc	cs1, RISCV_CONTEXT_S1(ca0)
+	csc	cs2, RISCV_CONTEXT_S2(ca0)
+	csc	cs3, RISCV_CONTEXT_S3(ca0)
+	csc	cs4, RISCV_CONTEXT_S4(ca0)
+	csc	cs5, RISCV_CONTEXT_S5(ca0)
+	csc	cs6, RISCV_CONTEXT_S6(ca0)
+	csc	cs7, RISCV_CONTEXT_S7(ca0)
+	csc	cs8, RISCV_CONTEXT_S8(ca0)
+	csc	cs9, RISCV_CONTEXT_S9(ca0)
+	csc	cs10, RISCV_CONTEXT_S10(ca0)
+	csc	cs11, RISCV_CONTEXT_S11(ca0)
+
+	csw	a3, RISCV_CONTEXT_ISR_DISPATCH_DISABLE(ca0)
+
+#if __riscv_flen > 0
+#error "No support for CHERI with FPU yet"
+#endif
+
+#else
 	GET_SELF_CPU_CONTROL	a2
 	lw	a3, PER_CPU_ISR_DISPATCH_DISABLE(a2)
 
@@ -97,12 +124,11 @@ SYM(_CPU_Context_switch):
 	amoswap.w.aq	a3, a3, RISCV_CONTEXT_IS_EXECUTING(a1)
 	bnez	a3, .Lcheck_is_executing
 #endif
+#endif /* __CHERI__ */
 
 .Lrestore:
 
 #if __CHERI__
-.option capmode
-
 	clw	 a3, RISCV_CONTEXT_ISR_DISPATCH_DISABLE(ca1)
 
 	clc	cra, RISCV_CONTEXT_RA(ca1)

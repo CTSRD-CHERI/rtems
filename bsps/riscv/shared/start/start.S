@@ -156,8 +156,8 @@ purecap:
 
   /* Jump to boot_card in purecap mode */
 	li	a0, 0
-  LADDR t1, boot_card
-  csetoffset ct0, ct0, t1
+  1:auipcc        ct0, %pcrel_hi(boot_card)
+  cincoffset      ct0, ct0, %pcrel_lo(1b)
   cjr ct0
 #else
 

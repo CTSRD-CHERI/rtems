@@ -420,8 +420,9 @@ SYM(_RISCV_Exception_handler):
 	li	a0, 9
   cmove ca1, csp
 
-1:auipcc            ct0, %pcrel_hi(_Terminate)
-  cincoffset        ct0, ct0, %pcrel_lo(1b)
+  clgc ct0, _Terminate
+  cjr  ct0
+
 #else
 	SREG	a0, RISCV_EXCEPTION_FRAME_MCAUSE(sp)
 	addi	a0, sp, CPU_INTERRUPT_FRAME_SIZE

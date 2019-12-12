@@ -78,7 +78,161 @@
 	.align	2
 
 PUBLIC(_CPU_Context_validate)
+TYPE_FUNC(_CPU_Context_validate)
 SYM(_CPU_Context_validate):
+
+#if __CHERI__
+.option capmode
+  cincoffset csp, csp, -FRAME_SIZE
+
+	/* Save */
+
+	csc	cra, RA_OFFSET(csp)
+	csc	ct0, T0_OFFSET(csp)
+	csc	ct1, T1_OFFSET(csp)
+	csc	ct2, T2_OFFSET(csp)
+	csc	cs0, S0_OFFSET(csp)
+	csc	cs1, S1_OFFSET(csp)
+	csc	ca0, A0_OFFSET(csp)
+	csc	ca1, A1_OFFSET(csp)
+	csc	ca2, A2_OFFSET(csp)
+	csc	ca3, A3_OFFSET(csp)
+	csc	ca4, A4_OFFSET(csp)
+	csc	ca5, A5_OFFSET(csp)
+	csc	ca6, A6_OFFSET(csp)
+	csc	ca7, A7_OFFSET(csp)
+	csc	cs2, S2_OFFSET(csp)
+	csc	cs3, S3_OFFSET(csp)
+	csc	cs4, S4_OFFSET(csp)
+	csc	cs5, S5_OFFSET(csp)
+	csc	cs6, S6_OFFSET(csp)
+	csc	cs7, S7_OFFSET(csp)
+	csc	cs8, S8_OFFSET(csp)
+	csc	cs9, S9_OFFSET(csp)
+	csc	cs10, S10_OFFSET(csp)
+	csc	cs11, S11_OFFSET(csp)
+	csc	ct3, T3_OFFSET(csp)
+	csc	ct4, T4_OFFSET(csp)
+	csc	ct5, T5_OFFSET(csp)
+	csc	ct6, T6_OFFSET(csp)
+
+#if __riscv_flen > 0
+#error "No CHERI support with FPU yet"
+#endif /* __riscv_flen */
+
+	/* Fill */
+
+	addi	ra, a0, 1
+	/* sp must remain as is */
+	/* gp must remain as is */
+	/* tp must remain as is */
+	/* t0 is used for temporary values */
+	addi	t1, a0, 2
+	addi	t2, a0, 3
+	addi	s0, a0, 4
+	addi	s1, a0, 5
+	/* a0 is the pattern */
+	addi	a1, a0, 6
+	addi	a2, a0, 7
+	addi	a3, a0, 8
+	addi	a4, a0, 9
+	addi	a5, a0, 10
+	addi	a6, a0, 11
+	addi	a7, a0, 12
+	addi	s2, a0, 13
+	addi	s3, a0, 14
+	addi	s4, a0, 15
+	addi	s5, a0, 16
+	addi	s6, a0, 17
+	addi	s7, a0, 18
+	addi	s8, a0, 19
+	addi	s9, a0, 20
+	addi	s10, a0, 21
+	addi	s11, a0, 22
+	addi	t3, a0, 23
+
+	xor	t4, sp, a0
+	xor	t5, gp, a0
+	xor	t6, tp, a0
+
+	/* Check */
+.Lcheck:
+	.macro	check_register reg, inc
+	addi	t0, a0, \inc
+	bne	\reg, t0, .Lrestore
+	.endm
+
+	check_register	ra, 1
+	check_register	t1, 2
+	check_register	t2, 3
+	check_register	s0, 4
+	check_register	s1, 5
+	check_register	a1, 6
+	check_register	a2, 7
+	check_register	a3, 8
+	check_register	a4, 9
+	check_register	a5, 10
+	check_register	a6, 11
+	check_register	a7, 12
+	check_register	s2, 13
+	check_register	s3, 14
+	check_register	s4, 15
+	check_register	s5, 16
+	check_register	s6, 17
+	check_register	s7, 18
+	check_register	s8, 19
+	check_register	s9, 20
+	check_register	s10, 21
+	check_register	s11, 22
+	check_register	t3, 23
+
+	xor	t0, sp, a0
+	bne	t4, t0, .Lrestore
+
+	xor	t0, gp, a0
+	bne	t5, t0, .Lrestore
+
+	xor	t0, tp, a0
+	bne	t6, t0, .Lrestore
+
+	j	.Lcheck
+
+	/* Restore */
+
+.Lrestore:
+
+	clc	cra, RA_OFFSET(csp)
+	clc	ct0, T0_OFFSET(csp)
+	clc	ct1, T1_OFFSET(csp)
+	clc	ct2, T2_OFFSET(csp)
+	clc	cs0, S0_OFFSET(csp)
+	clc	cs1, S1_OFFSET(csp)
+	clc	ca0, A0_OFFSET(csp)
+	clc	ca1, A1_OFFSET(csp)
+	clc	ca2, A2_OFFSET(csp)
+	clc	ca3, A3_OFFSET(csp)
+	clc	ca4, A4_OFFSET(csp)
+	clc	ca5, A5_OFFSET(csp)
+	clc	ca6, A6_OFFSET(csp)
+	clc	ca7, A7_OFFSET(csp)
+	clc	cs2, S2_OFFSET(csp)
+	clc	cs3, S3_OFFSET(csp)
+	clc	cs4, S4_OFFSET(csp)
+	clc	cs5, S5_OFFSET(csp)
+	clc	cs6, S6_OFFSET(csp)
+	clc	cs7, S7_OFFSET(csp)
+	clc	cs8, S8_OFFSET(csp)
+	clc	cs9, S9_OFFSET(csp)
+	clc	cs10, S10_OFFSET(csp)
+	clc	cs11, S11_OFFSET(csp)
+	clc	ct3, T3_OFFSET(csp)
+	clc	ct4, T4_OFFSET(csp)
+	clc	ct5, T5_OFFSET(csp)
+	clc	ct6, T6_OFFSET(csp)
+
+	cincoffset	csp, csp, FRAME_SIZE
+	cret
+#else
 	addi	sp, sp, -FRAME_SIZE
 
 	/* Save */
@@ -387,3 +541,4 @@ SYM(_CPU_Context_validate):
 
 	addi	sp, sp, FRAME_SIZE
 	ret
+#endif /* CHERI */

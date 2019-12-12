@@ -117,19 +117,17 @@ purecap:
   /* Pin _Per_CPU_Information to mscratchc. It is used in context switching
    * and interrupt handling
    */
-	LADDR	          t1, _Per_CPU_Information
-  cfromptr        ct2, ddc, t1
-  li              t1, PER_CPU_CONTROL_SIZE
-  csetbounds      ct2, ct2, t1
+.option capmode
+	clgc	          ct2, _Per_CPU_Information
   cspecialrw      cnull, mscratchc, ct2
 
 #ifdef BSP_START_COPY_FDT_FROM_U_BOOT
 	mv	            a0, s0
   cfromptr        ca0, ddc, s0
-  LADDR           t1, bsp_fdt_copy
-  csetoffset      ct0, ct0, t1
+  clgc            ct0, bsp_fdt_copy
   cjalr           cra, ct0
 #endif
+.option nocapmode
 
 	/* Clear .bss */
 	LADDR	         a0, bsp_section_bss_begin

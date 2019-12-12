@@ -111,8 +111,7 @@ SYM(_RISCV_Exception_handler):
 	cmove	ca1, cs0
 
 	#call	_RISCV_Interrupt_dispatch
-1:auipcc            ct0, %pcrel_hi(_RISCV_Interrupt_dispatch)
-  cincoffset        ct0, ct0, %pcrel_lo(1b)
+  clgc              ct0, _RISCV_Interrupt_dispatch
   cjalr             cra, ct0
 
 	/* Load some per-CPU variables */
@@ -153,8 +152,7 @@ SYM(_RISCV_Exception_handler):
 	li	a1, RISCV_MSTATUS_MIE
 
 	#call	_Thread_Do_dispatch
-1:auipcc            ct0, %pcrel_hi(_Thread_Do_dispatch)
-  cincoffset        ct0, ct0, %pcrel_lo(1b)
+  clgc              ct0, _Thread_Do_dispatch
   cjalr             cra, ct0
 
 	/* Disable interrupts */

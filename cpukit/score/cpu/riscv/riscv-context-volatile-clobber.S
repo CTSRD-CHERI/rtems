@@ -34,6 +34,7 @@
 	.align	2
 
 PUBLIC(_CPU_Context_volatile_clobber)
+TYPE_FUNC(_CPU_Context_volatile_clobber)
 SYM(_CPU_Context_volatile_clobber):
 
 #if __riscv_flen > 0
@@ -97,4 +98,8 @@ SYM(_CPU_Context_volatile_clobber):
 	addi	t5, a0, 13
 	addi	t6, a0, 14
 
+#if __CHERI__
+	cret
+#else
 	ret
+#endif

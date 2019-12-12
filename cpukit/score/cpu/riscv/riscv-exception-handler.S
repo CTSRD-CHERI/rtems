@@ -51,7 +51,7 @@ SYM(_RISCV_Exception_handler):
 
 #ifdef __CHERI__
 .option capmode
-	cincoffset	csp, csp, -CPU_INTERRUPT_FRAME_SIZE
+	cincoffset	csp, csp, -(CPU_INTERRUPT_FRAME_SIZE)
 
 	/* Save */
 	csc	  ca0, RISCV_INTERRUPT_FRAME_A0(csp)
@@ -390,7 +390,7 @@ SYM(_RISCV_Exception_handler):
 	LREG	a0, RISCV_INTERRUPT_FRAME_A0(sp)
 	LREG	a1, RISCV_INTERRUPT_FRAME_A1(sp)
 
-	addi	sp, sp, CPU_INTERRUPT_FRAME_SIZE
+	addi	sp, sp, (CPU_INTERRUPT_FRAME_SIZE)
 
 	mret
 #endif /* __CHERI__ */

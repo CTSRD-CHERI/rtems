@@ -8,4 +8,5 @@ include_rtems_score_HEADERS += score/cpu/riscv/include/rtems/score/cpu_asm.h
 include_rtems_score_HEADERS += score/cpu/riscv/include/rtems/score/cpuatomic.h
 include_rtems_score_HEADERS += score/cpu/riscv/include/rtems/score/cpuimpl.h
 include_rtems_score_HEADERS += score/cpu/riscv/include/rtems/score/riscv-utility.h
+include_rtems_score_HEADERS += score/cpu/riscv/include/rtems/score/cheri-utility.h
 include_rtems_score_HEADERS += score/cpu/riscv/include/rtems/score/riscv.h

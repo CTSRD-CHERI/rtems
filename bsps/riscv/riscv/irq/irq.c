@@ -46,6 +46,10 @@
 
 #include <libfdt.h>
 
+#if __CHERI__
+#include <rtems/score/cheri-utility.h>
+#endif
+
 volatile RISCV_CLINT_regs *riscv_clint;
 
 /*
@@ -128,6 +132,11 @@ static void riscv_clint_init(const void *fdt)
   }
 
   riscv_clint = clint;
+
+#if __CHERI__
+  /* Add rw permissions to the clint cap */
+  riscv_clint = cheri_build_data_cap((size_t) riscv_clint, __builtin_cheri_length_get(riscv_clint), 0xff);
+#endif /* __CHERI__ */
 
   val = fdt_getprop(fdt, node, "interrupts-extended", &len);
 

@@ -1,0 +1,20 @@
+actions:
+- get-boolean: null
+- env-enable: null
+active: true
+build-type: option
+default: true
+default-by-variant: []
+derived: false
+enabled-by: []
+header: ''
+level: 1.11
+links: []
+name: BUILD_UNITTESTS
+normative: true
+order: -1000
+ref: ''
+reviewed: MyJ72biku_a4prUcTIR_l2cTiU4Jz3tRRsB_OwzhQyo=
+text: |
+  Build the unit test programs (may be also enabled by BUILD_TESTS)
+type: build

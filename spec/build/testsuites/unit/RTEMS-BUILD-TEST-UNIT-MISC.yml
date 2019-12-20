@@ -1,0 +1,26 @@
+active: true
+build-type: test-program
+cflags: []
+cppflags: []
+cxxflags: []
+derived: false
+enabled-by: []
+features: c cprogram
+header: ''
+includes: []
+ldflags: []
+level: 1.2
+links: []
+normative: true
+order: 0
+ref: ''
+reviewed: qgkwdzY59d0pZ2MyjOTa2i0OCbcJ_uTIeEhvqldy9vM=
+source:
+- testsuites/unit/compiler/tc-misaligned-builtin-memcpy.c
+- testsuites/unit/ts-unit-misc.c
+stlib: []
+target: testsuites/unit/unitmisc.exe
+text: ''
+type: build
+use-after: []
+use-before: []

@@ -1,0 +1,24 @@
+active: true
+build-type: group
+derived: false
+enabled-by:
+- BUILD_TESTS
+- BUILD_UNITTESTS
+header: ''
+includes:
+- testsuites/support/include
+install: []
+ldflags: []
+level: 1.1
+links:
+- RTEMS-BUILD-TEST-UNIT-MISC: null
+normative: true
+order: 0
+ref: ''
+reviewed: n_LOG2ggNjfI_bUgLmxMvFre5vp3Qecj9ZPGVfT0PZA=
+text: ''
+top-level: false
+type: build
+use-after:
+- rtemstest
+use-before: []

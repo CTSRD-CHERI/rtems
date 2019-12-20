@@ -1,0 +1,6 @@
+settings:
+  digits: 3
+  parent: RTEMS-BUILD-TEST
+  prefix: RTEMS-BUILD-TEST-UNIT
+  sep: '-'
+attributes: !include ../../attributes.inc

@@ -402,7 +402,11 @@
  * @return The return address.
  */
 #if defined(__GNUC__)
+#if __CHERI__
+#define RTEMS_RETURN_ADDRESS() ({ register void *ra __asm__("cra"); __asm__("": "=C"(ra)); ra; })
+#else
   #define RTEMS_RETURN_ADDRESS() __builtin_return_address( 0 )
+#endif
 #else
   #define RTEMS_RETURN_ADDRESS() NULL
 #endif

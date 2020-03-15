@@ -12,6 +12,16 @@ actions:
 - substitute: null
 - find-program: null
 - env-assign: AR
+- set-value: clang
+- env-assign: AS
+- env-assign: ASM_NAME
+- set-value:
+  - -c
+  - -o
+- env-assign: AS_TGT_F
+- set-value:
+  - -o
+- env-assign: ASLNK_TGT_F
 - script: |
     load = "ar asm clang clang++"
     if not is_windows_host:

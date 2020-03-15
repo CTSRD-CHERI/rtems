@@ -1409,6 +1409,7 @@ def bsp_defaults(ctx):
     if first:
         no_matches_error(ctx, white_list)
 
+    print("COMPILER = " + compiler)
 
 def bsp_list(ctx):
     """lists base BSP variants"""

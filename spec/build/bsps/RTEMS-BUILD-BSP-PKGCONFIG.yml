@@ -18,7 +18,7 @@ content: |
   Version: ${RTEMS_VERSION}
   Description: RTEMS BSP ${ARCH}/${BSP_NAME}
   Libs:
-  Cflags: -qrtems --specs bsp_specs -B$${libdir} $${CFLAGS}
+  Cflags: -qrtems -I$${libdir}/include -L$${libdir} -B$${libdir} $${CFLAGS}
 derived: false
 enabled-by: []
 header: ''

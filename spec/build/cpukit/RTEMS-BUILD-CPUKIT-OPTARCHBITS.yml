@@ -1,0 +1,30 @@
+actions:
+- get-string: null
+- split: null
+- env-append: null
+active: true
+build-type: option
+default: ''
+default-by-variant:
+- value:
+  - '64'
+  variants:
+  - riscv/rv64.*
+- value:
+  - '32'
+  variants:
+  - riscv/rv32.*
+derived: false
+enabled-by:
+- riscv
+- clang
+header: ''
+level: '1.110'
+links: []
+name: ARCH_BITS
+normative: true
+order: -1000
+ref: ''
+reviewed: ChapNb5NSPl062d5CnU251RB5J6TljFz_mLkmFdgwVY=
+text: ''
+type: build

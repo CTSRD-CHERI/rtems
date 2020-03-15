@@ -127,16 +127,14 @@ purecap:
   clgc            ct0, bsp_fdt_copy
   cjalr           cra, ct0
 #endif
-.option nocapmode
 
 	/* Clear .bss */
-	LADDR	         a0, bsp_section_bss_begin
+	clgc	         ca0, bsp_section_bss_begin
 	cfromptr	     ca0, ddc, a0
 	li	           a1, 0
-	LADDR 	       a2, bsp_section_bss_size
+	clgc  	       ca2, bsp_section_bss_size
 	csetbounds     ca0, ca0, a2
-  LADDR          t1, memset
-  csetoffset     ct0, ct0, t1
+  clgc           ct0, memset
   cjalr          cra, ct0
 
 #ifdef RTEMS_SMP
@@ -146,7 +144,6 @@ purecap:
 	amoswap.w	zero, zero, 0(t0)
 #endif
 
-.option capmode
 	/* Setup CHERI trap code cap */
   1:auipcc        ct2, %pcrel_hi(_RISCV_Exception_handler)
   cincoffset      ct2, ct2, %pcrel_lo(1b)
@@ -154,8 +151,7 @@ purecap:
 
   /* Jump to boot_card in purecap mode */
 	li	a0, 0
-  1:auipcc        ct0, %pcrel_hi(boot_card)
-  cincoffset      ct0, ct0, %pcrel_lo(1b)
+  clgc ct0, boot_card
   cjr ct0
 #else
 

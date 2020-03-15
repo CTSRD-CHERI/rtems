@@ -1,0 +1,20 @@
+actions:
+- get-boolean: null
+- env-enable: null
+active: true
+build-type: option
+default: false
+default-by-variant: []
+derived: false
+enabled-by: []
+header: ''
+level: 1.12
+links: []
+name: BUILD_CXXTESTS
+normative: true
+order: -1000
+ref: ''
+reviewed: Hi8O4hzJGikUlY--K_wzPy6OEkX-L5X32JZp1QikeXE=
+text: |
+  Build the C++ test programs
+type: build

@@ -4,7 +4,8 @@ cflags: []
 cppflags: []
 cxxflags: []
 derived: false
-enabled-by: []
+enabled-by:
+- BUILD_CXXTESTS
 features: c cxx cxxprogram
 header: ''
 includes: []

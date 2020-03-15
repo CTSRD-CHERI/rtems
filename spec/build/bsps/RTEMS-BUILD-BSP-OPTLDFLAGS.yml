@@ -1,8 +1,6 @@
 actions:
 - set-value:
   - -qrtems
-  - -specs
-  - bsp_specs
   - -B${TOP}/bsps/${ARCH}/shared/start
   - -B${TOP}/bsps/${ARCH}/${BSP_FAMILY}/start
 - substitute: null

@@ -18,6 +18,12 @@ actions:
 - substitute: null
 - find-program: null
 - env-assign: LD
+- set-value:
+  - -specs
+  - bsp_specs
+  - -B${TOP}/bsps/${ARCH}/shared/start
+  - -B${TOP}/bsps/${ARCH}/${BSP_FAMILY}/start
+- env-append: LDFLAGS
 - script: |
     load = "ar g++ gas gcc"
     if not is_windows_host:

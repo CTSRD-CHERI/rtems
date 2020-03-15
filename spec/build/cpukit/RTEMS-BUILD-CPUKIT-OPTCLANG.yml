@@ -22,6 +22,9 @@ actions:
 - set-value:
   - -o
 - env-assign: ASLNK_TGT_F
+- set-value: --target=${ARCH}${ARCH_BITS}-unknown-rtems${__RTEMS_MAJOR__}
+- substitute: null
+- env-append: ABI_FLAGS
 - script: |
     load = "ar asm clang clang++"
     if not is_windows_host:

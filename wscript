@@ -1232,7 +1232,8 @@ def get_compiler(conf, cp, variant):
         value = no_unicode(value)
         check_compiler(conf, value)
     except configparser.NoOptionError:
-        value = "gcc"
+        conf.fatal('Compiler not found')
+
     return value
 
 

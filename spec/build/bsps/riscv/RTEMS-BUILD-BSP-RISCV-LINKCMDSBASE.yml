@@ -168,6 +168,12 @@ content: |
       *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
       *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
     } > REGION_RODATA AT > REGION_RODATA_LOAD
+    .captable : ${LINKER_ALIGN_DIRECTIVE} {
+            *(.captable)
+    } > REGION_RODATA AT > REGION_RODATA_LOAD
+    __cap_relocs : ${LINKER_ALIGN_DIRECTIVE} {
+            *(__cap_relocs)
+    } > REGION_RODATA AT > REGION_RODATA_LOAD
     .jcr : ${LINKCMDS_ALIGN_DIRECTIVE} {
       KEEP (*(.jcr))
     } > REGION_RODATA AT > REGION_RODATA_LOAD
@@ -280,16 +286,16 @@ content: |
     .data1 : ${LINKCMDS_ALIGN_DIRECTIVE} {
       *(.data1)
     } > REGION_DATA AT > REGION_DATA_LOAD
+    .sdata : ${LINKCMDS_ALIGN_DIRECTIVE} {
+      __global_pointer$$ = . + 0x800;
+      *(.srodata.cst16) *(.srodata.cst8) *(.srodata.cst4) *(.srodata.cst2) *(.srodata .srodata.*)
+      *(.sdata .sdata.* .gnu.linkonce.s.*)
+    } > REGION_DATA AT > REGION_DATA_LOAD
     .rtemsrwset : ${LINKCMDS_ALIGN_DIRECTIVE} {
       KEEP (*(SORT(.rtemsrwset.*)))
     } > REGION_DATA AT > REGION_DATA_LOAD
     .htif ALIGN(4096) : ${LINKCMDS_ALIGN_DIRECTIVE} {
       *(.htif)
-    } > REGION_DATA AT > REGION_DATA_LOAD
-    .sdata : ${LINKCMDS_ALIGN_DIRECTIVE} {
-      __global_pointer$$ = . + 0x800;
-      *(.srodata.cst16) *(.srodata.cst8) *(.srodata.cst4) *(.srodata.cst2) *(.srodata .srodata.*)
-      *(.sdata .sdata.* .gnu.linkonce.s.*)
       bsp_section_data_end = .;
     } > REGION_DATA AT > REGION_DATA_LOAD
     bsp_section_data_size = bsp_section_data_end - bsp_section_data_begin;
@@ -314,6 +320,10 @@ content: |
       bsp_section_rtemsstack_begin = .;
       *(SORT(.rtemsstack.*))
       bsp_section_rtemsstack_end = .;
+
+      bsp_section_work_begin = .;
+      . += ORIGIN (REGION_WORK) + LENGTH (REGION_WORK) - ABSOLUTE (.);
+      bsp_section_work_end = .;
     } > REGION_RTEMSSTACK AT > REGION_RTEMSSTACK
     bsp_section_rtemsstack_size = bsp_section_rtemsstack_end - bsp_section_rtemsstack_begin;
 
@@ -322,9 +332,9 @@ content: |
        * The work section will occupy the remaining REGION_WORK region and
        * contains the RTEMS work space and heap.
        */
-      bsp_section_work_begin = .;
+      /*bsp_section_work_begin = .;
       . += ORIGIN (REGION_WORK) + LENGTH (REGION_WORK) - ABSOLUTE (.);
-      bsp_section_work_end = .;
+      bsp_section_work_end = .;*/
     } > REGION_WORK AT > REGION_WORK
     bsp_section_work_size = bsp_section_work_end - bsp_section_work_begin;
 
@@ -380,7 +390,6 @@ content: |
     .strtab       0 : { *(.strtab) }
     .symtab       0 : { *(.symtab) }
     .symtab_shndx 0 : { *(.symtab_shndx) }
-    __cap_relocs  0 : { *(__cap_relocs) }
 
     /*
      * This is a RTEMS specific section to catch all unexpected input

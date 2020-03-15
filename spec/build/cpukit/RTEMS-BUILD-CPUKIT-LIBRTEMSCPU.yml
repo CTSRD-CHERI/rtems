@@ -236,7 +236,7 @@ install:
   - cpukit/include/rtems/posix/pthread.h
   - cpukit/include/rtems/posix/pthreadattrimpl.h
   - cpukit/include/rtems/posix/pthreadimpl.h
-  - cpukit/include/rtems/posix/ptimer.h
+  - cpukit/include/rtems/posix/timer.h
   - cpukit/include/rtems/posix/rwlockimpl.h
   - cpukit/include/rtems/posix/semaphore.h
   - cpukit/include/rtems/posix/semaphoreimpl.h

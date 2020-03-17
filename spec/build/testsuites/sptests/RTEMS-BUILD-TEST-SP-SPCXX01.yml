@@ -5,7 +5,8 @@ cppflags: []
 cxxflags:
 - -std=gnu++17
 derived: false
-enabled-by: []
+enabled-by:
+- BUILD_CXXTESTS
 features: cxx cxxprogram
 header: ''
 includes: []

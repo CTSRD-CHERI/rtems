@@ -42,14 +42,14 @@
 
 #include <cheri_init_globals.h>
 
-void *cheri_build_data_cap(size_t address, size_t size, size_t perms) {
+static inline void *cheri_build_data_cap(size_t address, size_t size, size_t perms) {
   volatile void *returned_cap = __builtin_cheri_global_data_get();
   __builtin_cheri_perms_and(returned_cap, perms);
   asm volatile("csetaddr %0, %0, %1":"+C"(returned_cap), "=r" (address));
   return returned_cap;
 }
 
-void *cheri_build_code_cap(size_t address, size_t size, size_t perms) {
+static inline void *cheri_build_code_cap(size_t address, size_t size, size_t perms) {
   volatile void *returned_cap = __builtin_cheri_program_counter_get();
   __builtin_cheri_perms_and(returned_cap, perms);
   asm volatile("csetaddr %0, %0, %1":"+C"(returned_cap), "=r" (address));

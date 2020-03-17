@@ -44,6 +44,10 @@
 
 #include <libfdt.h>
 
+#if __CHERI__
+#include <rtems/score/cheri-utility.h>
+#endif
+
 /* This is defined in dev/clock/clockimpl.h */
 void Clock_isr(void *arg);
 
@@ -162,6 +166,12 @@ static void riscv_clock_initialize(void)
   us_per_tick = rtems_configuration_get_microseconds_per_tick();
   interval = (uint32_t) ((tb_freq * us_per_tick) / 1000000);
   clint = riscv_clint;
+
+#if __CHERI__
+  /* Add rw permissions to the clint cap */
+  clint = cheri_build_data_cap((size_t) riscv_clint, __builtin_cheri_length_get(riscv_clint), 0xff);
+#endif /* __CHERI__ */
+
   tc = &riscv_clock_tc;
 
   tc->clint = clint;

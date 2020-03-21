@@ -191,8 +191,10 @@ static void riscv_console_probe(void)
       }
 
 #if __CHERI__
-      /* Create a capability for UART */
-      ctx->port = cheri_build_data_cap((size_t) ctx->port, __builtin_cheri_length_get(ctx->port), 0xff);
+      /* FIXME: Create a 4K capability for UART. Later, we need to get
+       * the UART port size from FDT and set the bounds from that.
+       */
+      ctx->port = cheri_build_data_cap((size_t) ctx->port, 4096, 0xff);
 #endif /* __CHERI__ */
 
       val = (fdt32_t *) fdt_getprop(fdt, node, "clock-frequency", &len);

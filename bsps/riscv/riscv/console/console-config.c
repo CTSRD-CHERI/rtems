@@ -33,6 +33,10 @@
 fe310_uart_context fe310_uart_instance;
 #endif
 
+#if __CHERI__
+#include <rtems/score/cheri-utility.h>
+#endif
+
 #if RISCV_ENABLE_HTIF_SUPPORT != 0
 static htif_console_context htif_console_instance;
 #endif
@@ -185,6 +189,11 @@ static void riscv_console_probe(void)
       if (ctx->port == 0) {
         bsp_fatal(RISCV_FATAL_NO_NS16550_REG_IN_DEVICE_TREE);
       }
+
+#if __CHERI__
+      /* Create a capability for UART */
+      ctx->port = cheri_build_data_cap((size_t) ctx->port, __builtin_cheri_length_get(ctx->port), 0xff);
+#endif /* __CHERI__ */
 
       val = (fdt32_t *) fdt_getprop(fdt, node, "clock-frequency", &len);
 

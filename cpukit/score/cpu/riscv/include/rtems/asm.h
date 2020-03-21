@@ -141,6 +141,9 @@
 
 #endif /* __riscv_xlen */
 
+#if __CHERI__
+#define LADDR cllc
+#else
 #ifdef __riscv_cmodel_medany
 
 #define LADDR lla
@@ -150,6 +153,7 @@
 #define LADDR la
 
 #endif /* __riscv_cmodel_medany */
+#endif /* __CHERI__ */
 
 #if __riscv_flen == 32
 

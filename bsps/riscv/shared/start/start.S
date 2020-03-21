@@ -48,6 +48,7 @@ TYPE_FUNC(_start)
 SYM(_start):
 
 #ifdef __CHERI__
+.option capmode
 # W^X for PCC and DDC
   cspecialrw      ct0, ddc, cnull
   li              t1, (1<<1)
@@ -59,17 +60,30 @@ SYM(_start):
   li              t1, ((1<<3) | (1<<5))
   not             t1, t1
   candperm        ct0, ct0, t1
-  la              t2, 1f
+  LADDR           ct2, 1f
   csetoffset      ct0, ct0, t2
   cjr             ct0
 1:
-#endif /* __CHERI__ */
+	/* Load global pointer */
+	.option	push
+	.option	norelax
+	LADDR	 cgp, __global_pointer$
+	.option	pop
 
+	/* Set exception handler */
+	LADDR	ct0, _RISCV_Exception_handler
+	csrw	mtvec, t0
+#else
 	/* Load global pointer */
 	.option	push
 	.option	norelax
 	LADDR	gp, __global_pointer$
 	.option	pop
+
+	/* Set exception handler */
+	LADDR	t0, _RISCV_Exception_handler
+	csrw	mtvec, t0
+#endif /* __CHERI__ */
 
 	/* Init FPU */
 #ifdef __riscv_flen
@@ -77,10 +91,6 @@ SYM(_start):
 	csrs	mstatus, t0
 	csrw	fcsr, zero
 #endif
-
-	/* Set exception handler */
-	LADDR	t0, _RISCV_Exception_handler
-	csrw	mtvec, t0
 
 	/* Load stack pointer and branch to secondary processor start if necessary */
 
@@ -93,31 +103,30 @@ SYM(_start):
   mv              s0, a1
 
   /* Setup the stack */
-  LADDR           t1, _ISR_Stack_area_end
-  LADDR           t0, _ISR_Stack_area_begin
+  LADDR            ct1, _ISR_Stack_area_end
+  LADDR            ct0, _ISR_Stack_area_begin
+  sub             t2, t1, t0
   cfromptr        csp, ddc, t0
-  LADDR           t2, _ISR_Stack_size
   csetbounds      csp, csp, t2
   csetoffset      csp, csp, t2
 
   /* From now on, run in purecap mode */
   cspecialrw      ct0, pcc, cnull
+  LADDR           ct1, purecap
+  csetaddr        ct0, ct0, t1
   li              t1, 1
   csetflags       ct0, ct0, t1
-  la              t1, purecap
-  csetoffset      ct0, ct0, t1
   cjr             ct0
 
 purecap:
   /* Initialise the captable. */
-  la              t1, riscv_cheri_init_globals
-  csetoffset      ct0, ct0, t1
+  LADDR           ct1, riscv_cheri_init_globals
+  csetaddr        ct0, ct0, t1
   cjalr           cra, ct0
 
   /* Pin _Per_CPU_Information to mscratchc. It is used in context switching
    * and interrupt handling
    */
-.option capmode
 	clgc	          ct2, _Per_CPU_Information
   cspecialrw      cnull, mscratchc, ct2
 
@@ -148,8 +157,7 @@ purecap:
 
 .option capmode
 	/* Setup CHERI trap code cap */
-  1:auipcc        ct2, %pcrel_hi(_RISCV_Exception_handler)
-  cincoffset      ct2, ct2, %pcrel_lo(1b)
+  clgc            ct2, _RISCV_Exception_handler
   cspecialrw      cnull, mtcc, ct2
 
   /* Jump to boot_card in purecap mode */

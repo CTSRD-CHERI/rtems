@@ -35,15 +35,24 @@
   *
   * @brief CHERI-RISC-V Utility
   */
-
-#ifndef _RTEMS_SCORE_CHERI_RISCV_UTILITY_H
-#define _RTEMS_SCORE_CHERI_RISCV_UTILITY_H
 #if __CHERI__
 
-#include <stddef.h>
+#include <cheri_init_globals.h>
+#include <rtems/score/cheri-utility.h>
 
-void *cheri_build_data_cap(size_t address, size_t size, size_t perms);
-void *cheri_build_code_cap(size_t address, size_t size, size_t perms);
+inline void *cheri_build_data_cap(size_t address, size_t size, size_t perms) {
+  void *returned_cap = __builtin_cheri_global_data_get();
+  returned_cap = __builtin_cheri_perms_and(returned_cap, perms);
+  returned_cap = __builtin_cheri_offset_set(returned_cap, address);
+  returned_cap = __builtin_cheri_bounds_set(returned_cap, size);
+  return returned_cap;
+}
 
+inline void *cheri_build_code_cap(size_t address, size_t size, size_t perms) {
+  void *returned_cap = __builtin_cheri_program_counter_get();
+  returned_cap = __builtin_cheri_perms_and(returned_cap, perms);
+  returned_cap = __builtin_cheri_offset_set(returned_cap, address);
+  returned_cap = __builtin_cheri_bounds_set(returned_cap, size);
+  return returned_cap;
+}
 #endif /* __CHERI__ */
-#endif

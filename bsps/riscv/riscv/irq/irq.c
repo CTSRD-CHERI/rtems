@@ -178,6 +178,11 @@ static void riscv_plic_init(const void *fdt)
 #endif
   }
 
+#if __CHERI__
+  /* Add rw permissions to the clint cap */
+  plic = cheri_build_data_cap((size_t) plic, __builtin_cheri_length_get(plic), 0xff);
+#endif /* __CHERI__ */
+
   val = fdt_getprop(fdt, node, "riscv,ndev", &len);
   if (val == NULL || len != 4) {
     bsp_fatal(RISCV_FATAL_INVALID_PLIC_NDEV_IN_DEVICE_TREE);

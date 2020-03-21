@@ -131,12 +131,13 @@ static void riscv_clint_init(const void *fdt)
     bsp_fatal(RISCV_FATAL_NO_CLINT_REG_IN_DEVICE_TREE);
   }
 
+  riscv_clint = clint;
+
 #if __CHERI__
   /* Add rw permissions to the clint cap */
-  clint = cheri_build_data_cap((size_t) clint, __builtin_cheri_length_get(clint), 0xff);
+  riscv_clint = cheri_build_data_cap((size_t) clint, sizeof(RISCV_CLINT_regs), 0xff);
+  clint = riscv_clint;
 #endif /* __CHERI__ */
-
-  riscv_clint = clint;
 
   val = fdt_getprop(fdt, node, "interrupts-extended", &len);
 
@@ -180,7 +181,7 @@ static void riscv_plic_init(const void *fdt)
 
 #if __CHERI__
   /* Add rw permissions to the clint cap */
-  plic = cheri_build_data_cap((size_t) plic, __builtin_cheri_length_get(plic), 0xff);
+  plic = cheri_build_data_cap((size_t) plic, sizeof(RISCV_PLIC_regs), 0xff);
 #endif /* __CHERI__ */
 
   val = fdt_getprop(fdt, node, "riscv,ndev", &len);

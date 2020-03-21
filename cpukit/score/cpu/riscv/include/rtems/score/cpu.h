@@ -91,7 +91,7 @@ extern "C" {
 #define CPU_SIZEOF_POINTER 16
 #define RISCV_CSR_SIZE     8
 #define RISCV_GPR_SIZE_BITS 4
-#define CPU_STACK_MINIMUM_SIZE 8192*2
+#define CPU_STACK_MINIMUM_SIZE 8192*4
 #else
 #error "Unsupported CHERI pointer size"
 #endif /* __riscv_clen */

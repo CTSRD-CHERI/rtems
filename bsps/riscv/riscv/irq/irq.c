@@ -386,3 +386,8 @@ void bsp_interrupt_get_affinity(
     }
   }
 }
+
+uint32_t bsp_fdt_map_intr(const uint32_t *intr, size_t icells)
+{
+  return intr[1];
+}

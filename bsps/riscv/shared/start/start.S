@@ -93,7 +93,8 @@ SYM(_start):
 #endif
 
 	li	a0, 0
-	j	boot_card
+  LADDR t0, boot_card
+  jr t0
 
 #ifdef RTEMS_SMP
 

@@ -153,9 +153,13 @@
 
 #if __riscv_flen == 32
 
+#if __CHERI__
+#define FLREG cflw
+#define FSREG cfsw
+#else
 #define FLREG flw
-
 #define FSREG fsw
+#endif
 
 #define FMVYX fmv.s.x
 
@@ -163,9 +167,13 @@
 
 #elif __riscv_flen == 64
 
+#if __CHERI__
+#define FLREG cfld
+#define FSREG cfsd
+#else
 #define FLREG fld
-
 #define FSREG fsd
+#endif
 
 #if __riscv_xlen == 32
 

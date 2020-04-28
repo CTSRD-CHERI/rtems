@@ -74,6 +74,48 @@ void *riscv_fdt_get_address(const void *fdt, int node)
   return (void *)(uintptr_t) addr;
 }
 
+size_t riscv_fdt_get_size(const void *fdt, int node)
+{
+  int parent;
+  int ac;
+  int len;
+  const uint32_t *reg;
+  size_t size;
+
+  parent = fdt_parent_offset(fdt, node);
+  if (parent < 0) {
+    return NULL;
+  }
+
+  ac = fdt_address_cells(fdt, parent);
+  if (ac != 1 && ac != 2) {
+    return NULL;
+  }
+
+  reg = fdt_getprop(fdt, node, "reg", &len);
+  if (reg == NULL || len < ac) {
+    return NULL;
+  }
+
+  reg +=ac;
+
+  size = 0;
+
+  while (ac > 0) {
+    size = (size << 32) | fdt32_to_cpu(*reg);
+    ++reg;
+    --ac;
+  }
+
+#if __riscv_xlen < 64
+  if (size > 0xffffffff) {
+    return NULL;
+  }
+#endif
+
+  return size;
+}
+
 #ifdef RTEMS_SMP
 uint32_t riscv_hart_count;
 

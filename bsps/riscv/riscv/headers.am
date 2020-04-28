@@ -14,3 +14,14 @@ include_bsp_HEADERS += ../../../../../../bsps/riscv/riscv/include/bsp/riscv.h
 include_dev_serialdir = $(includedir)/dev/serial
 include_dev_serial_HEADERS =
 include_dev_serial_HEADERS += ../../../../../../bsps/riscv/riscv/include/dev/serial/htif.h
+
+include_dev_virtiodir = $(includedir)/dev/virtio
+include_dev_virtio_HEADERS =
+include_dev_virtio_HEADERS += ../../../../../../bsps/riscv/virtio/virtio.h
+include_dev_virtio_HEADERS += ../../../../../../bsps/riscv/virtio/virtqueue.h
+include_dev_virtio_HEADERS += ../../../../../../bsps/riscv/virtio/virtio_config.h
+include_dev_virtio_HEADERS += ../../../../../../bsps/riscv/virtio/virtio_ids.h
+
+include_dev_vtmmiodir = $(includedir)/dev/virtio/mmio
+include_dev_vtmmio_HEADERS =
+include_dev_vtmmio_HEADERS += += ../../../../../../bsps/riscv/virtio/mmio/virtio_mmio.h

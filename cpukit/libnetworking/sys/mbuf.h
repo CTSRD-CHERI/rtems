@@ -46,7 +46,7 @@
  * at least MINCLSIZE of data must be stored.
  */
 
-#define	_SYS_MBUF_LEGACY_MSIZE 128
+#define	_SYS_MBUF_LEGACY_MSIZE 256
 #define	MLEN		(_SYS_MBUF_LEGACY_MSIZE - sizeof(struct m_hdr))	/* normal data len */
 #define	MHLEN		(MLEN - sizeof(struct pkthdr))	/* data len w/pkthdr */
 #define	MINCLSIZE	(MHLEN + MLEN)	/* smallest amount to put in cluster */

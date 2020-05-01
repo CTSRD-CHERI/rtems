@@ -61,6 +61,10 @@ librtemsbsp_a_SOURCES += ../../../../../../bsps/riscv/riscv/console/console-conf
 librtemsbsp_a_SOURCES += ../../../../../../bsps/riscv/riscv/console/htif.c
 librtemsbsp_a_SOURCES += ../../../../../../bsps/riscv/riscv/console/fe310-uart.c
 
+# pci
+librtemsbsp_a_SOURCES += ../../../../../../bsps/riscv/riscv/pci/pci.c
+librtemsbsp_a_SOURCES += ../../../../../../bsps/shared/dev/pci/pci_find_device.c
+
 # virtio
 librtemsbsp_a_SOURCES += ../../../../../../bsps/riscv/riscv/virtio/virtio.h
 librtemsbsp_a_SOURCES += ../../../../../../bsps/riscv/riscv/virtio/virtio_ring.h

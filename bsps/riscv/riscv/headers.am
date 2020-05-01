@@ -9,6 +9,7 @@ include_bspdir = $(includedir)/bsp
 include_bsp_HEADERS =
 include_bsp_HEADERS += ../../../../../../bsps/riscv/riscv/include/bsp/fe310-uart.h
 include_bsp_HEADERS += ../../../../../../bsps/riscv/riscv/include/bsp/irq.h
+include_bsp_HEADERS += ../../../../../../bsps/riscv/riscv/include/bsp/pci.h
 include_bsp_HEADERS += ../../../../../../bsps/riscv/riscv/include/bsp/riscv.h
 
 include_dev_serialdir = $(includedir)/dev/serial

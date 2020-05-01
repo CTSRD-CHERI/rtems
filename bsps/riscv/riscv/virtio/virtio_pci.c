@@ -35,8 +35,8 @@
 #include <bsp.h>
 #include <bsp/irq.h>
 
-#include <sys/mbuf.h>
 #include <sys/param.h>
+#include <sys/mbuf.h>
 
 #ifdef __PPC__
 #include <rtems/irq-extension.h>

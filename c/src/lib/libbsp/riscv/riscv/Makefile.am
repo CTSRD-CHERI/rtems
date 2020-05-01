@@ -61,6 +61,22 @@ librtemsbsp_a_SOURCES += ../../../../../../bsps/riscv/riscv/console/console-conf
 librtemsbsp_a_SOURCES += ../../../../../../bsps/riscv/riscv/console/htif.c
 librtemsbsp_a_SOURCES += ../../../../../../bsps/riscv/riscv/console/fe310-uart.c
 
+# virtio
+librtemsbsp_a_SOURCES += ../../../../../../bsps/riscv/riscv/virtio/virtio.h
+librtemsbsp_a_SOURCES += ../../../../../../bsps/riscv/riscv/virtio/virtio_ring.h
+librtemsbsp_a_SOURCES += ../../../../../../bsps/riscv/riscv/virtio/virtio.c
+librtemsbsp_a_SOURCES += ../../../../../../bsps/riscv/riscv/virtio/virtqueue.h
+librtemsbsp_a_SOURCES += ../../../../../../bsps/riscv/riscv/virtio/virtqueue.c
+librtemsbsp_a_SOURCES += ../../../../../../bsps/riscv/riscv/virtio/virtio_net.h
+librtemsbsp_a_SOURCES += ../../../../../../bsps/riscv/riscv/virtio/if_vtnetvar.h
+librtemsbsp_a_SOURCES += ../../../../../../bsps/riscv/riscv/virtio/if_vtnet.c
+librtemsbsp_a_SOURCES += ../../../../../../bsps/riscv/riscv/virtio/virtio_pci.h
+librtemsbsp_a_SOURCES += ../../../../../../bsps/riscv/riscv/virtio/virtio_pci.c
+
+#if HAS_NETWORKING
+librtemsbsp_a_SOURCES += ../../../../../../bsps/riscv/riscv/net/network.c
+#endif
+
 if HAS_SMP
 librtemsbsp_a_SOURCES += ../../../../../../bsps/riscv/riscv/start/bspsmp.c
 endif

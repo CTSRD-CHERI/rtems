@@ -28,9 +28,12 @@
 
 #define VTNET_LEGACY_TX
 
+#if __rtems__
+#define IFF_DRV_RUNNING IFF_RUNNING
 #include <rtems.h>
 #include <rtems/rtems_bsdnet.h>
 #include <machine/rtems-bsd-kernel-space.h>
+#endif
 
 #include <sys/param.h>
 #include <sys/mbuf.h>
@@ -54,7 +57,6 @@ static struct vtnet_softc vtnet_softc;
 static rtems_interval     vtnet_ticksPerSecond;
 static const char vtnet_nameunit[] = "vtnet";
 
-#define IFF_DRV_RUNNING IFF_RUNNING
 #define if_drv_flags if_flags
 
 #define device_get_softc(dev) &vtnet_softc

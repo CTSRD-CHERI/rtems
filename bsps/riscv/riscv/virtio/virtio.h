@@ -42,7 +42,7 @@
 #define mtx_assert(a,b) do {} while(0)
 #define howmany(x,y) (((x)+((y)-1))/(y))
 
-typedef int device_t;
+typedef struct device *device_t;
 typedef uint32_t bus_size_t;
 
 struct mtx { int dummy; };

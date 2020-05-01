@@ -33,8 +33,8 @@
 
 #include <bsp.h>
 #include <errno.h>
-#include <sys/mbuf.h>
 #include <sys/param.h>
+#include <sys/mbuf.h>
 
 #include "virtio.h"
 #include "virtqueue.h"

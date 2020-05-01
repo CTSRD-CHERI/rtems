@@ -238,9 +238,6 @@ Init (rtems_task_argument ignored)
     TEST_BEGIN();
 
     printf("\"Network\" initializing!\n");
-    virtio_config.name =RTEMS_BSP_NETWORK_DRIVER_NAME;
-    //virtio_config.attach =RTEMS_BSP_NETWORK_DRIVER_NAME;
-    //virtio_config.attach = rtems_virtio_net_driver_attach;
     virtio_config.attach = rtems_vtnet_driver_attach;
 
     rtems_bsdnet_config.ifconfig = &virtio_config;

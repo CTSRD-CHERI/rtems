@@ -35,6 +35,8 @@ const char rtems_test_name[] = "LOOPBACK";
 #define CONFIGURE_INIT
 rtems_task Init(rtems_task_argument argument);
 
+int rtems_vtnet_driver_attach(struct rtems_bsdnet_ifconfig *config, int attaching);
+
 #define CONFIGURE_INITIAL_EXTENSIONS RTEMS_TEST_INITIAL_EXTENSION
 
 #include <rtems/confdefs.h>
@@ -53,8 +55,10 @@ rtems_task Init(rtems_task_argument argument);
  * Network configuration
  */
 
+struct rtems_bsdnet_ifconfig virtio_config;
+
 struct rtems_bsdnet_config rtems_bsdnet_config = {
-    NULL,                   /* Network interface */
+    &virtio_config,                   /* Network interface */
     NULL,                   /* Use fixed network configuration */
     0,                      /* Default network task priority */
     0,                      /* Default mbuf capacity */
@@ -234,6 +238,13 @@ Init (rtems_task_argument ignored)
     TEST_BEGIN();
 
     printf("\"Network\" initializing!\n");
+    virtio_config.name =RTEMS_BSP_NETWORK_DRIVER_NAME;
+    //virtio_config.attach =RTEMS_BSP_NETWORK_DRIVER_NAME;
+    //virtio_config.attach = rtems_virtio_net_driver_attach;
+    virtio_config.attach = rtems_vtnet_driver_attach;
+
+    rtems_bsdnet_config.ifconfig = &virtio_config;
+
     rtems_bsdnet_initialize_network();
     printf("\"Network\" initialized!\n");
 

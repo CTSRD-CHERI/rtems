@@ -31,6 +31,7 @@
 #include <rtems.h>
 #include <rtems/pci.h>
 #include <rtems/rtems_bsdnet.h>
+#include <machine/rtems-bsd-kernel-space.h>
 
 #include <bsp.h>
 #include <bsp/irq.h>

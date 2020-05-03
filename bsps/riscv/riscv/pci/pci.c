@@ -34,7 +34,7 @@
 #define PCI_CONFIG_ADDR      0xcf8
 #endif
 #ifndef PCI_CONFIG_DATA
-#define PCI_CONFIG_DATA      0xcfc
+#define PCI_CONFIG_DATA      0x000
 #endif
 
 /* define a shortcut */

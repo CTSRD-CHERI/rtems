@@ -262,15 +262,16 @@ int direct_pci_read_config_byte(
   unsigned char offset,
   uint8_t      *val
 ) {
-  if (bus != 0 || (1<<slot & 0xff8007fe)) {
+  if (bus != 0) {
     *val=0xff;
      return PCIBIOS_DEVICE_NOT_FOUND;
   }
 
   JPRINTK("==>\n");
 
-  *val=in_8((uint32_t) (pci.pci_config_data + ((1<<slot)&~1)
-   + (function<<8) + offset));
+  *val=in_8((uintptr_t)((size_t) pci.pci_config_data |
+    (PCI_DEVFN(slot, function) << 12) |
+     offset & 0xfff));
 
   JPRINTK("\n\n");
 
@@ -287,14 +288,14 @@ int direct_pci_read_config_word(
   *val = 0xffff;
   if (offset&1)
     return PCIBIOS_BAD_REGISTER_NUMBER;
-  if (bus != 0 || (1<<slot & 0xff8007fe))
+  if (bus != 0)
      return PCIBIOS_DEVICE_NOT_FOUND;
 
   JPRINTK("==>\n");
 
-  *val=in_le16((uint32_t)
-      (pci.pci_config_data + ((1<<slot)&~1)
-       + (function<<8) + offset));
+  *val=in_16((uintptr_t)((size_t) pci.pci_config_data |
+    (PCI_DEVFN(slot, function) << 12) |
+     offset & 0xfff));
 
   JPRINTK("\n\n");
 
@@ -309,15 +310,18 @@ int direct_pci_read_config_dword(
   uint32_t     *val
 ) {
   *val = 0xffffffff;
-  if (offset&3)
+  if (offset&0x3) {
     return PCIBIOS_BAD_REGISTER_NUMBER;
-  if (bus != 0 || (1<<slot & 0xff8007fe))
+  }
+  if (bus != 0) {
      return PCIBIOS_DEVICE_NOT_FOUND;
+  }
 
   JPRINTK("==>\n");
 
-  *val=in_le32((uint32_t)(pci.pci_config_data +
-    ((1<<slot)&~1)+(function<<8) + offset));
+  *val=in_32((uintptr_t)((size_t) pci.pci_config_data |
+    (PCI_DEVFN(slot, function) << 12) |
+     offset & 0xfff));
 
   JPRINTK("\n\n");
 
@@ -331,13 +335,14 @@ int direct_pci_write_config_byte(
   unsigned char offset,
   uint8_t       val
 ) {
-  if (bus != 0 || (1<<slot & 0xff8007fe))
+  if (bus != 0)
      return PCIBIOS_DEVICE_NOT_FOUND;
 
   JPRINTK("==>\n");
 
-  out_8((uint32_t) (pci.pci_config_data + ((1<<slot)&~1) +
-    (function<<8) + offset),
+  out_8((uintptr_t)((size_t) pci.pci_config_data |
+    (PCI_DEVFN(slot, function) << 12) |
+     offset & 0xfff),
      val);
 
   JPRINTK("\n\n");
@@ -354,14 +359,15 @@ int direct_pci_write_config_word(
 ) {
   if (offset&1)
     return PCIBIOS_BAD_REGISTER_NUMBER;
-  if (bus != 0 || (1<<slot & 0xff8007fe))
+  if (bus != 0)
      return PCIBIOS_DEVICE_NOT_FOUND;
 
   JPRINTK("==>\n");
 
-  out_le16((uint32_t)(pci.pci_config_data + ((1<<slot)&~1) +
-    (function<<8) + offset),
-    val);
+  out_16((uintptr_t)((size_t) pci.pci_config_data |
+    (PCI_DEVFN(slot, function) << 12) |
+     offset & 0xfff),
+     val);
 
   JPRINTK("\n\n");
 
@@ -375,16 +381,16 @@ int direct_pci_write_config_dword(
   unsigned char offset,
   uint32_t      val
 ) {
-  if (offset&3)
+  if (offset&0x3)
     return PCIBIOS_BAD_REGISTER_NUMBER;
-  if (bus != 0 || (1<<slot & 0xff8007fe))
+  if (bus != 0)
      return PCIBIOS_DEVICE_NOT_FOUND;
 
   JPRINTK("direct_pci_write_config_dword==>\n");
 
-  out_le32((uint32_t)
-     (pci.pci_config_data + ((1<<slot)&~1)
-   + (function<<8) + offset),
+  out_32((uintptr_t)((size_t) pci.pci_config_data |
+    (PCI_DEVFN(slot, function) << 12) |
+     offset & 0xfff),
      val);
 
   JPRINTK("\n\n");

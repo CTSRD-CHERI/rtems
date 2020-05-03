@@ -147,20 +147,6 @@ void pci_busmaster_enable(
  * GLOBALS
  */
 unsigned char ucMaxPCIBus;
-const pci_config_access_functions pci_indirect_functions = {
-  indirect_pci_read_config_byte,
-  indirect_pci_read_config_word,
-  indirect_pci_read_config_dword,
-  indirect_pci_write_config_byte,
-  indirect_pci_write_config_word,
-  indirect_pci_write_config_dword
-};
-
-rtems_pci_config_t BSP_pci_configuration = {
-  (volatile unsigned char*)PCI_CONFIG_ADDR,
-  (volatile unsigned char*)PCI_CONFIG_DATA,
-  &pci_indirect_functions
-};
 
 const pci_config_access_functions pci_direct_functions = {
   direct_pci_read_config_byte,
@@ -170,6 +156,13 @@ const pci_config_access_functions pci_direct_functions = {
   direct_pci_write_config_word,
   direct_pci_write_config_dword
 };
+
+rtems_pci_config_t BSP_pci_configuration = {
+  (volatile unsigned char*)PCI_CONFIG_ADDR,
+  (volatile unsigned char*)PCI_CONFIG_DATA,
+  &pci_direct_functions
+};
+
 
 /*
  * PCI specific accesses.  Note these are made on 32 bit
@@ -317,140 +310,6 @@ void pci_out_16( uint32_t base, uint32_t addr, uint16_t val ) {
   *ptr = out_data;
 
   JPRINTK( "0x%x data: 0x%x\n", ptr, out_data);
-}
-
-/*
- * INDIRECT PCI CONFIGURATION ACCESSES
- */
-int indirect_pci_read_config_byte(
-  unsigned char bus,
-  unsigned char slot,
-  unsigned char function,
-  unsigned char offset,
-  uint8_t       *val
-) {
-
-  JPRINTK("==>\n");
-  PCI_CONFIG_SET_ADDR(pci.pci_config_addr, bus, slot, function, offset);
-  *val = in_8((uint32_t) (pci.pci_config_data +  (offset&3)) );
-  JPRINTK("\n\n");
-
-  return PCIBIOS_SUCCESSFUL;
-}
-
-int indirect_pci_read_config_word(
-  unsigned char bus,
-  unsigned char slot,
-  unsigned char function,
-  unsigned char offset,
-  uint16_t      *val
-) {
-
-  JPRINTK("==>\n");
-
-  *val = 0xffff;
-  if (offset&1)
-    return PCIBIOS_BAD_REGISTER_NUMBER;
-
-  PCI_CONFIG_SET_ADDR(pci.pci_config_addr, bus, slot, function, offset);
-  *val = in_16((uint32_t)(pci.pci_config_data + (offset&3)));
-
-  JPRINTK("\n\n");
-
-  return PCIBIOS_SUCCESSFUL;
-}
-
-int indirect_pci_read_config_dword(
-  unsigned char bus,
-  unsigned char slot,
-  unsigned char function,
-  unsigned char offset,
-  uint32_t *val
-) {
-  uint32_t v;
-  JPRINTK("==>\n");
-
-  *val = 0xffffffff;
-  if (offset&3)
-    return PCIBIOS_BAD_REGISTER_NUMBER;
-  PCI_CONFIG_SET_ADDR(pci.pci_config_addr, bus, slot, function, offset);
-  v = in_32( (uint32_t) pci.pci_config_data );
-  *val = v;
-   if ( offset == 0x0b )
-     JPRINTK( "%x:%x %x ==> 0x%08x, 0x%08x\n", bus, slot, function, v, *val );
-
-  JPRINTK("\n\n");
-
-  return PCIBIOS_SUCCESSFUL;
-}
-
-int indirect_pci_write_config_byte(
-  unsigned char bus,
-  unsigned char slot,
-  unsigned char function,
-  unsigned char offset,
-  uint8_t       val
-) {
-
-  JPRINTK("==>\n");
-
-  PCI_CONFIG_SET_ADDR(pci.pci_config_addr, bus, slot, function, offset);
-  out_8( (uint32_t) (pci.pci_config_data + (offset&3)), val);
-
-  JPRINTK("\n\n");
-
-  return PCIBIOS_SUCCESSFUL;
-}
-
-int indirect_pci_write_config_word(
-  unsigned char bus,
-  unsigned char slot,
-  unsigned char function,
-  unsigned char offset,
-  uint16_t      val
-) {
-
-  JPRINTK("==>\n");
-
-  if (offset&1)
-    return PCIBIOS_BAD_REGISTER_NUMBER;
-
-  PCI_CONFIG_SET_ADDR(pci.pci_config_addr, bus, slot, function, offset);
-  out_16((uint32_t)(pci.pci_config_data + (offset&3)), val);
-
-  JPRINTK("\n\n");
-
-  return PCIBIOS_SUCCESSFUL;
-}
-
-int indirect_pci_write_config_dword(
-  unsigned char bus,
-  unsigned char slot,
-  unsigned char function,
-  unsigned char offset,
-  uint32_t      val
-) {
-
-  if (offset&3)
-    return PCIBIOS_BAD_REGISTER_NUMBER;
-
-  JPRINTK("==>\n");
-
-  /*
-   * The Base Address Registers get accessed big endian while the
-   * other registers are little endian.
-   */
-  PCI_CONFIG_SET_ADDR(pci.pci_config_addr, bus, slot, function, offset);
-  if ( bus == 0 && slot == 0x0b &&
-       (offset >= PCI_BASE_ADDRESS_0 && offset <= PCI_BASE_ADDRESS_5) ) {
-    out_32((uint32_t)pci.pci_config_data, val);
-  } else {
-    out_le32((uint32_t)pci.pci_config_data, val);
-  }
-
-  JPRINTK("\n\n");
-
-  return PCIBIOS_SUCCESSFUL;
 }
 
 /*

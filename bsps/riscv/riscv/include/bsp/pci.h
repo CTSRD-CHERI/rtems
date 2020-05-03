@@ -67,73 +67,23 @@ int indirect_pci_read_config_byte(
   uint8_t       *val
 );
 
-int indirect_pci_read_config_word(
-  unsigned char bus,
-  unsigned char slot,
-  unsigned char function,
-  unsigned char offset,
-  uint16_t      *val
-);
-
-int indirect_pci_read_config_dword(
-  unsigned char bus,
-  unsigned char slot,
-  unsigned char function,
-  unsigned char offset,
-  uint32_t *val
-);
-
-int indirect_pci_write_config_byte(
-  unsigned char bus,
-  unsigned char slot,
-  unsigned char function,
-  unsigned char offset,
-  uint8_t       val
-);
-
-int indirect_pci_write_config_word(
-  unsigned char bus,
-  unsigned char slot,
-  unsigned char function,
-  unsigned char offset,
-  uint16_t      val
-);
-
-int indirect_pci_write_config_dword(
-  unsigned char bus,
-  unsigned char slot,
-  unsigned char function,
-  unsigned char offset,
-  uint32_t      val
-);
-
 /* Can these be moved to the rtems pci.h? */
 int FindPCIbridge( int mybus, struct pcibridge *pb );
 
 const pci_config_access_functions pci_indirect_functions;
 
-void     pci_out_le32( uint32_t base, uint32_t addr, uint32_t val);
-void     pci_out_32( uint32_t base, uint32_t addr, uint32_t val);
 uint8_t  pci_in_8    ( uint32_t base, uint32_t addr );
-int16_t  pci_in_le16 ( uint32_t base, uint32_t addr );
-uint32_t pci_in_le32 ( uint32_t base, uint32_t addr );
 int16_t  pci_in_16 ( uint32_t base, uint32_t addr );
 uint32_t pci_in_32 ( uint32_t base, uint32_t addr );
 void     pci_out_8   ( uint32_t base, uint32_t addr, uint8_t val );
-void     pci_out_le16( uint32_t base, uint32_t addr, uint16_t val );
 void     pci_out_16( uint32_t base, uint32_t addr, uint16_t val );
 void     pci_out_32  ( uint32_t base, uint32_t addr, uint32_t val);
 
-#define out_32(_addr, _val)   pci_out_32(BSP_PCI_BASE_ADDRESS, _addr, _val)
-#define out_le32(_addr, _val) pci_out_le32(BSP_PCI_BASE_ADDRESS, _addr, _val)
-#define out_32(_addr, _val)   pci_out_32(BSP_PCI_BASE_ADDRESS, _addr, _val)
 #define in_8(_addr)           pci_in_8( BSP_PCI_BASE_ADDRESS, _addr )
-#define in_le16(_addr)        pci_in_le16( BSP_PCI_BASE_ADDRESS, _addr )
-#define in_le32(_addr)        pci_in_le32( BSP_PCI_BASE_ADDRESS, _addr )
 #define in_16(_addr)          pci_in_16( BSP_PCI_BASE_ADDRESS, _addr )
 #define in_32(_addr)          pci_in_32( BSP_PCI_BASE_ADDRESS, _addr )
 #define out_8(_addr,_val)     pci_out_8( BSP_PCI_BASE_ADDRESS, _addr, _val )
-#define out_le16(_addr,_val)  pci_out_le16( BSP_PCI_BASE_ADDRESS, _addr, _val )
 #define out_16(_addr,_val)    pci_out_16( BSP_PCI_BASE_ADDRESS, _addr, _val )
+#define out_32(_addr, _val)   pci_out_32(BSP_PCI_BASE_ADDRESS, _addr, _val)
 
 #endif /* BSP_PCI_H */

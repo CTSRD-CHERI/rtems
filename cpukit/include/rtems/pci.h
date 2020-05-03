@@ -967,6 +967,9 @@ extern "C" {
 #define PCI_VENDOR_ID_CBOARDS                      0x1307
 #define PCI_DEVICE_ID_CBOARDS_DAS1602_16           0x0001
 
+#define PCI_VENDOR_ID_VIRTIO                       0x1af4
+#define PCI_DEVICE_ID_VIRTIO_NETWORK               0x1000
+
 #define PCI_VENDOR_ID_SYMPHONY                     0x1c1c
 #define PCI_DEVICE_ID_SYMPHONY_101                 0x0001
 

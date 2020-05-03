@@ -62,6 +62,8 @@
 extern "C" {
 #endif
 
+#define BSP_PCI_BASE_ADDRESS     (0x30000000UL)
+
 #define BSP_FEATURE_IRQ_EXTENSION
 
 #define BSP_FDT_IS_SUPPORTED

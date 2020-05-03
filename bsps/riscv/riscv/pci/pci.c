@@ -861,37 +861,23 @@ int pci_initialize(void)
             0, slot, func, PCI_INTERRUPT_LINE, MALTA_IRQ_ETHERNET );
 
         /*
-         * Rewrite BAR1 for RTL8139
+         * Rewrite BAR1 for VIRTIO NETWORK
          */
-        if ( vendor == PCI_VENDOR_ID_REALTEK &&
-             device == PCI_DEVICE_ID_REALTEK_8139 ) {
+        if ( vendor == PCI_VENDOR_ID_VIRTIO &&
+             device == PCI_DEVICE_ID_VIRTIO_NETWORK ) {
 
           pci_memory_enable(0, slot, func);
           pci_io_enable(0, slot, func);
           pci_busmaster_enable(0, slot, func);
 
           // BAR0: IO at 0x0000_1001
-          pci_write_config_dword(0, slot, func, PCI_BASE_ADDRESS_0, 0x00001001);
+          pci_write_config_dword(0, slot, func, PCI_BASE_ADDRESS_0, 0x10008000);
 
           // BAR1: Memory at 0x1203_1000
-          pci_write_config_dword(0, slot, func, PCI_BASE_ADDRESS_1, 0x12031000);
+          pci_write_config_dword(0, slot, func, PCI_BASE_ADDRESS_1, 0x10008000);
 
-          // print_bars( slot, func );
-       } else if ( vendor == PCI_VENDOR_ID_AMD &&
-                   device == PCI_DEVICE_ID_AMD_LANCE ) {
-         print_bars( slot, func );
-         pci_memory_enable(0, slot, func);
-         pci_io_enable(0, slot, func);
-         pci_busmaster_enable(0, slot, func);
-
-         // BAR0: IO at 0x0000_1041
-         pci_write_config_dword(0, slot, func, PCI_BASE_ADDRESS_0, 0x00001041);
-
-         // BAR1: Memory at 0x1201_1020
-         pci_write_config_dword(0, slot, func, PCI_BASE_ADDRESS_1, 0x12011020);
-         print_bars( slot, func );
+           print_bars( slot, func );
        }
-
       }
     }
   }

@@ -28,6 +28,7 @@
 #include <bsp/fdt.h>
 #include <bsp/irq-generic.h>
 #include <bsp/riscv.h>
+#include <bsp/pci.h>
 
 #include <libfdt.h>
 #include <string.h>
@@ -240,5 +241,9 @@ void bsp_start(void)
 {
   riscv_find_harts();
   bsp_interrupt_initialize();
+
+   /* init PCI interface */
+  pci_initialize();
+
   riscv_core_freq = get_core_frequency();
 }

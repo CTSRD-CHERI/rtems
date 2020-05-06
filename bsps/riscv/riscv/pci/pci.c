@@ -5,6 +5,7 @@
  */
 
 /*
+ *  Copyright (c) 2020 Hesham Almatary.
  *  COPYRIGHT (c) 1989-2012.
  *  On-Line Applications Research Corporation (OAR).
  *
@@ -810,17 +811,15 @@ int pci_initialize(void)
   uint32_t device;
   uint32_t vendor;
 
-  /*
-   * Initialize GT_PCI0IOREMAP
-   */
-  pci_out_32( BSP_PCI_BASE_ADDRESS, 0xf0, 0 );
-
-  /*
-   *  According to Linux and BSD sources, this is needed to cover up a bug
-   *  in some versions of the hardware.
-   */
-  out_le32( PCI_CONFIG_ADDR, 0x80000020 );
-  out_le32( PCI_CONFIG_DATA, 0x1be00000 );
+#if DEBUG_PCI
+  /* Arbitrary print all non -1 slot from PCI address space */
+  for(uint32_t addr = 0x30000000; addr < 0x40000000; addr+=4) {
+    if (*((uint32_t *) addr) != PCI_INVALID_VENDORDEVICEID) {
+      printk("PCI[0x%x] = 0x%x\n", addr, *((uint32_t *) addr));
+      continue;
+    }
+  }
+#endif
 
   /*
    * Scan PCI bus 0 looking for the known Network devices and
@@ -852,13 +851,14 @@ int pci_initialize(void)
       pci_read_config_dword(0, slot, func, PCI_CLASS_REVISION, &class);
       class >>= 16;
 
-      // printk( "FOUND DEVICE 0x%04x/0x%04x class 0x%x\n",
-      //          vendor, device, class );
+      printk( "FOUND DEVICE 0x%04x/0x%04x class 0x%x\n",
+                vendor, device, class );
+
       if (class == PCI_CLASS_NETWORK_ETHERNET) {
         JPRINTK("FOUND ETHERNET\n");
 
         pci_write_config_byte(
-            0, slot, func, PCI_INTERRUPT_LINE, MALTA_IRQ_ETHERNET );
+            0, slot, func, PCI_INTERRUPT_LINE, 10 );
 
         /*
          * Rewrite BAR1 for VIRTIO NETWORK
@@ -870,13 +870,10 @@ int pci_initialize(void)
           pci_io_enable(0, slot, func);
           pci_busmaster_enable(0, slot, func);
 
-          // BAR0: IO at 0x0000_1001
-          pci_write_config_dword(0, slot, func, PCI_BASE_ADDRESS_0, 0x10008000);
+          // BAR0: IO at 0x3000_8040
+          pci_write_config_dword(0, slot, func, PCI_BASE_ADDRESS_0, 0x30008040);
 
-          // BAR1: Memory at 0x1203_1000
-          pci_write_config_dword(0, slot, func, PCI_BASE_ADDRESS_1, 0x10008000);
-
-           print_bars( slot, func );
+          print_bars( slot, func );
        }
       }
     }

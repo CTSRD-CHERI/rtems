@@ -70,10 +70,10 @@ extern "C" {
 
 #define outport_byte(port,val) *((unsigned char volatile*)(port)) = (val)
 #define inport_byte(port,val) (val) = *((unsigned char volatile*)(port))
-#define outport_word(port,val) *((unsigned int volatile*)(port)) = (val)
-#define inport_word(port,val) (val) = *((unsigned int volatile*)(port))
-#define outport_long(port,val) *((unsigned long volatile*)(port)) = (val)
-#define inport_long(port,val) (val) = *((unsigned long volatile*)(port))
+#define outport_word(port,val) *((unsigned short volatile*)(port)) = (val)
+#define inport_word(port,val) (val) = *((unsigned short volatile*)(port))
+#define outport_long(port,val) *((unsigned int volatile*)(port)) = (val)
+#define inport_long(port,val) (val) = *((unsigned int volatile*)(port))
 
 #ifdef __cplusplus
 }

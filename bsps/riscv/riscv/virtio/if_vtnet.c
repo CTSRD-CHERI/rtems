@@ -1019,7 +1019,8 @@ vtnet_setup_interface(struct vtnet_softc *sc)
 	IFQ_SET_MAXLEN(&ifp->if_snd, virtqueue_size(vq) - 1);
 	ifp->if_unit = sc->vtpci_softc->unit_number;
 	ifp->if_name = sc->vtpci_softc->unit_name;
-	ifp->if_mtu = sc->config->mtu ? sc->config->mtu : ETHERMTU;
+	//ifp->if_mtu = sc->config->mtu ? sc->config->mtu : ETHERMTU;
+	ifp->if_mtu = ETHERMTU;
 	ifp->if_output = ether_output;
 	if_attach(ifp);
 #endif

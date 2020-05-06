@@ -237,6 +237,66 @@ uint32_t riscv_get_core_frequency(void)
   return riscv_core_freq;
 }
 
+#define RISCV_CONSOLE_IS_COMPATIBLE(actual, actual_len, desired) \
+  (actual_len == sizeof(desired) \
+     && memcmp(actual, desired, sizeof(desired) - 1) == 0)
+
+#if 0
+/*
+ * probe for virtio in FDT
+ */
+uintptr_t riscv_pci_probe(void)
+{
+  const void *fdt;
+  int node;
+  void *address;
+  size_t size;
+  int irq = 0;
+  int len;
+  fdt32_t *val;
+
+  fdt = bsp_fdt_get();
+
+  node = fdt_path_offset(fdt, "/soc");
+
+  if (node >= 0) {
+    const char *compat;
+    int compat_len;
+
+    compat = fdt_getprop(fdt, node, "compatible", &compat_len);
+    if (compat == NULL) {
+      compat_len = 0;
+    }
+
+    if (RISCV_CONSOLE_IS_COMPATIBLE(compat, compat_len, "virtio,mmio")) {
+
+      address = riscv_fdt_get_address(fdt, node);
+
+      if (address == NULL) {
+        bsp_fatal(RISCV_FATAL_NO_VIRTIO_REG_IN_DEVICE_TREE);
+      }
+
+      size = riscv_fdt_get_size(fdt, node);
+
+      val = (fdt32_t *) fdt_getprop(fdt, node, "interrupts", &len);
+
+      if (val == NULL || len != 4) {
+        bsp_fatal(RISCV_FATAL_NO_VIRTIO_INTERRUPTS_IN_DEVICE_TREE);
+      }
+
+      irq = RISCV_INTERRUPT_VECTOR_EXTERNAL(fdt32_to_cpu(val[0]));
+
+      uint32_t *inspect = (uint32_t *) address;
+      for(int i=0; i < 40; i ++) {
+        printf("virtio 0x%lx = 0x%x\n", i * 4, inspect[i]);
+      }
+    }
+  }
+
+  return address;
+}
+#endif
+
 void bsp_start(void)
 {
   riscv_find_harts();

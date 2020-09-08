@@ -97,7 +97,7 @@ uintptr_t rtems_configuration_get_stack_space_size( void );
 #define rtems_configuration_get_work_space_size() \
         (_Workspace_Size + \
           (rtems_configuration_get_stack_allocator_avoids_work_space() ? \
-            0 : rtems_configuration_get_stack_space_size()))
+            0 : (size_t) rtems_configuration_get_stack_space_size()))
 
 uint32_t rtems_configuration_get_maximum_extensions( void );
 

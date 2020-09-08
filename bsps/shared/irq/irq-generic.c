@@ -166,7 +166,7 @@ void bsp_interrupt_initialize(void)
   /* Initialize handler table */
   for (i = 0; i < BSP_INTERRUPT_HANDLER_TABLE_SIZE; ++i) {
     bsp_interrupt_handler_table [i].handler = bsp_interrupt_handler_empty;
-    bsp_interrupt_handler_table [i].arg = (void *) i;
+    bsp_interrupt_handler_table [i].arg = (void *)(uintptr_t) i;
   }
 
   sc = bsp_interrupt_facility_initialize();

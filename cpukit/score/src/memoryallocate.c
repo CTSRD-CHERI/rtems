@@ -52,7 +52,7 @@ void *_Memory_Allocate(
     alloc_begin = (uintptr_t) area->free;
     alloc_begin += alignment_mask;
     alloc_begin &= ~alignment_mask;
-    alloc_end = alloc_begin + size;
+    alloc_end = alloc_begin + (size_t) size;
 
     if ( alloc_begin <= alloc_end && alloc_end <= (uintptr_t) area->end ) {
       area->free = (void *) alloc_end;

@@ -163,7 +163,7 @@ bool _Heap_Free( Heap_Control *heap, void *alloc_begin_ptr )
     }
 
     if ( next_is_free ) {       /* coalesce both */
-      uintptr_t const size = block_size + prev_size + next_block_size;
+      uintptr_t const size = block_size + (size_t) prev_size + (size_t) next_block_size;
       _Heap_Free_list_remove( next_block );
       stats->free_blocks -= 1;
       prev_block->size_and_flag = size | HEAP_PREV_BLOCK_USED;
@@ -171,13 +171,13 @@ bool _Heap_Free( Heap_Control *heap, void *alloc_begin_ptr )
       _HAssert(!_Heap_Is_prev_used( next_block));
       next_block->prev_size = size;
     } else {                      /* coalesce prev */
-      uintptr_t const size = block_size + prev_size;
+      uintptr_t const size = block_size + (size_t) prev_size;
       prev_block->size_and_flag = size | HEAP_PREV_BLOCK_USED;
       next_block->size_and_flag &= ~HEAP_PREV_BLOCK_USED;
       next_block->prev_size = size;
     }
   } else if ( next_is_free ) {    /* coalesce next */
-    uintptr_t const size = block_size + next_block_size;
+    uintptr_t const size = block_size + (size_t) next_block_size;
     _Heap_Free_list_replace( next_block, block );
     block->size_and_flag = size | HEAP_PREV_BLOCK_USED;
     next_block  = _Heap_Block_at( block, size );

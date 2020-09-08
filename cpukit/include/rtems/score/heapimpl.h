@@ -592,7 +592,7 @@ RTEMS_INLINE_ROUTINE uintptr_t _Heap_Align_down(
   uintptr_t alignment
 )
 {
-  return value - (value % alignment);
+  return value - (size_t) (value % alignment);
 }
 
 /**
@@ -608,7 +608,7 @@ RTEMS_INLINE_ROUTINE Heap_Block *_Heap_Block_at(
   uintptr_t offset
 )
 {
-  return (Heap_Block *) ((uintptr_t) block + offset);
+  return (Heap_Block *) ((uintptr_t) block + (size_t) offset);
 }
 
 /**
@@ -681,7 +681,7 @@ RTEMS_INLINE_ROUTINE void _Heap_Block_set_size(
 {
   uintptr_t flag = block->size_and_flag & HEAP_PREV_BLOCK_USED;
 
-  block->size_and_flag = size | flag;
+  block->size_and_flag = (size_t) size | flag;
 }
 
 /**
@@ -766,7 +766,7 @@ RTEMS_INLINE_ROUTINE void _Heap_Set_last_block_size( Heap_Control *heap )
 {
   _Heap_Block_set_size(
     heap->last_block,
-    (uintptr_t) heap->first_block - (uintptr_t) heap->last_block
+    (size_t) heap->first_block - (size_t) heap->last_block
   );
 }
 

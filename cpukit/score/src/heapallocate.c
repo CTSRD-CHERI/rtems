@@ -141,14 +141,14 @@ static uintptr_t _Heap_Check_block(
 
   uintptr_t const block_begin = (uintptr_t) block;
   uintptr_t const block_size = _Heap_Block_size( block );
-  uintptr_t const block_end = block_begin + block_size;
+  uintptr_t const block_end = block_begin + (size_t) block_size;
 
   uintptr_t const alloc_begin_floor = _Heap_Alloc_area_of_block( block );
-  uintptr_t const alloc_begin_ceiling = block_end - min_block_size
-    + HEAP_BLOCK_HEADER_SIZE + page_size - 1;
+  uintptr_t const alloc_begin_ceiling = block_end - (size_t) min_block_size
+    + HEAP_BLOCK_HEADER_SIZE + (size_t) page_size - 1;
 
   uintptr_t alloc_end = block_end + HEAP_ALLOC_BONUS;
-  uintptr_t alloc_begin = alloc_end - alloc_size;
+  uintptr_t alloc_begin = alloc_end - (size_t) alloc_size;
 
   alloc_begin = _Heap_Align_down( alloc_begin, alignment );
 
@@ -157,20 +157,20 @@ static uintptr_t _Heap_Check_block(
     alloc_begin = _Heap_Align_down( alloc_begin_ceiling, alignment );
   }
 
-  alloc_end = alloc_begin + alloc_size;
+  alloc_end = alloc_begin + (size_t) alloc_size;
 
   /* Ensure boundary constaint */
   if ( boundary != 0 ) {
-    uintptr_t const boundary_floor = alloc_begin_floor + alloc_size;
+    uintptr_t const boundary_floor = alloc_begin_floor + (size_t) alloc_size;
     uintptr_t boundary_line = _Heap_Align_down( alloc_end, boundary );
 
     while ( alloc_begin < boundary_line && boundary_line < alloc_end ) {
       if ( boundary_line < boundary_floor ) {
         return 0;
       }
-      alloc_begin = boundary_line - alloc_size;
+      alloc_begin = boundary_line - (size_t) alloc_size;
       alloc_begin = _Heap_Align_down( alloc_begin, alignment );
-      alloc_end = alloc_begin + alloc_size;
+      alloc_end = alloc_begin + (size_t) alloc_size;
       boundary_line = _Heap_Align_down( alloc_end, boundary );
     }
   }
@@ -179,7 +179,7 @@ static uintptr_t _Heap_Check_block(
   if ( alloc_begin >= alloc_begin_floor ) {
     uintptr_t const alloc_block_begin =
       (uintptr_t) _Heap_Block_of_alloc_area( alloc_begin, page_size );
-    uintptr_t const free_size = alloc_block_begin - block_begin;
+    uintptr_t const free_size = alloc_block_begin - (size_t) block_begin;
 
     if ( free_size >= min_block_size || free_size == 0 ) {
       return alloc_begin;

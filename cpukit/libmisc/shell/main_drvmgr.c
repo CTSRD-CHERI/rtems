@@ -37,7 +37,7 @@ static void *get_obj_adr(char *arg)
     return NULL;
   }
 
-  return (void *)obj_adr;
+  return (void *)(uintptr_t) obj_adr;
 }
 
 /* General info, root bus, number of devices etc. */
@@ -314,13 +314,13 @@ static int shell_drvmgr_translate(int argc, char *argv[])
     return 0;
   }
 
-  rc = drvmgr_translate((struct drvmgr_dev *)obj, up | rev, (void *)src, &dst);
+  rc = drvmgr_translate((struct drvmgr_dev *)obj, up | rev, (void *)(uintptr_t) src, &dst);
   if (rc == 0)
-    printf(" Address %p could not be translated\n", (void *)src);
+    printf(" Address %p could not be translated\n", (void *)(uintptr_t) src);
   else if (rc == 0xffffffff)
-    printf(" %p => %p  (no translation required)\n", (void *)src, dst);
+    printf(" %p => %p  (no translation required)\n", (void *)(uintptr_t) src, dst);
   else
-    printf(" %p => %p  (map size 0x%x)\n", (void *)src, dst, rc);
+    printf(" %p => %p  (map size 0x%x)\n", (void *)(uintptr_t) src, dst, rc);
 
   return 0;
 }

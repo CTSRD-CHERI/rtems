@@ -38,7 +38,7 @@ static Heap_Resize_status _Heap_Resize_block_checked(
   uintptr_t block_size = _Heap_Block_size( block );
   uintptr_t block_end = block_begin + block_size;
 
-  uintptr_t alloc_size = block_end - alloc_begin + HEAP_ALLOC_BONUS;
+  uintptr_t alloc_size = block_end - (size_t) alloc_begin + HEAP_ALLOC_BONUS;
 
   Heap_Block *next_block = _Heap_Block_at( block, block_size );
   uintptr_t next_block_size = _Heap_Block_size( next_block );
@@ -68,14 +68,14 @@ static Heap_Resize_status _Heap_Resize_block_checked(
 
     /* Statistics */
     --stats->free_blocks;
-    stats->free_size -= next_block_size;
+    stats->free_size -= (size_t) next_block_size;
   }
 
   block = _Heap_Block_allocate( heap, block, alloc_begin, new_alloc_size );
 
   block_size = _Heap_Block_size( block );
   next_block = _Heap_Block_at( block, block_size );
-  *new_size = (uintptr_t) next_block - alloc_begin + HEAP_ALLOC_BONUS;
+  *new_size = (uintptr_t) next_block - (size_t) alloc_begin + HEAP_ALLOC_BONUS;
 
   /* Statistics */
   ++stats->resizes;

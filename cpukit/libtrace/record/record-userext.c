@@ -105,7 +105,7 @@ void _Record_Thread_switch(
   items[ 1 ].data =
 #if defined(__GNUC__)
     (uintptr_t) __builtin_frame_address( 0 )
-      - (uintptr_t) executing->Start.Initial_stack.area;
+      - (size_t) executing->Start.Initial_stack.area;
 #else
     0;
 #endif

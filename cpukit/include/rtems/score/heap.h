@@ -418,7 +418,7 @@ RTEMS_INLINE_ROUTINE uintptr_t _Heap_Align_up(
   uintptr_t remainder = value % alignment;
 
   if ( remainder != 0 ) {
-    return value - remainder + alignment;
+    return value - (size_t) remainder + (size_t) alignment;
   } else {
     return value;
   }
@@ -482,7 +482,7 @@ RTEMS_INLINE_ROUTINE uintptr_t _Heap_Size_with_overhead(
     page_size = alignment;
   }
 
-  return HEAP_BLOCK_HEADER_SIZE + page_size - 1 + size;
+  return HEAP_BLOCK_HEADER_SIZE + page_size - 1 + (size_t) size;
 }
 
 /** @} */

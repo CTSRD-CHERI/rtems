@@ -269,9 +269,9 @@ RTEMS_INLINE_ROUTINE void _Memory_Set_free_begin(
  *
  * @return The free memory area size in bytes of the memory area.
  */
-RTEMS_INLINE_ROUTINE uintptr_t _Memory_Get_free_size( const Memory_Area *area )
+RTEMS_INLINE_ROUTINE size_t _Memory_Get_free_size( const Memory_Area *area )
 {
-  return (uintptr_t) area->end - (uintptr_t) area->free;
+  return (size_t) area->end - (size_t) area->free;
 }
 
 /**

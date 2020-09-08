@@ -71,8 +71,8 @@ void _Workspace_Handler_initialization(
         size = free_size;
       } else {
         if ( remaining > 0 ) {
-          size = remaining < free_size - overhead ?
-            remaining + overhead : free_size;
+          size = remaining < free_size - (size_t) overhead ?
+            remaining + (size_t) overhead : free_size;
         } else {
           size = 0;
         }
@@ -88,7 +88,7 @@ void _Workspace_Handler_initialization(
       _Memory_Consume( area, size );
 
       if ( space_available < remaining ) {
-        remaining -= space_available;
+        remaining -= (size_t) space_available;
       } else {
         remaining = 0;
       }

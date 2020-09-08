@@ -57,7 +57,7 @@ RTEMS_INLINE_ROUTINE void *_Addresses_Add_offset (
   uintptr_t   offset
 )
 {
-  return (void *)((uintptr_t)base + offset);
+  return (void *)((uintptr_t)base + (size_t)offset);
 }
 
 /**
@@ -163,7 +163,7 @@ RTEMS_INLINE_ROUTINE void *_Addresses_Align_up(
 )
 {
   uintptr_t mask = alignment - (uintptr_t)1;
-  return (void*)(((uintptr_t)address + mask) & ~mask);
+  return (void*)(((uintptr_t)address + (size_t) mask) & (size_t) ~mask);
 }
 
 /**
@@ -185,7 +185,7 @@ RTEMS_INLINE_ROUTINE void *_Addresses_Align_down(
 )
 {
   uintptr_t mask = alignment - (uintptr_t)1;
-  return (void*)((uintptr_t)address & ~mask);
+  return (void*)((uintptr_t)address & (size_t) ~mask);
 }
 
 /** @} */

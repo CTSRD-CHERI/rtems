@@ -119,7 +119,7 @@ static inline uintptr_t _TLS_Heap_align_up( uintptr_t val )
 {
   uintptr_t msk = CPU_HEAP_ALIGNMENT - 1;
 
-  return (val + msk) & ~msk;
+  return (val + (size_t) msk) & (size_t) ~msk;
 }
 
 /**
@@ -266,8 +266,8 @@ static inline void *_TLS_TCB_after_TLS_block_initialize( void *tls_area )
   uintptr_t heap_align = _TLS_Heap_align_up( tls_align );
   uintptr_t heap_mask = heap_align - 1;
   TLS_Thread_control_block *tcb = (TLS_Thread_control_block *)
-    ((char *) tls_area + ((size + heap_mask) & ~heap_mask));
-  void *tls_block = (char *) tcb - ((size + tls_mask) & ~tls_mask);
+    ((char *) tls_area + (((size_t) size + heap_mask) & (size_t) ~heap_mask));
+  void *tls_block = (char *) tcb - (((size_t) size + tls_mask) & (size_t) ~tls_mask);
   TLS_Dynamic_thread_vector *dtv = (TLS_Dynamic_thread_vector *)
     ((char *) tcb + sizeof(*tcb));
 

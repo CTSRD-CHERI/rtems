@@ -104,7 +104,7 @@ bool _Thread_Initialize(
 
     tls_align = (uintptr_t) __TLS_Alignment;
     the_thread->Start.tls_area = (void *)
-      ( ( (uintptr_t) stack_area + tls_align - 1 ) & ~( tls_align - 1 ) );
+      ( ( (uintptr_t) stack_area + (size_t) tls_align - 1 ) & (size_t) ~( tls_align - 1 ) );
     stack_size -= tls_size;
     stack_area += tls_size;
   }

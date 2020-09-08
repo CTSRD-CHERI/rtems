@@ -57,7 +57,7 @@ static void _Heap_Merge_below(
     new_first_block_alloc_begin - HEAP_BLOCK_HEADER_SIZE;
   uintptr_t const first_block_begin = (uintptr_t) first_block;
   uintptr_t const new_first_block_size =
-    first_block_begin - new_first_block_begin;
+    first_block_begin - (size_t) new_first_block_begin;
   Heap_Block *const new_first_block = (Heap_Block *) new_first_block_begin;
 
   new_first_block->prev_size = first_block->prev_size;
@@ -75,14 +75,14 @@ static void _Heap_Merge_above(
   uintptr_t const page_size = heap->page_size;
   uintptr_t const last_block_begin = (uintptr_t) last_block;
   uintptr_t const last_block_new_size = _Heap_Align_down(
-    extend_area_end - last_block_begin - HEAP_BLOCK_HEADER_SIZE,
+    extend_area_end - (size_t) last_block_begin - HEAP_BLOCK_HEADER_SIZE,
     page_size
   );
   Heap_Block *const new_last_block =
     _Heap_Block_at( last_block, last_block_new_size );
 
   new_last_block->size_and_flag =
-    (last_block->size_and_flag - last_block_new_size)
+    (last_block->size_and_flag - (size_t) last_block_new_size)
       | HEAP_PREV_BLOCK_USED;
 
   _Heap_Block_set_size( last_block, last_block_new_size );
@@ -99,7 +99,7 @@ static void _Heap_Link_below(
   uintptr_t const link_begin = (uintptr_t) link;
 
   last_block->size_and_flag =
-    (link_begin - last_block_begin) | HEAP_PREV_BLOCK_USED;
+    (link_begin - (size_t) last_block_begin) | HEAP_PREV_BLOCK_USED;
 }
 
 static void _Heap_Link_above(
@@ -111,7 +111,7 @@ static void _Heap_Link_above(
   uintptr_t const link_begin = (uintptr_t) link;
   uintptr_t const first_block_begin = (uintptr_t) first_block;
 
-  _Heap_Block_set_size( link, first_block_begin - link_begin );
+  _Heap_Block_set_size( link, first_block_begin - (size_t) link_begin );
 
   last_block->size_and_flag |= HEAP_PREV_BLOCK_USED;
 }
@@ -135,7 +135,7 @@ uintptr_t _Heap_Extend(
   uintptr_t const page_size = heap->page_size;
   uintptr_t const min_block_size = heap->min_block_size;
   uintptr_t const extend_area_begin = (uintptr_t) extend_area_begin_ptr;
-  uintptr_t const extend_area_end = extend_area_begin + extend_area_size;
+  uintptr_t const extend_area_end = extend_area_begin + (size_t) extend_area_size;
   uintptr_t const free_size = stats->free_size;
   uintptr_t extend_first_block_size = 0;
   uintptr_t extended_size = 0;
@@ -195,7 +195,7 @@ uintptr_t _Heap_Extend(
   }
 
   extend_first_block_size =
-    (uintptr_t) extend_last_block - (uintptr_t) extend_first_block;
+    (uintptr_t) extend_last_block - (size_t) extend_first_block;
 
   extend_first_block->prev_size = extend_area_end;
   extend_first_block->size_and_flag =
@@ -237,7 +237,7 @@ uintptr_t _Heap_Extend(
 
   _Heap_Set_last_block_size( heap );
 
-  extended_size = stats->free_size - free_size;
+  extended_size = stats->free_size - (size_t) free_size;
 
   /* Statistics */
   stats->size += extended_size;

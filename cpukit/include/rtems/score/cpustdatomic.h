@@ -424,7 +424,7 @@ static inline uintptr_t _CPU_atomic_Fetch_add_uintptr( CPU_atomic_Uintptr *obj, 
   (void) order;
   _ISR_Local_disable( level );
   val = *obj;
-  *obj = val + arg;
+  *obj = val + (size_t) arg;
   _ISR_Local_enable( level );
 
   return val;
@@ -598,7 +598,7 @@ static inline uintptr_t _CPU_atomic_Fetch_or_uintptr( CPU_atomic_Uintptr *obj, u
   (void) order;
   _ISR_Local_disable( level );
   val = *obj;
-  *obj = val | arg;
+  *obj = val | (size_t) arg;
   _ISR_Local_enable( level );
 
   return val;

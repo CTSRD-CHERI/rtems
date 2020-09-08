@@ -100,8 +100,8 @@
     + _CONFIGURE_POSIX_INIT_THREAD_STACK_EXTRA \
     + _CONFIGURE_LIBBLOCK_TASKS_STACK_EXTRA \
     + CONFIGURE_EXTRA_TASK_STACKS \
-    + rtems_resource_maximum_per_allocation( _CONFIGURE_TASKS ) \
-      * _Configure_From_stackspace( CONFIGURE_MINIMUM_TASK_STACK_SIZE ) \
+    + (size_t) rtems_resource_maximum_per_allocation( _CONFIGURE_TASKS ) \
+      * (size_t) _Configure_From_stackspace( CONFIGURE_MINIMUM_TASK_STACK_SIZE ) \
     + rtems_resource_maximum_per_allocation( CONFIGURE_MAXIMUM_POSIX_THREADS ) \
       * _Configure_From_stackspace( CONFIGURE_MINIMUM_POSIX_THREAD_STACK_SIZE ) \
     + _CONFIGURE_HEAP_HANDLER_OVERHEAD )

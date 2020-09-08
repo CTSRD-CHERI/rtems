@@ -141,7 +141,7 @@ Objects_Maximum _Objects_Extend_information(
     object_blocks_size = block_count * sizeof( *object_blocks );
     local_table_size =  new_maximum * sizeof( *local_table );
     table_size = object_blocks_size
-      + local_table_size
+      + (size_t) local_table_size
       + block_count * sizeof( *inactive_per_block );
     object_blocks = _Workspace_Allocate( table_size );
     if ( object_blocks == NULL ) {
